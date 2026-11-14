@@ -400,3 +400,10 @@ button:disabled { opacity: .52; cursor: default; }
 .lesson-cues button span:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .lesson-cues button span:last-child { overflow-wrap: anywhere; }
 .lesson-cues button:disabled { opacity: .8; }
+
+.conversation-routes { margin-bottom: 1.5rem; }
+.conversation-routes .resource { margin-top: 1rem; }
+.conversation-steps { list-style: none; padding: 0; display: grid; gap: .4rem; }
+.conversation-steps li { display: grid; justify-items: start; gap: .35rem; }
+.conversation-steps button[aria-current="step"] { border: 2px solid currentColor; }
+.conversation-arrow { margin-left: 1rem; font-size: 1.2rem; }

@@ -81,6 +81,7 @@ export interface Study {
   topics: Topic[];
   resources: Resource[];
   results: Record<string, PracticeResult>;
+  conversationRoutes?: import('./conversation-route').ConversationRoute[];
   topicPackageMaterials?: Record<string, { id: string; content: string }[]>;
   materialArchives?: { id: string; topicId?: string; at: number; entries: Resource[] }[];
   ankiImports?: Record<string, AnkiImportReport>;

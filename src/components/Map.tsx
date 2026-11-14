@@ -1,3 +1,4 @@
+import { ConversationRoutes } from './ConversationRoutes';
 import { useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useWorkspace } from '../context';
@@ -150,10 +151,12 @@ export function MapPage() {
   }
 
   return <><Heading title="Карта разговорных тем" />
+    <ConversationRoutes key={study.language} />
+    <Fold title="Словарь и отдельные темы">
     <div className="map-layout">
       <section className="map-workspace">
         {topic ? <>
-          <Fold title="Сеть моих тем" open>
+          <Fold title="Сеть отдельных тем">
             <TopicCanvas key={study.language} topics={active.topics} selected={topic.id} />
           </Fold>
           <label className="compact-field">Тема <select value={topic.id} onChange={event => {
@@ -185,5 +188,6 @@ export function MapPage() {
         }} />}
       </details>
     </div>
+    </Fold>
   </>;
 }
