@@ -12,7 +12,6 @@ import { AnkiHistory } from './AnkiHistory';
 import { WordExamples, WordExamplesList } from './WordExamples';
 
 import { GlossaryText } from './Glossary';
-import { englishLessons, levels } from '../domain/starter-materials';
 
 function comparable(answer: string, language: string) {
   return normalize(answer.replace(/[’‘]/gu, "'"), language).replace(/^[¡¿]+|[.!?。！？]+$/gu, '').replace(/\s+/gu, ' ');
@@ -51,8 +50,7 @@ function PracticeCard({ item, next, mode, options, score }: {
     return active.words.filter(word => ids.has(word.id));
   }, [active.words, topic]);
   const glossary = useMemo(() => {
-    const lesson = item.language === 'en' ? levels.find(level => englishLessons[level].resource.id === item.id) : undefined;
-    const hints = new Map(lesson ? englishLessons[lesson].glossary : undefined);
+    const hints = new Map<string, string>();
     for (const word of active.words) if (word.meaning) {
       const key = normalize(word.title, item.language);
       if (!hints.has(key)) hints.set(key, word.meaning);

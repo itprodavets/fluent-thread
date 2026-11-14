@@ -2,147 +2,89 @@ import type { Resource } from './model';
 
 export const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
 export type Level = typeof levels[number];
+type Pair = [string, string];
+type Scene = { id: string; title: string; source: string; task: string; versions: Record<Level, Pair[]> };
 
-type Lesson = {
-  resource: Resource;
-  glossary: ReadonlyMap<string, string>;
-  questions: [string, string][];
+const scenes: Scene[] = [
+  { id: 'introduction', title: 'Meeting a Classmate', source: 'Урок 01:01, 12:39–13:22. Ты рассказал, откуда родом, где живёшь, на каких языках говоришь и что у тебя есть чайное сообщество.',
+    task: 'Познакомься с участником урока. Расскажи о себе и подхвати одну деталь из его ответа встречным вопросом.',
+    versions: {
+      A1: [['Where are you from?', 'I’m from Russia.'], ['Do you live there now?', 'No, I live in Guangzhou, China.'], ['What languages do you speak?', 'I speak Russian, Chinese and English.'], ['What do you like?', 'I like tea. I’m part of a tea group.']],
+      A2: [['Where are you joining us from today?', 'I’m joining from Guangzhou, but I’m from Russia.'], ['Do you speak Chinese there?', 'Yes, I do. I speak Russian and English, too.'], ['You mentioned tea. What do you do?', 'I’m part of a large group of people who like tea.'], ['Could you tell me more after class?', 'Of course. Let’s talk during the break.']],
+      B1: [['I don’t think we’ve met. Where are you based?', 'I’m based in Guangzhou now, although I’m originally from Russia.'], ['Which languages do you speak?', 'I speak Russian, Chinese and English. What about you?'], ['I’m learning Chinese. You mentioned a tea community. What’s it about?', 'It brings together people who share an interest in tea.'], ['I’d love to hear more. Shall we talk during the break?', 'Absolutely. I’d like to hear what sparked your interest in Chinese, too.']],
+      B2: [['When you say you’re from Russia, is that where you live now?', 'I’m originally from Russia, but I’m currently based in Guangzhou, China.'], ['Does that mean you speak both Russian and Chinese?', 'Yes, and English as well.'], ['You also mentioned a tea community. How would you describe it to someone new?', 'It’s a large community of tea enthusiasts. What brings us together is our interest in tea.'], ['Could we pick that up later? The lesson’s about to start.', 'Of course. I’d be happy to tell you more during the break.']],
+      C1: [['I heard you say Russia and China. Have I got that right?', 'Yes. I’m originally from Russia, and Guangzhou is where I live now.'], ['Which languages would you say you speak?', 'Russian, Chinese and English. I live in Guangzhou, so Chinese is part of my daily life.'], ['And what did you mean by a tea community?', 'A fairly large group united by an interest in tea. We’re all interested in tea, and that gives us something to talk about.'], ['That gives me a clearer picture. Can we pick up the conversation later?', 'Certainly. I’d be interested to hear how you got into tea, too.']],
+      C2: [['If you had half a minute to introduce yourself to this group, what would you lead with?', 'I’d say I’m originally from Russia and now based in Guangzhou. I speak Russian, Chinese and English, and I’m part of a large community of tea enthusiasts.'], ['Would you describe yourself primarily through the languages you speak?', 'I’d mention them as context. Tea gives us something concrete to talk about once the introductions are out of the way.'], ['What might someone misunderstand about the word “community”?', 'It can sound like a formal organisation. What I mean here is a group of people drawn together by a shared interest.'], ['That’s clear. Do you mind if I ask about tea after the lesson?', 'Please do. I’d much rather pick up a real conversation than leave it at a formal introduction.']]
+    }},
+  { id: 'restaurant', title: 'Choosing a Restaurant', source: 'Урок 17:17, около 10:35–12:56 и 40:45. Ты выбрал ресторан у воды по первому впечатлению, поставил качество еды на первое место и упомянул пельмени с говядиной и трюфелем.',
+    task: 'Договорись с другом, где поужинать. Сначала объясни свой выбор, затем спроси, что важно для него, и предложи решение.',
+    versions: {
+      A1: [['Which restaurant do you like?', 'I like the one by the water.'], ['Is the view important to you?', 'Yes, but good food is more important.'], ['What do you like to eat?', 'I like beef and truffle dumplings.'], ['Can we check the menu before choosing?', 'Yes, let’s look.']],
+      A2: [['Where shall we eat tonight?', 'I’d like to try the restaurant by the water. It looks nice.'], ['Would you go there just for the view?', 'No. Good food is the most important thing for me.'], ['What would you order?', 'I often have beef and truffle dumplings. Do they have them?'], ['Let’s check the menu before we decide.', 'Good idea. What would you like to eat?']],
+      B1: [['Which place makes the best first impression?', 'Based on my first impression, I’d choose the restaurant by the water.'], ['Does the location matter more than the food?', 'No. Food quality is my top priority, but being near the water is a bonus.'], ['What do you usually order when you eat out?', 'I often have beef and truffle dumplings. What about you?'], ['I’d rather have something lighter. Can we check the menu?', 'Sure. Let’s make sure there’s something we both want.']],
+      B2: [['You picked the place by the water straight away. What caught your eye?', 'The setting made a good first impression. That’s where I’d start, though food quality would decide it for me.'], ['Would you choose differently if we went with family?', 'I’d still care about the food, but I’d check what everyone wanted before choosing.'], ['Is there a dish you’d look for?', 'I often order beef and truffle dumplings, but I wouldn’t choose the whole restaurant on that basis.'], ['So shall we compare the menus before we book?', 'Yes. If the food looks equally good, I’d go with the place by the water.']],
+      C1: [['You’ve mentioned first impressions and food quality. How do they fit together?', 'The waterfront setting is what draws me in. The quality of the food is what would make me choose it over another place.'], ['What if the setting is lovely but the menu looks ordinary?', 'Then I’d probably look elsewhere. A nice view adds to the evening, but I wouldn’t make it the deciding factor.'], ['Does that change when you’re deciding for a group?', 'I’d ask what everyone feels like eating. I often go for beef and truffle dumplings, but that’s my preference.'], ['Let’s give everyone two options, then.', 'Agreed. We can compare the menus first and keep the waterfront place on the shortlist.']],
+      C2: [['Would you say the waterfront restaurant is the better choice, or simply the more appealing one at first glance?', 'At first glance, it’s the more appealing one. Calling it the better choice would depend on whether the food lives up to the setting.'], ['Could the setting actually be part of what makes the food experience better?', 'Certainly. I’m happy to count the setting as part of the experience. I’d still give food quality the greatest weight.'], ['How would you avoid imposing your preferences when choosing for friends?', 'I’d ask what they’re in the mood for. My fondness for beef and truffle dumplings is a starting point for discussion, not a reason to pick for everyone.'], ['Where does that leave us tonight?', 'Let’s agree on a shortlist from the menus. If two places are equally promising, I’d suggest the one by the water.']]
+    }},
+  { id: 'walk', title: 'An Evening Walk', source: 'Урок 20:30, примерно 1:04:17–1:06:31. Ты рассказал про регулярные прогулки, спокойный темп и дистанцию около 7–10 км, а также упомянул друзей и кофе.',
+    task: 'Пригласи собеседника на прогулку. Объясни свой обычный темп и договорись, где встретиться и когда остановиться на кофе.',
+    versions: {
+      A1: [['What do you do in the evenings?', 'I go for a walk.'], ['Do you walk fast?', 'No, I walk slowly. It helps me relax.'], ['Do you walk far?', 'Yes, sometimes about ten kilometres.'], ['Can I come with you?', 'Yes. We can stop for coffee.']],
+      A2: [['How do you relax in the evening?', 'I usually go for a walk.'], ['How far do you usually go?', 'Around seven to ten kilometres.'], ['Is it a fast walk?', 'No, I take it easy. I sometimes meet friends for coffee afterwards.'], ['Could we go for a shorter walk together?', 'Sure. Let’s walk for a while and then get coffee.']],
+      B1: [['What’s your usual way to unwind after work?', 'I go for a walk in the evening. I sometimes cover about ten kilometres.'], ['Do you walk that far for exercise?', 'I walk at a relaxed pace. The main thing for me is to unwind.'], ['What if a friend wants to join but doesn’t want to walk that far?', 'We can do a shorter stretch and stop for coffee.'], ['That sounds good. How about tomorrow evening?', 'Tomorrow works. Shall we meet by the park?']],
+      B2: [['You said you walk around ten kilometres. How much time do you set aside?', 'I can spend around two hours walking, though the distance varies. Seven kilometres is fine, too.'], ['Do you keep a particular pace?', 'I take it at an easy pace. It’s a way to switch off in the evening.'], ['Could we fit in a walk and still have time to catch up?', 'Yes. We could take a shorter route and stop at a café to talk.'], ['Shall we meet at the park and see how we feel?', 'That works. We can decide how far to go once we’re there.']],
+      C1: [['Ten kilometres sounds like a workout. Is that how you think about it?', 'I see it mainly as a way to unwind. I’m happy walking seven kilometres or ten, and I don’t push the pace.'], ['Would inviting someone along change the experience?', 'A little. I’d choose a distance that suits us both, and we could stop for coffee if we want to catch up.'], ['So you’d be comfortable changing your usual route?', 'Of course. If we’re going out to talk, there’s no reason to insist on a long walk.'], ['Then let’s start at the park and decide as we go.', 'Sounds good. We can stop at a café whenever we feel like it.']],
+      C2: [['You describe a two-hour walk as relaxing. Is it the distance, the routine, or the chance to switch off?', 'The chance to switch off matters most. I may walk seven to ten kilometres, but I’m going at a pace that feels comfortable.'], ['Does it still serve that purpose if you turn it into a social occasion?', 'It can. Walking alone and catching up with friends are different ways to unwind. A walk can lead naturally to coffee and a conversation.'], ['How would you plan it for someone who has less time or stamina?', 'I’d suggest a short stretch and leave the rest open. That gives us room to talk without making the distance a condition of joining.'], ['So what would you suggest for tomorrow?', 'Meet by the park, take a short walk and decide together whether to carry on or stop for coffee.']]
+    }}
+];
+
+const followUps: Record<string, Pair[]> = {
+  introduction: [
+    ['Where is Denis originally from?', 'Russia.'], ['Where does he live now?', 'Guangzhou, China.'], ['Which three languages does he mention?', 'Russian, Chinese and English.'], ['What shared interest brings the community together?', 'An interest in tea.']
+  ],
+  restaurant: [
+    ['Which setting appeals to Denis?', 'A restaurant by the water.'], ['What matters more to him than the view?', 'The quality of the food.'], ['Which dish does he mention?', 'Beef and truffle dumplings.'], ['What can they check before deciding?', 'The menu.']
+  ],
+  walk: [
+    ['What activity does Denis describe?', 'Going for an evening walk.'], ['Does he prefer an easy pace or a fast pace?', 'An easy pace.'], ['What distance does he mention?', 'About ten kilometres at A1 and B1; around seven to ten kilometres, or those two distances, at the other levels.'], ['What can they do after walking for a while?', 'Stop for coffee.']
+  ]
 };
 
-function lesson(level: Level, title: string, turns: string[], translation: string[], prompt: string,
-  words: [string, string][], questions: [string, string][]): Lesson {
-  return {
-    resource: {
-      id: 'starter:en:' + level, title, text: turns.join('\n'), translation: translation.join('\n'),
-      prompt, kind: 'dialogue', language: 'en', url: '', answer: ''
-    },
-    glossary: new Map(words),
-    questions
+const languageNotes: Record<string, Pair[]> = {
+  introduction: [
+    ['I live in Guangzhou, China.', 'Я живу в Гуанчжоу, Китай. Сначала город, потом страна.'],
+    ['I speak Russian, Chinese and English.', 'Я говорю по-русски, по-китайски и по-английски. Достаточно одного I speak.'],
+    ['A community of tea enthusiasts', 'Сообщество любителей чая. Of связывает сообщество с его участниками.']
+  ],
+  restaurant: [
+    ['Based on my first impression, I’d choose the restaurant by the water.', 'Судя по первому впечатлению, я бы выбрал ресторан у воды.'],
+    ['Food quality is my top priority.', 'Для меня на первом месте качество еды.'],
+    ['I often have beef and truffle dumplings.', 'Я часто ем пельмени с говядиной и трюфелем. Для привычки используй I often have.']
+  ],
+  walk: [
+    ['I go for a walk in the evening.', 'По вечерам я выхожу на прогулку. Go for a walk — идти гулять.'],
+    ['I walk at a relaxed pace.', 'Я гуляю в спокойном темпе. Walk — идти пешком, work — работать.'],
+    ['I walk around seven to ten kilometres.', 'Я прохожу примерно семь–десять километров.']
+  ]
+};
+
+export const starterScenes = scenes.map(({ id, title }) => ({ id, title }));
+
+export const starterLessons = scenes.flatMap(scene => levels.map(level => {
+  const turns = scene.versions[level];
+  const resource: Resource = {
+    id: 'starter:en:' + scene.id + ':' + level, language: 'en', title: scene.title + ' · ' + level,
+    kind: 'dialogue', text: turns.map(([question, answer]) => 'Partner: ' + question + '\nDenis: ' + answer).join('\n\n'),
+    prompt: scene.task, answer: '', url: ''
   };
+  const questions = followUps[scene.id].map(([question, answer]): Pair => [
+    question, scene.id === 'walk' && question.startsWith('What distance')
+      ? (level === 'A1' || level === 'B1' ? 'About ten kilometres.' : 'Around seven to ten kilometres.')
+      : answer
+  ]);
+  return { sceneId: scene.id, level, resource, source: scene.source, questions, notes: languageNotes[scene.id] };
+}));
+
+export function isStarterResource(id: string) {
+  return /^starter:en:(?:(?:introduction|restaurant|walk):)?(?:A1|A2|B1|B2|C1|C2)$/.test(id);
 }
-
-export const englishLessons: Record<Level, Lesson> = {
-  A1: lesson('A1', 'Before English Class', [
-    'Maya: Hi! I’m Maya. Are you new here?',
-    'Alex: Yes, I am. I’m Alex. Nice to meet you.',
-    'Maya: Nice to meet you, too. Where do you live?',
-    'Alex: I live in Guangzhou. How about you?',
-    'Maya: I live in London. Do you like Guangzhou?',
-    'Alex: Yes. I like the food there.',
-    'Maya: Oh, the teacher’s here. See you after class!',
-    'Alex: See you!'
-  ], [
-    'Майя: Привет! Я Майя. Ты здесь впервые?',
-    'Алекс: Да. Я Алекс. Приятно познакомиться.',
-    'Майя: Мне тоже. Где ты живёшь?',
-    'Алекс: В Гуанчжоу. А ты?',
-    'Майя: В Лондоне. Тебе нравится Гуанчжоу?',
-    'Алекс: Да. Мне нравится местная еда.',
-    'Майя: О, преподаватель уже здесь. До встречи после урока!',
-    'Алекс: До встречи!'
-  ], 'Сыграй Алекса. Назови свой город, задай встречный вопрос и скажи, что тебе нравится в твоём городе.',
-  [['nice to meet you', 'приятно познакомиться'], ['how about you', 'а ты?'], ['see you', 'до встречи']],
-  [['Where does Alex live?', 'Alex lives in Guangzhou.'], ['Why do they stop talking?', 'The teacher has arrived.']]),
-
-  A2: lesson('A2', 'Choosing a Place for Dinner', [
-    'Maya: Shall we eat out tonight? There’s a restaurant by the river.',
-    'Alex: That sounds nice. Is it expensive?',
-    'Maya: A little. There’s also a small dumpling place near the station.',
-    'Alex: Do they have anything without meat? Sam’s coming with us.',
-    'Maya: Yes, they have mushroom dumplings. I tried them last week.',
-    'Alex: Let’s go there, then. Shall I book a table for seven?',
-    'Maya: Please do. I’ll let Sam know.'
-  ], [
-    'Майя: Поужинаем сегодня вне дома? У реки есть ресторан.',
-    'Алекс: Звучит хорошо. Там дорого?',
-    'Майя: Немного. Ещё есть маленькая пельменная у станции.',
-    'Алекс: Там есть что-нибудь без мяса? Сэм идёт с нами.',
-    'Майя: Да, есть пельмени с грибами. Я пробовала их на прошлой неделе.',
-    'Алекс: Тогда пойдём туда. Заказать столик на семь?',
-    'Майя: Да, пожалуйста. Я сообщу Сэму.'
-  ], 'Сыграй Алекса. Сначала выбери место у реки. Узнав о потребностях друга, уточни меню и договорись о времени.',
-  [['eat out', 'есть вне дома'], ['without meat', 'без мяса'], ['book a table', 'заказать столик']],
-  [['Why does Alex ask about the menu?', 'Sam is coming, and Alex wants to make sure there is something without meat.'], ['What will Maya do?', 'She’ll let Sam know.']]),
-
-  B1: lesson('B1', 'Getting Used to Early Classes', [
-    'Maya: You look wide awake today. Have you always been a morning person?',
-    'Alex: Not at all. I used to go to bed after midnight.',
-    'Maya: What changed?',
-    'Alex: I signed up for an early class. I’m used to getting up early now, but I still find it hard to go to bed earlier.',
-    'Maya: What helped you get used to the new schedule?',
-    'Alex: I stopped checking my phone in bed. And I still have a lie-in on Sundays.',
-    'Maya: That sounds manageable. I might try it for a week.'
-  ], [
-    'Майя: Ты сегодня совсем не сонный. Всегда был жаворонком?',
-    'Алекс: Вовсе нет. Раньше я ложился после полуночи.',
-    'Майя: Что изменилось?',
-    'Алекс: Я записался на утренний урок. Вставать рано уже привычно, но ложиться раньше всё ещё трудно.',
-    'Майя: Что помогло тебе привыкнуть к новому расписанию?',
-    'Алекс: Перестал смотреть в телефон в кровати. А по воскресеньям всё ещё сплю подольше.',
-    'Майя: Звучит вполне посильно. Попробую так неделю.'
-  ], 'Расскажи Майе про свою привычку: что делал раньше, к чему уже привык и что пока трудно.',
-  [['used to', 'раньше делал'], ['get used to', 'привыкнуть'], ['have a lie-in', 'поспать подольше']],
-  [['What prompted Alex to change his routine?', 'He signed up for an early class.'], ['What is Alex still finding difficult?', 'Going to bed earlier.']]),
-
-  B2: lesson('B2', 'Checking the Task in a Group Lesson', [
-    'Teacher: Read the two opinions on your own. Then compare your notes and pick one argument to present.',
-    'Alex: Sorry, could I check something? Are we meant to agree on a position?',
-    'Teacher: You can disagree. Just make sure you can explain why you chose your argument.',
-    'Maya: In that case, I’d focus on the people who live in the city centre.',
-    'Alex: Can I just add something? We should also think about shops that need deliveries.',
-    'Maya: Good point. Should we present both concerns and suggest a compromise?',
-    'Teacher: Yes. You have a few minutes to work out what you’ll say.'
-  ], [
-    'Преподаватель: Прочитайте два мнения самостоятельно. Затем сравните заметки и выберите аргумент для выступления.',
-    'Алекс: Простите, можно уточнить? Нам нужно прийти к общей позиции?',
-    'Преподаватель: Можете не соглашаться. Главное — объяснить, почему выбрали свой аргумент.',
-    'Майя: Тогда я бы сосредоточилась на жителях центра.',
-    'Алекс: Можно добавить? Надо также подумать о магазинах, которым нужны поставки.',
-    'Майя: Хорошее замечание. Представим обе проблемы и предложим компромисс?',
-    'Преподаватель: Да. У вас есть несколько минут, чтобы продумать выступление.'
-  ], 'Сыграй Алекса. Своими словами уточни порядок задания, затем подхвати мысль Майи и предложи решение.',
-  [['on your own', 'самостоятельно'], ['are we meant to', 'мы должны?'], ['work out', 'продумать']],
-  [['What should students do before comparing notes?', 'Read the two opinions on their own.'], ['Do they have to agree?', 'No. They need to explain the argument they choose.']]),
-
-  C1: lesson('C1', 'Making a Pedestrian Zone Work', [
-    'Maya: I’d make the high street car-free. The traffic puts people off going there.',
-    'Alex: I can see the appeal, but how would the smaller shops handle deliveries?',
-    'Maya: We could allow vans in before nine. That would still leave most of the day clear.',
-    'Alex: That might suit cafés, but some businesses can’t dictate when suppliers turn up.',
-    'Maya: Then let’s test it on one block and offer exceptions where there’s a genuine need.',
-    'Alex: I could support that, provided we ask residents and traders what changed for them.',
-    'Maya: Agreed. We’ll propose a trial with a review after a month.'
-  ], [
-    'Майя: Я бы сделала главную улицу пешеходной. Из-за движения люди неохотно туда ходят.',
-    'Алекс: Понимаю, чем это привлекательно, но как небольшие магазины получат поставки?',
-    'Майя: Можно пускать фургоны до девяти. Большую часть дня улица всё равно будет свободной.',
-    'Алекс: Кафе это может подойти, но некоторые магазины не могут диктовать поставщикам время.',
-    'Майя: Тогда испытаем это на одном квартале и разрешим исключения при реальной необходимости.',
-    'Алекс: Я могу поддержать это при условии, что мы спросим жителей и торговцев, что для них изменилось.',
-    'Майя: Согласна. Предложим пробный период и подведём итоги через месяц.'
-  ], 'Выбери одну роль. Признай сильный аргумент собеседника, назови ограничение его предложения и договорись об условиях пробного периода.',
-  [['puts people off', 'отбивает у людей желание'], ['turn up', 'появляться, приезжать'], ['provided', 'при условии']],
-  [['Why does Alex challenge the delivery window?', 'Some businesses cannot control when suppliers arrive.'], ['What makes the final proposal acceptable to Alex?', 'A limited trial and feedback from residents and traders.']]),
-
-  C2: lesson('C2', 'Who Benefits from the Trial?', [
-    'Maya: Footfall rose after the street closed to cars. I’d say the trial worked.',
-    'Alex: It’s encouraging, but footfall alone may conceal who stopped coming.',
-    'Maya: Fair point. Are you suggesting we discount the increase?',
-    'Alex: I’d treat it as one piece of evidence. If people with limited mobility now have to make a long detour, the overall gain tells only part of the story.',
-    'Maya: We could ask at the next public meeting, although that might draw the people who already find it easy to get here.',
-    'Alex: Precisely. Let’s speak to those who rarely come in person and compare their accounts with the figures.',
-    'Maya: Then we can defend keeping the scheme if we also address the barriers it introduced.',
-    'Alex: Yes. Let’s write that condition into the recommendation.'
-  ], [
-    'Майя: После закрытия улицы для машин поток людей вырос. Я бы сказала, эксперимент удался.',
-    'Алекс: Это обнадёживает, но по одному потоку не видно, кто перестал приходить.',
-    'Майя: Справедливо. Предлагаешь не учитывать рост?',
-    'Алекс: Я бы считал его одним из показателей. Если маломобильным людям теперь приходится идти в обход, общий рост показывает лишь часть картины.',
-    'Майя: Можно спросить на следующем собрании, хотя туда скорее придут те, кому и так легко добраться.',
-    'Алекс: Именно. Поговорим с теми, кто редко приходит лично, и сопоставим их рассказы с цифрами.',
-    'Майя: Тогда мы сможем обосновать сохранение проекта, если устраним препятствия, которые он создал.',
-    'Алекс: Да. Внесём это условие в рекомендацию.'
-  ], 'Сыграй Майю. Начни с сильного аргумента в пользу проекта, затем уточни, какие данные изменят твоё решение. Согласуй условие, при котором проект стоит сохранить.',
-  [['footfall', 'поток посетителей'], ['one piece of evidence', 'один из источников данных'], ['tells only part of the story', 'показывает лишь часть картины']],
-  [['Why might a public meeting give a skewed picture?', 'It may mainly attract people who can already reach the area easily.'], ['What do they agree to include in the recommendation?', 'A commitment to address barriers introduced by the scheme if it is kept.']])
-};

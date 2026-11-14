@@ -1,3 +1,4 @@
+import { isStarterResource } from '../domain/starter-materials';
 import { LessonAudio } from './LessonAudio';
 import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useMemo, useRef, useState } from 'react';
@@ -208,7 +209,7 @@ export function Materials() {
   const [filter, setFilter] = useState('');
   const [deleting, setDeleting] = useState<Resource>();
   const [busy, setBusy] = useState(false);
-  const materials = active.resources.filter(resource => !/^starter:en:(A1|A2|B1|B2|C1|C2)$/.test(resource.id));
+  const materials = active.resources.filter(resource => !isStarterResource(resource.id));
   function show(value: NonNullable<typeof panel>) {
     setPanel(value);
     if (!dialog.current?.open) dialog.current?.showModal();
