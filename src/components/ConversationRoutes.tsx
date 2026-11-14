@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { useWorkspace } from '../context';
-import { Fold, SourceText } from './common';
+import { Fold, SourceText, copyText } from './common';
 
+import { conversationRoutePrompt, parseConversationRoute } from '../domain/conversation-route';
 import type { ConversationRoute, ConversationStep } from '../domain/conversation-route';
 
 const example: ConversationRoute = {
@@ -22,6 +23,9 @@ export function ConversationRoutes() {
   const route = options.find(r => r.id === id);
   const [stepId, selectStep] = useState('');
   const [draft, edit] = useState<ConversationRoute>();
+  const [situation, setSituation] = useState('');
+  const [json, setJson] = useState('');
+  const [command, setCommand] = useState('');
   const [busy, setBusy] = useState(false);
   const step = route?.steps.find(s => s.id === stepId) ?? route?.steps[0];
   function newRoute() { edit({ id: crypto.randomUUID(), language: study.language, title: '', steps: [blankStep()] }); }
@@ -49,6 +53,20 @@ export function ConversationRoutes() {
       <button type="button" onClick={newRoute}>Новый маршрут</button>
       {route && <button type="button" onClick={() => edit(route.id === example.id ? { ...route, id: crypto.randomUUID() } : route)}>{route.id === example.id ? 'Взять пример за основу' : 'Редактировать маршрут'}</button>}
     </div>
+    <Fold title="Составить маршрут по ситуации">
+      <label>Что произошло или какой разговор хочешь разобрать<textarea rows={4} maxLength={24000} value={situation} onChange={event => { setSituation(event.target.value); setCommand(''); }} /></label>
+      <button type="button" disabled={!situation.trim()} onClick={() => {
+        const prompt = conversationRoutePrompt(situation.trim(), study.language);
+        setCommand(prompt);
+        void copyText(prompt, notify);
+      }}>Скопировать запрос для ИИ</button>
+      {command && <label>Запрос<textarea readOnly rows={4} value={command} /></label>}
+      <label>Ответ чата в JSON<textarea rows={4} maxLength={400000} value={json} onChange={event => setJson(event.target.value)} /></label>
+      <button type="button" disabled={!json.trim() || !!draft} onClick={() => {
+        try { edit(parseConversationRoute(json, study.language)); }
+        catch (error) { notify(error instanceof SyntaxError ? 'Вставь JSON из ответа целиком.' : (error as Error).message); }
+      }}>Проверить события и диалоги</button>
+    </Fold>
     {draft ? <form className="resource" onSubmit={e => { e.preventDefault(); void save(); }}>
       <label>Название маршрута<input required maxLength={120} value={draft.title} onChange={e => edit({ ...draft, title: e.target.value })} /></label>
       {draft.steps.map((s, index) => <fieldset key={s.id}>
