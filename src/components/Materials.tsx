@@ -1,3 +1,5 @@
+import { LessonAudio } from './LessonAudio';
+import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useWorkspace } from '../context';
@@ -119,6 +121,7 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
     setBusy(true);
     try {
       const packet = parseChatPackage(file.size ? await file.text() : pasted);
+      if (packet.language === 'en') packet.topic.title = lessonTopicTitle(packet.topic.title);
       let result: ReturnType<typeof applyChatPackage> | undefined;
       const saved = await update(current => {
         if (current.language !== study.language) throw new Error('Активный язык изменился. Открой форму ещё раз.');
@@ -149,6 +152,16 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
   </Fold>;
 }
 
+function MaterialText({ resource }: { resource: Resource }) {
+  const [open, setOpen] = useState(false);
+  const cues = lessonCues(resource.text);
+  if (!cues.length) return <SourceText text={resource.text} language={resource.language} />;
+  return <details onToggle={event => setOpen(event.currentTarget.open)}>
+    <summary>Оригинальная запись · {cues.length} реплик</summary>
+    {open && <LessonAudio cues={cues} lesson={resource.text.match(/^Recording: (lesson-[123])$/m)?.[1] ?? resource.topicId ?? resource.id} language={resource.language} />}
+  </details>;
+}
+
 export function Materials() {
   const { active, resourceId, practice } = useWorkspace();
   const [editing, setEditing] = useState<Resource>();
@@ -175,7 +188,7 @@ export function Materials() {
           <h2>{resource.title}</h2>
           <SourceLink url={resource.url} />
           {resource.text && <Fold title={resource.kind === 'exercise' ? 'Читать условие' : 'Открыть текст'} open={resource.id === opened || undefined}>
-            <SourceText text={resource.text} language={resource.language} />
+            <MaterialText resource={resource} />
             {resource.translation && <Fold title="Перевод на русский"><p className="source-text" lang="ru">{resource.translation}</p></Fold>}
           </Fold>}
           {resource.story && <><StoryVersions story={resource.story} language={resource.language} /><Fold title="Первая голосовая попытка"><Recording itemId={resource.id} language={resource.language} readOnly /></Fold></>}

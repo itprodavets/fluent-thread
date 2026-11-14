@@ -1,5 +1,13 @@
+import { lessonTopicTitle } from './lesson-cues';
 import type { Study } from './model';
 import { upgradeStarterTopics } from './starter-topics';
+
+function upgradeLessonTitles(study: Study): Study {
+  return { ...study, topics: study.topics.map(topic => {
+    const title = topic.language === 'en' ? lessonTopicTitle(topic.title) : topic.title;
+    return title === topic.title ? topic : { ...topic, title };
+  }) };
+}
 
 const key = 'nit-rechi-v1';
 const marker = 'indexeddb';
@@ -34,10 +42,10 @@ export async function readStudy(): Promise<Study> {
   });
   if (fromDatabase) {
     migrated = true;
-    return upgradeStarterTopics({ ...fromDatabase, resources: fromDatabase.resources ?? [] });
+    return upgradeLessonTitles(upgradeStarterTopics({ ...fromDatabase, resources: fromDatabase.resources ?? [] }));
   }
   if (saved === marker) throw new Error('Missing vocabulary in IndexedDB');
-  if (saved) return upgradeStarterTopics({ resources: [], ...JSON.parse(saved) });
+  if (saved) return upgradeLessonTitles(upgradeStarterTopics({ resources: [], ...JSON.parse(saved) }));
   return { language: 'en', languages: { en: {} }, words: [], topics: [], resources: [], results: {} };
 }
 
