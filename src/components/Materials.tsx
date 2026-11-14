@@ -3,7 +3,7 @@ import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useWorkspace } from '../context';
-import { applyChatPackage, buildChatPrompt, parseChatPackage, safeSourceUrl } from '../domain/chat-package.js';
+import { applyChatPackage, archiveMaterial, approveTopicMaterials, replaceTopicPackage, restoreMaterialArchive, topicImportPreview, buildChatPrompt, parseChatPackage, safeSourceUrl } from '../domain/chat-package.js';
 import { languageCodes, LanguageLabel } from './Language';
 import { suggestMaterialLanguage } from '../domain/language-detection';
 import { kinds, languageName, selectLanguage, upsert } from '../domain/model';
@@ -103,6 +103,23 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
   const [command, setCommand] = useState('');
   const [busy, setBusy] = useState(false);
   const selected = target ?? source?.topicId ?? '';
+  const [mode, setMode] = useState('append');
+  const [preview, setPreview] = useState<{ packet: ReturnType<typeof parseChatPackage>; topicId: string; approved: ReturnType<typeof approveTopicMaterials>; rows: ReturnType<typeof topicImportPreview> }>();
+  const [checked, setChecked] = useState<string[]>([]);
+  async function replace() {
+    if (!preview || busy) return;
+    setBusy(true);
+    try {
+      let archived = 0;
+      const saved = await update(current => {
+        const result = replaceTopicPackage(current, preview.packet, preview.topicId, preview.approved.filter(entry => checked.includes(entry.id)));
+        archived = result.archived;
+        return result.next;
+      });
+      if (saved) { setPreview(undefined); notify(`Тема обновлена. В архиве: ${archived}.`); openTopic(preview.topicId); }
+    } catch (error) { notify(error instanceof Error ? error.message : 'Не удалось обновить тему.'); }
+    finally { setBusy(false); }
+  }
   function prepare() {
     const topic = active.topics.find(entry => entry.id === selected);
     const content = source && { title: source.title, ...(source.text ? { text: source.text } : {}), ...(source.url ? { url: source.url } : {}) };
@@ -122,6 +139,14 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
     try {
       const packet = parseChatPackage(file.size ? await file.text() : pasted);
       if (packet.language === 'en') packet.topic.title = lessonTopicTitle(packet.topic.title);
+      if (mode === 'replace') {
+        const topic = study.topics.find(t => t.id === selected && t.language === packet.language);
+        if (!topic) throw new Error('Выбери существующую тему на языке пакета.');
+        const rows = topicImportPreview(study, topic.id);
+        setChecked(rows.filter(row => row.selected).map(row => row.id));
+        setPreview({ packet, topicId: topic.id, rows, approved: approveTopicMaterials(study, topic.id, rows.map(row => row.id)) });
+        return;
+      }
       let result: ReturnType<typeof applyChatPackage> | undefined;
       const saved = await update(current => {
         if (current.language !== study.language) throw new Error('Активный язык изменился. Открой форму ещё раз.');
@@ -139,7 +164,7 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
     finally { setBusy(false); }
   }
   return <Fold title="Из чата с ИИ" open={source ? true : undefined}>
-    <form onSubmit={submit}>
+    <form onSubmit={submit} hidden={!!preview}>
       <p className="sub">Обсуди материал в своём чате. Попроси выгрузить итоги в JSON и загрузи файл сюда.</p>
       {source && <div className="actions"><span>{source.title}</span><button type="button" onClick={() => { setSource(undefined); setCommand(''); }}>Убрать материал</button></div>}
       <label>Куда добавить <TopicSelect value={selected} change={setTarget} fallback="Тема из файла" /></label>
@@ -147,8 +172,18 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
       {command && <label>Команда для чата <textarea readOnly value={command} rows={6} /></label>}
       <label>Файл из чата <input type="file" name="file" accept=".json,application/json" /></label>
       <label>Или вставь JSON <textarea name="json" rows={4} maxLength={1000000} /></label>
-      <button type="submit" className="primary" disabled={busy}>Добавить в тему</button>
+      <label>Режим импорта<select value={mode} onChange={event => setMode(event.target.value)}>
+        <option value="append">Добавить материалы</option><option value="replace">Обновить материалы темы</option>
+      </select></label>
+      <button type="submit" className="primary" disabled={busy}>{mode === 'replace' ? 'Предпросмотр замены' : 'Добавить в тему'}</button>
     </form>
+    {preview && <section aria-label="Предпросмотр замены">
+      <h3>{study.topics.find(t => t.id === preview.topicId)?.title}</h3>
+      <p>В пакете материалов: {preview.packet.materials.length}. Отметь старые версии для архива. Точные совпадения останутся в теме.</p>
+      <div className="actions"><button type="button" onClick={() => setChecked(preview.rows.map(row => row.id))}>Отметить все</button><button type="button" onClick={() => setChecked([])}>Снять отметки</button></div>
+      {preview.rows.map(row => <label className="choice" key={row.id}><input type="checkbox" checked={checked.includes(row.id)} onChange={event => setChecked(event.target.checked ? [...checked, row.id] : checked.filter(id => id !== row.id))} />{row.title}</label>)}
+      <div className="actions"><button type="button" className="primary" disabled={busy} onClick={() => void replace()}>Обновить тему · выбрано {checked.length}</button><button type="button" onClick={() => setPreview(undefined)}>Отмена</button></div>
+    </section>}
   </Fold>;
 }
 
@@ -163,7 +198,7 @@ function MaterialText({ resource }: { resource: Resource }) {
 }
 
 export function Materials() {
-  const { active, resourceId, practice } = useWorkspace();
+  const { active, resourceId, practice, study, update } = useWorkspace();
   const [editing, setEditing] = useState<Resource>();
   const [source, setSource] = useState<Resource>();
   const [opened, setOpened] = useState(resourceId);
@@ -180,6 +215,12 @@ export function Materials() {
           if (editor.current) editor.current.open = false;
         }} />
       </details>
+      {!!study.materialArchives?.length && <Fold title="Архив версий материалов">
+        {study.materialArchives.map(batch => <div className="actions" key={batch.id}>
+          <span>{study.topics.find(t => t.id === batch.topicId)?.title ?? 'Без темы'} · {batch.entries.map(entry => entry.title).join(', ')} · {new Date(batch.at).toLocaleString('ru')} · {batch.entries.length}</span>
+          <button type="button" onClick={() => void update(current => restoreMaterialArchive(current, batch.id))}>Вернуть материалы</button>
+        </div>)}
+      </Fold>}
       <div className="library-list">{active.resources.map(resource => {
         const kind = kinds[resource.kind];
         const topic = active.topics.find(entry => entry.id === resource.topicId);
@@ -199,6 +240,7 @@ export function Materials() {
               if (editor.current) { editor.current.open = true; editor.current.scrollIntoView({ block: 'nearest' }); }
             }}>Изменить</button>
             <button type="button" onClick={() => setSource(resource)}>Взять в чат</button>
+            <button type="button" onClick={() => void update(current => archiveMaterial(current, resource.id))}>В архив</button>
           </div>
         </article>;
       })}</div>

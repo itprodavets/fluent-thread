@@ -129,12 +129,74 @@ export function applyChatPackage(study, packet, topicId) {
   const resourceKey = entry => JSON.stringify([entry.kind, normalize(entry.title), entry.text ?? '', entry.prompt ?? '', entry.answer ?? '', entry.url ?? '']);
   const present = new Set(next.resources.filter(entry => entry.topicId === topic.id).map(resourceKey));
   let materialsAdded = 0;
+  const imported = [];
   for (const material of packet.materials) {
     const key = resourceKey(material);
     if (present.has(key)) continue;
-    next.resources.push({ id: crypto.randomUUID(), language, topicId: topic.id, ...material });
+    const entry = { id: crypto.randomUUID(), language, topicId: topic.id, ...material };
+    next.resources.push(entry);
+    imported.push({ id: entry.id, content: materialContent(entry) });
     present.add(key);
     materialsAdded += 1;
   }
+  if (imported.length) next.topicPackageMaterials = { ...study.topicPackageMaterials, [topic.id]: [...(study.topicPackageMaterials?.[topic.id] ?? []), ...imported] };
   return { next, topic, wordsAdded, materialsAdded };
+}
+
+const materialContent = entry => JSON.stringify([entry.kind, entry.title, entry.text ?? '', entry.prompt ?? '', entry.answer ?? '', entry.url ?? '', entry.translation ?? '']);
+
+/** @returns {{id: string, title: string, selected: boolean}[]} */
+export function topicImportPreview(study, topicId) {
+  const previous = new Map((study.topicPackageMaterials?.[topicId] ?? []).map(entry => [entry.id, entry.content]));
+  return study.resources.filter(entry => entry.topicId === topicId).map(entry => ({
+    id: entry.id,
+    title: entry.title,
+    selected: previous.get(entry.id) === materialContent(entry)
+  }));
+}
+
+export function replaceTopicPackage(study, packet, topicId, approved, now = Date.now()) {
+  const byId = new Map(approved.map(entry => [entry.id, entry.content]));
+  const incoming = new Set(packet.materials.map(materialContent));
+  const archived = study.resources.filter(entry => entry.topicId === topicId &&
+    byId.get(entry.id) === materialContent(entry) && !incoming.has(materialContent(entry)));
+  const hidden = new Set(archived.map(entry => entry.id));
+  const result = applyChatPackage({ ...study, resources: study.resources.filter(entry => !hidden.has(entry.id)) }, packet, topicId);
+  const previous = new Set(study.resources.map(entry => entry.id));
+  const known = new Map((study.topicPackageMaterials?.[topicId] ?? []).map(entry => [entry.id, entry.content]));
+  const managed = result.next.resources.filter(entry => entry.topicId === topicId && incoming.has(materialContent(entry))
+    && (!previous.has(entry.id) || byId.has(entry.id) || known.get(entry.id) === materialContent(entry)));
+  return { ...result, archived: archived.length, next: {
+    ...result.next,
+    topicPackageMaterials: { ...study.topicPackageMaterials, [topicId]: managed.map(entry => ({ id: entry.id, content: materialContent(entry) })) },
+    materialArchives: archived.length ? [...(study.materialArchives ?? []), { id: crypto.randomUUID(), topicId, at: now, entries: archived }] : study.materialArchives
+  } };
+}
+
+/** @returns {{id: string, content: string}[]} */
+export function approveTopicMaterials(study, topicId, ids) {
+  const selected = new Set(ids);
+  return study.resources.filter(entry => entry.topicId === topicId && selected.has(entry.id))
+    .map(entry => ({ id: entry.id, content: materialContent(entry) }));
+}
+
+export function restoreMaterialArchive(study, archiveId) {
+  const batch = study.materialArchives?.find(entry => entry.id === archiveId);
+  if (!batch) return study;
+  const active = new Set(study.resources.map(entry => entry.id));
+  return {
+    ...study,
+    resources: [...study.resources, ...batch.entries.filter(entry => !active.has(entry.id))],
+    materialArchives: study.materialArchives.filter(entry => entry.id !== archiveId)
+  };
+}
+
+export function archiveMaterial(study, id, now = Date.now()) {
+  const entry = study.resources.find(item => item.id === id);
+  if (!entry) return study;
+  return {
+    ...study,
+    resources: study.resources.filter(item => item.id !== id),
+    materialArchives: [...(study.materialArchives ?? []), { id: crypto.randomUUID(), topicId: entry.topicId, at: now, entries: [entry] }]
+  };
 }
