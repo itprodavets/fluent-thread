@@ -81,6 +81,8 @@ export interface Study {
   topics: Topic[];
   resources: Resource[];
   results: Record<string, PracticeResult>;
+  topicPackageMaterials?: Record<string, { id: string; content: string }[]>;
+  materialArchives?: { id: string; topicId?: string; at: number; entries: Resource[] }[];
   ankiImports?: Record<string, AnkiImportReport>;
   dailySpeech?: Record<string, DailySpeech>;
   learningSessions?: Record<string, import('./learning-session').LearningSession>;
