@@ -221,7 +221,7 @@ export function Materials() {
           <button type="button" onClick={() => void update(current => restoreMaterialArchive(current, batch.id))}>Вернуть материалы</button>
         </div>)}
       </Fold>}
-      <div className="library-list">{active.resources.map(resource => {
+      <div className="library-list">{active.resources.filter(resource => !/^starter:en:(A1|A2|B1|B2|C1|C2)$/.test(resource.id)).map(resource => {
         const kind = kinds[resource.kind];
         const topic = active.topics.find(entry => entry.id === resource.topicId);
         return <article key={resource.id} className="resource">
