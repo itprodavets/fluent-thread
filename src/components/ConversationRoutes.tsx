@@ -1,3 +1,4 @@
+import { starterRoutes } from '../domain/starter-routes';
 import { useState } from 'react';
 import { useWorkspace } from '../context';
 import { Fold, SourceText, copyText } from './common';
@@ -18,9 +19,10 @@ const blankStep = (): ConversationStep => ({ id: crypto.randomUUID(), title: '',
 export function ConversationRoutes() {
   const { study, update, notify } = useWorkspace();
   const routes = (study.conversationRoutes ?? []).filter(route => route.language === study.language);
-  const options = study.language === 'en' ? [example, ...routes] : routes;
+  const options = study.language === 'en' ? [...starterRoutes, example, ...routes] : routes;
   const [id, select] = useState(options[0]?.id ?? '');
-  const route = options.find(r => r.id === id);
+  const route = options.find(r => r.id === id) ?? options[0];
+  const isExample = (r: ConversationRoute) => r.id.startsWith('example-');
   const [stepId, selectStep] = useState('');
   const [draft, edit] = useState<ConversationRoute>();
   const [situation, setSituation] = useState('');
@@ -47,11 +49,11 @@ export function ConversationRoutes() {
     <h2 id="routes-title">Маршрут разговора</h2>
     <p className="sub">Собери цепочку событий. Каждый шаг открывает свой диалог или собеседование.</p>
     <div className="actions">
-      {options.length > 0 && <label>Маршрут<select value={id} onChange={e => { select(e.target.value); selectStep(''); edit(undefined); }}>
-        {options.map(r => <option key={r.id} value={r.id}>{r.title}{r.id === example.id ? ' · пример' : ''}</option>)}
+      {options.length > 0 && <label>Маршрут<select value={route?.id ?? ''} onChange={e => { select(e.target.value); selectStep(''); edit(undefined); }}>
+        {options.map(r => <option key={r.id} value={r.id}>{r.title}{isExample(r) ? ' · пример' : ''}</option>)}
       </select></label>}
       <button type="button" onClick={newRoute}>Новый маршрут</button>
-      {route && <button type="button" onClick={() => edit(route.id === example.id ? { ...route, id: crypto.randomUUID() } : route)}>{route.id === example.id ? 'Взять пример за основу' : 'Редактировать маршрут'}</button>}
+      {route && <button type="button" onClick={() => edit(isExample(route) ? { ...route, id: crypto.randomUUID() } : route)}>{isExample(route) ? 'Взять пример за основу' : 'Редактировать маршрут'}</button>}
     </div>
     <Fold title="Составить маршрут по ситуации">
       <label>Что произошло или какой разговор хочешь разобрать<textarea rows={4} maxLength={24000} value={situation} onChange={event => { setSituation(event.target.value); setCommand(''); }} /></label>

@@ -407,3 +407,8 @@ button:disabled { opacity: .52; cursor: default; }
 .conversation-steps li { display: grid; justify-items: start; gap: .35rem; }
 .conversation-steps button[aria-current="step"] { border: 2px solid currentColor; }
 .conversation-arrow { margin-left: 1rem; font-size: 1.2rem; }
+
+.material-dialog { width: min(48rem, calc(100% - 2rem)); max-height: calc(100dvh - 2rem); padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--line); border-radius: 1rem; color: inherit; }
+.material-dialog::backdrop { background: rgb(24 34 29 / 45%); }
+.material-dialog > header { justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.material-dialog form { max-width: none; }
