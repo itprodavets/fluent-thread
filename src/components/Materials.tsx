@@ -163,9 +163,9 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
     } catch (error) { notify(error instanceof Error ? error.message : 'Не удалось импортировать пакет.'); }
     finally { setBusy(false); }
   }
-  return <Fold title="Из чата с ИИ" open={source ? true : undefined}>
+  return <>
     <form onSubmit={submit} hidden={!!preview}>
-      <p className="sub">Обсуди материал в своём чате. Попроси выгрузить итоги в JSON и загрузи файл сюда.</p>
+      <p className="sub">Выбери файл «Нити речи» или вставь JSON. Для замены старой версии выбери режим обновления.</p>
       {source && <div className="actions"><span>{source.title}</span><button type="button" onClick={() => { setSource(undefined); setCommand(''); }}>Убрать материал</button></div>}
       <label>Куда добавить <TopicSelect value={selected} change={setTarget} fallback="Тема из файла" /></label>
       <button type="button" onClick={prepare}>Копировать команду для чата</button>
@@ -184,7 +184,7 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
       {preview.rows.map(row => <label className="choice" key={row.id}><input type="checkbox" checked={checked.includes(row.id)} onChange={event => setChecked(event.target.checked ? [...checked, row.id] : checked.filter(id => id !== row.id))} />{row.title}</label>)}
       <div className="actions"><button type="button" className="primary" disabled={busy} onClick={() => void replace()}>Обновить тему · выбрано {checked.length}</button><button type="button" onClick={() => setPreview(undefined)}>Отмена</button></div>
     </section>}
-  </Fold>;
+  </>;
 }
 
 function MaterialText({ resource }: { resource: Resource }) {
@@ -203,25 +203,56 @@ export function Materials() {
   const [source, setSource] = useState<Resource>();
   const [opened, setOpened] = useState(resourceId);
   const [revision, reset] = useState(0);
-  const editor = useRef<HTMLDetailsElement>(null);
+  const dialog = useRef<HTMLDialogElement>(null);
+  const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
+  const [filter, setFilter] = useState('');
+  const [deleting, setDeleting] = useState<Resource>();
+  const [busy, setBusy] = useState(false);
+  const materials = active.resources.filter(resource => !/^starter:en:(A1|A2|B1|B2|C1|C2)$/.test(resource.id));
+  function show(value: NonNullable<typeof panel>) {
+    setPanel(value);
+    if (!dialog.current?.open) dialog.current?.showModal();
+  }
+  function close() { dialog.current?.close(); }
+  async function remove() {
+    if (!deleting || busy) return;
+    setBusy(true);
+    try { if (await update(current => archiveMaterial(current, deleting.id))) close(); }
+    finally { setBusy(false); }
+  }
   return <><Heading title="Материалы" detail="Тексты, упражнения и записи для разговорной практики." />
     <div className="library">
       <StarterMaterials />
-      <ChatExchange key={source?.id ?? 'all'} source={source} setSource={setSource} />
-      <details ref={editor} className="fold">
-        <summary>{editing ? 'Редактировать материал' : 'Добавить материал'}</summary>
-        <MaterialForm key={revision} resource={editing} done={id => {
-          setOpened(id); setEditing(undefined); reset(value => value + 1);
-          if (editor.current) editor.current.open = false;
-        }} />
-      </details>
+      <section aria-label="Мои материалы">
+        <h2>Мои материалы</h2>
+        <div className="actions">
+          <button type="button" className="primary" onClick={() => { setEditing(undefined); reset(n => n + 1); show('edit'); }}>Добавить материал</button>
+          <button type="button" onClick={() => { setSource(undefined); show('import'); }}>Импортировать из файла</button>
+        </div>
+        <label>Фильтр по теме<select value={filter} onChange={event => setFilter(event.target.value)}>
+          <option value="">Все темы</option><option value="unassigned">Без темы</option>
+          {active.topics.map(topic => <option key={topic.id} value={topic.id}>{topic.title}</option>)}
+        </select></label>
+      </section>
+      <dialog ref={dialog} className="material-dialog" aria-labelledby="material-dialog-title" onClose={() => { setPanel(undefined); setDeleting(undefined); }}>
+        <header className="actions">
+          <h2 id="material-dialog-title">{panel === 'import' ? 'Импорт материалов' : panel === 'archive' ? 'Удалить из библиотеки' : editing ? 'Изменить материал' : 'Добавить материал'}</h2>
+          <button type="button" onClick={close}>Закрыть</button>
+        </header>
+        {panel === 'edit' && <MaterialForm key={revision} resource={editing} done={id => { setOpened(id); close(); }} />}
+        {panel === 'import' && <ChatExchange key={source?.id ?? 'all'} source={source} setSource={setSource} />}
+        {panel === 'archive' && deleting && <>
+          <p>«{deleting.title}» переместится в архив. Его можно вернуть из раздела «Архив версий материалов».</p>
+          <div className="actions"><button type="button" className="primary" disabled={busy} onClick={() => void remove()}>Переместить в архив</button><button type="button" onClick={close}>Отмена</button></div>
+        </>}
+      </dialog>
       {!!study.materialArchives?.length && <Fold title="Архив версий материалов">
         {study.materialArchives.map(batch => <div className="actions" key={batch.id}>
           <span>{study.topics.find(t => t.id === batch.topicId)?.title ?? 'Без темы'} · {batch.entries.map(entry => entry.title).join(', ')} · {new Date(batch.at).toLocaleString('ru')} · {batch.entries.length}</span>
           <button type="button" onClick={() => void update(current => restoreMaterialArchive(current, batch.id))}>Вернуть материалы</button>
         </div>)}
       </Fold>}
-      <div className="library-list">{active.resources.filter(resource => !/^starter:en:(A1|A2|B1|B2|C1|C2)$/.test(resource.id)).map(resource => {
+      <div className="library-list">{materials.filter(resource => !filter || (resource.topicId ?? 'unassigned') === filter).map(resource => {
         const kind = kinds[resource.kind];
         const topic = active.topics.find(entry => entry.id === resource.topicId);
         return <article key={resource.id} className="resource">
@@ -237,10 +268,10 @@ export function Materials() {
             <button className="primary" type="button" onClick={() => practice(resource.id)}>{kind.action}</button>
             <button type="button" onClick={() => {
               setEditing(resource); reset(value => value + 1);
-              if (editor.current) { editor.current.open = true; editor.current.scrollIntoView({ block: 'nearest' }); }
+              show('edit');
             }}>Изменить</button>
-            <button type="button" onClick={() => setSource(resource)}>Взять в чат</button>
-            <button type="button" onClick={() => void update(current => archiveMaterial(current, resource.id))}>В архив</button>
+            <button type="button" onClick={() => { setSource(resource); show('import'); }}>Подготовить запрос для ИИ</button>
+            <button type="button" onClick={() => { setDeleting(resource); show('archive'); }}>Удалить</button>
           </div>
         </article>;
       })}</div>
