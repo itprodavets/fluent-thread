@@ -418,3 +418,11 @@ button:disabled { opacity: .52; cursor: default; }
 .package-example { white-space: pre-wrap; overflow-wrap: anywhere; }
 .starter-lesson h4 { margin-block: 1rem .5rem; }
 .starter-lesson .actions { margin-top: 1rem; }
+
+.readable-material { line-height: 1.75; }
+.readable-material .source-text { white-space: pre-wrap; overflow-wrap: anywhere; }
+.dialogue-line { margin-block: .75rem; padding: .8rem 1rem; border-radius: .9rem; background: #f0f4ef; }
+.dialogue-line.voice-1 { background: #e7f1f0; margin-inline-start: clamp(0rem, 4vw, 2rem); }
+.dialogue-line strong { display: block; font-size: .85em; margin-bottom: .1rem; }
+.dialogue-line .source-text { margin: 0; }
+.translation-selection { border: 1px solid var(--line); border-radius: .8rem; padding: .8rem; margin-block: .8rem; overflow-wrap: anywhere; }
