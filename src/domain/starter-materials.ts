@@ -1,11 +1,10 @@
 import type { Resource } from './model';
+import type { LessonScene, Pair } from './lesson-scene.ts';
+import { extraScenes } from './extra-lesson-scenes.ts';
 
 export const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
 export type Level = typeof levels[number];
-type Pair = [string, string];
-type Scene = { id: string; title: string; source: string; task: string; versions: Record<Level, Pair[]> };
-
-const scenes: Scene[] = [
+const scenes: LessonScene[] = [
   { id: 'introduction', title: 'Meeting a Classmate', source: 'Урок 01:01, 12:39–13:22. Ты рассказал, откуда родом, где живёшь, на каких языках говоришь и что у тебя есть чайное сообщество.',
     task: 'Познакомься с участником урока. Расскажи о себе и подхвати одну деталь из его ответа встречным вопросом.',
     versions: {
@@ -35,7 +34,8 @@ const scenes: Scene[] = [
       B2: [['You said you walk around ten kilometres. How much time do you set aside?', 'I can spend around two hours walking, though the distance varies. Seven kilometres is fine, too.'], ['Do you keep a particular pace?', 'I take it at an easy pace. It’s a way to switch off in the evening.'], ['Could we fit in a walk and still have time to catch up?', 'Yes. We could take a shorter route and stop at a café to talk.'], ['Shall we meet at the park and see how we feel?', 'That works. We can decide how far to go once we’re there.']],
       C1: [['Ten kilometres sounds like a workout. Is that how you think about it?', 'I see it mainly as a way to unwind. I’m happy walking seven kilometres or ten, and I don’t push the pace.'], ['Would inviting someone along change the experience?', 'A little. I’d choose a distance that suits us both, and we could stop for coffee if we want to catch up.'], ['So you’d be comfortable changing your usual route?', 'Of course. If we’re going out to talk, there’s no reason to insist on a long walk.'], ['Then let’s start at the park and decide as we go.', 'Sounds good. We can stop at a café whenever we feel like it.']],
       C2: [['You describe a two-hour walk as relaxing. Is it the distance, the routine, or the chance to switch off?', 'The chance to switch off matters most. I may walk seven to ten kilometres, but I’m going at a pace that feels comfortable.'], ['Does it still serve that purpose if you turn it into a social occasion?', 'It can. Walking alone and catching up with friends are different ways to unwind. A walk can lead naturally to coffee and a conversation.'], ['How would you plan it for someone who has less time or stamina?', 'I’d suggest a short stretch and leave the rest open. That gives us room to talk without making the distance a condition of joining.'], ['So what would you suggest for tomorrow?', 'Meet by the park, take a short walk and decide together whether to carry on or stop for coffee.']]
-    }}
+    }},
+  ...extraScenes
 ];
 
 const followUps: Record<string, Pair[]> = {
@@ -77,14 +77,14 @@ export const starterLessons = scenes.flatMap(scene => levels.map(level => {
     kind: 'dialogue', text: turns.map(([question, answer]) => 'Partner: ' + question + '\nDenis: ' + answer).join('\n\n'),
     prompt: scene.task, answer: '', url: ''
   };
-  const questions = followUps[scene.id].map(([question, answer]): Pair => [
+  const questions = (scene.questions ?? followUps[scene.id]).map(([question, answer]): Pair => [
     question, scene.id === 'walk' && question.startsWith('What distance')
       ? (level === 'A1' || level === 'B1' ? 'About ten kilometres.' : 'Around seven to ten kilometres.')
       : answer
   ]);
-  return { sceneId: scene.id, level, resource, source: scene.source, questions, notes: languageNotes[scene.id] };
+  return { sceneId: scene.id, level, resource, source: scene.source, questions, notes: scene.notes ?? languageNotes[scene.id] };
 }));
 
 export function isStarterResource(id: string) {
-  return /^starter:en:(?:(?:introduction|restaurant|walk):)?(?:A1|A2|B1|B2|C1|C2)$/.test(id);
+  return starterLessons.some(lesson => lesson.resource.id === id) || /^starter:en:(A1|A2|B1|B2|C1|C2)$/.test(id);
 }

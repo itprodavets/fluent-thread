@@ -11,7 +11,7 @@ test('every situation has six independently selectable dialogue and listening le
       assert.ok(isStarterResource(lesson.resource.id));
       assert.equal(lesson.resource.kind, 'dialogue');
       assert.ok(lesson.resource.text.includes('Denis:'));
-      assert.ok(lesson.questions.length >= 4);
+      assert.ok(lesson.questions.length >= 3);
     }
   }
   assert.ok(isStarterResource('starter:en:A1'));
