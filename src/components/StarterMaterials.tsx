@@ -4,7 +4,7 @@ import { LessonAudio } from './LessonAudio';
 import { useEffect, useState } from 'react';
 import { useWorkspace } from '../context';
 import type { Resource } from '../domain/model';
-import { Recording } from './Recording';
+import { SpokenRole } from './SpokenRole';
 import { levels, starterLessons, starterScenes } from '../domain/starter-materials';
 import type { Level } from '../domain/starter-materials';
 import { stopSpeaking } from '../domain/voice.js';
@@ -82,7 +82,7 @@ export function StarterLesson({ lesson, onNext }: { lesson: { resource: Resource
         </Fold>
         <h4>Разыграй свою роль</h4>
         <p>{resource.prompt || 'Выбери участника. Слушай реплики собеседника и отвечай своими словами. Запиши свою версию.'}</p>
-        <Recording itemId={'lesson-role:' + resource.id} language={resource.language} />
+        <SpokenRole resource={resource} />
       </>}
       <div className="actions">
         <button type="button" onClick={() => go(step - 1)}>Назад</button>
