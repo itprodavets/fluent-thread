@@ -412,3 +412,9 @@ button:disabled { opacity: .52; cursor: default; }
 .material-dialog::backdrop { background: rgb(24 34 29 / 45%); }
 .material-dialog > header { justify-content: space-between; align-items: center; margin-bottom: 1rem; }
 .material-dialog form { max-width: none; }
+
+.import-guide { border: 1px solid var(--line); border-radius: 1rem; padding: 1rem; }
+.import-guide p { margin: .5rem 0 1rem; }
+.package-example { white-space: pre-wrap; overflow-wrap: anywhere; }
+.starter-lesson h4 { margin-block: 1rem .5rem; }
+.starter-lesson .actions { margin-top: 1rem; }

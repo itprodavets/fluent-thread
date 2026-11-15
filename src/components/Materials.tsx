@@ -4,7 +4,7 @@ import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useWorkspace } from '../context';
-import { applyChatPackage, archiveMaterial, approveTopicMaterials, replaceTopicPackage, restoreMaterialArchive, topicImportPreview, buildChatPrompt, parseChatPackage, safeSourceUrl } from '../domain/chat-package.js';
+import { applyChatPackage, archiveMaterial, approveTopicMaterials, replaceTopicPackage, restoreMaterialArchive, topicImportPreview, buildChatPrompt, chatPackageExample, parseChatPackage, safeSourceUrl } from '../domain/chat-package.js';
 import { languageCodes, LanguageLabel } from './Language';
 import { suggestMaterialLanguage } from '../domain/language-detection';
 import { kinds, languageName, selectLanguage, upsert } from '../domain/model';
@@ -169,7 +169,15 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
       <p className="sub">Выбери файл «Нити речи» или вставь JSON. Для замены старой версии выбери режим обновления.</p>
       {source && <div className="actions"><span>{source.title}</span><button type="button" onClick={() => { setSource(undefined); setCommand(''); }}>Убрать материал</button></div>}
       <label>Куда добавить <TopicSelect value={selected} change={setTarget} fallback="Тема из файла" /></label>
-      <button type="button" onClick={prepare}>Копировать команду для чата</button>
+      <section className="import-guide">
+        <h3>Подготовить материалы из разговора</h3>
+        <p>Вставь запрос в тот же чат после голосовой или текстовой практики. Затем загрузи ответ сюда.</p>
+        <div className="actions">
+          <button type="button" onClick={prepare}>Скопировать запрос для ИИ</button>
+          <button type="button" onClick={() => void copyText(JSON.stringify(chatPackageExample(study.language), null, 2), notify)}>Скопировать пример JSON</button>
+        </div>
+        <Fold title="Формат файла · nit-rechi v1"><pre className="package-example">{JSON.stringify(chatPackageExample(study.language), null, 2)}</pre></Fold>
+      </section>
       {command && <label>Команда для чата <textarea readOnly value={command} rows={6} /></label>}
       <label>Файл из чата <input type="file" name="file" accept=".json,application/json" /></label>
       <label>Или вставь JSON <textarea name="json" rows={4} maxLength={1000000} /></label>
@@ -223,18 +231,18 @@ export function Materials() {
   }
   return <><Heading title="Материалы" detail="Тексты, упражнения и записи для разговорной практики." />
     <div className="library">
-      <StarterMaterials />
       <section aria-label="Мои материалы">
         <h2>Мои материалы</h2>
         <div className="actions">
           <button type="button" className="primary" onClick={() => { setEditing(undefined); reset(n => n + 1); show('edit'); }}>Добавить материал</button>
-          <button type="button" onClick={() => { setSource(undefined); show('import'); }}>Импортировать из файла</button>
+          <button type="button" onClick={() => { setSource(undefined); show('import'); }}>Импорт из чата с ИИ</button>
         </div>
         <label>Фильтр по теме<select value={filter} onChange={event => setFilter(event.target.value)}>
           <option value="">Все темы</option><option value="unassigned">Без темы</option>
           {active.topics.map(topic => <option key={topic.id} value={topic.id}>{topic.title}</option>)}
         </select></label>
       </section>
+      <StarterMaterials />
       <dialog ref={dialog} className="material-dialog" aria-labelledby="material-dialog-title" onClose={() => { setPanel(undefined); setDeleting(undefined); }}>
         <header className="actions">
           <h2 id="material-dialog-title">{panel === 'import' ? 'Импорт материалов' : panel === 'archive' ? 'Удалить из библиотеки' : editing ? 'Изменить материал' : 'Добавить материал'}</h2>
@@ -253,6 +261,7 @@ export function Materials() {
           <button type="button" onClick={() => void update(current => restoreMaterialArchive(current, batch.id))}>Вернуть материалы</button>
         </div>)}
       </Fold>}
+      <h2>Библиотека</h2>
       <div className="library-list">{materials.filter(resource => !filter || (resource.topicId ?? 'unassigned') === filter).map(resource => {
         const kind = kinds[resource.kind];
         const topic = active.topics.find(entry => entry.id === resource.topicId);
@@ -270,7 +279,7 @@ export function Materials() {
             <button type="button" onClick={() => {
               setEditing(resource); reset(value => value + 1);
               show('edit');
-            }}>Изменить</button>
+            }}>Обновить</button>
             <button type="button" onClick={() => { setSource(resource); show('import'); }}>Подготовить запрос для ИИ</button>
             <button type="button" onClick={() => { setDeleting(resource); show('archive'); }}>Удалить</button>
           </div>
