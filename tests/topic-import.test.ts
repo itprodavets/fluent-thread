@@ -23,3 +23,12 @@ test('replacement protects edits, archives approved legacy content, and retains 
   assert.deepEqual(repeated.next.resources, result.next.resources);
   assert.deepEqual(restoreMaterialArchive(result.next, result.next.materialArchives[0].id).resources.at(-1), original);
 });
+
+test('the format shown for conversation imports is accepted by the importer', async () => {
+  const { chatPackageExample, parseChatPackage, buildChatPrompt } = await import('../src/domain/chat-package.js');
+  const example = JSON.stringify(chatPackageExample('en', 'A call'), null, 2);
+  const parsed = parseChatPackage(example);
+  assert.equal(parsed.topic.title, 'A call');
+  assert.deepEqual(parsed.materials.map(item => item.kind), ['exercise', 'dialogue']);
+  assert.ok(buildChatPrompt('en', 'A call').endsWith(example));
+});
