@@ -44,7 +44,7 @@ export function chatPackageExample(language, topic = '') {
     words: [{ title: 'слово или выражение', meaning: 'значение на русском', example: 'пример на изучаемом языке' }],
     materials: [
       { kind: 'exercise', title: 'Задание', prompt: 'Условие упражнения', answer: 'Пример ответа на изучаемом языке' },
-      { kind: 'dialogue', title: 'Диалог', text: 'Реплики на изучаемом языке' }
+      { kind: 'dialogue', title: 'Диалог', text: 'Имя: реплика\nИмя: ответ', translation: 'Перевод диалога на русский' }
     ]
   };
 }
@@ -74,6 +74,7 @@ export function parseChatPackage(text) {
     if (!materialKinds.has(material.kind)) throw new Error('Неизвестный тип материала.');
     const title = field(material.title, 'material.title', 120, true);
     const text = field(material.text, 'material.text', 250000);
+    const translation = field(material.translation, 'material.translation', 250000);
     const prompt = field(material.prompt, 'material.prompt', 4000);
     const answer = field(material.answer, 'material.answer', 12000);
     const originalUrl = field(material.url, 'material.url', 2000);
@@ -82,7 +83,7 @@ export function parseChatPackage(text) {
     if (!text && !url && !(material.kind === 'exercise' && prompt)) {
       throw new Error('В материале «' + title + '» нет текста, ссылки или условия.');
     }
-    return { kind: material.kind, title, text, prompt, answer: material.kind === 'exercise' ? answer : '', url };
+    return { kind: material.kind, title, text, ...(translation ? { translation } : {}), prompt, answer: material.kind === 'exercise' ? answer : '', url };
   });
   if (!words.length && !materials.length) throw new Error('В пакете нет слов и материалов.');
   return { language, topic, words, materials };
@@ -127,20 +128,30 @@ export function applyChatPackage(study, packet, topicId) {
   if (existing) next.topics[next.topics.indexOf(existing)] = topic;
   else next.topics.push(topic);
 
-  const resourceKey = entry => JSON.stringify([entry.kind, normalize(entry.title), entry.text ?? '', entry.prompt ?? '', entry.answer ?? '', entry.url ?? '']);
-  const present = new Set(next.resources.filter(entry => entry.topicId === topic.id).map(resourceKey));
+  const resourceKey = entry => JSON.stringify([entry.kind, normalize(entry.title), entry.text ?? '', entry.prompt ?? '', entry.answer ?? '', entry.url ?? '', entry.translation ?? '']);
+  const present = new Map(next.resources.filter(entry => entry.topicId === topic.id).map(entry => [resourceKey(entry), entry]));
+  const packageEntries = [];
   let materialsAdded = 0;
   const imported = [];
   for (const material of packet.materials) {
     const key = resourceKey(material);
-    if (present.has(key)) continue;
+    const existing = present.get(key);
+    if (existing) { packageEntries.push(existing); continue; }
     const entry = { id: crypto.randomUUID(), language, topicId: topic.id, ...material };
     next.resources.push(entry);
     imported.push({ id: entry.id, content: materialContent(entry) });
-    present.add(key);
+    present.set(key, entry);
+    packageEntries.push(entry);
     materialsAdded += 1;
   }
   if (imported.length) next.topicPackageMaterials = { ...study.topicPackageMaterials, [topic.id]: [...(study.topicPackageMaterials?.[topic.id] ?? []), ...imported] };
+  if (packageEntries.some(entry => entry.kind === 'dialogue' && entry.text)) {
+    const resourceIds = [...new Set(packageEntries.map(entry => entry.id))];
+    const groups = next.importedLessons ?? [];
+    if (!groups.some(group => group.topicId === topic.id && group.resourceIds.length === resourceIds.length && resourceIds.every(id => group.resourceIds.includes(id)))) {
+      next.importedLessons = [...groups, { id: crypto.randomUUID(), topicId: topic.id, title: packet.topic.title, resourceIds }];
+    }
+  }
   return { next, topic, wordsAdded, materialsAdded };
 }
 

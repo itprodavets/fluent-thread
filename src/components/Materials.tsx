@@ -1,3 +1,6 @@
+import { ReadableMaterial } from './ReadableMaterial';
+import { importedLessonsFor } from '../domain/imported-lessons';
+import { starterScenes } from '../domain/starter-materials';
 import { isStarterResource } from '../domain/starter-materials';
 import { LessonAudio } from './LessonAudio';
 import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
@@ -11,8 +14,8 @@ import { kinds, languageName, selectLanguage, upsert } from '../domain/model';
 import type { MaterialKind, Resource } from '../domain/model';
 import { Recording } from './Recording';
 import { StoryVersions } from './StoryVersions';
-import { StarterMaterials } from './StarterMaterials';
-import { copyText, Fold, Heading, SourceLink, SourceText } from './common';
+import { StarterLesson, StarterMaterials, TeacherAudioCard } from './StarterMaterials';
+import { copyText, Fold, Heading, SourceLink, VoiceButtons } from './common';
 
 function TopicSelect({ value, change, fallback, language }: { value: string; change: (id: string) => void; fallback: string; language?: string }) {
   const { study } = useWorkspace();
@@ -98,8 +101,8 @@ function MaterialForm({ resource, done }: { resource?: Resource; done: (id: stri
   </form>;
 }
 
-function ChatExchange({ source, setSource }: { source?: Resource; setSource: (resource?: Resource) => void }) {
-  const { study, active, notify, update, openTopic } = useWorkspace();
+function ChatExchange({ source, setSource, onImported }: { source?: Resource; setSource: (resource?: Resource) => void; onImported: (topicId: string, hasDialogue: boolean) => void }) {
+  const { study, active, notify, update } = useWorkspace();
   const [target, setTarget] = useState<string>();
   const [command, setCommand] = useState('');
   const [busy, setBusy] = useState(false);
@@ -117,7 +120,7 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
         archived = result.archived;
         return result.next;
       });
-      if (saved) { setPreview(undefined); notify(`Тема обновлена. В архиве: ${archived}.`); openTopic(preview.topicId); }
+      if (saved) { setPreview(undefined); notify(`Тема обновлена. В архиве: ${archived}.`); onImported(preview.topicId, preview.packet.materials.some(item => item.kind === 'dialogue')); }
     } catch (error) { notify(error instanceof Error ? error.message : 'Не удалось обновить тему.'); }
     finally { setBusy(false); }
   }
@@ -159,7 +162,7 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
       });
       if (saved && result) {
         notify(`«${result.topic.title}» · новых слов ${result.wordsAdded} · новых материалов ${result.materialsAdded}`);
-        openTopic(result.topic.id);
+        onImported(result.topic.id, packet.materials.some(item => item.kind === 'dialogue'));
       }
     } catch (error) { notify(error instanceof Error ? error.message : 'Не удалось импортировать пакет.'); }
     finally { setBusy(false); }
@@ -199,7 +202,7 @@ function ChatExchange({ source, setSource }: { source?: Resource; setSource: (re
 function MaterialText({ resource }: { resource: Resource }) {
   const [open, setOpen] = useState(false);
   const cues = lessonCues(resource.text);
-  if (!cues.length) return <SourceText text={resource.text} language={resource.language} />;
+  if (!cues.length) return <><ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue={resource.kind === 'dialogue'} /><VoiceButtons text={resource.text} language={resource.language} /></>;
   return <details onToggle={event => setOpen(event.currentTarget.open)}>
     <summary>Оригинальная запись · {cues.length} реплик</summary>
     {open && <LessonAudio cues={cues} lesson={resource.text.match(/^Recording: (lesson-[123])$/m)?.[1] ?? resource.topicId ?? resource.id} language={resource.language} />}
@@ -214,6 +217,11 @@ export function Materials() {
   const [revision, reset] = useState(0);
   const dialog = useRef<HTMLDialogElement>(null);
   const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
+  const [view, setView] = useState<'lessons' | 'library' | 'audio'>(resourceId ? 'library' : 'lessons');
+  const [scene, setScene] = useState(starterScenes[0].id);
+  const [lessonId, setLessonId] = useState('');
+  const lessons = useMemo(() => importedLessonsFor(study), [study]);
+  const lessonTopics = active.topics.filter(topic => lessons.some(lesson => lesson.topicId === topic.id));
   const [filter, setFilter] = useState('');
   const [deleting, setDeleting] = useState<Resource>();
   const [busy, setBusy] = useState(false);
@@ -231,30 +239,56 @@ export function Materials() {
   }
   return <><Heading title="Материалы" detail="Тексты, упражнения и записи для разговорной практики." />
     <div className="library">
-      <section aria-label="Мои материалы">
-        <h2>Мои материалы</h2>
+      <nav className="account-sections" aria-label="Разделы материалов">
+        <button type="button" aria-pressed={view === 'lessons'} onClick={() => setView('lessons')}>Занятия</button>
+        <button type="button" aria-pressed={view === 'library'} onClick={() => setView('library')}>Библиотека</button>
+        {study.language === 'en' && <button type="button" aria-pressed={view === 'audio'} onClick={() => setView('audio')}>Оригинальное аудио</button>}
+      </nav>
+      <section aria-label="Управление материалами">
         <div className="actions">
           <button type="button" className="primary" onClick={() => { setEditing(undefined); reset(n => n + 1); show('edit'); }}>Добавить материал</button>
           <button type="button" onClick={() => { setSource(undefined); show('import'); }}>Импорт из чата с ИИ</button>
         </div>
-        <label>Фильтр по теме<select value={filter} onChange={event => setFilter(event.target.value)}>
+        {view === 'library' && <label>Тема библиотеки<select value={filter} onChange={event => setFilter(event.target.value)}>
           <option value="">Все темы</option><option value="unassigned">Без темы</option>
           {active.topics.map(topic => <option key={topic.id} value={topic.id}>{topic.title}</option>)}
-        </select></label>
+        </select></label>}
       </section>
-      <StarterMaterials />
+      {view === 'lessons' && <>
+        <label>Тема занятия<select value={scene} onChange={event => { setScene(event.target.value); setLessonId(''); }}>
+          {study.language === 'en' && <optgroup label="Стартовые темы">{starterScenes.map(item => <option key={item.id} value={item.id}>{item.title}</option>)}</optgroup>}
+          {study.language !== 'en' && !lessonTopics.some(topic => topic.id === scene) && <option value={scene}>Выбери тему</option>}
+          {!!lessonTopics.length && <optgroup label="Из чата с ИИ">{lessonTopics.map(topic => <option key={topic.id} value={topic.id}>{topic.title}</option>)}</optgroup>}
+        </select></label>
+        {study.language === 'en' && starterScenes.some(item => item.id === scene)
+          ? <StarterMaterials scene={scene} chooseScene={setScene} />
+          : (() => {
+            const available = lessons.filter(item => item.topicId === scene);
+            const selected = available.find(item => item.id === lessonId) ?? available[0];
+            if (!selected) return <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>;
+            return <>
+              {available.length > 1 && <label>Занятие<select value={selected.id} onChange={event => setLessonId(event.target.value)}>
+                {available.map(item => <option key={item.id} value={item.id}>{item.resource.title}</option>)}
+              </select></label>}
+              <StarterLesson key={selected.id} lesson={{ ...selected, notes: [], source: 'Диалог и задания из твоих материалов.' }} />
+            </>;
+          })()}
+      </>}
+      {view === 'audio' && study.language === 'en' && <TeacherAudioCard />}
+
       <dialog ref={dialog} className="material-dialog" aria-labelledby="material-dialog-title" onClose={() => { setPanel(undefined); setDeleting(undefined); }}>
         <header className="actions">
           <h2 id="material-dialog-title">{panel === 'import' ? 'Импорт материалов' : panel === 'archive' ? 'Удалить из библиотеки' : editing ? 'Изменить материал' : 'Добавить материал'}</h2>
           <button type="button" onClick={close}>Закрыть</button>
         </header>
-        {panel === 'edit' && <MaterialForm key={revision} resource={editing} done={id => { setOpened(id); close(); }} />}
-        {panel === 'import' && <ChatExchange key={source?.id ?? 'all'} source={source} setSource={setSource} />}
+        {panel === 'edit' && <MaterialForm key={revision} resource={editing} done={id => { setOpened(id); setFilter(''); setView('library'); close(); }} />}
+        {panel === 'import' && <ChatExchange key={source?.id ?? 'all'} source={source} setSource={setSource} onImported={(id, hasDialogue) => { setScene(id); setLessonId(''); setFilter(id); setView(hasDialogue ? 'lessons' : 'library'); close(); }} />}
         {panel === 'archive' && deleting && <>
           <p>«{deleting.title}» переместится в архив. Его можно вернуть из раздела «Архив версий материалов».</p>
           <div className="actions"><button type="button" className="primary" disabled={busy} onClick={() => void remove()}>Переместить в архив</button><button type="button" onClick={close}>Отмена</button></div>
         </>}
       </dialog>
+      {view === 'library' && <>
       {!!study.materialArchives?.length && <Fold title="Архив версий материалов">
         {study.materialArchives.map(batch => <div className="actions" key={batch.id}>
           <span>{study.topics.find(t => t.id === batch.topicId)?.title ?? 'Без темы'} · {batch.entries.map(entry => entry.title).join(', ')} · {new Date(batch.at).toLocaleString('ru')} · {batch.entries.length}</span>
@@ -271,7 +305,7 @@ export function Materials() {
           <SourceLink url={resource.url} />
           {resource.text && <Fold title={resource.kind === 'exercise' ? 'Читать условие' : 'Открыть текст'} open={resource.id === opened || undefined}>
             <MaterialText resource={resource} />
-            {resource.translation && <Fold title="Перевод на русский"><p className="source-text" lang="ru">{resource.translation}</p></Fold>}
+
           </Fold>}
           {resource.story && <><StoryVersions story={resource.story} language={resource.language} /><Fold title="Первая голосовая попытка"><Recording itemId={resource.id} language={resource.language} readOnly /></Fold></>}
           <div className="actions">
@@ -285,6 +319,7 @@ export function Materials() {
           </div>
         </article>;
       })}</div>
+      </>}
     </div>
   </>;
 }

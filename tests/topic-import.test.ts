@@ -32,3 +32,25 @@ test('the format shown for conversation imports is accepted by the importer', as
   assert.deepEqual(parsed.materials.map(item => item.kind), ['exercise', 'dialogue']);
   assert.ok(buildChatPrompt('en', 'A call').endsWith(example));
 });
+
+test('imported lessons keep each dialogue with its own questions and ignore archived recordings', async () => {
+  const { importedLessonsFor } = await import('../src/domain/imported-lessons.ts');
+  const { archiveMaterial, parseChatPackage } = await import('../src/domain/chat-package.js');
+  const state = { language: 'en', languages: { en: {} }, topics: [], words: [], resources: [], results: {} };
+  const packet = (name: string) => parseChatPackage(JSON.stringify({
+    format: 'nit-rechi', version: 1, language: 'en', topic: { title: 'Class' },
+    materials: [
+      { kind: 'dialogue', title: name, text: 'A: Hello.\nB: Hi.', translation: 'Привет.' },
+      { kind: 'exercise', title: 'Check ' + name, prompt: 'Question ' + name, answer: 'Answer ' + name }
+    ]
+  }));
+  const first = applyChatPackage(state, packet('First'));
+  const next = applyChatPackage(first.next, packet('Second'), first.topic.id).next;
+  const repeat = applyChatPackage(next, packet('Second'), first.topic.id).next;
+  assert.equal(repeat.importedLessons.length, 2);
+  const lessons = importedLessonsFor(repeat);
+  assert.equal(lessons[0].resource.translation, 'Привет.');
+  assert.deepEqual(lessons.map(lesson => lesson.questions[0][0]), ['Question Second', 'Question First']);
+  assert.equal(importedLessonsFor(archiveMaterial(repeat, lessons[0].resource.id)).length, 1);
+  assert.equal(importedLessonsFor({ ...first.next, importedLessons: undefined }).length, 1);
+});
