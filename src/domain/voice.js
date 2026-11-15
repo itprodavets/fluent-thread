@@ -119,20 +119,21 @@ function speechPieces(text, language) {
   });
 }
 
-export function speak(text, language, slow, notify) {
+export function speak(text, language, slow, notify, done = () => {}) {
   const engine = window.speechSynthesis;
-  if (!engine) { notify('В этом браузере озвучка недоступна.'); return; }
-  if (isRecording()) { notify('Сначала останови запись.'); return; }
+  if (!engine) { notify('В этом браузере озвучка недоступна.'); done(); return; }
+  if (isRecording()) { notify('Сначала останови запись.'); done(); return; }
   const base = language.toLowerCase().split('-')[0];
   const voices = engine.getVoices();
   const voice = voices.find(item => item.lang.toLowerCase() === language.toLowerCase())
     ?? voices.find(item => item.lang.toLowerCase().split(/[-_]/)[0] === base);
-  if (voices.length && !voice) { notify('В устройстве нет голоса для этого языка.'); return; }
+  if (voices.length && !voice) { notify('В устройстве нет голоса для этого языка.'); done(); return; }
   stopSpeaking();
   const version = speechVersion;
   const pieces = speechPieces(text, language);
   function play(index) {
-    if (version !== speechVersion || index >= pieces.length) return;
+    if (version !== speechVersion) return;
+    if (index >= pieces.length) { done(); return; }
     const utterance = new SpeechSynthesisUtterance(pieces[index]);
     if (voice) utterance.voice = voice;
     utterance.lang = language;
@@ -142,6 +143,7 @@ export function speak(text, language, slow, notify) {
       if (version === speechVersion && !['canceled', 'interrupted'].includes(event.error)) {
         notify('Не удалось озвучить текст выбранным голосом.');
       }
+      if (version === speechVersion) done();
     };
     engine.speak(utterance);
   }
