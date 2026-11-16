@@ -65,11 +65,18 @@ export function parseChatPackage(text) {
     title: field(data.topic?.title, 'topic.title', 90, true),
     prompt: field(data.topic?.prompt, 'topic.prompt', 4000)
   };
-  const words = list(data.words, 'words', 150).map(word => ({
-    title: field(word.title, 'word.title', 300, true),
-    meaning: field(word.meaning, 'word.meaning', 2000),
-    example: field(word.example, 'word.example', 8000)
-  }));
+  const words = list(data.words, 'words', 150).map(word => {
+    const vocabularyLevel = field(word.vocabularyLevel, 'word.vocabularyLevel', 12);
+    if (vocabularyLevel && !['learning', 'passive', 'active'].includes(vocabularyLevel)) {
+      throw new Error('Неизвестный статус слова: ' + vocabularyLevel);
+    }
+    return {
+      title: field(word.title, 'word.title', 300, true),
+      meaning: field(word.meaning, 'word.meaning', 2000),
+      example: field(word.example, 'word.example', 8000),
+      ...(vocabularyLevel ? { vocabularyLevel } : {})
+    };
+  });
   const materials = list(data.materials, 'materials', 60).map(material => {
     if (!materialKinds.has(material.kind)) throw new Error('Неизвестный тип материала.');
     const title = field(material.title, 'material.title', 120, true);

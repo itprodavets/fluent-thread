@@ -1,0 +1,631 @@
+{
+  "format": "nit-rechi",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Волки, экосистемы и экодом · 16 ноября"
+  },
+  "words": [
+    {
+      "title": "top predator",
+      "meaning": "хищник на вершине пищевой цепи",
+      "example": "Wolves are top predators in this ecosystem."
+    },
+    {
+      "title": "food chain",
+      "meaning": "пищевая цепь",
+      "example": "Removing a species can disrupt the food chain."
+    },
+    {
+      "title": "food web",
+      "meaning": "пищевая сеть",
+      "example": "A food web shows how species depend on one another."
+    },
+    {
+      "title": "trophic cascade",
+      "meaning": "трофический каскад, цепная реакция по пищевой сети",
+      "example": "Reintroducing a top predator can trigger a trophic cascade."
+    },
+    {
+      "title": "bring about",
+      "meaning": "вызвать, привести к",
+      "example": "The policy brought about a change in animal behaviour."
+    },
+    {
+      "title": "lead to",
+      "meaning": "привести к",
+      "example": "Habitat loss can lead to a decline in biodiversity."
+    },
+    {
+      "title": "as a result of",
+      "meaning": "в результате чего-либо",
+      "example": "As a result of the change, the plants began to recover."
+    },
+    {
+      "title": "overlook",
+      "meaning": "упустить из виду",
+      "example": "People sometimes overlook the role of predators."
+    },
+    {
+      "title": "reintroduce",
+      "meaning": "вернуть вид в прежнюю среду обитания",
+      "example": "Scientists reintroduced wolves to the park."
+    },
+    {
+      "title": "restore the balance",
+      "meaning": "восстановить равновесие",
+      "example": "One measure alone may not restore the balance."
+    },
+    {
+      "title": "recover",
+      "meaning": "восстановиться",
+      "example": "Vegetation had time to recover."
+    },
+    {
+      "title": "biodiversity",
+      "meaning": "биологическое разнообразие",
+      "example": "Wetlands support a wide range of biodiversity."
+    },
+    {
+      "title": "endangered species",
+      "meaning": "вид под угрозой исчезновения",
+      "example": "We should protect endangered species before they disappear."
+    },
+    {
+      "title": "go extinct",
+      "meaning": "вымереть",
+      "example": "A species may go extinct if it loses its habitat."
+    },
+    {
+      "title": "bring a species back",
+      "meaning": "вернуть исчезнувший вид",
+      "example": "Would you bring an extinct species back if you could?"
+    },
+    {
+      "title": "unintended consequences",
+      "meaning": "непредвиденные последствия",
+      "example": "Reintroducing a species could have unintended consequences."
+    },
+    {
+      "title": "vertical forest",
+      "meaning": "вертикальный лес, озеленённое здание",
+      "example": "A vertical forest can create shade in a dense city."
+    },
+    {
+      "title": "locally sourced bamboo",
+      "meaning": "бамбук местного происхождения",
+      "example": "The builders used locally sourced bamboo."
+    },
+    {
+      "title": "solar panel",
+      "meaning": "солнечная панель",
+      "example": "Solar panels can generate electricity for the house."
+    },
+    {
+      "title": "wind turbine",
+      "meaning": "ветротурбина, ветрогенератор",
+      "example": "A wind turbine generates power when the wind is strong enough."
+    },
+    {
+      "title": "thermostat",
+      "meaning": "термостат, регулятор температуры",
+      "example": "Turn down the thermostat by one degree."
+    },
+    {
+      "title": "smart meter",
+      "meaning": "умный счётчик",
+      "example": "A smart meter shows how much energy we use."
+    },
+    {
+      "title": "insulation",
+      "meaning": "теплоизоляция; неисчисляемое",
+      "example": "Better insulation cuts heat loss."
+    },
+    {
+      "title": "insulate",
+      "meaning": "утеплить, теплоизолировать",
+      "example": "We insulated the roof before winter."
+    },
+    {
+      "title": "double glazing",
+      "meaning": "двойное остекление",
+      "example": "Double glazing helps keep heat inside."
+    },
+    {
+      "title": "underfloor heating",
+      "meaning": "отопление под полом, тёплый пол",
+      "example": "Underfloor heating spreads warmth across the room."
+    },
+    {
+      "title": "water butt",
+      "meaning": "бочка для сбора дождевой воды, BrE",
+      "example": "A water butt collects rainwater from the roof."
+    },
+    {
+      "title": "compost heap",
+      "meaning": "компостная куча",
+      "example": "Put vegetable scraps on the compost heap."
+    },
+    {
+      "title": "energy-efficient light bulb",
+      "meaning": "энергоэффективная лампочка",
+      "example": "We replaced all the old bulbs with energy-efficient light bulbs."
+    },
+    {
+      "title": "heat loss",
+      "meaning": "потеря тепла",
+      "example": "Start by finding where the house has the most heat loss."
+    },
+    {
+      "title": "trade-off",
+      "meaning": "компромисс между преимуществами и затратами",
+      "example": "There is a trade-off between installation cost and long-term savings."
+    },
+    {
+      "title": "cut energy bills",
+      "meaning": "снизить счета за электроэнергию",
+      "example": "Insulating the loft could cut our energy bills."
+    },
+    {
+      "title": "go over the answers",
+      "meaning": "вместе разобрать ответы",
+      "example": "Let's go over the answers in the main room."
+    },
+    {
+      "title": "justify your answer",
+      "meaning": "обосновать ответ",
+      "example": "Find one sentence in the article to justify your answer."
+    },
+    {
+      "title": "I'm a little behind",
+      "meaning": "я немного отстал / не успеваю",
+      "example": "Could you share the screenshot? I'm a little behind."
+    },
+    {
+      "title": "upfront cost",
+      "meaning": "первоначальные затраты",
+      "example": "The upfront cost is high, but the upgrade may pay for itself."
+    },
+    {
+      "title": "listen for gist",
+      "meaning": "слушать, чтобы понять общий смысл",
+      "example": "Listen for gist first, then listen again for detail."
+    },
+    {
+      "title": "listen for detail",
+      "meaning": "слушать, чтобы уловить конкретные детали",
+      "example": "This time, listen for detail and write down the numbers."
+    },
+    {
+      "title": "be fed up with",
+      "meaning": "устать от чего-то, быть по горло сытым",
+      "example": "He was fed up with throwing away so much food."
+    },
+    {
+      "title": "cut down on",
+      "meaning": "сократить потребление или количество",
+      "example": "Taking shorter showers can help cut down on water use."
+    },
+    {
+      "title": "switch off automatically",
+      "meaning": "выключаться автоматически",
+      "example": "The shower switches off automatically to save water."
+    },
+    {
+      "title": "rooftop beehive",
+      "meaning": "улей на крыше",
+      "example": "The interview mentions a rooftop beehive."
+    },
+    {
+      "title": "drizzle over",
+      "meaning": "полить тонкой струйкой",
+      "example": "Drizzle a little honey over the pancakes."
+    },
+    {
+      "title": "Could you send me a screenshot?",
+      "meaning": "не мог бы ты прислать скриншот?",
+      "example": "I can’t see the question. Could you send me a screenshot?"
+    },
+    {
+      "title": "Where did you find the evidence?",
+      "meaning": "где ты нашёл подтверждение?",
+      "example": "Where did you find the evidence for number four?"
+    },
+    {
+      "title": "Could you read the clue out loud?",
+      "meaning": "можешь прочитать подсказку вслух?",
+      "example": "Could you read the clue out loud so we can check it together?"
+    },
+    {
+      "title": "a wider range of",
+      "meaning": "более широкий ассортимент или разнообразие",
+      "example": "A wider range of plants began to grow again."
+    },
+    {
+      "title": "in turn",
+      "meaning": "в свою очередь",
+      "example": "The plants recovered, which in turn helped strengthen the riverbanks."
+    },
+    {
+      "title": "keep an eye on",
+      "meaning": "следить за",
+      "example": "A smart meter helps us keep an eye on our electricity use."
+    },
+    {
+      "title": "throw out",
+      "meaning": "выбрасывать",
+      "example": "We throw out less food when we plan our meals."
+    },
+    {
+      "title": "use up",
+      "meaning": "израсходовать до конца",
+      "example": "Let’s use up the food in the fridge before we shop again."
+    },
+    {
+      "title": "I’m not too keen on that idea",
+      "meaning": "я не в восторге от этой идеи",
+      "example": "I’m not too keen on that idea. Could we try a cheaper option first?"
+    },
+    {
+      "title": "have something installed",
+      "meaning": "заказать установку чего-либо",
+      "example": "We’re having a new shower installed next week."
+    },
+    {
+      "title": "be worth installing",
+      "meaning": "иметь смысл установить",
+      "example": "Would solar panels be worth installing on a shaded roof?"
+    },
+    {
+      "title": "It depends on how much…",
+      "meaning": "всё зависит от того, сколько…",
+      "example": "It depends on how much electricity we use at peak times."
+    },
+    {
+      "title": "get something done",
+      "meaning": "организовать, чтобы что-то сделали",
+      "example": "We need to get the walls insulated before winter."
+    },
+    {
+      "title": "get back to the main room",
+      "meaning": "вернуться в общий зал",
+      "example": "Let’s compare answers before we get back to the main room."
+    },
+    {
+      "title": "elk",
+      "meaning": "вапити, североамериканский олень в контексте Yellowstone",
+      "example": "The article describes how the elk population changed."
+    },
+    {
+      "title": "die out",
+      "meaning": "исчезнуть, вымереть",
+      "example": "The wolves began to die out in the area."
+    },
+    {
+      "title": "native plants",
+      "meaning": "местные виды растений",
+      "example": "Native plants began to grow again."
+    },
+    {
+      "title": "regrowth",
+      "meaning": "возобновившийся рост, отрастание",
+      "example": "The regrowth of plants helped stabilise the riverbanks."
+    },
+    {
+      "title": "riverbank",
+      "meaning": "берег реки",
+      "example": "Vegetation can help hold soil in place along a riverbank."
+    },
+    {
+      "title": "strengthen",
+      "meaning": "укреплять, усиливать",
+      "example": "Plant roots can help strengthen the riverbanks."
+    },
+    {
+      "title": "slow the expansion of",
+      "meaning": "замедлить рост или распространение",
+      "example": "The article says the wolves slowed the expansion of the elk population."
+    },
+    {
+      "title": "the fittest",
+      "meaning": "наиболее приспособленные особи",
+      "example": "In evolutionary contexts, the fittest are best suited to their environment."
+    },
+    {
+      "title": "thermometer",
+      "meaning": "термометр",
+      "example": "A thermometer measures temperature."
+    },
+    {
+      "title": "water wastage",
+      "meaning": "напрасный расход воды",
+      "example": "A timer can help reduce water wastage in the shower."
+    },
+    {
+      "title": "beehive",
+      "meaning": "улей",
+      "example": "The building has a beehive on its roof."
+    },
+    {
+      "title": "clue",
+      "meaning": "подсказка, ключ к ответу",
+      "example": "The clue mentions a device that controls temperature."
+    },
+    {
+      "title": "overgrazing",
+      "meaning": "чрезмерный выпас",
+      "example": "Overgrazing can prevent young plants from recovering."
+    },
+    {
+      "title": "erosion",
+      "meaning": "эрозия, размывание",
+      "example": "Plant cover can help reduce soil erosion."
+    }
+  ],
+  "materials": [
+    {
+      "kind": "dialogue",
+      "title": "Пищевая цепь и возвращение волков · B1",
+      "text": "Teacher: What happens if wolves disappear?\nLearner: Other animals can become more common, and some plants may disappear.\nTeacher: Can putting the wolves back help?\nLearner: It can help the plants recover and restore the balance.\nPartner: Where did you find that in the article?\nLearner: In the second paragraph. Let’s read that sentence again."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Пищевая цепь и возвращение волков · B2",
+      "text": "Teacher: Why are wolves important in the food web?\nLearner: As top predators, they can influence how other animals behave. That can affect the vegetation further down the food web.\nPartner: Would you call that a trophic cascade?\nLearner: Yes. The reintroduction of one species can set off a chain reaction.\nTeacher: Can you justify your answer with evidence from the text?\nLearner: The author describes how vegetation had time to recover."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Пищевая цепь и возвращение волков · C1",
+      "text": "Teacher: Is the effect limited to the prey population?\nLearner: The article links the reintroduction of wolves to changes in where prey feed, which may allow some vegetation to recover.\nPartner: Does that prove that the wolves caused every change in the park?\nLearner: I’d be cautious about that. The timing supports a link, but other influences may have played a part.\nTeacher: Summarise it in one sentence.\nLearner: Restoring a top predator can trigger a trophic cascade, with effects across the wider food web."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Какой вид ты вернул бы · B1",
+      "text": "Partner: If you could bring back one extinct animal, which would you choose?\nLearner: I’d choose Steller’s sea cow. I’d like to see how it lived.\nPartner: Where could it live now?\nLearner: It would need a safe place to live and enough food.\nPartner: What about animals that are in danger today?\nLearner: We should protect them before they disappear."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Какой вид ты вернул бы · B2",
+      "text": "Teacher: Which extinct species would you bring back, and why?\nLearner: I’d consider Steller’s sea cow, but only if we could provide a suitable habitat.\nPartner: Could bringing it back affect other species?\nLearner: It could. I’d want to know what it would eat and how the ecosystem has changed.\nTeacher: What’s the alternative?\nLearner: Invest in protecting endangered species that still have a chance to recover."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Какой вид ты вернул бы · C1",
+      "text": "Teacher: If bringing a species back were feasible, what would determine your choice?\nLearner: I’d weigh the potential ecological benefits against the risk of unintended consequences. A species can return only if the conditions it needs still exist.\nPartner: Would you prioritise a famous extinct species?\nLearner: I’d be more inclined to restore the habitat of a species already under threat. We have a clearer idea of what it needs and more opportunities to intervene."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Экодом и полезные технологии · B1",
+      "text": "Partner: What would you change in your home?\nLearner: I’d use better insulation and change the old light bulbs.\nPartner: What about solar panels?\nLearner: I’d like solar panels, but first I’d check whether the roof gets enough sun.\nPartner: What can you do with rainwater?\nLearner: You can collect it in a water butt and use it in the garden."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Экодом и полезные технологии · B2",
+      "text": "Teacher: How could a house be designed to use less energy?\nLearner: I’d start with insulation and double glazing. A smart meter could show whether the changes actually reduce energy use.\nPartner: Would you install underfloor heating as well?\nLearner: It depends on the building. In an existing home, changing the thermostat and reducing heat loss might be more practical.\nTeacher: Give an example of a sustainable material.\nLearner: Builders could use locally sourced bamboo where it meets the design requirements."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Экодом и полезные технологии · C1",
+      "text": "Teacher: Which improvements would you prioritise if the budget were limited?\nLearner: I’d start by locating the main sources of heat loss, then upgrade insulation or glazing where it would have the biggest impact.\nPartner: Would you invest in a smart shower or solar panels straight away?\nLearner: I’d compare the upfront cost with the potential savings. A smart shower could cut water use, while the value of solar panels would depend on the roof and local conditions.\nTeacher: What is your principle?\nLearner: Measure actual consumption, address avoidable losses, then decide which equipment is worth installing."
+    },
+    {
+      "kind": "dialogue",
+      "title": "В малой группе: уточнить и обосновать · B1",
+      "text": "Partner: What did you put for number three?\nLearner: I put underfloor heating.\nPartner: Why?\nLearner: It heats the room from below the floor.\nPartner: And number four?\nLearner: An energy-efficient light bulb. Could you send me the picture again?"
+    },
+    {
+      "kind": "dialogue",
+      "title": "В малой группе: уточнить и обосновать · B2",
+      "text": "Partner: Can we compare our answers before we go back?\nLearner: Sure. For number three I put underfloor heating, because the clue refers to heat rising from the floor.\nPartner: What did you put for number four?\nLearner: An energy-efficient light bulb. I missed number five. Could you read the clue out loud?\nPartner: I think it refers to collecting rainwater.\nLearner: Then a water butt makes sense."
+    },
+    {
+      "kind": "dialogue",
+      "title": "В малой группе: уточнить и обосновать · C1",
+      "text": "Partner: How did you distinguish the thermostat from the smart meter?\nLearner: The key distinction is that a thermostat regulates temperature, whereas a smart meter measures energy use.\nPartner: The clue for the next one could mean two things.\nLearner: Could you read it word for word? Let’s check which interpretation the wording actually supports.\nPartner: Shall we take our answer back to the main room?\nLearner: Yes. Let’s explain the reasoning as well as giving the answer."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Радиоинтервью: первое и второе прослушивание · B1",
+      "text": "Teacher: What is the interview about?\nLearner: It’s about a man who wants to use less energy at home.\nTeacher: Why did he start making changes?\nLearner: His first energy bill was much higher than he expected.\nTeacher: What does his new shower do?\nLearner: It switches off automatically to save water."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Радиоинтервью: первое и второе прослушивание · B2",
+      "text": "Teacher: What did you get from the first listen?\nLearner: The speaker started with simple changes after receiving a surprisingly high bill. Later he installed equipment that reduced energy and water use.\nPartner: What detail did you miss?\nLearner: I heard the part about a smart fridge, but I missed the exact figure for the solar panels. Could we listen to that section again?\nTeacher: What does the fridge do?\nLearner: It suggests meals based on the food he already has, so he throws less away."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Радиоинтервью: первое и второе прослушивание · C1",
+      "text": "Teacher: How would you separate the main argument from the examples?\nLearner: The main point is that a high bill prompted the speaker to examine how his household used energy. The bulbs, solar panels and shower illustrate different ways of reducing waste.\nPartner: How certain are you about the figures?\nLearner: I’d verify those on the second listen. I’m confident about the reason for the changes, but not about the proportion of electricity the panels supply."
+    },
+    {
+      "kind": "exercise",
+      "title": "Причина → результат",
+      "prompt": "Объясни эффект реинтродукции волков в трёх предложениях. Используй lead to, as a result и trophic cascade.",
+      "answer": "Reintroducing wolves can lead to changes in the behaviour of other animals. As a result, some vegetation may recover. This kind of chain reaction is called a trophic cascade."
+    },
+    {
+      "kind": "exercise",
+      "title": "Четыре предмета экодома",
+      "prompt": "Объясни разницу между thermostat, smart meter, insulation и double glazing. Для каждого дай пример.",
+      "answer": "A thermostat controls the temperature. A smart meter measures energy use. Insulation slows heat loss. Double glazing uses two panes of glass to reduce heat loss through windows."
+    },
+    {
+      "kind": "exercise",
+      "title": "Выбор с оговоркой",
+      "prompt": "Предложи одно экологическое улучшение и назови возможный минус. Затем спроси партнёра, согласен ли он.",
+      "answer": "I'd improve the insulation first because it could cut heat loss and reduce energy bills. The drawback is the upfront cost. Would you make the same choice?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Аудирование: уверен / нужно проверить",
+      "prompt": "Прочитай пересказ интервью. Назови одну деталь, которую можешь объяснить, и одну, для которой попросишь повторить аудио.",
+      "answer": "I’m confident that the high bill prompted him to make changes. I’d like to listen again to check the exact figure for electricity generated by the solar panels."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Пищевая цепь и возвращение волков · B1",
+      "text": "Teacher: What happens if wolves disappear?\nLearner: Other animals can become more common, and some plants may disappear.\nTeacher: Can putting the wolves back help?\nLearner: It can help the plants recover and restore the balance.\nPartner: Where did you find that in the article?\nLearner: In the second paragraph. Let’s read that sentence again.\n\nПисьменное задание\nWhy does the learner suggest reading the article again?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: What happens if wolves disappear?\nLearner: Other animals can become more common, and some plants may disappear.\nTeacher: Can putting the wolves back help?\nLearner: It can help the plants recover and restore the balance.\nPartner: Where did you find that in the article?\nLearner: In the second paragraph. Let’s read that sentence again.\n\nПисьменное задание\nWhy does the learner suggest reading the article again?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "To check the evidence in the second paragraph."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Пищевая цепь и возвращение волков · B2",
+      "text": "Teacher: Why are wolves important in the food web?\nLearner: As top predators, they can influence how other animals behave. That can affect the vegetation further down the food web.\nPartner: Would you call that a trophic cascade?\nLearner: Yes. The reintroduction of one species can set off a chain reaction.\nTeacher: Can you justify your answer with evidence from the text?\nLearner: The author describes how vegetation had time to recover.\n\nПисьменное задание\nExplain ‘a trophic cascade’ using the example from the dialogue.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Why are wolves important in the food web?\nLearner: As top predators, they can influence how other animals behave. That can affect the vegetation further down the food web.\nPartner: Would you call that a trophic cascade?\nLearner: Yes. The reintroduction of one species can set off a chain reaction.\nTeacher: Can you justify your answer with evidence from the text?\nLearner: The author describes how vegetation had time to recover.\n\nПисьменное задание\nExplain ‘a trophic cascade’ using the example from the dialogue.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "When wolves return, they can change how other animals behave. That can allow vegetation to recover."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Пищевая цепь и возвращение волков · C1",
+      "text": "Teacher: Is the effect limited to the prey population?\nLearner: The article links the reintroduction of wolves to changes in where prey feed, which may allow some vegetation to recover.\nPartner: Does that prove that the wolves caused every change in the park?\nLearner: I’d be cautious about that. The timing supports a link, but other influences may have played a part.\nTeacher: Summarise it in one sentence.\nLearner: Restoring a top predator can trigger a trophic cascade, with effects across the wider food web.\n\nПисьменное задание\nWrite two sentences summarising the article while qualifying the claim about wolves.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Is the effect limited to the prey population?\nLearner: The article links the reintroduction of wolves to changes in where prey feed, which may allow some vegetation to recover.\nPartner: Does that prove that the wolves caused every change in the park?\nLearner: I’d be cautious about that. The timing supports a link, but other influences may have played a part.\nTeacher: Summarise it in one sentence.\nLearner: Restoring a top predator can trigger a trophic cascade, with effects across the wider food web.\n\nПисьменное задание\nWrite two sentences summarising the article while qualifying the claim about wolves.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "The article links wolf reintroduction to changes in where prey feed and to vegetation recovery. The timing suggests a link, although other influences may have contributed."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Какой вид ты вернул бы · B1",
+      "text": "Partner: If you could bring back one extinct animal, which would you choose?\nLearner: I’d choose Steller’s sea cow. I’d like to see how it lived.\nPartner: Where could it live now?\nLearner: It would need a safe place to live and enough food.\nPartner: What about animals that are in danger today?\nLearner: We should protect them before they disappear.\n\nПисьменное задание\nWhich animal does the learner choose, and what would it need?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: If you could bring back one extinct animal, which would you choose?\nLearner: I’d choose Steller’s sea cow. I’d like to see how it lived.\nPartner: Where could it live now?\nLearner: It would need a safe place to live and enough food.\nPartner: What about animals that are in danger today?\nLearner: We should protect them before they disappear.\n\nПисьменное задание\nWhich animal does the learner choose, and what would it need?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He chooses Steller’s sea cow. It would need a safe place to live and enough food."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Какой вид ты вернул бы · B2",
+      "text": "Teacher: Which extinct species would you bring back, and why?\nLearner: I’d consider Steller’s sea cow, but only if we could provide a suitable habitat.\nPartner: Could bringing it back affect other species?\nLearner: It could. I’d want to know what it would eat and how the ecosystem has changed.\nTeacher: What’s the alternative?\nLearner: Invest in protecting endangered species that still have a chance to recover.\n\nПисьменное задание\nGive one condition for bringing back the sea cow and one alternative.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Which extinct species would you bring back, and why?\nLearner: I’d consider Steller’s sea cow, but only if we could provide a suitable habitat.\nPartner: Could bringing it back affect other species?\nLearner: It could. I’d want to know what it would eat and how the ecosystem has changed.\nTeacher: What’s the alternative?\nLearner: Invest in protecting endangered species that still have a chance to recover.\n\nПисьменное задание\nGive one condition for bringing back the sea cow and one alternative.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "The sea cow would need a suitable habitat. An alternative is to protect endangered species that can still recover."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Какой вид ты вернул бы · C1",
+      "text": "Teacher: If bringing a species back were feasible, what would determine your choice?\nLearner: I’d weigh the potential ecological benefits against the risk of unintended consequences. A species can return only if the conditions it needs still exist.\nPartner: Would you prioritise a famous extinct species?\nLearner: I’d be more inclined to restore the habitat of a species already under threat. We have a clearer idea of what it needs and more opportunities to intervene.\n\nПисьменное задание\nExplain why the learner would prioritise a threatened species. Use ‘weigh … against’.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: If bringing a species back were feasible, what would determine your choice?\nLearner: I’d weigh the potential ecological benefits against the risk of unintended consequences. A species can return only if the conditions it needs still exist.\nPartner: Would you prioritise a famous extinct species?\nLearner: I’d be more inclined to restore the habitat of a species already under threat. We have a clearer idea of what it needs and more opportunities to intervene.\n\nПисьменное задание\nExplain why the learner would prioritise a threatened species. Use ‘weigh … against’.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "I’d weigh the benefits of bringing back an extinct species against the risk of unintended consequences. With a threatened species, we know more about its needs and can act sooner."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Экодом и полезные технологии · B1",
+      "text": "Partner: What would you change in your home?\nLearner: I’d use better insulation and change the old light bulbs.\nPartner: What about solar panels?\nLearner: I’d like solar panels, but first I’d check whether the roof gets enough sun.\nPartner: What can you do with rainwater?\nLearner: You can collect it in a water butt and use it in the garden.\n\nПисьменное задание\nWhat does the learner want to check before getting solar panels? How could he use rainwater?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: What would you change in your home?\nLearner: I’d use better insulation and change the old light bulbs.\nPartner: What about solar panels?\nLearner: I’d like solar panels, but first I’d check whether the roof gets enough sun.\nPartner: What can you do with rainwater?\nLearner: You can collect it in a water butt and use it in the garden.\n\nПисьменное задание\nWhat does the learner want to check before getting solar panels? How could he use rainwater?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He wants to check whether the roof gets enough sun. He could collect rainwater and use it in the garden."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Экодом и полезные технологии · B2",
+      "text": "Teacher: How could a house be designed to use less energy?\nLearner: I’d start with insulation and double glazing. A smart meter could show whether the changes actually reduce energy use.\nPartner: Would you install underfloor heating as well?\nLearner: It depends on the building. In an existing home, changing the thermostat and reducing heat loss might be more practical.\nTeacher: Give an example of a sustainable material.\nLearner: Builders could use locally sourced bamboo where it meets the design requirements.\n\nПисьменное задание\nWhy would the learner use a smart meter? What could be simpler than adding underfloor heating?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: How could a house be designed to use less energy?\nLearner: I’d start with insulation and double glazing. A smart meter could show whether the changes actually reduce energy use.\nPartner: Would you install underfloor heating as well?\nLearner: It depends on the building. In an existing home, changing the thermostat and reducing heat loss might be more practical.\nTeacher: Give an example of a sustainable material.\nLearner: Builders could use locally sourced bamboo where it meets the design requirements.\n\nПисьменное задание\nWhy would the learner use a smart meter? What could be simpler than adding underfloor heating?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He could use a smart meter to see whether the changes save energy. Adjusting the thermostat and reducing heat loss could be more practical."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Экодом и полезные технологии · C1",
+      "text": "Teacher: Which improvements would you prioritise if the budget were limited?\nLearner: I’d start by locating the main sources of heat loss, then upgrade insulation or glazing where it would have the biggest impact.\nPartner: Would you invest in a smart shower or solar panels straight away?\nLearner: I’d compare the upfront cost with the potential savings. A smart shower could cut water use, while the value of solar panels would depend on the roof and local conditions.\nTeacher: What is your principle?\nLearner: Measure actual consumption, address avoidable losses, then decide which equipment is worth installing.\n\nПисьменное задание\nWrite a short recommendation for a homeowner on a limited budget. Explain how to decide which upgrade comes first.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Which improvements would you prioritise if the budget were limited?\nLearner: I’d start by locating the main sources of heat loss, then upgrade insulation or glazing where it would have the biggest impact.\nPartner: Would you invest in a smart shower or solar panels straight away?\nLearner: I’d compare the upfront cost with the potential savings. A smart shower could cut water use, while the value of solar panels would depend on the roof and local conditions.\nTeacher: What is your principle?\nLearner: Measure actual consumption, address avoidable losses, then decide which equipment is worth installing.\n\nПисьменное задание\nWrite a short recommendation for a homeowner on a limited budget. Explain how to decide which upgrade comes first.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "I’d identify the main sources of heat loss and prioritise the upgrade with the biggest likely impact. Then I’d compare the upfront cost of equipment with the expected savings."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В малой группе: уточнить и обосновать · B1",
+      "text": "Partner: What did you put for number three?\nLearner: I put underfloor heating.\nPartner: Why?\nLearner: It heats the room from below the floor.\nPartner: And number four?\nLearner: An energy-efficient light bulb. Could you send me the picture again?\n\nПисьменное задание\nWhat did the learner put for number three? Write the question he uses to ask for the picture again.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: What did you put for number three?\nLearner: I put underfloor heating.\nPartner: Why?\nLearner: It heats the room from below the floor.\nPartner: And number four?\nLearner: An energy-efficient light bulb. Could you send me the picture again?\n\nПисьменное задание\nWhat did the learner put for number three? Write the question he uses to ask for the picture again.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He put underfloor heating. ‘Could you send me the picture again?’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В малой группе: уточнить и обосновать · B2",
+      "text": "Partner: Can we compare our answers before we go back?\nLearner: Sure. For number three I put underfloor heating, because the clue refers to heat rising from the floor.\nPartner: What did you put for number four?\nLearner: An energy-efficient light bulb. I missed number five. Could you read the clue out loud?\nPartner: I think it refers to collecting rainwater.\nLearner: Then a water butt makes sense.\n\nПисьменное задание\nExplain why ‘a water butt’ fits number five. Then politely ask your partner to repeat the clue.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: Can we compare our answers before we go back?\nLearner: Sure. For number three I put underfloor heating, because the clue refers to heat rising from the floor.\nPartner: What did you put for number four?\nLearner: An energy-efficient light bulb. I missed number five. Could you read the clue out loud?\nPartner: I think it refers to collecting rainwater.\nLearner: Then a water butt makes sense.\n\nПисьменное задание\nExplain why ‘a water butt’ fits number five. Then politely ask your partner to repeat the clue.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "The clue refers to collecting rainwater, so a water butt makes sense. Could you read the clue out loud once more?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В малой группе: уточнить и обосновать · C1",
+      "text": "Partner: How did you distinguish the thermostat from the smart meter?\nLearner: The key distinction is that a thermostat regulates temperature, whereas a smart meter measures energy use.\nPartner: The clue for the next one could mean two things.\nLearner: Could you read it word for word? Let’s check which interpretation the wording actually supports.\nPartner: Shall we take our answer back to the main room?\nLearner: Yes. Let’s explain the reasoning as well as giving the answer.\n\nПисьменное задание\nWrite a two-sentence report for the main room. Distinguish a thermostat from a smart meter and explain how you would resolve an ambiguous clue.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: How did you distinguish the thermostat from the smart meter?\nLearner: The key distinction is that a thermostat regulates temperature, whereas a smart meter measures energy use.\nPartner: The clue for the next one could mean two things.\nLearner: Could you read it word for word? Let’s check which interpretation the wording actually supports.\nPartner: Shall we take our answer back to the main room?\nLearner: Yes. Let’s explain the reasoning as well as giving the answer.\n\nПисьменное задание\nWrite a two-sentence report for the main room. Distinguish a thermostat from a smart meter and explain how you would resolve an ambiguous clue.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "A thermostat regulates temperature, whereas a smart meter measures energy use. If the clue has two possible meanings, we’d read it word for word and explain which interpretation it supports."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Радиоинтервью: первое и второе прослушивание · B1",
+      "text": "Teacher: What is the interview about?\nLearner: It’s about a man who wants to use less energy at home.\nTeacher: Why did he start making changes?\nLearner: His first energy bill was much higher than he expected.\nTeacher: What does his new shower do?\nLearner: It switches off automatically to save water.\n\nПисьменное задание\nWhat made the man change things at home? What does the shower do?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: What is the interview about?\nLearner: It’s about a man who wants to use less energy at home.\nTeacher: Why did he start making changes?\nLearner: His first energy bill was much higher than he expected.\nTeacher: What does his new shower do?\nLearner: It switches off automatically to save water.\n\nПисьменное задание\nWhat made the man change things at home? What does the shower do?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "His energy bill was higher than expected. The shower switches off automatically to save water."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Радиоинтервью: первое и второе прослушивание · B2",
+      "text": "Teacher: What did you get from the first listen?\nLearner: The speaker started with simple changes after receiving a surprisingly high bill. Later he installed equipment that reduced energy and water use.\nPartner: What detail did you miss?\nLearner: I heard the part about a smart fridge, but I missed the exact figure for the solar panels. Could we listen to that section again?\nTeacher: What does the fridge do?\nLearner: It suggests meals based on the food he already has, so he throws less away.\n\nПисьменное задание\nSummarise what prompted the changes and what the fridge does. Which information does the learner still need to verify?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: What did you get from the first listen?\nLearner: The speaker started with simple changes after receiving a surprisingly high bill. Later he installed equipment that reduced energy and water use.\nPartner: What detail did you miss?\nLearner: I heard the part about a smart fridge, but I missed the exact figure for the solar panels. Could we listen to that section again?\nTeacher: What does the fridge do?\nLearner: It suggests meals based on the food he already has, so he throws less away.\n\nПисьменное задание\nSummarise what prompted the changes and what the fridge does. Which information does the learner still need to verify?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "A surprisingly high energy bill prompted the changes. The fridge suggests meals based on food he already has, and the learner still needs to check the exact figure for the solar panels."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Радиоинтервью: первое и второе прослушивание · C1",
+      "text": "Teacher: How would you separate the main argument from the examples?\nLearner: The main point is that a high bill prompted the speaker to examine how his household used energy. The bulbs, solar panels and shower illustrate different ways of reducing waste.\nPartner: How certain are you about the figures?\nLearner: I’d verify those on the second listen. I’m confident about the reason for the changes, but not about the proportion of electricity the panels supply.\n\nПисьменное задание\nSummarise the main point in one sentence. In a second sentence, distinguish an example from a detail that still needs verification.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: How would you separate the main argument from the examples?\nLearner: The main point is that a high bill prompted the speaker to examine how his household used energy. The bulbs, solar panels and shower illustrate different ways of reducing waste.\nPartner: How certain are you about the figures?\nLearner: I’d verify those on the second listen. I’m confident about the reason for the changes, but not about the proportion of electricity the panels supply.\n\nПисьменное задание\nSummarise the main point in one sentence. In a second sentence, distinguish an example from a detail that still needs verification.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "A high bill prompted the speaker to review his household’s energy use. The solar panels are one example of his response, but their exact contribution still needs checking."
+    },
+    {
+      "kind": "exercise",
+      "title": "Волки в Йеллоустоне · шесть утверждений",
+      "prompt": "Слайд «Reading for details», по разбору в записи 00:14–00:26. Отметь True / False и оправдай каждый ответ по-английски. Формулировки ниже адаптированы со слайда.\n\n1. Wolves began to disappear because they ran out of elk to hunt.\n2. The rise in elk numbers affected the rest of the ecosystem.\n3. The elk population grew because wolves returned.\n4. The article says returning wolves helped improve the health of the elk population.\n5. More types of plants grew again as wolf numbers increased.\n6. Plant regrowth contributed to the rivers becoming deeper.",
+      "answer": "1 False — the article says wolves were hunted.\n2 True — the expanding elk population affected the wider ecosystem.\n3 False — wolves slowed the expansion of the elk population.\n4 True — the article links predation to the overall health of the elk population.\n5 True — native plants had time to recover.\n6 True — the article associates regrowth with stronger riverbanks and deeper rivers.\nЭто ключ к тексту урока. Для осторожного пересказа используй the article suggests / links X to Y."
+    },
+    {
+      "kind": "exercise",
+      "title": "Экодом · объясни шесть устройств без перевода",
+      "prompt": "Match each job to the right term, then explain the difference between three devices in your own words.\n\n1. Measures temperature. 2. Controls heating to maintain a chosen temperature. 3. Measures energy use. 4. Lets you collect rainwater. 5. Slows heat loss through walls. 6. Cuts water use by switching off after a limit.\n\nthermostat / smart shower / water butt / insulation / thermometer / smart meter",
+      "answer": "1 thermometer, 2 thermostat, 3 smart meter, 4 water butt, 5 insulation, 6 smart shower.\nA thermometer measures temperature, a thermostat controls it, and a smart meter tracks energy use."
+    },
+    {
+      "kind": "exercise",
+      "title": "Радиоинтервью · холодильник, душ и счётчик",
+      "prompt": "Read this recap adapted from about 02:20. The speaker used to throw out a lot of food. His new fridge suggests meals based on what he already has. He is having a shower installed that switches off after a set amount of water has been used. A smart meter should help him keep an eye on energy use.\n\n1. What problem does the fridge address? 2. What triggers the shower to switch off? 3. What will the meter show? 4. Write one home improvement of your own using have something installed.",
+      "answer": "1 Food waste. 2 A preset amount of water has been used. 3 How much energy the household uses.\n4 Example: We’re having better insulation installed to cut heat loss."
+    },
+    {
+      "kind": "exercise",
+      "title": "Экодом · уложись в бюджет и предложи компромисс",
+      "prompt": "You have £5,000 to improve a flat. Choose two upgrades and explain which should happen first. Reject one option politely. Use upfront cost, be worth installing and I’m not too keen on that idea.",
+      "answer": "I’d measure heat loss first. Better insulation might be worth installing if it reduces our bills enough to justify the upfront cost. I’m not too keen on buying solar panels for a shaded roof. I’d install a smart meter first and use the readings to decide what to do next."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обоснуй ответ по тексту · B1",
+      "text": "Partner: Can you see number six?\nLearner: No. Could you send me a screenshot?\nPartner: It’s about the river.\nLearner: I found the answer. The plants grew back, and the banks became stronger."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обоснуй ответ по тексту · B2",
+      "text": "Partner: Why did you mark number six true?\nLearner: The paragraph says the plants recovered, which in turn strengthened the riverbanks.\nPartner: Could you read the clue out loud?\nLearner: Sure. Let’s compare our evidence before we get back to the main room."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обоснуй ответ по тексту · C1",
+      "text": "Partner: Does the text prove that wolves changed the rivers?\nLearner: The article describes a chain of events. It links the return of wolves to plant regrowth, which helped strengthen the riverbanks.\nPartner: How would you phrase that in a summary?\nLearner: I’d say the article links the changes, while leaving room for other contributing factors."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обоснуй ответ по тексту · B1",
+      "prompt": "Partner: Can you see number six?\nLearner: No. Could you send me a screenshot?\nPartner: It’s about the river.\nLearner: I found the answer. The plants grew back, and the banks became stronger.\n\nWhat was the group trying to answer? Ask your partner for help if you cannot see a slide.",
+      "answer": "They were trying to answer number six. Could you send me a screenshot?",
+      "text": "Partner: Can you see number six?\nLearner: No. Could you send me a screenshot?\nPartner: It’s about the river.\nLearner: I found the answer. The plants grew back, and the banks became stronger.\n\nWhat was the group trying to answer? Ask your partner for help if you cannot see a slide."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обоснуй ответ по тексту · B2",
+      "prompt": "Partner: Why did you mark number six true?\nLearner: The paragraph says the plants recovered, which in turn strengthened the riverbanks.\nPartner: Could you read the clue out loud?\nLearner: Sure. Let’s compare our evidence before we get back to the main room.\n\nGive one textual reason for the answer. Then ask your partner to verify it. Use in turn and clue.",
+      "answer": "The plants recovered, which in turn strengthened the riverbanks. Could you read the clue out loud so we can verify our answer?",
+      "text": "Partner: Why did you mark number six true?\nLearner: The paragraph says the plants recovered, which in turn strengthened the riverbanks.\nPartner: Could you read the clue out loud?\nLearner: Sure. Let’s compare our evidence before we get back to the main room.\n\nGive one textual reason for the answer. Then ask your partner to verify it. Use in turn and clue."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обоснуй ответ по тексту · C1",
+      "prompt": "Partner: Does the text prove that wolves changed the rivers?\nLearner: The article describes a chain of events. It links the return of wolves to plant regrowth, which helped strengthen the riverbanks.\nPartner: How would you phrase that in a summary?\nLearner: I’d say the article links the changes, while leaving room for other contributing factors.\n\nRewrite a claim that wolves definitely deepened the rivers. Attribute it to the text and explain what additional evidence might be needed.",
+      "answer": "The article links the return of wolves to changes in the rivers through plant regrowth. To establish causation more firmly, I’d want to know which other changes might explain the result.",
+      "text": "Partner: Does the text prove that wolves changed the rivers?\nLearner: The article describes a chain of events. It links the return of wolves to plant regrowth, which helped strengthen the riverbanks.\nPartner: How would you phrase that in a summary?\nLearner: I’d say the article links the changes, while leaving room for other contributing factors.\n\nRewrite a claim that wolves definitely deepened the rivers. Attribute it to the text and explain what additional evidence might be needed."
+    }
+  ]
+}

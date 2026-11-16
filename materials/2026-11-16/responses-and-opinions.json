@@ -1,0 +1,499 @@
+{
+  "format": "nit-rechi",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Короткие ответы, мнения и разговор о себе · 16 ноября"
+  },
+  "words": [
+    {
+      "title": "auxiliary verb",
+      "meaning": "вспомогательный глагол",
+      "example": "In ‘I do love it’, do is the auxiliary verb."
+    },
+    {
+      "title": "main verb",
+      "meaning": "смысловой глагол",
+      "example": "In ‘She does like it’, like is the main verb."
+    },
+    {
+      "title": "add emphasis",
+      "meaning": "добавить смысловое ударение, усилить",
+      "example": "Use do to add emphasis in ‘I do like your shoes’."
+    },
+    {
+      "title": "emphasise",
+      "meaning": "подчеркнуть, сделать акцент",
+      "example": "He emphasised the word ‘do’ when he answered."
+    },
+    {
+      "title": "avoid repetition",
+      "meaning": "избежать повторения",
+      "example": "Say ‘Yes, I have’ to avoid repeating the whole sentence."
+    },
+    {
+      "title": "short answer",
+      "meaning": "краткий ответ",
+      "example": "‘No, I didn’t’ is a short answer to a past-tense question."
+    },
+    {
+      "title": "question tag",
+      "meaning": "разделительный вопрос вроде isn't it?",
+      "example": "It’s going to cost a fortune, isn’t it?"
+    },
+    {
+      "title": "at all",
+      "meaning": "вообще, хоть сколько-нибудь; часто в вопросах и отрицаниях",
+      "example": "Have you seen Ben at all this week?"
+    },
+    {
+      "title": "cost a fortune",
+      "meaning": "стоить целое состояние",
+      "example": "Those shoes must have cost a fortune."
+    },
+    {
+      "title": "remember to do something",
+      "meaning": "не забыть сделать что-либо",
+      "example": "Remember to lock the back door."
+    },
+    {
+      "title": "remember doing something",
+      "meaning": "помнить, как уже делал что-либо",
+      "example": "I remember locking the door before we left."
+    },
+    {
+      "title": "chronologically",
+      "meaning": "в хронологическом порядке, по последовательности событий",
+      "example": "Which action happened first chronologically?"
+    },
+    {
+      "title": "be made of",
+      "meaning": "быть сделанным из материала",
+      "example": "These shoes are made of leather."
+    },
+    {
+      "title": "be made by",
+      "meaning": "быть изготовленным кем-либо или чем-либо",
+      "example": "The shoes were made by a local craftsperson."
+    },
+    {
+      "title": "what did you think of…?",
+      "meaning": "что тебе показалось, какое мнение о…?",
+      "example": "What did you think of the new film?"
+    },
+    {
+      "title": "I see what you mean",
+      "meaning": "понимаю твою мысль",
+      "example": "I see what you mean, but I felt differently about the ending."
+    },
+    {
+      "title": "I couldn't agree more",
+      "meaning": "полностью согласен",
+      "example": "I couldn't agree more. The ending did feel rushed."
+    },
+    {
+      "title": "I completely disagree",
+      "meaning": "я категорически не согласен",
+      "example": "I completely disagree with that interpretation."
+    },
+    {
+      "title": "questionnaire",
+      "meaning": "анкета, опросник",
+      "example": "The tutor asked us to complete a questionnaire."
+    },
+    {
+      "title": "what made it so good?",
+      "meaning": "что сделало это таким удачным?",
+      "example": "Think of a good class. What made it so good?"
+    },
+    {
+      "title": "go swimming",
+      "meaning": "ходить плавать",
+      "example": "I go swimming when I have some free time."
+    },
+    {
+      "title": "build apps",
+      "meaning": "разрабатывать приложения",
+      "example": "I enjoy building apps that solve everyday problems."
+    },
+    {
+      "title": "explore different cultures",
+      "meaning": "знакомиться с разными культурами",
+      "example": "Travelling gives me a chance to explore different cultures."
+    },
+    {
+      "title": "start learning again",
+      "meaning": "возобновить изучение",
+      "example": "I started learning English again in 2023."
+    },
+    {
+      "title": "form a sentence",
+      "meaning": "составить предложение",
+      "example": "I want to form sentences more quickly when I speak."
+    },
+    {
+      "title": "respond more naturally",
+      "meaning": "реагировать более естественно",
+      "example": "I want to respond more naturally in live conversations."
+    },
+    {
+      "title": "read aloud",
+      "meaning": "читать вслух",
+      "example": "I read aloud so I can work on my pronunciation."
+    },
+    {
+      "title": "outside the classroom",
+      "meaning": "вне занятий, вне класса",
+      "example": "I write in English outside the classroom when I message colleagues."
+    },
+    {
+      "title": "get your point across",
+      "meaning": "донести свою мысль",
+      "example": "I can get my point across even when I don't know the exact word."
+    },
+    {
+      "title": "practise speaking",
+      "meaning": "практиковаться в разговорной речи",
+      "example": "I try to practise speaking every day."
+    },
+    {
+      "title": "I really enjoyed today's lesson",
+      "meaning": "мне очень понравилось сегодняшнее занятие",
+      "example": "I really enjoyed today's lesson. Thanks for your feedback."
+    },
+    {
+      "title": "Thanks for coming",
+      "meaning": "спасибо, что пришли",
+      "example": "Thanks for coming. I’ll see you tomorrow."
+    },
+    {
+      "title": "Oh, are you?",
+      "meaning": "правда? короткая реакция на фразу с I am",
+      "example": "“I’m taking an evening class.” “Oh, are you?”"
+    },
+    {
+      "title": "It’s going to cost a fortune, isn’t it?",
+      "meaning": "это обойдётся в целое состояние, правда?",
+      "example": "It’s going to cost a fortune, isn’t it?"
+    },
+    {
+      "title": "Everyone seemed to like it",
+      "meaning": "похоже, всем это понравилось",
+      "example": "Everyone seemed to like it, but I found the pacing slow."
+    },
+    {
+      "title": "I can see why you liked it",
+      "meaning": "понимаю, почему тебе это понравилось",
+      "example": "I can see why you liked it. The effects were impressive."
+    },
+    {
+      "title": "What kind of films are you into?",
+      "meaning": "какие фильмы тебе нравятся?",
+      "example": "What kind of films are you into these days?"
+    },
+    {
+      "title": "I didn’t catch the last part",
+      "meaning": "я не расслышал последнюю часть",
+      "example": "I didn’t catch the last part. Could you repeat it?"
+    },
+    {
+      "title": "Could you be more specific?",
+      "meaning": "можешь привести более конкретный ответ?",
+      "example": "Could you be more specific about the feedback you need?"
+    },
+    {
+      "title": "give a concrete example",
+      "meaning": "привести конкретный пример",
+      "example": "Could you give a concrete example of when this happens?"
+    },
+    {
+      "title": "lose my train of thought",
+      "meaning": "потерять нить мысли",
+      "example": "I sometimes lose my train of thought when someone interrupts."
+    },
+    {
+      "title": "answer an unexpected question",
+      "meaning": "ответить на неожиданный вопрос",
+      "example": "I’d like to answer unexpected questions more naturally."
+    },
+    {
+      "title": "Thanks for a great first lesson",
+      "meaning": "спасибо за отличный первый урок",
+      "example": "Thanks for a great first lesson. I really enjoyed the discussion."
+    },
+    {
+      "title": "special effects",
+      "meaning": "спецэффекты",
+      "example": "The special effects were impressive."
+    },
+    {
+      "title": "a compelling premise",
+      "meaning": "увлекательная исходная идея",
+      "example": "The film has a compelling premise, but the last act feels rushed."
+    },
+    {
+      "title": "a plot twist",
+      "meaning": "неожиданный поворот сюжета",
+      "example": "The plot twist surprised most viewers."
+    },
+    {
+      "title": "an open ending",
+      "meaning": "открытый финал",
+      "example": "I didn’t mind the open ending."
+    },
+    {
+      "title": "film director",
+      "meaning": "кинорежиссёр",
+      "example": "I couldn’t remember the name of the film director."
+    },
+    {
+      "title": "word stress",
+      "meaning": "словесное ударение",
+      "example": "Word stress matters in longer words."
+    },
+    {
+      "title": "lengthen",
+      "meaning": "удлинять",
+      "example": "A speaker may lengthen a stressed word for emphasis."
+    },
+    {
+      "title": "the first draft",
+      "meaning": "первый черновик",
+      "example": "I’d like feedback on the first draft of my email."
+    },
+    {
+      "title": "a poetry prompt",
+      "meaning": "задание или подсказка для написания стихотворения",
+      "example": "The teacher gave the group a poetry prompt."
+    },
+    {
+      "title": "a recurring pattern",
+      "meaning": "повторяющаяся закономерность",
+      "example": "Ask your tutor to point out a recurring pattern in your answers."
+    }
+  ],
+  "materials": [
+    {
+      "kind": "dialogue",
+      "title": "Короткие ответы и усиление с do · B1",
+      "text": "Teacher: Have you seen Ben today?\nLearner: Yes, I have.\nTeacher: Did you like the film?\nLearner: No, I didn’t. But I do like the director’s other films.\nTeacher: Why did you use ‘do’?\nLearner: I wanted to make my opinion stronger."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Короткие ответы и усиление с do · B2",
+      "text": "Teacher: If someone asks ‘Have you seen Ben at all?’, how can you avoid repeating the whole question?\nLearner: ‘Yes, I have, actually.’ The auxiliary stands in for the rest of the answer.\nTeacher: How would you emphasise your opinion of the shoes?\nLearner: ‘I do like your shoes. Where did you get them?’ I’d stress ‘do’.\nTeacher: What if the question is ‘Did you like the film?’\nLearner: Then I’d answer ‘Yes, I did’ or ‘No, I didn’t’."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Короткие ответы и усиление с do · C1",
+      "text": "Teacher: Does ‘I do like your shoes’ mean something different from ‘I like your shoes’?\nLearner: The basic meaning is the same. The auxiliary adds emphasis, which can reinforce a compliment or contradict an assumption.\nTeacher: How is that different from ‘Yes, I have’?\nLearner: In a short answer, the auxiliary lets the speaker omit information already supplied by the question. It doesn’t automatically add the same emphasis."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Помнить задачу или помнить действие · B1",
+      "text": "Partner: Did you remember to lock the back door?\nLearner: Yes, I did. I remember locking it before we left.\nPartner: So you’re sure?\nLearner: Yes. I remember checking it twice."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Помнить задачу или помнить действие · B2",
+      "text": "Teacher: What is the difference between ‘remember to lock’ and ‘remember locking’?\nLearner: With ‘remember to lock’, I think of the task first and then do it. With ‘remember locking’, the action happened first, and I recall it afterwards.\nTeacher: Use both in one exchange.\nLearner: ‘Did you remember to lock the door?’ ‘Yes, I remember locking it right before we left.’"
+    },
+    {
+      "kind": "dialogue",
+      "title": "Помнить задачу или помнить действие · C1",
+      "text": "Teacher: Why does the infinitive change the meaning here?\nLearner: ‘Remember to do’ is about remembering an obligation before acting. ‘Remember doing’ refers to recalling an event that has already taken place.\nTeacher: Give an example where that distinction matters.\nLearner: ‘I remembered to lock the door’ says I carried out the task. ‘I remember locking it’ describes the memory I’m relying on now."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Фильм, мнение и вежливое несогласие · B1",
+      "text": "Partner: What did you think of the film?\nLearner: I liked the story, but I didn’t like the ending.\nPartner: I thought the ending was good.\nLearner: I see what you mean. I just wanted a clearer ending."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Фильм, мнение и вежливое несогласие · B2",
+      "text": "Partner: Everyone seemed to like the film. What did you think?\nLearner: I liked the premise, but I didn’t think the ending worked. It felt rushed.\nPartner: I thought it was surprising rather than rushed.\nLearner: I see what you mean. My issue is that the characters didn’t have enough time to react."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Фильм, мнение и вежливое несогласие · C1",
+      "text": "Partner: Would you say the film earned its ending?\nLearner: I see why it worked for some viewers. My reservation is that the final twist felt underdeveloped, even though the premise was compelling.\nPartner: I thought leaving things open was part of the point.\nLearner: Fair enough. An open ending can work well. In this case, I would have preferred a little more groundwork for it."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Мои занятия и цели в английском · B1",
+      "text": "Tutor: What do you like doing in your free time?\nLearner: I like swimming, walking and building apps.\nTutor: What do you want to improve in English?\nLearner: I want to speak more quickly and clearly. I also want to write better emails.\nTutor: How do you practise?\nLearner: I take online classes and read aloud."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Мои занятия и цели в английском · B2",
+      "text": "Tutor: What makes a good English lesson for you?\nLearner: I like having a clear task and enough time to discuss it with a partner. Then I want feedback I can use in the next conversation.\nTutor: Where will you use your English outside class?\nLearner: I write to international colleagues and comment on videos. In live conversations, I’d like to form sentences faster and get my point across more clearly."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Мои занятия и цели в английском · C1",
+      "text": "Tutor: Could you give a specific example of what you hope to improve?\nLearner: When someone asks an unexpected question, I want to respond without losing my train of thought. I’d also like to write concise emails that sound natural to international colleagues.\nTutor: What would good feedback look like?\nLearner: I’d like the tutor to point out one recurring pattern, give a more idiomatic alternative, and let me use it immediately in another exchange."
+    },
+    {
+      "kind": "exercise",
+      "title": "Сделай ответ короче",
+      "prompt": "Ответь коротко и с нужным auxiliary: Have you seen him? / Did you like it? Затем усили фразу I like your shoes.",
+      "answer": "Yes, I have. / No, I didn’t. / I DO like your shoes."
+    },
+    {
+      "kind": "exercise",
+      "title": "Дверь: что было первым",
+      "prompt": "Скажи, что не забыл закрыть дверь, и отдельно скажи, что помнишь момент, когда её закрывал.",
+      "answer": "I remembered to lock the door. / I remember locking the door before I left."
+    },
+    {
+      "kind": "exercise",
+      "title": "Аргумент вместо ‘very nice’",
+      "prompt": "Назови две причины, почему урок тебе понравился. Затем скажи, где тебе нужен английский вне занятий.",
+      "answer": "I liked the pair work and the specific feedback. Outside class, I need English to write to colleagues and respond more naturally in conversations."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Короткие ответы и усиление с do · B1",
+      "text": "Teacher: Have you seen Ben today?\nLearner: Yes, I have.\nTeacher: Did you like the film?\nLearner: No, I didn’t. But I do like the director’s other films.\nTeacher: Why did you use ‘do’?\nLearner: I wanted to make my opinion stronger.\n\nПисьменное задание\nCopy the learner’s short answer to ‘Have you seen Ben today?’ Then answer ‘Did you like the film?’ the way he does.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Have you seen Ben today?\nLearner: Yes, I have.\nTeacher: Did you like the film?\nLearner: No, I didn’t. But I do like the director’s other films.\nTeacher: Why did you use ‘do’?\nLearner: I wanted to make my opinion stronger.\n\nПисьменное задание\nCopy the learner’s short answer to ‘Have you seen Ben today?’ Then answer ‘Did you like the film?’ the way he does.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "‘Yes, I have.’ ‘No, I didn’t. But I do like the director’s other films.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Короткие ответы и усиление с do · B2",
+      "text": "Teacher: If someone asks ‘Have you seen Ben at all?’, how can you avoid repeating the whole question?\nLearner: ‘Yes, I have, actually.’ The auxiliary stands in for the rest of the answer.\nTeacher: How would you emphasise your opinion of the shoes?\nLearner: ‘I do like your shoes. Where did you get them?’ I’d stress ‘do’.\nTeacher: What if the question is ‘Did you like the film?’\nLearner: Then I’d answer ‘Yes, I did’ or ‘No, I didn’t’.\n\nПисьменное задание\nWrite a short reply to ‘Have you finished?’ and a sentence that strongly corrects ‘You didn’t enjoy the film.’\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: If someone asks ‘Have you seen Ben at all?’, how can you avoid repeating the whole question?\nLearner: ‘Yes, I have, actually.’ The auxiliary stands in for the rest of the answer.\nTeacher: How would you emphasise your opinion of the shoes?\nLearner: ‘I do like your shoes. Where did you get them?’ I’d stress ‘do’.\nTeacher: What if the question is ‘Did you like the film?’\nLearner: Then I’d answer ‘Yes, I did’ or ‘No, I didn’t’.\n\nПисьменное задание\nWrite a short reply to ‘Have you finished?’ and a sentence that strongly corrects ‘You didn’t enjoy the film.’\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "‘Yes, I have.’ ‘I did enjoy the film. I just thought it was too long.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Короткие ответы и усиление с do · C1",
+      "text": "Teacher: Does ‘I do like your shoes’ mean something different from ‘I like your shoes’?\nLearner: The basic meaning is the same. The auxiliary adds emphasis, which can reinforce a compliment or contradict an assumption.\nTeacher: How is that different from ‘Yes, I have’?\nLearner: In a short answer, the auxiliary lets the speaker omit information already supplied by the question. It doesn’t automatically add the same emphasis.\n\nПисьменное задание\nExplain what the auxiliary does in each of the two examples. Write a short exchange in which it first avoids repetition and then contradicts an assumption.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Does ‘I do like your shoes’ mean something different from ‘I like your shoes’?\nLearner: The basic meaning is the same. The auxiliary adds emphasis, which can reinforce a compliment or contradict an assumption.\nTeacher: How is that different from ‘Yes, I have’?\nLearner: In a short answer, the auxiliary lets the speaker omit information already supplied by the question. It doesn’t automatically add the same emphasis.\n\nПисьменное задание\nExplain what the auxiliary does in each of the two examples. Write a short exchange in which it first avoids repetition and then contradicts an assumption.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "In ‘Yes, I have’, it stands in for the rest of the answer. In ‘I do like your shoes’, it adds emphasis. ‘Have you tried the café?’ ‘Yes, I have.’ ‘I guess you didn’t like it.’ ‘I did like it. I just couldn’t stay long.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Помнить задачу или помнить действие · B1",
+      "text": "Partner: Did you remember to lock the back door?\nLearner: Yes, I did. I remember locking it before we left.\nPartner: So you’re sure?\nLearner: Yes. I remember checking it twice.\n\nПисьменное задание\nDid the learner lock the door? Which words show what he remembers doing?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: Did you remember to lock the back door?\nLearner: Yes, I did. I remember locking it before we left.\nPartner: So you’re sure?\nLearner: Yes. I remember checking it twice.\n\nПисьменное задание\nDid the learner lock the door? Which words show what he remembers doing?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "Yes. He says ‘I remember locking it’ and ‘I remember checking it twice.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Помнить задачу или помнить действие · B2",
+      "text": "Teacher: What is the difference between ‘remember to lock’ and ‘remember locking’?\nLearner: With ‘remember to lock’, I think of the task first and then do it. With ‘remember locking’, the action happened first, and I recall it afterwards.\nTeacher: Use both in one exchange.\nLearner: ‘Did you remember to lock the door?’ ‘Yes, I remember locking it right before we left.’\n\nПисьменное задание\nComplete both sentences with the right form of ‘send’: ‘Please remember ___ the email tomorrow’ and ‘I remember ___ it on Monday.’ Explain the difference.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: What is the difference between ‘remember to lock’ and ‘remember locking’?\nLearner: With ‘remember to lock’, I think of the task first and then do it. With ‘remember locking’, the action happened first, and I recall it afterwards.\nTeacher: Use both in one exchange.\nLearner: ‘Did you remember to lock the door?’ ‘Yes, I remember locking it right before we left.’\n\nПисьменное задание\nComplete both sentences with the right form of ‘send’: ‘Please remember ___ the email tomorrow’ and ‘I remember ___ it on Monday.’ Explain the difference.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "‘Please remember to send the email tomorrow.’ ‘I remember sending it on Monday.’ The first is a reminder; the second recalls a past action."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Помнить задачу или помнить действие · C1",
+      "text": "Teacher: Why does the infinitive change the meaning here?\nLearner: ‘Remember to do’ is about remembering an obligation before acting. ‘Remember doing’ refers to recalling an event that has already taken place.\nTeacher: Give an example where that distinction matters.\nLearner: ‘I remembered to lock the door’ says I carried out the task. ‘I remember locking it’ describes the memory I’m relying on now.\n\nПисьменное задание\nWrite a two-line exchange about submitting a form. Use ‘remember to’ for carrying out the task and ‘remember -ing’ for the evidence you recall.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Why does the infinitive change the meaning here?\nLearner: ‘Remember to do’ is about remembering an obligation before acting. ‘Remember doing’ refers to recalling an event that has already taken place.\nTeacher: Give an example where that distinction matters.\nLearner: ‘I remembered to lock the door’ says I carried out the task. ‘I remember locking it’ describes the memory I’m relying on now.\n\nПисьменное задание\nWrite a two-line exchange about submitting a form. Use ‘remember to’ for carrying out the task and ‘remember -ing’ for the evidence you recall.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "‘Did you remember to submit the form?’ ‘Yes. I remember clicking Submit and seeing the confirmation page.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Фильм, мнение и вежливое несогласие · B1",
+      "text": "Partner: What did you think of the film?\nLearner: I liked the story, but I didn’t like the ending.\nPartner: I thought the ending was good.\nLearner: I see what you mean. I just wanted a clearer ending.\n\nПисьменное задание\nWhat did the learner like, and what did he want to change? Write one polite phrase from the dialogue.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: What did you think of the film?\nLearner: I liked the story, but I didn’t like the ending.\nPartner: I thought the ending was good.\nLearner: I see what you mean. I just wanted a clearer ending.\n\nПисьменное задание\nWhat did the learner like, and what did he want to change? Write one polite phrase from the dialogue.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He liked the story and wanted a clearer ending. ‘I see what you mean.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Фильм, мнение и вежливое несогласие · B2",
+      "text": "Partner: Everyone seemed to like the film. What did you think?\nLearner: I liked the premise, but I didn’t think the ending worked. It felt rushed.\nPartner: I thought it was surprising rather than rushed.\nLearner: I see what you mean. My issue is that the characters didn’t have enough time to react.\n\nПисьменное задание\nWhy does the learner think the ending felt rushed? Write a reply that acknowledges his partner’s opinion before explaining his own.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: Everyone seemed to like the film. What did you think?\nLearner: I liked the premise, but I didn’t think the ending worked. It felt rushed.\nPartner: I thought it was surprising rather than rushed.\nLearner: I see what you mean. My issue is that the characters didn’t have enough time to react.\n\nПисьменное задание\nWhy does the learner think the ending felt rushed? Write a reply that acknowledges his partner’s opinion before explaining his own.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "The characters didn’t have enough time to react. ‘I see what you mean about the surprise. My issue is that we barely see how the characters react.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Фильм, мнение и вежливое несогласие · C1",
+      "text": "Partner: Would you say the film earned its ending?\nLearner: I see why it worked for some viewers. My reservation is that the final twist felt underdeveloped, even though the premise was compelling.\nPartner: I thought leaving things open was part of the point.\nLearner: Fair enough. An open ending can work well. In this case, I would have preferred a little more groundwork for it.\n\nПисьменное задание\nWrite a two-sentence review that concedes why the ending may appeal to others and explains your reservation. Use ‘groundwork’ or ‘underdeveloped’.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: Would you say the film earned its ending?\nLearner: I see why it worked for some viewers. My reservation is that the final twist felt underdeveloped, even though the premise was compelling.\nPartner: I thought leaving things open was part of the point.\nLearner: Fair enough. An open ending can work well. In this case, I would have preferred a little more groundwork for it.\n\nПисьменное задание\nWrite a two-sentence review that concedes why the ending may appeal to others and explains your reservation. Use ‘groundwork’ or ‘underdeveloped’.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "I can see why the open ending worked for some viewers. My reservation is that the twist felt underdeveloped because the film didn’t lay enough groundwork for it."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Мои занятия и цели в английском · B1",
+      "text": "Tutor: What do you like doing in your free time?\nLearner: I like swimming, walking and building apps.\nTutor: What do you want to improve in English?\nLearner: I want to speak more quickly and clearly. I also want to write better emails.\nTutor: How do you practise?\nLearner: I take online classes and read aloud.\n\nПисьменное задание\nName two things the learner wants to improve and one way he practises.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Tutor: What do you like doing in your free time?\nLearner: I like swimming, walking and building apps.\nTutor: What do you want to improve in English?\nLearner: I want to speak more quickly and clearly. I also want to write better emails.\nTutor: How do you practise?\nLearner: I take online classes and read aloud.\n\nПисьменное задание\nName two things the learner wants to improve and one way he practises.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He wants to speak more quickly and clearly and write better emails. He takes online classes or reads aloud."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Мои занятия и цели в английском · B2",
+      "text": "Tutor: What makes a good English lesson for you?\nLearner: I like having a clear task and enough time to discuss it with a partner. Then I want feedback I can use in the next conversation.\nTutor: Where will you use your English outside class?\nLearner: I write to international colleagues and comment on videos. In live conversations, I’d like to form sentences faster and get my point across more clearly.\n\nПисьменное задание\nDescribe what the learner values in a class, then name one real situation where you want to get your point across more clearly.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Tutor: What makes a good English lesson for you?\nLearner: I like having a clear task and enough time to discuss it with a partner. Then I want feedback I can use in the next conversation.\nTutor: Where will you use your English outside class?\nLearner: I write to international colleagues and comment on videos. In live conversations, I’d like to form sentences faster and get my point across more clearly.\n\nПисьменное задание\nDescribe what the learner values in a class, then name one real situation where you want to get your point across more clearly.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "the learner wants a clear task, partner discussion and feedback he can use straight away. I’d like to get my point across more clearly in team meetings."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Мои занятия и цели в английском · C1",
+      "text": "Tutor: Could you give a specific example of what you hope to improve?\nLearner: When someone asks an unexpected question, I want to respond without losing my train of thought. I’d also like to write concise emails that sound natural to international colleagues.\nTutor: What would good feedback look like?\nLearner: I’d like the tutor to point out one recurring pattern, give a more idiomatic alternative, and let me use it immediately in another exchange.\n\nПисьменное задание\nTurn the learner’s goals into a concise written request to a tutor. Include a speaking goal, a writing goal and a specific feedback request.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Tutor: Could you give a specific example of what you hope to improve?\nLearner: When someone asks an unexpected question, I want to respond without losing my train of thought. I’d also like to write concise emails that sound natural to international colleagues.\nTutor: What would good feedback look like?\nLearner: I’d like the tutor to point out one recurring pattern, give a more idiomatic alternative, and let me use it immediately in another exchange.\n\nПисьменное задание\nTurn the learner’s goals into a concise written request to a tutor. Include a speaking goal, a writing goal and a specific feedback request.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "I’d like to respond more fluently to unexpected questions and write clear, concise emails to colleagues. Could you flag one recurring pattern, suggest a more idiomatic alternative and give me a chance to use it straight away?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Реакции и хвостики · шесть мини-реплик",
+      "prompt": "Give a short interested reaction to 1–3. Add a question tag to 4–6.\n1 I’m taking evening classes. 2 I’ve seen that film. 3 I didn’t enjoy the ending.\n4 It’s going to cost a fortune, ___? 5 You haven’t met her, ___? 6 They liked it, ___?\nThen read the answers aloud and try them at natural speed.",
+      "answer": "1 Oh, are you? 2 Oh, have you? 3 Oh, didn’t you? 4 isn’t it? 5 have you? 6 didn’t they?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Выразительное do и естественное несогласие",
+      "prompt": "Rewrite four replies.\n1 Make “I like your shoes” a stronger compliment. 2 Agree completely with “The ending worked.” 3 Disagree gently about a film ending and give a reason. 4 You didn’t hear the last part, so ask the speaker to repeat it.",
+      "answer": "1 I do like your shoes! 2 I couldn’t agree more. 3 I see what you mean, but the final twist felt rushed to me. 4 I didn’t catch the last part. Could you say that again?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Разговор с преподавателем · цели и конкретный feedback",
+      "prompt": "Tell a teacher one speaking goal, one reading or pronunciation goal, and one writing goal. Give a real example for each. Finish with a clear request for feedback. Then read your answer aloud once.",
+      "answer": "I’d like to answer unexpected questions without losing my train of thought. When I read aloud, I’d like feedback on word stress. I also want to write clearer emails to international colleagues. Could you point out one recurring pattern and give me a more natural way to phrase it?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Материал предмета и изготовитель · made of / made by",
+      "prompt": "Choose made of or made by. 1 These shoes are ___ leather. 2 This chair was ___ a local carpenter. 3 The cup is ___ glass. 4 The film was ___ an independent studio. Then describe a real object using both forms.",
+      "answer": "1 made of, 2 made by, 3 made of, 4 made by. The desk is made of oak and was made by a local carpenter."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Попроси преподавателя о конкретной обратной связи · B1",
+      "text": "Tutor: What do you want to improve?\nLearner: I want to answer more quickly at work.\nTutor: Can you give me an example?\nLearner: When someone asks me a new question in a meeting, I need time to think."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Попроси преподавателя о конкретной обратной связи · B2",
+      "text": "Tutor: Where do you get stuck?\nLearner: I lose my train of thought when someone asks an unexpected question.\nTutor: What kind of feedback would help?\nLearner: Could you give me a more natural phrase and let me try again?"
+    },
+    {
+      "kind": "dialogue",
+      "title": "Попроси преподавателя о конкретной обратной связи · C1",
+      "text": "Tutor: Could you be more specific about the speaking goal?\nLearner: I’d like to respond more spontaneously in meetings without sacrificing precision.\nTutor: How should we practise that?\nLearner: Ask me an unexpected follow-up, then flag one recurring pattern and let me reformulate my answer."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Попроси преподавателя о конкретной обратной связи · B1",
+      "prompt": "Tutor: What do you want to improve?\nLearner: I want to answer more quickly at work.\nTutor: Can you give me an example?\nLearner: When someone asks me a new question in a meeting, I need time to think.\n\nWhat does the learner want to improve? Give one example from your own life.",
+      "answer": "The learner wants to answer more quickly. I also want to answer quickly when a colleague asks me a question.",
+      "text": "Tutor: What do you want to improve?\nLearner: I want to answer more quickly at work.\nTutor: Can you give me an example?\nLearner: When someone asks me a new question in a meeting, I need time to think.\n\nWhat does the learner want to improve? Give one example from your own life."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Попроси преподавателя о конкретной обратной связи · B2",
+      "prompt": "Tutor: Where do you get stuck?\nLearner: I lose my train of thought when someone asks an unexpected question.\nTutor: What kind of feedback would help?\nLearner: Could you give me a more natural phrase and let me try again?\n\nWrite a short request for feedback. Use lose my train of thought and the phrase Could you…?",
+      "answer": "I sometimes lose my train of thought when a colleague asks an unexpected question. Could you suggest a more natural way to begin my answer?",
+      "text": "Tutor: Where do you get stuck?\nLearner: I lose my train of thought when someone asks an unexpected question.\nTutor: What kind of feedback would help?\nLearner: Could you give me a more natural phrase and let me try again?\n\nWrite a short request for feedback. Use lose my train of thought and the phrase Could you…?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Попроси преподавателя о конкретной обратной связи · C1",
+      "prompt": "Tutor: Could you be more specific about the speaking goal?\nLearner: I’d like to respond more spontaneously in meetings without sacrificing precision.\nTutor: How should we practise that?\nLearner: Ask me an unexpected follow-up, then flag one recurring pattern and let me reformulate my answer.\n\nSpecify one realistic speaking problem, a practice scenario, and the feedback you want after each reply.",
+      "answer": "I tend to lose my train of thought during follow-up questions. Could we practise discussing a project and have you flag one recurring pattern after each reply?",
+      "text": "Tutor: Could you be more specific about the speaking goal?\nLearner: I’d like to respond more spontaneously in meetings without sacrificing precision.\nTutor: How should we practise that?\nLearner: Ask me an unexpected follow-up, then flag one recurring pattern and let me reformulate my answer.\n\nSpecify one realistic speaking problem, a practice scenario, and the feedback you want after each reply."
+    }
+  ]
+}
