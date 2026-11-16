@@ -54,3 +54,27 @@ test('imported lessons keep each dialogue with its own questions and ignore arch
   assert.equal(importedLessonsFor(archiveMaterial(repeat, lessons[0].resource.id)).length, 1);
   assert.equal(importedLessonsFor({ ...first.next, importedLessons: undefined }).length, 1);
 });
+
+test('multi-dialogue imports expose every level and pair separate reading exercises with the right version', async () => {
+  const { dialogueChoices, importedLessonsFor } = await import('../src/domain/imported-lessons.ts');
+  const { parseChatPackage } = await import('../src/domain/chat-package.js');
+  const state = { language: 'en', languages: { en: {} }, topics: [], words: [], resources: [], results: {} };
+  const context = { format: 'nit-rechi', version: 1, language: 'en', topic: { title: 'Class' } };
+  const materials = ['Market · C1', 'Market · B1', 'Market · B2', 'Station · B2', 'Music'].map(title => ({
+    kind: 'dialogue', title, text: 'A: Let’s talk about ' + title
+  }));
+  const first = applyChatPackage(state, parseChatPackage(JSON.stringify({ ...context, materials })));
+  const exercises = materials.slice(0, 4).map(item => ({
+    kind: 'exercise', title: 'Чтение и ответ · ' + item.title,
+    prompt: item.text + '\n\nQuestion for ' + item.title, answer: 'Answer for ' + item.title
+  }));
+  const next = applyChatPackage(first.next, parseChatPackage(JSON.stringify({ ...context, materials: exercises })), first.topic.id);
+  const choices = dialogueChoices(importedLessonsFor(next.next));
+  assert.deepEqual(choices.map(choice => [choice.title, choice.versions.map(version => version.level)]), [
+    ['Market', ['B1', 'B2', 'C1']], ['Station', ['B2']], ['Music', [undefined]]
+  ]);
+  assert.deepEqual(choices[0].versions.map(version => version.questions[0][0]), [
+    'Question for Market · B1', 'Question for Market · B2', 'Question for Market · C1'
+  ]);
+  assert.deepEqual(choices[2].versions[0].questions, []);
+});

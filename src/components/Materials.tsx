@@ -1,5 +1,5 @@
 import { ReadableMaterial } from './ReadableMaterial';
-import { importedLessonsFor } from '../domain/imported-lessons';
+import { dialogueChoices, importedLessonsFor } from '../domain/imported-lessons';
 import { starterScenes } from '../domain/starter-materials';
 import { isStarterResource } from '../domain/starter-materials';
 import { LessonAudio } from './LessonAudio';
@@ -209,6 +209,18 @@ function MaterialText({ resource }: { resource: Resource }) {
   </details>;
 }
 
+function MaterialChoices({ title, options, selected, choose, collapsible }: {
+  title: string; options: { id: string; title: string }[]; selected: string;
+  choose: (id: string) => void; collapsible?: boolean;
+}) {
+  const buttons = <div className="material-choice-grid" role="group" aria-label={title}>
+    {options.map(option => <button type="button" key={option.id}
+      aria-pressed={option.id === selected} onClick={() => choose(option.id)}>{option.title}</button>)}
+  </div>;
+  return collapsible ? <Fold title={title}>{buttons}</Fold>
+    : <section className="material-choices"><h2>{title}</h2>{buttons}</section>;
+}
+
 export function Materials() {
   const { active, resourceId, practice, study, update } = useWorkspace();
   const [editing, setEditing] = useState<Resource>();
@@ -218,10 +230,16 @@ export function Materials() {
   const dialog = useRef<HTMLDialogElement>(null);
   const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
   const [view, setView] = useState<'lessons' | 'library' | 'audio'>(resourceId ? 'library' : 'lessons');
-  const [scene, setScene] = useState(starterScenes[0].id);
+  const [scene, setScene] = useState('');
   const [lessonId, setLessonId] = useState('');
   const lessons = useMemo(() => importedLessonsFor(study), [study]);
   const lessonTopics = active.topics.filter(topic => lessons.some(lesson => lesson.topicId === topic.id));
+  const selectedScene = [...lessonTopics, ...(study.language === 'en' ? starterScenes : [])].some(topic => topic.id === scene)
+    ? scene : lessonTopics[0]?.id ?? (study.language === 'en' ? starterScenes[0].id : '');
+  const choices = dialogueChoices(lessons.filter(item => item.topicId === selectedScene));
+  const selectedChoice = choices.find(choice => choice.versions.some(version => version.id === lessonId)) ?? choices[0];
+  const selectedLesson = selectedChoice?.versions.find(version => version.id === lessonId)
+    ?? selectedChoice?.versions.find(version => version.level === 'B2') ?? selectedChoice?.versions[0];
   const [filter, setFilter] = useState('');
   const [deleting, setDeleting] = useState<Resource>();
   const [busy, setBusy] = useState(false);
@@ -229,6 +247,11 @@ export function Materials() {
   function show(value: NonNullable<typeof panel>) {
     setPanel(value);
     if (!dialog.current?.open) dialog.current?.showModal();
+  }
+  function chooseTopic(id: string) {
+    if (id === selectedScene) return;
+    setScene(id);
+    setLessonId('');
   }
   function close() { dialog.current?.close(); }
   async function remove() {
@@ -249,30 +272,30 @@ export function Materials() {
           <button type="button" className="primary" onClick={() => { setEditing(undefined); reset(n => n + 1); show('edit'); }}>Добавить материал</button>
           <button type="button" onClick={() => { setSource(undefined); show('import'); }}>Импорт из чата с ИИ</button>
         </div>
-        {view === 'library' && <label>Тема библиотеки<select value={filter} onChange={event => setFilter(event.target.value)}>
-          <option value="">Все темы</option><option value="unassigned">Без темы</option>
-          {active.topics.map(topic => <option key={topic.id} value={topic.id}>{topic.title}</option>)}
-        </select></label>}
+        {view === 'library' && <MaterialChoices title="Тема библиотеки" selected={filter} choose={setFilter}
+          options={[{ id: '', title: 'Все темы' }, ...active.topics, { id: 'unassigned', title: 'Без темы' }]} />}
       </section>
       {view === 'lessons' && <>
-        <label>Тема занятия<select value={scene} onChange={event => { setScene(event.target.value); setLessonId(''); }}>
-          {study.language === 'en' && <optgroup label="Стартовые темы">{starterScenes.map(item => <option key={item.id} value={item.id}>{item.title}</option>)}</optgroup>}
-          {study.language !== 'en' && !lessonTopics.some(topic => topic.id === scene) && <option value={scene}>Выбери тему</option>}
-          {!!lessonTopics.length && <optgroup label="Из чата с ИИ">{lessonTopics.map(topic => <option key={topic.id} value={topic.id}>{topic.title}</option>)}</optgroup>}
-        </select></label>
-        {study.language === 'en' && starterScenes.some(item => item.id === scene)
-          ? <StarterMaterials scene={scene} chooseScene={setScene} />
-          : (() => {
-            const available = lessons.filter(item => item.topicId === scene);
-            const selected = available.find(item => item.id === lessonId) ?? available[0];
-            if (!selected) return <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>;
-            return <>
-              {available.length > 1 && <label>Занятие<select value={selected.id} onChange={event => setLessonId(event.target.value)}>
-                {available.map(item => <option key={item.id} value={item.id}>{item.resource.title}</option>)}
-              </select></label>}
-              <StarterLesson key={selected.id} lesson={{ ...selected, notes: [], source: 'Диалог и задания из твоих материалов.' }} />
-            </>;
-          })()}
+        {!!lessonTopics.length && <MaterialChoices title="Мои уроки" selected={selectedScene} choose={chooseTopic} options={lessonTopics} />}
+        {study.language === 'en' && <MaterialChoices title="Стартовые темы" selected={selectedScene} choose={chooseTopic} options={starterScenes}
+          collapsible={!!lessonTopics.length} />}
+        {study.language === 'en' && starterScenes.some(item => item.id === selectedScene)
+          ? <StarterMaterials scene={selectedScene} chooseScene={chooseTopic} />
+          : selectedLesson && selectedChoice ? <>
+            {choices.length > 1 && <MaterialChoices title="Диалоги в теме" selected={selectedChoice.versions[0].id}
+              options={choices.map(choice => ({ id: choice.versions[0].id, title: choice.title }))}
+              choose={id => {
+                if (id === selectedChoice.versions[0].id) return;
+                const versions = choices.find(choice => choice.versions[0].id === id)!.versions;
+                setLessonId((versions.find(version => version.level === selectedLesson.level)
+                  ?? versions.find(version => version.level === 'B2') ?? versions[0]).id);
+              }} />}
+            {!!selectedLesson.level && <div className="level-tabs" role="group" aria-label="Уровень диалога">
+              {selectedChoice.versions.map(version => <button type="button" key={version.id}
+                aria-pressed={version.id === selectedLesson.id} onClick={() => setLessonId(version.id)}>{version.level}</button>)}
+            </div>}
+            <StarterLesson key={selectedLesson.id} lesson={{ ...selectedLesson, notes: [], source: 'Диалог и задания из твоих материалов.' }} />
+          </> : <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>}
       </>}
       {view === 'audio' && study.language === 'en' && <TeacherAudioCard />}
 
