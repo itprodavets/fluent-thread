@@ -360,6 +360,66 @@
       "title": "erosion",
       "meaning": "эрозия, размывание",
       "example": "Plant cover can help reduce soil erosion."
+    },
+    {
+      "title": "You’ve got the main idea",
+      "meaning": "Ты уловил основную мысль.",
+      "example": "I think I’ve got the main idea. Could we check the details now?"
+    },
+    {
+      "title": "Could you share your opinion",
+      "meaning": "Можешь поделиться мнением?",
+      "example": "Could you share your opinion on the two options?"
+    },
+    {
+      "title": "Let’s read the article again and look for more details",
+      "meaning": "Давай перечитаем статью и найдём больше подробностей.",
+      "example": "Let’s look for evidence in the second paragraph."
+    },
+    {
+      "title": "Let’s check them one by one",
+      "meaning": "Давай проверим их по очереди.",
+      "example": "Let’s go through your questions one by one."
+    },
+    {
+      "title": "Can you tell me where we can find the answer",
+      "meaning": "Можешь сказать, где найти ответ?",
+      "example": "Could you tell me where I can find the slides?"
+    },
+    {
+      "title": "Let’s find the evidence in these two paragraphs",
+      "meaning": "Давай найдём подтверждение в этих двух абзацах.",
+      "example": "I found some evidence in the second paragraph."
+    },
+    {
+      "title": "Your answer is right, and you found the evidence",
+      "meaning": "Твой ответ верный, и ты нашёл подтверждение.",
+      "example": "I think it’s true. This sentence supports my answer."
+    },
+    {
+      "title": "Is it the same as a thermometer",
+      "meaning": "Это то же самое, что термометр?",
+      "example": "Is a smart meter the same as a thermostat?"
+    },
+    {
+      "title": "How many syllables are there? Where is the stress",
+      "meaning": "Сколько слогов? Где ударение?",
+      "example": "There are three syllables. The stress is on the first one."
+    },
+    {
+      "title": "Does it measure the energy we use",
+      "meaning": "Он измеряет, сколько энергии мы используем?",
+      "example": "Does the meter show how much electricity we use?"
+    },
+    {
+      "title": "Listen for gist and then listen for detail",
+      "meaning": "Сначала слушай, чтобы уловить суть, затем — детали.",
+      "example": "I listened to the interview for gist first."
+    },
+    {
+      "title": "Share your ideas with your partner and give reasons",
+      "meaning": "Поделись идеями с партнёром и обоснуй их.",
+      "example": "I’d start with insulation. My main reason is heat loss."
     }
   ],
   "materials": [
@@ -626,6 +686,44 @@
       "prompt": "Partner: Does the text prove that wolves changed the rivers?\nLearner: The article describes a chain of events. It links the return of wolves to plant regrowth, which helped strengthen the riverbanks.\nPartner: How would you phrase that in a summary?\nLearner: I’d say the article links the changes, while leaving room for other contributing factors.\n\nRewrite a claim that wolves definitely deepened the rivers. Attribute it to the text and explain what additional evidence might be needed.",
       "answer": "The article links the return of wolves to changes in the rivers through plant regrowth. To establish causation more firmly, I’d want to know which other changes might explain the result.",
       "text": "Partner: Does the text prove that wolves changed the rivers?\nLearner: The article describes a chain of events. It links the return of wolves to plant regrowth, which helped strengthen the riverbanks.\nPartner: How would you phrase that in a summary?\nLearner: I’d say the article links the changes, while leaving room for other contributing factors.\n\nRewrite a claim that wolves definitely deepened the rivers. Attribute it to the text and explain what additional evidence might be needed."
+    },
+    {
+      "kind": "reading",
+      "title": "Реплики преподавателя · 12 фраз с переводом и примерами",
+      "text": "Таймкоды от начала файла, в формате часы:минуты. Фразы сверены с расшифровкой и местами нормализованы, чтобы их было удобно повторять. Примеры после каждой фразы составлены для практики.\n\n00:06–00:08 · You’ve got the main idea.\nПеревод: Ты уловил основную мысль.\nКонструкция: get the main idea — понять суть\nТвой пример для практики: I think I’ve got the main idea. Could we check the details now?\n\n00:06–00:08 · Could you share your opinion?\nПеревод: Можешь поделиться мнением?\nКонструкция: could you + глагол; share your opinion\nТвой пример для практики: Could you share your opinion on the two options?\n\n00:06–00:08 · Let’s read the article again and look for more details.\nПеревод: Давай перечитаем статью и найдём больше подробностей.\nКонструкция: look for + что ищем; look at + куда смотрим\nТвой пример для практики: Let’s look for evidence in the second paragraph.\n\n00:16–00:18 · Let’s check them one by one.\nПеревод: Давай проверим их по очереди.\nКонструкция: one by one — по одному, последовательно\nТвой пример для практики: Let’s go through your questions one by one.\n\n00:16–00:20 · Can you tell me where we can find the answer?\nПеревод: Можешь сказать, где найти ответ?\nКонструкция: В косвенном вопросе порядок where + we + can.\nТвой пример для практики: Could you tell me where I can find the slides?\n\n00:20–00:22 · Let’s find the evidence in these two paragraphs.\nПеревод: Давай найдём подтверждение в этих двух абзацах.\nКонструкция: evidence неисчисляемое: some evidence, a piece of evidence\nТвой пример для практики: I found some evidence in the second paragraph.\n\n00:20–00:22 · Your answer is right, and you found the evidence.\nПеревод: Твой ответ верный, и ты нашёл подтверждение.\nКонструкция: right — верный; support an answer — подкрепить ответ\nТвой пример для практики: I think it’s true. This sentence supports my answer.\n\n01:04–01:06 · Is it the same as a thermometer?\nПеревод: Это то же самое, что термометр?\nКонструкция: the same as, different from\nТвой пример для практики: Is a smart meter the same as a thermostat?\n\n01:04–01:06 · How many syllables are there? Where is the stress?\nПеревод: Сколько слогов? Где ударение?\nКонструкция: syllable — слог; the stress is on the first syllable\nТвой пример для практики: There are three syllables. The stress is on the first one.\n\n01:12–01:14 · Does it measure the energy we use?\nПеревод: Он измеряет, сколько энергии мы используем?\nКонструкция: После does идёт основная форма measure.\nТвой пример для практики: Does the meter show how much electricity we use?\n\n01:54–01:56 · Listen for gist and then listen for detail.\nПеревод: Сначала слушай, чтобы уловить суть, затем — детали.\nКонструкция: listen for + что пытаемся услышать; listen to + источник\nТвой пример для практики: I listened to the interview for gist first.\n\n01:54–01:56 · Share your ideas with your partner and give reasons.\nПеревод: Поделись идеями с партнёром и обоснуй их.\nКонструкция: share X with Y; give a reason for + существительное/-ing\nТвой пример для практики: I’d start with insulation. My main reason is heat loss."
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · правила, формы и примеры",
+      "text": "Вежливые и косвенные вопросы\nПрямой вопрос: Where can I find the answer? Вежливая рамка: Could you tell me where I can find the answer? Внутри рамки ставь подлежащее перед глаголом. Без вопросительного слова используй if или whether: Could you tell me whether the roof gets enough sun?\n\nПричина и результат\nLead to / bring about + существительное: The return of wolves led to changes in elk behaviour. As a result, + отдельное предложение. As a result of + существительное или -ing: As a result of the changes, some vegetation recovered. Which in turn + глагол показывает следующий эффект: The plants recovered, which in turn strengthened the riverbanks. Если пересказываешь статью, отделяй её вывод от своего: The article links X to Y.\n\nНеисчисляемые слова\nEvidence, insulation и equipment в этом контексте неисчисляемые. Употребляй some evidence, better insulation, a piece of equipment. Но a thermostat, two smart meters, an energy-efficient light bulb можно считать. Дефис в energy-efficient light bulb связывает слова в определении перед существительным.\n\nБолее раннее прошлое и пассив\nThe plants had been eaten before they began to recover. Had + been + past participle ставит более раннее действие в прошедшем на первый план, а plants обозначает объект действия. The plants had been eaten by elk — если важен исполнитель. The plants recovered — обычный Past Simple для следующего события.\n\nУстановка, которую выполняет кто-то другой\nWe’re having a smart meter installed. Have/get + предмет + причастие: попросить или организовать, чтобы работу выполнили. Сравни We’re installing a meter (в контексте можем устанавливать сами) и We’re having a meter installed (организуем установку). Этот пример из учебного радиоинтервью, около 02:20–02:22."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Переспроси вежливо",
+      "text": "Rewrite: (1) Where is the answer? (2) How much energy does it use? (3) Does the roof get enough sun? Start each question with Could you tell me…?",
+      "prompt": "Rewrite: (1) Where is the answer? (2) How much energy does it use? (3) Does the roof get enough sun? Start each question with Could you tell me…?",
+      "answer": "1 Could you tell me where the answer is? 2 Could you tell me how much energy it uses? 3 Could you tell me whether the roof gets enough sun?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Свяжи три последствия",
+      "text": "Use lead to, as a result and in turn to explain how the return of wolves could affect plants and riverbanks. Attribute the claim to the article.",
+      "prompt": "Use lead to, as a result and in turn to explain how the return of wolves could affect plants and riverbanks. Attribute the claim to the article.",
+      "answer": "The article suggests that the return of wolves led to changes in elk behaviour. As a result, some plants had time to recover. This in turn helped strengthen the riverbanks."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Выбери артикль и форму",
+      "text": "Correct the four phrases: an evidence, two equipments, a insulation, an energy efficient light bulb. Write one sentence of your own with evidence.",
+      "prompt": "Correct the four phrases: an evidence, two equipments, a insulation, an energy efficient light bulb. Write one sentence of your own with evidence.",
+      "answer": "Some evidence / a piece of evidence, two pieces of equipment, some insulation, an energy-efficient light bulb. I found some evidence in the second paragraph."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Расставь события по порядку",
+      "text": "Use Past Simple and Past Perfect passive. When researchers returned, they saw the plants growing again. Elk had eaten the plants earlier. Then describe a home improvement someone else will do for you.",
+      "prompt": "Use Past Simple and Past Perfect passive. When researchers returned, they saw the plants growing again. Elk had eaten the plants earlier. Then describe a home improvement someone else will do for you.",
+      "answer": "Plants that had been eaten by elk began to grow again. We’re having a smart meter installed next week."
     }
   ]
 }
