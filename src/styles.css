@@ -444,3 +444,13 @@ button:disabled { opacity: .52; cursor: default; }
   font-weight: 650;
 }
 .library > .level-tabs { margin: 0; }
+
+.lesson-practice { padding: clamp(16px, 4vw, 28px); }
+.lesson-practice h3 { margin: 0 0 8px; }
+.lesson-recall { padding: 0 0 12px; }
+.lesson-recall-cue { font-size: 1.1rem; font-weight: 650; }
+.lesson-recall-answer { margin-top: 12px; padding: 12px; border-radius: 12px; background: var(--field); }
+.lesson-recall-answer small { color: var(--muted); }
+.lesson-recall > .actions { margin-top: 12px; }
+.lesson-grammar-exercise { margin-inline-start: 12px; }
+.lesson-grammar-exercise textarea { display: block; width: 100%; }

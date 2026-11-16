@@ -3,6 +3,7 @@ import { dialogueChoices, importedLessonsFor } from '../domain/imported-lessons'
 import { starterScenes } from '../domain/starter-materials';
 import { isStarterResource } from '../domain/starter-materials';
 import { LessonAudio } from './LessonAudio';
+import { LessonPractice } from './LessonPractice';
 import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
@@ -294,6 +295,7 @@ export function Materials() {
               {selectedChoice.versions.map(version => <button type="button" key={version.id}
                 aria-pressed={version.id === selectedLesson.id} onClick={() => setLessonId(version.id)}>{version.level}</button>)}
             </div>}
+            <LessonPractice key={selectedScene} resources={active.resources} topicId={selectedScene} />
             <StarterLesson key={selectedLesson.id} lesson={{ ...selectedLesson, notes: [], source: 'Диалог и задания из твоих материалов.' }} />
           </> : <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>}
       </>}
