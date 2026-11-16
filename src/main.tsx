@@ -17,14 +17,16 @@ const Practice = lazy(() => import('./components/Practice').then(module => ({ de
 const Progress = lazy(() => import('./components/Progress').then(module => ({ default: module.Progress })));
 const MapPage = lazy(() => import('./components/Map').then(module => ({ default: module.MapPage })));
 const Materials = lazy(() => import('./components/Materials').then(module => ({ default: module.Materials })));
+const Schools = lazy(() => import('./components/SchoolDirectory').then(module => ({ default: module.SchoolDirectory })));
 const Account = lazy(() => import('./components/Account').then(module => ({ default: module.Account })));
 
-const screens = { today: Today, practice: Practice, map: MapPage, materials: Materials, progress: Progress, account: Account };
+const screens = { today: Today, practice: Practice, map: MapPage, materials: Materials, schools: Schools, progress: Progress, account: Account };
 function subscribe(listener: () => void) {
   window.addEventListener('hashchange', listener);
   return () => window.removeEventListener('hashchange', listener);
 }
 function route(hash: string): Page {
+  if (hash === '#materials/schools') return 'schools';
   const value = hash.slice(1).split('/')[0];
   return Object.hasOwn(pages, value) ? value as Page : 'today';
 }

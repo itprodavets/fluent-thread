@@ -490,7 +490,7 @@ button:disabled { opacity: .52; cursor: default; }
 .skill-options button[aria-pressed="true"], .skill-dialogues button[aria-pressed="true"] { border-color: #668674; background: #e9f3ec; }
 .skill-dialogues small { display: block; color: var(--muted); }
 .directory-controls { display: grid; gap: 8px; }
-.directory-controls h2 { margin: 0; }
+.school-directory { max-width: 1240px; display: grid; gap: 16px; }
 .directory-controls input { display: block; width: min(100%, 460px); }
 .directory-controls button[aria-pressed="true"] { border-color: #668674; background: #e9f3ec; }
 .directory-programs { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr)); }
