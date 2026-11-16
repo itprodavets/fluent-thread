@@ -7,3 +7,5 @@
 | Stafford House | Волки, экосистемы и экодом | [Текст](wolves-and-eco-homes.md) | [Разбор](wolves-and-eco-homes-teacher-grammar.md) | [JSON](wolves-and-eco-homes.json) |
 | ACE TEFL | Планы и договорённости по-английски | [Текст](future-plans.md) | [Разбор](future-plans-teacher-grammar.md) | [JSON](future-plans.json) |
 | DC Teacher Training | Короткие ответы, мнения и разговор о себе | [Текст](responses-and-opinions.md) | [Разбор](responses-and-opinions-teacher-grammar.md) | [JSON](responses-and-opinions.json) |
+
+[Практика по навыкам в «Нити речи»](https://itprodavets.github.io/nit-rechi/#materials/skills) · [Связи навыков, диалогов и школ](skills.json)

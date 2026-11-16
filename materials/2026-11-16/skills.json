@@ -1,0 +1,29 @@
+[
+  {
+    "id": "polite-questions",
+    "title": "Вежливые вопросы",
+    "dialogues": [
+      {"school":"Stafford House","title":"В малой группе: уточнить и обосновать","prompt":"You missed question five. Ask your partner to read the clue aloud and then ask where you can find the answer.","answer":"Could you read the clue out loud, please? Could you tell me where we can find the answer?"},
+      {"school":"ACE TEFL","title":"Договорись, кто за кем заедет","prompt":"Ask politely whether your partner can pick you up, then find out what time they plan to leave.","answer":"Would you mind picking me up at my mum’s? Could you tell me what time you’re planning to leave?"},
+      {"school":"DC Teacher Training","title":"Попроси преподавателя о конкретной обратной связи","prompt":"Ask the tutor to point out one specific mistake and give you a chance to say it again.","answer":"Could you point out one thing I could say more naturally? Would it be all right if I tried again?"}
+    ]
+  },
+  {
+    "id": "future-plans",
+    "title": "Планы на будущее",
+    "dialogues": [
+      {"school":"ACE TEFL","title":"Четыре формы будущего","prompt":"Make plans for a play. Give a timetable, an arrangement, an earlier intention and an offer you make during the conversation.","answer":"The performance starts at seven. I’m meeting Alex outside the theatre at six. I’m going to book the tickets tonight. Do you need a lift? I’ll pick you up."},
+      {"school":"Stafford House","title":"Экодом и полезные технологии","prompt":"Continue the dialogue with your plans for an eco-house. Say what you’ve already decided, what you’ve arranged for Friday and what you can offer to do now.","answer":"We’re going to improve the insulation first. A technician is coming to check the smart meter on Friday. I’ll send you the energy readings now."},
+      {"school":"DC Teacher Training","title":"Мои занятия и цели в английском","prompt":"Tell your tutor how you’ll practise next week. Include a prior intention, a booked session and a decision you make while speaking.","answer":"I’m going to practise writing clearer emails. I’m meeting my conversation partner on Tuesday. Actually, I’ll write a short draft tonight."}
+    ]
+  },
+  {
+    "id": "disagreeing",
+    "title": "Вежливое несогласие",
+    "dialogues": [
+      {"school":"DC Teacher Training","title":"Фильм, мнение и вежливое несогласие","prompt":"Your partner loved the ending. Acknowledge their opinion, disagree gently and give one specific reason.","answer":"I see what you mean. The twist was surprising, but it felt rushed to me because the characters barely had time to react."},
+      {"school":"Stafford House","title":"Экодом и полезные технологии","prompt":"Your partner wants to install underfloor heating first. Acknowledge the idea, then argue for another priority and explain why.","answer":"I can see why you’d choose underfloor heating. I’d start with insulation, though. The house loses a lot of heat through the walls."},
+      {"school":"ACE TEFL","title":"Договорись, кто за кем заедет","prompt":"Your partner wants to drive at peak time. Acknowledge their point, then politely suggest taking the train or leaving earlier.","answer":"I see why driving would be easier with Sam. I’m not sure about leaving that late, though. Would it work if we left half an hour earlier?"}
+    ]
+  }
+]

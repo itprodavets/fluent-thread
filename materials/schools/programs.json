@@ -1,0 +1,465 @@
+{
+  "asOf": "2026-11-16",
+  "programs": [
+    {
+      "name": "ACE TEFL",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета и тест",
+      "details": "Отправить форму, пройти тест по инструкции школы и уточнить расписание. По анкете требуется посещать минимум 80% занятий.",
+      "level": "Уровень по тесту",
+      "link": "https://forms.gle/paR9zqmDP2n4if1m9",
+      "site": "https://acetefl.com/free-lessons/"
+    },
+    {
+      "name": "Arlington Public Library TX",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Открытая онлайн-встреча",
+      "details": "Найти ближайшую Online Conversation Circle в календаре. Если сбор открыт, использовать инструкцию на карточке.",
+      "level": "CEFR не указан; 18+",
+      "link": "https://arlingtontx.libcal.com/",
+      "site": "https://arlingtontx.libcal.com/"
+    },
+    {
+      "name": "Arlington Public Library VA",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Карточка встречи",
+      "details": "В каталоге выбрать новую встречу English Conversation (Online) и следовать инструкции на карточке. Карта библиотеки не нужна.",
+      "level": "От Beginner до Advanced; 18+",
+      "link": "https://arlingtonva.libcal.com/",
+      "site": "https://arlingtonva.libcal.com/"
+    },
+    {
+      "name": "Brooklyn Public Library — Virtual Conversation Groups",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запись на дату",
+      "details": "Найти будущую Virtual English Conversation Group и зарегистрироваться на неё. При недоступной форме обратиться к координатору через сайт. Допуск из Сингапура подтверждён.",
+      "level": "Смешанные разговорные группы; минимум уточнять по встрече.",
+      "link": "https://discover.bklynlibrary.org/?event=true&search=Virtual+English+Conversation+group",
+      "site": "https://www.bklynlibrary.org/english-conversation-groups"
+    },
+    {
+      "name": "BSC Education",
+      "cost": "Уточнить на новый набор",
+      "category": "check",
+      "registration": "Запрос по email",
+      "details": "Спросить о бесплатном онлайн-наборе CELTA и тесте по адресу manchester@bsceducation.com. Текущая форма не подтверждена.",
+      "level": "Ранее заявлялись A1/A2 и B1/B2. Новый набор уточнить у школы.",
+      "link": "mailto:manchester@bsceducation.com",
+      "site": "https://www.bsceducation.com/"
+    },
+    {
+      "name": "Coralville Advanced",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запрос доступа",
+      "details": "Найти будущий Advanced English Class on Zoom в календаре и выполнить инструкцию организатора. Зарубежный допуск не подтверждён.",
+      "level": "Advanced; CEFR не указан",
+      "link": "https://coralvillepubliclibrary.libnet.info/events",
+      "site": "https://www.coralville.org/m/calendar/event/detail/17839"
+    },
+    {
+      "name": "DC Public Library — Virtual ESL Circles",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запрос по email",
+      "details": "Написать adultlearning.dcpl@dc.gov и попросить ссылку на утреннюю или позднюю виртуальную группу. 18+, бесплатно, доступ из Сингапура без карты.",
+      "level": "От Low Intermediate и выше. Для начинающих с нуля группа не рассчитана.",
+      "link": "mailto:adultlearning.dcpl@dc.gov",
+      "site": "https://www.dclibrary.org/using-the-library/esl-groups"
+    },
+    {
+      "name": "DC Teacher Training",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета",
+      "details": "На странице бесплатных онлайн-уроков выбрать группу, подать заявку и дождаться письма. Нужны камера и микрофон.",
+      "level": "A1, A2, B1, B2 и C1. Наличие группы своего уровня уточнить при записи.",
+      "link": "https://www.dcteachertraining.com/online-free-english-lessons",
+      "site": "https://www.dcteachertraining.com/online-free-english-lessons"
+    },
+    {
+      "name": "English for Africa",
+      "cost": "Бесплатный набор планируется",
+      "category": "check",
+      "registration": "Уточнить новый набор",
+      "details": "Написать через официальный сайт и спросить про бесплатный B2 Zoom. Новый курс планируется, даты не объявлены.",
+      "level": "Upper-Intermediate; 16+",
+      "link": "https://www.englishforafrica.net/",
+      "site": "https://ma.linkedin.com/company/english-for-africa"
+    },
+    {
+      "name": "English.Speaking.Club / Teachers.Band",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Связь с ведущим",
+      "details": "Выбрать будущее занятие в календаре, открыть описание и связаться с ведущим. Единой анкеты нет.",
+      "level": "Уровни зависят от ведущего",
+      "link": "https://calendar.google.com/calendar/embed?src=nr2jbaol2lft27vet45r2ib888%40group.calendar.google.com&ctz=Asia%2FSingapore&mode=AGENDA",
+      "site": "https://www.english.speaking.club/"
+    },
+    {
+      "name": "Fairfax / Burke Centre",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Лист ожидания",
+      "details": "Выбрать ближайшее виртуальное событие в календаре и нажать Register или Join Waitlist.",
+      "level": "Intermediate–Advanced",
+      "link": "https://librarycalendar.fairfaxcounty.gov/",
+      "site": "https://librarycalendar.fairfaxcounty.gov/"
+    },
+    {
+      "name": "Fort Worth Public Library — Conversation Online",
+      "cost": "Уточнить у библиотеки",
+      "category": "check",
+      "registration": "Проверить новую встречу",
+      "details": "Найти будущую Conversation Class в календаре и открыть форму из её карточки. Бесплатность и допуск нерезидентов не подтверждены.",
+      "level": "Для взрослых; CEFR не указан",
+      "link": "https://fortworthtexas.libcal.com/",
+      "site": "https://fortworthtexas.libcal.com/"
+    },
+    {
+      "name": "Free4Talk",
+      "cost": "Бесплатные комнаты",
+      "category": "free",
+      "registration": "Вход в комнату",
+      "details": "Войти в аккаунт и выбрать открытую комнату English. Это практика с участниками.",
+      "level": "Есть комнаты English Advanced; преподаватель не гарантирован",
+      "link": "https://www.free4talk.com/",
+      "site": "https://www.free4talk.com/"
+    },
+    {
+      "name": "FunGrezi",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Без предварительной записи",
+      "details": "На сайте открыть ближайший бесплатный эфир. Ссылка на разговорную практику публикуется для участников. 18+.",
+      "level": "Уровень B2–C1 не заявлен",
+      "link": "https://www.fungrezi.com/",
+      "site": "https://www.fungrezi.com/"
+    },
+    {
+      "name": "IH Bangkok",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета",
+      "details": "Выбрать уровень и онлайн-группу. Сверить даты на странице школы. Минимальный возраст 16 лет.",
+      "level": "A1, A2, B1 и B2; уровни зависят от набора.",
+      "link": "https://forms.office.com/r/kiVWX2en9Y",
+      "site": "https://ihbangkok.com/free-online-lessons/"
+    },
+    {
+      "name": "IH Bucharest",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета",
+      "details": "На странице выбрать нужный уровень и заполнить форму. Проверить актуальные даты: известный B2/C1 слот заходит за полночь SGT.",
+      "level": "B2 и C1 в известном наборе. Для A1–B1 пройти тест и уточнить группы у школы.",
+      "link": "https://ih.ro/en/cursuri-de-engleza-gratuite/#formular-inscriere",
+      "site": "https://ih.ro/en/cursuri-de-engleza-gratuite/"
+    },
+    {
+      "name": "IH Buenos Aires",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запрос по email и тест",
+      "details": "Написать belgrano@ih-buenosaires.com, запросить онлайн-группу, расписание и placement test. 16+.",
+      "level": "От Elementary до Upper-intermediate. Уровень определяет тест.",
+      "link": "mailto:belgrano@ih-buenosaires.com",
+      "site": "https://ih-buenosaires.com/en/free-english-classes-2/"
+    },
+    {
+      "name": "IH Mexico",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета",
+      "details": "На сайте открыть расписание, выбрать онлайн-группу своего уровня и заполнить форму. Место подтверждают по email.",
+      "level": "Elementary, Pre-intermediate, Intermediate, Upper-intermediate и Advanced. Даты зависят от группы.",
+      "link": "https://universityprogrammes.smartschoolsupport.com/tpreg/",
+      "site": "https://universityprogrammes.smartschoolsupport.com/englishclass/"
+    },
+    {
+      "name": "Langclub",
+      "cost": "2 встречи бесплатно, дальше платно",
+      "category": "limited",
+      "registration": "Уровень от B1 · 2 встречи бесплатно",
+      "details": "Создать аккаунт и забронировать пробную встречу. На аккаунт дают 2 бесплатных билета, они не пополняются. Для дальнейшего участия в обычных встречах нужен платный план.",
+      "level": "B2+",
+      "link": "https://langclub.live/",
+      "site": "https://langclub.live/"
+    },
+    {
+      "name": "Literacy Source",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета с ограничением по месту проживания",
+      "details": "На официальной странице выбрать день. Формы требуют проживание в Seattle; для участия из Сингапура не подходит.",
+      "level": "От High Beginner (Level 2). Для Level 1 есть отдельный набор ESOL; условия проживания обязательны.",
+      "link": "https://www.literacysource.org/spl-conversation-circles",
+      "site": "https://www.literacysource.org/spl-conversation-circles"
+    },
+    {
+      "name": "Marin County — Chit Chat",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запрос по email",
+      "details": "Написать cris.criollo@marincounty.gov, указать нужную дату и спросить о доступности из своей страны.",
+      "level": "Разговорная группа для всех уровней. Формат для начинающих уточнить у ведущего.",
+      "link": "mailto:cris.criollo@marincounty.gov",
+      "site": "https://marinlibrary.bibliocommons.com/v2/events/69fce8facaf93436005a6d32"
+    },
+    {
+      "name": "Melbourne Training Associates",
+      "cost": "AUD 55 разово, без срока",
+      "category": "paid",
+      "registration": "Анкета и разовый взнос",
+      "details": "Заполнить анкету и один раз заплатить AUD 55. Школа указывает доступ к групповым урокам без установленного срока окончания. После записи пришлют расписание и ссылку.",
+      "level": "B2+C1",
+      "link": "https://melbtraining.com/free-english/",
+      "site": "https://melbtraining.com/free-english/"
+    },
+    {
+      "name": "NILE",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Набор по расписанию",
+      "details": "На странице Free English открыть даты курса и использовать инструкцию к выбранной группе. 18+.",
+      "level": "B2; 18+, до 12 участников",
+      "link": "https://www.nile-elt.com/products/FreeEnglish",
+      "site": "https://www.nile-elt.com/products/FreeEnglish"
+    },
+    {
+      "name": "Online English Speaking Club",
+      "cost": "Есть бесплатные встречи",
+      "category": "limited",
+      "registration": "Аккаунт",
+      "details": "Открыть главную страницу и воспользоваться её кнопкой регистрации. Прямая ссылка signup закрыта для проверки.",
+      "level": "B1+ / B2; формат указан на карточке",
+      "link": "https://www.onlineenglishspeakingclub.com/",
+      "site": "https://www.onlineenglishspeakingclub.com/"
+    },
+    {
+      "name": "Oxford House",
+      "cost": "€0 за весь курс группы",
+      "category": "free",
+      "registration": "Весь курс группы — €0",
+      "details": "Билет Eventzilla за €0 покрывает курс выбранной группы. Если запись закрыта, спросить о следующем наборе: ecocourses@oxfordhousebcn.com.",
+      "level": "A2/B1 и B2/C1; наличие мест уточнить.",
+      "link": "https://myliveclassroom.eventzilla.net/e/2138600686",
+      "site": "https://myliveclassroom.eventzilla.net/e/2138600686"
+    },
+    {
+      "name": "PEDAL / Penn GSE",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Уведомления о наборе",
+      "details": "Подписаться на свой email. Это рассылка о следующем наборе. Проверить критерии допуска на сайте Penn GSE.",
+      "level": "A1–A2, B1–B2, B2–C1 и C1+. Онлайн есть все уровни; сейчас доступна подписка на уведомления.",
+      "link": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=nZRNbBy5RUyarmbXZEMRDQmodjK7outHkDh8U1BdkrpUNERIREE0Nk04MkJZSExMVU1TWlpXUEY5NC4u&route=shorturl",
+      "site": "https://www.gse.upenn.edu/our-expertise/practical-english-daily-living-pedal"
+    },
+    {
+      "name": "Pep Talk Radio",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запись на встречу",
+      "details": "На странице клуба выбрать ближайшее английское событие и заполнить форму, если она указана.",
+      "level": "B1–B2; это общение, не формальный урок",
+      "link": "https://www.peptalkradio.com/english-language-club/",
+      "site": "https://www.peptalkradio.com/english-language-club/"
+    },
+    {
+      "name": "Piscataway Public Library — Advanced ESL",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Ждать следующего набора",
+      "details": "На странице ESL проверить даты регистрации, запросить placement interview и уточнить допуск нерезидентов. Осенний набор закрыт.",
+      "level": "Есть группы Beginner и Advanced. Приоритет местным жителям; онлайн-формат Beginner уточнить.",
+      "link": "https://www.piscatawaylibrary.org/events/list",
+      "site": "https://www.piscatawaylibrary.org/services/esl"
+    },
+    {
+      "name": "Plainsboro — ESL with Rose",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запись на дату или по email",
+      "details": "Выбрать будущую встречу в серии ESL. Если форма не открывается, написать jhuang@plainsborolibrary.org. Участие из Сингапура разрешено.",
+      "level": "Intermediate",
+      "link": "mailto:jhuang@plainsborolibrary.org",
+      "site": "https://plainsborolibrary.events.mylibrary.digital/series?sn=esl"
+    },
+    {
+      "name": "Queens Public Library — We Speak NYC",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Без предварительной записи",
+      "details": "Открыть официальное расписание, выбрать будущую онлайн-встречу и перейти по её публичной ссылке. 16+.",
+      "level": "Минимальный уровень не установлен. Материалы рассчитаны прежде всего на средний уровень.",
+      "link": "https://wespeaknyc.cityofnewyork.us/wsnyc-online-classes/",
+      "site": "https://wespeaknyc.cityofnewyork.us/wsnyc-online-classes/"
+    },
+    {
+      "name": "RMIT UP",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Набор 2027",
+      "details": "На странице RMIT проверить ближайший онлайн-цикл. Допуск из-за рубежа нужно уточнить.",
+      "level": "B2; не курс C1/C2",
+      "link": "https://www.rmit.edu.au/study-with-us/levels-of-study/pre-university-study/english-language/celta/free-australian-english-classes",
+      "site": "https://www.rmit.edu.au/study-with-us/levels-of-study/pre-university-study/english-language/celta/free-australian-english-classes"
+    },
+    {
+      "name": "Speaking Club",
+      "cost": "30 мин/нед. бесплатно; больше — платно",
+      "category": "limited",
+      "registration": "Аккаунт и бронь",
+      "details": "Новым участникам дают 4 бесплатные встречи по 30 минут без карты. После них на плане Free доступна 1 обычная встреча по 30 минут в неделю. Бронировать в расписании под своим аккаунтом.",
+      "level": "B1+; разговорная практика",
+      "link": "https://speakingclub.com/timetable/",
+      "site": "https://speakingclub.com/timetable/"
+    },
+    {
+      "name": "Stafford House",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета",
+      "details": "Указать уровень и дождаться, пока школа предложит группу. Наличие мест нужно подтвердить.",
+      "level": "Организатор указывает A2, B2 и C1. Известный онлайн-курс — B2; даты A2 уточнить.",
+      "link": "https://forms.cloud.microsoft/e/Cnpg9wczLL",
+      "site": "https://www.meetup.com/free-english-lessons-stafford-house/"
+    },
+    {
+      "name": "Teaching House",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета",
+      "details": "Заполнить форму и в ответе координатору выбрать часовой пояс и уровень. Для B2 спросить Upper-intermediate. 18+.",
+      "level": "Подтверждена Upper-intermediate. Более начальные группы уточнить у координатора.",
+      "link": "https://4i4d9.share.hsforms.com/2GTDQYBIjRTmHonHUe_WuLQ",
+      "site": "https://www.teachinghouse.com/"
+    },
+    {
+      "name": "UUCA ESOL",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Подписка",
+      "details": "Заполнить форму и подтвердить свой email. После подтверждения придут расписание и ссылка на занятия.",
+      "level": "Intermediate–Advanced",
+      "link": "https://eepurl.com/hoc53D",
+      "site": "https://www.meetup.com/uuca-english/"
+    },
+    {
+      "name": "West Vancouver Memorial Library",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запись на дату",
+      "details": "Найти актуальную серию English Conversation Online. Проверить условия на карточке будущей встречи.",
+      "level": "CEFR не указан",
+      "link": "https://westvanlibrary.ca/events/",
+      "site": "https://westvanlibrary.ca/events/"
+    },
+    {
+      "name": "Speak Zone",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета и подбор волонтёра",
+      "details": "Разговорная практика 1:1 в Zoom для участников из разных стран. Выбери удобные часы SGT в анкете. Для 14–17 лет требуется согласие родителя. Дата зависит от подбора волонтёра.",
+      "level": "14+ · Beginner, Intermediate, Advanced",
+      "link": "https://www.speakzone.org/learn",
+      "site": "https://www.speakzone.org/"
+    },
+    {
+      "name": "Global Impact Volunteers — English Practice",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запрос по email",
+      "details": "Структурированная разговорная практика в малых Zoom-группах с волонтёром. Принимают участников со всего мира. Напиши, что ищешь English Practice, и попроси актуальное время по Сингапуру.",
+      "level": "Все уровни, включая начальный",
+      "link": "mailto:global.impact.volunteers.co@gmail.com",
+      "site": "https://www.givolunteering.com/programs"
+    },
+    {
+      "name": "San José Public Library — Evergreen Online ELL",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Запись на конкретную дату",
+      "details": "Найти следующую онлайн-встречу Evergreen ELL в календаре библиотеки. Участие из Сингапура отдельно не подтверждено.",
+      "level": "18+ · Advanced, точный CEFR не указан",
+      "link": "https://sjpl.bibliocommons.com/v2/events",
+      "site": "https://sjpl.bibliocommons.com/v2/events"
+    },
+    {
+      "name": "USA Learns",
+      "cost": "Бесплатно",
+      "category": "self",
+      "registration": "Бесплатный аккаунт",
+      "details": "Самостоятельный курс для взрослых. Для начала выбрать 1st English Course: видео, бытовая лексика и упражнения на речь. В любое время по SGT.",
+      "level": "Взрослые · Beginner и Intermediate",
+      "link": "https://www.usalearns.org/",
+      "site": "https://www.usalearns.org/learn-english-online"
+    },
+    {
+      "name": "Speak Global — детские разговорные группы",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Лист ожидания для семьи",
+      "details": "Живые онлайн-встречи для школьников из разных стран. Текущая группа заполнена. Родитель указывает возраст, уровень, Singapore и доступные часы. Даты нового набора пока нет.",
+      "level": "Дети и подростки · K–12",
+      "link": "https://speakglobalofficial.com/families?lang=en",
+      "site": "https://speakglobalofficial.com/?lang=en"
+    },
+    {
+      "name": "British Council — LearnEnglish Kids",
+      "cost": "Бесплатно",
+      "category": "self",
+      "registration": "Открыть материалы",
+      "details": "Игры, песни, истории и упражнения. Можно начать сразу и заниматься самостоятельно или с родителем в любое время по SGT.",
+      "level": "Дети 5–12 лет · задания разной сложности",
+      "link": "https://learnenglishkids.britishcouncil.org/",
+      "site": "https://learnenglishkids.britishcouncil.org/getting-started-for-kids"
+    },
+    {
+      "name": "British Council — LearnEnglish Teens",
+      "cost": "Бесплатно",
+      "category": "self",
+      "registration": "Открыть материалы",
+      "details": "Самостоятельная практика чтения, аудирования, грамматики и лексики. Выбрать упражнения по уровню и заниматься в любое время по SGT.",
+      "level": "Подростки 13–17 лет · в том числе начальные уровни",
+      "link": "https://learnenglishteens.britishcouncil.org/",
+      "site": "https://learnenglishteens.britishcouncil.org/frequently-asked-questions"
+    },
+    {
+      "name": "UNC LINC — разговорный английский",
+      "cost": "Бесплатно",
+      "category": "free",
+      "registration": "Анкета участника / WhatsApp",
+      "details": "Живые Zoom-занятия со студенческими волонтёрами. На сайте нажать Learner/Participant Form или открыть WhatsApp. Сверить расписание по Сингапуру и допуск из-за рубежа.",
+      "level": "Beginner, Intermediate, Advanced",
+      "link": "https://unclinc.com/",
+      "site": "https://unclinc.com/calendar/"
+    },
+    {
+      "name": "ELLLO — English Listening Lesson Library Online",
+      "cost": "Бесплатные материалы",
+      "category": "self",
+      "registration": "Открыть уроки",
+      "details": "Самостоятельная практика в любое время по SGT. Аудио и видео, расшифровки, лексика и тесты. На главной выбрать уровень или курс Beginner (A1).",
+      "level": "A1–C1 · самостоятельная практика",
+      "link": "https://elllo.org/",
+      "site": "https://elllo.org/"
+    },
+    {
+      "name": "Cambridge English — Activities for Children",
+      "cost": "Бесплатные материалы",
+      "category": "self",
+      "registration": "Открыть упражнения",
+      "details": "Для детей младшего школьного возраста. Интерактивные задания по чтению, письму, аудированию и речи для самостоятельной работы или занятий с родителем. В любое время по SGT.",
+      "level": "Дети · Pre-A1 Starters, A1 Movers, A2 Flyers",
+      "link": "https://www.cambridgeenglish.org/learning-english/parents-and-children/activities-for-children/?level=basic",
+      "site": "https://www.cambridgeenglish.org/learning-english/parents-and-children/how-to-support-your-child/help-your-primary-aged-child-learn-english/"
+    }
+  ]
+}
