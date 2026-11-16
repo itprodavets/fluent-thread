@@ -460,3 +460,15 @@ button:disabled { opacity: .52; cursor: default; }
 .phrase-topics .material-choice-grid small { display: block; color: var(--muted); }
 .phrase-review { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--line); }
 .account-sections a[aria-current="page"] { border-color: #668674; background: #e9f3ec; }
+
+.school-lessons { display: grid; gap: 12px; }
+.school-lessons input { display: block; width: min(100%, 460px); margin-top: 4px; }
+.school-lesson-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 10px; align-items: start; }
+.school-lesson-groups > section { padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+.school-lesson-groups h3 { margin: 0 0 8px; font-size: 1rem; }
+.school-lesson-list { display: grid; gap: 6px; }
+.school-lesson-choice { width: 100%; text-align: start; overflow-wrap: anywhere; }
+.school-lesson-choice[aria-pressed="true"] { background: #e9f3ec; border-color: #668674; }
+.school-lesson-choice small { display: block; color: var(--muted); }
+.school-dialogue-results { margin: 6px 0 0; padding-inline-start: 14px; }
+.school-dialogue-results button { border: 0; background: transparent; min-height: 44px; text-align: start; color: var(--mint); }

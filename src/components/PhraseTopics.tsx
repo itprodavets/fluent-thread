@@ -3,6 +3,7 @@ import { useWorkspace } from '../context';
 import { applyChatPackage, parseChatPackage } from '../domain/chat-package.js';
 import { lessonPractice, teacherPhraseReviews } from '../domain/lesson-practice';
 import { LessonPractice } from './LessonPractice';
+import { SchoolLessonPicker } from './SchoolLessonPicker';
 
 const datedLessons = [
   { title: 'Волки, экосистемы и экодом · 16 ноября', load: () => import('../../materials/2026-11-16/wolves-and-eco-homes.json?raw') },
@@ -55,10 +56,7 @@ export function PhraseTopics() {
 
   return <section className="phrase-topics" aria-label="Фразы и грамматика по урокам">
     {!!topics.length && <>
-      <div className="material-choice-grid" role="group" aria-label="Темы с фразами и грамматикой">
-        {topics.map(topic => <button type="button" key={topic.id} aria-pressed={topic.id === selected?.id}
-          onClick={() => select(topic.id)}>{topic.title}{topic.links.some(id => due.has(id)) && <small>Есть фразы к повторению</small>}</button>)}
-      </div>
+      <SchoolLessonPicker topics={topics} selected={selected?.id} choose={select} due={topic => topic.links.some(id => due.has(id))} />
       {selected && <LessonPractice key={selected.id} resources={active.resources} topicId={selected.id} openPhrases />}
     </>}
     {!!missing.length && <div className="phrase-topic-imports">
