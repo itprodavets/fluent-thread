@@ -510,3 +510,7 @@ button:disabled { opacity: .52; cursor: default; }
 .skill-reply textarea { display: block; width: 100%; }
 .skill-reply .practice-modes { margin: 0; }
 .skill-reply .speech-corrections { margin-block: 0; }
+
+.dialogue-mistakes { display: grid; gap: 12px; max-width: 850px; }
+.dialogue-mistakes h2, .dialogue-mistakes > p { margin: 0; }
+.dialogue-mistakes .material-choice-grid small { display: block; color: var(--muted); }
