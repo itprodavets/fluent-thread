@@ -3,27 +3,216 @@
     "id": "polite-questions",
     "title": "Вежливые вопросы",
     "dialogues": [
-      {"school":"Stafford House","title":"В малой группе: уточнить и обосновать","prompt":"You missed question five. Ask your partner to read the clue aloud and then ask where you can find the answer.","answer":"Could you read the clue out loud, please? Could you tell me where we can find the answer?"},
-      {"school":"ACE TEFL","title":"Договорись, кто за кем заедет","prompt":"Ask politely whether your partner can pick you up, then find out what time they plan to leave.","answer":"Would you mind picking me up at my mum’s? Could you tell me what time you’re planning to leave?"},
-      {"school":"DC Teacher Training","title":"Попроси преподавателя о конкретной обратной связи","prompt":"Ask the tutor to point out one specific mistake and give you a chance to say it again.","answer":"Could you point out one thing I could say more naturally? Would it be all right if I tried again?"}
+      {
+        "school": "Stafford House",
+        "title": "В малой группе: уточнить и обосновать",
+        "prompt": "You missed question five. Ask your partner to read the clue aloud and then ask where you can find the answer.",
+        "answer": "Could you read the clue out loud, please? Could you tell me where we can find the answer?",
+        "phrases": [
+          {
+            "phrase": "Could you read the clue out loud?",
+            "meaning": "Можешь прочитать подсказку вслух?",
+            "pattern": "Could you + глагол — вежливая просьба.",
+            "example": "Could you read the last sentence out loud?",
+            "origin": "диалог"
+          },
+          {
+            "phrase": "Could you read it word for word?",
+            "meaning": "Можешь прочитать это слово в слово?",
+            "pattern": "Word for word — дословно, без пересказа.",
+            "example": "Could you repeat the instructions word for word?",
+            "origin": "диалог"
+          }
+        ]
+      },
+      {
+        "school": "ACE TEFL",
+        "title": "Договорись, кто за кем заедет",
+        "prompt": "Ask politely whether your partner can pick you up, then find out what time they plan to leave.",
+        "answer": "Would you mind picking me up at my mum’s? Could you tell me what time you’re planning to leave?",
+        "phrases": [
+          {
+            "phrase": "Could you pick me up on the way?",
+            "meaning": "Можешь заехать за мной по дороге?",
+            "pattern": "Pick someone up — заехать за кем-то, забрать.",
+            "example": "Could you pick me up on your way to the station?",
+            "origin": "диалог"
+          },
+          {
+            "phrase": "Have you worked out how you’re getting there?",
+            "meaning": "Ты уже решил, как туда доберёшься?",
+            "pattern": "Work out how + подлежащее + глагол — разобраться, как что-то сделать.",
+            "example": "Have you worked out how you’re getting to the airport?",
+            "origin": "диалог"
+          }
+        ]
+      },
+      {
+        "school": "DC Teacher Training",
+        "title": "Попроси преподавателя о конкретной обратной связи",
+        "prompt": "Ask the tutor to point out one specific mistake and give you a chance to say it again.",
+        "answer": "Could you point out one thing I could say more naturally? Would it be all right if I tried again?",
+        "phrases": [
+          {
+            "phrase": "Could you give me a more natural phrase and let me try again?",
+            "meaning": "Можешь предложить более естественную фразу и дать мне попробовать ещё раз?",
+            "pattern": "Let me + глагол без to.",
+            "example": "Could you suggest a clearer opening and let me try again?",
+            "origin": "диалог"
+          },
+          {
+            "phrase": "Could you be more specific about the speaking goal?",
+            "meaning": "Можешь точнее сформулировать цель по устной речи?",
+            "pattern": "Be more specific about + тема, которую нужно уточнить.",
+            "example": "Could you be more specific about the problem?",
+            "origin": "диалог"
+          }
+        ]
+      }
     ]
   },
   {
     "id": "future-plans",
     "title": "Планы на будущее",
     "dialogues": [
-      {"school":"ACE TEFL","title":"Четыре формы будущего","prompt":"Make plans for a play. Give a timetable, an arrangement, an earlier intention and an offer you make during the conversation.","answer":"The performance starts at seven. I’m meeting Alex outside the theatre at six. I’m going to book the tickets tonight. Do you need a lift? I’ll pick you up."},
-      {"school":"Stafford House","title":"Экодом и полезные технологии","prompt":"Continue the dialogue with your plans for an eco-house. Say what you’ve already decided, what you’ve arranged for Friday and what you can offer to do now.","answer":"We’re going to improve the insulation first. A technician is coming to check the smart meter on Friday. I’ll send you the energy readings now."},
-      {"school":"DC Teacher Training","title":"Мои занятия и цели в английском","prompt":"Tell your tutor how you’ll practise next week. Include a prior intention, a booked session and a decision you make while speaking.","answer":"I’m going to practise writing clearer emails. I’m meeting my conversation partner on Tuesday. Actually, I’ll write a short draft tonight."}
+      {
+        "school": "ACE TEFL",
+        "title": "Четыре формы будущего",
+        "prompt": "Make plans for a play. Give a timetable, an arrangement, an earlier intention and an offer you make during the conversation.",
+        "answer": "The performance starts at seven. I’m meeting Alex outside the theatre at six. I’m going to book the tickets tonight. Do you need a lift? I’ll pick you up.",
+        "phrases": [
+          {
+            "phrase": "The performance starts at seven.",
+            "meaning": "Спектакль начинается в семь.",
+            "pattern": "Present Simple — время по расписанию.",
+            "example": "The workshop starts at nine.",
+            "origin": "диалог"
+          },
+          {
+            "phrase": "I’m meeting my friend at the theatre on Friday.",
+            "meaning": "В пятницу я встречаюсь с другом у театра.",
+            "pattern": "Present Continuous — уже есть договорённость.",
+            "example": "I’m meeting my conversation partner on Tuesday.",
+            "origin": "диалог"
+          }
+        ]
+      },
+      {
+        "school": "Stafford House",
+        "title": "Экодом и полезные технологии",
+        "prompt": "Continue the dialogue with your plans for an eco-house. Say what you’ve already decided, what you’ve arranged for Friday and what you can offer to do now.",
+        "answer": "We’re going to improve the insulation first. A technician is coming to check the smart meter on Friday. I’ll send you the energy readings now.",
+        "phrases": [
+          {
+            "phrase": "We’re going to improve the insulation first.",
+            "meaning": "Сначала мы собираемся улучшить теплоизоляцию.",
+            "pattern": "Going to — намерение, которое уже сформировалось.",
+            "example": "We’re going to replace the windows next month.",
+            "origin": "образец ответа"
+          },
+          {
+            "phrase": "A technician is coming to check the smart meter on Friday.",
+            "meaning": "В пятницу придёт мастер проверить умный счётчик.",
+            "pattern": "Present Continuous + день — договорённость о визите.",
+            "example": "A plumber is coming to fix the shower on Monday.",
+            "origin": "образец ответа"
+          }
+        ]
+      },
+      {
+        "school": "DC Teacher Training",
+        "title": "Мои занятия и цели в английском",
+        "prompt": "Tell your tutor how you’ll practise next week. Include a prior intention, a booked session and a decision you make while speaking.",
+        "answer": "I’m going to practise writing clearer emails. I’m meeting my conversation partner on Tuesday. Actually, I’ll write a short draft tonight.",
+        "phrases": [
+          {
+            "phrase": "Where will you use your English outside class?",
+            "meaning": "Где ты будешь использовать английский вне занятий?",
+            "pattern": "Will + начальная форма глагола — вопрос о будущем.",
+            "example": "Where will you use these phrases at work?",
+            "origin": "диалог"
+          },
+          {
+            "phrase": "I’d also like to write concise emails that sound natural to international colleagues.",
+            "meaning": "Я также хотел бы писать короткие письма, которые звучат естественно для иностранных коллег.",
+            "pattern": "I’d like to + глагол — что хочется делать или чему хочется научиться.",
+            "example": "I’d like to give shorter updates during meetings.",
+            "origin": "диалог"
+          }
+        ]
+      }
     ]
   },
   {
     "id": "disagreeing",
     "title": "Вежливое несогласие",
     "dialogues": [
-      {"school":"DC Teacher Training","title":"Фильм, мнение и вежливое несогласие","prompt":"Your partner loved the ending. Acknowledge their opinion, disagree gently and give one specific reason.","answer":"I see what you mean. The twist was surprising, but it felt rushed to me because the characters barely had time to react."},
-      {"school":"Stafford House","title":"Экодом и полезные технологии","prompt":"Your partner wants to install underfloor heating first. Acknowledge the idea, then argue for another priority and explain why.","answer":"I can see why you’d choose underfloor heating. I’d start with insulation, though. The house loses a lot of heat through the walls."},
-      {"school":"ACE TEFL","title":"Договорись, кто за кем заедет","prompt":"Your partner wants to drive at peak time. Acknowledge their point, then politely suggest taking the train or leaving earlier.","answer":"I see why driving would be easier with Sam. I’m not sure about leaving that late, though. Would it work if we left half an hour earlier?"}
+      {
+        "school": "DC Teacher Training",
+        "title": "Фильм, мнение и вежливое несогласие",
+        "prompt": "Your partner loved the ending. Acknowledge their opinion, disagree gently and give one specific reason.",
+        "answer": "I see what you mean. The twist was surprising, but it felt rushed to me because the characters barely had time to react.",
+        "phrases": [
+          {
+            "phrase": "I see what you mean.",
+            "meaning": "Понимаю, что ты имеешь в виду.",
+            "pattern": "Покажи, что понял логику человека, и затем назови свою оговорку.",
+            "example": "I see what you mean, but I found the ending confusing.",
+            "origin": "диалог"
+          },
+          {
+            "phrase": "My reservation is that the final twist felt underdeveloped.",
+            "meaning": "Меня смущает, что финальный поворот показался недоработанным.",
+            "pattern": "My reservation is that + предложение — сдержанное возражение.",
+            "example": "My reservation is that the schedule leaves us very little time.",
+            "origin": "диалог"
+          }
+        ]
+      },
+      {
+        "school": "Stafford House",
+        "title": "Экодом и полезные технологии",
+        "prompt": "Your partner wants to install underfloor heating first. Acknowledge the idea, then argue for another priority and explain why.",
+        "answer": "I can see why you’d choose underfloor heating. I’d start with insulation, though. The house loses a lot of heat through the walls.",
+        "phrases": [
+          {
+            "phrase": "It depends on the building.",
+            "meaning": "Это зависит от здания.",
+            "pattern": "It depends on + фактор, который влияет на решение.",
+            "example": "It depends on how much heat the house loses.",
+            "origin": "диалог"
+          },
+          {
+            "phrase": "Changing the thermostat and reducing heat loss might be more practical.",
+            "meaning": "Заменить термостат и снизить потери тепла, возможно, практичнее.",
+            "pattern": "Might be more practical — предложить альтернативу без категоричности.",
+            "example": "Taking the train might be more practical during rush hour.",
+            "origin": "диалог"
+          }
+        ]
+      },
+      {
+        "school": "ACE TEFL",
+        "title": "Договорись, кто за кем заедет",
+        "prompt": "Your partner wants to drive at peak time. Acknowledge their point, then politely suggest taking the train or leaving earlier.",
+        "answer": "I see why driving would be easier with Sam. I’m not sure about leaving that late, though. Would it work if we left half an hour earlier?",
+        "phrases": [
+          {
+            "phrase": "I’m not sure about leaving that late, though.",
+            "meaning": "Но я сомневаюсь, стоит ли выезжать так поздно.",
+            "pattern": "I’m not sure about + -ing — мягко озвучить сомнение.",
+            "example": "I’m not sure about booking that early, though.",
+            "origin": "образец ответа"
+          },
+          {
+            "phrase": "Would it work if we left half an hour earlier?",
+            "meaning": "Получится, если мы выедем на полчаса раньше?",
+            "pattern": "Would it work if we + Past Simple — предложить вариант и проверить, подходит ли он.",
+            "example": "Would it work if we moved the lesson to Friday?",
+            "origin": "образец ответа"
+          }
+        ]
+      }
     ]
   }
 ]

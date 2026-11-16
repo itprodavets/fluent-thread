@@ -3,15 +3,15 @@ import { dialogueChoices, importedLessonsFor } from '../domain/imported-lessons'
 import { starterScenes } from '../domain/starter-materials';
 import { isStarterResource } from '../domain/starter-materials';
 import { LessonAudio } from './LessonAudio';
-import { LessonPractice } from './LessonPractice';
+import { LessonPractice, PhraseRecall } from './LessonPractice';
 import { PhraseTopics } from './PhraseTopics';
 import { SchoolLessonPicker } from './SchoolLessonPicker';
 import { SchoolDirectory } from './SchoolDirectory';
 import { SkillPicker } from './SkillPicker';
-import { skillMatches } from '../domain/skill-dialogues';
+import { skillMatches, skillPhraseCards } from '../domain/skill-dialogues';
 import datedLessons from '../../materials/2026-11-16/lessons.json';
 import skills from '../../materials/2026-11-16/skills.json';
-import { lessonPhrasesHash } from '../domain/lesson-practice';
+import { lessonPhrasesHash, phraseReviews, skillPhrasesHash } from '../domain/lesson-practice';
 import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
@@ -239,6 +239,7 @@ export function Materials() {
   const dialog = useRef<HTMLDialogElement>(null);
   const lessonNavigation = useRef<HTMLDetailsElement>(null);
   const lessonWorkArea = useRef<HTMLDivElement>(null);
+  const skillPractice = useRef<HTMLElement>(null);
   const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
   const [view, setView] = useState<'lessons' | 'library' | 'audio' | 'phrases' | 'schools'>(() => {
     if (location.hash === '#materials/schools') return 'schools';
@@ -246,8 +247,9 @@ export function Materials() {
     if (location.hash === '#materials/audio' && study.language === 'en') return 'audio';
     return location.hash === '#materials/library' || resourceId ? 'library' : 'lessons';
   });
-  const [catalog, setCatalog] = useState<'schools' | 'skills'>(() => location.hash === '#materials/skills' ? 'skills' : 'schools');
-  const [skillId, setSkill] = useState(skills[0].id);
+  const [catalog, setCatalog] = useState<'schools' | 'skills'>(() => location.hash === skillPhrasesHash ? 'skills' : 'schools');
+  const [skillId, setSkill] = useState(() => skills.find(item =>
+    phraseReviews(study, item.dialogues.flatMap(dialogue => dialogue.phrases), Date.now()).due.size)?.id ?? skills[0].id);
   const [scene, setScene] = useState('');
   const [lessonId, setLessonId] = useState('');
   const lessons = useMemo(() => importedLessonsFor(study), [study]);
@@ -260,6 +262,7 @@ export function Materials() {
   const skillDialogs = catalog === 'skills' ? skillMatches(skill, lessonTopics, datedLessons, dialoguesByTopic) : [];
   const skillDialogue = skillDialogs.find(entry => entry.topicId === scene && lessons.some(lesson => lesson.id === lessonId
     && lesson.topicId === entry.topicId && lesson.title === entry.title)) ?? skillDialogs[0];
+  const skillCards = skillPhraseCards(skillDialogs, skillDialogue);
   const selectedScene = catalog === 'skills' ? skillDialogue?.topicId ?? '' :
     [...lessonTopics, ...(study.language === 'en' ? starterScenes : [])].some(topic => topic.id === scene)
       ? scene : lessonTopics[0]?.id ?? (study.language === 'en' ? starterScenes[0].id : '');
@@ -347,7 +350,12 @@ export function Materials() {
             ? <StarterMaterials scene={selectedScene} chooseScene={chooseTopic} />
             : selectedLesson && selectedChoice ? <>
               <div className="lesson-work-header">
-                {skillDialogue && <p className="sub">{skill.title} · {skillDialogue.school}</p>}
+                {skillDialogue && <div className="actions">
+                  <p className="sub">{skill.title} · {skillDialogue.school}</p>
+                  <button type="button" onClick={() => { skillPractice.current?.scrollIntoView({ block: 'start' }); skillPractice.current?.focus({ preventScroll: true }); }}>
+                    Учить фразы · {skillCards.length}
+                  </button>
+                </div>}
                 {!!selectedLesson.level && <div className="level-tabs" role="group" aria-label="Уровень диалога">
                   {selectedChoice.versions.map(version => <button type="button" key={version.id}
                     aria-pressed={version.id === selectedLesson.id} onClick={() => {
@@ -359,6 +367,10 @@ export function Materials() {
               <StarterLesson key={selectedLesson.id + (skillDialogue ? skill.id : '')}
                 lesson={{ ...selectedLesson, notes: [], source: skillDialogue ? '' : 'Диалог и задания из твоих материалов.',
                   questions: skillDialogue ? [[skillDialogue.prompt, skillDialogue.answer], ...selectedLesson.questions] : selectedLesson.questions }} />
+              {skillDialogue && <section ref={skillPractice} tabIndex={-1} className="resource lesson-practice" aria-label="Фразы навыка">
+                <h3>Фразы навыка</h3>
+                <PhraseRecall key={skill.id + ':' + skillDialogue.dialogueId} cards={skillCards} language={study.language} />
+              </section>}
               <LessonPractice key={selectedScene} resources={active.resources} topicId={selectedScene} />
             </> : catalog === 'schools' && <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>}
         </div>

@@ -4,7 +4,7 @@ import { readRecentLapses } from '../domain/anki-history';
 import type { RecentLapse } from '../domain/anki-history';
 import { reviewKey } from '../domain/anki-model';
 import { localDay } from '../domain/model';
-import { lessonPhrasesHash, teacherPhraseReviews } from '../domain/lesson-practice';
+import { lessonPhrasesHash, phraseReviews, skillPhrasesHash, teacherPhraseReviews } from '../domain/lesson-practice';
 import { addExample } from '../domain/sample-study';
 import { createLearningSession, currentLearningSession, lapseWindow, practiceWeek, selectLearningTargets, wordCount } from '../domain/learning-session';
 import type { Budget } from '../domain/learning-session';
@@ -12,6 +12,7 @@ import { TopicStudio } from './TopicStudio';
 import { LearningSession } from './LearningSession';
 import { Icon } from './Icon';
 import { LanguageLabel } from './Language';
+import skills from '../../materials/2026-11-16/skills.json';
 
 function LearningPath() {
   return <div className="learning-path" aria-label="Порядок занятия"><span className="path-eyebrow">КАК ПОСТРОЕНО ЗАНЯТИЕ</span>
@@ -80,6 +81,7 @@ export function Today() {
   if (dialogue) return <><button type="button" className="back-to-today subtle" onClick={() => setDialogue(false)}>← К ежедневной практике</button><TopicStudio /></>;
   if (open && session && !completed) return <LearningSession session={session} close={() => setOpen(false)} />;
   const answers = Object.values(session?.answers ?? {});
+  const skillReviews = phraseReviews(study, skills.flatMap(skill => skill.dialogues.flatMap(dialogue => dialogue.phrases)), now);
   const { due: phraseDue, pending: phrasePending } = teacherPhraseReviews(study, now);
 
   return <div className="today-page">
@@ -88,6 +90,9 @@ export function Today() {
     <div className="today-mode-picker"><div><p className="kicker">ПРАКТИКА ПОД ТВОЮ ЗАДАЧУ</p><p>Повторить слова или поговорить на нужную тему</p></div><button type="button" className="dialogue-entry" onClick={() => setDialogue(true)}><Icon name="map" /><span>Практика по теме<small>Моя история или диалог</small></span><Icon name="arrow" /></button></div>
     {(!!phraseDue.size || !!phrasePending.size) && <a className="button" href={lessonPhrasesHash}>
       {phraseDue.size ? 'Повторить фразы преподавателя · ' + phraseDue.size : 'Фразы преподавателя · отложено ' + phrasePending.size}
+    </a>}
+    {(!!skillReviews.due.size || !!skillReviews.pending.size) && <a className="button" href={skillPhrasesHash}>
+      {skillReviews.due.size ? 'Повторить фразы по навыкам · ' + skillReviews.due.size : 'Фразы по навыкам · отложено ' + skillReviews.pending.size}
     </a>}
     <div className="today-grid">
       <section className={'daily-hero ' + (completed ? 'daily-complete' : '')} aria-labelledby="today-lesson-title">

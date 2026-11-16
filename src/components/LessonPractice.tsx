@@ -1,15 +1,14 @@
 import { useEffect, useId, useState } from 'react';
 import { useWorkspace } from '../context';
-import { assessTeacherPhrase, lessonPractice, phraseVocabularyId, teacherPhraseCards } from '../domain/lesson-practice';
-import { lastSpoken, wordId } from '../domain/model';
+import { assessPhraseCard, lessonPractice, phraseVocabularyId, phraseWordKey, teacherPhraseCards } from '../domain/lesson-practice';
+import type { PhraseCard } from '../domain/lesson-practice';
+import { lastSpoken } from '../domain/model';
 import type { Resource } from '../domain/model';
 import { stopSpeaking } from '../domain/voice.js';
 import { Fold, VoiceButtons } from './common';
 import { WordExamples } from './WordExamples';
 
-type Phrase = ReturnType<typeof teacherPhraseCards>[number];
-
-function PhraseRecall({ cards, language }: { cards: Phrase[]; language: string }) {
+export function PhraseRecall({ cards, language }: { cards: PhraseCard[]; language: string }) {
   const { active, study, update } = useWorkspace();
   const [index, setIndex] = useState(0);
   const [revealed, reveal] = useState(false);
@@ -19,7 +18,7 @@ function PhraseRecall({ cards, language }: { cards: Phrase[]; language: string }
     const timer = window.setInterval(() => setNow(Date.now()), 15_000);
     return () => window.clearInterval(timer);
   }, []);
-  const words = new Map(active.words.map(entry => [wordId(entry.language, entry.title, entry.meaning), entry]));
+  const words = new Map(active.words.map(entry => [phraseWordKey(entry), entry]));
   const entries = cards.map(card => {
     const word = words.get(phraseVocabularyId(card, language));
     const result = word && study.results[word.id];
@@ -34,11 +33,11 @@ function PhraseRecall({ cards, language }: { cards: Phrase[]; language: string }
     ? due <= now ? 'Пора повторить' : 'Повторить в ' + new Intl.DateTimeFormat('ru', {hour: '2-digit', minute: '2-digit'}).format(due)
     : 'Без отметки';
   async function score(value: 'independent' | 'retry') {
-    if (!word || saving) return;
+    if ((!word && !card.topicId) || saving) return;
     setSaving(true);
     const timestamp = Date.now();
     try {
-      if (await update(current => assessTeacherPhrase(current, word, value, timestamp))) setNow(timestamp);
+      if (await update(current => assessPhraseCard(current, card, language, value, timestamp))) setNow(timestamp);
     } finally { setSaving(false); }
   }
   function move(next: number) {
@@ -57,7 +56,8 @@ function PhraseRecall({ cards, language }: { cards: Phrase[]; language: string }
       reveal(!revealed);
     }}>{revealed ? 'Скрыть фразу' : 'Показать фразу'}</button>
     {revealed && <div className="lesson-recall-answer">
-      <p><strong lang={language}>{card.phrase}</strong> <small>{card.time}</small></p>
+      <p><strong lang={language}>{card.phrase}</strong> {card.time && <small>{card.time}</small>}</p>
+      {card.source && <p className="sub">{card.source}</p>}
       <VoiceButtons text={card.phrase} language={language} />
       {card.pattern && <p>{card.pattern}</p>}
       {card.example && <p lang={language}>{card.example}</p>}
@@ -65,7 +65,7 @@ function PhraseRecall({ cards, language }: { cards: Phrase[]; language: string }
         <textarea rows={2} lang={language} key={index} />
       </label>}
     </div>}
-    {word && <div className="phrase-review">
+    {(word || card.topicId) && <div className="phrase-review">
       <p role="status"><strong>{status}</strong></p>
       <div className="actions">
         <button type="button" className="primary" disabled={saving} onClick={() => void score('independent')}>Могу использовать</button>
