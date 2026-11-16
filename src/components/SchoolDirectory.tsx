@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Heading } from './common';
 import directory from '../../materials/schools/programs.json';
 
 const categories = [
@@ -12,9 +13,9 @@ export function SchoolDirectory() {
   const terms = query.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
   const programs = directory.programs.filter(program => (category === 'all' || category === program.category) &&
     terms.every(term => [program.name, program.level, program.details].join(' ').toLocaleLowerCase().includes(term)));
-  return <section className="school-directory" aria-label="Школы и программы">
+  return <><Heading title="Школы и курсы" detail="Каталог программ английского с условиями участия и ссылками для записи." />
+  <section className="school-directory" aria-label="Школы и программы">
     <div className="directory-controls">
-      <h2>Школы и программы</h2>
       <p className="sub">Данные каталога на 16 ноября 2026. Ближайший набор и доступ из Сингапура проверяй у организатора.</p>
       <label>Найти школу, уровень или формат<input type="search" value={query} onChange={event => search(event.target.value)} /></label>
       <div className="actions" role="group" aria-label="Условия участия">
@@ -34,5 +35,5 @@ export function SchoolDirectory() {
         </div>
       </article>)}
     </div>
-  </section>;
+  </section></>;
 }
