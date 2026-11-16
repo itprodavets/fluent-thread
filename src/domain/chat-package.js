@@ -65,6 +65,12 @@ export function parseChatPackage(text) {
     title: field(data.topic?.title, 'topic.title', 90, true),
     prompt: field(data.topic?.prompt, 'topic.prompt', 4000)
   };
+  const school = field(data.topic?.source?.school, 'topic.source.school', 90);
+  const date = field(data.topic?.source?.date, 'topic.source.date', 10);
+  if (date && (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(date)) || new Date(date).toISOString().slice(0, 10) !== date)) {
+    throw new Error('Укажи дату занятия в формате ГГГГ-ММ-ДД.');
+  }
+  if (school) topic.source = { school, ...(date ? { date } : {}) };
   const words = list(data.words, 'words', 150).map(word => {
     const vocabularyLevel = field(word.vocabularyLevel, 'word.vocabularyLevel', 12);
     if (vocabularyLevel && !['learning', 'passive', 'active'].includes(vocabularyLevel)) {
@@ -111,7 +117,7 @@ export function applyChatPackage(study, packet, topicId) {
     : available.find(topic => normalize(topic.title) === normalize(packet.topic.title));
   if (topicId && !existing) throw new Error('Выбранная тема больше недоступна.');
   const topic = existing
-    ? { ...existing, links: [...existing.links] }
+    ? { ...existing, ...(packet.topic.source && !existing.source ? { source: packet.topic.source } : {}), links: [...existing.links] }
     : { id: crypto.randomUUID(), language, ...packet.topic, links: [], materials: [] };
   const linked = new Set(topic.links);
   let wordsAdded = 0;

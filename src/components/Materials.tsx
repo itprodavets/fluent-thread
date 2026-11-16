@@ -5,6 +5,7 @@ import { isStarterResource } from '../domain/starter-materials';
 import { LessonAudio } from './LessonAudio';
 import { LessonPractice } from './LessonPractice';
 import { PhraseTopics } from './PhraseTopics';
+import { SchoolLessonPicker } from './SchoolLessonPicker';
 import { lessonPhrasesHash } from '../domain/lesson-practice';
 import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useMemo, useRef, useState } from 'react';
@@ -240,9 +241,13 @@ export function Materials() {
   const [scene, setScene] = useState('');
   const [lessonId, setLessonId] = useState('');
   const lessons = useMemo(() => importedLessonsFor(study), [study]);
-  const lessonTopics = active.topics.filter(topic => lessons.some(lesson => lesson.topicId === topic.id));
+  const lessonTopics = useMemo(() => active.topics.filter(topic => lessons.some(lesson => lesson.topicId === topic.id)), [active.topics, lessons]);
   const selectedScene = [...lessonTopics, ...(study.language === 'en' ? starterScenes : [])].some(topic => topic.id === scene)
     ? scene : lessonTopics[0]?.id ?? (study.language === 'en' ? starterScenes[0].id : '');
+  const dialoguesByTopic = useMemo(() => new Map(lessonTopics.map(topic => [
+    topic.id, dialogueChoices(lessons.filter(item => item.topicId === topic.id)).map(choice =>
+      ({ id: (choice.versions.find(version => version.level === 'B2') ?? choice.versions[0]).id, title: choice.title }))
+  ])), [lessonTopics, lessons]);
   const choices = dialogueChoices(lessons.filter(item => item.topicId === selectedScene));
   const selectedChoice = choices.find(choice => choice.versions.some(version => version.id === lessonId)) ?? choices[0];
   const selectedLesson = selectedChoice?.versions.find(version => version.id === lessonId)
@@ -259,10 +264,10 @@ export function Materials() {
     if (location.hash.startsWith('#materials/')) location.hash = next === 'lessons' ? 'materials' : 'materials/' + next;
     setView(next);
   }
-  function chooseTopic(id: string) {
-    if (id === selectedScene) return;
+  function chooseTopic(id: string, dialogueId?: string) {
+    if (id === selectedScene && !dialogueId) return;
     setScene(id);
-    setLessonId('');
+    setLessonId(dialogueId ?? '');
   }
   function close() { dialog.current?.close(); }
   async function remove() {
@@ -288,7 +293,7 @@ export function Materials() {
           options={[{ id: '', title: 'Все темы' }, ...active.topics, { id: 'unassigned', title: 'Без темы' }]} />}
       </section>
       {view === 'lessons' && <>
-        {!!lessonTopics.length && <MaterialChoices title="Мои уроки" selected={selectedScene} choose={chooseTopic} options={lessonTopics} />}
+        {!!lessonTopics.length && <SchoolLessonPicker topics={lessonTopics} selected={selectedScene} choose={chooseTopic} dialogues={dialoguesByTopic} />}
         {study.language === 'en' && <MaterialChoices title="Стартовые темы" selected={selectedScene} choose={chooseTopic} options={starterScenes}
           collapsible={!!lessonTopics.length} />}
         {study.language === 'en' && starterScenes.some(item => item.id === selectedScene)

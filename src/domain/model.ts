@@ -28,6 +28,7 @@ export interface Topic {
   links: string[];
   position?: MapPoint;
   connections?: string[];
+  source?: import('./school-lessons').LessonSource;
   prompt: string;
   material?: string;
   materials?: { format: string; text: string }[];
