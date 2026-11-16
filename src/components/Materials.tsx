@@ -4,6 +4,8 @@ import { starterScenes } from '../domain/starter-materials';
 import { isStarterResource } from '../domain/starter-materials';
 import { LessonAudio } from './LessonAudio';
 import { LessonPractice } from './LessonPractice';
+import { PhraseTopics } from './PhraseTopics';
+import { lessonPhrasesHash } from '../domain/lesson-practice';
 import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
@@ -230,7 +232,11 @@ export function Materials() {
   const [revision, reset] = useState(0);
   const dialog = useRef<HTMLDialogElement>(null);
   const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
-  const [view, setView] = useState<'lessons' | 'library' | 'audio'>(resourceId ? 'library' : 'lessons');
+  const [view, setView] = useState<'lessons' | 'library' | 'audio' | 'phrases'>(() => {
+    if (location.hash === lessonPhrasesHash) return 'phrases';
+    if (location.hash === '#materials/audio' && study.language === 'en') return 'audio';
+    return location.hash === '#materials/library' || resourceId ? 'library' : 'lessons';
+  });
   const [scene, setScene] = useState('');
   const [lessonId, setLessonId] = useState('');
   const lessons = useMemo(() => importedLessonsFor(study), [study]);
@@ -249,6 +255,10 @@ export function Materials() {
     setPanel(value);
     if (!dialog.current?.open) dialog.current?.showModal();
   }
+  function changeView(next: 'lessons' | 'library' | 'audio') {
+    if (location.hash.startsWith('#materials/')) location.hash = next === 'lessons' ? 'materials' : 'materials/' + next;
+    setView(next);
+  }
   function chooseTopic(id: string) {
     if (id === selectedScene) return;
     setScene(id);
@@ -264,9 +274,10 @@ export function Materials() {
   return <><Heading title="Материалы" detail="Тексты, упражнения и записи для разговорной практики." />
     <div className="library">
       <nav className="account-sections" aria-label="Разделы материалов">
-        <button type="button" aria-pressed={view === 'lessons'} onClick={() => setView('lessons')}>Занятия</button>
-        <button type="button" aria-pressed={view === 'library'} onClick={() => setView('library')}>Библиотека</button>
-        {study.language === 'en' && <button type="button" aria-pressed={view === 'audio'} onClick={() => setView('audio')}>Оригинальное аудио</button>}
+        <button type="button" aria-pressed={view === 'lessons'} onClick={() => changeView('lessons')}>Занятия</button>
+        <a className="button" aria-current={view === 'phrases' ? 'page' : undefined} href={lessonPhrasesHash} onClick={() => setView('phrases')}>Фразы и грамматика</a>
+        <button type="button" aria-pressed={view === 'library'} onClick={() => changeView('library')}>Библиотека</button>
+        {study.language === 'en' && <button type="button" aria-pressed={view === 'audio'} onClick={() => changeView('audio')}>Оригинальное аудио</button>}
       </nav>
       <section aria-label="Управление материалами">
         <div className="actions">
@@ -299,6 +310,7 @@ export function Materials() {
             <StarterLesson key={selectedLesson.id} lesson={{ ...selectedLesson, notes: [], source: 'Диалог и задания из твоих материалов.' }} />
           </> : <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>}
       </>}
+      {view === 'phrases' && <PhraseTopics />}
       {view === 'audio' && study.language === 'en' && <TeacherAudioCard />}
 
       <dialog ref={dialog} className="material-dialog" aria-labelledby="material-dialog-title" onClose={() => { setPanel(undefined); setDeleting(undefined); }}>

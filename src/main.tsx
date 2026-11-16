@@ -24,8 +24,8 @@ function subscribe(listener: () => void) {
   window.addEventListener('hashchange', listener);
   return () => window.removeEventListener('hashchange', listener);
 }
-function route(): Page {
-  const value = location.hash.slice(1);
+function route(hash: string): Page {
+  const value = hash.slice(1).split('/')[0];
   return Object.hasOwn(pages, value) ? value as Page : 'today';
 }
 function go(page: Page) {
@@ -40,13 +40,14 @@ function App({ initial }: { initial: Study }) {
   const [practiceId, setPractice] = useState<string>();
   const [topicId, setTopic] = useState<string>();
   const [resourceId, setResource] = useState<string>();
-  const page = useSyncExternalStore(subscribe, route);
+  const hash = useSyncExternalStore(subscribe, () => location.hash);
+  const page = route(hash);
   const active = useMemo(() => itemsForLanguage(study), [study]);
   const Screen = screens[page];
   useEffect(() => {
     stopVoice();
     window.scrollTo(0, 0);
-  }, [page]);
+  }, [hash]);
   useEffect(() => {
     if (!notice) return;
     const timer = window.setTimeout(() => notify(''), 6000);
@@ -79,7 +80,7 @@ function App({ initial }: { initial: Study }) {
   const openResource = (id: string) => { setResource(id); go('materials'); };
 
   return <StudyContext.Provider value={{ study, active, notify, update, go, practice, openTopic, openResource, practiceId, topicId, resourceId }}>
-    <AppShell page={page}><Suspense fallback={<p className="sub" role="status">Загружаем…</p>}><Screen key={study.language} /></Suspense></AppShell>
+    <AppShell page={page}><Suspense fallback={<p className="sub" role="status">Загружаем…</p>}><Screen key={study.language + ':' + hash} /></Suspense></AppShell>
     <p className="notice" id="notice" role="status" hidden={!notice}>{notice}</p>
   </StudyContext.Provider>;
 }
