@@ -3,6 +3,7 @@ import { useWorkspace } from '../context';
 import { readRecentLapses } from '../domain/anki-history';
 import type { RecentLapse } from '../domain/anki-history';
 import { reviewKey } from '../domain/anki-model';
+import { dialogueMistakes, dialogueMistakesHash } from '../domain/dialogue-mistakes';
 import { localDay } from '../domain/model';
 import { lessonPhrasesHash, phraseReviews, skillPhrasesHash, teacherPhraseReviews } from '../domain/lesson-practice';
 import { addExample } from '../domain/sample-study';
@@ -81,6 +82,7 @@ export function Today() {
   if (dialogue) return <><button type="button" className="back-to-today subtle" onClick={() => setDialogue(false)}>← К ежедневной практике</button><TopicStudio /></>;
   if (open && session && !completed) return <LearningSession session={session} close={() => setOpen(false)} />;
   const answers = Object.values(session?.answers ?? {});
+  const mistakes = dialogueMistakes(study, now);
   const skillReviews = phraseReviews(study, skills.flatMap(skill => skill.dialogues.flatMap(dialogue => dialogue.phrases)), now);
   const { due: phraseDue, pending: phrasePending } = teacherPhraseReviews(study, now);
 
@@ -93,6 +95,9 @@ export function Today() {
     </a>}
     {(!!skillReviews.due.size || !!skillReviews.pending.size) && <a className="button" href={skillPhrasesHash}>
       {skillReviews.due.size ? 'Повторить фразы по навыкам · ' + skillReviews.due.size : 'Фразы по навыкам · отложено ' + skillReviews.pending.size}
+    </a>}
+    {!!mistakes.all.length && <a className="button" href={dialogueMistakesHash}>
+      {mistakes.due.length ? 'Повторить ошибки в диалогах · ' + mistakes.due.length : 'Ошибки в диалогах · запланировано ' + mistakes.all.length}
     </a>}
     <div className="today-grid">
       <section className={'daily-hero ' + (completed ? 'daily-complete' : '')} aria-labelledby="today-lesson-title">

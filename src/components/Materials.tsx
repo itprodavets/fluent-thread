@@ -7,6 +7,8 @@ import { LessonPractice, PhraseRecall } from './LessonPractice';
 import { PhraseTopics } from './PhraseTopics';
 import { SchoolLessonPicker } from './SchoolLessonPicker';
 import { SchoolDirectory } from './SchoolDirectory';
+import { DialogueMistakeReview } from './DialogueMistakeReview';
+import { dialogueMistakesHash } from '../domain/dialogue-mistakes';
 import { SkillReply } from './SkillReply';
 import { SkillPicker } from './SkillPicker';
 import { skillMatches, skillPhraseCards } from '../domain/skill-dialogues';
@@ -242,7 +244,8 @@ export function Materials() {
   const lessonWorkArea = useRef<HTMLDivElement>(null);
   const skillPractice = useRef<HTMLElement>(null);
   const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
-  const [view, setView] = useState<'lessons' | 'library' | 'audio' | 'phrases' | 'schools'>(() => {
+  const [view, setView] = useState<'lessons' | 'library' | 'audio' | 'phrases' | 'schools' | 'mistakes'>(() => {
+    if (location.hash === dialogueMistakesHash) return 'mistakes';
     if (location.hash === '#materials/schools') return 'schools';
     if (location.hash === lessonPhrasesHash) return 'phrases';
     if (location.hash === '#materials/audio' && study.language === 'en') return 'audio';
@@ -313,6 +316,7 @@ export function Materials() {
         <button type="button" aria-pressed={view === 'lessons'} onClick={() => changeView('lessons')}>Занятия</button>
         <a className="button" aria-current={view === 'phrases' ? 'page' : undefined} href={lessonPhrasesHash} onClick={() => setView('phrases')}>Фразы и грамматика</a>
         {study.language === 'en' && <a className="button" aria-current={view === 'schools' ? 'page' : undefined} href="#materials/schools" onClick={() => setView('schools')}>Школы и курсы</a>}
+        {study.language === 'en' && <a className="button" aria-current={view === 'mistakes' ? 'page' : undefined} href={dialogueMistakesHash} onClick={() => setView('mistakes')}>Мои ошибки</a>}
         <button type="button" aria-pressed={view === 'library'} onClick={() => changeView('library')}>Библиотека</button>
         {study.language === 'en' && <button type="button" aria-pressed={view === 'audio'} onClick={() => changeView('audio')}>Оригинальное аудио</button>}
       </nav>
@@ -367,7 +371,7 @@ export function Materials() {
               </div>
               <StarterLesson key={selectedLesson.id + (skillDialogue ? skill.id : '')}
                 lesson={{ ...selectedLesson, notes: [], source: skillDialogue ? '' : 'Диалог и задания из твоих материалов.' }}
-                firstExercise={skillDialogue ? <SkillReply skillId={skill.id} exercise={skillDialogue}
+                firstExercise={skillDialogue ? <SkillReply exercise={{ ...skillDialogue, skillId: skill.id }}
                   recordingId={`skill:${skill.id}:${selectedLesson.id}`} /> : undefined} />
               {skillDialogue && <section ref={skillPractice} tabIndex={-1} className="resource lesson-practice" aria-label="Фразы навыка">
                 <h3>Фразы навыка</h3>
@@ -378,10 +382,11 @@ export function Materials() {
         </div>
       </div>}
       {view === 'schools' && <SchoolDirectory />}
+      {view === 'mistakes' && <DialogueMistakeReview />}
       {view === 'phrases' && <PhraseTopics />}
       {view === 'audio' && study.language === 'en' && <TeacherAudioCard />}
 
-      {view !== 'schools' && <Fold title="Управление материалами">
+      {view !== 'schools' && view !== 'mistakes' && <Fold title="Управление материалами">
         <div className="actions">
           <button type="button" onClick={() => { setEditing(undefined); reset(n => n + 1); show('edit'); }}>Добавить материал</button>
           <button type="button" onClick={() => { setSource(undefined); show('import'); }}>Импорт из чата с ИИ</button>
