@@ -27,11 +27,18 @@ export function teacherPhraseCards(text: string) {
   });
 }
 
+export type PhraseCard = { phrase: string; meaning: string; pattern: string; example: string; time?: string; topicId?: string; source?: string };
+
+export const skillPhrasesHash = '#materials/skills';
 export const lessonPhrasesHash = '#materials/phrases';
 export const phraseRetryDelay = 10 * 60_000;
 
-export function phraseVocabularyId(card: ReturnType<typeof teacherPhraseCards>[number], language: string) {
-  return wordId(language, card.phrase.replace(/[.?!]+$/, ''), card.meaning);
+export function phraseVocabularyId(card: PhraseCard, language: string) {
+  return wordId(language, card.phrase.trim().replace(/[.?!]+$/, ''), card.meaning.trim().replace(/[.?!]+$/, ''));
+}
+
+export function phraseWordKey(word: Word) {
+  return phraseVocabularyId({ phrase: word.title, meaning: word.meaning, pattern: '', example: '' }, word.language);
 }
 
 export function assessTeacherPhrase(study: Study, word: Word, outcome: 'independent' | 'retry', now: number) {
@@ -43,21 +50,37 @@ export function assessTeacherPhrase(study: Study, word: Word, outcome: 'independ
   return { ...next, results: { ...next.results, [word.id]: { ...result, schedules, due: Math.min(...Object.values(schedules).map(entry => entry.due)) } } };
 }
 
-export function teacherPhraseReviews(study: Study, now: number) {
-  const words = new Map(study.words.filter(word => word.language === study.language).map(word =>
-    [wordId(word.language, word.title, word.meaning), word]));
+export function assessPhraseCard(study: Study, card: PhraseCard, language: string, outcome: 'independent' | 'retry', now: number) {
+  if (study.language !== language) return study;
+  const id = phraseVocabularyId(card, language);
+  const existing = study.words.find(word => word.language === language && phraseWordKey(word) === id);
+  if (!existing && !card.topicId) return study;
+  const word = existing ?? { id, language, title: card.phrase.replace(/[.?!]+$/, ''), meaning: card.meaning, example: card.example };
+  const next = {
+    ...study, words: existing ? study.words : [...study.words, word],
+    topics: card.topicId ? study.topics.map(topic => topic.id === card.topicId && !topic.links.includes(word.id)
+      ? { ...topic, links: [...topic.links, word.id] } : topic) : study.topics
+  };
+  return assessTeacherPhrase(next, word, outcome, now);
+}
+
+export function phraseReviews(study: Study, cards: PhraseCard[], now: number) {
+  const ids = new Set(cards.map(card => phraseVocabularyId(card, study.language)));
   const due = new Set<string>();
   const pending = new Map<string, number>();
-  for (const source of study.resources) {
-    if (source.language !== study.language || source.kind !== 'reading' || !source.title.startsWith('Реплики преподавателя ·')) continue;
-    for (const card of teacherPhraseCards(source.text)) {
-      const word = words.get(phraseVocabularyId(card, source.language));
-      const result = word && study.results[word.id];
-      if (!word || !result || lastSpoken(result).outcome !== 'retry') continue;
-      const next = result.schedules?.spoken?.due ?? result.due;
-      if (next <= now) due.add(word.id);
-      else pending.set(word.id, next);
-    }
+  for (const word of study.words) {
+    if (word.language !== study.language || !study.results[word.id] || !ids.has(phraseWordKey(word))) continue;
+    const result = study.results[word.id];
+    if (lastSpoken(result).outcome !== 'retry') continue;
+    const next = result.schedules?.spoken?.due ?? result.due;
+    if (next <= now) due.add(word.id);
+    else pending.set(word.id, next);
   }
   return { due, pending };
+}
+
+export function teacherPhraseReviews(study: Study, now: number) {
+  const cards = study.resources.filter(source => source.language === study.language &&
+    source.kind === 'reading' && source.title.startsWith('Реплики преподавателя ·')).flatMap(source => teacherPhraseCards(source.text));
+  return phraseReviews(study, cards, now);
 }

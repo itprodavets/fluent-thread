@@ -40,3 +40,40 @@ test('school catalogue keeps unique programs and public registration links', () 
     }
   }
 });
+
+test('skill phrase provenance and retry survive selection of another dialogue', async () => {
+  const { assessPhraseCard, phraseReviews, phraseRetryDelay, phraseVocabularyId } = await import('../src/domain/lesson-practice.ts');
+  const { skillPhraseCards } = await import('../src/domain/skill-dialogues.ts');
+  const { lastSpoken } = await import('../src/domain/model.ts');
+  const packets = ['wolves-and-eco-homes', 'future-plans', 'responses-and-opinions'].map(name => read('2026-11-16/' + name + '.json'));
+  const skills = read('2026-11-16/skills.json');
+  for (const skill of skills) {
+    assert.equal(skill.dialogues.flatMap((dialogue: { phrases: unknown[] }) => dialogue.phrases).length, 6);
+    for (const item of skill.dialogues) {
+      const packet = packets.find(entry => entry.topic.source.school === item.school);
+      assert.ok(packet);
+      const dialogue = packet.materials.filter((material: { kind: string; title: string }) =>
+        material.kind === 'dialogue' && material.title.startsWith(item.title + ' · '));
+      for (const card of item.phrases) {
+        const sources = card.origin === 'диалог' ? dialogue.map((row: { text: string }) => row.text) : [item.answer];
+        assert.ok(sources.some((source: string) => source.toLocaleLowerCase().includes(card.phrase.replace(/[.?!]+$/, '').toLocaleLowerCase())), card.phrase);
+      }
+    }
+  }
+  const first = skills[0].dialogues[0];
+  const cards = skillPhraseCards([{...first, topicId: 'lesson', dialogueId: 'dialogue'}]);
+  const card = cards[0];
+  const initial = { language: 'en', languages: { en: {} }, words: [], topics: [
+    { id: 'lesson', title: 'Lesson', language: 'en', links: [], prompt: '' }
+  ], resources: [], results: {} };
+  const now = 1_800_000_000_000;
+  const retry = assessPhraseCard(initial, card, 'en', 'retry', now);
+  const id = phraseVocabularyId(card, 'en');
+  assert.deepEqual(retry.topics[0].links, [id]);
+  assert.equal(phraseReviews(retry, cards, now).pending.get(id), now + phraseRetryDelay);
+  assert.ok(phraseReviews(retry, cards, now + phraseRetryDelay).due.has(id));
+  const known = assessPhraseCard(retry, card, 'en', 'independent', now + phraseRetryDelay);
+  assert.equal(known.words.length, 1);
+  assert.equal(lastSpoken(known.results[id]).outcome, 'independent');
+  assert.equal(phraseReviews(known, cards, now + phraseRetryDelay).due.size, 0);
+});
