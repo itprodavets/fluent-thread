@@ -57,7 +57,7 @@ export function StarterLesson({ lesson, onNext }: { lesson: { resource: Resource
   const question = questions[step - 1];
   return <article className="resource starter-lesson">
     <h3 lang="en">{resource.title}</h3>
-    <p className="sub">{source}</p>
+    {source && <p className="sub">{source}</p>}
     <p className="sub" role="status">Шаг {step} из {last}</p>
     <section aria-labelledby="lesson-dialogue-title">
       <h4 id="lesson-dialogue-title">Диалог для чтения и аудирования</h4>

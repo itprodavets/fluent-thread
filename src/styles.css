@@ -472,3 +472,32 @@ button:disabled { opacity: .52; cursor: default; }
 .school-lesson-choice small { display: block; color: var(--muted); }
 .school-dialogue-results { margin: 6px 0 0; padding-inline-start: 14px; }
 .school-dialogue-results button { border: 0; background: transparent; min-height: 44px; text-align: start; color: var(--mint); }
+
+.library { max-width: 1240px; }
+.lesson-workspace { display: grid; grid-template-columns: minmax(245px, 320px) minmax(0, 1fr); gap: 20px; align-items: start; }
+.lesson-navigation { min-width: 0; position: sticky; top: 10px; overflow: auto; max-height: calc(100dvh - 24px); }
+.lesson-navigation-panel { padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+.lesson-navigation-panel > summary { min-height: 40px; font-weight: 650; cursor: pointer; }
+.lesson-navigation-panel .school-lesson-groups, .lesson-navigation-panel .material-choice-grid { grid-template-columns: minmax(0, 1fr); }
+.lesson-navigation-panel .school-lesson-groups > section { padding: 8px; }
+.lesson-navigation-panel > .material-choices, .lesson-navigation-panel > .fold { margin-top: 12px; }
+.lesson-work-area { min-width: 0; display: grid; gap: 14px; }
+.lesson-work-header:empty { display: none; }
+.lesson-work-header .level-tabs { margin: 4px 0 0; }
+.skill-options, .skill-dialogues { display: grid; gap: 6px; }
+.skill-dialogues { list-style: none; margin: 12px 0 0; padding: 0; }
+.skill-options button, .skill-dialogues button { text-align: start; width: 100%; }
+.skill-options button[aria-pressed="true"], .skill-dialogues button[aria-pressed="true"] { border-color: #668674; background: #e9f3ec; }
+.skill-dialogues small { display: block; color: var(--muted); }
+.directory-controls { display: grid; gap: 8px; }
+.directory-controls h2 { margin: 0; }
+.directory-controls input { display: block; width: min(100%, 460px); }
+.directory-controls button[aria-pressed="true"] { border-color: #668674; background: #e9f3ec; }
+.directory-programs { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr)); }
+.directory-program { display: grid; align-content: start; gap: 6px; }
+.directory-program h3, .directory-program p { margin: 0; }
+.directory-cost { font-weight: 650; color: var(--mint); }
+@media (max-width: 900px) {
+  .lesson-workspace { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .lesson-navigation { position: static; max-height: none; }
+}
