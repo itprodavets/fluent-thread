@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { ReadableMaterial } from './ReadableMaterial';
 import { teacherListening } from '../domain/teacher-listening';
 import { LessonAudio } from './LessonAudio';
@@ -43,18 +44,19 @@ export function TeacherAudioCard() {
   </article>;
 }
 
-export function StarterLesson({ lesson, onNext }: { lesson: { resource: Resource; source: string; questions: [string, string][]; notes: [string, string][] }; onNext?: () => void }) {
+export function StarterLesson({ lesson, onNext, firstExercise }: { lesson: { resource: Resource; source: string; questions: [string, string][]; notes: [string, string][] }; onNext?: () => void; firstExercise?: ReactNode }) {
   const { resource, source, questions, notes } = lesson;
   const [step, setStep] = useState(1);
   const [answer, setAnswer] = useState('');
   const [revealed, reveal] = useState(false);
-  const last = questions.length + 1;
+  const firstQuestion = firstExercise ? 2 : 1;
+  const last = questions.length + firstQuestion;
   useEffect(() => stopSpeaking, []);
   function go(value: number) {
     stopSpeaking();
     setStep(value); setAnswer(''); reveal(false);
   }
-  const question = questions[step - 1];
+  const question = questions[step - firstQuestion];
   return <article className="resource starter-lesson">
     <h3 lang="en">{resource.title}</h3>
     {source && <p className="sub">{source}</p>}
@@ -64,6 +66,7 @@ export function StarterLesson({ lesson, onNext }: { lesson: { resource: Resource
       <VoiceButtons text={resource.text} language={resource.language} />
       <ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue notes={notes} />
     </section>
+    {step === 1 && firstExercise}
     {question && <section aria-label="Вопрос по диалогу">
       <h4 lang="en">{question[0]}</h4>
       <label>Твой ответ<textarea lang="en" rows={2} value={answer} onChange={event => setAnswer(event.target.value)} /></label>

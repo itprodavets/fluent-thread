@@ -501,3 +501,12 @@ button:disabled { opacity: .52; cursor: default; }
   .lesson-workspace { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   .lesson-navigation { position: static; max-height: none; }
 }
+
+.skill-reply { display: grid; gap: 10px; }
+.skill-reply h4, .skill-reply p { margin: 0; }
+.skill-partner-line, .skill-answer-feedback { padding: 14px; border: 1px solid var(--line); border-radius: 10px; background: #f3f7f4; }
+.skill-reply form, .skill-answer-feedback { display: grid; gap: 8px; }
+.skill-reply form button { justify-self: start; }
+.skill-reply textarea { display: block; width: 100%; }
+.skill-reply .practice-modes { margin: 0; }
+.skill-reply .speech-corrections { margin-block: 0; }
