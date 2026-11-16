@@ -426,3 +426,21 @@ button:disabled { opacity: .52; cursor: default; }
 .dialogue-line strong { display: block; font-size: .85em; margin-bottom: .1rem; }
 .dialogue-line .source-text { margin: 0; }
 .translation-selection { border: 1px solid var(--line); border-radius: .8rem; padding: .8rem; margin-block: .8rem; overflow-wrap: anywhere; }
+
+.material-choices h2 { margin: 0 0 8px; font-size: 1rem; }
+.material-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 8px;
+}
+.material-choice-grid button {
+  min-height: 44px;
+  text-align: start;
+  overflow-wrap: anywhere;
+}
+.material-choice-grid button[aria-pressed="true"] {
+  background: #e9f3ec;
+  border-color: #668674;
+  font-weight: 650;
+}
+.library > .level-tabs { margin: 0; }
