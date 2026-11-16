@@ -9,3 +9,5 @@
 | DC Teacher Training | Короткие ответы, мнения и разговор о себе | [Текст](responses-and-opinions.md) | [Разбор](responses-and-opinions-teacher-grammar.md) | [JSON](responses-and-opinions.json) |
 
 [Практика по навыкам в «Нити речи»](https://itprodavets.github.io/nit-rechi/#materials/skills) · [Связи навыков, диалогов и школ](skills.json)
+
+В режиме «По навыкам» после диалога открой «Твой ход в диалоге». Ответ можно написать, записать голосом и сверить по расшифровке.

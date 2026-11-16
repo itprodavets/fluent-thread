@@ -7,6 +7,7 @@ import { LessonPractice, PhraseRecall } from './LessonPractice';
 import { PhraseTopics } from './PhraseTopics';
 import { SchoolLessonPicker } from './SchoolLessonPicker';
 import { SchoolDirectory } from './SchoolDirectory';
+import { SkillReply } from './SkillReply';
 import { SkillPicker } from './SkillPicker';
 import { skillMatches, skillPhraseCards } from '../domain/skill-dialogues';
 import datedLessons from '../../materials/2026-11-16/lessons.json';
@@ -365,8 +366,9 @@ export function Materials() {
                 </div>}
               </div>
               <StarterLesson key={selectedLesson.id + (skillDialogue ? skill.id : '')}
-                lesson={{ ...selectedLesson, notes: [], source: skillDialogue ? '' : 'Диалог и задания из твоих материалов.',
-                  questions: skillDialogue ? [[skillDialogue.prompt, skillDialogue.answer], ...selectedLesson.questions] : selectedLesson.questions }} />
+                lesson={{ ...selectedLesson, notes: [], source: skillDialogue ? '' : 'Диалог и задания из твоих материалов.' }}
+                firstExercise={skillDialogue ? <SkillReply skillId={skill.id} exercise={skillDialogue}
+                  recordingId={`skill:${skill.id}:${selectedLesson.id}`} /> : undefined} />
               {skillDialogue && <section ref={skillPractice} tabIndex={-1} className="resource lesson-practice" aria-label="Фразы навыка">
                 <h3>Фразы навыка</h3>
                 <PhraseRecall key={skill.id + ':' + skillDialogue.dialogueId} cards={skillCards} language={study.language} />

@@ -13,8 +13,8 @@ function Highlighted({ text, language, marks }: {
   })}</p>;
 }
 
-export function SpeechFeedback({ recording, language, targets, onTranscript, autoTranscript = false }: {
-  recording: Blob; language: string; targets: string[]; onTranscript?: (text: string) => void; autoTranscript?: boolean;
+export function SpeechFeedback({ recording, language, targets, onTranscript, autoTranscript = false, transcriptOnly = false }: {
+  recording: Blob; language: string; targets: string[]; onTranscript?: (text: string) => void; autoTranscript?: boolean; transcriptOnly?: boolean;
 }) {
   const reportTranscript = useRef(onTranscript);
   reportTranscript.current = onTranscript;
@@ -57,14 +57,14 @@ export function SpeechFeedback({ recording, language, targets, onTranscript, aut
     finally { setInstalling(false); }
   }
 
-  const result = transcript ? inspectSpeech(transcript, targets, language) : undefined;
+  const result = transcript && !transcriptOnly ? inspectSpeech(transcript, targets, language) : undefined;
   const marks = result ? [
     ...result.issues.map(issue => ({ ...issue, kind: 'speech-issue' })),
     ...result.words.flatMap(word => word.span ? [{ ...word.span, kind: 'speech-match' }] : [])
   ] : [];
 
   return <section className="speech-feedback" aria-label="Проверка записи">
-    <div className="speech-heading"><h3>Проверка записи</h3><span className="local-badge">На устройстве</span></div>
+    <div className="speech-heading"><h3>{transcriptOnly ? 'Расшифровка записи' : 'Проверка записи'}</h3><span className="local-badge">На устройстве</span></div>
     {!manual && checking && <p className="sub" role="status">Распознаём запись на устройстве…</p>}
     {!manual && !checking && availability === 'unavailable' &&
       <p className="sub">Локальное распознавание для этого языка недоступно в браузере. Можно ввести текст вручную.</p>}
@@ -89,7 +89,7 @@ export function SpeechFeedback({ recording, language, targets, onTranscript, aut
         <button type="button" onClick={() => void install()} disabled={installing}>{installing ? 'Загружаем языковой пакет…' : 'Загрузить пакет распознавания'}</button>}
       {!manual && availability === 'available' && message &&
         <button type="button" onClick={() => retry(value => value + 1)}>Повторить распознавание</button>}
-      {!manual && <button type="button" className="subtle" onClick={() => { setManual(true); setChecking(false); }}>{transcript ? 'Исправить расшифровку' : 'Ввести расшифровку'}</button>}
+      {!manual && !transcriptOnly && <button type="button" className="subtle" onClick={() => { setManual(true); setChecking(false); }}>{transcript ? 'Исправить расшифровку' : 'Ввести расшифровку'}</button>}
     </div>
     {manual && <form onSubmit={event => { event.preventDefault(); setTranscript(draft.trim()); }}>
       <label>Текст ответа <textarea value={draft} maxLength={6000} rows={3} lang={language} onChange={event => setDraft(event.target.value)} /></label>

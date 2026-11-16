@@ -23,7 +23,14 @@
             "example": "Could you repeat the instructions word for word?",
             "origin": "диалог"
           }
-        ]
+        ],
+        "role": {
+          "line": "I can see the clue for question five. Do you need any help?",
+          "patterns": [
+            "Could you",
+            "Could you tell me"
+          ]
+        }
       },
       {
         "school": "ACE TEFL",
@@ -45,7 +52,14 @@
             "example": "Have you worked out how you’re getting to the airport?",
             "origin": "диалог"
           }
-        ]
+        ],
+        "role": {
+          "line": "I’m driving past your area, but I haven’t decided when to leave.",
+          "patterns": [
+            "Would you mind",
+            "Could you tell me"
+          ]
+        }
       },
       {
         "school": "DC Teacher Training",
@@ -67,7 +81,14 @@
             "example": "Could you be more specific about the problem?",
             "origin": "диалог"
           }
-        ]
+        ],
+        "role": {
+          "line": "You explained your point well, but one part sounded a little unnatural.",
+          "patterns": [
+            "Could you",
+            "Would it be all right"
+          ]
+        }
       }
     ]
   },
@@ -95,7 +116,14 @@
             "example": "I’m meeting my conversation partner on Tuesday.",
             "origin": "диалог"
           }
-        ]
+        ],
+        "role": {
+          "line": "I’d love to see the play on Friday. What’s the plan?",
+          "patterns": [
+            "going to",
+            "I’ll"
+          ]
+        }
       },
       {
         "school": "Stafford House",
@@ -117,7 +145,14 @@
             "example": "A plumber is coming to fix the shower on Monday.",
             "origin": "образец ответа"
           }
-        ]
+        ],
+        "role": {
+          "line": "We need to get the house ready for winter. What have you planned so far?",
+          "patterns": [
+            "going to",
+            "I’ll"
+          ]
+        }
       },
       {
         "school": "DC Teacher Training",
@@ -139,7 +174,14 @@
             "example": "I’d like to give shorter updates during meetings.",
             "origin": "диалог"
           }
-        ]
+        ],
+        "role": {
+          "line": "How are you planning to work on your English next week?",
+          "patterns": [
+            "going to",
+            "I’ll"
+          ]
+        }
       }
     ]
   },
@@ -167,7 +209,14 @@
             "example": "My reservation is that the schedule leaves us very little time.",
             "origin": "диалог"
           }
-        ]
+        ],
+        "role": {
+          "line": "I honestly thought the ending was perfect. What did you think?",
+          "patterns": [
+            "I see what you mean",
+            "but"
+          ]
+        }
       },
       {
         "school": "Stafford House",
@@ -189,7 +238,14 @@
             "example": "Taking the train might be more practical during rush hour.",
             "origin": "диалог"
           }
-        ]
+        ],
+        "role": {
+          "line": "I think we should put in underfloor heating before we do anything else.",
+          "patterns": [
+            "I can see why",
+            "I’d start with"
+          ]
+        }
       },
       {
         "school": "ACE TEFL",
@@ -211,7 +267,14 @@
             "example": "Would it work if we moved the lesson to Friday?",
             "origin": "образец ответа"
           }
-        ]
+        ],
+        "role": {
+          "line": "Let’s drive. Leaving at five should give us enough time.",
+          "patterns": [
+            "I see why",
+            "Would it work if"
+          ]
+        }
       }
     ]
   }
