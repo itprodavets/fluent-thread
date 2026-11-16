@@ -1,0 +1,470 @@
+{
+  "format": "nit-rechi",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Планы и договорённости по-английски · 16 ноября"
+  },
+  "words": [
+    {
+      "title": "originally from",
+      "meaning": "родом из",
+      "example": "I’m originally from Russia."
+    },
+    {
+      "title": "have been living in",
+      "meaning": "жить где-либо до настоящего момента",
+      "example": "I’ve been living in China for several years."
+    },
+    {
+      "title": "apart from",
+      "meaning": "кроме, помимо",
+      "example": "What languages do you speak apart from English?"
+    },
+    {
+      "title": "travel around the world",
+      "meaning": "путешествовать по миру",
+      "example": "I’ve travelled around the world for work and for fun."
+    },
+    {
+      "title": "pick something back up",
+      "meaning": "возобновить занятие спустя перерыв",
+      "example": "I picked English back up in 2023."
+    },
+    {
+      "title": "get started",
+      "meaning": "начать, приступить",
+      "example": "Let’s get started while we wait for the others."
+    },
+    {
+      "title": "clarify",
+      "meaning": "уточнить, прояснить",
+      "example": "Could you clarify what you mean by ‘arrangement’?"
+    },
+    {
+      "title": "be kicked out of the call",
+      "meaning": "вылететь из звонка",
+      "example": "Sorry, I got kicked out of the call for a moment."
+    },
+    {
+      "title": "come first",
+      "meaning": "идти первым по порядку",
+      "example": "Which line comes first in the conversation?"
+    },
+    {
+      "title": "put something in order",
+      "meaning": "расставить что-либо по порядку",
+      "example": "Let’s put the four parts of the call in order."
+    },
+    {
+      "title": "nephew",
+      "meaning": "племянник",
+      "example": "I’m taking my nephew to his first football match."
+    },
+    {
+      "title": "a spare ticket",
+      "meaning": "лишний свободный билет",
+      "example": "I’ve got a spare ticket. Would you like to come?"
+    },
+    {
+      "title": "depend on the time",
+      "meaning": "зависеть от времени",
+      "example": "It depends on what time the match starts."
+    },
+    {
+      "title": "check the timetable",
+      "meaning": "проверить расписание",
+      "example": "I’ll check the timetable and let you know."
+    },
+    {
+      "title": "make a decision on the spot",
+      "meaning": "принять решение на месте",
+      "example": "I made the decision on the spot."
+    },
+    {
+      "title": "have something in mind",
+      "meaning": "иметь что-то в виду, задумать",
+      "example": "Did you already have anything in mind for Friday?"
+    },
+    {
+      "title": "make up your mind",
+      "meaning": "решить, определиться",
+      "example": "I haven’t made up my mind yet."
+    },
+    {
+      "title": "an arrangement",
+      "meaning": "договорённость на конкретное время или с людьми",
+      "example": "We have an arrangement to meet at six."
+    },
+    {
+      "title": "a fixed schedule",
+      "meaning": "фиксированное расписание",
+      "example": "The class starts at ten according to the fixed schedule."
+    },
+    {
+      "title": "lend someone something",
+      "meaning": "одолжить кому-либо что-либо",
+      "example": "I’ll lend you my calculator."
+    },
+    {
+      "title": "borrow something from someone",
+      "meaning": "взять что-либо взаймы у кого-либо",
+      "example": "Can I borrow a calculator from you?"
+    },
+    {
+      "title": "take two days off",
+      "meaning": "взять два выходных дня",
+      "example": "I’m going to take two days off next week."
+    },
+    {
+      "title": "after all",
+      "meaning": "всё-таки, в итоге",
+      "example": "We aren’t going to sell the house after all."
+    },
+    {
+      "title": "go for a walk",
+      "meaning": "пойти на прогулку",
+      "example": "I might go for a walk after dinner."
+    },
+    {
+      "title": "see what works",
+      "meaning": "посмотреть, какой вариант подойдёт",
+      "example": "Let’s look at the times and see what works."
+    },
+    {
+      "title": "I just wondered if you fancied coming",
+      "meaning": "я хотел спросить, не хочешь ли ты пойти",
+      "example": "I just wondered if you fancied coming to the match."
+    },
+    {
+      "title": "the reason I’m calling is…",
+      "meaning": "я звоню, потому что…",
+      "example": "The reason I’m calling is that I have an extra ticket."
+    },
+    {
+      "title": "by the way",
+      "meaning": "кстати",
+      "example": "By the way, have you thought about how to get there?"
+    },
+    {
+      "title": "drop someone off",
+      "meaning": "подвезти и высадить кого-то",
+      "example": "My sister is dropping Sam off at my place at three."
+    },
+    {
+      "title": "pick someone up",
+      "meaning": "забрать или заехать за кем-то",
+      "example": "I’ll pick you up from your mum’s if you like."
+    },
+    {
+      "title": "just to be on the safe side",
+      "meaning": "на всякий случай, для подстраховки",
+      "example": "We’d better leave early, just to be on the safe side."
+    },
+    {
+      "title": "I can’t make it",
+      "meaning": "у меня не получится прийти",
+      "example": "I can’t make it tomorrow morning. I’m seeing the dentist."
+    },
+    {
+      "title": "put someone through",
+      "meaning": "соединить кого-то по телефону",
+      "example": "I’ll put you through to Accounts."
+    },
+    {
+      "title": "come over",
+      "meaning": "зайти, приехать в гости",
+      "example": "Two friends are coming over tonight."
+    },
+    {
+      "title": "have plenty of time",
+      "meaning": "иметь достаточно времени с запасом",
+      "example": "If we leave at four, we should have plenty of time."
+    },
+    {
+      "title": "I’m sure she won’t mind",
+      "meaning": "уверен, она возражать не будет",
+      "example": "I’m sure she won’t mind if we leave a little earlier."
+    },
+    {
+      "title": "check my inbox",
+      "meaning": "проверить входящие",
+      "example": "I’ll check my inbox and get back to you."
+    },
+    {
+      "title": "half three",
+      "meaning": "половина четвёртого, 3:30 в разговорном британском английском",
+      "example": "I’ll leave at about half three."
+    },
+    {
+      "title": "accounts department",
+      "meaning": "бухгалтерия",
+      "example": "Did you get an email from the accounts department?"
+    },
+    {
+      "title": "send someone round",
+      "meaning": "направить кого-то по адресу",
+      "example": "I’ll send someone round to take a look."
+    },
+    {
+      "title": "sporting fixture",
+      "meaning": "матч или соревнование по календарю",
+      "example": "The next fixture is on Saturday."
+    },
+    {
+      "title": "an extra ticket",
+      "meaning": "лишний или дополнительный билет",
+      "example": "They have an extra ticket for the match."
+    },
+    {
+      "title": "over at my mum’s",
+      "meaning": "у мамы дома",
+      "example": "We’re having lunch over at my mum’s."
+    },
+    {
+      "title": "pretty busy",
+      "meaning": "довольно многолюдно или загруженно",
+      "example": "The roads will probably be pretty busy."
+    },
+    {
+      "title": "in the near future",
+      "meaning": "в ближайшем будущем",
+      "example": "Are you planning a celebration in the near future?"
+    }
+  ],
+  "materials": [
+    {
+      "kind": "dialogue",
+      "title": "Знакомство и опыт жизни за границей · B1",
+      "text": "Teacher: Where are you from originally?\nLearner: I’m originally from Russia, but I live in China now.\nTeacher: How long have you lived there?\nLearner: I’ve lived there for about eight years.\nTeacher: What other languages do you speak?\nLearner: I also speak Chinese, and I’m working on my English."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Знакомство и опыт жизни за границей · B2",
+      "text": "Teacher: How long have you been living in China?\nLearner: For about eight years. I’ve also travelled to a lot of countries, so I get to use different languages in everyday situations.\nTeacher: Which language has been harder for you to learn?\nLearner: Chinese has challenged me in different ways. With English, my priority is speaking more fluently in live conversations."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Знакомство и опыт жизни за границей · C1",
+      "text": "Teacher: How has living abroad shaped the way you learn languages?\nLearner: It’s made me rely more on using a language in real situations. I’ve been living in China for several years, and travel has also shown me how differently people express the same idea.\nTeacher: What would you improve next?\nLearner: I’d like to respond more spontaneously in English while keeping my explanations precise."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Один лишний билет на футбол · B1",
+      "text": "James: I’m taking my nephew to a football match on Saturday. I’ve got a spare ticket. Do you want to come?\nLearner: I’m having lunch with my mum. What time does the match start?\nJames: It starts at five.\nLearner: Great. I’ll come, then."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Один лишний билет на футбол · B2",
+      "text": "James: I’m taking my nephew to his first match on Saturday and I’ve got a spare ticket. Would you be interested?\nLearner: I’m having lunch with my mum, so it depends on the kick-off time.\nJames: It starts at five. I’ve just checked.\nLearner: In that case I’ll take the ticket. I’ll message you when I’m on my way."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Один лишний билет на футбол · C1",
+      "text": "James: I’m taking my nephew to his first match this Saturday. Someone dropped out, so I’ve got a spare ticket if you fancy it.\nLearner: I’m already having lunch with my mum, but I could make it if the match starts late enough. What time’s kick-off?\nJames: Five o’clock. The stadium gates open earlier, so we’re meeting outside at four thirty.\nLearner: That works for me. I’ll take the spare ticket and meet you there."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Четыре формы будущего · B1",
+      "text": "Teacher: You have no plans for Friday. What do you say?\nLearner: Maybe I’ll go to the theatre.\nTeacher: Now you’ve made a plan.\nLearner: I’m going to see a play.\nTeacher: What does the timetable say?\nLearner: The play starts at seven.\nTeacher: And now you’ve booked the tickets with a friend?\nLearner: We’re seeing the play on Friday."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Четыре формы будущего · B2",
+      "text": "Teacher: Why do we say ‘the performance starts at seven’?\nLearner: The time is fixed by the timetable. It’s independent of my own plan.\nTeacher: Give me a spontaneous decision and an earlier intention.\nLearner: ‘I’ll lend you my calculator’ is an offer I’m making now. ‘I’m going to take two days off’ is something I’d already decided.\nTeacher: And a firm arrangement?\nLearner: ‘I’m meeting my friend at the theatre on Friday.’"
+    },
+    {
+      "kind": "dialogue",
+      "title": "Четыре формы будущего · C1",
+      "text": "Teacher: Could you use two different forms for the same Friday plan?\nLearner: Yes. ‘I’m going to see the play’ presents it as an intention. ‘I’m seeing the play with Alex on Friday’ presents it as an arrangement.\nTeacher: Where would the present simple fit?\nLearner: ‘The performance starts at seven’ refers to the published schedule. And if I decide during this conversation, I could say, ‘All right, I’ll come too.’"
+    },
+    {
+      "kind": "dialogue",
+      "title": "После занятия: план и спонтанное решение · B1",
+      "text": "Partner: What are you going to do after class?\nLearner: I’m going to have dinner. I might go for a walk later.\nPartner: Do you want some company?\nLearner: Sure. I’ll text you after dinner."
+    },
+    {
+      "kind": "dialogue",
+      "title": "После занятия: план и спонтанное решение · B2",
+      "text": "Teacher: Choose one of the topics and tell your partner your plans.\nLearner: After class I’m going to have dinner and relax. If the weather’s good, I might go for a walk in the park.\nPartner: Shall we meet there?\nLearner: That sounds good. I’ll check the weather and get back to you."
+    },
+    {
+      "kind": "dialogue",
+      "title": "После занятия: план и спонтанное решение · C1",
+      "text": "Partner: Have you decided what you’re doing after class?\nLearner: I’m going to have dinner first. I haven’t made up my mind about the rest of the evening, though I might go for a walk if it clears up.\nPartner: I’m meeting a friend near the park around eight.\nLearner: In that case I’ll check how I feel after dinner and let you know whether I can join you."
+    },
+    {
+      "kind": "exercise",
+      "title": "Выбери форму будущего",
+      "prompt": "Скажи четыре фразы про пятницу: решение в момент разговора, уже принятое намерение, опубликованное время начала и договорённость с другом.",
+      "answer": "I'll go on Friday, then. / I'm going to see a play. / The performance starts at seven. / I'm meeting Alex at six thirty."
+    },
+    {
+      "kind": "exercise",
+      "title": "Попроси повторить и обсуди порядок",
+      "prompt": "Попроси собеседника повторить вторую реплику. Объясни, какая часть звонка идёт первой и почему.",
+      "answer": "Could you read the second line again? I think C comes first because James explains why he's calling."
+    },
+    {
+      "kind": "exercise",
+      "title": "Планы на вечер",
+      "prompt": "Скажи, что собираешься делать после урока, и добавь вариант, который ещё не решил.",
+      "answer": "I'm going to have dinner after class. I haven't made up my mind about the rest of the evening. I might go for a walk."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Знакомство и опыт жизни за границей · B1",
+      "text": "Teacher: Where are you from originally?\nLearner: I’m originally from Russia, but I live in China now.\nTeacher: How long have you lived there?\nLearner: I’ve lived there for about eight years.\nTeacher: What other languages do you speak?\nLearner: I also speak Chinese, and I’m working on my English.\n\nПисьменное задание\nHow long has the learner lived in China in the dialogue? Write your own answer using ‘for’.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Where are you from originally?\nLearner: I’m originally from Russia, but I live in China now.\nTeacher: How long have you lived there?\nLearner: I’ve lived there for about eight years.\nTeacher: What other languages do you speak?\nLearner: I also speak Chinese, and I’m working on my English.\n\nПисьменное задание\nHow long has the learner lived in China in the dialogue? Write your own answer using ‘for’.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "In the dialogue, he’s lived there for about eight years. Example: ‘I’ve been learning English for two years.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Знакомство и опыт жизни за границей · B2",
+      "text": "Teacher: How long have you been living in China?\nLearner: For about eight years. I’ve also travelled to a lot of countries, so I get to use different languages in everyday situations.\nTeacher: Which language has been harder for you to learn?\nLearner: Chinese has challenged me in different ways. With English, my priority is speaking more fluently in live conversations.\n\nПисьменное задание\nWhat is the learner’s priority in English? Write two lines about your own language experience and what you want to improve.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: How long have you been living in China?\nLearner: For about eight years. I’ve also travelled to a lot of countries, so I get to use different languages in everyday situations.\nTeacher: Which language has been harder for you to learn?\nLearner: Chinese has challenged me in different ways. With English, my priority is speaking more fluently in live conversations.\n\nПисьменное задание\nWhat is the learner’s priority in English? Write two lines about your own language experience and what you want to improve.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "the learner wants to speak more fluently in live conversations. ‘I’ve been using English at work for several years. I’d like to answer questions more fluently in meetings.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Знакомство и опыт жизни за границей · C1",
+      "text": "Teacher: How has living abroad shaped the way you learn languages?\nLearner: It’s made me rely more on using a language in real situations. I’ve been living in China for several years, and travel has also shown me how differently people express the same idea.\nTeacher: What would you improve next?\nLearner: I’d like to respond more spontaneously in English while keeping my explanations precise.\n\nПисьменное задание\nParaphrase how living abroad changed the learner’s approach. Then propose one exercise that would help him answer spontaneously and precisely.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: How has living abroad shaped the way you learn languages?\nLearner: It’s made me rely more on using a language in real situations. I’ve been living in China for several years, and travel has also shown me how differently people express the same idea.\nTeacher: What would you improve next?\nLearner: I’d like to respond more spontaneously in English while keeping my explanations precise.\n\nПисьменное задание\nParaphrase how living abroad changed the learner’s approach. Then propose one exercise that would help him answer spontaneously and precisely.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He has come to depend more on using languages in real situations. I’d practise giving a one-minute answer to an unexpected question, then rewrite it in two precise sentences."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Один лишний билет на футбол · B1",
+      "text": "James: I’m taking my nephew to a football match on Saturday. I’ve got a spare ticket. Do you want to come?\nLearner: I’m having lunch with my mum. What time does the match start?\nJames: It starts at five.\nLearner: Great. I’ll come, then.\n\nПисьменное задание\nWhy does the learner ask what time the match starts? Does he accept the ticket?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "James: I’m taking my nephew to a football match on Saturday. I’ve got a spare ticket. Do you want to come?\nLearner: I’m having lunch with my mum. What time does the match start?\nJames: It starts at five.\nLearner: Great. I’ll come, then.\n\nПисьменное задание\nWhy does the learner ask what time the match starts? Does he accept the ticket?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He’s having lunch with his mum. The match starts at five, so he says he’ll come."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Один лишний билет на футбол · B2",
+      "text": "James: I’m taking my nephew to his first match on Saturday and I’ve got a spare ticket. Would you be interested?\nLearner: I’m having lunch with my mum, so it depends on the kick-off time.\nJames: It starts at five. I’ve just checked.\nLearner: In that case I’ll take the ticket. I’ll message you when I’m on my way.\n\nПисьменное задание\nWhich words show an existing plan, and which show a decision made during the conversation? Write a new reply using both forms.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "James: I’m taking my nephew to his first match on Saturday and I’ve got a spare ticket. Would you be interested?\nLearner: I’m having lunch with my mum, so it depends on the kick-off time.\nJames: It starts at five. I’ve just checked.\nLearner: In that case I’ll take the ticket. I’ll message you when I’m on my way.\n\nПисьменное задание\nWhich words show an existing plan, and which show a decision made during the conversation? Write a new reply using both forms.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "‘I’m having lunch with my mum’ is an existing plan. ‘I’ll take the ticket’ is a decision made now. ‘I’m meeting a friend at noon, but I’ll join you after that.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Один лишний билет на футбол · C1",
+      "text": "James: I’m taking my nephew to his first match this Saturday. Someone dropped out, so I’ve got a spare ticket if you fancy it.\nLearner: I’m already having lunch with my mum, but I could make it if the match starts late enough. What time’s kick-off?\nJames: Five o’clock. The stadium gates open earlier, so we’re meeting outside at four thirty.\nLearner: That works for me. I’ll take the spare ticket and meet you there.\n\nПисьменное задание\nWrite a short message confirming the meeting place, time and your decision. Use ‘kick-off’ or ‘make it’.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "James: I’m taking my nephew to his first match this Saturday. Someone dropped out, so I’ve got a spare ticket if you fancy it.\nLearner: I’m already having lunch with my mum, but I could make it if the match starts late enough. What time’s kick-off?\nJames: Five o’clock. The stadium gates open earlier, so we’re meeting outside at four thirty.\nLearner: That works for me. I’ll take the spare ticket and meet you there.\n\nПисьменное задание\nWrite a short message confirming the meeting place, time and your decision. Use ‘kick-off’ or ‘make it’.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "I can make it. I’ll meet you outside the stadium at 4:30, half an hour before kick-off. Thanks for the spare ticket!"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Четыре формы будущего · B1",
+      "text": "Teacher: You have no plans for Friday. What do you say?\nLearner: Maybe I’ll go to the theatre.\nTeacher: Now you’ve made a plan.\nLearner: I’m going to see a play.\nTeacher: What does the timetable say?\nLearner: The play starts at seven.\nTeacher: And now you’ve booked the tickets with a friend?\nLearner: We’re seeing the play on Friday.\n\nПисьменное задание\nWhat time does the play start? Copy the sentence that shows an arrangement with a friend.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: You have no plans for Friday. What do you say?\nLearner: Maybe I’ll go to the theatre.\nTeacher: Now you’ve made a plan.\nLearner: I’m going to see a play.\nTeacher: What does the timetable say?\nLearner: The play starts at seven.\nTeacher: And now you’ve booked the tickets with a friend?\nLearner: We’re seeing the play on Friday.\n\nПисьменное задание\nWhat time does the play start? Copy the sentence that shows an arrangement with a friend.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "The play starts at seven. ‘We’re seeing the play on Friday.’"
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Четыре формы будущего · B2",
+      "text": "Teacher: Why do we say ‘the performance starts at seven’?\nLearner: The time is fixed by the timetable. It’s independent of my own plan.\nTeacher: Give me a spontaneous decision and an earlier intention.\nLearner: ‘I’ll lend you my calculator’ is an offer I’m making now. ‘I’m going to take two days off’ is something I’d already decided.\nTeacher: And a firm arrangement?\nLearner: ‘I’m meeting my friend at the theatre on Friday.’\n\nПисьменное задание\nSort the learner’s four examples into timetable, offer made now, earlier intention and firm arrangement.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Why do we say ‘the performance starts at seven’?\nLearner: The time is fixed by the timetable. It’s independent of my own plan.\nTeacher: Give me a spontaneous decision and an earlier intention.\nLearner: ‘I’ll lend you my calculator’ is an offer I’m making now. ‘I’m going to take two days off’ is something I’d already decided.\nTeacher: And a firm arrangement?\nLearner: ‘I’m meeting my friend at the theatre on Friday.’\n\nПисьменное задание\nSort the learner’s four examples into timetable, offer made now, earlier intention and firm arrangement.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "Timetable: the performance starts at seven. Offer: I’ll lend you my calculator. Intention: I’m going to take two days off. Arrangement: I’m meeting my friend on Friday."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Четыре формы будущего · C1",
+      "text": "Teacher: Could you use two different forms for the same Friday plan?\nLearner: Yes. ‘I’m going to see the play’ presents it as an intention. ‘I’m seeing the play with Alex on Friday’ presents it as an arrangement.\nTeacher: Where would the present simple fit?\nLearner: ‘The performance starts at seven’ refers to the published schedule. And if I decide during this conversation, I could say, ‘All right, I’ll come too.’\n\nПисьменное задание\nWrite four linked sentences about one event, using one form each for an intention, arrangement, timetable and decision made now.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Could you use two different forms for the same Friday plan?\nLearner: Yes. ‘I’m going to see the play’ presents it as an intention. ‘I’m seeing the play with Alex on Friday’ presents it as an arrangement.\nTeacher: Where would the present simple fit?\nLearner: ‘The performance starts at seven’ refers to the published schedule. And if I decide during this conversation, I could say, ‘All right, I’ll come too.’\n\nПисьменное задание\nWrite four linked sentences about one event, using one form each for an intention, arrangement, timetable and decision made now.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "I’m going to see the play on Friday. I’m meeting Alex outside the theatre at six. The performance starts at seven. Oh, you need a ticket? I’ll book one for you now."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · После занятия: план и спонтанное решение · B1",
+      "text": "Partner: What are you going to do after class?\nLearner: I’m going to have dinner. I might go for a walk later.\nPartner: Do you want some company?\nLearner: Sure. I’ll text you after dinner.\n\nПисьменное задание\nWhat does the learner plan to do first? What does he offer to do after dinner?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: What are you going to do after class?\nLearner: I’m going to have dinner. I might go for a walk later.\nPartner: Do you want some company?\nLearner: Sure. I’ll text you after dinner.\n\nПисьменное задание\nWhat does the learner plan to do first? What does he offer to do after dinner?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "He’s going to have dinner first. Then he’ll text his partner."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · После занятия: план и спонтанное решение · B2",
+      "text": "Teacher: Choose one of the topics and tell your partner your plans.\nLearner: After class I’m going to have dinner and relax. If the weather’s good, I might go for a walk in the park.\nPartner: Shall we meet there?\nLearner: That sounds good. I’ll check the weather and get back to you.\n\nПисьменное задание\nWhat is planned, what depends on the weather, and what does the learner decide during the exchange?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Teacher: Choose one of the topics and tell your partner your plans.\nLearner: After class I’m going to have dinner and relax. If the weather’s good, I might go for a walk in the park.\nPartner: Shall we meet there?\nLearner: That sounds good. I’ll check the weather and get back to you.\n\nПисьменное задание\nWhat is planned, what depends on the weather, and what does the learner decide during the exchange?\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "Dinner and relaxing are planned. A walk depends on the weather. During the exchange he decides to check the weather and get back to his partner."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · После занятия: план и спонтанное решение · C1",
+      "text": "Partner: Have you decided what you’re doing after class?\nLearner: I’m going to have dinner first. I haven’t made up my mind about the rest of the evening, though I might go for a walk if it clears up.\nPartner: I’m meeting a friend near the park around eight.\nLearner: In that case I’ll check how I feel after dinner and let you know whether I can join you.\n\nПисьменное задание\nWrite a reply to the invitation that acknowledges the plan, gives a condition and promises an update without committing to meet.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "prompt": "Partner: Have you decided what you’re doing after class?\nLearner: I’m going to have dinner first. I haven’t made up my mind about the rest of the evening, though I might go for a walk if it clears up.\nPartner: I’m meeting a friend near the park around eight.\nLearner: In that case I’ll check how I feel after dinner and let you know whether I can join you.\n\nПисьменное задание\nWrite a reply to the invitation that acknowledges the plan, gives a condition and promises an update without committing to meet.\n\nНапиши ответ по-английски, затем сравни его с примером.",
+      "answer": "I’m going to have dinner first. If it clears up, I might head to the park. I’ll let you know by eight whether I can join you."
+    },
+    {
+      "kind": "reading",
+      "title": "ACE TEFL · телефонный разговор целиком по смыслу",
+      "text": "Адаптация диалога из Grammar Lesson Task Sheet, задания 1–2. Сохранены все четыре части и последовательность разговора.\n\nC — James: Hi Richard. I’m taking my nephew Sam to his first football match this Saturday. United are playing City and I’ve got an extra ticket. Would you like to come?\nRichard: I’d love to, but I’m having lunch at my mum’s. What time is the match?\n\nA — James: It starts at five. I just checked online.\nRichard: Then I’d have to leave about half three. I’m sure Mum won’t mind. I’ll tell her it’s something important.\nJames: What could be more important than a first football match?\n\nD — Richard: Have you decided how to get there? Are you going to take the train like last time?\nJames: I’m going to drive. My sister is dropping Sam off at my place around three. I’ll pick you up from your mum’s if you like.\nRichard: That’d be great. What time?\n\nB — James: We’d better leave about four, just to be on the safe side.\nRichard: It’ll probably be busy. See you at four, then.\nJames: See you!"
+    },
+    {
+      "kind": "exercise",
+      "title": "ACE TEFL · 1. Восстанови порядок звонка",
+      "prompt": "Arrange the parts from the first line to the goodbye.\nA. James checks the starting time. Richard decides what to tell his mum.\nB. They agree to leave around four and say goodbye.\nC. James offers a ticket. Richard mentions his lunch plan.\nD. They discuss driving, Sam’s drop-off and Richard’s pick-up.\nExplain how you recognised the beginning and the end.",
+      "answer": "C → A → D → B. C gives the reason for the call. B fixes the final time and closes the conversation."
+    },
+    {
+      "kind": "exercise",
+      "title": "ACE TEFL · 2. Разбери смысл всех будущих форм",
+      "prompt": "Use the reading material «ACE TEFL · телефонный разговор целиком по смыслу».\n1 Has James got tickets? What suggests Sam’s mum knows the plan?\n2 Does Richard already have a lunch arrangement? Do we know the exact lunch time?\n3 Is five o’clock a personal arrangement or a published time?\n4 Did Richard plan what to say to his mum before the call?\n5 Has James already chosen how to travel? What does he offer to do during the call?\n6 Is Richard certain it will be busy? Which word tells you?",
+      "answer": "1 Yes, he has an extra ticket. The drop-off has already been arranged with his sister, Sam’s mum.\n2 Yes. The dialogue does not give an exact lunch time.\n3 A published time: it starts at five.\n4 He decides during the call: I’ll tell her.\n5 Yes: I’m going to drive. He then offers: I’ll pick you up.\n6 No. Probably expresses a prediction with uncertainty."
+    },
+    {
+      "kind": "exercise",
+      "title": "ACE TEFL · 3. Will или going to, десять ситуаций",
+      "prompt": "Fill in the gaps with will or be going to. Adapted from the 10 situations on the worksheet.\n1. Can I speak to somebody in Accounts? — I ___ (put) you through.\n2. My calculator’s broken. — I ___ (lend) you mine.\n3. That’s why I ___ (take) two days off next week. I’ve already decided.\n4. We need someone to come over. — I ___ (send) someone round immediately.\n5. The new kitchen’s a bit dark, so we ___ (paint) it yellow.\n6. I’ve decided I ___ (work) harder next year.\n7. What about a birthday party? — Maybe I ___ (stay) home.\n8. We’ve decided we ___ (not sell) the house after all.\n9. Did Accounts email you? — I ___ (check) my inbox.\n10. Are you friends again? — No, I ___ (never speak) to him again.",
+      "answer": "1 I’ll put, 2 I’ll lend, 3 I’m going to take, 4 I’ll send, 5 we’re going to paint, 6 I’m going to work, 7 I’ll stay, 8 we aren’t going to sell, 9 I’ll check, 10 I’ll never speak.\nIn 10, ‘I’m never going to speak to him again’ also works if the speaker is reporting an existing intention. The will version works as an emphatic decision or vow."
+    },
+    {
+      "kind": "exercise",
+      "title": "ACE TEFL · 4. Расписание или договорённость",
+      "prompt": "Choose the form that fits the situation best.\n1 I’m meeting / I’ll meet a friend at the pub at eight tonight. It’s arranged.\n2 The train is leaving / leaves at 15:15 according to the timetable.\n3 Did you forget? Two friends will come over / are coming over tonight.\n4 I can’t make it tomorrow morning. I see / am seeing the dentist at nine.\n5 The Tuesday lesson is starting / starts at ten according to the schedule.\n6 We’ve set a wedding date. We will get married / are getting married on 6 August.",
+      "answer": "1 I’m meeting, 2 leaves, 3 are coming over, 4 am seeing, 5 starts, 6 are getting married. Schedules typically take present simple, arrangements typically take present continuous in these contexts."
+    },
+    {
+      "kind": "exercise",
+      "title": "ACE TEFL · 5. Минута о будущем, все 13 тем",
+      "prompt": "Choose one prompt. Speak for at least a minute without naming it. Let a partner guess it, or write what clues a reader could use to guess it.\n1 A party or celebration you’re planning.\n2 Journeys in the next few months.\n3 Your career plans.\n4 Upcoming sporting fixtures and your predictions.\n5 The weather over the next seven days.\n6 The rest of this week.\n7 The world 80 years from now.\n8 This weekend.\n9 Your hopes for the future.\n10 This evening.\n11 Your next birthday.\n12 Your life in ten years.\n13 What you’ll do with your money in the next few months.",
+      "answer": "Model for a weekend: I’m meeting a friend on Saturday. Our train leaves at nine. If the weather holds, we’re going to spend the afternoon outdoors. I think it’ll be fairly busy, so I’ll check whether we need to book. A listener can guess the topic from Saturday and the sequence of plans."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Договорись, кто за кем заедет · B1",
+      "text": "A: I have an extra ticket. Do you want to come?\nB: I’d love to. What time does it start?\nA: At five. I’ll pick you up at four.\nB: Great. See you then."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Договорись, кто за кем заедет · B2",
+      "text": "A: I just wondered if you fancied coming.\nB: I can make it if you pick me up from my mum’s.\nA: I’m going to drive. We’d better leave at four, just to be on the safe side.\nB: That works. I’ll call you if lunch runs late."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Договорись, кто за кем заедет · C1",
+      "text": "A: Have you worked out how you’re getting there?\nB: I was going to take the train, but I can drive if that makes things easier.\nA: In that case, could you pick me up on the way? We’d better allow extra time in case the roads are busy.\nB: Of course. I’ll text you when I’m about to set off."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Договорись, кто за кем заедет · B1",
+      "prompt": "A: I have an extra ticket. Do you want to come?\nB: I’d love to. What time does it start?\nA: At five. I’ll pick you up at four.\nB: Great. See you then.\n\nWho is picking whom up, and at what time? Write a message confirming the plan.",
+      "answer": "A is picking B up at four. Thanks! See you at four.",
+      "text": "A: I have an extra ticket. Do you want to come?\nB: I’d love to. What time does it start?\nA: At five. I’ll pick you up at four.\nB: Great. See you then.\n\nWho is picking whom up, and at what time? Write a message confirming the plan."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Договорись, кто за кем заедет · B2",
+      "prompt": "A: I just wondered if you fancied coming.\nB: I can make it if you pick me up from my mum’s.\nA: I’m going to drive. We’d better leave at four, just to be on the safe side.\nB: That works. I’ll call you if lunch runs late.\n\nAccept the invitation, confirm the lift and explain what you will do if lunch runs late.",
+      "answer": "I can make it if you pick me up at my mum’s. I’ll text you if lunch runs late.",
+      "text": "A: I just wondered if you fancied coming.\nB: I can make it if you pick me up from my mum’s.\nA: I’m going to drive. We’d better leave at four, just to be on the safe side.\nB: That works. I’ll call you if lunch runs late.\n\nAccept the invitation, confirm the lift and explain what you will do if lunch runs late."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Договорись, кто за кем заедет · C1",
+      "prompt": "A: Have you worked out how you’re getting there?\nB: I was going to take the train, but I can drive if that makes things easier.\nA: In that case, could you pick me up on the way? We’d better allow extra time in case the roads are busy.\nB: Of course. I’ll text you when I’m about to set off.\n\nWrite a tactful reply that offers to drive, asks for the pickup address, and builds in time for traffic.",
+      "answer": "I can drive if that makes things easier. Could you send me the address? I’d allow an extra half-hour in case the roads are busy.",
+      "text": "A: Have you worked out how you’re getting there?\nB: I was going to take the train, but I can drive if that makes things easier.\nA: In that case, could you pick me up on the way? We’d better allow extra time in case the roads are busy.\nB: Of course. I’ll text you when I’m about to set off.\n\nWrite a tactful reply that offers to drive, asks for the pickup address, and builds in time for traffic."
+    }
+  ]
+}

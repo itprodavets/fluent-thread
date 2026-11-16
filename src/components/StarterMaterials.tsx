@@ -45,48 +45,44 @@ export function TeacherAudioCard() {
 
 export function StarterLesson({ lesson, onNext }: { lesson: { resource: Resource; source: string; questions: [string, string][]; notes: [string, string][] }; onNext?: () => void }) {
   const { resource, source, questions, notes } = lesson;
-  const [step, setStep] = useState(0);
+  const [step, setStep] = useState(1);
   const [answer, setAnswer] = useState('');
   const [revealed, reveal] = useState(false);
-  const last = questions.length + 2;
+  const last = questions.length + 1;
   useEffect(() => stopSpeaking, []);
   function go(value: number) {
     stopSpeaking();
     setStep(value); setAnswer(''); reveal(false);
   }
-  const question = questions[step - 2];
+  const question = questions[step - 1];
   return <article className="resource starter-lesson">
     <h3 lang="en">{resource.title}</h3>
-    {!step ? <>
-      <p className="sub">{source}</p>
-      <button type="button" className="primary" onClick={() => go(1)}>Начать занятие</button>
-    </> : <>
-      <p className="sub" role="status">Шаг {step} из {last}</p>
-      <section aria-labelledby="lesson-dialogue-title">
-        <h4 id="lesson-dialogue-title">Диалог для чтения и аудирования</h4>
-        <VoiceButtons text={resource.text} language={resource.language} />
-        <ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue notes={notes} />
-      </section>
-      {question && <section aria-label="Вопрос по диалогу">
-        <h4 lang="en">{question[0]}</h4>
-        <label>Твой ответ<textarea lang="en" rows={2} value={answer} onChange={event => setAnswer(event.target.value)} /></label>
-        <button type="button" onClick={() => reveal(true)}>Показать ответ</button>
-        {revealed && <p lang="en">{question[1]}</p>}
-      </section>}
-      {step === last && <>
-        <Fold title="Как сказать естественнее">
-          <dl>{notes.map(([phrase, note]) => <div key={phrase}><dt lang="en">{phrase}</dt><dd>{note}</dd></div>)}</dl>
-        </Fold>
-        <h4>Разыграй свою роль</h4>
-        <p>{resource.prompt || 'Выбери участника. Слушай реплики собеседника и отвечай своими словами. Запиши свою версию.'}</p>
-        <SpokenRole resource={resource} />
-      </>}
-      <div className="actions">
-        <button type="button" onClick={() => go(step - 1)}>Назад</button>
-        {step < last
-          ? <button type="button" className="primary" onClick={() => go(step + 1)}>{step === 1 ? (questions.length ? 'К вопросам →' : 'К своей роли →') : step === last - 1 ? 'К диалогу →' : 'Следующий вопрос →'}</button>
-          : onNext && <button type="button" className="primary" onClick={onNext}>Следующий материал →</button>}
-      </div>
+    <p className="sub">{source}</p>
+    <p className="sub" role="status">Шаг {step} из {last}</p>
+    <section aria-labelledby="lesson-dialogue-title">
+      <h4 id="lesson-dialogue-title">Диалог для чтения и аудирования</h4>
+      <VoiceButtons text={resource.text} language={resource.language} />
+      <ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue notes={notes} />
+    </section>
+    {question && <section aria-label="Вопрос по диалогу">
+      <h4 lang="en">{question[0]}</h4>
+      <label>Твой ответ<textarea lang="en" rows={2} value={answer} onChange={event => setAnswer(event.target.value)} /></label>
+      <button type="button" onClick={() => reveal(true)}>Показать ответ</button>
+      {revealed && <p lang="en">{question[1]}</p>}
+    </section>}
+    {step === last && <>
+      {!!notes.length && <Fold title="Как сказать естественнее">
+        <dl>{notes.map(([phrase, note]) => <div key={phrase}><dt lang="en">{phrase}</dt><dd>{note}</dd></div>)}</dl>
+      </Fold>}
+      <h4>Разыграй свою роль</h4>
+      <p>{resource.prompt || 'Выбери участника. Слушай реплики собеседника и отвечай своими словами. Запиши свою версию.'}</p>
+      <SpokenRole resource={resource} />
     </>}
+    <div className="actions">
+      {step > 1 && <button type="button" onClick={() => go(step - 1)}>Назад</button>}
+      {step < last
+        ? <button type="button" className="primary" onClick={() => go(step + 1)}>{step === last - 1 ? 'К своей роли →' : 'Следующий вопрос →'}</button>
+        : onNext && <button type="button" className="primary" onClick={onNext}>Следующий материал →</button>}
+    </div>
   </article>;
 }

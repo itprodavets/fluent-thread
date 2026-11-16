@@ -78,3 +78,17 @@ test('multi-dialogue imports expose every level and pair separate reading exerci
   ]);
   assert.deepEqual(choices[2].versions[0].questions, []);
 });
+
+test('vocabulary import applies chosen statuses to new cards without overwriting existing progress', async () => {
+  const { parseChatPackage } = await import('../src/domain/chat-package.js');
+  const state = { language: 'en', languages: { en: {} }, topics: [], words: [], resources: [], results: {} };
+  const context = { format: 'nit-rechi', version: 1, language: 'en', topic: { title: 'Class' } };
+  const pack = (vocabularyLevel: string) => parseChatPackage(JSON.stringify({
+    ...context, words: [{ title: 'riverbank', meaning: 'берег', vocabularyLevel }]
+  }));
+  const first = applyChatPackage(state, pack('passive'));
+  assert.equal(first.next.words[0].vocabularyLevel, 'passive');
+  const again = applyChatPackage(first.next, pack('active'), first.topic.id);
+  assert.equal(again.next.words[0].vocabularyLevel, 'passive');
+  assert.throws(() => pack('invalid'), /Неизвестный статус/);
+});
