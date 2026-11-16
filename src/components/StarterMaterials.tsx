@@ -62,21 +62,18 @@ export function StarterLesson({ lesson, onNext }: { lesson: { resource: Resource
       <button type="button" className="primary" onClick={() => go(1)}>Начать занятие</button>
     </> : <>
       <p className="sub" role="status">Шаг {step} из {last}</p>
-      {step === 1 && <section aria-label="Аудирование">
-        <h4>Прослушай диалог</h4>
-        <p>Попробуй уловить, о чём говорят и к чему приходят собеседники.</p>
+      <section aria-labelledby="lesson-dialogue-title">
+        <h4 id="lesson-dialogue-title">Диалог для чтения и аудирования</h4>
         <VoiceButtons text={resource.text} language={resource.language} />
-      </section>}
+        <ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue notes={notes} />
+      </section>
       {question && <section aria-label="Вопрос по диалогу">
         <h4 lang="en">{question[0]}</h4>
         <label>Твой ответ<textarea lang="en" rows={2} value={answer} onChange={event => setAnswer(event.target.value)} /></label>
         <button type="button" onClick={() => reveal(true)}>Показать ответ</button>
         {revealed && <p lang="en">{question[1]}</p>}
-        <Fold title="Прослушать ещё раз"><VoiceButtons text={resource.text} language={resource.language} /></Fold>
       </section>}
       {step === last && <>
-        <h4>Сверься с диалогом</h4>
-        <ReadableMaterial key={resource.id} text={resource.text} language={resource.language} translation={resource.translation} dialogue notes={notes} />
         <Fold title="Как сказать естественнее">
           <dl>{notes.map(([phrase, note]) => <div key={phrase}><dt lang="en">{phrase}</dt><dd>{note}</dd></div>)}</dl>
         </Fold>
