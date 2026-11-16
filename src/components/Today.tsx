@@ -4,6 +4,7 @@ import { readRecentLapses } from '../domain/anki-history';
 import type { RecentLapse } from '../domain/anki-history';
 import { reviewKey } from '../domain/anki-model';
 import { localDay } from '../domain/model';
+import { lessonPhrasesHash, teacherPhraseReviews } from '../domain/lesson-practice';
 import { addExample } from '../domain/sample-study';
 import { createLearningSession, currentLearningSession, lapseWindow, practiceWeek, selectLearningTargets, wordCount } from '../domain/learning-session';
 import type { Budget } from '../domain/learning-session';
@@ -79,11 +80,15 @@ export function Today() {
   if (dialogue) return <><button type="button" className="back-to-today subtle" onClick={() => setDialogue(false)}>← К ежедневной практике</button><TopicStudio /></>;
   if (open && session && !completed) return <LearningSession session={session} close={() => setOpen(false)} />;
   const answers = Object.values(session?.answers ?? {});
+  const { due: phraseDue, pending: phrasePending } = teacherPhraseReviews(study, now);
 
   return <div className="today-page">
     <header className="today-heading"><div><p className="kicker">{new Intl.DateTimeFormat('ru', { weekday: 'long', day: 'numeric', month: 'long' }).format(now)}</p>
       <h1>Каждый день — чуть свободнее.</h1><p className="sub">Небольшое занятие. Слова, которые пригодятся тебе.</p></div><span className="language-pill"><LanguageLabel code={study.language} /></span></header>
     <div className="today-mode-picker"><div><p className="kicker">ПРАКТИКА ПОД ТВОЮ ЗАДАЧУ</p><p>Повторить слова или поговорить на нужную тему</p></div><button type="button" className="dialogue-entry" onClick={() => setDialogue(true)}><Icon name="map" /><span>Практика по теме<small>Моя история или диалог</small></span><Icon name="arrow" /></button></div>
+    {(!!phraseDue.size || !!phrasePending.size) && <a className="button" href={lessonPhrasesHash}>
+      {phraseDue.size ? 'Повторить фразы преподавателя · ' + phraseDue.size : 'Фразы преподавателя · отложено ' + phrasePending.size}
+    </a>}
     <div className="today-grid">
       <section className={'daily-hero ' + (completed ? 'daily-complete' : '')} aria-labelledby="today-lesson-title">
         <div className="hero-content"><p className="eyebrow"><span className="status-dot" />{completed ? 'СЕГОДНЯ УЖЕ ПОЛУЧИЛОСЬ' : session ? 'ТВОЁ ЗАНЯТИЕ СОХРАНЕНО' : 'ТВОЯ ЕЖЕДНЕВНАЯ ПРАКТИКА'}</p>

@@ -454,3 +454,9 @@ button:disabled { opacity: .52; cursor: default; }
 .lesson-recall > .actions { margin-top: 12px; }
 .lesson-grammar-exercise { margin-inline-start: 12px; }
 .lesson-grammar-exercise textarea { display: block; width: 100%; }
+
+.phrase-topics { display: grid; gap: 16px; }
+.phrase-topics h2 { font-size: 1.1rem; }
+.phrase-topics .material-choice-grid small { display: block; color: var(--muted); }
+.phrase-review { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--line); }
+.account-sections a[aria-current="page"] { border-color: #668674; background: #e9f3ec; }
