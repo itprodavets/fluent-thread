@@ -7,7 +7,7 @@ import { TopicStudio } from './TopicStudio';
 import { Recording } from './Recording';
 import { WordCue } from './WordCue';
 import { PhraseImitation } from './PhraseImitation';
-import { usePhraseSource } from '../hooks/use-phrase-audio';
+import { usePhraseSource } from '../hooks/use-phrase-source';
 import { addExample } from '../domain/sample-study';
 import { Empty, Fold, Heading, SourceLink, SourceText, VoiceButtons } from './common';
 import { AnkiHistory } from './AnkiHistory';

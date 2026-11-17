@@ -89,6 +89,8 @@ function App({ initial }: { initial: Study }) {
 
 const root = createRoot(document.querySelector('#root')!);
 root.render(<main role="status">Открываем локальный словарь…</main>);
+// The retired database contains only copies of lesson recordings. Learner takes use a separate store.
+try { indexedDB.deleteDatabase('nit-rechi-lesson-audio'); } catch { /* Storage may be disabled. */ }
 void readStudy().then(initial => root.render(<App initial={initial} />), () => {
   root.render(<main role="alert">Не удалось прочитать локальное хранилище. Открой приложение в обычном окне браузера.</main>);
 });

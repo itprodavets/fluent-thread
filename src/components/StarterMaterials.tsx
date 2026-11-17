@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
 import { ReadableMaterial } from './ReadableMaterial';
 import { teacherListening } from '../domain/teacher-listening';
-import { LessonAudio } from './LessonAudio';
 import { useEffect, useState } from 'react';
 import { useWorkspace } from '../context';
 import type { Resource } from '../domain/model';
@@ -28,16 +27,15 @@ export function StarterMaterials({ scene, chooseScene }: { scene: string; choose
   </section>;
 }
 
-export function TeacherAudioCard() {
+export function TeacherReadingCard() {
   const [clipIndex, chooseClip] = useState(0);
   const clip = teacherListening[clipIndex];
   return <article className="resource">
-    <h2>Оригинальная речь преподавателей</h2>
+    <h2>Вопросы к уроку</h2>
     <p className="sub">Урок 20:30 · {teacherListening.length} фрагментов с вопросами</p>
     <label>Фрагмент<select value={clipIndex} onChange={event => chooseClip(Number(event.target.value))}>
       {teacherListening.map((item, i) => <option key={item.start} value={i}>{item.title} · {item.time}</option>)}
     </select></label>
-    <LessonAudio key={clip.start} language="en" lesson="lesson-2" cues={[{ ...clip, label: clip.title }]} />
     <ol>{clip.questions.map(([question, answer]) => <li key={question}>
       <p lang="en">{question}</p><Fold title="Показать ответ"><p lang="en">{answer}</p></Fold>
     </li>)}</ol>

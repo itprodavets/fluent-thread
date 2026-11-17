@@ -2,7 +2,7 @@ import { ReadableMaterial } from './ReadableMaterial';
 import { dialogueChoices, importedLessonsFor } from '../domain/imported-lessons';
 import { starterScenes } from '../domain/starter-materials';
 import { isStarterResource } from '../domain/starter-materials';
-import { LessonAudio } from './LessonAudio';
+import { LessonTranscript } from './LessonTranscript';
 import { LessonPractice, PhraseRecall } from './LessonPractice';
 import { PhraseTopics } from './PhraseTopics';
 import { SchoolLessonPicker } from './SchoolLessonPicker';
@@ -25,7 +25,7 @@ import { kinds, languageName, selectLanguage, upsert } from '../domain/model';
 import type { MaterialKind, Resource } from '../domain/model';
 import { Recording } from './Recording';
 import { StoryVersions } from './StoryVersions';
-import { StarterLesson, StarterMaterials, TeacherAudioCard } from './StarterMaterials';
+import { StarterLesson, StarterMaterials, TeacherReadingCard } from './StarterMaterials';
 import { copyText, Fold, Heading, SourceLink, VoiceButtons } from './common';
 
 function TopicSelect({ value, change, fallback, language }: { value: string; change: (id: string) => void; fallback: string; language?: string }) {
@@ -215,8 +215,8 @@ function MaterialText({ resource }: { resource: Resource }) {
   const cues = lessonCues(resource.text);
   if (!cues.length) return <><ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue={resource.kind === 'dialogue'} /><VoiceButtons text={resource.text} language={resource.language} /></>;
   return <details onToggle={event => setOpen(event.currentTarget.open)}>
-    <summary>Оригинальная запись · фрагменты ({cues.length})</summary>
-    {open && <LessonAudio cues={cues} lesson={resource.text.match(/^Recording: (lesson-[a-z0-9-]+)$/m)?.[1] ?? resource.topicId ?? resource.id} language={resource.language} topicId={resource.topicId} />}
+    <summary>Расшифровка · фрагменты ({cues.length})</summary>
+    {open && <LessonTranscript cues={cues} recordingKey={resource.text.match(/^Recording: (lesson-[a-z0-9-]+)$/m)?.[1] ?? resource.topicId ?? resource.id} language={resource.language} topicId={resource.topicId} />}
   </details>;
 }
 
@@ -243,10 +243,10 @@ export function Materials() {
   const lessonWorkArea = useRef<HTMLDivElement>(null);
   const skillPractice = useRef<HTMLElement>(null);
   const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
-  const [view, setView] = useState<'lessons' | 'library' | 'audio' | 'phrases' | 'mistakes'>(() => {
+  const [view, setView] = useState<'lessons' | 'library' | 'questions' | 'phrases' | 'mistakes'>(() => {
     if (location.hash === dialogueMistakesHash) return 'mistakes';
     if (location.hash === lessonPhrasesHash) return 'phrases';
-    if (location.hash === '#materials/audio' && study.language === 'en') return 'audio';
+    if (['#materials/audio', '#materials/questions'].includes(location.hash) && study.language === 'en') return 'questions';
     return location.hash === '#materials/library' || resourceId ? 'library' : 'lessons';
   });
   const [catalog, setCatalog] = useState<'schools' | 'skills'>(() => location.hash === skillPhrasesHash ? 'skills' : 'schools');
@@ -281,7 +281,7 @@ export function Materials() {
     setPanel(value);
     if (!dialog.current?.open) dialog.current?.showModal();
   }
-  function changeView(next: 'lessons' | 'library' | 'audio') {
+  function changeView(next: 'lessons' | 'library' | 'questions') {
     if (location.hash.startsWith('#materials/')) location.hash = next === 'lessons' ? 'materials' : 'materials/' + next;
     setView(next);
   }
@@ -315,7 +315,7 @@ export function Materials() {
         <a className="button" aria-current={view === 'phrases' ? 'page' : undefined} href={lessonPhrasesHash} onClick={() => setView('phrases')}>Фразы и грамматика</a>
         {study.language === 'en' && <a className="button" aria-current={view === 'mistakes' ? 'page' : undefined} href={dialogueMistakesHash} onClick={() => setView('mistakes')}>Мои ошибки</a>}
         <button type="button" aria-pressed={view === 'library'} onClick={() => changeView('library')}>Библиотека</button>
-        {study.language === 'en' && <button type="button" aria-pressed={view === 'audio'} onClick={() => changeView('audio')}>Оригинальное аудио</button>}
+        {study.language === 'en' && <button type="button" aria-pressed={view === 'questions'} onClick={() => changeView('questions')}>Вопросы к уроку</button>}
       </nav>
       {view === 'library' && <MaterialChoices title="Тема библиотеки" selected={filter} choose={setFilter}
         options={[{ id: '', title: 'Все темы' }, ...active.topics, { id: 'unassigned', title: 'Без темы' }]} />}
@@ -376,7 +376,7 @@ export function Materials() {
               </section>}
               {materials.filter(item => item.topicId === selectedScene && item.title === 'Запись урока с таймкодами').map(item =>
                 <section className="resource" key={item.id}>
-                  <h3>{item.title}</h3>
+                  <h3>Расшифровка урока с таймкодами</h3>
                   <MaterialText resource={item} />
                 </section>)}
               {materials.filter(item => item.topicId === selectedScene && item.title.startsWith('Разбор записи ·')).map(item =>
@@ -387,7 +387,7 @@ export function Materials() {
       </div>}
       {view === 'mistakes' && <DialogueMistakeReview />}
       {view === 'phrases' && <PhraseTopics />}
-      {view === 'audio' && study.language === 'en' && <TeacherAudioCard />}
+      {view === 'questions' && study.language === 'en' && <TeacherReadingCard />}
 
       {view !== 'mistakes' && <Fold title="Управление материалами">
         <div className="actions">
