@@ -3,17 +3,22 @@ import type { lessonCues } from '../domain/lesson-cues';
 import { lineAtTime, recordingTime } from '../domain/lesson-transcript';
 import type { TranscriptLine } from '../domain/lesson-transcript';
 
+import { useTranscriptPhraseForm } from './TranscriptPhraseForm';
+
 type Cue = ReturnType<typeof lessonCues>[number];
 
-export function LessonTranscript({ cues, lines, chapterIndex, position, ready, chooseChapter, play }: {
+export function LessonTranscript({ cues, lines, chapterIndex, position, ready, chooseChapter, play, language, topicId }: {
   cues: Cue[];
   lines: TranscriptLine[];
   chapterIndex: number;
   position?: number;
   ready: boolean;
+  language: string;
+  topicId?: string;
   chooseChapter: (index: number) => void;
   play: (start: number, end: number) => void;
 }) {
+  const { editor, open } = useTranscriptPhraseForm({ language, topicId });
   const chapter = cues[chapterIndex];
   const chapterLines = useMemo(() => lines.filter(line => line.end > chapter.start && line.start < chapter.end),
     [lines, chapter]);
@@ -33,6 +38,7 @@ export function LessonTranscript({ cues, lines, chapterIndex, position, ready, c
   }, [activeIndex, chapterIndex]);
 
   return <div className="lesson-transcript">
+    {editor}
     <div className="lesson-audio-controls">
       <label>Фрагмент записи
         <select value={chapterIndex} onChange={event => chooseChapter(Number(event.target.value))}>
@@ -54,7 +60,10 @@ export function LessonTranscript({ cues, lines, chapterIndex, position, ready, c
           </button>
           <div className="transcript-text">
             <p lang="en">{line.teacher && <strong className="transcript-speaker">Bruce: </strong>}{line.en}</p>
-            <details><summary>Перевод</summary><p lang="ru">{line.ru}</p></details>
+            <div className="transcript-actions">
+              <details><summary>Перевод</summary><p lang="ru">{line.ru}</p></details>
+              <button type="button" onClick={() => open(line)}>В словарь</button>
+            </div>
           </div>
         </div>
       </li>)}

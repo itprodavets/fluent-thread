@@ -23,7 +23,7 @@ function recording(key: string, file?: File): Promise<Blob | undefined> {
   });
 }
 
-export function LessonAudio({ cues, lesson, language }: { cues: ReturnType<typeof lessonCues>; lesson: string; language: string }) {
+export function LessonAudio({ cues, lesson, language, topicId }: { cues: ReturnType<typeof lessonCues>; lesson: string; language: string; topicId?: string }) {
   const audio = useRef<HTMLAudioElement>(null);
   const range = useRef<{ start: number; end: number; remaining: number } | null>(null);
   const [blob, setBlob] = useState<Blob>();
@@ -126,7 +126,7 @@ export function LessonAudio({ cues, lesson, language }: { cues: ReturnType<typeo
         syncPosition(time);
       }} onEnded={() => { range.current = null; select(undefined); }} onError={() => setNotice('Этот аудиофайл не удалось открыть.')} />}
     {transcript ? <LessonTranscript cues={cues} lines={transcript} chapterIndex={chapter}
-      position={position} ready={!!url} chooseChapter={chooseChapter} play={playRange} />
+      position={position} language={language} topicId={topicId} ready={!!url} chooseChapter={chooseChapter} play={playRange} />
       : <ol className="lesson-cues">{cues.map((cue, index) => <li key={index}>
       <button type="button" disabled={!url} aria-pressed={selected === index} onClick={() => playRange(cue.start, cue.end, index)}>
         <span>{selected === index ? '■' : '▶'} {cue.time}</span><span lang={language}>{cue.label}</span>
