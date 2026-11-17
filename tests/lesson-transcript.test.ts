@@ -2,20 +2,10 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { lessonCues } from '../src/domain/lesson-cues.ts';
-import { lineAtTime, matchPhraseSource, phraseSource, recordingTime, saveTranscriptPhrase } from '../src/domain/lesson-transcript.ts';
+import { matchPhraseSource, phraseSource, recordingTime, saveTranscriptPhrase } from '../src/domain/lesson-transcript.ts';
 import type { TranscriptLine } from '../src/domain/lesson-transcript.ts';
 
-test('transcript follows playback across overlaps, gaps and hour boundaries', () => {
-  const lines: TranscriptLine[] = [
-    { start: 3598, end: 3602, en: 'First', ru: 'Первый' },
-    { start: 3600, end: 3603, en: 'Second', ru: 'Второй' },
-    { start: 3606, end: 3612, en: 'Third', ru: 'Третий' }
-  ];
-  assert.equal(lineAtTime(lines, 3597.5), -1);
-  assert.equal(lineAtTime(lines, 3599), 0);
-  assert.equal(lineAtTime(lines, 3600), 1);
-  assert.equal(lineAtTime(lines, 3603), -1);
-  assert.equal(lineAtTime(lines, 3606), 2);
+test('transcript timestamps retain hour boundaries', () => {
   assert.equal(recordingTime(3606.81), '01:00:06');
 });
 

@@ -10,7 +10,7 @@ import { WordCue } from './WordCue';
 import { WordExamplesList } from './WordExamples';
 import { Recording } from './Recording';
 import { PhraseImitation } from './PhraseImitation';
-import { usePhraseSource } from '../hooks/use-phrase-audio';
+import { usePhraseSource } from '../hooks/use-phrase-source';
 import { Icon } from './Icon';
 import { VoiceButtons } from './common';
 
@@ -23,7 +23,7 @@ function Recall({ word, session, revisit, busy, next, check }: { word: Word; ses
   const heading = useRef<HTMLHeadingElement>(null);
   useEffect(() => { heading.current?.focus(); }, []);
   if (source) return <>
-    <h1 ref={heading} tabIndex={-1}>Повтори фразу за преподавателем</h1>
+    <h1 ref={heading} tabIndex={-1}>Повтори фразу из урока</h1>
     <PhraseImitation word={word} source={source} takeId={'recall:' + session.id + ':' + session.cursor}
       onReveal={() => setPhraseRevealed(true)} />
     {phraseRevealed && <div className="actions" aria-label="Как получилось?">

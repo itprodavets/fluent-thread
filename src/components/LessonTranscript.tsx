@@ -1,64 +1,51 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { lessonCues } from '../domain/lesson-cues';
-import { lineAtTime, recordingTime } from '../domain/lesson-transcript';
+import { recordingTime } from '../domain/lesson-transcript';
 import type { TranscriptLine } from '../domain/lesson-transcript';
 
+import { transcriptLoaders } from '../domain/lesson-text';
 import { useTranscriptPhraseForm } from './TranscriptPhraseForm';
 
 type Cue = ReturnType<typeof lessonCues>[number];
 
-export function LessonTranscript({ cues, lines, chapterIndex, position, ready, chooseChapter, play, language, topicId, recordingKey }: {
-  cues: Cue[];
-  lines: TranscriptLine[];
-  chapterIndex: number;
-  position?: number;
-  ready: boolean;
-  language: string;
-  topicId?: string;
-  recordingKey: string;
-  chooseChapter: (index: number) => void;
-  play: (start: number, end: number) => void;
+export function LessonTranscript({ cues, language, topicId, recordingKey }: {
+  cues: Cue[]; language: string; topicId?: string; recordingKey: string;
 }) {
   const { editor, open } = useTranscriptPhraseForm({ language, topicId, recordingKey });
-  const chapter = cues[chapterIndex];
-  const chapterLines = useMemo(() => lines.filter(line => line.end > chapter.start && line.start < chapter.end),
-    [lines, chapter]);
-  const activeIndex = position === undefined ? -1 : lineAtTime(chapterLines, position);
-  const pane = useRef<HTMLOListElement>(null);
-  const current = useRef<HTMLLIElement>(null);
-  useEffect(() => { if (pane.current) pane.current.scrollTop = 0; }, [chapterIndex]);
+  const [chapterIndex, chooseChapter] = useState(0);
+  const [lines, setLines] = useState<TranscriptLine[]>();
+  const [error, setError] = useState(false);
+  const load = transcriptLoaders[recordingKey];
   useEffect(() => {
-    const container = pane.current;
-    const row = current.current;
-    if (!container || !row) return;
-    const bounds = container.getBoundingClientRect();
-    const offset = row.getBoundingClientRect().top - bounds.top;
-    if (offset < 0 || offset + row.offsetHeight > container.clientHeight) {
-      container.scrollTop += offset - 8;
-    }
-  }, [activeIndex, chapterIndex]);
-
+    if (!load) return;
+    let alive = true;
+    load().then(module => { if (alive) setLines(module.default); },
+      () => { if (alive) setError(true); });
+    return () => { alive = false; };
+  }, [load]);
+  const chapter = cues[chapterIndex];
+  const chapterLines = useMemo(() => lines?.filter(line => line.end > chapter.start && line.start < chapter.end),
+    [lines, chapter]);
+  const pane = useRef<HTMLOListElement>(null);
+  useEffect(() => { if (pane.current) pane.current.scrollTop = 0; }, [chapterIndex]);
   return <div className="lesson-transcript">
     {editor}
-    <div className="lesson-audio-controls">
-      <label>Фрагмент записи
+    <div className="lesson-transcript-controls">
+      <label>Фрагмент урока
         <select value={chapterIndex} onChange={event => chooseChapter(Number(event.target.value))}>
           {cues.map((cue, index) => <option value={index} key={cue.start}>
             {cue.time} · {cue.label.split(' · ')[0]}
           </option>)}
         </select>
       </label>
-      <button type="button" disabled={!ready} onClick={() => play(chapter.start, chapter.end)}>▶ Слушать фрагмент</button>
+
     </div>
     <p className="sub">Автоматическая расшифровка и перевод. Имя преподавателя указано там, где его реплику можно выделить. Некоторые строки содержат несколько голосов.</p>
-    {chapterLines.length ? <ol aria-label="Расшифровка фрагмента" className="transcript-lines" ref={pane}>
-      {chapterLines.map((line, index) => <li key={line.start + '-' + index} ref={index === activeIndex ? current : undefined}
-        aria-current={index === activeIndex ? 'true' : undefined}>
+    {error ? <p role="status">Не удалось загрузить расшифровку.</p> : !load ? <p lang={language}>{chapter.label}</p>
+      : !chapterLines ? <p role="status">Загружаем расшифровку…</p> : chapterLines.length ? <ol aria-label="Расшифровка фрагмента" className="transcript-lines" ref={pane}>
+      {chapterLines.map((line, index) => <li key={line.start + '-' + index}>
         <div className="transcript-line">
-          <button type="button" className="transcript-time" disabled={!ready}
-            aria-label={'Слушать с ' + recordingTime(line.start)} onClick={() => play(line.start, line.end)}>
-            {recordingTime(line.start)}
-          </button>
+          <time className="transcript-time">{recordingTime(line.start)}</time>
           <div className="transcript-text">
             <p lang="en">{line.teacher && <strong className="transcript-speaker">{line.teacher === true ? 'Bruce' : line.teacher}: </strong>}{line.en}</p>
             <div className="transcript-actions">

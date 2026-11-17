@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { lessonRecording, transcriptLoaders } from '../domain/lesson-audio';
+import { transcriptLoaders } from '../domain/lesson-text';
 import { matchPhraseSource } from '../domain/lesson-transcript';
 import type { PhraseAudioSource } from '../domain/lesson-transcript';
 import type { Word, Study } from '../domain/model';
@@ -26,31 +26,4 @@ export function usePhraseSource(word: Word | undefined, study: Study) {
     return () => { active = false; };
   }, [word, study.topics, study.resources]);
   return word?.audioSource ?? (found?.id === word?.id ? found?.source : undefined);
-}
-
-export function usePhraseAudio(recordingKey: string) {
-  const [source, setSource] = useState<{ key: string; blob?: Blob }>();
-  const [url, setUrl] = useState('');
-  const [notice, setNotice] = useState('');
-  useEffect(() => {
-    let active = true;
-    lessonRecording(recordingKey).then(blob => {
-      if (active) setSource(current => current?.key === recordingKey ? current : { key: recordingKey, blob });
-    }, () => {
-      if (active) setSource(current => current?.key === recordingKey ? current : { key: recordingKey });
-    });
-    return () => { active = false; };
-  }, [recordingKey]);
-  useEffect(() => {
-    if (!source?.blob) return;
-    const address = URL.createObjectURL(source.blob);
-    setUrl(address);
-    return () => URL.revokeObjectURL(address);
-  }, [source]);
-  function pick(file: File) {
-    setSource({ key: recordingKey, blob: file });
-    setNotice('');
-    void lessonRecording(recordingKey, file).catch(() => setNotice('Файл доступен сейчас. Браузер не сохранил его для следующих повторений.'));
-  }
-  return { url, ready: source?.key === recordingKey, notice, setNotice, pick };
 }

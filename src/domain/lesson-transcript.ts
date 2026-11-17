@@ -36,14 +36,6 @@ export function recordingTime(seconds: number) {
   return [hours, minutes, remainder].map(value => String(value).padStart(2, '0')).join(':');
 }
 
-export function lineAtTime(lines: TranscriptLine[], position: number) {
-  for (let index = lines.length - 1; index >= 0; index--) {
-    const { start, end } = lines[index];
-    if (start <= position && position < end) return index;
-  }
-  return -1;
-}
-
 export function saveTranscriptPhrase(study: Study, input: {
   language: string;
   title: string;

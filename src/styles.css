@@ -391,15 +391,6 @@ button:disabled { opacity: .52; cursor: default; }
 .word-pagination { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin: 10px 0; }
 .import-language-count { display: inline-flex; align-items: center; gap: 6px; padding: 3px 7px; border: 1px solid var(--line); border-radius: 7px; }
 
-.lesson-audio { margin-top: 1rem; }
-.lesson-audio-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; }
-.lesson-audio-controls label { min-width: 0; }
-.lesson-audio-controls input { max-width: 100%; }
-.lesson-cues { list-style: none; padding: 0; display: grid; gap: .45rem; }
-.lesson-cues button { display: flex; gap: .65rem; width: 100%; text-align: left; align-items: baseline; }
-.lesson-cues button span:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
-.lesson-cues button span:last-child { overflow-wrap: anywhere; }
-.lesson-cues button:disabled { opacity: .8; }
 
 .conversation-routes { margin-bottom: 1.5rem; }
 .conversation-routes .resource { margin-top: 1rem; }
@@ -515,13 +506,11 @@ button:disabled { opacity: .52; cursor: default; }
 .dialogue-mistakes h2, .dialogue-mistakes > p { margin: 0; }
 .dialogue-mistakes .material-choice-grid small { display: block; color: var(--muted); }
 
-.lesson-audio audio[controls] { display: block; width: 100%; margin: .75rem 0; }
 .lesson-transcript select { max-width: min(100%, 36rem); }
 .transcript-lines { list-style: none; margin: .75rem 0 0; padding: 0; max-height: 28rem; overflow-y: auto; }
 .transcript-lines > li { border-block-end: 1px solid var(--line); padding: .55rem .45rem; }
-.transcript-lines > li[aria-current] { background: #e4eee8; }
 .transcript-line { display: flex; align-items: flex-start; gap: .65rem; }
-.transcript-time { font-variant-numeric: tabular-nums; flex-shrink: 0; }
+.transcript-time { font-variant-numeric: tabular-nums; flex-shrink: 0; color: var(--muted); }
 .transcript-text { min-width: 0; overflow-wrap: anywhere; }
 .transcript-text p { margin: 0 0 .35rem; }
 .transcript-text summary { cursor: pointer; }
