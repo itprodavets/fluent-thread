@@ -1,4 +1,5 @@
 export const bundledLessons = [
+  { title: 'Выражения с get, интервью и вопросы · 17 ноября', load: () => import('../../materials/2026-11-17/dc-teacher-training-b2.json?raw') },
   { title: 'Климат, британский этикет и формы -ing · 17 ноября', load: () => import('../../materials/2026-11-17/teaching-house-b2.json?raw') },
   { title: 'Разговорный английский с Bruce · 17 ноября', load: () => import('../../materials/2026-11-17/dcpl-conversation.json?raw') },
   { title: 'Волки, экосистемы и экодом · 16 ноября', load: () => import('../../materials/2026-11-16/wolves-and-eco-homes.json?raw') },

@@ -5,7 +5,7 @@ import { dialogueChoices, importedLessonsFor } from '../domain/imported-lessons'
 import { starterLessons, starterScenes } from '../domain/starter-materials';
 import { isStarterResource } from '../domain/starter-materials';
 import { LessonTranscript } from './LessonTranscript';
-import { LessonPractice, PhraseRecall } from './LessonPractice';
+import { LessonPractice, LessonVocabulary, PhraseRecall } from './LessonPractice';
 import { PhraseTopics } from './PhraseTopics';
 import { SchoolLessonPicker } from './SchoolLessonPicker';
 import { DialogueMistakeReview } from './DialogueMistakeReview';
@@ -477,6 +477,7 @@ export function Materials() {
                     }}>{version.level}</button>)}
                 </div>}
               </div>
+              <LessonVocabulary key={selectedScene} topicId={selectedScene} />
               <StarterLesson key={selectedLesson.id + (skillDialogue ? skill.id : '')}
                 lesson={{ ...selectedLesson, notes: [], source: skillDialogue ? '' : 'Диалог и задания из твоих материалов.' }}
                 firstExercise={skillDialogue ? <SkillReply exercise={{ ...skillDialogue, skillId: skill.id }}
