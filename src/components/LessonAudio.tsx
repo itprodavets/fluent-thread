@@ -2,27 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { lessonCues } from '../domain/lesson-cues';
 import type { TranscriptLine } from '../domain/lesson-transcript';
 import { LessonTranscript } from './LessonTranscript';
-
-const transcriptLoaders: Partial<Record<string, () => Promise<{ default: TranscriptLine[] }>>> = {
-  'lesson-2026-11-17': () => import('../../materials/2026-11-17/transcript.json'),
-  'lesson-2026-11-17-teaching-house': () => import('../../materials/2026-11-17/teaching-house-transcript.json')
-};
-
-function recording(key: string, file?: File): Promise<Blob | undefined> {
-  return new Promise((resolve, reject) => {
-    const request = indexedDB.open('nit-rechi-lesson-audio', 1);
-    request.onupgradeneeded = () => request.result.createObjectStore('recordings');
-    request.onerror = () => reject(request.error);
-    request.onsuccess = () => {
-      const db = request.result;
-      const tx = db.transaction('recordings', file ? 'readwrite' : 'readonly');
-      const store = tx.objectStore('recordings');
-      const result = file ? store.put(file, key) : store.get(key);
-      tx.oncomplete = () => { db.close(); resolve(file ?? result.result); };
-      tx.onabort = () => { db.close(); reject(tx.error); };
-    };
-  });
-}
+import { lessonRecording, transcriptLoaders } from '../domain/lesson-audio';
 
 export function LessonAudio({ cues, lesson, language, topicId }: { cues: ReturnType<typeof lessonCues>; lesson: string; language: string; topicId?: string }) {
   const audio = useRef<HTMLAudioElement>(null);
@@ -46,7 +26,7 @@ export function LessonAudio({ cues, lesson, language, topicId }: { cues: ReturnT
   }, [lesson]);
   useEffect(() => {
     let active = true;
-    recording(lesson).then(value => { if (active && value) setBlob(value); }).catch(() => {});
+    lessonRecording(lesson).then(value => { if (active && value) setBlob(value); }).catch(() => {});
     return () => { active = false; };
   }, [lesson]);
   useEffect(() => {
@@ -108,7 +88,7 @@ export function LessonAudio({ cues, lesson, language, topicId }: { cues: ReturnT
         setPosition(undefined);
         setBlob(file);
         setNotice('');
-        void recording(lesson, file).catch(() => setNotice('Запись доступна сейчас. Для хранения не хватило места или браузер его ограничил.'));
+        void lessonRecording(lesson, file).catch(() => setNotice('Запись доступна сейчас. Для хранения не хватило места или браузер его ограничил.'));
       }} /></label>
       <label>Скорость<select value={speed} onChange={event => setSpeed(Number(event.target.value))}>
         {[0.5, 0.65, 0.75, 0.9, 1, 1.15].map(value => <option key={value} value={value}>{value}×</option>)}
@@ -127,7 +107,7 @@ export function LessonAudio({ cues, lesson, language, topicId }: { cues: ReturnT
         syncPosition(time);
       }} onEnded={() => { range.current = null; select(undefined); }} onError={() => setNotice('Этот аудиофайл не удалось открыть.')} />}
     {transcript ? <LessonTranscript cues={cues} lines={transcript} chapterIndex={chapter}
-      position={position} language={language} topicId={topicId} ready={!!url} chooseChapter={chooseChapter} play={playRange} />
+      position={position} recordingKey={lesson} language={language} topicId={topicId} ready={!!url} chooseChapter={chooseChapter} play={playRange} />
       : <ol className="lesson-cues">{cues.map((cue, index) => <li key={index}>
       <button type="button" disabled={!url} aria-pressed={selected === index} onClick={() => playRange(cue.start, cue.end, index)}>
         <span>{selected === index ? '■' : '▶'} {cue.time}</span><span lang={language}>{cue.label}</span>

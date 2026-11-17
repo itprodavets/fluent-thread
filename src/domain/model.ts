@@ -19,6 +19,7 @@ export interface Word {
   ankiUpdatedAt?: number;
   ankiImportId?: string;
   vocabularyLevel?: VocabularyLevel;
+  audioSource?: import('./lesson-transcript').PhraseAudioSource;
 }
 
 export interface Topic {

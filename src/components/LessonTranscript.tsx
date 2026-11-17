@@ -7,7 +7,7 @@ import { useTranscriptPhraseForm } from './TranscriptPhraseForm';
 
 type Cue = ReturnType<typeof lessonCues>[number];
 
-export function LessonTranscript({ cues, lines, chapterIndex, position, ready, chooseChapter, play, language, topicId }: {
+export function LessonTranscript({ cues, lines, chapterIndex, position, ready, chooseChapter, play, language, topicId, recordingKey }: {
   cues: Cue[];
   lines: TranscriptLine[];
   chapterIndex: number;
@@ -15,10 +15,11 @@ export function LessonTranscript({ cues, lines, chapterIndex, position, ready, c
   ready: boolean;
   language: string;
   topicId?: string;
+  recordingKey: string;
   chooseChapter: (index: number) => void;
   play: (start: number, end: number) => void;
 }) {
-  const { editor, open } = useTranscriptPhraseForm({ language, topicId });
+  const { editor, open } = useTranscriptPhraseForm({ language, topicId, recordingKey });
   const chapter = cues[chapterIndex];
   const chapterLines = useMemo(() => lines.filter(line => line.end > chapter.start && line.start < chapter.end),
     [lines, chapter]);
