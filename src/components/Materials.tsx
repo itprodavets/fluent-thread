@@ -216,7 +216,7 @@ function MaterialText({ resource }: { resource: Resource }) {
   if (!cues.length) return <><ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue={resource.kind === 'dialogue'} /><VoiceButtons text={resource.text} language={resource.language} /></>;
   return <details onToggle={event => setOpen(event.currentTarget.open)}>
     <summary>Оригинальная запись · {cues.length} реплик</summary>
-    {open && <LessonAudio cues={cues} lesson={resource.text.match(/^Recording: (lesson-[123])$/m)?.[1] ?? resource.topicId ?? resource.id} language={resource.language} />}
+    {open && <LessonAudio cues={cues} lesson={resource.text.match(/^Recording: (lesson-[a-z0-9-]+)$/m)?.[1] ?? resource.topicId ?? resource.id} language={resource.language} />}
   </details>;
 }
 
@@ -374,6 +374,13 @@ export function Materials() {
                 <h3>Фразы навыка</h3>
                 <PhraseRecall key={skill.id + ':' + skillDialogue.dialogueId} cards={skillCards} language={study.language} />
               </section>}
+              {materials.filter(item => item.topicId === selectedScene && item.title === 'Запись урока с таймкодами').map(item =>
+                <section className="resource" key={item.id}>
+                  <h3>{item.title}</h3>
+                  <MaterialText resource={item} />
+                </section>)}
+              {materials.filter(item => item.topicId === selectedScene && item.title.startsWith('Разбор записи ·')).map(item =>
+                <Fold title={item.title} key={item.id}><MaterialText resource={item} /></Fold>)}
               <LessonPractice key={selectedScene} resources={active.resources} topicId={selectedScene} />
             </> : catalog === 'schools' && <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>}
         </div>
