@@ -3,17 +3,22 @@ import type { lessonCues } from '../domain/lesson-cues';
 import { lineAtTime, recordingTime } from '../domain/lesson-transcript';
 import type { TranscriptLine } from '../domain/lesson-transcript';
 
+import { useTranscriptPhraseForm } from './TranscriptPhraseForm';
+
 type Cue = ReturnType<typeof lessonCues>[number];
 
-export function LessonTranscript({ cues, lines, chapterIndex, position, ready, chooseChapter, play }: {
+export function LessonTranscript({ cues, lines, chapterIndex, position, ready, chooseChapter, play, language, topicId }: {
   cues: Cue[];
   lines: TranscriptLine[];
   chapterIndex: number;
   position?: number;
   ready: boolean;
+  language: string;
+  topicId?: string;
   chooseChapter: (index: number) => void;
   play: (start: number, end: number) => void;
 }) {
+  const { editor, open } = useTranscriptPhraseForm({ language, topicId });
   const chapter = cues[chapterIndex];
   const chapterLines = useMemo(() => lines.filter(line => line.end > chapter.start && line.start < chapter.end),
     [lines, chapter]);
@@ -33,6 +38,7 @@ export function LessonTranscript({ cues, lines, chapterIndex, position, ready, c
   }, [activeIndex, chapterIndex]);
 
   return <div className="lesson-transcript">
+    {editor}
     <div className="lesson-audio-controls">
       <label>Фрагмент записи
         <select value={chapterIndex} onChange={event => chooseChapter(Number(event.target.value))}>
@@ -43,7 +49,7 @@ export function LessonTranscript({ cues, lines, chapterIndex, position, ready, c
       </label>
       <button type="button" disabled={!ready} onClick={() => play(chapter.start, chapter.end)}>▶ Слушать фрагмент</button>
     </div>
-    <p className="sub">Автоматическая расшифровка и перевод. «Брюс» указан там, где его реплику можно выделить. Некоторые строки содержат несколько голосов.</p>
+    <p className="sub">Автоматическая расшифровка и перевод. Имя преподавателя указано там, где его реплику можно выделить. Некоторые строки содержат несколько голосов.</p>
     {chapterLines.length ? <ol aria-label="Расшифровка фрагмента" className="transcript-lines" ref={pane}>
       {chapterLines.map((line, index) => <li key={line.start + '-' + index} ref={index === activeIndex ? current : undefined}
         aria-current={index === activeIndex ? 'true' : undefined}>
@@ -53,8 +59,11 @@ export function LessonTranscript({ cues, lines, chapterIndex, position, ready, c
             {recordingTime(line.start)}
           </button>
           <div className="transcript-text">
-            <p lang="en">{line.teacher && <strong className="transcript-speaker">Bruce: </strong>}{line.en}</p>
-            <details><summary>Перевод</summary><p lang="ru">{line.ru}</p></details>
+            <p lang="en">{line.teacher && <strong className="transcript-speaker">{line.teacher === true ? 'Bruce' : line.teacher}: </strong>}{line.en}</p>
+            <div className="transcript-actions">
+              <details><summary>Перевод</summary><p lang="ru">{line.ru}</p></details>
+              <button type="button" onClick={() => open(line)}>В словарь</button>
+            </div>
           </div>
         </div>
       </li>)}

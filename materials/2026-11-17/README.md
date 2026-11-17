@@ -4,6 +4,8 @@
 
 [Открыть раздел уроков в «Нити речи»](https://itprodavets.github.io/nit-rechi/#materials/phrases) · [Скачать пакет урока](dcpl-conversation.json)
 
+[Teaching House B2 · климат, британский этикет и формы -ing](teaching-house-b2.md)
+
 ## Как тренировать понимание
 
 1. Выбери фрагмент по таймкоду и послушай преподавателя, не открывая перевод.
