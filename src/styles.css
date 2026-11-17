@@ -514,3 +514,15 @@ button:disabled { opacity: .52; cursor: default; }
 .dialogue-mistakes { display: grid; gap: 12px; max-width: 850px; }
 .dialogue-mistakes h2, .dialogue-mistakes > p { margin: 0; }
 .dialogue-mistakes .material-choice-grid small { display: block; color: var(--muted); }
+
+.lesson-audio audio[controls] { display: block; width: 100%; margin: .75rem 0; }
+.lesson-transcript select { max-width: min(100%, 36rem); }
+.transcript-lines { list-style: none; margin: .75rem 0 0; padding: 0; max-height: 28rem; overflow-y: auto; }
+.transcript-lines > li { border-block-end: 1px solid var(--line); padding: .55rem .45rem; }
+.transcript-lines > li[aria-current] { background: #e4eee8; }
+.transcript-line { display: flex; align-items: flex-start; gap: .65rem; }
+.transcript-time { font-variant-numeric: tabular-nums; flex-shrink: 0; }
+.transcript-text { min-width: 0; overflow-wrap: anywhere; }
+.transcript-text p { margin: 0 0 .35rem; }
+.transcript-text summary { cursor: pointer; }
+.transcript-text details p { margin-top: .35rem; }

@@ -1,5 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import { lessonCues } from '../domain/lesson-cues';
+import type { lessonCues } from '../domain/lesson-cues';
+import type { TranscriptLine } from '../domain/lesson-transcript';
+import { LessonTranscript } from './LessonTranscript';
+
+const transcriptLoaders: Partial<Record<string, () => Promise<{ default: TranscriptLine[] }>>> = {
+  'lesson-2026-11-17': () => import('../../materials/2026-11-17/transcript.json')
+};
 
 function recording(key: string, file?: File): Promise<Blob | undefined> {
   return new Promise((resolve, reject) => {
@@ -26,6 +32,17 @@ export function LessonAudio({ cues, lesson, language }: { cues: ReturnType<typeo
   const [repeats, setRepeats] = useState(3);
   const [selected, select] = useState<number>();
   const [notice, setNotice] = useState('');
+  const [transcript, setTranscript] = useState<TranscriptLine[]>();
+  const [chapter, setChapter] = useState(0);
+  const [position, setPosition] = useState<number>();
+  useEffect(() => {
+    const load = transcriptLoaders[lesson];
+    if (!load) return;
+    let active = true;
+    load().then(module => { if (active) setTranscript(module.default); })
+      .catch(() => { if (active) setNotice('Не удалось загрузить расшифровку.'); });
+    return () => { active = false; };
+  }, [lesson]);
   useEffect(() => {
     let active = true;
     recording(lesson).then(value => { if (active && value) setBlob(value); }).catch(() => {});
@@ -48,19 +65,34 @@ export function LessonAudio({ cues, lesson, language }: { cues: ReturnType<typeo
     }, 25);
     return () => clearInterval(timer);
   }, []);
-  function play(index: number) {
+  function syncPosition(time: number) {
+    if (!transcript) return;
+    setPosition(time);
+    const index = cues.findIndex(cue => cue.start <= time && time < cue.end);
+    if (index >= 0) setChapter(index);
+  }
+  function chooseChapter(index: number) {
+    setChapter(index);
+    setPosition(undefined);
+    range.current = null;
     const player = audio.current;
     if (!player) return;
-    if (selected === index && !player.paused) {
+    player.pause();
+    if (Number.isFinite(player.duration) && cues[index].start < player.duration) player.currentTime = cues[index].start;
+  }
+  function playRange(start: number, end: number, index?: number) {
+    const player = audio.current;
+    if (!player) return;
+    if (index !== undefined && selected === index && !player.paused) {
       player.pause(); range.current = null; select(undefined); return;
     }
-    const cue = cues[index];
-    if (!Number.isFinite(player.duration) || cue.start >= player.duration) {
+    if (!Number.isFinite(player.duration) || start >= player.duration) {
       setNotice('Запись ещё загружается или выбран файл от другого урока.'); return;
     }
-    range.current = { start: cue.start, end: Math.min(cue.end, player.duration), remaining: repeats };
-    player.currentTime = cue.start;
+    range.current = { start, end: Math.min(end, player.duration), remaining: repeats };
+    player.currentTime = start;
     player.playbackRate = speed;
+    syncPosition(start);
     select(index);
     setNotice('');
     void player.play().catch(() => { range.current = null; select(undefined); setNotice('Не удалось воспроизвести запись.'); });
@@ -72,6 +104,7 @@ export function LessonAudio({ cues, lesson, language }: { cues: ReturnType<typeo
         if (!file) return;
         range.current = null;
         audio.current?.pause(); select(undefined);
+        setPosition(undefined);
         setBlob(file);
         setNotice('');
         void recording(lesson, file).catch(() => setNotice('Запись доступна сейчас. Для хранения не хватило места или браузер его ограничил.'));
@@ -84,11 +117,20 @@ export function LessonAudio({ cues, lesson, language }: { cues: ReturnType<typeo
       </select></label>
     </div>
     {notice && <p role="status">{notice}</p>}
-    {url && <audio ref={audio} src={url} preload="metadata" onEnded={() => { range.current = null; select(undefined); }} onError={() => setNotice('Этот аудиофайл не удалось открыть.')} />}
-    <ol className="lesson-cues">{cues.map((cue, index) => <li key={index}>
-      <button type="button" disabled={!url} aria-pressed={selected === index} onClick={() => play(index)}>
+    {url && <audio ref={audio} src={url} preload="metadata" controls={!!transcript}
+      onTimeUpdate={event => syncPosition(event.currentTarget.currentTime)}
+      onSeeking={event => {
+        const clip = range.current;
+        const time = event.currentTarget.currentTime;
+        if (clip && (time < clip.start || time >= clip.end)) range.current = null;
+        syncPosition(time);
+      }} onEnded={() => { range.current = null; select(undefined); }} onError={() => setNotice('Этот аудиофайл не удалось открыть.')} />}
+    {transcript ? <LessonTranscript cues={cues} lines={transcript} chapterIndex={chapter}
+      position={position} ready={!!url} chooseChapter={chooseChapter} play={playRange} />
+      : <ol className="lesson-cues">{cues.map((cue, index) => <li key={index}>
+      <button type="button" disabled={!url} aria-pressed={selected === index} onClick={() => playRange(cue.start, cue.end, index)}>
         <span>{selected === index ? '■' : '▶'} {cue.time}</span><span lang={language}>{cue.label}</span>
       </button>
-    </li>)}</ol>
+    </li>)}</ol>}
   </section>;
 }

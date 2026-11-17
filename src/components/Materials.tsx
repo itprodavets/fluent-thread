@@ -215,7 +215,7 @@ function MaterialText({ resource }: { resource: Resource }) {
   const cues = lessonCues(resource.text);
   if (!cues.length) return <><ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue={resource.kind === 'dialogue'} /><VoiceButtons text={resource.text} language={resource.language} /></>;
   return <details onToggle={event => setOpen(event.currentTarget.open)}>
-    <summary>Оригинальная запись · {cues.length} реплик</summary>
+    <summary>Оригинальная запись · фрагменты ({cues.length})</summary>
     {open && <LessonAudio cues={cues} lesson={resource.text.match(/^Recording: (lesson-[a-z0-9-]+)$/m)?.[1] ?? resource.topicId ?? resource.id} language={resource.language} />}
   </details>;
 }
