@@ -6,7 +6,7 @@ export type TranscriptLine = {
   end: number;
   en: string;
   ru: string;
-  teacher?: boolean;
+  teacher?: boolean | string;
 };
 
 export function recordingTime(seconds: number) {

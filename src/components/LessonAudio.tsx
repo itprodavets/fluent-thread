@@ -4,7 +4,8 @@ import type { TranscriptLine } from '../domain/lesson-transcript';
 import { LessonTranscript } from './LessonTranscript';
 
 const transcriptLoaders: Partial<Record<string, () => Promise<{ default: TranscriptLine[] }>>> = {
-  'lesson-2026-11-17': () => import('../../materials/2026-11-17/transcript.json')
+  'lesson-2026-11-17': () => import('../../materials/2026-11-17/transcript.json'),
+  'lesson-2026-11-17-teaching-house': () => import('../../materials/2026-11-17/teaching-house-transcript.json')
 };
 
 function recording(key: string, file?: File): Promise<Blob | undefined> {
