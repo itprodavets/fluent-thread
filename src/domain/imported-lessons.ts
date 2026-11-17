@@ -2,7 +2,7 @@ import type { Resource, Study } from './model';
 import { levels } from './starter-materials.ts';
 import type { Level } from './starter-materials.ts';
 
-function dialogueVersion(title: string): { title: string; level?: Level } {
+export function dialogueVersion(title: string): { title: string; level?: Level } {
   const match = /^(.*?)\s*[·–—:]\s*(A1|A2|B1|B2|C1|C2)\s*$/iu.exec(title);
   return match ? { title: match[1].trim(), level: match[2].toUpperCase() as Level } : { title };
 }

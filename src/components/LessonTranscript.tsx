@@ -8,8 +8,8 @@ import { useTranscriptPhraseForm } from './TranscriptPhraseForm';
 
 type Cue = ReturnType<typeof lessonCues>[number];
 
-export function LessonTranscript({ cues, language, topicId, recordingKey }: {
-  cues: Cue[]; language: string; topicId?: string; recordingKey: string;
+export function LessonTranscript({ cues, language, topicId, recordingKey, full = false }: {
+  cues: Cue[]; language: string; topicId?: string; recordingKey: string; full?: boolean;
 }) {
   const { editor, open } = useTranscriptPhraseForm({ language, topicId, recordingKey });
   const [chapterIndex, chooseChapter] = useState(0);
@@ -24,13 +24,13 @@ export function LessonTranscript({ cues, language, topicId, recordingKey }: {
     return () => { alive = false; };
   }, [load]);
   const chapter = cues[chapterIndex];
-  const chapterLines = useMemo(() => lines?.filter(line => line.end > chapter.start && line.start < chapter.end),
-    [lines, chapter]);
+  const chapterLines = useMemo(() => full ? lines
+    : lines?.filter(line => line.end > chapter.start && line.start < chapter.end), [lines, chapter, full]);
   const pane = useRef<HTMLOListElement>(null);
   useEffect(() => { if (pane.current) pane.current.scrollTop = 0; }, [chapterIndex]);
   return <div className="lesson-transcript">
     {editor}
-    <div className="lesson-transcript-controls">
+    {(!full || !load) && <div className="lesson-transcript-controls">
       <label>Фрагмент урока
         <select value={chapterIndex} onChange={event => chooseChapter(Number(event.target.value))}>
           {cues.map((cue, index) => <option value={index} key={cue.start}>
@@ -39,10 +39,10 @@ export function LessonTranscript({ cues, language, topicId, recordingKey }: {
         </select>
       </label>
 
-    </div>
+    </div>}
     <p className="sub">Автоматическая расшифровка и перевод. Имя преподавателя указано там, где его реплику можно выделить. Некоторые строки содержат несколько голосов.</p>
     {error ? <p role="status">Не удалось загрузить расшифровку.</p> : !load ? <p lang={language}>{chapter.label}</p>
-      : !chapterLines ? <p role="status">Загружаем расшифровку…</p> : chapterLines.length ? <ol aria-label="Расшифровка фрагмента" className="transcript-lines" ref={pane}>
+      : !chapterLines ? <p role="status">Загружаем расшифровку…</p> : chapterLines.length ? <ol aria-label={full ? "Полная расшифровка" : "Расшифровка фрагмента"} className={full ? "transcript-lines full-transcript" : "transcript-lines"} ref={pane}>
       {chapterLines.map((line, index) => <li key={line.start + '-' + index}>
         <div className="transcript-line">
           <time className="transcript-time">{recordingTime(line.start)}</time>

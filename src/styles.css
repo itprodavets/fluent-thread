@@ -465,13 +465,24 @@ button:disabled { opacity: .52; cursor: default; }
 .school-dialogue-results button { border: 0; background: transparent; min-height: 44px; text-align: start; color: var(--mint); }
 
 .library { max-width: 1240px; }
-.lesson-workspace { display: grid; grid-template-columns: minmax(245px, 320px) minmax(0, 1fr); gap: 20px; align-items: start; }
-.lesson-navigation { min-width: 0; position: sticky; top: 10px; overflow: auto; max-height: calc(100dvh - 24px); }
-.lesson-navigation-panel { padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
-.lesson-navigation-panel > summary { min-height: 40px; font-weight: 650; cursor: pointer; }
-.lesson-navigation-panel .school-lesson-groups, .lesson-navigation-panel .material-choice-grid { grid-template-columns: minmax(0, 1fr); }
-.lesson-navigation-panel .school-lesson-groups > section { padding: 8px; }
-.lesson-navigation-panel > .material-choices, .lesson-navigation-panel > .fold { margin-top: 12px; }
+.lesson-workspace { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
+.lesson-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.lesson-toolbar h2, .lesson-toolbar p { margin: 0; overflow-wrap: anywhere; }
+.lesson-picker[open] { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
+.lesson-picker > header { flex: none; padding: 12px 18px; margin: 0; border-bottom: 1px solid var(--line); }
+.lesson-picker > header h2 { margin: 0; font-size: 1.15rem; }
+.lesson-picker-body { display: grid; gap: 12px; overflow-y: auto; overscroll-behavior: contain; padding: 16px 18px; }
+.lesson-picker-body .practice-modes, .reading-shelf .practice-modes { margin: 0; }
+.lesson-picker-body input[type=search], .reading-shelf input[type=search] { display: block; width: 100%; }
+.lesson-picker-body .school-lesson-groups { grid-template-columns: minmax(0, 1fr); }
+.lesson-picker-body .school-lesson-groups > details { border: 1px solid var(--line); border-radius: 10px; }
+.lesson-picker-body .school-lesson-groups summary { padding: 12px; min-height: 44px; cursor: pointer; }
+.lesson-picker-body .school-lesson-groups .school-lesson-list { padding: 0 10px 10px; }
+.lesson-dialogue-select select { display: block; width: min(100%, 32rem); }
+.reading-shelf { display: grid; gap: 12px; max-width: 54rem; }
+.reading-results { display: grid; gap: 8px; list-style: none; padding: 0; margin: 0; }
+.reading-document { overflow-wrap: anywhere; }
+.transcript-lines.full-transcript { max-height: none; overflow: visible; }
 .lesson-work-area { min-width: 0; display: grid; gap: 14px; }
 .lesson-work-header:empty { display: none; }
 .lesson-work-header .level-tabs { margin: 4px 0 0; }
@@ -488,9 +499,11 @@ button:disabled { opacity: .52; cursor: default; }
 .directory-program { display: grid; align-content: start; gap: 6px; }
 .directory-program h3, .directory-program p { margin: 0; }
 .directory-cost { font-weight: 650; color: var(--mint); }
-@media (max-width: 900px) {
-  .lesson-workspace { grid-template-columns: minmax(0, 1fr); gap: 12px; }
-  .lesson-navigation { position: static; max-height: none; }
+@media (max-width: 640px) {
+  .lesson-toolbar > button { width: 100%; }
+  .lesson-picker[open] { position: fixed; inset: 0; width: 100%; height: 100dvh; max-width: none; max-height: none; margin: 0; border: 0; border-radius: 0; }
+  .lesson-picker-body { padding-bottom: max(16px, env(safe-area-inset-bottom)); }
+  .lesson-picker button, .reading-shelf button { min-height: 44px; }
 }
 
 .skill-reply { display: grid; gap: 10px; }

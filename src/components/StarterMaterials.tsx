@@ -10,9 +10,10 @@ import type { Level } from '../domain/starter-materials';
 import { stopSpeaking } from '../domain/voice.js';
 import { Fold, VoiceButtons } from './common';
 
-export function StarterMaterials({ scene, chooseScene }: { scene: string; chooseScene: (scene: string) => void }) {
+export function StarterMaterials({ scene, chooseScene, level, chooseLevel }: {
+  scene: string; chooseScene: (scene: string) => void; level: Level; chooseLevel: (level: Level) => void;
+}) {
   const { study } = useWorkspace();
-  const [level, chooseLevel] = useState<Level>('A1');
   if (study.language !== 'en') return null;
   const { resource, source, questions, notes } = starterLessons.find(item => item.sceneId === scene && item.level === level)!;
   return <section className="starter-library" aria-labelledby="starter-library-title">

@@ -10,21 +10,22 @@ const datedLessons = [...november16, ...november17];
 const emptyDialogues = new Map<string, DialogueLink[]>();
 const dates = new Intl.DateTimeFormat('ru', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 
-export function SchoolLessonPicker({ topics, selected, choose, dialogues = emptyDialogues, due }: {
+export function SchoolLessonPicker({ topics, selected, choose, dialogues = emptyDialogues, due, search, compact }: {
   topics: Topic[]; selected?: string; choose: (topicId: string, dialogueId?: string) => void;
   dialogues?: ReadonlyMap<string, DialogueLink[]>; due?: (topic: Topic) => boolean;
+  search?: string; compact?: boolean;
 }) {
   const [query, setQuery] = useState('');
-  const groups = schoolLessonGroups(topics, datedLessons, dialogues, query);
+  const value = search ?? query;
+  const groups = schoolLessonGroups(topics, datedLessons, dialogues, value);
   return <section className="school-lessons" aria-label="Занятия по школам">
-    <label>{dialogues.size ? 'Найти школу, занятие или диалог' : 'Найти школу или занятие'}
+    {search === undefined && <label>{dialogues.size ? 'Найти школу, занятие или диалог' : 'Найти школу или занятие'}
       <input type="search" value={query} onChange={event => setQuery(event.target.value)} />
-    </label>
+    </label>}
     {!groups.length && <p className="sub" role="status">Ничего не найдено.</p>}
     <div className="school-lesson-groups">
-      {groups.map(({ school, lessons }) => <section key={school}>
-        <h3>{school}</h3>
-        <div className="school-lesson-list">
+      {groups.map(({ school, lessons }) => {
+        const list = <div className="school-lesson-list">
           {lessons.map(({ topic, source, matches }) => <div key={topic.id}>
             <button className="school-lesson-choice" type="button" aria-pressed={selected === topic.id}
               onClick={() => choose(topic.id)}>{source?.date ? topic.title.replace(/ · \d{1,2} [а-яё]+$/iu, '') : topic.title}
@@ -35,8 +36,13 @@ export function SchoolLessonPicker({ topics, selected, choose, dialogues = empty
               {matches.map(dialogue => <li key={dialogue.id}><button type="button" onClick={() => choose(topic.id, dialogue.id)}>{dialogue.title}</button></li>)}
             </ul>}
           </div>)}
-        </div>
-      </section>)}
+        </div>;
+        return compact
+          ? <details key={school + (value.trim() ? ':search' : '')} open={value.trim() ? true : undefined}>
+            <summary>{school} <small>· {lessons.length}</small></summary>{list}
+          </details>
+          : <section key={school}><h3>{school}</h3>{list}</section>;
+      })}
     </div>
   </section>;
 }
