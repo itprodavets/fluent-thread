@@ -17,7 +17,7 @@ export function PhraseImitation({ word, source, takeId, onReveal }: {
   return <div className="phrase-imitation">
     <p className="source-text">Послушай, как прозвучала фраза на уроке. Повтори её вслух и сверь себя.</p>
     <OriginalPhraseAudio key={source.recordingKey} source={source} disabled={recording} onPlayChange={setPlaying} />
-    <Recording itemId={takeId} language={word.language} targets={[word.title]} disabled={playing} onRecordingChange={setRecording} />
+    <Recording itemId={takeId} language={word.language} phraseToCompare={word.title} disabled={playing} onRecordingChange={setRecording} />
     {revealed ? <div className="reference">
       <h2 lang={word.language}>{word.title}</h2>
       <p lang="ru">{word.meaning}</p>

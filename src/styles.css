@@ -530,3 +530,8 @@ button:disabled { opacity: .52; cursor: default; }
 .transcript-actions button { padding: .25rem .55rem; min-height: 2rem; font-size: .9rem; }
 .phrase-imitation { display: grid; gap: .75rem; }
 .phrase-imitation .reveal { justify-self: start; }
+.phrase-word-comparison { display: flex; flex-wrap: wrap; gap: .3rem; margin: .5rem 0; }
+.phrase-word { padding: .12rem .35rem; border-radius: .35rem; }
+.phrase-word-match { background: #e4eee8; }
+.phrase-word-missing { background: #ffebd1; text-decoration: underline dotted; }
+.phrase-word-changed { background: #f9e4e2; text-decoration: underline; }
