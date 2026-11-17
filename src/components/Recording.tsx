@@ -3,7 +3,7 @@ import { SpeechFeedback } from './SpeechFeedback';
 import { useWorkspace } from '../context';
 import { deleteTake, getTake, isRecording, stopVoice, toggleRecording } from '../domain/voice.js';
 
-export function Recording({ itemId, language, targets = [], onTranscript, readOnly = false, autoTranscript = false, transcriptOnly = false, onRecordingChange, onTakeChange, disabled = false }: { itemId: string; language: string; targets?: string[]; onTranscript?: (text: string) => void; readOnly?: boolean; autoTranscript?: boolean; transcriptOnly?: boolean; onRecordingChange?: (value: boolean) => void; onTakeChange?: (value: boolean) => void; disabled?: boolean }) {
+export function Recording({ itemId, language, targets = [], onTranscript, readOnly = false, autoTranscript = false, transcriptOnly = false, onRecordingChange, onTakeChange, disabled = false, phraseToCompare }: { itemId: string; language: string; targets?: string[]; onTranscript?: (text: string) => void; readOnly?: boolean; autoTranscript?: boolean; transcriptOnly?: boolean; onRecordingChange?: (value: boolean) => void; onTakeChange?: (value: boolean) => void; disabled?: boolean; phraseToCompare?: string }) {
   const { notify } = useWorkspace();
   const [revision, refresh] = useState(0);
   const [take, setTake] = useState<{ blob: Blob; url: string }>();
@@ -31,8 +31,9 @@ export function Recording({ itemId, language, targets = [], onTranscript, readOn
     catch { notify('Не удалось удалить запись.'); }
   }
   return <div className="recording">
-    {!readOnly && <button type="button" aria-pressed={recording} disabled={disabled && !recording} onClick={record}>{recording ? 'Остановить запись' : 'Записать ответ'}</button>}
+    {!readOnly && <button type="button" aria-pressed={recording} disabled={disabled && !recording} onClick={record}>{recording ? 'Остановить запись' : phraseToCompare && take ? 'Повторить фразу' : 'Записать ответ'}</button>}
     {take && !recording && <><div className="take"><audio controls preload="metadata" aria-label="Твоя запись" src={take.url} />{!readOnly && <button type="button" className="subtle" onClick={clear}>Удалить запись</button>}</div>
-      {(!readOnly || autoTranscript) && <SpeechFeedback key={take.url} recording={take.blob} language={language} targets={targets} onTranscript={onTranscript} autoTranscript={autoTranscript} transcriptOnly={transcriptOnly} />}</>}
+      {(!readOnly || autoTranscript) && <SpeechFeedback key={take.url} recording={take.blob} language={language} targets={targets} onTranscript={onTranscript} autoTranscript={autoTranscript} transcriptOnly={transcriptOnly} phraseToCompare={phraseToCompare}
+        onRepeat={!readOnly && phraseToCompare ? record : undefined} repeatDisabled={disabled} />}</>}
   </div>;
 }

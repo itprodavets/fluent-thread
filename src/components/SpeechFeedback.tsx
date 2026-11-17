@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useRef, useState } from 'react';
 import { installSpeechPack, localSpeechAvailability, transcribeLocally } from '../domain/local-speech';
-import { inspectSpeech } from '../domain/speech-feedback';
+import { compareSpokenPhrase, inspectSpeech } from '../domain/speech-feedback';
 
 function Highlighted({ text, language, marks }: {
   text: string; language: string; marks: { start: number; end: number; kind: string }[];
@@ -13,7 +13,8 @@ function Highlighted({ text, language, marks }: {
   })}</p>;
 }
 
-export function SpeechFeedback({ recording, language, targets, onTranscript, autoTranscript = false, transcriptOnly = false }: {
+export function SpeechFeedback({ recording, language, targets, onTranscript, autoTranscript = false, transcriptOnly = false, phraseToCompare, onRepeat, repeatDisabled }: {
+  phraseToCompare?: string; onRepeat?: () => void; repeatDisabled?: boolean;
   recording: Blob; language: string; targets: string[]; onTranscript?: (text: string) => void; autoTranscript?: boolean; transcriptOnly?: boolean;
 }) {
   const reportTranscript = useRef(onTranscript);
@@ -57,7 +58,10 @@ export function SpeechFeedback({ recording, language, targets, onTranscript, aut
     finally { setInstalling(false); }
   }
 
-  const result = transcript && !transcriptOnly ? inspectSpeech(transcript, targets, language) : undefined;
+  const differences = transcript && phraseToCompare
+    ? compareSpokenPhrase(phraseToCompare, transcript, language) : undefined;
+  const hasDifferences = differences?.some(item => item.kind !== 'match');
+  const result = transcript && !transcriptOnly && !phraseToCompare ? inspectSpeech(transcript, targets, language) : undefined;
   const marks = result ? [
     ...result.issues.map(issue => ({ ...issue, kind: 'speech-issue' })),
     ...result.words.flatMap(word => word.span ? [{ ...word.span, kind: 'speech-match' }] : [])
@@ -71,6 +75,25 @@ export function SpeechFeedback({ recording, language, targets, onTranscript, aut
     {!manual && !checking && (availability === 'downloadable' || availability === 'downloading') &&
       <p className="sub">Для автоматической расшифровки браузеру нужен языковой пакет. Запись обрабатывается на устройстве.</p>}
     {!manual && !checking && message && <p className="sub" role="status">{message}</p>}
+    {differences && <>
+      <p><strong>{hasDifferences ? 'Что стоит повторить' : 'Все слова совпали'}</strong></p>
+      <div className="phrase-word-comparison" lang={language} aria-label="Слова фразы">
+        {differences.flatMap((item, index) => item.kind === 'extra' ? [] : [
+          <span key={index} className={'phrase-word phrase-word-' + item.kind}>{item.expected}</span>
+        ])}
+      </div>
+      {hasDifferences && <ul className="speech-corrections">
+        {differences.flatMap((item, index) => item.kind === 'match' ? [] : [<li key={index}>
+          {item.kind === 'missing' ? <>Не распознано <strong lang={language}>{item.expected}</strong></>
+            : item.kind === 'changed' ? <><strong lang={language}>{item.expected}</strong> распознано как <span lang={language}>{item.heard}</span></>
+              : <>Лишнее слово в расшифровке <span lang={language}>{item.heard}</span></>}
+        </li>])}
+      </ul>}
+      <p className="speech-transcript" lang={language}>{transcript}</p>
+      <p className="sub">{manual ? 'Сравнение с введённым текстом.' : 'Сверка по распознанному тексту. Распознаватель может ошибаться, даже если слово произнесено правильно.'}</p>
+      {hasDifferences && onRepeat && <button type="button" className="primary" disabled={repeatDisabled}
+        onClick={onRepeat}>Повторить ещё раз</button>}
+    </>}
     {result && <>
       <Highlighted text={transcript} language={language} marks={marks} />
       {!!result.words.length && <ul className="speech-targets" aria-label="Нужные слова">

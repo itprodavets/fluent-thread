@@ -66,3 +66,64 @@ export function inspectSpeech(transcript: string, targets: string[], language: s
   }
   return { words, issues };
 }
+
+type PhraseDifference =
+  | { kind: 'match'; expected: string }
+  | { kind: 'missing'; expected: string }
+  | { kind: 'changed'; expected: string; heard: string }
+  | { kind: 'extra'; heard: string };
+
+const simpleContractions: Record<string, string[]> = {
+  "i'm": ['i', 'am'], "you're": ['you', 'are'], "we're": ['we', 'are'], "they're": ['they', 'are'],
+  "i've": ['i', 'have'], "you've": ['you', 'have'], "we've": ['we', 'have'], "they've": ['they', 'have'],
+  "i'll": ['i', 'will'], "you'll": ['you', 'will'], "he'll": ['he', 'will'], "she'll": ['she', 'will'],
+  "we'll": ['we', 'will'], "they'll": ['they', 'will'], "can't": ['can', 'not'], cannot: ['can', 'not'],
+  "won't": ['will', 'not'], "don't": ['do', 'not'], "doesn't": ['does', 'not'], "didn't": ['did', 'not'],
+  "isn't": ['is', 'not'], "aren't": ['are', 'not'], "wasn't": ['was', 'not'], "weren't": ['were', 'not'],
+  "haven't": ['have', 'not'], "hasn't": ['has', 'not'], "hadn't": ['had', 'not'],
+  "wouldn't": ['would', 'not'], "couldn't": ['could', 'not'], "shouldn't": ['should', 'not']
+};
+
+export function compareSpokenPhrase(expected: string, heard: string, language: string): PhraseDifference[] {
+  const english = new Intl.Locale(language).language === 'en';
+  const parts = (text: string) => tokenize(text, language).flatMap(token => {
+    const expanded = english && Object.hasOwn(simpleContractions, token.text) ? simpleContractions[token.text] : undefined;
+    return expanded?.map(value => ({ key: value, label: value }))
+      ?? [{ key: token.text, label: text.slice(token.start, token.end) }];
+  });
+  const target = parts(expected);
+  const answer = parts(heard);
+  const cost = Array.from({ length: target.length + 1 }, () => new Uint32Array(answer.length + 1));
+  for (let i = 0; i <= target.length; i++) cost[i][0] = i * 2;
+  for (let j = 0; j <= answer.length; j++) cost[0][j] = j * 2;
+  for (let i = 1; i <= target.length; i++) {
+    for (let j = 1; j <= answer.length; j++) {
+      cost[i][j] = Math.min(
+        cost[i - 1][j - 1] + (target[i - 1].key === answer[j - 1].key ? 0 : 3),
+        cost[i - 1][j] + 2,
+        cost[i][j - 1] + 2
+      );
+    }
+  }
+  const differences: PhraseDifference[] = [];
+  let i = target.length;
+  let j = answer.length;
+  while (i || j) {
+    const a = target[i - 1];
+    const b = answer[j - 1];
+    if (a && b && a.key === b.key && cost[i][j] === cost[i - 1][j - 1]) {
+      differences.push({ kind: 'match', expected: a.label });
+      i--; j--;
+    } else if (a && cost[i][j] === cost[i - 1][j] + 2) {
+      differences.push({ kind: 'missing', expected: a.label });
+      i--;
+    } else if (b && cost[i][j] === cost[i][j - 1] + 2) {
+      differences.push({ kind: 'extra', heard: b.label });
+      j--;
+    } else {
+      differences.push({ kind: 'changed', expected: a.label, heard: b.label });
+      i--; j--;
+    }
+  }
+  return differences.reverse();
+}
