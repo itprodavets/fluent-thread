@@ -1,6 +1,7 @@
 import { useEffect, useId, useState } from 'react';
 import { useWorkspace } from '../context';
 import { assessPhraseCard, assessTeacherPhrase, lessonPractice, phraseVocabularyId, phraseWordKey, teacherPhraseCards } from '../domain/lesson-practice';
+import { lessonReviewDue } from '../domain/lesson-review';
 import type { PhraseCard } from '../domain/lesson-practice';
 import { dateLabel, lastSpoken } from '../domain/model';
 import type { Resource } from '../domain/model';
@@ -25,7 +26,7 @@ export function PhraseRecall({ cards, language, vocabulary = false }: {
   const entries = cards.map(card => {
     const word = words.get(card.wordId ?? phraseVocabularyId(card, language));
     const result = word && study.results[word.id];
-    const due = result?.schedules?.spoken?.due ?? (!vocabulary || !result?.mode || result.mode === 'spoken' ? result?.due : undefined);
+    const due = vocabulary ? lessonReviewDue(result) : result?.schedules?.spoken?.due ?? result?.due;
     return { card, word, outcome: lastSpoken(result).outcome, due };
   });
   const ready = entries.map((entry, i) => ({ ...entry, i })).filter(entry =>
@@ -128,7 +129,7 @@ export function LessonPractice({ resources, topicId, openPhrases }: { resources:
     <h3 id={id}>Реплики преподавателя и грамматика</h3>
     {!!teacher.length && <Fold title="Фразы преподавателя" open={openPhrases}>
       {teacher.map(material => {
-        const cards = teacherPhraseCards(material.text);
+        const cards = teacherPhraseCards(material.text).map(card => ({ ...card, topicId }));
         return <div key={material.id}>
           {!!cards.length && <PhraseRecall cards={cards} language={material.language} />}
           <Fold title="Читать все фразы с переводом"><p className="source-text">{material.text}</p></Fold>

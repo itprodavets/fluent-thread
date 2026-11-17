@@ -5,7 +5,8 @@ import type { RecentLapse } from '../domain/anki-history';
 import { reviewKey } from '../domain/anki-model';
 import { dialogueMistakes, dialogueMistakesHash } from '../domain/dialogue-mistakes';
 import { localDay } from '../domain/model';
-import { lessonPhrasesHash, phraseReviews, skillPhrasesHash, teacherPhraseReviews } from '../domain/lesson-practice';
+import { lessonReviewHash, lessonReviewQueue } from '../domain/lesson-review';
+import { LessonReview } from './LessonReview';
 import { addExample } from '../domain/sample-study';
 import { createLearningSession, currentLearningSession, lapseWindow, practiceWeek, selectLearningTargets, wordCount } from '../domain/learning-session';
 import type { Budget } from '../domain/learning-session';
@@ -13,7 +14,6 @@ import { TopicStudio } from './TopicStudio';
 import { LearningSession } from './LearningSession';
 import { Icon } from './Icon';
 import { LanguageLabel } from './Language';
-import skills from '../../materials/2026-11-16/skills.json';
 
 function LearningPath() {
   return <div className="learning-path" aria-label="Порядок занятия"><span className="path-eyebrow">КАК ПОСТРОЕНО ЗАНЯТИЕ</span>
@@ -24,6 +24,10 @@ function LearningPath() {
 }
 
 export function Today() {
+  return location.hash === lessonReviewHash ? <LessonReview /> : <TodayDashboard />;
+}
+
+function TodayDashboard() {
   const { study, active, update, practice } = useWorkspace();
   const [dialogue, setDialogue] = useState(false);
   const [minutes, setMinutes] = useState<Budget>(10);
@@ -83,19 +87,15 @@ export function Today() {
   if (open && session && !completed) return <LearningSession session={session} close={() => setOpen(false)} />;
   const answers = Object.values(session?.answers ?? {});
   const mistakes = dialogueMistakes(study, now);
-  const skillReviews = phraseReviews(study, skills.flatMap(skill => skill.dialogues.flatMap(dialogue => dialogue.phrases)), now);
-  const { due: phraseDue, pending: phrasePending } = teacherPhraseReviews(study, now);
+  const reviewCount = lessonReviewQueue(study, now).due.length;
 
   return <div className="today-page">
     <header className="today-heading"><div><p className="kicker">{new Intl.DateTimeFormat('ru', { weekday: 'long', day: 'numeric', month: 'long' }).format(now)}</p>
       <h1>Каждый день — чуть свободнее.</h1><p className="sub">Небольшое занятие. Слова, которые пригодятся тебе.</p></div><span className="language-pill"><LanguageLabel code={study.language} /></span></header>
+    <a className="button primary daily-review-entry" href={lessonReviewHash}>
+      <span>Повторить сегодня</span><span>{reviewCount ? 'К повторению: ' + reviewCount : 'Сейчас нет повторений'}</span>
+    </a>
     <div className="today-mode-picker"><div><p className="kicker">ПРАКТИКА ПОД ТВОЮ ЗАДАЧУ</p><p>Повторить слова или поговорить на нужную тему</p></div><button type="button" className="dialogue-entry" onClick={() => setDialogue(true)}><Icon name="map" /><span>Практика по теме<small>Моя история или диалог</small></span><Icon name="arrow" /></button></div>
-    {(!!phraseDue.size || !!phrasePending.size) && <a className="button" href={lessonPhrasesHash}>
-      {phraseDue.size ? 'Повторить фразы преподавателя · ' + phraseDue.size : 'Фразы преподавателя · отложено ' + phrasePending.size}
-    </a>}
-    {(!!skillReviews.due.size || !!skillReviews.pending.size) && <a className="button" href={skillPhrasesHash}>
-      {skillReviews.due.size ? 'Повторить фразы по навыкам · ' + skillReviews.due.size : 'Фразы по навыкам · отложено ' + skillReviews.pending.size}
-    </a>}
     {!!mistakes.all.length && <a className="button" href={dialogueMistakesHash}>
       {mistakes.due.length ? 'Повторить ошибки в диалогах · ' + mistakes.due.length : 'Ошибки в диалогах · запланировано ' + mistakes.all.length}
     </a>}
