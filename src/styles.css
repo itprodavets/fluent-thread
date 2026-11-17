@@ -528,3 +528,5 @@ button:disabled { opacity: .52; cursor: default; }
 .transcript-text details p { margin-top: .35rem; }
 .transcript-actions { display: flex; gap: .5rem 1rem; align-items: baseline; flex-wrap: wrap; }
 .transcript-actions button { padding: .25rem .55rem; min-height: 2rem; font-size: .9rem; }
+.phrase-imitation { display: grid; gap: .75rem; }
+.phrase-imitation .reveal { justify-self: start; }

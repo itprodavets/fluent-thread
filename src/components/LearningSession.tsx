@@ -2,20 +2,35 @@ import { useEffect, useRef, useState } from 'react';
 import { useWorkspace } from '../context';
 import { checkLearningRecall, completeLearningStep, recordRecall, saveApplicationDraft, skipMissingStep } from '../domain/learning-session';
 import type { ApplicationDraft, ApplicationMode, LearningSession as Session } from '../domain/learning-session';
+import { resultLabels } from '../domain/model';
 import type { Outcome, Topic, Word } from '../domain/model';
 import { inspectSpeech } from '../domain/speech-feedback';
 import { wordExamples } from '../domain/vocabulary';
 import { WordCue } from './WordCue';
 import { WordExamplesList } from './WordExamples';
 import { Recording } from './Recording';
+import { PhraseImitation } from './PhraseImitation';
+import { usePhraseSource } from '../hooks/use-phrase-audio';
 import { Icon } from './Icon';
 import { VoiceButtons } from './common';
 
 function Recall({ word, session, revisit, busy, next, check }: { word: Word; session: Session; revisit: boolean; busy: boolean; next: (outcome: Outcome) => void; check: (answer: string, reveal: boolean) => void }) {
+  const { study } = useWorkspace();
+  const source = usePhraseSource(word, study);
+  const [phraseRevealed, setPhraseRevealed] = useState(false);
   const [answer, setAnswer] = useState(session.recallAttempt?.answer ?? '');
   const result = session.recallAttempt?.result;
   const heading = useRef<HTMLHeadingElement>(null);
   useEffect(() => { heading.current?.focus(); }, []);
+  if (source) return <>
+    <h1 ref={heading} tabIndex={-1}>Повтори фразу за преподавателем</h1>
+    <PhraseImitation word={word} source={source} takeId={'recall:' + session.id + ':' + session.cursor}
+      onReveal={() => setPhraseRevealed(true)} />
+    {phraseRevealed && <div className="actions" aria-label="Как получилось?">
+      {(Object.keys(resultLabels) as Outcome[]).map(outcome => <button type="button" key={outcome}
+        disabled={busy} onClick={() => next(outcome)}>{resultLabels[outcome]}</button>)}
+    </div>}
+  </>;
   return <>
     <p className="kicker">01 / Вспомнить</p>
     <h1 ref={heading} tabIndex={-1}>{!word.meaning ? 'Познакомься со словом' : revisit ? 'Попробуй вспомнить ещё раз' : 'Какое слово подходит?'}</h1>

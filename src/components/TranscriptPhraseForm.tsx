@@ -1,10 +1,10 @@
 import { useId, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useWorkspace } from '../context';
-import { saveTranscriptPhrase } from '../domain/lesson-transcript';
+import { phraseSource, saveTranscriptPhrase } from '../domain/lesson-transcript';
 import type { TranscriptLine } from '../domain/lesson-transcript';
 
-export function useTranscriptPhraseForm({ language, topicId }: { language: string; topicId?: string }) {
+export function useTranscriptPhraseForm({ language, topicId, recordingKey }: { language: string; topicId?: string; recordingKey: string }) {
   const { notify, update } = useWorkspace();
   const heading = useId();
   const dialog = useRef<HTMLDialogElement>(null);
@@ -26,7 +26,7 @@ export function useTranscriptPhraseForm({ language, topicId }: { language: strin
     setSaving(true);
     try {
       if (!await update(current => saveTranscriptPhrase(current, {
-        language, title, meaning, example: title.trim() === line.en ? '' : line.en, level, topicId
+        language, title, meaning, example: title.trim() === line.en ? '' : line.en, level, topicId, audioSource: phraseSource(recordingKey, line)
       }))) return;
       dialog.current?.close();
       notify(level === 'active' ? 'Фраза в активном словаре' : 'Фраза в пассивном словаре');

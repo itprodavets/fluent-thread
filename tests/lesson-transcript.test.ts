@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { lessonCues } from '../src/domain/lesson-cues.ts';
-import { lineAtTime, recordingTime, saveTranscriptPhrase } from '../src/domain/lesson-transcript.ts';
+import { lineAtTime, matchPhraseSource, phraseSource, recordingTime, saveTranscriptPhrase } from '../src/domain/lesson-transcript.ts';
 import type { TranscriptLine } from '../src/domain/lesson-transcript.ts';
 
 test('transcript follows playback across overlaps, gaps and hour boundaries', () => {
@@ -37,7 +37,8 @@ test('saving transcript phrases updates the same study card and keeps its review
   const topic = { id: 'lesson', language: 'en', title: 'Lesson', links: [], prompt: '' };
   const initial = { language: 'en', languages: { en: {} }, words: [], topics: [topic], resources: [], results: {} };
   const input = { language: 'en', title: 'Bear with me.', meaning: 'Потерпите минутку.', example: '', topicId: topic.id } as const;
-  const passive = saveTranscriptPhrase(initial, { ...input, level: 'passive' });
+  const source = phraseSource('lesson-2026-11-17', { start: 125.52, end: 140.54, en: input.title, ru: input.meaning });
+  const passive = saveTranscriptPhrase(initial, { ...input, level: 'passive', audioSource: source });
   const [word] = passive.words;
   assert.deepEqual(passive.topics[0].links, [word.id]);
   assert.equal(word.vocabularyLevel, 'passive');
@@ -47,6 +48,16 @@ test('saving transcript phrases updates the same study card and keeps its review
   assert.equal(active.words.length, 1);
   assert.equal(active.words[0].id, word.id);
   assert.equal(active.words[0].vocabularyLevel, 'active');
+  assert.deepEqual(active.words[0].audioSource, source);
   assert.equal(active.results[word.id], result);
   assert.deepEqual(active.topics[0].links, [word.id]);
+});
+
+test('legacy phrases only recover original audio from an unambiguous line or saved context', () => {
+  const line = {start: 10, end: 14, en: 'Bear with me. I’ll be right with you.', ru: 'Потерпите. Я сейчас вернусь.'};
+  assert.equal(matchPhraseSource('lesson', [line], "I'll be right with you", line.en)?.start, 10);
+  assert.equal(matchPhraseSource('lesson', [line], "right with you", ''), undefined);
+  assert.equal(matchPhraseSource('lesson', [line], "I'll be right with you", '')?.start, 10);
+  assert.equal(matchPhraseSource('lesson', [line, {...line, start: 20, end: 24}], line.en, ''), undefined);
+  assert.deepEqual(matchPhraseSource('lesson', [line], line.en, ''), phraseSource('lesson', line));
 });

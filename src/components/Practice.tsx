@@ -6,6 +6,8 @@ import { practiceRecordingId } from '../domain/story-session';
 import { TopicStudio } from './TopicStudio';
 import { Recording } from './Recording';
 import { WordCue } from './WordCue';
+import { PhraseImitation } from './PhraseImitation';
+import { usePhraseSource } from '../hooks/use-phrase-audio';
 import { addExample } from '../domain/sample-study';
 import { Empty, Fold, Heading, SourceLink, SourceText, VoiceButtons } from './common';
 import { AnkiHistory } from './AnkiHistory';
@@ -37,11 +39,12 @@ function answerChoices(word: Word, words: Word[]) {
 function PracticeCard({ item, next, mode, options, score }: {
   item: PracticeItem; next: () => void; mode: PracticeMode; options: string[]; score: (result: Outcome) => void;
 }) {
-  const { active } = useWorkspace();
+  const { active, study } = useWorkspace();
   const [revealed, setRevealed] = useState(false);
   const [answer, setAnswer] = useState('');
   const [checked, setChecked] = useState(false);
   const word = 'meaning' in item ? item : undefined;
+  const source = usePhraseSource(mode === 'spoken' ? word : undefined, study);
   const topic = 'links' in item ? item : undefined;
   const resource = 'kind' in item ? item : undefined;
   const materials = topic ? topicMaterials(topic) : [];
@@ -75,6 +78,7 @@ function PracticeCard({ item, next, mode, options, score }: {
       <div className="task-top"><p className="kicker">{word ? 'Словарь' : resource ? kinds[resource.kind].label : 'Разговорная тема'}</p>
         <button type="button" className="subtle" onClick={next}>Дальше →</button></div>
       {!word && <h2>{item.title}</h2>}
+      {source && word ? <PhraseImitation word={word} source={source} takeId={practiceRecordingId(word)} /> : <>
       <p className="prompt source-text">{prompt}</p>
       {word?.meaning && <WordCue word={word} />}
       {topicWords.length > 0 && <Fold title={`Слова для ответа · ${topicWords.length}`}>
@@ -112,6 +116,7 @@ function PracticeCard({ item, next, mode, options, score }: {
       </div> : mode === 'spoken' && <button type="button" className="subtle reveal" onClick={() => setRevealed(true)}>
         {resource?.kind === 'exercise' ? 'Показать ответ' : resource ? 'Показать материал' : 'Показать пример'}
       </button>}
+      </>}
       {word && <AnkiHistory word={word} />}
     </section>
     {(mode === 'spoken' || checked) && <section className="assessment" aria-label="Результат ответа">

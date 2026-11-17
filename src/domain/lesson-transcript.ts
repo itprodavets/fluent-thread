@@ -9,6 +9,26 @@ export type TranscriptLine = {
   teacher?: boolean | string;
 };
 
+export type PhraseAudioSource = Pick<TranscriptLine, 'start' | 'end' | 'en' | 'ru'> & { recordingKey: string };
+
+export function phraseSource(recordingKey: string, { start, end, en, ru }: TranscriptLine): PhraseAudioSource {
+  return { recordingKey, start, end, en, ru };
+}
+
+export function matchPhraseSource(recordingKey: string, lines: TranscriptLine[], title: string, example: string) {
+  const textKey = (text: string) => text.toLowerCase().replace(/[’‘]/g, "'")
+    .replace(/[^\p{L}\p{N}']+/gu, ' ').trim();
+  const phrase = textKey(title);
+  if (!phrase) return;
+  const context = textKey(example);
+  const exact = lines.filter(line => textKey(line.en) === phrase || (context && textKey(line.en) === context
+    && (' ' + context + ' ').includes(' ' + phrase + ' ')));
+  const matches = exact.length || phrase.split(' ').length < 4 ? exact
+    : lines.filter(line => (' ' + textKey(line.en) + ' ').includes(' ' + phrase + ' '));
+  const candidate = matches.length === 1 ? matches[0] : undefined;
+  return candidate && phraseSource(recordingKey, candidate);
+}
+
 export function recordingTime(seconds: number) {
   const hours = Math.floor(seconds / 3600);
   const minutes = Math.floor(seconds / 60) % 60;
@@ -31,6 +51,7 @@ export function saveTranscriptPhrase(study: Study, input: {
   example: string;
   level: 'active' | 'passive';
   topicId?: string;
+  audioSource?: PhraseAudioSource;
 }): Study {
   const { language, topicId } = input;
   const title = input.title.trim();
@@ -44,7 +65,7 @@ export function saveTranscriptPhrase(study: Study, input: {
   };
   return {
     ...study,
-    words: upsert(study.words, word),
+    words: upsert(study.words, input.audioSource ? { ...word, audioSource: input.audioSource } : word),
     topics: study.topics.map(topic => topic.id === topicId && topic.language === language && !topic.links.includes(word.id)
       ? { ...topic, links: [...topic.links, word.id] } : topic)
   };
