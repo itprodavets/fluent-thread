@@ -1,6 +1,8 @@
+import { bundledLessons } from '../domain/bundled-lessons';
+import { ReadingShelf } from './ReadingShelf';
 import { ReadableMaterial } from './ReadableMaterial';
 import { dialogueChoices, importedLessonsFor } from '../domain/imported-lessons';
-import { starterScenes } from '../domain/starter-materials';
+import { starterLessons, starterScenes } from '../domain/starter-materials';
 import { isStarterResource } from '../domain/starter-materials';
 import { LessonTranscript } from './LessonTranscript';
 import { LessonPractice, PhraseRecall } from './LessonPractice';
@@ -11,11 +13,13 @@ import { dialogueMistakesHash } from '../domain/dialogue-mistakes';
 import { SkillReply } from './SkillReply';
 import { SkillPicker } from './SkillPicker';
 import { skillMatches, skillPhraseCards } from '../domain/skill-dialogues';
-import datedLessons from '../../materials/2026-11-16/lessons.json';
+import november16 from '../../materials/2026-11-16/lessons.json';
+import november17 from '../../materials/2026-11-17/lessons.json';
+import { lessonSource } from '../domain/school-lessons';
 import skills from '../../materials/2026-11-16/skills.json';
 import { lessonPhrasesHash, phraseReviews, skillPhrasesHash } from '../domain/lesson-practice';
 import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useWorkspace } from '../context';
 import { applyChatPackage, archiveMaterial, approveTopicMaterials, replaceTopicPackage, restoreMaterialArchive, topicImportPreview, buildChatPrompt, chatPackageExample, parseChatPackage, safeSourceUrl } from '../domain/chat-package.js';
@@ -27,6 +31,17 @@ import { Recording } from './Recording';
 import { StoryVersions } from './StoryVersions';
 import { StarterLesson, StarterMaterials, TeacherReadingCard } from './StarterMaterials';
 import { copyText, Fold, Heading, SourceLink, VoiceButtons } from './common';
+
+const datedLessons = [...november16, ...november17];
+
+type RecentLesson = { scene: string; dialogue: string };
+function readRecent(key: string): RecentLesson[] {
+  try {
+    const data: unknown = JSON.parse(localStorage.getItem(key) ?? '[]');
+    return Array.isArray(data) ? data.filter(item =>
+      typeof item?.scene === 'string' && typeof item?.dialogue === 'string').slice(0, 8) : [];
+  } catch { return []; }
+}
 
 function TopicSelect({ value, change, fallback, language }: { value: string; change: (id: string) => void; fallback: string; language?: string }) {
   const { study } = useWorkspace();
@@ -210,13 +225,16 @@ function ChatExchange({ source, setSource, onImported }: { source?: Resource; se
   </>;
 }
 
-function MaterialText({ resource }: { resource: Resource }) {
+function MaterialText({ resource, full = false }: { resource: Resource; full?: boolean }) {
   const [open, setOpen] = useState(false);
   const cues = lessonCues(resource.text);
   if (!cues.length) return <><ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue={resource.kind === 'dialogue'} /><VoiceButtons text={resource.text} language={resource.language} /></>;
+  const transcript = <LessonTranscript cues={cues} recordingKey={resource.text.match(/^Recording: (lesson-[a-z0-9-]+)$/m)?.[1] ?? resource.topicId ?? resource.id}
+    language={resource.language} topicId={resource.topicId} full={full} />;
+  if (full) return transcript;
   return <details onToggle={event => setOpen(event.currentTarget.open)}>
     <summary>Расшифровка · фрагменты ({cues.length})</summary>
-    {open && <LessonTranscript cues={cues} recordingKey={resource.text.match(/^Recording: (lesson-[a-z0-9-]+)$/m)?.[1] ?? resource.topicId ?? resource.id} language={resource.language} topicId={resource.topicId} />}
+    {open && transcript}
   </details>;
 }
 
@@ -233,17 +251,19 @@ function MaterialChoices({ title, options, selected, choose, collapsible }: {
 }
 
 export function Materials() {
-  const { active, resourceId, practice, study, update } = useWorkspace();
+  const { active, resourceId, practice, study, update, notify } = useWorkspace();
   const [editing, setEditing] = useState<Resource>();
   const [source, setSource] = useState<Resource>();
   const [opened, setOpened] = useState(resourceId);
   const [revision, reset] = useState(0);
   const dialog = useRef<HTMLDialogElement>(null);
-  const lessonNavigation = useRef<HTMLDetailsElement>(null);
+  const lessonNavigation = useRef<HTMLDialogElement>(null);
+  const lessonHeading = useRef<HTMLHeadingElement>(null);
   const lessonWorkArea = useRef<HTMLDivElement>(null);
   const skillPractice = useRef<HTMLElement>(null);
   const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
-  const [view, setView] = useState<'lessons' | 'library' | 'questions' | 'phrases' | 'mistakes'>(() => {
+  const [view, setView] = useState<'lessons' | 'reading' | 'library' | 'questions' | 'phrases' | 'mistakes'>(() => {
+    if (location.hash === '#materials/reading') return 'reading';
     if (location.hash === dialogueMistakesHash) return 'mistakes';
     if (location.hash === lessonPhrasesHash) return 'phrases';
     if (['#materials/audio', '#materials/questions'].includes(location.hash) && study.language === 'en') return 'questions';
@@ -252,8 +272,14 @@ export function Materials() {
   const [catalog, setCatalog] = useState<'schools' | 'skills'>(() => location.hash === skillPhrasesHash ? 'skills' : 'schools');
   const [skillId, setSkill] = useState(() => skills.find(item =>
     phraseReviews(study, item.dialogues.flatMap(dialogue => dialogue.phrases), Date.now()).due.size)?.id ?? skills[0].id);
-  const [scene, setScene] = useState('');
-  const [lessonId, setLessonId] = useState('');
+  const recentKey = 'nit-rechi:recent-lessons:' + study.language;
+  const [recent, setRecent] = useState(() => readRecent(recentKey));
+  const [scene, setScene] = useState(recent[0]?.scene ?? '');
+  const [lessonId, setLessonId] = useState(recent[0]?.dialogue ?? '');
+  const [picker, setPicker] = useState<'recent' | 'schools' | 'skills'>(
+    location.hash === skillPhrasesHash ? 'skills' : 'schools');
+  const [browseSkill, setBrowseSkill] = useState(skillId);
+  const [lessonQuery, setLessonQuery] = useState('');
   const lessons = useMemo(() => importedLessonsFor(study), [study]);
   const lessonTopics = useMemo(() => active.topics.filter(topic => lessons.some(lesson => lesson.topicId === topic.id)), [active.topics, lessons]);
   const dialoguesByTopic = useMemo(() => new Map(lessonTopics.map(topic => [
@@ -273,33 +299,85 @@ export function Materials() {
     : choice.versions.some(version => version.id === lessonId)) ?? choices[0];
   const selectedLesson = selectedChoice?.versions.find(version => version.id === lessonId)
     ?? selectedChoice?.versions.find(version => version.level === 'B2') ?? selectedChoice?.versions[0];
+  useEffect(() => {
+    if (location.hash === skillPhrasesHash && !lessonNavigation.current?.open) lessonNavigation.current?.showModal();
+  }, []);
   const [filter, setFilter] = useState('');
   const [deleting, setDeleting] = useState<Resource>();
   const [busy, setBusy] = useState(false);
   const materials = active.resources.filter(resource => !isStarterResource(resource.id));
+  const currentTopic = lessonTopics.find(topic => topic.id === selectedScene);
+  const starter = study.language === 'en' && starterScenes.find(item => item.id === selectedScene);
+  const starterLevel = starterLessons.find(item => item.sceneId === selectedScene && item.resource.id === lessonId)?.level ?? 'A1';
+  const currentTitle = selectedChoice?.title ?? (starter ? starter.title : currentTopic?.title);
+  const recentTitles = new Set<string>();
+  const recentChoices = recent.flatMap(entry => {
+    const topic = lessonTopics.find(item => item.id === entry.scene);
+    const dialogue = lessons.find(item => item.id === entry.dialogue && item.topicId === entry.scene);
+    const starterTopic = study.language === 'en' && starterScenes.find(item => item.id === entry.scene);
+    const key = entry.scene + ':' + (dialogue?.title ?? '');
+    if (!dialogue && !starterTopic) return [];
+    if (recentTitles.has(key)) return [];
+    recentTitles.add(key);
+    return dialogue && topic ? [{ ...entry, title: dialogue.title, detail: topic.title }]
+      : starterTopic ? [{ ...entry, title: starterTopic.title, detail: 'Стартовый диалог' }] : [];
+  });
+  function rememberLesson(scene: string, dialogue: string) {
+    const next = [{ scene, dialogue }, ...recent.filter(item => item.scene !== scene || item.dialogue !== dialogue)].slice(0, 8);
+    setRecent(next);
+    try { localStorage.setItem(recentKey, JSON.stringify(next)); } catch { /* Storage is optional. */ }
+  }
+  const browsingSkill = skills.find(item => item.id === browseSkill) ?? skills[0];
+  const starterResults = starterScenes.filter(item => item.title.toLocaleLowerCase().includes(lessonQuery.trim().toLocaleLowerCase()));
   function show(value: NonNullable<typeof panel>) {
     setPanel(value);
     if (!dialog.current?.open) dialog.current?.showModal();
   }
-  function changeView(next: 'lessons' | 'library' | 'questions') {
-    if (location.hash.startsWith('#materials/')) location.hash = next === 'lessons' ? 'materials' : 'materials/' + next;
-    setView(next);
+  const missingLessons = study.language === 'en' ? bundledLessons.filter(item =>
+    !active.topics.some(topic => topic.title === item.title)) : [];
+  const [loadingLessons, setLoadingLessons] = useState(false);
+  async function loadLessons() {
+    if (loadingLessons) return;
+    setLoadingLessons(true);
+    try {
+      const packets = await Promise.all(missingLessons.map(async item => parseChatPackage((await item.load()).default)));
+      await update(current => packets.reduce((next, packet) =>
+        next.topics.some(topic => topic.language === packet.language && topic.title === packet.topic.title)
+          ? next : applyChatPackage(next, packet).next, current));
+    } catch {
+      notify('Не удалось загрузить материалы. Попробуй ещё раз.');
+    } finally {
+      setLoadingLessons(false);
+    }
   }
-  function changeCatalog(value: 'schools' | 'skills') {
-    setCatalog(value);
-    setScene('');
-    setLessonId('');
+  const loadButton = !!missingLessons.length && <button type="button" disabled={loadingLessons} onClick={() => void loadLessons()}>
+    {loadingLessons ? 'Загружаем уроки…' : 'Добавить готовые уроки'}
+  </button>;
+  function changeView(next: 'lessons' | 'reading' | 'library' | 'questions') {
+    const hash = next === 'lessons' ? '#materials' : '#materials/' + next;
+    if (location.hash !== hash) location.hash = hash;
+    else setView(next);
   }
-  function focusDialogue() {
-    if (!window.matchMedia('(max-width: 900px)').matches) return;
-    if (lessonNavigation.current) lessonNavigation.current.open = false;
-    lessonWorkArea.current?.scrollIntoView({ block: 'start' });
+  function openReadingLesson(topic: string, dialogue = '') {
+    chooseTopic(topic, dialogue);
+    changeView('lessons');
   }
-  function chooseTopic(id: string, dialogueId?: string) {
-    if (id === selectedScene && !dialogueId) return;
+  function showPicker() {
+    setLessonQuery('');
+    setPicker(location.hash === skillPhrasesHash ? 'skills' : recentChoices.length ? 'recent' : 'schools');
+    if (location.hash === skillPhrasesHash) setBrowseSkill(skillId);
+    lessonNavigation.current?.showModal();
+  }
+  function chooseTopic(id: string, dialogueId = '', mode: 'schools' | 'skills' = 'schools') {
+    setCatalog(mode);
     setScene(id);
-    setLessonId(dialogueId ?? '');
-    if (dialogueId) focusDialogue();
+    setLessonId(dialogueId);
+    rememberLesson(id, dialogueId || dialoguesByTopic.get(id)?.[0]?.id || '');
+    lessonNavigation.current?.close();
+    requestAnimationFrame(() => {
+      lessonWorkArea.current?.scrollIntoView({ block: 'start' });
+      lessonHeading.current?.focus({ preventScroll: true });
+    });
   }
   function close() { dialog.current?.close(); }
   async function remove() {
@@ -312,6 +390,7 @@ export function Materials() {
     <div className="library">
       <nav className="account-sections" aria-label="Разделы материалов">
         <button type="button" aria-pressed={view === 'lessons'} onClick={() => changeView('lessons')}>Занятия</button>
+        <button type="button" aria-pressed={view === 'reading'} onClick={() => changeView('reading')}>Читать</button>
         <a className="button" aria-current={view === 'phrases' ? 'page' : undefined} href={lessonPhrasesHash} onClick={() => setView('phrases')}>Фразы и грамматика</a>
         {study.language === 'en' && <a className="button" aria-current={view === 'mistakes' ? 'page' : undefined} href={dialogueMistakesHash} onClick={() => setView('mistakes')}>Мои ошибки</a>}
         <button type="button" aria-pressed={view === 'library'} onClick={() => changeView('library')}>Библиотека</button>
@@ -320,36 +399,67 @@ export function Materials() {
       {view === 'library' && <MaterialChoices title="Тема библиотеки" selected={filter} choose={setFilter}
         options={[{ id: '', title: 'Все темы' }, ...active.topics, { id: 'unassigned', title: 'Без темы' }]} />}
       {view === 'lessons' && <div className="lesson-workspace">
-        <aside className="lesson-navigation" aria-label="Выбор занятия">
-          <details ref={lessonNavigation} className="lesson-navigation-panel" open>
-            <summary>Выбор занятия</summary>
-            {study.language === 'en' && <div className="practice-modes" role="group" aria-label="Способ выбора занятия">
-              <button type="button" aria-pressed={catalog === 'schools'} onClick={() => changeCatalog('schools')}>По школам</button>
-              <button type="button" aria-pressed={catalog === 'skills'} onClick={() => changeCatalog('skills')}>По навыкам</button>
-            </div>}
-            {catalog === 'skills' ? <SkillPicker skills={skills} selected={skill.id} matches={skillDialogs}
+        <div className="resource lesson-toolbar">
+          <div>
+            <p className="sub">Текущее занятие</p>
+            <h2 ref={lessonHeading} tabIndex={-1}>{currentTitle ?? 'Занятия'}</h2>
+            {currentTopic && <p className="sub">{lessonSource(currentTopic, datedLessons)?.school ?? currentTopic.title}</p>}
+          </div>
+          <button type="button" className="primary" onClick={showPicker}>Выбрать занятие</button>
+        </div>
+        <dialog ref={lessonNavigation} className="material-dialog lesson-picker" aria-labelledby="lesson-picker-title">
+          <header className="actions"><h2 id="lesson-picker-title">Выбор занятия</h2>
+            <button type="button" onClick={() => lessonNavigation.current?.close()}>Закрыть</button>
+          </header>
+          <div className="lesson-picker-body">
+            <div className="practice-modes" role="group" aria-label="Способ выбора занятия">
+              <button type="button" aria-pressed={picker === 'recent'} onClick={() => setPicker('recent')}>Недавние</button>
+              <button type="button" aria-pressed={picker === 'schools'} onClick={() => setPicker('schools')}>По школам</button>
+              {study.language === 'en' && <button type="button" aria-pressed={picker === 'skills'} onClick={() => setPicker('skills')}>По навыкам</button>}
+            </div>
+            {picker === 'recent' && (recentChoices.length ? <div className="school-lesson-list">
+              {recentChoices.map(entry => <button key={entry.scene + ':' + entry.dialogue} type="button" className="school-lesson-choice"
+                onClick={() => chooseTopic(entry.scene, entry.dialogue)}>{entry.title}<small>{entry.detail}</small></button>)}
+            </div> : <p className="sub">Здесь появятся занятия, которые ты открывал.</p>)}
+            {picker === 'skills' && <SkillPicker skills={skills} selected={browsingSkill.id}
+              matches={skillMatches(browsingSkill, lessonTopics, datedLessons, dialoguesByTopic)}
               selectedTopic={selectedScene} selectedDialogue={selectedChoice?.title}
-              change={id => { setSkill(id); setScene(''); setLessonId(''); }}
-              open={entry => chooseTopic(entry.topicId, entry.dialogueId)} />
-              : <>
-                {!!lessonTopics.length && <SchoolLessonPicker topics={lessonTopics} selected={selectedScene} choose={chooseTopic} dialogues={dialoguesByTopic} />}
-                {study.language === 'en' && <MaterialChoices title="Стартовые темы" selected={selectedScene} choose={chooseTopic} options={starterScenes}
-                  collapsible={!!lessonTopics.length} />}
-                {choices.length > 1 && selectedChoice && <MaterialChoices title="Диалоги в занятии" selected={selectedChoice.versions[0].id}
-                  options={choices.map(choice => ({ id: choice.versions[0].id, title: choice.title }))}
-                  choose={id => {
-                    if (id === selectedChoice.versions[0].id) return;
-                    const versions = choices.find(choice => choice.versions[0].id === id)!.versions;
-                    setLessonId((versions.find(version => version.level === selectedLesson?.level)
-                      ?? versions.find(version => version.level === 'B2') ?? versions[0]).id);
-                    focusDialogue();
-                  }} />}
-              </>}
-          </details>
-        </aside>
+              change={setBrowseSkill} open={entry => {
+                setSkill(browsingSkill.id);
+                chooseTopic(entry.topicId, entry.dialogueId, 'skills');
+              }} />}
+            {picker === 'schools' && <>
+              <label>Найти школу, занятие или диалог
+                <input type="search" value={lessonQuery} onChange={event => setLessonQuery(event.target.value)} />
+              </label>
+              {loadButton}
+              {!!lessonTopics.length && <SchoolLessonPicker topics={lessonTopics} selected={selectedScene}
+                choose={chooseTopic} dialogues={dialoguesByTopic} search={lessonQuery} compact />}
+              {study.language === 'en' && !!starterResults.length && <MaterialChoices title="Стартовые темы"
+                selected={selectedScene} choose={chooseTopic} options={starterResults} collapsible={!lessonQuery.trim() && !!lessonTopics.length} />}
+            </>}
+          </div>
+        </dialog>
         <div ref={lessonWorkArea} className="lesson-work-area">
+          {catalog === 'schools' && choices.length > 1 && selectedChoice && <div className="lesson-dialogue-select">
+            <label>Диалог в занятии<select value={selectedChoice.versions[0].id} onChange={event => {
+              const versions = choices.find(choice => choice.versions[0].id === event.target.value)?.versions;
+              const version = versions?.find(item => item.level === selectedLesson?.level)
+                ?? versions?.find(item => item.level === 'B2') ?? versions?.[0];
+              if (version) {
+                setLessonId(version.id);
+                rememberLesson(selectedScene, version.id);
+              }
+            }}>{choices.map(choice => <option key={choice.versions[0].id} value={choice.versions[0].id}>{choice.title}</option>)}</select></label>
+          </div>}
           {catalog === 'schools' && study.language === 'en' && starterScenes.some(item => item.id === selectedScene)
-            ? <StarterMaterials scene={selectedScene} chooseScene={chooseTopic} />
+            ? <StarterMaterials scene={selectedScene} chooseScene={chooseTopic} level={starterLevel} chooseLevel={level => {
+              const version = starterLessons.find(item => item.sceneId === selectedScene && item.level === level);
+              if (version) {
+                setLessonId(version.resource.id);
+                rememberLesson(selectedScene, version.resource.id);
+              }
+            }} />
             : selectedLesson && selectedChoice ? <>
               <div className="lesson-work-header">
                 {skillDialogue && <div className="actions">
@@ -363,6 +473,7 @@ export function Materials() {
                     aria-pressed={version.id === selectedLesson.id} onClick={() => {
                       setScene(selectedScene);
                       setLessonId(version.id);
+                      rememberLesson(selectedScene, version.id);
                     }}>{version.level}</button>)}
                 </div>}
               </div>
@@ -385,6 +496,10 @@ export function Materials() {
             </> : catalog === 'schools' && <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>}
         </div>
       </div>}
+      {view === 'reading' && <ReadingShelf resources={materials} topics={active.topics} language={study.language} loadButton={loadButton}
+        read={resource => <MaterialText key={resource.id} resource={resource} full />}
+        openLesson={openReadingLesson}
+        lessonTopics={lessonTopics} />}
       {view === 'mistakes' && <DialogueMistakeReview />}
       {view === 'phrases' && <PhraseTopics />}
       {view === 'questions' && study.language === 'en' && <TeacherReadingCard />}
