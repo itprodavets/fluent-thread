@@ -6,6 +6,7 @@ import { LessonPractice } from './LessonPractice';
 import { SchoolLessonPicker } from './SchoolLessonPicker';
 
 const datedLessons = [
+  { title: 'Разговорный английский с Bruce · 17 ноября', load: () => import('../../materials/2026-11-17/dcpl-conversation.json?raw') },
   { title: 'Волки, экосистемы и экодом · 16 ноября', load: () => import('../../materials/2026-11-16/wolves-and-eco-homes.json?raw') },
   { title: 'Планы и договорённости по-английски · 16 ноября', load: () => import('../../materials/2026-11-16/future-plans.json?raw') },
   { title: 'Короткие ответы, мнения и разговор о себе · 16 ноября', load: () => import('../../materials/2026-11-16/responses-and-opinions.json?raw') }
@@ -60,7 +61,7 @@ export function PhraseTopics() {
       {selected && <LessonPractice key={selected.id} resources={active.resources} topicId={selected.id} openPhrases />}
     </>}
     {!!missing.length && <div className="phrase-topic-imports">
-      <h2>Добавить уроки от 16 ноября</h2>
+      <h2>Загрузить уроки</h2>
       <p className="sub">Загрузи материалы в этот браузер, чтобы читать их и сохранять отметки.</p>
       <div className="material-choice-grid">{missing.map(item => <button type="button" key={item.title} disabled={!!loading}
         onClick={() => void add(item)}>{loading === item.title ? 'Загружаем…' : item.title}</button>)}</div>

@@ -1,0 +1,1101 @@
+{
+  "format": "nit-rechi",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Разговорный английский с Bruce · 17 ноября",
+    "source": {
+      "school": "DC Public Library",
+      "date": "2026-11-17"
+    }
+  },
+  "words": [
+    {
+      "title": "Right about at this time",
+      "meaning": "Примерно в это самое время",
+      "example": "More people usually join around this time."
+    },
+    {
+      "title": "Let me try to set up",
+      "meaning": "Дай я попробую всё настроить",
+      "example": "Let me set up screen sharing."
+    },
+    {
+      "title": "Bear with me for a couple of minutes",
+      "meaning": "Потерпите пару минут",
+      "example": "Bear with me while I find the link."
+    },
+    {
+      "title": "I’ll be right with you",
+      "meaning": "Я сейчас к вам вернусь",
+      "example": "I’ll be right with you after I let someone in."
+    },
+    {
+      "title": "You might know more than just Russian and English",
+      "meaning": "Возможно, вы знаете не только русский и английский",
+      "example": "She knows more than just the basic phrases."
+    },
+    {
+      "title": "For the most part",
+      "meaning": "По большей части",
+      "example": "For the most part, I can follow the conversation."
+    },
+    {
+      "title": "Life gets in the way sometimes",
+      "meaning": "Иногда вмешиваются обстоятельства",
+      "example": "I try to practise every day, but work sometimes gets in the way."
+    },
+    {
+      "title": "The more you attend class, the more you learn",
+      "meaning": "Чем чаще ходите на занятия, тем больше узнаёте",
+      "example": "The more I listen, the easier it gets."
+    },
+    {
+      "title": "I was just filling in for my wife",
+      "meaning": "Я просто подменял жену",
+      "example": "I’m filling in for a colleague on Thursday."
+    },
+    {
+      "title": "Prior to this, I used to be a university professor",
+      "meaning": "До этого я преподавал в университете",
+      "example": "I used to attend an evening class."
+    },
+    {
+      "title": "Let’s just put it that way",
+      "meaning": "Скажем так",
+      "example": "I wasn’t thrilled about the schedule, let’s put it that way."
+    },
+    {
+      "title": "My wife talked me into doing this",
+      "meaning": "Жена уговорила меня этим заняться",
+      "example": "My friend talked me into joining a conversation club."
+    },
+    {
+      "title": "It’s entirely up to you",
+      "meaning": "Решение полностью за вами",
+      "example": "You can read out loud or just follow along. It’s up to you."
+    },
+    {
+      "title": "Is there a word in there that you have a hard time understanding",
+      "meaning": "Там есть слово, которое вам трудно понять",
+      "example": "I have a hard time following when people speak over each other."
+    },
+    {
+      "title": "I’m perfectly fine with that",
+      "meaning": "Меня это вполне устраивает",
+      "example": "I’m perfectly fine with going over it again."
+    },
+    {
+      "title": "If you disagree with me, say so",
+      "meaning": "Если вы со мной не согласны, скажите об этом",
+      "example": "If something doesn’t make sense, say so."
+    },
+    {
+      "title": "With that said, do you understand everything",
+      "meaning": "Итак, всё ли вам понятно",
+      "example": "With that said, let’s look at the next slide."
+    },
+    {
+      "title": "Let me come back to you",
+      "meaning": "Дайте я вернусь к вам чуть позже",
+      "example": "Let me come back to your question after the example."
+    },
+    {
+      "title": "That’s what took place",
+      "meaning": "Вот что произошло",
+      "example": "The speech took place in Indianapolis."
+    },
+    {
+      "title": "What are the words that stick out to you the most",
+      "meaning": "Какие слова вам больше всего бросаются в глаза",
+      "example": "The word compassion stood out to me."
+    },
+    {
+      "title": "What are your thoughts regarding that",
+      "meaning": "Что вы об этом думаете",
+      "example": "What are your thoughts on how we could help?"
+    },
+    {
+      "title": "It just takes a while",
+      "meaning": "Просто нужно немного времени",
+      "example": "It takes a while to get used to the accent."
+    },
+    {
+      "title": "That belongs in a Hallmark movie",
+      "meaning": "Это прямо сцена из фильма Hallmark",
+      "example": "That reunion belongs in a romantic comedy."
+    },
+    {
+      "title": "My wife thinks they’re kind of corny",
+      "meaning": "Моя жена считает их немного слащавыми",
+      "example": "The ending was a little corny, but I still enjoyed it."
+    },
+    {
+      "title": "I don’t want to go into full detail",
+      "meaning": "Я не хочу вдаваться во все подробности",
+      "example": "I won’t go into detail because I don’t want to spoil it."
+    },
+    {
+      "title": "Correct me if I’m wrong",
+      "meaning": "Поправьте меня, если я ошибаюсь",
+      "example": "Correct me if I’m wrong, but you mentioned two versions."
+    },
+    {
+      "title": "I just got done watching two films",
+      "meaning": "Я только что посмотрел два фильма",
+      "example": "I just got done watching the recording."
+    },
+    {
+      "title": "native language",
+      "meaning": "родной язык",
+      "example": "Russian is my native language."
+    },
+    {
+      "title": "be fluent in",
+      "meaning": "бегло говорить на",
+      "example": "I’m not fluent in German, but I can get by."
+    },
+    {
+      "title": "get by in",
+      "meaning": "обходиться базовым знанием языка",
+      "example": "I can get by in German."
+    },
+    {
+      "title": "vowel",
+      "meaning": "гласный звук или буква",
+      "example": "Listen for the first vowel in the word."
+    },
+    {
+      "title": "verb conjugation",
+      "meaning": "спряжение глагола",
+      "example": "We practised Spanish verb conjugation."
+    },
+    {
+      "title": "a trade-off",
+      "meaning": "компромисс, обмен одного преимущества на другое",
+      "example": "There’s a trade-off between speaking quickly and speaking clearly."
+    },
+    {
+      "title": "grade papers",
+      "meaning": "проверять письменные работы и выставлять оценки",
+      "example": "He used to grade hundreds of papers."
+    },
+    {
+      "title": "semester",
+      "meaning": "учебный семестр",
+      "example": "The class runs for one semester."
+    },
+    {
+      "title": "semi-retirement",
+      "meaning": "частичный уход на пенсию",
+      "example": "He teaches a few classes in semi-retirement."
+    },
+    {
+      "title": "originally from",
+      "meaning": "родом из",
+      "example": "I’m originally from Russia."
+    },
+    {
+      "title": "compassion",
+      "meaning": "сострадание и желание помочь",
+      "example": "Showing compassion can be as simple as stopping to help."
+    },
+    {
+      "title": "wisdom",
+      "meaning": "мудрость",
+      "example": "The speaker called for compassion and wisdom."
+    },
+    {
+      "title": "division",
+      "meaning": "разобщение, раскол",
+      "example": "The speech warned against division."
+    },
+    {
+      "title": "hatred",
+      "meaning": "ненависть",
+      "example": "He argued that hatred would only divide people further."
+    },
+    {
+      "title": "lawlessness",
+      "meaning": "беззаконие",
+      "example": "The word in the speech is lawlessness."
+    },
+    {
+      "title": "unfairness",
+      "meaning": "несправедливость",
+      "example": "Even as a child, she reacted strongly to unfairness."
+    },
+    {
+      "title": "suffering",
+      "meaning": "страдание",
+      "example": "She spoke about being aware of other people’s suffering."
+    },
+    {
+      "title": "give someone a hand",
+      "meaning": "помочь кому-либо",
+      "example": "Could you give me a hand with this?"
+    },
+    {
+      "title": "get back on your feet",
+      "meaning": "снова встать на ноги; оправиться",
+      "example": "A girl helped him get back on his feet."
+    },
+    {
+      "title": "move someone",
+      "meaning": "тронуть, растрогать",
+      "example": "That small act of kindness really moved me."
+    },
+    {
+      "title": "mean-spirited",
+      "meaning": "злобный, недоброжелательный",
+      "example": "Scrooge starts out as a mean-spirited character."
+    },
+    {
+      "title": "be transformed into",
+      "meaning": "превратиться в",
+      "example": "He is transformed into a kinder person."
+    },
+    {
+      "title": "Christmas Eve",
+      "meaning": "канун Рождества",
+      "example": "He watches the film on Christmas Eve."
+    },
+    {
+      "title": "look forward to",
+      "meaning": "с нетерпением ждать",
+      "example": "I look forward to watching it again."
+    },
+    {
+      "title": "It’s a little raw in places",
+      "meaning": "Местами фильм довольно резкий",
+      "example": "The dialogue is a little raw in places."
+    },
+    {
+      "title": "I found it to be really funny",
+      "meaning": "Я счёл это очень смешным",
+      "example": "I found the ending surprisingly moving."
+    },
+    {
+      "title": "Why don’t you tell the class what it’s about",
+      "meaning": "Может, расскажете группе, о чём он",
+      "example": "Could you tell me what the article is about?"
+    },
+    {
+      "title": "He has to start all over again",
+      "meaning": "Ему приходится начать всё с нуля",
+      "example": "If the app crashes, I have to start all over again."
+    },
+    {
+      "title": "Nothing goes his way",
+      "meaning": "У него ничего не выходит так, как хотелось бы",
+      "example": "Nothing was going my way that morning."
+    },
+    {
+      "title": "Everything is falling apart",
+      "meaning": "Всё рушится",
+      "example": "The whole plan started to fall apart."
+    },
+    {
+      "title": "It took me a long time to start liking it",
+      "meaning": "Мне понадобилось много времени, чтобы это полюбить",
+      "example": "It took me a while to get into the film."
+    },
+    {
+      "title": "It isn’t that bad after all",
+      "meaning": "Оказалось, что всё не так уж плохо",
+      "example": "The exercise wasn’t that hard after all."
+    },
+    {
+      "title": "As far as I understand",
+      "meaning": "Насколько я понимаю",
+      "example": "As far as I understand, the class meets on Mondays."
+    },
+    {
+      "title": "I’m waiting for him to show up",
+      "meaning": "Я жду, когда он появится",
+      "example": "We’re waiting for the instructor to show up."
+    },
+    {
+      "title": "Why don’t we take a fifteen-minute break",
+      "meaning": "Давайте сделаем пятнадцатиминутный перерыв",
+      "example": "Why don’t we take a five-minute break?"
+    },
+    {
+      "title": "come out",
+      "meaning": "выйти, появиться в прокате",
+      "example": "When did the film come out?"
+    },
+    {
+      "title": "redeem oneself",
+      "meaning": "искупить ошибку, исправиться",
+      "example": "The story gives him a chance to redeem himself."
+    },
+    {
+      "title": "be in the midst of",
+      "meaning": "быть в разгаре, посреди",
+      "example": "He finds hope in the midst of a crisis."
+    },
+    {
+      "title": "rerun",
+      "meaning": "повторный показ",
+      "example": "We watched a rerun on TV."
+    },
+    {
+      "title": "start over",
+      "meaning": "начать сначала",
+      "example": "Let’s start over and say it more simply."
+    },
+    {
+      "title": "a small act of kindness",
+      "meaning": "небольшой добрый поступок",
+      "example": "A small act of kindness can make a difference."
+    },
+    {
+      "title": "bring out the child in you",
+      "meaning": "пробудить в тебе ребёнка",
+      "example": "That film brings out the child in me."
+    },
+    {
+      "title": "burglar",
+      "meaning": "взломщик, грабитель, проникший в здание",
+      "example": "The burglars try to get into the house."
+    },
+    {
+      "title": "practice yoga",
+      "meaning": "заниматься йогой",
+      "example": "Have you ever practised acroyoga?"
+    },
+    {
+      "title": "goalkeeper",
+      "meaning": "вратарь",
+      "example": "I played soccer as a goalkeeper."
+    },
+    {
+      "title": "do pull-ups",
+      "meaning": "подтягиваться",
+      "example": "I do pull-ups in the morning."
+    },
+    {
+      "title": "multicultural",
+      "meaning": "мультикультурный",
+      "example": "It’s a very multicultural group."
+    },
+    {
+      "title": "work in the tea trade",
+      "meaning": "работать в чайной торговле",
+      "example": "I’m based in Guangzhou and work in the tea trade."
+    },
+    {
+      "title": "What’s on your mind",
+      "meaning": "О чём вы сейчас думаете",
+      "example": "You looked like you wanted to say something. What’s on your mind?"
+    },
+    {
+      "title": "I try to fit that in there",
+      "meaning": "Я стараюсь втиснуть это в расписание",
+      "example": "I try to fit in a short walk before work."
+    },
+    {
+      "title": "I guess I’m a pescatarian",
+      "meaning": "Наверное, я пескетарианец",
+      "example": "I guess I’m more of a morning person."
+    },
+    {
+      "title": "Unfortunately for the wrong reason",
+      "meaning": "К сожалению, известно по печальной причине",
+      "example": "The building is famous for the wrong reason."
+    },
+    {
+      "title": "It draws the audience in",
+      "meaning": "Это увлекает зрителей",
+      "example": "The opening scene draws you in."
+    },
+    {
+      "title": "She is a voracious reader",
+      "meaning": "Она читает запоем",
+      "example": "I was a voracious reader as a child."
+    },
+    {
+      "title": "We were laughing our heads off",
+      "meaning": "Мы хохотали до упаду",
+      "example": "We laughed our heads off at the story."
+    },
+    {
+      "title": "You want to stick with them",
+      "meaning": "Хочется остаться с этим человеком",
+      "example": "I try to stick with a routine that works."
+    },
+    {
+      "title": "She was carded one time",
+      "meaning": "Однажды у неё попросили удостоверение личности",
+      "example": "They carded me when I asked for the discount."
+    },
+    {
+      "title": "I was getting tongue-tied",
+      "meaning": "У меня язык заплетался",
+      "example": "I get tongue-tied when I have to speak without preparation."
+    },
+    {
+      "title": "That’s the name she goes by",
+      "meaning": "Так её обычно называют",
+      "example": "My full name is longer, but I go by Sam."
+    },
+    {
+      "title": "I don’t necessarily believe that",
+      "meaning": "Я бы не сказал, что верю в это безоговорочно",
+      "example": "I don’t necessarily agree with that definition."
+    },
+    {
+      "title": "Let me throw another wrench into the conversation",
+      "meaning": "Позвольте усложнить обсуждение ещё одним вопросом",
+      "example": "Let me complicate that a little with another example."
+    },
+    {
+      "title": "It kept on coming up",
+      "meaning": "Это постоянно всплывало в ответах",
+      "example": "The same concern kept coming up."
+    },
+    {
+      "title": "That really threw me off",
+      "meaning": "Это меня по-настоящему сбило с толку",
+      "example": "The different pronunciation threw me off at first."
+    },
+    {
+      "title": "We can work through these differences of opinion",
+      "meaning": "Мы можем вместе проработать эти разногласия",
+      "example": "Let’s work through our differences one at a time."
+    },
+    {
+      "title": "Don’t get me wrong",
+      "meaning": "Поймите меня правильно",
+      "example": "Don’t get me wrong, I enjoyed it. I just wish it had been shorter."
+    },
+    {
+      "title": "Just as long as you enjoy the class",
+      "meaning": "Главное, чтобы вам нравилось занятие",
+      "example": "You can keep your camera off as long as you can follow the discussion."
+    },
+    {
+      "title": "I’m kind of taking it easy",
+      "meaning": "Я сейчас немного сбавил темп",
+      "example": "I’m taking it easy this weekend."
+    },
+    {
+      "title": "Kind of keep that in mind",
+      "meaning": "Имейте это в виду",
+      "example": "Keep the time difference in mind when you choose a class."
+    },
+    {
+      "title": "Here’s the thing that’s going to shock you all",
+      "meaning": "А теперь подробность, которая вас удивит",
+      "example": "Here’s the thing: we’d known each other a long time."
+    },
+    {
+      "title": "work out",
+      "meaning": "тренироваться",
+      "example": "I work out before breakfast."
+    },
+    {
+      "title": "a road trip",
+      "meaning": "путешествие на машине",
+      "example": "We went on a road trip through Texas."
+    },
+    {
+      "title": "figure out",
+      "meaning": "выяснить, разобраться",
+      "example": "We’ll figure out what happened later."
+    },
+    {
+      "title": "take a break",
+      "meaning": "сделать перерыв",
+      "example": "Let’s take a short break."
+    },
+    {
+      "title": "a documentary",
+      "meaning": "документальный фильм",
+      "example": "I’d rather watch a documentary."
+    },
+    {
+      "title": "a docuseries",
+      "meaning": "документальный сериал",
+      "example": "The docuseries explores how the company grew."
+    },
+    {
+      "title": "stay up",
+      "meaning": "не ложиться спать допоздна",
+      "example": "I stayed up reading."
+    },
+    {
+      "title": "make faces",
+      "meaning": "корчить рожицы",
+      "example": "We made faces at each other."
+    },
+    {
+      "title": "be on the stand",
+      "meaning": "давать показания на месте свидетеля",
+      "example": "In their play, one person was on the stand."
+    },
+    {
+      "title": "get engaged",
+      "meaning": "обручиться",
+      "example": "They got engaged before moving overseas."
+    },
+    {
+      "title": "be married for",
+      "meaning": "состоять в браке в течение",
+      "example": "We’ve been married for five years."
+    },
+    {
+      "title": "two and a half years",
+      "meaning": "два с половиной года",
+      "example": "They’ve been together for two and a half years."
+    },
+    {
+      "title": "name someone after",
+      "meaning": "назвать в честь кого-то",
+      "example": "She was named after her grandmother."
+    },
+    {
+      "title": "make a judgment",
+      "meaning": "составить суждение",
+      "example": "Wisdom helps us make sound judgments."
+    },
+    {
+      "title": "make a decision",
+      "meaning": "принять решение",
+      "example": "We need enough information to make a decision."
+    },
+    {
+      "title": "acquired knowledge",
+      "meaning": "приобретённые знания",
+      "example": "Acquired knowledge becomes useful when you apply it."
+    },
+    {
+      "title": "ignorance is bliss",
+      "meaning": "меньше знаешь — крепче спишь",
+      "example": "Some people say ignorance is bliss."
+    },
+    {
+      "title": "filial piety",
+      "meaning": "сыновняя почтительность",
+      "example": "Filial piety involves respect for parents and elders."
+    },
+    {
+      "title": "Confucianism",
+      "meaning": "конфуцианство",
+      "example": "The group discussed harmony and Confucianism."
+    },
+    {
+      "title": "vice versa",
+      "meaning": "и наоборот",
+      "example": "They respect us, and vice versa."
+    },
+    {
+      "title": "regardless of",
+      "meaning": "независимо от",
+      "example": "People deserve respect regardless of where they come from."
+    },
+    {
+      "title": "pick a side",
+      "meaning": "выбрать, чью сторону занять",
+      "example": "We don’t have to pick a side."
+    },
+    {
+      "title": "log in",
+      "meaning": "войти в систему",
+      "example": "I couldn’t log in at first."
+    },
+    {
+      "title": "in person",
+      "meaning": "лично, очно",
+      "example": "Does the library also offer classes in person?"
+    },
+    {
+      "title": "be well equipped to",
+      "meaning": "быть хорошо подготовленным к",
+      "example": "She’s well equipped to teach beginner classes."
+    }
+  ],
+  "materials": [
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Опыт и срок",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи, что ты много путешествовал и уже восемь лет живёшь в Гуанчжоу.",
+      "answer": "I’ve travelled a lot, and I’ve been living in Guangzhou for eight years."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Два вопроса о фильме",
+      "text": "",
+      "translation": "",
+      "prompt": "Спроси, что человек смотрит на праздники. Затем вежливо попроси объяснить сюжет.",
+      "answer": "What do you usually watch around Christmas or New Year? Could you tell me what that film is about?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Привычка",
+      "text": "",
+      "translation": "",
+      "prompt": "Расскажи, что раньше каждый год пересматривал Home Alone.",
+      "answer": "When I lived in Russia, I used to rewatch Home Alone every Christmas."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Сравнение",
+      "text": "",
+      "translation": "",
+      "prompt": "Переведи: чем чаще слушаю разговорный английский, тем больше фраз понимаю.",
+      "answer": "The more I listen to conversational English, the more phrases I understand."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Предлог",
+      "text": "",
+      "translation": "",
+      "prompt": "Дополни: She talked me ___ (join) a discussion group. I’m fluent ___ Russian.",
+      "answer": "She talked me into joining a discussion group. I’m fluent in Russian."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Пересказ",
+      "text": "",
+      "translation": "",
+      "prompt": "Перескажи сюжет The Family Man в двух предложениях, используя realise и what matters.",
+      "answer": "A successful businessman gets to see the family life he could have had. He gradually realises what really matters to him."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отношения",
+      "text": "",
+      "translation": "",
+      "prompt": "Передай одну мысль двумя способами: свадьба была пять лет назад и брак длится пять лет.",
+      "answer": "We got married five years ago. We’ve been married for five years."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Мягкое несогласие",
+      "text": "",
+      "translation": "",
+      "prompt": "Возрази на «Knowledge is power». Начни с I don’t necessarily и объясни, когда знания становятся полезны.",
+      "answer": "I don’t necessarily agree. Information becomes useful when we understand it and know how to apply it."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Беззаконие",
+      "text": "",
+      "translation": "",
+      "prompt": "Объясни по-английски разницу между a lawbreaker и lawlessness.",
+      "answer": "A lawbreaker is a person who breaks the law. Lawlessness is a situation in which laws are widely ignored or not enforced."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Знакомство и разговор о языках · B1",
+      "text": "Bruce: Where are you from?\nDenis: I’m from Russia, but I live in China. Russian is my first language. I speak Chinese and English, and a little German.\nBruce: Have you travelled a lot?\nDenis: Yes, I’ve been to many countries. I enjoy meeting people and hearing different languages.\nBruce: I’ve studied several languages, but I’m not fluent in them.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Знакомство и разговор о языках · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Introduce yourself by saying where you are from, what languages you use, and how long you have lived where you are now.",
+      "answer": "I’m originally from Russia, but I’ve been living in Guangzhou for eight years. Russian is my first language. I also use Chinese and English."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Знакомство и разговор о языках · B2",
+      "text": "Bruce: Denis, where are you originally from?\nDenis: I’m originally from Russia, but I’m based in Guangzhou now. I’ve travelled quite a bit and visited a lot of countries.\nBruce: I imagine you speak more than just Russian and English.\nDenis: Russian is my native language. I also speak Chinese and English, and I can get by in German.\nBruce: I’ve studied several languages myself, though I’m not fluent in any of them.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Знакомство и разговор о языках · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Introduce yourself by saying where you are from, what languages you use, and how long you have lived where you are now.",
+      "answer": "I’m originally from Russia, but I’ve been living in Guangzhou for eight years. Russian is my first language. I also use Chinese and English."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Знакомство и разговор о языках · C1",
+      "text": "Bruce: You’ve done quite a bit of travelling. Has that influenced the languages you speak?\nDenis: Definitely. I’m originally from Russia, but I’ve been based in Guangzhou for years. Spending time abroad has given me plenty of reasons to use different languages.\nBruce: Which ones would you say you can get by in?\nDenis: Russian is my first language. I use Chinese and English, and I can get by in German in simple situations.\nBruce: That’s a good distinction. Studying a language and being able to use it easily are two different things.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Знакомство и разговор о языках · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Introduce yourself by saying where you are from, what languages you use, and how long you have lived where you are now.",
+      "answer": "I’m originally from Russia, but I’ve been living in Guangzhou for eight years. Russian is my first language. I also use Chinese and English."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить цитату и объяснить своё мнение · B1",
+      "text": "Bruce: Which word is most important to you?\nDenis: Compassion. It means caring when someone is having a hard time.\nBruce: Can you give an example?\nDenis: Yes. A girl saw someone fall at an ice rink and stopped to help.\nBruce: Why did the story stand out?\nDenis: She was kind, even though she didn’t know him.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить цитату и объяснить своё мнение · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Reply to “Which word stands out to you?” Choose compassion or justice, explain it and give a small example.",
+      "answer": "Compassion stands out to me. For example, if someone falls, stopping to give them a hand can make them feel that someone cares."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить цитату и объяснить своё мнение · B2",
+      "text": "Bruce: Which word in the quote stands out to you the most?\nDenis: Compassion. I took the quote to mean that hatred and violence don’t solve problems. Compassion and justice can bring people together.\nBruce: What would compassion look like in real life?\nDenis: At an ice rink, most people skated past a man who fell. A little girl stopped and gave him a hand.\nBruce: Exactly. Sometimes a small act of kindness says a lot.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить цитату и объяснить своё мнение · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Reply to “Which word stands out to you?” Choose compassion or justice, explain it and give a small example.",
+      "answer": "Compassion stands out to me. For example, if someone falls, stopping to give them a hand can make them feel that someone cares."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить цитату и объяснить своё мнение · C1",
+      "text": "Bruce: What is it about the quote that resonated with you?\nDenis: The link between compassion and action. Hatred can deepen divisions, while compassion can make it easier to see what other people are going through.\nBruce: Can you ground that in an example?\nDenis: The story about the ice rink does that. The young girl noticed that someone needed help and acted on it while other people kept moving.\nBruce: That captures the idea. Caring about someone becomes visible in what you do.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить цитату и объяснить своё мнение · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Reply to “Which word stands out to you?” Choose compassion or justice, explain it and give a small example.",
+      "answer": "Compassion stands out to me. For example, if someone falls, stopping to give them a hand can make them feel that someone cares."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Спросить о фильме и пересказать сюжет · B1",
+      "text": "Denis: What’s your favourite Christmas film?\nBruce: I like Scrooge. It’s about a mean man who learns to be kind.\nDenis: I like The Family Man. A businessman learns that family is important.\nBruce: What else do you watch?\nDenis: Sometimes I watch Klaus. It’s about kindness.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Спросить о фильме и пересказать сюжет · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Ask about a holiday film, then recommend one in two sentences using the present tense for the plot.",
+      "answer": "What do you usually watch around the holidays? I’d recommend Klaus. It shows how one act of kindness changes a whole town."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Спросить о фильме и пересказать сюжет · B2",
+      "text": "Denis: What’s your favourite film to watch around Christmas or New Year?\nBruce: Scrooge. The main character meets three spirits and becomes a kinder person. I don’t want to go into too much detail.\nDenis: That reminds me of The Family Man. It’s about a businessman who gets a chance to see the family life he could have had.\nBruce: What do you like about it?\nDenis: It shows that making a lot of money isn’t everything. I also like Klaus because one small act of kindness can spark another.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Спросить о фильме и пересказать сюжет · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Ask about a holiday film, then recommend one in two sentences using the present tense for the plot.",
+      "answer": "What do you usually watch around the holidays? I’d recommend Klaus. It shows how one act of kindness changes a whole town."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Спросить о фильме и пересказать сюжет · C1",
+      "text": "Denis: Is there a film you find yourself coming back to during the holidays?\nBruce: I rewatch Scrooge. It’s a story about redemption, though I won’t go into the details in case you haven’t seen it.\nDenis: The Family Man explores a similar change of priorities. The main character gets a glimpse of the life he might have led if he’d made a different choice.\nBruce: What is it that you take away from that story?\nDenis: It makes you think about what success means. Klaus takes a different route to a similar idea by showing how a small act of kindness can set off a chain reaction.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Спросить о фильме и пересказать сюжет · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Ask about a holiday film, then recommend one in two sentences using the present tense for the plot.",
+      "answer": "What do you usually watch around the holidays? I’d recommend Klaus. It shows how one act of kindness changes a whole town."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Свадьба, годовщина и семейные привычки · B1",
+      "text": "Bruce: How long have you been married?\nDenis: We’ve been married for five years.\nBruce: When did you get married?\nDenis: Five years ago. How about you?\nBruce: We got married young. We’ve been married for decades.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Свадьба, годовщина и семейные привычки · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Answer “How long have you been married?” Then rephrase it as an event with ago. You can use a fictional example.",
+      "answer": "I’ve been married for five years. We got married five years ago."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Свадьба, годовщина и семейные привычки · B2",
+      "text": "Bruce: How long have you been married?\nDenis: I’ve been married for five years. We got married several years after we met.\nBruce: We got married quite young. These days I spend a lot of time with my family.\nDenis: You mentioned your granddaughter likes to read.\nBruce: Yes. She’s a voracious reader. Sometimes we sit and read together, and sometimes we just make faces and laugh our heads off.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Свадьба, годовщина и семейные привычки · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Answer “How long have you been married?” Then rephrase it as an event with ago. You can use a fictional example.",
+      "answer": "I’ve been married for five years. We got married five years ago."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Свадьба, годовщина и семейные привычки · C1",
+      "text": "Bruce: How long have you two been married?\nDenis: We’ve been married for five years. It feels strange saying it that way because the years went by so quickly.\nBruce: I know the feeling. We got married young, and we’ve been together for decades.\nDenis: Has spending time with your grandchildren changed how you think about staying young?\nBruce: Absolutely. My granddaughter and I read together, and then we’ll make up a story and end up laughing our heads off.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Свадьба, годовщина и семейные привычки · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Answer “How long have you been married?” Then rephrase it as an event with ago. You can use a fictional example.",
+      "answer": "I’ve been married for five years. We got married five years ago."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Мягко не согласиться и сравнить ценности · B1",
+      "text": "Bruce: Do you think knowledge is power?\nDenis: Sometimes. We need to know how to use it.\nBruce: Can people from different cultures agree?\nDenis: Yes. I’ve met kind people in many countries.\nBruce: How can we learn from each other?\nDenis: We can listen and ask what is important to other people.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Мягко не согласиться и сравнить ценности · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Respond to “Knowledge is power.” Use I don’t necessarily agree or As far as I understand, then explain how people with different values could discuss it.",
+      "answer": "I don’t necessarily agree. Access to information helps, but judgment matters when we use it. We can still learn from people who approach a problem differently."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Мягко не согласиться и сравнить ценности · B2",
+      "text": "Bruce: I don’t necessarily believe that information is power. What’s the difference between having information and knowing how to use it?\nDenis: Having information gives you options. Wisdom helps you make a good decision.\nBruce: Can people with different cultural values learn from one another?\nDenis: I think so. I’ve met good people everywhere I’ve been. We don’t have to pick a side.\nBruce: With that said, what helps us work through a difference of opinion?\nDenis: Listening to the other person and asking why a value matters to them.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Мягко не согласиться и сравнить ценности · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Respond to “Knowledge is power.” Use I don’t necessarily agree or As far as I understand, then explain how people with different values could discuss it.",
+      "answer": "I don’t necessarily agree. Access to information helps, but judgment matters when we use it. We can still learn from people who approach a problem differently."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Мягко не согласиться и сравнить ценности · C1",
+      "text": "Bruce: Let me throw another wrench into the conversation. Most of us have access to information. Is access itself what gives you power?\nDenis: I don’t necessarily think so. It depends on whether you can assess the information and apply it with sound judgment.\nBruce: Could that look different depending on the values you grew up with?\nDenis: Definitely. Different groups may put different things first. That doesn’t mean we have to pick a side; we can take each other’s reasoning seriously.\nBruce: So what would allow us to work through those differences?\nDenis: I’d start by asking why a value matters in a particular situation. That gives us something concrete to talk about.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Мягко не согласиться и сравнить ценности · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Respond to “Knowledge is power.” Use I don’t necessarily agree or As far as I understand, then explain how people with different values could discuss it.",
+      "answer": "I don’t necessarily agree. Access to information helps, but judgment matters when we use it. We can still learn from people who approach a problem differently."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Спросить о формате урока и уточнить ссылку · B1",
+      "text": "Learner: Is there a class at the library?\nBruce: I only know about my online group.\nLearner: Can I join the morning class with this link?\nBruce: The morning group uses a different link.\nLearner: Thanks. I’ll ask for the link.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Спросить о формате урока и уточнить ссылку · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Ask whether the class is in person, whether there is a separate link, and what to do if you cannot join.",
+      "answer": "Could you confirm whether the group meets in person? If it’s online, does it use a separate Zoom link? Who should I contact if I can’t get in?"
+    },
+    {
+      "kind": "dialogue",
+      "title": "Спросить о формате урока и уточнить ссылку · B2",
+      "text": "Learner: Is the coffee conversation group in person? I’m not sure which Thursday it meets.\nBruce: I’m not sure which event they were referring to. My class is online, and the morning group has a different link.\nLearner: Could you tell me whether I need a passcode?\nBruce: Check the link you received, and ask whoever sent it if you still can’t get in.\nLearner: Thanks. I’ll keep the time difference in mind as well.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Спросить о формате урока и уточнить ссылку · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Ask whether the class is in person, whether there is a separate link, and what to do if you cannot join.",
+      "answer": "Could you confirm whether the group meets in person? If it’s online, does it use a separate Zoom link? Who should I contact if I can’t get in?"
+    },
+    {
+      "kind": "dialogue",
+      "title": "Спросить о формате урока и уточнить ссылку · C1",
+      "text": "Learner: I may have misunderstood the registration instructions. Did they mean a separate coffee conversation group at the library?\nBruce: That’s possible. I can speak to my own online group, but I don’t have the details of the in-person event.\nLearner: Understood. I’ll ask the library to clarify. Does the morning session use the same Zoom link?\nBruce: It’s a separate group, so check the link for that session. If you run into trouble getting in, let the organiser know.\nLearner: Thanks. I’ll also double-check the time in my own time zone.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Спросить о формате урока и уточнить ссылку · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Ask whether the class is in person, whether there is a separate link, and what to do if you cannot join.",
+      "answer": "Could you confirm whether the group meets in person? If it’s online, does it use a separate Zoom link? Who should I contact if I can’t get in?"
+    },
+    {
+      "kind": "reading",
+      "title": "Запись урока с таймкодами",
+      "text": "Recording: lesson-2026-11-17\n[00:00:00–300] Знакомство и языки · Bruce welcomes newcomers, explains the unfamiliar display name and asks Denis where he is from. Denis talks about travelling and the languages he speaks. Bruce contrasts speaking some Japanese or Spanish with being fluent and recalls difficulties he encountered studying languages, including written Hebrew and Spanish verb forms.\n[00:05:00–600] Посещаемость и история преподавателя · Bruce says life sometimes gets in the way. He welcomes people whenever they can make it. He initially filled in for another teacher, liked the experience and stayed. He describes his former university work, the effort involved in grading papers, and his decision to slow down and spend more time with family.\n[00:10:00–900] Как проходит разговорное занятие · More learners explain where they come from and what brought them abroad. Bruce recalls others who studied or lived in Spanish-speaking countries. He explains that he shares a slide, invites a volunteer to read, asks what it means to people, and welcomes vocabulary questions. Students can ask him to slow down.\n[00:15:00–1200] От слайда к речи Роберта Кеннеди · Bruce explicitly welcomes disagreement. He recalls creating the presentation for a student interested in US culture and local history. He introduces a memorial in Indianapolis and recounts how Robert F. Kennedy responded to the news of Martin Luther King Jr.’s assassination in 1968. Late arrivals interrupt the story briefly.\n[00:20:00–1500] Что значат любовь, мудрость и справедливость · After resolving a zooming issue, a learner reads the slide. Kennedy’s message contrasts division, hatred, violence and lawlessness with love, wisdom, compassion and justice. Bruce uses open questions to elicit opinions. One participant connects love with mutual help; another begins explaining why unfairness has always upset her.\n[00:25:00–1800] Реакция на несправедливость и история на льду · A participant connects awareness of suffering with a sense of responsibility. Bruce reassures learners who are searching for words. Denis interprets the quote as a call to solve problems through compassion and justice and asks about 1968 and its relevance today. Another learner begins describing what happened when her husband fell on an ice rink.\n[00:30:00–2100] Сострадание, Hallmark и история Скруджа · A little girl stops to help someone back to his feet while other skaters pass by. Bruce compares the story to a Hallmark movie and explains corny. The group establishes that Hallmark is a channel with many films. Denis asks about holiday favourites, and Bruce begins retelling Scrooge’s encounters with the three Christmas spirits.\n[00:35:00–2400] Рождественские фильмы и рекомендации · Bruce finishes explaining how Scrooge changes. Denis mentions Groundhog Day and the idea of having time to do many things when a day repeats. Bruce suggests making time to relax. He distinguishes his black-and-white Scrooge from Hallmark films, mentions several classics, and recalls watching Home Alone with family.\n[00:40:00–2700] Home Alone, Spirited и The Family Man · The group compares annual film traditions. Bruce describes how Spirited surprised him even though he does not usually like musicals. Denis says he watched Home Alone regularly in Russia and explains what he takes from The Family Man: earning money matters less to him than making time for family and friends.\n[00:45:00–3000] Второй шанс и один добрый поступок · Bruce expands on The Family Man and then presents It’s a Wonderful Life as a story about a man whose plans fall apart, and about the difference his kindness has made to the community. He mentions that the film gained an audience through reruns. Denis responds about an ordinary person’s impact and brings up Klaus.\n[00:50:00–3300] Внутренний ребёнок, акройога и спорт · Bruce revisits his own reaction to Home Alone. Denis suggests that it brings out the child in you. Bruce turns that idea into a question for the group. One learner explains acroyoga and the role of the base; others talk about football, being a goalkeeper and doing exercises at home.\n[00:55:00–3542] Китай, работа и языковые различия · Participants talk about places they know in China. Denis describes where he lives and what he does. The group discusses Mandarin and Cantonese and talks about tones. Bruce responds to a learner trying to describe the group as multicultural and suggests a fifteen-minute break.\n[00:59:02–4500] Перерыв · Bruce announces a fifteen-minute break at the end of the preceding section. Between approximately 59 and 75 minutes, the file contains scattered sounds, including a short off-mic reflection in Russian about the class. The class discussion resumes at around 75 minutes.\n[01:15:00–4800] Быт, утренние привычки и поездка · The class returns to a participant cooking dinner. Bruce talks about reading with coffee, and about fitting the gym or a walk into his day. They compare meals and Bruce describes himself as a pescatarian. Another learner then retraces a road trip through Texas and Louisiana.\n[01:20:00–5100] Даллас и разница между документалистикой и драмой · The group continues discussing a Dallas museum connected with the Kennedy assassination and hears about travel and flight disruption. Asked about film preferences, some learners favour documentaries. Bruce distinguishes a dramatized account of Elizabeth Holmes from a documentary, saying dramatizations may change details to hold the audience’s attention.\n[01:25:00–5400] Праздничные мультфильмы и семейные истории · The group mentions The Polar Express and several short holiday specials. Bruce returns to the idea of staying young through play. He describes reading with his granddaughter, making faces and improvising a long courtroom scene. His point is how easily playing together turns into shared laughter.\n[01:30:00–5700] Как рассказать о браке и семье · Bruce finishes the courtroom story and talks about blended families, military service, an engagement and a marriage that has lasted for decades. He recalls someone asking his wife for ID when she tried to claim a senior discount. Learners then compare how long they have been married.\n[01:35:00–6000] Фразы об отношениях и возвращение к слайду · Denis answers a question about years of marriage. Bruce helps with the phrase two and a half years, mentions a silver anniversary, and explains how a family name was handed down. The class reopens the slide and asks for presentation mode to see it better. The next discussion topic is wisdom.\n[01:40:00–6300] Мудрость и «знание — сила» · The class suggests that wisdom involves experience, judgment and the ability to make decisions. Bruce asks about knowledge is power. A learner counters with ignorance is bliss. Bruce then adds acquired to the first phrase and asks what the extra word changes.\n[01:45:00–6600] Доступ к информации, честность и гармония · Bruce argues that access to information is common and asks what makes its use wise. He asks whether people from different cultural backgrounds can value each other’s approaches. He remembers a small classroom survey in which honesty came up first and harmony was a surprising second choice. The group then brings up Confucian ideas.\n[01:50:00–6900] Разные определения ценностей и lawlessness · The group discusses filial piety, social order and how expectations change over time. Bruce suggests working through disagreement by listening. Denis points to kindness across borders and says there is no need to pick a side. Participants discuss equality and respect. The section ends with a request to clarify lawlessness.\n[01:55:00–7200] Очный разговорный клуб, формат и ссылки · A learner asks about an in-person library coffee conversation group. Bruce does not identify that event. He says students can eat or drink during his online class and describes his teaching background and the separate morning group. Learners then ask about Zoom links and passcodes.\n[02:00:00–7512.32] Часовые пояса, семейная история и прощание · The group distinguishes morning and evening links and shares tips on joining. Bruce tells a final story about knowing his wife before they married. He reminds the group that he expects to teach around Thanksgiving week, then says goodbye.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 00:00–00:20:00",
+      "text": "00:00:00 · Знакомство и языки\nBruce welcomes newcomers, explains the unfamiliar display name and asks Denis where he is from. Denis talks about travelling and the languages he speaks. Bruce contrasts speaking some Japanese or Spanish with being fluent and recalls difficulties he encountered studying languages, including written Hebrew and Spanish verb forms.\n\nListening check: What distinction does Bruce make when he talks about the languages he has studied?\n\n00:05:00 · Посещаемость и история преподавателя\nBruce says life sometimes gets in the way. He welcomes people whenever they can make it. He initially filled in for another teacher, liked the experience and stayed. He describes his former university work, the effort involved in grading papers, and his decision to slow down and spend more time with family.\n\nListening check: Why is a missed session acceptable, and what benefit does Bruce still associate with regular attendance?\n\n00:10:00 · Как проходит разговорное занятие\nMore learners explain where they come from and what brought them abroad. Bruce recalls others who studied or lived in Spanish-speaking countries. He explains that he shares a slide, invites a volunteer to read, asks what it means to people, and welcomes vocabulary questions. Students can ask him to slow down.\n\nListening check: What happens after a volunteer reads a slide, and how can learners respond if the pace is difficult?\n\n00:15:00 · От слайда к речи Роберта Кеннеди\nBruce explicitly welcomes disagreement. He recalls creating the presentation for a student interested in US culture and local history. He introduces a memorial in Indianapolis and recounts how Robert F. Kennedy responded to the news of Martin Luther King Jr.’s assassination in 1968. Late arrivals interrupt the story briefly.\n\nListening check: Why did Bruce originally prepare the presentation, and what change of subject does the memorial introduce?",
+      "translation": "00:00:00 · Знакомство и языки\nБрюс принимает новых участников и объясняет неожиданное имя на экране. Денис рассказывает, откуда он, где живёт, о путешествиях и языках. Брюс различает начальное владение и беглую речь и вспоминает, что ему было трудно при изучении языков.\nОтвет: He can speak a little of some languages, but he does not consider himself fluent in them.\n\n00:05:00 · Посещаемость и история преподавателя\nПосещать уроки можно по возможности. Сначала Брюс подменял другого преподавателя, затем остался. Он объясняет, почему ушёл от высокой нагрузки и проверки множества работ в университете.\nОтвет: Real-life commitments can interfere. Attending more often still gives you more opportunities to learn.\n\n00:10:00 · Как проходит разговорное занятие\nНовые участники рассказывают о переезде и учёбе за рубежом. Брюс объясняет формат: слайд, добровольное чтение, мнения и вопросы о словах. Его можно попросить говорить медленнее.\nОтвет: The group discusses what it means and asks questions. Learners can ask him to slow down.\n\n00:15:00 · От слайда к речи Роберта Кеннеди\nБрюс разрешает открыто не соглашаться. Он подготовил презентацию для ученицы, интересовавшейся культурой США. Мемориал в Индианаполисе приводит к рассказу о реакции Роберта Кеннеди на убийство Мартина Лютера Кинга-младшего.\nОтвет: A student wanted to learn about American culture. The memorial leads into Kennedy’s response to King’s assassination.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 00:20:00–00:40:00",
+      "text": "00:20:00 · Что значат любовь, мудрость и справедливость\nAfter resolving a zooming issue, a learner reads the slide. Kennedy’s message contrasts division, hatred, violence and lawlessness with love, wisdom, compassion and justice. Bruce uses open questions to elicit opinions. One participant connects love with mutual help; another begins explaining why unfairness has always upset her.\n\nListening check: What does Bruce mean when he asks which word stood out?\n\n00:25:00 · Реакция на несправедливость и история на льду\nA participant connects awareness of suffering with a sense of responsibility. Bruce reassures learners who are searching for words. Denis interprets the quote as a call to solve problems through compassion and justice and asks about 1968 and its relevance today. Another learner begins describing what happened when her husband fell on an ice rink.\n\nListening check: What does Bruce do when someone struggles to find the exact word?\n\n00:30:00 · Сострадание, Hallmark и история Скруджа\nA little girl stops to help someone back to his feet while other skaters pass by. Bruce compares the story to a Hallmark movie and explains corny. The group establishes that Hallmark is a channel with many films. Denis asks about holiday favourites, and Bruce begins retelling Scrooge’s encounters with the three Christmas spirits.\n\nListening check: Why does Bruce say the ice-rink story belongs in a Hallmark movie?\n\n00:35:00 · Рождественские фильмы и рекомендации\nBruce finishes explaining how Scrooge changes. Denis mentions Groundhog Day and the idea of having time to do many things when a day repeats. Bruce suggests making time to relax. He distinguishes his black-and-white Scrooge from Hallmark films, mentions several classics, and recalls watching Home Alone with family.\n\nListening check: Why does Bruce mention making time to relax?",
+      "translation": "00:20:00 · Что значат любовь, мудрость и справедливость\nПосле настройки масштаба участница зачитывает слайд. Тема речи — отказ от насилия и разобщения в пользу сострадания и справедливости. Брюс просит выбрать слово, объяснить его личный смысл и привести пример.\nОтвет: He is asking which word caught the listener’s attention or seemed most important to them.\n\n00:25:00 · Реакция на несправедливость и история на льду\nУчастница связывает чужое страдание с желанием действовать. Брюс успокаивает тех, кто ищет слова. Денис пересказывает смысл цитаты и спрашивает о дате и актуальности. Другая участница начинает историю о человеке, упавшем на катке.\nОтвет: He reassures them, gives them time and acknowledges that he understands the main idea.\n\n00:30:00 · Сострадание, Hallmark и история Скруджа\nДевочка останавливается помочь упавшему, пока другие проезжают мимо. Брюс сравнивает это со сценой из фильма Hallmark и поясняет corny. В ответ на вопрос Дениса он вспоминает Скруджа и трёх духов Рождества.\nОтвет: It is a touching story about a simple act of kindness, much like a sentimental film on that channel.\n\n00:35:00 · Рождественские фильмы и рекомендации\nБрюс завершает пересказ превращения Скруджа. Денис говорит о повторяющемся дне в Groundhog Day. Брюс советует находить время на отдых, приводит примеры классических праздничных фильмов и рассказывает о семейном просмотре Home Alone.\nОтвет: He connects Denis’s point about being busy with making time for a film or another enjoyable activity.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 00:40:00–01:15:00",
+      "text": "00:40:00 · Home Alone, Spirited и The Family Man\nThe group compares annual film traditions. Bruce describes how Spirited surprised him even though he does not usually like musicals. Denis says he watched Home Alone regularly in Russia and explains what he takes from The Family Man: earning money matters less to him than making time for family and friends.\n\nListening check: How does Bruce’s account of Spirited mark a change of mind?\n\n00:45:00 · Второй шанс и один добрый поступок\nBruce expands on The Family Man and then presents It’s a Wonderful Life as a story about a man whose plans fall apart, and about the difference his kindness has made to the community. He mentions that the film gained an audience through reruns. Denis responds about an ordinary person’s impact and brings up Klaus.\n\nListening check: What common theme does Denis see in the films?\n\n00:50:00 · Внутренний ребёнок, акройога и спорт\nBruce revisits his own reaction to Home Alone. Denis suggests that it brings out the child in you. Bruce turns that idea into a question for the group. One learner explains acroyoga and the role of the base; others talk about football, being a goalkeeper and doing exercises at home.\n\nListening check: How does the group get from a film to discussing acroyoga?\n\n00:55:00 · Китай, работа и языковые различия\nParticipants talk about places they know in China. Denis describes where he lives and what he does. The group discusses Mandarin and Cantonese and talks about tones. Bruce responds to a learner trying to describe the group as multicultural and suggests a fifteen-minute break.\n\nListening check: What makes “multicultural” a natural description of this class?\n\n00:59:02 · Перерыв\nBruce announces a fifteen-minute break at the end of the preceding section. Between approximately 59 and 75 minutes, the file contains scattered sounds, including a short off-mic reflection in Russian about the class. The class discussion resumes at around 75 minutes.\n\nListening check: What phrase signals that the discussion is about to pause?",
+      "translation": "00:40:00 · Home Alone, Spirited и The Family Man\nГруппа обсуждает ежегодный просмотр фильмов. Брюс сначала не хотел смотреть мюзикл Spirited, но нашёл его смешным. Денис вспоминает Home Alone и объясняет, почему ему важна тема выбора между работой и близкими в The Family Man.\nОтвет: He expected to dislike it because it was a musical, but ended up finding it funny.\n\n00:45:00 · Второй шанс и один добрый поступок\nБрюс развивает тему второго шанса и рассказывает, как герой It’s a Wonderful Life понимает своё значение для других. Он вспоминает повторные показы фильма. Денис говорит об обычном человеке, который может менять чужие жизни, и приводит пример Klaus.\nОтвет: Ordinary people can have a lasting effect on others through small acts of kindness.\n\n00:50:00 · Внутренний ребёнок, акройога и спорт\nДенис говорит, что Home Alone пробуждает в зрителе ребёнка. Брюс развивает тему и спрашивает, когда участники снова чувствуют себя детьми. В разговоре объясняют акройогу и вспоминают спорт.\nОтвет: Denis brings up feeling like a child; an example of that feeling leads to acroyoga.\n\n00:55:00 · Китай, работа и языковые различия\nУчастники говорят о городах в Китае. Денис рассказывает о жизни в Гуанчжоу, чайной торговле и сложностях кантонского. Группа ищет слово multicultural, затем Брюс объявляет перерыв.\nОтвет: Learners are from different countries and bring different languages and experiences to the same conversation.\n\n00:59:02 · Перерыв\nС 59:02 до примерно 01:15:00 идёт перерыв. В начале слышен комментарий по-русски о том, что преподаватель говорит понятно и хочется отвечать подробнее. Его английское автоматическое распознавание ненадёжно.\nОтвет: “Why don’t we take a fifteen-minute break?”",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 01:15:00–01:40:00",
+      "text": "01:15:00 · Быт, утренние привычки и поездка\nThe class returns to a participant cooking dinner. Bruce talks about reading with coffee, and about fitting the gym or a walk into his day. They compare meals and Bruce describes himself as a pescatarian. Another learner then retraces a road trip through Texas and Louisiana.\n\nListening check: What is the difference between “What’s on your mind?” and “What’s on the menu?”\n\n01:20:00 · Даллас и разница между документалистикой и драмой\nThe group continues discussing a Dallas museum connected with the Kennedy assassination and hears about travel and flight disruption. Asked about film preferences, some learners favour documentaries. Bruce distinguishes a dramatized account of Elizabeth Holmes from a documentary, saying dramatizations may change details to hold the audience’s attention.\n\nListening check: Why does Bruce prefer a documentary in this example?\n\n01:25:00 · Праздничные мультфильмы и семейные истории\nThe group mentions The Polar Express and several short holiday specials. Bruce returns to the idea of staying young through play. He describes reading with his granddaughter, making faces and improvising a long courtroom scene. His point is how easily playing together turns into shared laughter.\n\nListening check: Which expressions show that the granddaughter reads a lot and that they laughed intensely?\n\n01:30:00 · Как рассказать о браке и семье\nBruce finishes the courtroom story and talks about blended families, military service, an engagement and a marriage that has lasted for decades. He recalls someone asking his wife for ID when she tried to claim a senior discount. Learners then compare how long they have been married.\n\nListening check: How do you distinguish an event from its duration in this part?\n\n01:35:00 · Фразы об отношениях и возвращение к слайду\nDenis answers a question about years of marriage. Bruce helps with the phrase two and a half years, mentions a silver anniversary, and explains how a family name was handed down. The class reopens the slide and asks for presentation mode to see it better. The next discussion topic is wisdom.\n\nListening check: What does “that’s the name she goes by” mean?",
+      "translation": "01:15:00 · Быт, утренние привычки и поездка\nПосле перерыва говорят о готовке во время звонка, утреннем чтении, спортзале, прогулках и рационе. Затем участник рассказывает о поездке на машине через Техас и Луизиану.\nОтвет: The first asks what someone is thinking about. The second asks what food is planned.\n\n01:20:00 · Даллас и разница между документалистикой и драмой\nГоворят о музее в Далласе, связанном с убийством Кеннеди, о поездке и сбоях с рейсами. Затем обсуждают документальные фильмы и художественные биографии. Брюс объясняет, зачем драматизация может менять детали.\nОтвет: He wants to understand what actually happened, and expects a dramatization to adjust facts to make the story more engaging.\n\n01:25:00 · Праздничные мультфильмы и семейные истории\nВспоминают The Polar Express и короткие праздничные телеспецвыпуски. Брюс рассказывает, как чтение и игра с внучкой помогают ему оставаться молодым, и описывает импровизированную сцену суда.\nОтвет: “A voracious reader” and “laughing our heads off.”\n\n01:30:00 · Как рассказать о браке и семье\nБрюс заканчивает историю игры, говорит о семье, службе и долгом браке. Вспоминает, как при получении скидки попросили удостоверение. Участники начинают отвечать, сколько лет они в браке.\nОтвет: Use “we got married” for the event and “we’ve been married for…” for the duration.\n\n01:35:00 · Фразы об отношениях и возвращение к слайду\nДенис отвечает на вопрос о браке. Брюс помогает сформулировать «два с половиной года», упоминает серебряную годовщину и рассказывает, как в семье передаётся имя. Затем участники возвращаются к слайду и переходят к мудрости.\nОтвет: It means that is the name she normally uses or that people usually call her.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 01:40:00–02:05:12",
+      "text": "01:40:00 · Мудрость и «знание — сила»\nThe class suggests that wisdom involves experience, judgment and the ability to make decisions. Bruce asks about knowledge is power. A learner counters with ignorance is bliss. Bruce then adds acquired to the first phrase and asks what the extra word changes.\n\nListening check: What is a possible distinction between knowledge and wisdom?\n\n01:45:00 · Доступ к информации, честность и гармония\nBruce argues that access to information is common and asks what makes its use wise. He asks whether people from different cultural backgrounds can value each other’s approaches. He remembers a small classroom survey in which honesty came up first and harmony was a surprising second choice. The group then brings up Confucian ideas.\n\nListening check: What was surprising to Bruce, and why should his example be described carefully?\n\n01:50:00 · Разные определения ценностей и lawlessness\nThe group discusses filial piety, social order and how expectations change over time. Bruce suggests working through disagreement by listening. Denis points to kindness across borders and says there is no need to pick a side. Participants discuss equality and respect. The section ends with a request to clarify lawlessness.\n\nListening check: What contrast helps you distinguish lawlessness from lawbreaker?\n\n01:55:00 · Очный разговорный клуб, формат и ссылки\nA learner asks about an in-person library coffee conversation group. Bruce does not identify that event. He says students can eat or drink during his online class and describes his teaching background and the separate morning group. Learners then ask about Zoom links and passcodes.\n\nListening check: Which question remains unresolved?\n\n02:00:00 · Часовые пояса, семейная история и прощание\nThe group distinguishes morning and evening links and shares tips on joining. Bruce tells a final story about knowing his wife before they married. He reminds the group that he expects to teach around Thanksgiving week, then says goodbye.\n\nListening check: What does Bruce want students to keep in mind before they leave?",
+      "translation": "01:40:00 · Мудрость и «знание — сила»\nМудрость связывают с опытом, суждением и решениями. Брюс предлагает обсудить «знание — сила», участник противопоставляет «меньше знаешь — крепче спишь». Затем группа обсуждает, что меняет слово acquired.\nОтвет: Knowledge is what you know; wisdom includes knowing how and when to use it.\n\n01:45:00 · Доступ к информации, честность и гармония\nБрюс говорит о разнице между доступом к информации и её разумным применением. Группа обсуждает, что могут ценить друг в друге люди из разных культур. Брюс приводит пример небольшого опроса, где после честности участники назвали гармонию.\nОтвет: Harmony came second in the group he worked with. It was his account of a particular group, so it does not establish a ranking for entire cultures.\n\n01:50:00 · Разные определения ценностей и lawlessness\nОбсуждают сыновнюю почтительность, общественный порядок и изменения представлений о ценностях. Брюс предлагает слушать друг друга. Денис говорит о доброте в разных странах и о том, что необязательно становиться на чью-либо сторону. В конце уточняют lawlessness.\nОтвет: Lawlessness is a condition where law is widely ignored or unenforced. A lawbreaker is a person.\n\n01:55:00 · Очный разговорный клуб, формат и ссылки\nУчастница спрашивает об очной встрече за кофе, но Брюс не уточняет, о каком мероприятии речь. Он объясняет гибкие правила онлайн-занятия, рассказывает о другой группе и обсуждает с участниками доступ к Zoom.\nОтвет: The exact date and details of the in-person library conversation group.\n\n02:00:00 · Часовые пояса, семейная история и прощание\nГруппа различает ссылки на утреннее и вечернее занятия и обсуждает часовые пояса. Брюс заканчивает семейной историей, упоминает занятия вокруг недели Thanksgiving и прощается. Для календаря нужны отдельные актуальные подтверждения.\nОтвет: Thanksgiving is coming, and he expects to hold his usual Monday and Wednesday sessions.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · твои реплики Denis",
+      "text": "00:39–00:49 · Как прозвучало: I’m from Russia, but I live in China.\nЕстественный вариант: I’m originally from Russia, but I’m based in China now.\nПочему: Исходная фраза правильная. Originally from и based in дают два естественных варианта, особенно если говоришь о жизни и работе.\n\n00:49–01:17 · Как прозвучало: I traveling on world … I was been.\nЕстественный вариант: I’ve travelled around the world and visited a lot of countries.\nПочему: Present Perfect = have + past participle. Travel around the world, visit a country, have been to a country. Число распознавание передало по-разному, поэтому его лучше сверить по записи и подставить самому.\n\n03:39–03:53 · Как прозвучало: … I speaking in Chinese … a little bit … Germany … English.\nЕстественный вариант: Russian is my native language. I also speak Chinese and English, and a little German.\nПочему: I speak передаёт навык. German — язык, Germany — страна. Уровень каждого языка можно уточнить: I can get by in German.\n\n25:00–30:00 · Как прозвучало: This … quiet means … hate and violence never solved problem … compression … can … breach people together.\nЕстественный вариант: The quote means that hatred and violence don’t solve problems. Compassion and justice can bring people together.\nПочему: Смысл восстанавливается из слайда и ответа. Отработай quote /kwəʊt/, compassion /kəmˈpæʃən/ и bring people together. Для общего утверждения подходит Present Simple.\n\n25:00–30:00 · Как прозвучало: When Robert Kennedy said this is world … 1968 … years in April …\nЕстественный вариант: Did Robert Kennedy say that in April 1968? Do you think those words are still relevant today?\nПочему: Words вместо world, in April 1968 без years. Вторая реплика — возможный естественный вариант по смыслу.\n\n30:00–35:00 · Как прозвучало: What your favorite movie are watching around Christmas or New Year?\nЕстественный вариант: What’s your favourite film to watch around Christmas or New Year?\nПочему: Два естественных каркаса: What’s your favourite film to watch …? или What do you usually watch …?\n\n35:00–40:00 · Как прозвучало: … every time see Groundhog Day … time is slowly … many tasks in one day.\nЕстественный вариант: I like to rewatch Groundhog Day. The same day keeps repeating, so the main character has time to try all sorts of things.\nПочему: Rewatch — пересматривать. Time goes by slowly = время идёт медленно. Здесь точнее the same day keeps repeating.\n\n40:00–45:00 · Как прозвучало: When I live in Russia … every time … Home Alone.\nЕстественный вариант: When I lived in Russia, I watched Home Alone every Christmas.\nПочему: Lived относится к законченному периоду. Every Christmas передаёт регулярность.\n\n40:00–45:00 · Как прозвучало: This not his priority is … family … wants come back … many money.\nЕстественный вариант: At first, his career comes first. Then he realises that having a family and close friends matters more to him than making a lot of money.\nПочему: После want нужен to. A lot of money, many friends. Come first — быть главным.\n\n40:00–45:00 · Как прозвучало: I’m very happy … class online.\nЕстественный вариант: I’m really glad I found an online class where I can practise speaking.\nПочему: I’m glad + предложение. Practise speaking — естественная связка, class where описывает назначение занятия.\n\n45:00–50:00 · Как прозвучало: … show … ordinary person … can change … everything …\nЕстественный вариант: What I like about It’s a Wonderful Life is how it shows that an ordinary person can change the lives of people around them.\nПочему: Восстановлено по смыслу. What I like about X is… помогает начать мнение. Use change someone’s life, people around them.\n\n45:00–50:00 · Как прозвучало: Do you like animate movie? Last time I see movie is Klaus … small act of kind …\nЕстественный вариант: Do you like animated films? I recently watched Klaus. It shows how one small act of kindness can spark another.\nПочему: Animated — прилагательное, kindness — существительное. I recently watched, если говоришь о конкретном просмотре.\n\n50:00–55:00 · Как прозвучало: … you can find the child inside of yourself.\nЕстественный вариант: I think Home Alone brings out the child in you.\nПочему: Bring out the child in you — разговорная фраза. Your inner child — существительное, удобное для дальнейшего объяснения.\n\n55:00–60:00 · Как прозвучало: I’m at, I’m in Guangzhou and 20 millions …\nЕстественный вариант: I’m based in Guangzhou. It’s a very large city.\nПочему: Для чисел: twenty million people (без s), millions of people (без точного числа). Исходную цифру отдельно не проверяли.\n\n55:00–60:00 · Как прозвучало: Businessman and tea man … I live here for eight years.\nЕстественный вариант: I work in the tea trade, and I’ve been living here for eight years.\nПочему: Для длящегося до сейчас периода — have been living … for. Trade обозначает отрасль или торговлю.\n\n55:00–60:00 · Как прозвучало: Cantonese is very hard. It’s many tones have.\nЕстественный вариант: I find Cantonese challenging because it has a lot of tones.\nПочему: It has — подлежащее и глагол в обычном порядке. I find … challenging обозначает личную оценку.\n\n95:00–100:00 · Как прозвучало: I married five years.\nЕстественный вариант: I’ve been married for five years.\nПочему: Be married описывает состояние и работает с for. I got married five years ago — сказать о событии.\n\n100:00–105:00 · Как прозвучало: … you have ability … to make a decision … you have knowledge … it’s can help.\nЕстественный вариант: Knowledge gives you the ability to make better decisions.\nПочему: Авторство по монофайлу не до конца ясно. The ability to + глагол, no it’s перед can.\n\n110:00–115:00 · Как прозвучало: Everywhere I went. Good people are some everywhere. So we don’t need a peak sight.\nЕстественный вариант: I’ve met good people everywhere I’ve been. We don’t have to pick a side.\nПочему: Смысл последней части восстанавливается по контексту. Pick a side — занять чью-то сторону, everywhere I’ve been — везде, где я побывал.\n\n110:00–115:00 · Как прозвучало: … Western … human … we need only life in this world … friendly and kindness.\nЕстественный вариант: Wherever we come from, we’re all human. We can treat one another with kindness.\nПочему: Friendly — прилагательное, kindness — существительное. Соедини параллельно: be friendly and kind или treat people with kindness.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 00:49–01:17 · 2",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи мысль своими словами. В записи: “I traveling on world … I was been.”",
+      "answer": "I’ve travelled around the world and visited a lot of countries.\nPresent Perfect = have + past participle. Travel around the world, visit a country, have been to a country. Число распознавание передало по-разному, поэтому его лучше сверить по записи и подставить самому."
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 25:00–30:00 · 4",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи мысль своими словами. В записи: “This … quiet means … hate and violence never solved problem … compression … can … breach people together.”",
+      "answer": "The quote means that hatred and violence don’t solve problems. Compassion and justice can bring people together.\nСмысл восстанавливается из слайда и ответа. Отработай quote /kwəʊt/, compassion /kəmˈpæʃən/ и bring people together. Для общего утверждения подходит Present Simple."
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 30:00–35:00 · 6",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи мысль своими словами. В записи: “What your favorite movie are watching around Christmas or New Year?”",
+      "answer": "What’s your favourite film to watch around Christmas or New Year?\nДва естественных каркаса: What’s your favourite film to watch …? или What do you usually watch …?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 40:00–45:00 · 9",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи мысль своими словами. В записи: “This not his priority is … family … wants come back … many money.”",
+      "answer": "At first, his career comes first. Then he realises that having a family and close friends matters more to him than making a lot of money.\nПосле want нужен to. A lot of money, many friends. Come first — быть главным."
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 45:00–50:00 · 12",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи мысль своими словами. В записи: “Do you like animate movie? Last time I see movie is Klaus … small act of kind …”",
+      "answer": "Do you like animated films? I recently watched Klaus. It shows how one small act of kindness can spark another.\nAnimated — прилагательное, kindness — существительное. I recently watched, если говоришь о конкретном просмотре."
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 95:00–100:00 · 17",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи мысль своими словами. В записи: “I married five years.”",
+      "answer": "I’ve been married for five years.\nBe married описывает состояние и работает с for. I got married five years ago — сказать о событии."
+    },
+    {
+      "kind": "reading",
+      "title": "Реплики преподавателя · фразы из урока",
+      "text": "Время указывает на фразу или начало её раздела. Некоторые фразы сокращены и нормализованы. Примеры после перевода составлены для тренировки.\n\n00:00 · Right about at this time.\nПеревод: Примерно в это самое время.\nКонструкция: Right подчёркивает совпадение по времени, about обозначает приблизительность.\nТвой пример для практики: More people usually join around this time.\n\n00:07 · Let me try to set up.\nПеревод: Дай я попробую всё настроить.\nКонструкция: Let me + глагол. Set up a meeting — организовать встречу, set up my slides — подготовить слайды.\nТвой пример для практики: Let me set up screen sharing.\n\n02:05 · Bear with me for a couple of minutes.\nПеревод: Потерпите пару минут.\nКонструкция: Bear with me — вежливая просьба немного подождать, часто при технической заминке.\nТвой пример для практики: Bear with me while I find the link.\n\n02:05 · I’ll be right with you.\nПеревод: Я сейчас к вам вернусь.\nКонструкция: Right with you подчёркивает, что ждать недолго.\nТвой пример для практики: I’ll be right with you after I let someone in.\n\n00:03:27 · You might know more than just Russian and English.\nПеревод: Возможно, вы знаете не только русский и английский.\nКонструкция: More than just + X. Учебная версия фразы you speak more than just…\nТвой пример для практики: She knows more than just the basic phrases.\n\n05:07 · For the most part.\nПеревод: По большей части.\nКонструкция: Смягчает обобщение. Может стоять в начале или в конце предложения.\nТвой пример для практики: For the most part, I can follow the conversation.\n\n05:59 · Life gets in the way sometimes.\nПеревод: Иногда вмешиваются обстоятельства.\nКонструкция: Get in the way — помешать осуществить задуманное.\nТвой пример для практики: I try to practise every day, but work sometimes gets in the way.\n\n06:07 · The more you attend class, the more you learn.\nПеревод: Чем чаще ходите на занятия, тем больше узнаёте.\nКонструкция: The more …, the more … — две связанные сравнительные конструкции.\nТвой пример для практики: The more I listen, the easier it gets.\n\n06:43 · I was just filling in for my wife.\nПеревод: Я просто подменял жену.\nКонструкция: Fill in for someone — временно заменить кого-либо.\nТвой пример для практики: I’m filling in for a colleague on Thursday.\n\n07:08 · Prior to this, I used to be a university professor.\nПеревод: До этого я преподавал в университете.\nКонструкция: Prior to = before, used to — бывшее состояние или привычка.\nТвой пример для практики: I used to attend an evening class.\n\n08:32 · Let’s just put it that way.\nПеревод: Скажем так.\nКонструкция: Мягко завершает оценку или показывает, что говорящий опускает детали.\nТвой пример для практики: I wasn’t thrilled about the schedule, let’s put it that way.\n\n08:51 · My wife talked me into doing this.\nПеревод: Жена уговорила меня этим заняться.\nКонструкция: Talk someone into + -ing — убедить сделать что-то.\nТвой пример для практики: My friend talked me into joining a conversation club.\n\n13:35 · It’s entirely up to you.\nПеревод: Решение полностью за вами.\nКонструкция: It’s up to you — вы решаете. Entirely усиливает фразу.\nТвой пример для практики: You can read out loud or just follow along. It’s up to you.\n\n13:41 · Is there a word in there that you have a hard time understanding?\nПеревод: Там есть слово, которое вам трудно понять?\nКонструкция: Have a hard time + -ing. In there отсылает к тексту на слайде.\nТвой пример для практики: I have a hard time following when people speak over each other.\n\n14:39 · I’m perfectly fine with that.\nПеревод: Меня это вполне устраивает.\nКонструкция: Fine with + существительное или -ing. Perfectly здесь означает «совершенно».\nТвой пример для практики: I’m perfectly fine with going over it again.\n\n00:15:00 · If you disagree with me, say so.\nПеревод: Если вы со мной не согласны, скажите об этом.\nКонструкция: Say so подставляется вместо повторения того, что уже сказано. Сокращённая учебная версия.\nТвой пример для практики: If something doesn’t make sense, say so.\n\n15:02 · With that said, do you understand everything?\nПеревод: Итак, всё ли вам понятно?\nКонструкция: With that said — переход после пояснения, иногда вводит оговорку.\nТвой пример для практики: With that said, let’s look at the next slide.\n\n00:15:00 · Let me come back to you.\nПеревод: Дайте я вернусь к вам чуть позже.\nКонструкция: Come back to someone — вернуться к человеку или его вопросу.\nТвой пример для практики: Let me come back to your question after the example.\n\n00:15:00 · That’s what took place.\nПеревод: Вот что произошло.\nКонструкция: Take place — происходить, употребляется об организованном событии или историческом эпизоде. Учебная версия.\nТвой пример для практики: The speech took place in Indianapolis.\n\n22:21 · What are the words that stick out to you the most?\nПеревод: Какие слова вам больше всего бросаются в глаза?\nКонструкция: Stick out / stand out — выделяться, запоминаться.\nТвой пример для практики: The word compassion stood out to me.\n\n23:54 · What are your thoughts regarding that?\nПеревод: Что вы об этом думаете?\nКонструкция: Regarding = about, более формально.\nТвой пример для практики: What are your thoughts on how we could help?\n\n26:49 · It just takes a while.\nПеревод: Просто нужно немного времени.\nКонструкция: Take a while — занять какое-то время.\nТвой пример для практики: It takes a while to get used to the accent.\n\n31:14 · That belongs in a Hallmark movie.\nПеревод: Это прямо сцена из фильма Hallmark.\nКонструкция: Belong in — органично вписываться. Здесь образное сравнение с сентиментальным фильмом.\nТвой пример для практики: That reunion belongs in a romantic comedy.\n\n32:06 · My wife thinks they’re kind of corny.\nПеревод: Моя жена считает их немного слащавыми.\nКонструкция: Corny — банальный, приторный, предсказуемо сентиментальный. Kind of смягчает.\nТвой пример для практики: The ending was a little corny, but I still enjoyed it.\n\n34:52 · I don’t want to go into full detail.\nПеревод: Я не хочу вдаваться во все подробности.\nКонструкция: Go into detail / go into the details — подробно рассказывать.\nТвой пример для практики: I won’t go into detail because I don’t want to spoil it.\n\n36:10 · Correct me if I’m wrong.\nПеревод: Поправьте меня, если я ошибаюсь.\nКонструкция: Вежливое вступление перед проверкой предположения.\nТвой пример для практики: Correct me if I’m wrong, but you mentioned two versions.\n\n39:35 · I just got done watching two films.\nПеревод: Я только что посмотрел два фильма.\nКонструкция: Разговорное американское get done + -ing. Нейтрально: I just finished watching.\nТвой пример для практики: I just got done watching the recording.\n\n41:41 · It’s a little raw in places.\nПеревод: Местами фильм довольно резкий.\nКонструкция: In places — местами. Raw применительно к фильму может означать грубый юмор, резкие сцены или эмоциональную откровенность.\nТвой пример для практики: The dialogue is a little raw in places.\n\n42:19 · I found it to be really funny.\nПеревод: Я счёл это очень смешным.\nКонструкция: Find + object + (to be) + adjective — субъективное впечатление.\nТвой пример для практики: I found the ending surprisingly moving.\n\n00:40:00 · Why don’t you tell the class what it’s about?\nПеревод: Может, расскажете группе, о чём он?\nКонструкция: Косвенный вопрос: what it’s about. Прямой: What’s it about?\nТвой пример для практики: Could you tell me what the article is about?\n\n45:26 · He has to start all over again.\nПеревод: Ему приходится начать всё с нуля.\nКонструкция: All over again подчёркивает полный повтор, часто с самого начала.\nТвой пример для практики: If the app crashes, I have to start all over again.\n\n47:30 · Nothing goes his way.\nПеревод: У него ничего не выходит так, как хотелось бы.\nКонструкция: Go someone’s way — складываться в чью-либо пользу.\nТвой пример для практики: Nothing was going my way that morning.\n\n47:30 · Everything is falling apart.\nПеревод: Всё рушится.\nКонструкция: Fall apart — разрушаться, разваливаться, буквально или переносно.\nТвой пример для практики: The whole plan started to fall apart.\n\n51:20 · It took me a long time to start liking it.\nПеревод: Мне понадобилось много времени, чтобы это полюбить.\nКонструкция: It takes someone + time + to do something.\nТвой пример для практики: It took me a while to get into the film.\n\n00:50:00 · It isn’t that bad after all.\nПеревод: Оказалось, что всё не так уж плохо.\nКонструкция: After all в конце выражает пересмотр первоначального мнения.\nТвой пример для практики: The exercise wasn’t that hard after all.\n\n56:14 · As far as I understand.\nПеревод: Насколько я понимаю.\nКонструкция: Показывает границу уверенности говорящего.\nТвой пример для практики: As far as I understand, the class meets on Mondays.\n\n56:23 · I’m waiting for him to show up.\nПеревод: Я жду, когда он появится.\nКонструкция: Wait for someone to do something. Show up — прийти, появиться.\nТвой пример для практики: We’re waiting for the instructor to show up.\n\n58:31 · Why don’t we take a fifteen-minute break?\nПеревод: Давайте сделаем пятнадцатиминутный перерыв?\nКонструкция: Why don’t we…? — мягкое предложение. Fifteen-minute в единственном числе как определение.\nТвой пример для практики: Why don’t we take a five-minute break?\n\n01:15:10 · What’s on your mind?\nПеревод: О чём вы сейчас думаете?\nКонструкция: On your mind — то, что занимает мысли. What’s on the menu? — что сегодня едите или готовите.\nТвой пример для практики: You looked like you wanted to say something. What’s on your mind?\n\n01:17:08 · I try to fit that in there.\nПеревод: Я стараюсь втиснуть это в расписание.\nКонструкция: Fit something in — найти для дела время между другими обязательствами.\nТвой пример для практики: I try to fit in a short walk before work.\n\n01:17:55 · I guess I’m a pescatarian.\nПеревод: Наверное, я пескетарианец.\nКонструкция: I guess смягчает утверждение. Pescatarian ест рыбу, обычно воздерживается от мяса.\nТвой пример для практики: I guess I’m more of a morning person.\n\n01:20:25 · Unfortunately for the wrong reason.\nПеревод: К сожалению, известно по печальной причине.\nКонструкция: For the wrong reason — с нежелательной причиной известности или поступка.\nТвой пример для практики: The building is famous for the wrong reason.\n\n01:23:59 · It draws the audience in.\nПеревод: Это увлекает зрителей.\nКонструкция: Draw someone in — вовлечь, захватить внимание.\nТвой пример для практики: The opening scene draws you in.\n\n01:29:03 · She is a voracious reader.\nПеревод: Она читает запоем.\nКонструкция: Voracious — очень увлечённый, ненасытный. Частая связка: a voracious reader.\nТвой пример для практики: I was a voracious reader as a child.\n\n01:25:00 · We were laughing our heads off.\nПеревод: Мы хохотали до упаду.\nКонструкция: Laugh one’s head off — сильное разговорное усиление.\nТвой пример для практики: We laughed our heads off at the story.\n\n01:32:33 · You want to stick with them.\nПеревод: Хочется остаться с этим человеком.\nКонструкция: Stick with someone — оставаться рядом. Stick with a habit — продолжать придерживаться привычки.\nТвой пример для практики: I try to stick with a routine that works.\n\n01:33:02 · She was carded one time.\nПеревод: Однажды у неё попросили удостоверение личности.\nКонструкция: Card someone — попросить показать документ. Американское разговорное употребление.\nТвой пример для практики: They carded me when I asked for the discount.\n\n01:36:26 · I was getting tongue-tied.\nПеревод: У меня язык заплетался.\nКонструкция: Get tongue-tied — запнуться или растеряться, когда трудно подобрать слова.\nТвой пример для практики: I get tongue-tied when I have to speak without preparation.\n\n01:38:50 · That’s the name she goes by.\nПеревод: Так её обычно называют.\nКонструкция: Go by a name — пользоваться определённым именем.\nТвой пример для практики: My full name is longer, but I go by Sam.\n\n01:44:00 · I don’t necessarily believe that.\nПеревод: Я бы не сказал, что верю в это безоговорочно.\nКонструкция: Not necessarily — не обязательно. Мягкое сомнение или частичное несогласие.\nТвой пример для практики: I don’t necessarily agree with that definition.\n\n01:45:00 · Let me throw another wrench into the conversation.\nПеревод: Позвольте усложнить обсуждение ещё одним вопросом.\nКонструкция: Throw a wrench into — нарушить ход или усложнить. В разговоре образное употребление.\nТвой пример для практики: Let me complicate that a little with another example.\n\n01:47:56 · It kept on coming up.\nПеревод: Это постоянно всплывало в ответах.\nКонструкция: Keep on + -ing — продолжаться или повторяться. Come up — упоминаться.\nТвой пример для практики: The same concern kept coming up.\n\n01:48:04 · That really threw me off.\nПеревод: Это меня по-настоящему сбило с толку.\nКонструкция: Throw someone off — сбить ожидания, запутать или нарушить ритм.\nТвой пример для практики: The different pronunciation threw me off at first.\n\n01:51:50 · We can work through these differences of opinion.\nПеревод: Мы можем вместе проработать эти разногласия.\nКонструкция: Work through — постепенно разбираться с трудностью. Difference of opinion — разница во взглядах.\nТвой пример для практики: Let’s work through our differences one at a time.\n\n01:55:13 · Don’t get me wrong.\nПеревод: Поймите меня правильно.\nКонструкция: Фраза перед уточнением, чтобы избежать неверного толкования.\nТвой пример для практики: Don’t get me wrong, I enjoyed it. I just wish it had been shorter.\n\n01:56:47 · Just as long as you enjoy the class.\nПеревод: Главное, чтобы вам нравилось занятие.\nКонструкция: As long as — при условии, что. Just смягчает или сужает до одного условия.\nТвой пример для практики: You can keep your camera off as long as you can follow the discussion.\n\n01:58:33 · I’m kind of taking it easy.\nПеревод: Я сейчас немного сбавил темп.\nКонструкция: Take it easy — расслабиться или снизить нагрузку.\nТвой пример для практики: I’m taking it easy this weekend.\n\n02:01:41 · Kind of keep that in mind.\nПеревод: Имейте это в виду.\nКонструкция: Keep something in mind — помнить об этом при принятии решения.\nТвой пример для практики: Keep the time difference in mind when you choose a class.\n\n02:02:32 · Here’s the thing that’s going to shock you all.\nПеревод: А теперь подробность, которая вас удивит.\nКонструкция: Here’s the thing — разговорное вступление перед важной подробностью.\nТвой пример для практики: Here’s the thing: we’d known each other a long time.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · что можно применить сразу",
+      "text": "Законченное прошлое и жизненный опыт\nI’ve visited a lot of countries. I visited Japan in 2024. Для опыта без законченной даты используй Present Perfect. Для события с конкретным временем в прошлом — Past Simple. Для продолжающейся ситуации: I’ve been living in Guangzhou for eight years.\n\nВопросы о фильмах и косвенный порядок слов\nWhat’s your favourite Christmas film? What do you like to watch at Christmas or around New Year? Внутри другого вопроса: Could you tell me what the film is about?\n\nЧастота в прошлом\nWhen I lived in Russia, we used to watch Home Alone every Christmas. Used to + базовый глагол передаёт прежнюю привычку. Every year уже выражает повторяемость.\n\nСюжет в настоящем времени\nA businessman wakes up to find that he has a family. He realises what matters and tries to win back the life he nearly lost. Сохраняй Present Simple в пересказе сюжета.\n\nАртикли и неисчисляемые слова\nA chance, an act of kindness, a successful businessman. Much money / a lot of money. A lot of friends / many friends. Happiness, kindness, compassion обычно неисчисляемые.\n\nСравнение, которое показывает связь\nThe more you attend, the more you learn. The more I listen, the more expressions I recognise. В обеих частях нужно the перед сравнительной формой.\n\nСловосочетания и формы после предлога\nFluent in English, aware of suffering, interested in learning, talked me into joining. После предлога у глагола используется -ing.\n\nСобытие и состояние в отношениях\nWe got married five years ago. We’ve been married for five years. We’ve been married since 2021. Since вводит точку отсчёта, for — длительность.\n\nМягкое несогласие и вывод\nI see your point, but I don’t necessarily agree. As far as I understand, the distinction is about how we use knowledge. With that said, we can still learn from each other.\n\nСловообразование\nLaw → lawless → lawlessness. Kind → kindness. Wise → wisdom. Confucius — человек, Confucianism — традиция, Confucian — прилагательное.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    }
+  ]
+}

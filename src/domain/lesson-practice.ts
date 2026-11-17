@@ -15,7 +15,7 @@ export function lessonPractice(resources: Resource[], topicId: string) {
 export function teacherPhraseCards(text: string) {
   return text.split(/\n\s*\n/).flatMap(block => {
     const [header, translation, pattern, example] = block.trim().split('\n').map(line => line.trim());
-    const match = /^(\d{2}:\d{2}(?:[–-]\d{2}:\d{2})?)\s+·\s+(.+)$/.exec(header);
+    const match = /^(\d{2}:\d{2}(?::\d{2})?(?:[–-]\d{2}:\d{2}(?::\d{2})?)?)\s+·\s+(.+)$/.exec(header);
     if (!match || !translation?.startsWith('Перевод: ')) return [];
     return [{
       time: match[1],
