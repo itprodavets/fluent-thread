@@ -47,8 +47,8 @@ export function CloudSettings() {
       <li>Настрой вход по email, отправку писем и адрес возврата: <code>{location.origin + location.pathname}</code>.</li>
       <li>Вставь URL проекта и публичный publishable key или anon key.</li></ol>
     <form onSubmit={submit}>
-      <label>URL проекта Supabase<input type="url" required value={url} onChange={event => { setUrl(event.target.value); setMessage(''); }} placeholder="https://project.supabase.co" autoComplete="off" spellCheck={false} maxLength={2048} /></label>
-      <label>Публичный publishable / anon key<input required value={key} onChange={event => { setKey(event.target.value); setMessage(''); }} placeholder="sb_publishable_…" autoComplete="off" spellCheck={false} maxLength={4096} /></label>
+      <label>URL проекта Supabase<input type="url" required disabled={busy} value={url} onChange={event => { setUrl(event.target.value); setMessage(''); }} placeholder="https://project.supabase.co" autoComplete="off" spellCheck={false} maxLength={2048} /></label>
+      <label>Публичный publishable / anon key<input required disabled={busy} value={key} onChange={event => { setKey(event.target.value); setMessage(''); }} placeholder="sb_publishable_…" autoComplete="off" spellCheck={false} maxLength={4096} /></label>
       <p className="sub">Пароль базы и secret/service_role здесь не используются. Эти настройки сохраняются в данном браузере; на телефоне укажи тот же проект.</p>
       <div className="actions">
         <button type="button" disabled={busy || !url || !key} onClick={() => { void check(false); }}>Проверить базу</button>
