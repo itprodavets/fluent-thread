@@ -3,6 +3,7 @@ import type { FormEvent } from 'react';
 import { cloud } from '../domain/cloud';
 import { useIdentity, useProfileStore } from '../profiles';
 import { loadProfile } from '../domain/profile-storage';
+import { copyGuestLocalData } from '../domain/profile-local-migration';
 import { packStudy, unpackStudy } from '../domain/profile-sync';
 import { useWorkspace } from '../context';
 import { Heading } from './common';
@@ -56,8 +57,9 @@ export function Profile() {
     setImporting(true);
     try {
       const guest = await loadProfile('guest');
+      await copyGuestLocalData(store.owner);
       const saved = await update(current => unpackStudy({ ...packStudy(guest.study), ...packStudy(current) }));
-      if (saved) notify('Данные без входа добавлены в этот профиль. Уже существующие записи профиля сохранены.');
+      if (saved) notify('Словарь и результаты добавлены в профиль. Локальная история Anki и записи сохранены на этом устройстве; существующие данные профиля сохранены.');
     } catch { notify('Не удалось перенести данные. Исходный словарь сохранён без изменений.'); }
     finally { setImporting(false); }
   }
@@ -110,7 +112,7 @@ export function Profile() {
         </div>
         <p className="sub">После подключения и входа будут синхронизироваться слова, учебные материалы, ошибки и результаты повторений. Записи твоего голоса и подробная история из Anki остаются на этом устройстве и в резервную копию не включаются.</p>
         {user && <details className="fold"><summary>Перенести словарь, который был без входа</summary>
-          <p>Добавит данные этого браузера в текущий профиль. Сначала проверь email выше. Уже существующие записи профиля имеют приоритет; исходные данные без входа сохранятся.</p>
+          <p>Добавит словарь и результаты повторений в текущий профиль. История Anki и записи также станут доступны в нём на этом устройстве, без загрузки в облако. Сначала проверь email выше. Уже существующие записи профиля имеют приоритет; исходные данные без входа сохранятся.</p>
           <button type="button" disabled={importing} onClick={importGuest}>{importing ? 'Переносим…' : 'Добавить данные без входа в этот профиль'}</button>
         </details>}
       </section>
