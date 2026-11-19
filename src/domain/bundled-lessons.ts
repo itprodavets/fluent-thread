@@ -1,4 +1,7 @@
+export const storyHourLesson = { title: 'The Story of an Hour · свобода и неожиданные чувства', load: () => import('../../materials/resources/story-of-an-hour.json?raw') };
+
 export const bundledLessons = [
+  storyHourLesson,
   { title: "Память, привычки и remember / forget / try · 19 ноября", load: () => import('../../materials/2026-11-19/ace-memory.json?raw') },
   { title: "Работа, прогнозы и истории о поездках · 19 ноября", load: () => import('../../materials/2026-11-19/teaching-house-certainty.json?raw') },
   { title: "Суеверия, традиции и вежливые вопросы · 19 ноября", load: () => import('../../materials/2026-11-19/marin-superstitions.json?raw') },

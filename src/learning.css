@@ -156,3 +156,11 @@
   .lesson-card .practice-modes { width: 100%; flex-wrap: nowrap; }
   .lesson-card .practice-modes button { flex: 1; font-size: 12px; padding-inline: 8px; }
 }
+
+.resource-catalog { display: grid; gap: 24px; max-width: 980px; }
+.resource-catalog article { min-width: 0; }
+.resource-catalog h2 { margin-top: 8px; }
+.resource-catalog p { line-height: 1.65; }
+.resource-catalog .actions { row-gap: 14px; }
+.resource-catalog ol { padding-left: 24px; line-height: 1.7; }
+.resource-catalog li + li { margin-top: 8px; }

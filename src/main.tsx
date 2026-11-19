@@ -18,9 +18,10 @@ const Progress = lazy(() => import('./components/Progress').then(module => ({ de
 const MapPage = lazy(() => import('./components/Map').then(module => ({ default: module.MapPage })));
 const Materials = lazy(() => import('./components/Materials').then(module => ({ default: module.Materials })));
 const Schools = lazy(() => import('./components/SchoolDirectory').then(module => ({ default: module.SchoolDirectory })));
+const Resources = lazy(() => import('./components/Resources').then(module => ({ default: module.Resources })));
 const Account = lazy(() => import('./components/Account').then(module => ({ default: module.Account })));
 
-const screens = { today: Today, practice: Practice, map: MapPage, materials: Materials, schools: Schools, progress: Progress, account: Account };
+const screens = { today: Today, practice: Practice, map: MapPage, materials: Materials, schools: Schools, resources: Resources, progress: Progress, account: Account };
 function subscribe(listener: () => void) {
   window.addEventListener('hashchange', listener);
   return () => window.removeEventListener('hashchange', listener);
