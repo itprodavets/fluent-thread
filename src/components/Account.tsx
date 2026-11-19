@@ -299,6 +299,7 @@ export function Account() {
     } catch { notify('Введи код языка, например en, zh или es.'); }
   }
   return <><Heading title="Мои слова" detail="Словарь, импорт и история повторений." />
+    <p><a href="#profile">Профиль, синхронизация и резервная копия →</a></p>
     <LanguageOptions />
     <div className="account-sections" role="group" aria-label="Разделы кабинета">
       {(Object.keys(sections) as Section[]).map(value => <button type="button" key={value} aria-pressed={section === value}

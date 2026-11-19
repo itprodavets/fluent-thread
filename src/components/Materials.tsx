@@ -1,3 +1,4 @@
+import { ownedKey } from '../domain/profile-local';
 import { bundledLessons } from '../domain/bundled-lessons';
 import { ReadingShelf } from './ReadingShelf';
 import { ReadableMaterial } from './ReadableMaterial';
@@ -273,7 +274,7 @@ export function Materials() {
   const [catalog, setCatalog] = useState<'schools' | 'skills'>(() => location.hash === skillPhrasesHash ? 'skills' : 'schools');
   const [skillId, setSkill] = useState(() => skills.find(item =>
     phraseReviews(study, item.dialogues.flatMap(dialogue => dialogue.phrases), Date.now()).due.size)?.id ?? skills[0].id);
-  const recentKey = 'nit-rechi:recent-lessons:' + study.language;
+  const recentKey = ownedKey('nit-rechi:recent-lessons:' + study.language);
   const [recent, setRecent] = useState(() => readRecent(recentKey));
   const [scene, setScene] = useState(location.hash.startsWith('#materials/lesson/') ? location.hash.slice('#materials/lesson/'.length) : recent[0]?.scene ?? '');
   const [lessonId, setLessonId] = useState(recent[0]?.dialogue ?? '');

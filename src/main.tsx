@@ -1,9 +1,10 @@
-import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState, useSyncExternalStore } from 'react';
 import { createRoot } from 'react-dom/client';
 import { AppShell } from './components/AppShell';
 import { StudyContext } from './context';
 import { itemsForLanguage, pages } from './domain/model';
-import { readStudy, writeStudy } from './domain/study-storage';
+import { Profiles } from './profiles';
+import type { ProfileStore } from './domain/profile-store';
 import type { Page, Study } from './domain/model';
 import { stopVoice } from './domain/voice.js';
 import './styles.css';
@@ -19,9 +20,10 @@ const MapPage = lazy(() => import('./components/Map').then(module => ({ default:
 const Materials = lazy(() => import('./components/Materials').then(module => ({ default: module.Materials })));
 const Schools = lazy(() => import('./components/SchoolDirectory').then(module => ({ default: module.SchoolDirectory })));
 const Resources = lazy(() => import('./components/Resources').then(module => ({ default: module.Resources })));
+const Profile = lazy(() => import('./components/Profile').then(module => ({ default: module.Profile })));
 const Account = lazy(() => import('./components/Account').then(module => ({ default: module.Account })));
 
-const screens = { today: Today, practice: Practice, map: MapPage, materials: Materials, schools: Schools, resources: Resources, progress: Progress, account: Account };
+const screens = { today: Today, practice: Practice, map: MapPage, materials: Materials, schools: Schools, resources: Resources, progress: Progress, account: Account, profile: Profile };
 function subscribe(listener: () => void) {
   window.addEventListener('hashchange', listener);
   return () => window.removeEventListener('hashchange', listener);
@@ -35,10 +37,8 @@ function go(page: Page) {
   if (location.hash !== '#' + page) location.hash = page;
 }
 
-function App({ initial }: { initial: Study }) {
-  const [study, setStudy] = useState(initial);
-  const latest = useRef(study);
-  const writes = useRef(Promise.resolve());
+function App({ store }: { store: ProfileStore }) {
+  const study = useSyncExternalStore(store.subscribe, store.getStudy);
   const [notice, notify] = useState('');
   const [practiceId, setPractice] = useState<string>();
   const [topicId, setTopic] = useState<string>();
@@ -62,22 +62,11 @@ function App({ initial }: { initial: Study }) {
   }, []);
 
   const update = useCallback((change: (current: Study) => Study) => {
-    const pending = writes.current.then(async () => {
-      const next = change(latest.current);
-      if (next === latest.current) return true;
-      try {
-        await writeStudy(next);
-        latest.current = next;
-        setStudy(next);
-        return true;
-      } catch {
-        notify('Не удалось сохранить изменения. Проверь доступное место в браузере.');
-        return false;
-      }
+    return store.update(change).catch(() => {
+      notify('Не удалось сохранить изменения. Проверь доступное место в браузере.');
+      return false;
     });
-    writes.current = pending.then(() => {}, () => {});
-    return pending;
-  }, []);
+  }, [store]);
   const practice = (id: string) => { setPractice(id); go('practice'); };
   const openTopic = (id: string) => { setTopic(id); go('map'); };
   const openResource = (id: string) => { setResource(id); go('materials'); };
@@ -92,6 +81,4 @@ const root = createRoot(document.querySelector('#root')!);
 root.render(<main role="status">Открываем локальный словарь…</main>);
 // The retired database contains only copies of lesson recordings. Learner takes use a separate store.
 try { indexedDB.deleteDatabase('nit-rechi-lesson-audio'); } catch { /* Storage may be disabled. */ }
-void readStudy().then(initial => root.render(<App initial={initial} />), () => {
-  root.render(<main role="alert">Не удалось прочитать локальное хранилище. Открой приложение в обычном окне браузера.</main>);
-});
+root.render(<Profiles>{store => <App key={store.owner} store={store} />}</Profiles>);
