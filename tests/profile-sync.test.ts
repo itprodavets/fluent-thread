@@ -33,3 +33,12 @@ test('an acknowledged tombstone stays absent; stale rows cannot roll state backw
   assert.equal(pendingChanges(next).some(p=>p.id===key),false);
   assert.equal(reconcileRow(next,{id:key,value:{id:'x'},revision:3}),next);
 });
+
+test('first offline repetitions from two devices combine at the record boundary', () => {
+  const study={...emptyStudy(),practiceDays:{en:{'2026-11-19':{spoken:{retry:1}}}}};
+  const doc={study,base:{},cursor:0,conflicts:[]} as any;
+  const key=JSON.stringify(['practiceDays','en']);
+  const next=reconcileRow(doc,{id:key,value:{'2026-11-19':{spoken:{retry:1}}},revision:1});
+  assert.equal(next.study.practiceDays!.en['2026-11-19'].spoken!.retry,2);
+  assert.equal(next.conflicts.length,0);
+});

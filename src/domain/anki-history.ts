@@ -1,15 +1,20 @@
+import { ownedDatabase } from './profile-local';
 import { localDay } from './model';
 import type { Review } from './anki-model';
 
-let database: Promise<IDBDatabase> | undefined;
+const databases = new Map<string, Promise<IDBDatabase>>();
 
 function openHistory() {
-  database ??= new Promise((resolve, reject) => {
-    const request = indexedDB.open('nit-rechi-anki', 1);
+  const name = ownedDatabase('nit-rechi-anki');
+  let database = databases.get(name);
+  if (!database) { database = new Promise((resolve, reject) => {
+    const request = indexedDB.open(name, 1);
     request.onupgradeneeded = () => request.result.createObjectStore('notes');
     request.onsuccess = () => resolve(request.result);
-    request.onerror = () => { database = undefined; reject(request.error); };
+    request.onerror = () => { databases.delete(name); reject(request.error); };
   });
+    databases.set(name, database);
+  }
   return database;
 }
 

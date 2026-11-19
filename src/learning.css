@@ -164,3 +164,12 @@
 .resource-catalog .actions { row-gap: 14px; }
 .resource-catalog ol { padding-left: 24px; line-height: 1.7; }
 .resource-catalog li + li { margin-top: 8px; }
+
+.profile-layout { display: grid; gap: 24px; max-width: 960px; }
+.profile-layout form { display: grid; gap: 16px; margin: 18px 0; }
+.profile-layout label { display: grid; gap: 8px; }
+.profile-layout input { width: 100%; max-width: 480px; }
+.profile-layout p { line-height: 1.65; overflow-wrap: anywhere; }
+.profile-warning { border-left: 3px solid #a77a35; padding: 10px 14px; background: #faf4e8; }
+.profile-conflict { border-top: 1px solid #d9e1d8; padding: 16px 0; }
+.profile-conflict pre { max-height: 280px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; }

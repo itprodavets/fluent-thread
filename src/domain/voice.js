@@ -1,23 +1,27 @@
+import { localOwner, ownedDatabase } from './profile-local';
 let recorder;
 let pending = false;
 let cancellation = 0;
 let speechVersion = 0;
-let database;
+const databases = new Map();
 
-function recordings() {
+function recordings(owner) {
+  const name = ownedDatabase('nit-rechi-audio', owner);
+  let database = databases.get(name);
   if (!database) {
     database = new Promise((resolve, reject) => {
-      const request = indexedDB.open('nit-rechi-audio', 1);
+      const request = indexedDB.open(name, 1);
       request.onupgradeneeded = () => request.result.createObjectStore('takes');
       request.onsuccess = () => resolve(request.result);
-      request.onerror = () => reject(request.error);
+      request.onerror = () => { databases.delete(name); reject(request.error); };
     });
   }
+  databases.set(name, database);
   return database;
 }
 
-async function accessRecording(mode, operation) {
-  const db = await recordings();
+async function accessRecording(mode, operation, owner = localOwner()) {
+  const db = await recordings(owner);
   return new Promise((resolve, reject) => {
     const transaction = db.transaction('takes', mode);
     const request = operation(transaction.objectStore('takes'));
@@ -30,8 +34,8 @@ export function getTake(id) {
   return accessRecording('readonly', store => store.get(id));
 }
 
-export function saveTake(id, blob) {
-  return accessRecording('readwrite', store => store.put(blob, id));
+export function saveTake(id, blob, owner = localOwner()) {
+  return accessRecording('readwrite', store => store.put(blob, id), owner);
 }
 
 export function deleteTake(id) {
@@ -63,6 +67,7 @@ export async function toggleRecording(id, notify) {
     return;
   }
   const request = cancellation;
+  const owner = localOwner();
   let stream;
   pending = true;
   stopSpeaking();
@@ -82,7 +87,7 @@ export async function toggleRecording(id, notify) {
       if (failed) return;
       if (!parts.length) { notify('Запись пустая. Попробуй ещё раз.'); return; }
       try {
-        await saveTake(id, new Blob(parts, { type: current.mimeType }));
+        await saveTake(id, new Blob(parts, { type: current.mimeType }), owner);
         notify('Запись сохранена в этом браузере.');
       } catch {
         notify('Браузер не смог сохранить запись.');

@@ -1,3 +1,4 @@
+import { localOwner } from '../domain/profile-local';
 import { captureAnswer } from '../domain/auto-answer';
 import { localSpeechAvailability, transcribeLocally } from '../domain/local-speech';
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -43,6 +44,7 @@ export function SpokenRole({ resource }: { resource: Resource }) {
   }, [run, index, lines, role, resource.language, notify, automatic]);
 
   async function startAutomatic(attempt: string) {
+    const owner = localOwner();
     const controller = new AbortController();
     autoSession.current = controller;
     const { signal } = controller;
@@ -83,7 +85,7 @@ export function SpokenRole({ resource }: { resource: Resource }) {
         const blob = await captureAnswer(context, stream, signal);
         signal.throwIfAborted();
         if (!blob) throw new Error('Ответ не удалось услышать. Продолжи с текущей реплики вручную.');
-        await saveTake('lesson-role:' + attempt + ':' + i, blob);
+        await saveTake('lesson-role:' + attempt + ':' + i, blob, owner);
         signal.throwIfAborted();
         takes.push(blob);
       }

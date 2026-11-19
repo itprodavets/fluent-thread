@@ -16,8 +16,9 @@ export function equal(a: Value, b: Value) { return JSON.stringify(a) === JSON.st
 export function packStudy(study: Study): Record<string, Value> {
   const entries: [string, Value][] = [];
   for (const [field, value] of Object.entries(study)) {
+    if (value === undefined) continue;
     if (arrays.has(field)) {
-      entries.push([JSON.stringify(['order', field]), value.map((item: {id:string}) => item.id)]);
+      entries.push([JSON.stringify(['order', field]), value.length <= 1000 ? value.map((item: {id:string}) => item.id) : []]);
       for (const item of value) entries.push([JSON.stringify([field, item.id]), item]);
     } else if (maps.has(field)) {
       entries.push([JSON.stringify(['map', field]), true]);
@@ -56,6 +57,10 @@ export function mergeValue(base: Value, local: Value, remote: Value, counters = 
   if (counters && [base, local, remote].every(value => typeof value === 'number'))
     return { value: Math.max(0, local + remote - base), conflict: false };
   if (!counters && equal(local, remote)) return { value: local, conflict: false };
+  if (counters && base == null && local !== null && remote !== null) {
+    if (typeof local === 'number' && typeof remote === 'number') return { value: local + remote, conflict: false };
+    if (typeof local === 'object' && typeof remote === 'object') base = {};
+  }
   const objects = [base, local, remote].every(value => value && typeof value === 'object' && !Array.isArray(value));
   if (objects) {
     const value: Record<string, Value> = {}; let conflict = false;

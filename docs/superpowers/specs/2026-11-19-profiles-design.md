@@ -11,3 +11,7 @@ IndexedDB caches each owner separately. A logout/account change remounts the ent
 UI: account icon opens a Profile page showing verified email, editable display name, sync status, retry, guest-data import and backup. Email OTP login has separate send/verify steps; no pre-created shared password or fabricated email verification. First login creates an empty independent workspace. A profile appears only after its owner verifies the email.
 
 Provision a Supabase project, apply the checked-in SQL, configure allowed redirect/site URLs and SMTP, add public URL/key as GitHub Actions variables, then deploy and verify two isolated users and cross-device changes. No paid plan is selected automatically. If provider access is missing, ship code/configuration with an explicit unconfigured state and report the remaining setup accurately.
+
+## Review decisions
+
+Use a per-owner Web Lock for one writer per browser profile; another tab waits and opens automatically after the first finishes pending persistence. Index record identity using a SHA-256 digest instead of the potentially long serialized word/translation ID; retain the full ID for round trips. Normalize missing counter trees during record reconciliation. These decisions were verified against the branch review findings.
