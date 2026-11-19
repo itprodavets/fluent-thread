@@ -1,0 +1,13 @@
+# Profiles and cross-device study sync
+
+Denis approved Supabase email sign-in, independent profiles for Denis and Kseniia, a browser cache and cross-device vocabulary/progress sync. GitHub Pages continues hosting the app. Local-only profiles would not sync; a custom server would add unnecessary maintenance.
+
+Each verified email owns a Supabase Auth UUID. RLS on profile and study tables enforces ownership, including through RPC. Browser code uses only a publishable key. No administrator key is bundled or committed. Auth email delivery requires production SMTP; default Supabase email cannot be assumed to support both users.
+
+Study state is split into records by collection/key. Only changed records are uploaded in bounded batches. Server revisions and conditional writes prevent an offline device from overwriting newer data. Three-way reconciliation combines unrelated fields; simultaneous scalar changes choose the server value and preserve the local alternative in a visible conflict list. Deletions are tombstones, so offline devices cannot resurrect deleted entries. Concurrent practice counters combine deltas.
+
+IndexedDB caches each owner separately. A logout/account change remounts the entire workspace and rejects late writes to the old workspace. Legacy guest data remains intact, and importing it is an explicit action in the signed-in profile. Local audio takes and detailed Anki history remain device-only and are isolated by profile; vocabulary and app repetition results sync. Profile export includes vocabulary, materials, progress and sync-conflict alternatives, but not local audio or detailed Anki history.
+
+UI: account icon opens a Profile page showing verified email, editable display name, sync status, retry, guest-data import and backup. Email OTP login has separate send/verify steps; no pre-created shared password or fabricated email verification. First login creates an empty independent workspace. A profile appears only after its owner verifies the email.
+
+Provision a Supabase project, apply the checked-in SQL, configure allowed redirect/site URLs and SMTP, add public URL/key as GitHub Actions variables, then deploy and verify two isolated users and cross-device changes. No paid plan is selected automatically. If provider access is missing, ship code/configuration with an explicit unconfigured state and report the remaining setup accurately.
