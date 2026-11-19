@@ -61,9 +61,9 @@ export function Profile() {
     finally { setImporting(false); }
   }
   function downloadBackup() {
-    const blob = new Blob([JSON.stringify({ format: 'nit-rechi-profile', version: 1, exportedAt: new Date().toISOString(), study, conflicts: document.conflicts }, null, 2)], { type: 'application/json' });
+    const blob = new Blob([JSON.stringify({ format: 'fluent-thread-profile', version: 1, exportedAt: new Date().toISOString(), study, conflicts: document.conflicts }, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob); const anchor = window.document.createElement('a');
-    anchor.href = url; anchor.download = 'nit-rechi-profile-' + new Date().toISOString().slice(0,10) + '.json';
+    anchor.href = url; anchor.download = 'fluent-thread-profile-' + new Date().toISOString().slice(0,10) + '.json';
     anchor.click(); setTimeout(() => URL.revokeObjectURL(url), 10_000);
   }
   return <>
