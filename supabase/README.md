@@ -10,6 +10,17 @@ The browser uses Supabase Auth plus owner-scoped PostgreSQL records. Only public
 6. Each owner opens `#profile`, enters their own email and verifies the email. Auth creates separate identities; accounts are not fabricated or marked verified by an administrator. Enter a display name. Existing browser data can be explicitly added under “Перенести словарь, который был без входа”. Do this only in the intended profile.
 7. Verify on two devices: create a word/review on device one, sync, sign into the same email on device two, check both. Then sign into a second email and confirm isolation. Check an offline edit and retry. Use “Скачать резервную копию” before large imports.
 
+## Default hosted deployment
+
+The Fluent Thread deployment uses project **fluent-thread** in Singapore (`ap-southeast-1`):
+
+- Public API origin: `https://wizjjgydhqbjcdkomqji.supabase.co`
+- [Project dashboard](https://supabase.com/dashboard/project/wizjjgydhqbjcdkomqji)
+- Site URL: `https://itprodavets.github.io/fluent-thread/`
+- Browser configuration is supplied by the GitHub Actions variables listed above; no administrative keys or database passwords are part of the repository.
+
+The checked-in initial schema has been applied to this project. Its public version endpoint returns `1`; unauthenticated reads of `study_records` are denied. Email ownership must be confirmed before a learner can use the authenticated profile. First-time users explicitly add their legacy browser vocabulary to their own signed-in profile. Configuring this deployment does not verify an email address on the learner's behalf.
+
 ## Data and limitations
 
 Words, topics, resources, practice results, errors and learning drafts are synchronized. Local audio and detailed imported Anki review events are deliberately not uploaded. Their local databases are namespaced per owner. Profile backups contain Study data and conflict alternatives, not authentication tokens or audio/Anki event databases.
