@@ -9,6 +9,10 @@ function upgradeLessonTitles(study: Study): Study {
   }) };
 }
 
+export function prepareStudy(study: Study) {
+  return upgradeLessonTitles(upgradeStarterTopics({ ...study, resources: study.resources ?? [] }));
+}
+
 const key = 'nit-rechi-v1';
 const marker = 'indexeddb';
 let database: Promise<IDBDatabase> | undefined;

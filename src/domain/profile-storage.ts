@@ -1,4 +1,4 @@
-import { readStudy } from './study-storage';
+import { prepareStudy, readStudy } from './study-storage';
 import { emptyStudy } from './profile-sync';
 import type { StoredProfile } from './profile-store';
 let database: Promise<IDBDatabase> | undefined;
@@ -17,7 +17,7 @@ export async function loadProfile(id: string): Promise<StoredProfile> {
     const request = db.transaction('profiles').objectStore('profiles').get(id);
     request.onsuccess = () => resolve(request.result); request.onerror = () => reject(request.error);
   });
-  if (saved) return saved;
+  if (saved) return { ...saved, study: prepareStudy(saved.study) };
   const study = id === 'guest' ? await readStudy() : emptyStudy();
   return { study, base: {}, cursor: 0, conflicts: [] };
 }
