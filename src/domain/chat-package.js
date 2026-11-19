@@ -30,14 +30,14 @@ export function buildChatPrompt(language, topic = '', source) {
   const subject = source
     ? '\nИспользуй следующий материал из моего занятия:\n' + JSON.stringify(source, null, 2)
     : '\nВозьми мои реальные реплики и контекст из текущего голосового или текстового разговора. Если реплики недоступны, попроси меня вставить расшифровку.';
-  return 'Подготовь файл nit-rechi.json для импорта в «Нить речи».' + subject +
+  return 'Подготовь файл fluent-thread.json для импорта в Fluent Thread.' + subject +
     '\nВыбери одну конкретную ситуацию. Исправь мои формулировки, сохрани смысл. Предполагаемые реплики собеседника пометь как учебную реконструкцию. Составь связный диалог с началом, уточнениями и завершением. Выдели до 12 полезных выражений с переводом и примерами. Добавь 2–3 задания: понимание диалога и собственный ответ. У каждого задания укажи условие и ответ для сверки. Используй язык, формат и версию из примера. Верни только JSON или файл, без пояснений вокруг JSON.\n\n' +
     JSON.stringify(schema, null, 2);
 }
 
 export function chatPackageExample(language, topic = '') {
   return {
-    format: 'nit-rechi',
+    format: 'fluent-thread',
     version: 1,
     language,
     topic: { title: topic || 'Название темы', prompt: 'Что предложить сказать вслух' },
@@ -55,8 +55,8 @@ export function parseChatPackage(text) {
   let data;
   try { data = JSON.parse(input); }
   catch { throw new Error('Не удалось прочитать JSON. Скопируй пакет целиком.'); }
-  if (data?.format !== 'nit-rechi' || data.version !== 1) {
-    throw new Error('Нужен пакет «Нить речи» версии 1. Скопируй команду для чата из приложения.');
+  if (!['fluent-thread', 'nit-rechi'].includes(data?.format) || data.version !== 1) {
+    throw new Error('Нужен пакет Fluent Thread версии 1. Скопируй команду для чата из приложения.');
   }
   let language;
   try { [language] = Intl.getCanonicalLocales(field(data.language, 'language', 35, true)); }

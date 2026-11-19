@@ -92,3 +92,18 @@ test('vocabulary import applies chosen statuses to new cards without overwriting
   assert.equal(again.next.words[0].vocabularyLevel, 'passive');
   assert.throws(() => pack('invalid'), /Неизвестный статус/);
 });
+
+test('Fluent Thread imports legacy lesson packages without changing word IDs or progress', async () => {
+  const { parseChatPackage, chatPackageExample, buildChatPrompt } = await import('../src/domain/chat-package.js');
+  const example=chatPackageExample('es','Una conversación');
+  assert.equal(example.format,'fluent-thread');
+  assert.match(buildChatPrompt('es'),/fluent-thread\.json/);
+  const modern=parseChatPackage(JSON.stringify(example));
+  const legacy=parseChatPackage(JSON.stringify({...example,format:'nit-rechi'}));
+  const study={language:'es',languages:{es:{}},topics:[],words:[],resources:[],results:{}};
+  const first=applyChatPackage(study,legacy);
+  const again=applyChatPackage(first.next,modern);
+  assert.equal(again.wordsAdded,0);assert.equal(again.materialsAdded,0);
+  assert.deepEqual(again.next.words,first.next.words);
+  assert.throws(()=>parseChatPackage(JSON.stringify({...example,format:'other'})),/Fluent Thread/);
+});

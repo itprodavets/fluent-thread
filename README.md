@@ -1,6 +1,6 @@
-# Нить речи
+# Fluent Thread
 
-Личное приложение для чтения, упражнений и разговорной практики. Начать можно с текстов, заданий, ссылок или заметок из Anki.
+[Fluent Thread](https://itprodavets.github.io/fluent-thread/) — приложение для изучения разных языков: чтения, упражнений и разговорной практики. Начать можно с текстов, заданий, ссылок или заметок из Anki.
 
 ## Материалы по датам
 
@@ -52,7 +52,7 @@ npm run dev
 
 ## Перенос из чата с ИИ
 
-В «Материалах» открой «Из чата с ИИ» и скопируй команду. Чтобы передать в чат текст или ссылку из библиотеки, нажми «Взять в чат» на материале. Попроси вернуть файл nit-rechi.json, затем загрузи его или вставь JSON. Пакет добавит слова, контексты, диалоги и упражнения в выбранную тему. Повторный импорт проходит без дублей. Для переноса API-ключ не нужен.
+В «Материалах» открой «Из чата с ИИ» и скопируй команду. Чтобы передать в чат текст или ссылку из библиотеки, нажми «Взять в чат» на материале. Попроси вернуть файл fluent-thread.json, затем загрузи его или вставь JSON. Пакет добавит слова, контексты, диалоги и упражнения в выбранную тему. Повторный импорт проходит без дублей. Для переноса API-ключ не нужен.
 
 ## Структура и данные
 
@@ -68,6 +68,10 @@ GitHub Actions собирает сайт командой `npm run build` и п�
 
 On **Today → Диалог по теме**, choose an existing or new topic and up to 12 words. **Сегодня / Вчера / За неделю** use actual review timestamps in the imported Anki history, with local calendar-day boundaries; importing a file today does not make its old reviews today's reviews. **Весь словарь** also includes unreviewed words. The same preparation is available under My words → Диалог из повторений.
 
-The dialogue uses exactly the checked words and adds their links to the chosen topic. It has spoken role-play, written alternating turns, original word examples and existing topic dialogues. Written word matching checks only the learner's turns and remains advisory; users explicitly assess each word. Skipped ratings do not change progress. No model API is required: copy the selected topic/words to an external AI chat and bring its `nit-rechi.json` result back through Materials.
+The dialogue uses exactly the checked words and adds their links to the chosen topic. It has spoken role-play, written alternating turns, original word examples and existing topic dialogues. Written word matching checks only the learner's turns and remains advisory; users explicitly assess each word. Skipped ratings do not change progress. No model API is required: copy the selected topic/words to an external AI chat and bring its `fluent-thread.json` result back through Materials.
 
 Drafts are stored per language and can be resumed or reconfigured without replacing the daily retrieval lesson. Written turns autosave after a short pause or when leaving the field; completion saves the dialogue as a material associated with the topic. Written and spoken outcomes stay separate. The vocabulary workspace uses available desktop width, with stacked word/context/progress sections on smaller screens.
+
+## Совместимость после переименования
+
+Приложение раньше называлось «Нить речи» (`nit-rechi`). Существующие словари и прогресс в браузере сохраняются: внутренние ключи хранилища не менялись, а адрес сайта остался на том же origin. Новые пакеты используют формат `fluent-thread` версии 1; ранее сохранённые пакеты `nit-rechi` версии 1 по-прежнему импортируются.
