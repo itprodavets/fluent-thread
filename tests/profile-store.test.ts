@@ -70,3 +70,17 @@ test('two devices sync vocabulary, merge independent edits, and propagate deleti
     await a.sync(); await b.sync(); assert.equal(b.getStudy().words.length,0);
   } finally {a.dispose();b.dispose();}
 });
+
+test('cursor-only checkpoints replay safely after restart without rewriting the study snapshot',async()=>{
+ const doc=fresh(),key=JSON.stringify(['words','w']);
+ const word={id:'w',language:'en',title:'hello',meaning:'привет',example:'Hello!'};
+ doc.study.words=[word];
+ doc.base=Object.fromEntries(Object.entries(packStudy(doc.study)).map(([id,value])=>[id,{value,revision:id===key?50:1}]));
+ let writes=0; const saved=structuredClone(doc);
+ const transport:SyncTransport={pull:async cursor=>cursor<50?[{id:key,value:word,revision:50}]:[],push:async()=>{throw new Error('nothing to push');}};
+ const a=new ProfileStore('same',structuredClone(saved),async()=>{writes++;},transport);
+ await a.sync(); assert.equal(a.document.cursor,50);assert.equal(a.status.state,'synced');a.dispose();
+ const b=new ProfileStore('same',structuredClone(saved),async()=>{writes++;},transport);
+ await b.sync();assert.deepEqual(b.getStudy().words,[word]);assert.equal(b.status.state,'synced');b.dispose();
+ assert.equal(writes,0,'replaying acknowledged rows should not rewrite a large unchanged snapshot');
+});
