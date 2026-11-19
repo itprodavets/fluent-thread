@@ -4,7 +4,7 @@ DC Public Library · Marilyn
 
 Учебные версии составлены по темам записи. Диалоги и примеры адаптированы для практики. Уровень — ориентир сложности материала.
 
-[Открыть «Нить речи»](https://itprodavets.github.io/nit-rechi/#materials/reading)
+[Открыть Fluent Thread](https://itprodavets.github.io/fluent-thread/#materials/reading)
 
 [Пакет урока](dcpl-learning.json)
 
