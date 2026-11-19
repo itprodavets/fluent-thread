@@ -38,7 +38,8 @@ export function ReadingShelf({ resources, topics, language, read, openLesson, le
   const groups = new Map<string, { title: string; resources: Resource[] }>();
   for (const resource of entries) {
     if (!resource.text.trim() || sectionOf(resource) !== section) continue;
-    const { title, level } = section === 'dialogue' ? dialogueVersion(resource.title) : { title: resource.title, level: undefined };
+    const { title, level } = section === 'dialogue' || section === 'reading'
+      ? dialogueVersion(resource.title) : { title: resource.title, level: undefined };
     const key = level ? JSON.stringify([resource.topicId, title.toLocaleLowerCase()]) : resource.id;
     const group = groups.get(key);
     if (!group) groups.set(key, { title, resources: [resource] });
@@ -67,7 +68,7 @@ export function ReadingShelf({ resources, topics, language, read, openLesson, le
     <article className="resource reading-document">
       {selectedTopic && <p className="sub">{selectedTopic.title}</p>}
       <h2 tabIndex={-1} ref={heading}>{selectedGroup?.title ?? selected.title}</h2>
-      {selectedGroup && selectedGroup.resources.length > 1 && <div className="level-tabs" role="group" aria-label="Уровень диалога">
+      {selectedGroup && selectedGroup.resources.length > 1 && <div className="level-tabs" role="group" aria-label={selected.kind === 'dialogue' ? 'Уровень диалога' : 'Уровень текста'}>
         {levels.map(level => {
           const version = selectedGroup.resources.find(item => dialogueVersion(item.title).level === level);
           return version && <button type="button" key={version.id} aria-pressed={selected.id === version.id}
