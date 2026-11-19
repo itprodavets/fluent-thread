@@ -1,0 +1,82 @@
+[
+  {
+    "source": "Record-2026-11-19 06-55-42-20261119-065543",
+    "durationSeconds": 7842.08,
+    "segments": 2664,
+    "package": "dcpl-learning.json",
+    "words": 45,
+    "materials": 35,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ]
+  },
+  {
+    "source": "Record-2026-11-19 09-13-21-20261119-091321",
+    "durationSeconds": 7861.82,
+    "segments": 2493,
+    "package": "dcpl-cultures.json",
+    "words": 45,
+    "materials": 35,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ]
+  },
+  {
+    "source": "Record-2026-11-19 10-48-45-20261119-104845",
+    "durationSeconds": 2662.76,
+    "segments": 1257,
+    "package": "marin-superstitions.json",
+    "words": 42,
+    "materials": 35,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ]
+  },
+  {
+    "source": "Record-2026-11-19 12-56-58-20261119-125658",
+    "durationSeconds": 7371.39,
+    "segments": 2172,
+    "package": "teaching-house-certainty.json",
+    "words": 42,
+    "materials": 47,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ]
+  },
+  {
+    "source": "Record-2026-11-19 19-41-38-20261119-194138",
+    "durationSeconds": 6132.12,
+    "segments": 1595,
+    "package": "ace-memory.json",
+    "words": 48,
+    "materials": 35,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ]
+  }
+]
