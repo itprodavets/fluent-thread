@@ -16,7 +16,7 @@
     "typescript": "7.0.2",
     "vite": "8.3.6"
   },
-  "name": "nit-rechi",
+  "name": "fluent-thread",
   "private": true,
   "type": "module",
   "scripts": {

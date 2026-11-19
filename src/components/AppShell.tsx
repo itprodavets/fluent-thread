@@ -11,7 +11,7 @@ export function AppShell({ page, children }: { page: Page; children: ReactNode }
   return <div className="app-shell">
     <a className="skip-link" href="#screen" onClick={event => { event.preventDefault(); document.getElementById('screen')?.focus(); }}>К содержимому</a>
     <aside className="sidebar">
-      <a className="brand" href="#today" aria-label="Нить речи — сегодня"><span className="brand-mark"><Icon name="map" /></span><span>нить речи<small>Твой язык. Твой ритм.</small></span></a>
+      <a className="brand" href="#today" aria-label="Fluent Thread — сегодня"><span className="brand-mark"><Icon name="map" /></span><span>Fluent Thread<small>Твой язык. Твой ритм.</small></span></a>
       <p className="nav-caption">ТВОЁ ПРОСТРАНСТВО</p>
       <nav className="primary-nav" aria-label="Основные разделы">{destinations.map(entry => <a key={entry} href={'#' + entry} aria-current={page === entry ? 'page' : undefined}>
         <Icon name={entry} /><span>{pages[entry]}</span>{page === entry && <i aria-hidden="true" />}
@@ -21,7 +21,7 @@ export function AppShell({ page, children }: { page: Page; children: ReactNode }
       <div className="sidebar-note"><ProfileSummary /></div>
     </aside>
     <div className="app-body">
-      <header className="topbar"><a className="mobile-brand brand" href="#today"><span className="brand-mark"><Icon name="map" /></span>нить речи</a>
+      <header className="topbar"><a className="mobile-brand brand" href="#today"><span className="brand-mark"><Icon name="map" /></span>Fluent Thread</a>
         <span className="breadcrumb">Моё пространство <span>/</span> <strong>{pages[page]}</strong></span>
         <div className="app-controls"><LanguageMenu /><a className="account-control" href="#profile" aria-current={page === 'profile' ? 'page' : undefined} aria-label="Профиль и синхронизация"><Icon name="account" /><span>Профиль</span></a></div>
       </header>

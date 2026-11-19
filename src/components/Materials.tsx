@@ -196,7 +196,7 @@ function ChatExchange({ source, setSource, onImported }: { source?: Resource; se
   }
   return <>
     <form onSubmit={submit} hidden={!!preview}>
-      <p className="sub">Выбери файл «Нити речи» или вставь JSON. Для замены старой версии выбери режим обновления.</p>
+      <p className="sub">Выбери файл Fluent Thread или вставь JSON. Для замены старой версии выбери режим обновления.</p>
       {source && <div className="actions"><span>{source.title}</span><button type="button" onClick={() => { setSource(undefined); setCommand(''); }}>Убрать материал</button></div>}
       <label>Куда добавить <TopicSelect value={selected} change={setTarget} fallback="Тема из файла" /></label>
       <section className="import-guide">
@@ -206,7 +206,7 @@ function ChatExchange({ source, setSource, onImported }: { source?: Resource; se
           <button type="button" onClick={prepare}>Скопировать запрос для ИИ</button>
           <button type="button" onClick={() => void copyText(JSON.stringify(chatPackageExample(study.language), null, 2), notify)}>Скопировать пример JSON</button>
         </div>
-        <Fold title="Формат файла · nit-rechi v1"><pre className="package-example">{JSON.stringify(chatPackageExample(study.language), null, 2)}</pre></Fold>
+        <Fold title="Формат файла · Fluent Thread v1"><pre className="package-example">{JSON.stringify(chatPackageExample(study.language), null, 2)}</pre></Fold>
       </section>
       {command && <label>Команда для чата <textarea readOnly value={command} rows={6} /></label>}
       <label>Файл из чата <input type="file" name="file" accept=".json,application/json" /></label>
