@@ -12,6 +12,7 @@ test('database scopes reads/writes to two identities and retries are idempotent'
       grant usage on schema auth to authenticated,anon;
       grant execute on function auth.uid() to authenticated,anon;`);
     await db.exec(readFileSync(new URL('../supabase/migrations/202611190001_profiles.sql',import.meta.url),'utf8'));
+    await db.exec(readFileSync(new URL('../supabase/migrations/202611200001_compact_journal.sql',import.meta.url),'utf8'));
     const a='00000000-0000-0000-0000-000000000001',b='00000000-0000-0000-0000-000000000002';
     await db.query('insert into auth.users values($1),($2)',[a,b]);
     await db.exec(`set role authenticated; set request.jwt.claim.sub='${a}';`);
