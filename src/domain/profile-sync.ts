@@ -12,7 +12,7 @@ const forbidden = (key: string) => ['__proto__', 'constructor', 'prototype'].inc
 export function emptyStudy(): Study {
   return { language: 'en', languages: { en: {} }, words: [], topics: [], resources: [], results: {} };
 }
-export function equal(a: Value, b: Value) { return JSON.stringify(a) === JSON.stringify(b); }
+export function equal(a: Value, b: Value) { return a === b || JSON.stringify(a) === JSON.stringify(b); }
 export function packStudy(study: Study): Record<string, Value> {
   const entries: [string, Value][] = [];
   for (const [field, value] of Object.entries(study)) {
@@ -78,14 +78,16 @@ export function pendingChanges(document: ProfileDocument): Change[] {
   const records = packStudy(document.study);
   return [...new Set([...Object.keys(records), ...Object.keys(document.base)])].flatMap(id => {
     const value = records[id] ?? null, before = document.base[id];
-    return equal(value, before?.value ?? null) ? [] : [{ id, value, expected: before?.revision ?? 0 }];
+    return (before ? equal(value, before.value) : value === null) ? [] : [{ id, value, expected: before?.revision ?? 0 }];
   });
 }
 export function reconcileRows(document: ProfileDocument, rows: CloudRow[], sent?: Map<string, Value>): ProfileDocument {
+  const incoming = rows.filter(row => !document.base[row.id] || row.revision > document.base[row.id].revision);
+  if (!incoming.length) return document;
   const records = packStudy(document.study);
   const base = { ...document.base }, conflicts = [...document.conflicts];
   let changed = false;
-  for (const row of rows) {
+  for (const row of incoming) {
     const before = base[row.id];
     if (before && row.revision <= before.revision) continue;
     const local = own(records, row.id) ? records[row.id] : null;

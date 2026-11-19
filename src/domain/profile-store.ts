@@ -36,7 +36,10 @@ export class ProfileStore {
       if (this.disposed) return false;
       const next = change(this.document);
       if (next === this.document) return true;
-      await this.persist(next);
+      // Cursor-only advances are checkpointed by the next durable write. Replayed rows
+      // are ignored by their persisted base revisions after a restart.
+      const keys = Object.keys({ ...this.document, ...next }) as (keyof StoredProfile)[];
+      if (keys.some(key => key !== 'cursor' && next[key] !== this.document[key])) await this.persist(next);
       this.document = next;
       if (!this.disposed) this.emit();
       return !this.disposed;
