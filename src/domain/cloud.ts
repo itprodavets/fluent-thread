@@ -1,15 +1,14 @@
 import { createClient } from '@supabase/supabase-js';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { SyncTransport } from './profile-store';
-const url = import.meta.env.VITE_SUPABASE_URL?.trim();
-const key = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY?.trim();
-function publicKey(value: string) {
-  if (value.startsWith('sb_publishable_')) return true;
-  try { return JSON.parse(atob(value.split('.')[1])).role === 'anon'; } catch { return false; }
-}
-export const cloudConfigured = Boolean(url && key && publicKey(key) && /^https:\/\/[a-z0-9.-]+(?::\d+)?\/?$/i.test(url));
-export const cloud: SupabaseClient | undefined = cloudConfigured ? createClient(url!, key!, {
-  auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true }
+import { readCloudSelection } from './cloud-config';
+const defaultUrl = import.meta.env.VITE_SUPABASE_URL?.trim();
+const defaultKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY?.trim();
+export const defaultCloudConfig = defaultUrl && defaultKey ? { url: defaultUrl, key: defaultKey } : undefined;
+export const cloudSelection = readCloudSelection({ getItem: key => localStorage.getItem(key) }, defaultCloudConfig);
+export const cloud: SupabaseClient | undefined = cloudSelection.config ? createClient(cloudSelection.config.url, cloudSelection.config.key, {
+  auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true,
+    storageKey: 'fluent-thread-auth:' + new URL(cloudSelection.config.url).origin }
 }) : undefined;
 export function cloudTransport(client: SupabaseClient, owner: string): SyncTransport {
   return {

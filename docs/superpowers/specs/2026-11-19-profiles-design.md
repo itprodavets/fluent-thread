@@ -15,3 +15,7 @@ Provision a Supabase project, apply the checked-in SQL, configure allowed redire
 ## Review decisions
 
 Use a per-owner Web Lock for one writer per browser profile; another tab waits and opens automatically after the first finishes pending persistence. Index record identity using a SHA-256 digest instead of the potentially long serialized word/translation ID; retain the full ID for round trips. Normalize missing counter trees during record reconciliation. These decisions were verified against the branch review findings.
+
+## User-approved extension: own Supabase project
+
+The Profile page can override the built-in project with an HTTPS Supabase URL and a publishable/anon key, or restore the default. A public RPC checks schema version without exposing user data before saving a connection. Administrative secrets are rejected. Invalid stored settings fail closed instead of silently redirecting data to another database. Auth sessions, IndexedDB caches, auxiliary local data and Web Locks are scoped by project origin plus verified Auth UUID. Switching project preserves old caches and durable outboxes, then reloads the app. Connection settings are device-local and must also be entered on another device using the custom backend. Each custom project requires its own schema and email delivery configuration.

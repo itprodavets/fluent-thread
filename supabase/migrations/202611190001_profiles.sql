@@ -81,3 +81,9 @@ end;
 $$;
 revoke all on function public.sync_study(jsonb, uuid, uuid) from public, anon;
 grant execute on function public.sync_study(jsonb, uuid, uuid) to authenticated;
+
+-- Public schema check returns only a version number, never profile data.
+create function public.fluent_thread_schema_version() returns integer
+language sql immutable set search_path = '' as $$ select 1; $$;
+revoke all on function public.fluent_thread_schema_version() from public;
+grant execute on function public.fluent_thread_schema_version() to anon, authenticated;

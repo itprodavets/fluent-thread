@@ -173,3 +173,8 @@
 .profile-warning { border-left: 3px solid #a77a35; padding: 10px 14px; background: #faf4e8; }
 .profile-conflict { border-top: 1px solid #d9e1d8; padding: 16px 0; }
 .profile-conflict pre { max-height: 280px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.cloud-settings > summary { cursor: pointer; font-weight: 650; font-size: 1.1rem; min-height: 44px; display: list-item; }
+.cloud-settings code { overflow-wrap: anywhere; }
+.cloud-settings ol { padding-left: 24px; line-height: 1.7; }
+.cloud-settings li + li { margin-top: 8px; }

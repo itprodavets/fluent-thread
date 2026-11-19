@@ -1,9 +1,10 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { User } from '@supabase/supabase-js';
-import { cloud, cloudTransport } from './domain/cloud';
+import { cloud, cloudSelection, cloudTransport } from './domain/cloud';
 import { loadProfile, saveProfile, setLocalOwner } from './domain/profile-storage';
 import { ProfileStore } from './domain/profile-store';
+import { profileOwner } from './domain/cloud-config';
 import { stopVoice } from './domain/voice.js';
 const AuthContext = createContext<{ user: User | null; loading: boolean; error: string }>({ user: null, loading: Boolean(cloud), error: '' });
 const StoreContext = createContext<ProfileStore | null>(null);
@@ -15,7 +16,8 @@ export function useProfileStore() {
 }
 export function Profiles({ children }: { children: (store: ProfileStore) => ReactNode }) {
   const [auth, setAuth] = useState<{ user: User | null; loading: boolean; error: string }>({user:null,loading:Boolean(cloud),error:''});
-  const owner = auth.user?.id ?? 'guest';
+  const userId = auth.user?.id;
+  const owner = userId && cloudSelection.config ? profileOwner(cloudSelection.config, userId) : 'guest';
   const [ready, setReady] = useState<ProfileStore>();
   const [error, setError] = useState('');
   useEffect(() => {
@@ -42,7 +44,7 @@ export function Profiles({ children }: { children: (store: ProfileStore) => Reac
       const document = await loadProfile(owner);
       if (!live) return;
       setLocalOwner(owner);
-      store = new ProfileStore(owner, document, next => saveProfile(owner, next), cloud && owner !== 'guest' ? cloudTransport(cloud, owner) : undefined);
+      store = new ProfileStore(owner, document, next => saveProfile(owner, next), cloud && owner !== 'guest' ? cloudTransport(cloud, userId!) : undefined);
       setReady(store);
       void store.sync();
       await hold;
@@ -60,7 +62,7 @@ export function Profiles({ children }: { children: (store: ProfileStore) => Reac
       if (store) void store.flush().finally(() => release?.());
       else release?.();
     };
-  }, [owner, auth.loading]);
+  }, [owner, auth.loading, userId]);
   return <AuthContext.Provider value={auth}>
     {error ? <main role="alert">{error}</main> : auth.loading || !ready || ready.owner !== owner ? <main role="status">Открываем профиль… Если он уже открыт в другой вкладке этого браузера, закрой её — данные загрузятся автоматически.</main>
       : <StoreContext.Provider value={ready}>{children(ready)}</StoreContext.Provider>}

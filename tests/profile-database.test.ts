@@ -36,6 +36,7 @@ test('database scopes reads/writes to two identities and retries are idempotent'
     await db.query('select sync_study($1,$2,auth.uid())',[longPatch,crypto.randomUUID()]);
     assert.equal((await db.query('select * from study_records where id=$1',[longId])).rows.length,1);
     await db.exec('reset role; set role anon;');
+    assert.equal((await db.query<any>('select fluent_thread_schema_version() as version')).rows[0].version,1);
     await assert.rejects(db.query('select * from study_records'));
     await assert.rejects(db.query('select sync_study($1,$2,auth.uid())',[patch,mutation]));
   } finally { await db.close(); }

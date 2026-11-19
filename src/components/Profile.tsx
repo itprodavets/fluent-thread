@@ -6,6 +6,7 @@ import { loadProfile } from '../domain/profile-storage';
 import { packStudy, unpackStudy } from '../domain/profile-sync';
 import { useWorkspace } from '../context';
 import { Heading } from './common';
+import { CloudSettings } from './CloudSettings';
 import { statusLabels } from './ProfileSummary';
 export function Profile() {
   const { user, error: authError } = useIdentity();
@@ -122,6 +123,7 @@ export function Profile() {
           <div className="actions"><button type="button" onClick={() => { void store.resolve(conflict.id,true).catch(() => notify('Не удалось сохранить выбор.')); }}>Использовать мой вариант</button><button type="button" onClick={() => { void store.resolve(conflict.id,false).catch(() => notify('Не удалось сохранить выбор.')); }}>Оставить облачный</button></div>
         </article>)}
       </section>}
+      <CloudSettings />
     </div>
   </>;
 }

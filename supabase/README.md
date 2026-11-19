@@ -19,3 +19,9 @@ The legacy guest vocabulary is preserved. Each signed-in owner gets an independe
 Concurrent edits are merged field-by-field; same-field alternatives are retained locally in the profile conflict panel and backup. The cloud value is used until an explicit choice. Initial large imports run in batches (200 records / approximately 6 MB maximum); oversized individual records stop sync with a visible message. Large vocabulary order lists are omitted; vocabulary content and progress are retained.
 
 Without public configuration the app remains usable locally and accurately states that cloud sync is not configured. Provisioning and real email/device checks remain separate from successful local tests.
+
+## Optional: connect a personal Supabase backend
+
+Open Profile → Своя база Supabase. Supply a project URL (HTTPS origin only) and a public publishable/anon key. Apply the migration and configure Auth/email delivery in that project first. The app checks the public `fluent_thread_schema_version()` RPC before saving the override. This RPC reveals only a version number; all study data remains protected by RLS.
+
+The override stays in this browser. Enter the same configuration on your other device to sync with that database. Restore the app default using the reset button. Project switching retains each project's per-user local cache, outbox and recording/history namespaces; it does not automatically copy vocabulary into another project. Auth storage and caches include the project origin, so even identical UUIDs in different projects cannot share data. Database passwords, secret keys and service_role keys must never be entered into this setting.
