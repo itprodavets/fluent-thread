@@ -4,7 +4,7 @@ import type { Page } from '../domain/model';
 import { LanguageMenu } from './Language';
 import { Icon } from './Icon';
 
-const destinations: Page[] = ['today', 'map', 'materials', 'schools', 'progress'];
+const destinations: Page[] = ['today', 'map', 'materials', 'resources', 'schools', 'progress'];
 
 export function AppShell({ page, children }: { page: Page; children: ReactNode }) {
   return <div className="app-shell">

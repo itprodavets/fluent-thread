@@ -263,6 +263,7 @@ export function Materials() {
   const skillPractice = useRef<HTMLElement>(null);
   const [panel, setPanel] = useState<'edit' | 'import' | 'archive'>();
   const [view, setView] = useState<'lessons' | 'reading' | 'library' | 'questions' | 'phrases' | 'mistakes'>(() => {
+    if (location.hash.startsWith('#materials/lesson/')) return 'lessons';
     if (location.hash === '#materials/reading') return 'reading';
     if (location.hash === dialogueMistakesHash) return 'mistakes';
     if (location.hash === lessonPhrasesHash) return 'phrases';
@@ -274,7 +275,7 @@ export function Materials() {
     phraseReviews(study, item.dialogues.flatMap(dialogue => dialogue.phrases), Date.now()).due.size)?.id ?? skills[0].id);
   const recentKey = 'nit-rechi:recent-lessons:' + study.language;
   const [recent, setRecent] = useState(() => readRecent(recentKey));
-  const [scene, setScene] = useState(recent[0]?.scene ?? '');
+  const [scene, setScene] = useState(location.hash.startsWith('#materials/lesson/') ? location.hash.slice('#materials/lesson/'.length) : recent[0]?.scene ?? '');
   const [lessonId, setLessonId] = useState(recent[0]?.dialogue ?? '');
   const [picker, setPicker] = useState<'recent' | 'schools' | 'skills'>(
     location.hash === skillPhrasesHash ? 'skills' : 'schools');

@@ -1,0 +1,463 @@
+{
+  "format": "nit-rechi",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "The Story of an Hour · свобода и неожиданные чувства",
+    "source": {
+      "school": "ESL-Bits · чтение и аудирование"
+    },
+    "prompt": "Объясни, как меняются чувства героини. Затем используй одну новую фразу в собственной ситуации."
+  },
+  "words": [
+    {
+      "title": "break the news",
+      "meaning": "сообщить важную, часто неприятную новость",
+      "example": "How can we break the news gently?"
+    },
+    {
+      "title": "as gently as possible",
+      "meaning": "как можно мягче, деликатнее",
+      "example": "She explained the problem as gently as possible."
+    },
+    {
+      "title": "a hint",
+      "meaning": "намёк",
+      "example": "He gave me a hint about the surprise."
+    },
+    {
+      "title": "reveal",
+      "meaning": "раскрыть, показать то, что было скрыто",
+      "example": "The final scene reveals a mistake."
+    },
+    {
+      "title": "grief",
+      "meaning": "горе, глубокая печаль; неисчисляемое",
+      "example": "People express grief in different ways."
+    },
+    {
+      "title": "weep",
+      "meaning": "плакать; литературнее, чем cry",
+      "example": "She began to weep."
+    },
+    {
+      "title": "exhaustion",
+      "meaning": "изнеможение, сильная усталость",
+      "example": "After the long journey, he felt complete exhaustion."
+    },
+    {
+      "title": "motionless",
+      "meaning": "неподвижный",
+      "example": "She sat motionless for a moment."
+    },
+    {
+      "title": "under her breath",
+      "meaning": "тихо, себе под нос",
+      "example": "She repeated the words under her breath."
+    },
+    {
+      "title": "over and over",
+      "meaning": "снова и снова",
+      "example": "I read the sentence over and over."
+    },
+    {
+      "title": "a glimpse",
+      "meaning": "мимолётный взгляд, короткая возможность увидеть",
+      "example": "The ending gives us a glimpse of another perspective."
+    },
+    {
+      "title": "be aware of",
+      "meaning": "осознавать, знать о чём-либо",
+      "example": "She became aware of a change in her feelings."
+    },
+    {
+      "title": "a sense of relief",
+      "meaning": "чувство облегчения",
+      "example": "I felt a sense of relief when the exam ended."
+    },
+    {
+      "title": "mixed feelings",
+      "meaning": "смешанные чувства",
+      "example": "I have mixed feelings about moving."
+    },
+    {
+      "title": "look forward to",
+      "meaning": "с нетерпением ждать; после to — существительное или -ing",
+      "example": "She looked forward to choosing her own future."
+    },
+    {
+      "title": "belong to",
+      "meaning": "принадлежать кому-либо",
+      "example": "The decision belongs to her."
+    },
+    {
+      "title": "live for yourself",
+      "meaning": "жить ради себя, самостоятельно определять жизнь",
+      "example": "She imagines what it would mean to live for herself."
+    },
+    {
+      "title": "impose something on someone",
+      "meaning": "навязывать что-то кому-то",
+      "example": "We shouldn’t impose our preferences on others."
+    },
+    {
+      "title": "a will",
+      "meaning": "воля; в другом контексте завещание",
+      "example": "The discussion focuses on personal will."
+    },
+    {
+      "title": "self-assertion",
+      "meaning": "самоутверждение, отстаивание своей воли",
+      "example": "The character experiences a moment of self-assertion."
+    },
+    {
+      "title": "freedom",
+      "meaning": "свобода",
+      "example": "What does freedom mean to the character?"
+    },
+    {
+      "title": "independence",
+      "meaning": "самостоятельность, независимость",
+      "example": "Independence matters to her."
+    },
+    {
+      "title": "a turning point",
+      "meaning": "поворотный момент",
+      "example": "The private realisation is a turning point."
+    },
+    {
+      "title": "come to realise",
+      "meaning": "постепенно осознать",
+      "example": "She comes to realise what she wants."
+    },
+    {
+      "title": "at first",
+      "meaning": "сначала",
+      "example": "At first, I understood the scene differently."
+    },
+    {
+      "title": "at length",
+      "meaning": "наконец; после некоторого времени, литературное",
+      "example": "At length, she opened the door."
+    },
+    {
+      "title": "unexpectedly",
+      "meaning": "неожиданно",
+      "example": "The visitor arrived unexpectedly."
+    },
+    {
+      "title": "a misunderstanding",
+      "meaning": "недоразумение, неверное понимание",
+      "example": "The story begins with a misunderstanding."
+    },
+    {
+      "title": "an assumption",
+      "meaning": "предположение",
+      "example": "The ending challenges the reader’s assumption."
+    },
+    {
+      "title": "an interpretation",
+      "meaning": "интерпретация, способ понять текст",
+      "example": "Can you support your interpretation?"
+    },
+    {
+      "title": "evidence from the text",
+      "meaning": "подтверждение в тексте",
+      "example": "Give evidence from the text for your answer."
+    },
+    {
+      "title": "the narrator",
+      "meaning": "повествователь",
+      "example": "The narrator lets us follow her thoughts."
+    },
+    {
+      "title": "a contrast",
+      "meaning": "контраст, противопоставление",
+      "example": "Notice the contrast between the room and the outside world."
+    },
+    {
+      "title": "irony",
+      "meaning": "ирония, расхождение буквального смысла и подразумеваемого",
+      "example": "The final explanation invites an ironic reading."
+    },
+    {
+      "title": "take something at face value",
+      "meaning": "понимать буквально, принимать без проверки",
+      "example": "Should we take the final explanation at face value?"
+    },
+    {
+      "title": "leave room for",
+      "meaning": "оставлять место, возможность для чего-либо",
+      "example": "The text leaves room for more than one interpretation."
+    },
+    {
+      "title": "be taken aback",
+      "meaning": "быть застигнутым врасплох, сильно удивиться",
+      "example": "I was taken aback by the ending."
+    },
+    {
+      "title": "from her point of view",
+      "meaning": "с её точки зрения",
+      "example": "Describe the event from her point of view."
+    },
+    {
+      "title": "break the news gently",
+      "meaning": "сообщить новость деликатно",
+      "example": "Could you break the news as gently as possible?"
+    },
+    {
+      "title": "I have mixed feelings about it.",
+      "meaning": "У меня смешанные чувства по этому поводу.",
+      "example": "I have mixed feelings about moving to another city."
+    },
+    {
+      "title": "That came as a surprise.",
+      "meaning": "Это оказалось неожиданностью.",
+      "example": "The change in her mood came as a surprise."
+    },
+    {
+      "title": "I felt a sense of relief.",
+      "meaning": "Я почувствовал облегчение.",
+      "example": "I felt a sense of relief when I finished the task."
+    },
+    {
+      "title": "It seems to me that …",
+      "meaning": "Мне кажется, что …",
+      "example": "It seems to me that the ending questions the doctors’ explanation."
+    },
+    {
+      "title": "From her point of view, …",
+      "meaning": "С её точки зрения, …",
+      "example": "From her point of view, the future has suddenly changed."
+    },
+    {
+      "title": "The text suggests that …",
+      "meaning": "Текст позволяет предположить, что …",
+      "example": "The text suggests that her feelings are more complicated."
+    },
+    {
+      "title": "What makes you think that?",
+      "meaning": "Почему ты так думаешь?",
+      "example": "What makes you think that the window is important?"
+    },
+    {
+      "title": "I wouldn’t take that at face value.",
+      "meaning": "Я бы не принимал это буквально или без проверки.",
+      "example": "I wouldn’t take the final explanation at face value."
+    },
+    {
+      "title": "That leaves room for another interpretation.",
+      "meaning": "Это допускает другое толкование.",
+      "example": "That leaves room for another interpretation of the ending."
+    }
+  ],
+  "materials": [
+    {
+      "kind": "media",
+      "title": "Оригинал · текст и аудио на ESL-Bits",
+      "url": "https://esl-bits.eu/ESL.English.Listening.Short.Stories/Kate.Chopin/An.Hour/design.html",
+      "text": "Kate Chopin, The Story of an Hour. Оригинальный рассказ и аудио открываются на ESL-Bits. Длительность в каталоге — около 7 минут. Сначала прочитай или прослушай рассказ, затем открой разбор и вопросы.",
+      "prompt": "После первого чтения расскажи, что изменилось в чувствах героини."
+    },
+    {
+      "kind": "reading",
+      "title": "Как работать с рассказом",
+      "text": "Сначала открой оригинал по ссылке и прочитай или прослушай его до конца. Затем вернись к вопросам и учебным версиям. Дальнейшие материалы раскрывают сюжет.\n\n1. Первый проход — общий смысл. Кто получает новость? Как меняется настроение? Чем заканчивается история?\n2. Второй проход — детали. Найди момент перемены и выпиши одну фразу, которая его показывает.\n3. Выбери уровень адаптированного пересказа A1–C2. Оригинал написан литературным языком и отличается от этих учебных версий.\n4. Вспомни 5–8 выражений по русской подсказке, открой ответ, оцени себя. Забытые вернутся через 10 минут.\n5. Перескажи историю за одну минуту, затем объясни своё понимание концовки.\n6. Придумай свою ситуацию с mixed feelings, a sense of relief и come to realise.\n\nОзвучивание внутри «Нити речи» использует голос устройства. Запись рассказа слушай по ссылке на ESL-Bits.\n"
+    },
+    {
+      "kind": "reading",
+      "title": "Пересказ со спойлерами · A1",
+      "text": "Louise hears sad news. She cries. Then she is alone and thinks about her future. Her husband comes home alive. Louise dies. The ending is a surprise.",
+      "translation": "Луиза слышит печальную новость. Она плачет. Затем остаётся одна и думает о будущем. Муж возвращается домой живым. Луиза умирает. Концовка неожиданна."
+    },
+    {
+      "kind": "reading",
+      "title": "Пересказ со спойлерами · A2",
+      "text": "Louise is told that her husband has died. At first she is very sad. Alone in her room, she starts to imagine a life of her own. When her husband returns alive, she dies. Other people think they know why.",
+      "translation": "Луизе сообщают, что её муж погиб. Сначала она очень печальна. Одна в комнате она начинает представлять самостоятельную жизнь. Когда муж возвращается живым, она умирает. Другие люди думают, что понимают причину."
+    },
+    {
+      "kind": "reading",
+      "title": "Пересказ со спойлерами · B1",
+      "text": "Louise Mallard receives news that her husband has died in an accident. After crying, she goes to her room alone. Looking through an open window, she gradually feels a sense of freedom and begins to imagine making her own choices. Her husband unexpectedly returns, having been nowhere near the accident. Louise dies, and the doctors explain her death as a result of joy. The reader has been allowed to see feelings the doctors do not know about.",
+      "translation": "Луиза Маллард узнаёт о предполагаемой гибели мужа. Поплакав, она уходит одна в комнату. Через открытое окно смотрит наружу и постепенно ощущает свободу, представляя собственные решения. Муж неожиданно возвращается: его рядом с аварией не было. Луиза умирает, и врачи объясняют это радостью. Читатель же знает о чувствах, которых врачи не видели."
+    },
+    {
+      "kind": "reading",
+      "title": "Пересказ со спойлерами · B2",
+      "text": "The story follows Louise Mallard during the hour after she hears that her husband has been killed. Her grief gives way to an unexpected awareness of independence. She does not imagine that she will never mourn him again, but she welcomes the prospect of a future that belongs to her. When he returns alive, that imagined future collapses. The doctors’ explanation of her death conflicts with the private emotional experience the narrator has revealed, inviting the reader to question their interpretation.",
+      "translation": "Рассказ прослеживает час после известия о предполагаемой гибели мужа Луизы Маллард. Горе сменяется неожиданным осознанием независимости. Она понимает, что ещё будет оплакивать его, но приветствует возможность будущего, принадлежащего ей. Возвращение мужа разрушает это воображаемое будущее. Объяснение врачей расходится с известным читателю внутренним переживанием и побуждает поставить их интерпретацию под вопрос."
+    },
+    {
+      "kind": "reading",
+      "title": "Пересказ со спойлерами · C1",
+      "text": "Chopin creates a gap between public knowledge and private experience. Louise’s relatives see a vulnerable woman who must be protected, while the narrator gives the reader access to a desire she can barely name at first. The spring imagery supports the emergence of possibility, and the husband’s return reverses it abruptly. Her response is complex: affection and grief coexist with a powerful wish for self-determination. The final medical explanation is therefore open to an ironic reading rather than a straightforward acceptance.",
+      "translation": "Шопен создаёт разрыв между общим знанием и внутренним опытом. Близкие видят уязвимую женщину, которую нужно оберегать; повествователь открывает читателю желание, которое она сначала едва может назвать. Весенние образы поддерживают ощущение возможностей, резко исчезающее с возвращением мужа. Привязанность и горе сосуществуют с желанием самостоятельно определять жизнь. Поэтому объяснение врачей допускает ироническое прочтение."
+    },
+    {
+      "kind": "reading",
+      "title": "Пересказ со спойлерами · C2",
+      "text": "The narrative’s force depends on the unequal distribution of knowledge. What appears externally to be an episode of bereavement becomes, from within Louise’s consciousness, an unstable opening onto self-possession. The returning husband overturns the report of his death without simply cancelling the emotional truth of the intervening hour. The closing diagnosis offers social certainty where the narration has exposed a more difficult conflict between attachment and autonomy. An interpretation can account for that irony without claiming medical certainty about the precise cause of her death.",
+      "translation": "Сила повествования связана с неравным распределением знания. Внешне переживание утраты изнутри сознания Луизы становится непрочным открытием собственного права на жизнь. Возвращение мужа опровергает сообщение о смерти, но не отменяет эмоциональной правды прошедшего часа. Заключительный диагноз предлагает социально понятную уверенность там, где текст показал трудный конфликт привязанности и автономии. Иронию можно объяснить, не заявляя медицинской определённости о точной причине смерти."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить чувства и концовку · A1",
+      "text": "Partner: Is Louise sad?\n\nYou: Yes. She hears bad news.\n\nPartner: Is the ending happy?\n\nYou: No. It is a surprise.",
+      "translation": "Собеседник: Луизе грустно?\n\nТы: Да, она слышит плохую новость.\n\nСобеседник: Концовка счастливая?\n\nТы: Нет, она неожиданна.",
+      "prompt": "Ответь за читателя своими словами. Объясни одну перемену в чувствах героини и приведи пример из рассказа."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить чувства и концовку · A1",
+      "prompt": "Is Louise’s husband alive at the end?",
+      "answer": "Yes. He comes home alive."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить чувства и концовку · A2",
+      "text": "Partner: What changes when she is alone?\n\nYou: She starts to think about a new life.\n\nPartner: Does her husband come back?\n\nYou: Yes, he is alive.",
+      "translation": "Собеседник: Что меняется, когда она одна?\n\nТы: Она начинает думать о новой жизни.\n\nСобеседник: Муж возвращается?\n\nТы: Да, он жив.",
+      "prompt": "Ответь за читателя своими словами. Объясни одну перемену в чувствах героини и приведи пример из рассказа."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить чувства и концовку · A2",
+      "prompt": "What does Louise do after she hears the news?",
+      "answer": "She cries. Then she goes to her room alone and looks out of an open window."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить чувства и концовку · B1",
+      "text": "Partner: Why does she have mixed feelings?\n\nYou: She is sad about her husband, but she also imagines being free.\n\nPartner: What surprised you?\n\nYou: The ending. The doctors don’t know what she was thinking.",
+      "translation": "Собеседник: Почему у неё смешанные чувства?\n\nТы: Она печалится о муже, но представляет свободу.\n\nСобеседник: Что удивило?\n\nТы: Концовка. Врачи не знают, о чём она думала.",
+      "prompt": "Ответь за читателя своими словами. Объясни одну перемену в чувствах героини и приведи пример из рассказа."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить чувства и концовку · B1",
+      "prompt": "Why does Louise have mixed feelings?",
+      "answer": "She feels sad about her husband, but she also begins to imagine an independent future."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить чувства и концовку · B2",
+      "text": "Partner: How do you interpret the final explanation?\n\nYou: I wouldn’t take it at face value. We know more about her feelings than the doctors do.\n\nPartner: What supports that reading?\n\nYou: She had begun to welcome a future that would belong to her.",
+      "translation": "Собеседник: Как понимаешь заключительное объяснение?\n\nТы: Я бы не принимал его буквально. Мы знаем о её чувствах больше врачей.\n\nСобеседник: Что подтверждает это прочтение?\n\nТы: Она начала приветствовать будущее, которое принадлежало бы ей.",
+      "prompt": "Ответь за читателя своими словами. Объясни одну перемену в чувствах героини и приведи пример из рассказа."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить чувства и концовку · B2",
+      "prompt": "Why might the reader question the doctors’ explanation?",
+      "answer": "The reader knows that Louise has begun to welcome her independence. The doctors have not been shown her private thoughts."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить чувства и концовку · C1",
+      "text": "Partner: Does her sense of relief mean she never loved him?\n\nYou: I don’t think the text supports such a simple conclusion. She recognises both affection and a desire for independence.\n\nPartner: Why is the open window significant?\n\nYou: It connects her private realisation with images of life and possibility.",
+      "translation": "Собеседник: Облегчение означает, что она никогда его не любила?\n\nТы: Текст не поддерживает настолько простой вывод. Есть и привязанность, и желание независимости.\n\nСобеседник: Чем важно открытое окно?\n\nТы: Оно связывает её внутреннее открытие с образами жизни и возможностей.",
+      "prompt": "Ответь за читателя своими словами. Объясни одну перемену в чувствах героини и приведи пример из рассказа."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить чувства и концовку · C1",
+      "prompt": "How does the open window contribute to the story’s meaning?",
+      "answer": "The images of spring, fresh air and new life echo Louise’s growing sense of possibility, making the outside world a counterpart to her private realisation."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обсудить чувства и концовку · C2",
+      "text": "Partner: How far can we press the irony of the ending?\n\nYou: Far enough to question the diagnosis, though not to replace it with unwarranted medical certainty.\n\nPartner: What does that leave us with?\n\nYou: A tension between the socially legible explanation and the experience the narrator has made available only to the reader.",
+      "translation": "Собеседник: Насколько далеко можно идти в ироническом прочтении концовки?\n\nТы: Достаточно, чтобы поставить диагноз под вопрос, но без необоснованной медицинской уверенности.\n\nСобеседник: Что остаётся?\n\nТы: Противоречие между социально понятным объяснением и опытом, который повествователь открыл только читателю.",
+      "prompt": "Ответь за читателя своими словами. Объясни одну перемену в чувствах героини и приведи пример из рассказа."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обсудить чувства и концовку · C2",
+      "prompt": "How does the contrast between the narrator’s perspective and the final diagnosis create irony?",
+      "answer": "The reader has access to Louise’s private experience, whereas the diagnosis imposes a socially conventional account. The discrepancy undermines that account without establishing a medically certain alternative."
+    },
+    {
+      "kind": "reading",
+      "title": "Полезные фразы · фразы для обсуждения рассказа",
+      "text": "Фразы для обсуждения рассказа. Примеры составлены для практики.\n\nФраза 1 · break the news gently\nПеревод: сообщить новость деликатно\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: Could you break the news as gently as possible?\n\nФраза 2 · I have mixed feelings about it.\nПеревод: У меня смешанные чувства по этому поводу.\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: I have mixed feelings about moving to another city.\n\nФраза 3 · That came as a surprise.\nПеревод: Это оказалось неожиданностью.\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: The change in her mood came as a surprise.\n\nФраза 4 · I felt a sense of relief.\nПеревод: Я почувствовал облегчение.\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: I felt a sense of relief when I finished the task.\n\nФраза 5 · It seems to me that …\nПеревод: Мне кажется, что …\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: It seems to me that the ending questions the doctors’ explanation.\n\nФраза 6 · From her point of view, …\nПеревод: С её точки зрения, …\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: From her point of view, the future has suddenly changed.\n\nФраза 7 · The text suggests that …\nПеревод: Текст позволяет предположить, что …\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: The text suggests that her feelings are more complicated.\n\nФраза 8 · What makes you think that?\nПеревод: Почему ты так думаешь?\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: What makes you think that the window is important?\n\nФраза 9 · I wouldn’t take that at face value.\nПеревод: Я бы не принимал это буквально или без проверки.\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: I wouldn’t take the final explanation at face value.\n\nФраза 10 · That leaves room for another interpretation.\nПеревод: Это допускает другое толкование.\nКонструкция: Применяй в обсуждении текста или собственной ситуации.\nТвой пример для практики: That leaves room for another interpretation of the ending."
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · события, мысли и предположения",
+      "text": "Past Simple для событий: She heard the news and went upstairs.\nPast Continuous для фона и процесса: She was looking out of the window when her feelings began to change.\nPast Perfect для более раннего прошлого: Richards had received a report before he came to the house.\nFuture in the past: She imagined that she would live for herself. Would здесь передаёт будущее из прошлой точки зрения.\nLook forward to + -ing: She looked forward to making her own choices.\nThe text suggests ... / may / might / seems ... помогают отделить интерпретацию от прямого факта.\nLove и grief могут сосуществовать с relief. Выбор одного слова не описывает всё переживание.\n"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Проверить последовательность",
+      "prompt": "Put these events in order: A Louise thinks about independence. B Her husband returns. C She hears the report. D She goes to her room.",
+      "answer": "C → D → A → B."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Различить факт и толкование",
+      "prompt": "Mark each as a stated event or an interpretation: 1 Her husband returns alive. 2 The window represents new possibilities. 3 The doctors explain her death as joy.",
+      "answer": "1 Stated event. 2 Interpretation supported by the imagery. 3 Stated explanation by the doctors; the explanation itself can be questioned."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Past Perfect",
+      "prompt": "Complete: Richards ___ (receive) the report before he came to the house.",
+      "answer": "Richards had received the report before he came to the house."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Будущее из прошлого",
+      "prompt": "Complete: She imagined that she ___ (live) for herself.",
+      "answer": "She imagined that she would live for herself."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Look forward to",
+      "prompt": "Correct: She looked forward to make her own choices.",
+      "answer": "She looked forward to making her own choices."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Облегчение и смешанные чувства",
+      "prompt": "Describe a real or imagined change that caused both sadness and relief. Use mixed feelings and a sense of relief.",
+      "answer": "Example: I had mixed feelings about leaving my old job. I would miss my colleagues, but I felt a sense of relief about the shorter commute."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Мягко возразить",
+      "prompt": "Your partner says the story proves Louise never loved her husband. Respond politely and point to the complexity of her feelings.",
+      "answer": "I see why you might think that, but I don’t think the text supports such a simple conclusion. She remembers affection as well as a desire for independence."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Обосновать толкование",
+      "prompt": "Why might a reader question the final explanation? Give one reason based on the story.",
+      "answer": "The narrator has shown Louise imagining an independent future. That gives the reader information the doctors do not have."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Пересказать кратко",
+      "prompt": "Retell the story in four sentences: the news, the private change, the return, the ending.",
+      "answer": "Louise hears that her husband has died. Alone in her room, she imagines a life of her own. He unexpectedly returns alive. She dies, and the doctors give an explanation that the reader may question."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Перенести фразу в жизнь",
+      "prompt": "Use come to realise and from my point of view in two sentences about learning English.",
+      "answer": "I’ve come to realise that I need to use new phrases in conversation. From my point of view, a short daily routine is easier to maintain."
+    },
+    {
+      "kind": "reading",
+      "title": "Словарь рассказа · выражения с примерами",
+      "text": "break the news — сообщить важную, часто неприятную новость\nHow can we break the news gently?\n\nas gently as possible — как можно мягче, деликатнее\nShe explained the problem as gently as possible.\n\na hint — намёк\nHe gave me a hint about the surprise.\n\nreveal — раскрыть, показать то, что было скрыто\nThe final scene reveals a mistake.\n\ngrief — горе, глубокая печаль; неисчисляемое\nPeople express grief in different ways.\n\nweep — плакать; литературнее, чем cry\nShe began to weep.\n\nexhaustion — изнеможение, сильная усталость\nAfter the long journey, he felt complete exhaustion.\n\nmotionless — неподвижный\nShe sat motionless for a moment.\n\nunder her breath — тихо, себе под нос\nShe repeated the words under her breath.\n\nover and over — снова и снова\nI read the sentence over and over.\n\na glimpse — мимолётный взгляд, короткая возможность увидеть\nThe ending gives us a glimpse of another perspective.\n\nbe aware of — осознавать, знать о чём-либо\nShe became aware of a change in her feelings.\n\na sense of relief — чувство облегчения\nI felt a sense of relief when the exam ended.\n\nmixed feelings — смешанные чувства\nI have mixed feelings about moving.\n\nlook forward to — с нетерпением ждать; после to — существительное или -ing\nShe looked forward to choosing her own future.\n\nbelong to — принадлежать кому-либо\nThe decision belongs to her.\n\nlive for yourself — жить ради себя, самостоятельно определять жизнь\nShe imagines what it would mean to live for herself.\n\nimpose something on someone — навязывать что-то кому-то\nWe shouldn’t impose our preferences on others.\n\na will — воля; в другом контексте завещание\nThe discussion focuses on personal will.\n\nself-assertion — самоутверждение, отстаивание своей воли\nThe character experiences a moment of self-assertion.\n\nfreedom — свобода\nWhat does freedom mean to the character?\n\nindependence — самостоятельность, независимость\nIndependence matters to her.\n\na turning point — поворотный момент\nThe private realisation is a turning point.\n\ncome to realise — постепенно осознать\nShe comes to realise what she wants.\n\nat first — сначала\nAt first, I understood the scene differently.\n\nat length — наконец; после некоторого времени, литературное\nAt length, she opened the door.\n\nunexpectedly — неожиданно\nThe visitor arrived unexpectedly.\n\na misunderstanding — недоразумение, неверное понимание\nThe story begins with a misunderstanding.\n\nan assumption — предположение\nThe ending challenges the reader’s assumption.\n\nan interpretation — интерпретация, способ понять текст\nCan you support your interpretation?\n\nevidence from the text — подтверждение в тексте\nGive evidence from the text for your answer.\n\nthe narrator — повествователь\nThe narrator lets us follow her thoughts.\n\na contrast — контраст, противопоставление\nNotice the contrast between the room and the outside world.\n\nirony — ирония, расхождение буквального смысла и подразумеваемого\nThe final explanation invites an ironic reading.\n\ntake something at face value — понимать буквально, принимать без проверки\nShould we take the final explanation at face value?\n\nleave room for — оставлять место, возможность для чего-либо\nThe text leaves room for more than one interpretation.\n\nbe taken aback — быть застигнутым врасплох, сильно удивиться\nI was taken aback by the ending.\n\nfrom her point of view — с её точки зрения\nDescribe the event from her point of view.\n\nbreak the news gently — сообщить новость деликатно\nCould you break the news as gently as possible?\n\nI have mixed feelings about it. — У меня смешанные чувства по этому поводу.\nI have mixed feelings about moving to another city.\n\nThat came as a surprise. — Это оказалось неожиданностью.\nThe change in her mood came as a surprise.\n\nI felt a sense of relief. — Я почувствовал облегчение.\nI felt a sense of relief when I finished the task.\n\nIt seems to me that … — Мне кажется, что …\nIt seems to me that the ending questions the doctors’ explanation.\n\nFrom her point of view, … — С её точки зрения, …\nFrom her point of view, the future has suddenly changed.\n\nThe text suggests that … — Текст позволяет предположить, что …\nThe text suggests that her feelings are more complicated.\n\nWhat makes you think that? — Почему ты так думаешь?\nWhat makes you think that the window is important?\n\nI wouldn’t take that at face value. — Я бы не принимал это буквально или без проверки.\nI wouldn’t take the final explanation at face value.\n\nThat leaves room for another interpretation. — Это допускает другое толкование.\nThat leaves room for another interpretation of the ending."
+    },
+    {
+      "kind": "reading",
+      "title": "Источники и учебные версии",
+      "text": "Оригинальный рассказ Kate Chopin опубликован в 1894 году. Для проверки сюжета использован текст Kate Chopin International Society. Пересказы, переводы, диалоги и упражнения составлены для «Нити речи». Оценки A1–C2 обозначают ориентировочную сложность учебных версий. Вопрос о причине смерти рассматривается как литературная интерпретация.",
+      "url": "https://www.katechopin.org/story-hour/"
+    }
+  ]
+}

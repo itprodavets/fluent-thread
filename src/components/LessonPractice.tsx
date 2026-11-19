@@ -126,8 +126,8 @@ export function LessonPractice({ resources, topicId, openPhrases }: { resources:
   const { teacher, grammar, exercises } = lessonPractice(resources, topicId);
   if (!teacher.length && !grammar.length && !exercises.length) return null;
   return <section className="resource lesson-practice" aria-labelledby={id}>
-    <h3 id={id}>Реплики преподавателя и грамматика</h3>
-    {!!teacher.length && <Fold title="Фразы преподавателя" open={openPhrases}>
+    <h3 id={id}>Полезные фразы и грамматика</h3>
+    {!!teacher.length && <Fold title={teacher.some(item => item.title.startsWith('Полезные фразы ·')) ? 'Фразы для практики' : 'Фразы преподавателя'} open={openPhrases}>
       {teacher.map(material => {
         const cards = teacherPhraseCards(material.text).map(card => ({ ...card, topicId }));
         return <div key={material.id}>

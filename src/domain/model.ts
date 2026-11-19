@@ -97,9 +97,9 @@ export interface Study {
 }
 
 export type PracticeItem = Word | Topic | Resource;
-export type Page = 'today' | 'practice' | 'map' | 'materials' | 'schools' | 'progress' | 'account';
+export type Page = 'today' | 'practice' | 'map' | 'materials' | 'schools' | 'resources' | 'progress' | 'account';
 export const pages: Record<Page, string> = {
-  today: 'Сегодня', practice: 'Практика', map: 'Карта тем', materials: 'Материалы', schools: 'Школы и курсы', progress: 'Прогресс', account: 'Мои слова'
+  today: 'Сегодня', practice: 'Практика', map: 'Карта тем', materials: 'Материалы', schools: 'Школы и курсы', resources: 'Ресурсы', progress: 'Прогресс', account: 'Мои слова'
 };
 
 export const kinds: Record<MaterialKind, { label: string; action: string; prompt: string }> = {

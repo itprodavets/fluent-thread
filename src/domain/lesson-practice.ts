@@ -5,7 +5,7 @@ export function lessonPractice(resources: Resource[], topicId: string) {
   const reading = (prefix: string) => resources.filter(item =>
     item.topicId === topicId && item.kind === 'reading' && item.title.startsWith(prefix) && item.text.trim());
   return {
-    teacher: reading('Реплики преподавателя ·'),
+    teacher: [...reading('Реплики преподавателя ·'), ...reading('Полезные фразы ·')],
     grammar: reading('Грамматика урока ·'),
     exercises: resources.filter(item => item.topicId === topicId && item.kind === 'exercise'
       && item.title.startsWith('Грамматика ·') && item.prompt && item.answer)
@@ -16,10 +16,11 @@ export function teacherPhraseCards(text: string) {
   return text.split(/\n\s*\n/).flatMap(block => {
     const [header, translation, pattern, example] = block.trim().split('\n').map(line => line.trim());
     const match = /^(\d{2}:\d{2}(?::\d{2})?(?:[–-]\d{2}:\d{2}(?::\d{2})?)?)\s+·\s+(.+)$/.exec(header);
-    if (!match || !translation?.startsWith('Перевод: ')) return [];
+    const numbered = /^Фраза \d+\s+·\s+(.+)$/.exec(header);
+    if ((!match && !numbered) || !translation?.startsWith('Перевод: ')) return [];
     return [{
-      time: match[1],
-      phrase: match[2],
+      time: match?.[1],
+      phrase: match?.[2] ?? numbered![1],
       meaning: translation.slice('Перевод: '.length),
       pattern: pattern?.replace(/^Конструкция:\s*/, '') ?? '',
       example: example?.replace(/^Твой пример для практики:\s*/, '') ?? ''
@@ -81,6 +82,6 @@ export function phraseReviews(study: Study, cards: PhraseCard[], now: number) {
 
 export function teacherPhraseReviews(study: Study, now: number) {
   const cards = study.resources.filter(source => source.language === study.language &&
-    source.kind === 'reading' && source.title.startsWith('Реплики преподавателя ·')).flatMap(source => teacherPhraseCards(source.text));
+    source.kind === 'reading' && (source.title.startsWith('Реплики преподавателя ·') || source.title.startsWith('Полезные фразы ·'))).flatMap(source => teacherPhraseCards(source.text));
   return phraseReviews(study, cards, now);
 }
