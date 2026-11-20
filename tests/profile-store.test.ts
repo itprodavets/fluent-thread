@@ -23,9 +23,10 @@ test('failed network keeps durable outbox; retry does not overwrite later local 
   assert.equal(saved.outbox,undefined); store.dispose();
 });
 test('switching accounts rejects old writes and late cloud replies', async () => {
-  let finish!:(rows:any[])=>void;
-  const store=new ProfileStore('a',fresh(),async()=>{}, {pull:()=>new Promise(resolve=>{finish=resolve;}),push:async()=>({applied:[],conflicts:[]})});
-  const run=store.sync(); store.dispose();
+  let finish!:(rows:any[])=>void, started!:()=>void;
+  const ready=new Promise<void>(resolve=>{started=resolve;});
+  const store=new ProfileStore('a',fresh(),async()=>{}, {pull:()=>new Promise(resolve=>{finish=resolve;started();}),push:async()=>({applied:[],conflicts:[]})});
+  const run=store.sync(); await ready; store.dispose();
   assert.equal(await store.update(s=>({...s,profileName:'wrong'})),false);
   finish([{id:JSON.stringify(['field','profileName']),value:'old account',revision:1}]);
   await run; assert.equal(store.getStudy().profileName,undefined);
@@ -89,10 +90,12 @@ test('a temporary policy failure pauses transport without losing outbox or local
   const doc=fresh();
   doc.study.profileName='Before';
   doc.outbox={mutation:crypto.randomUUID(),changes:[{id:'["field","profileName"]',value:'Before',expected:0}]};
-  let finish!:(reply:any)=>void;
-  const transport:SyncTransport={pull:async()=>[],push:()=>new Promise(resolve=>{finish=resolve;})};
+  let finish!:(reply:any)=>void, started!:()=>void;
+  const ready=new Promise<void>(resolve=>{started=resolve;});
+  const transport:SyncTransport={pull:async()=>[],push:()=>new Promise(resolve=>{finish=resolve;started();})};
   const store=new ProfileStore('same-owner',doc,async()=>{},transport);
   const running=store.sync();
+  await ready;
   store.setTransport(undefined);
   await store.update(s=>({...s,profileName:'Offline edit'}));
   finish({applied:[{id:'["field","profileName"]',value:'Before',revision:1}],conflicts:[]});

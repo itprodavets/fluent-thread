@@ -62,8 +62,8 @@ function App({ store }: { store: ProfileStore }) {
   }, []);
 
   const update = useCallback((change: (current: Study) => Study) => {
-    return store.update(change).catch(() => {
-      notify('Не удалось сохранить изменения. Проверь доступное место в браузере.');
+    return store.update(change).catch(error => {
+      notify(error instanceof Error ? error.message : 'Не удалось сохранить изменения. Проверь доступное место в браузере.');
       return false;
     });
   }, [store]);

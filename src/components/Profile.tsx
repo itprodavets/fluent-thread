@@ -47,10 +47,23 @@ export function Profile() {
   async function signOut() {
     if (!cloud) return; setBusy(true);
     try {
-      await store.flush();
+      const saved = await store.saveBeforeClosing();
+      if (storageMode !== 'local' && saved.state !== 'synced') { setMessage('Изменения сохранены на устройстве, но ещё не отправлены в облако. Восстанови связь и повтори выход.'); return; }
       const { error } = await cloud.auth.signOut({ scope: 'local' });
       if (error) throw error;
     } catch { setMessage('Не удалось выйти. Попробуй ещё раз.'); }
+    finally { setBusy(false); }
+  }
+  async function saveBeforeClosing() {
+    setBusy(true); setMessage('Сохраняем изменения…');
+    try {
+      const saved = await store.saveBeforeClosing();
+      setMessage(storageMode === 'cloud' && saved.state === 'synced'
+        ? 'Всё сохранено и синхронизировано. Можно закрыть вкладку и продолжить на другом устройстве.'
+        : storageMode === 'local'
+          ? 'Всё сохранено на этом устройстве. Можно закрыть вкладку. Для переноса на другое устройство нужна резервная копия или своя база.'
+          : 'Изменения сохранены на устройстве. Облачная синхронизация пока не завершена — дождись подключения перед переходом на другое устройство.');
+    } catch (error) { setMessage(error instanceof Error ? error.message : 'Не удалось закончить сохранение. Оставь вкладку открытой и повтори попытку.'); }
     finally { setBusy(false); }
   }
   async function importGuest() {
@@ -108,9 +121,11 @@ export function Profile() {
         <p>{study.words.length.toLocaleString('ru')} слов и выражений · {Object.keys(study.results).length.toLocaleString('ru')} записей прогресса</p>
         <div className="actions">
           {user && storageMode === 'cloud' && <button type="button" disabled={status.state === 'syncing'} onClick={() => { void store.sync(); }}>Синхронизировать сейчас</button>}
+          <button type="button" disabled={busy} onClick={() => void saveBeforeClosing()}>{busy ? 'Сохраняем…' : 'Сохранить перед закрытием'}</button>
           <button type="button" onClick={downloadBackup}>Скачать резервную копию</button>
           <a className="button" href="#account">Открыть словарь</a>
         </div>
+        <p className="sub">Можно держать профиль открытым в нескольких вкладках. Изменения сохраняются после каждого действия; при переходе в другую вкладку приложение дополнительно запускает синхронизацию. Закрытие браузера без сети не гарантирует отправку в облако: оставшиеся изменения отправятся при следующем открытии.</p>
         <p className="sub">Облачная синхронизация доступна в своей базе или в подключённом профиле с доступом к облаку приложения. Записи твоего голоса и подробная история из Anki остаются на этом устройстве и в резервную копию не включаются.</p>
         {user && <details className="fold"><summary>Перенести словарь, который был без входа</summary>
           <p>Добавит словарь и результаты повторений в текущий профиль. История Anki и записи также станут доступны в нём на этом устройстве, без загрузки в облако. Сначала проверь email выше. Уже существующие записи профиля имеют приоритет; исходные данные без входа сохранятся.</p>

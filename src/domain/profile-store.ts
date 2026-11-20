@@ -7,6 +7,9 @@ export interface SyncTransport {
   pull(cursor: number): Promise<CloudRow[]>;
   push(batch: Outbox): Promise<{ applied: CloudRow[]; conflicts: CloudRow[] }>;
 }
+export type ProfilePersistence = ((value: StoredProfile) => Promise<void>) | {
+  transact(previous: StoredProfile, change: (doc: StoredProfile) => StoredProfile): Promise<StoredProfile>;
+};
 export type SyncState = { state: 'local' | 'pending' | 'syncing' | 'synced' | 'error'; message?: string; lastSync?: number };
 
 export class ProfileStore {
@@ -16,11 +19,13 @@ export class ProfileStore {
   private listeners = new Set<() => void>();
   private queue: Promise<unknown> = Promise.resolve();
   private running = false;
+  private activeSync?: Promise<void>;
+  private accepting = true;
   private disposed = false;
   private timer?: ReturnType<typeof setTimeout>;
-  private persist: (value: StoredProfile) => Promise<void>;
+  private persist: ProfilePersistence;
   private transport?: SyncTransport;
-  constructor(owner: string, document: StoredProfile, persist: (value: StoredProfile) => Promise<void>, transport?: SyncTransport) {
+  constructor(owner: string, document: StoredProfile, persist: ProfilePersistence, transport?: SyncTransport) {
     this.persist = persist; this.transport = transport;
     this.owner = owner; this.document = document;
     if (transport) this.status = { state: 'pending' };
@@ -40,6 +45,12 @@ export class ProfileStore {
   private transaction(change: (doc: StoredProfile) => StoredProfile) {
     const task = this.queue.then(async () => {
       if (this.disposed) return false;
+      if (typeof this.persist !== 'function') {
+        const next = await this.persist.transact(this.document,change);
+        this.document = next;
+        if (!this.disposed) this.emit();
+        return !this.disposed;
+      }
       const next = change(this.document);
       if (next === this.document) return true;
       // Cursor-only advances are checkpointed by the next durable write. Replayed rows
@@ -53,7 +64,9 @@ export class ProfileStore {
     this.queue = task.catch(() => {});
     return task;
   }
+  async refresh() { await this.transaction(doc => doc); }
   async update(change: (study: Study) => Study) {
+    if (!this.accepting) return false;
     const saved = await this.transaction(doc => {
       const study = change(doc.study); return study === doc.study ? doc : { ...doc, study };
     });
@@ -61,6 +74,7 @@ export class ProfileStore {
     return saved;
   }
   async resolve(id: string, keepLocal: boolean) {
+    if (!this.accepting) return;
     await this.transaction(doc => ({ ...doc, ...resolveConflict(doc, id, keepLocal) }));
     if (keepLocal) this.schedule();
   }
@@ -68,18 +82,25 @@ export class ProfileStore {
     clearTimeout(this.timer);
     if (!this.disposed) this.timer = setTimeout(() => { void this.sync(); }, 1200);
   }
-  async sync() {
+  sync(): Promise<void> {
+    return this.activeSync ??= this.runSync().finally(() => { this.activeSync = undefined; });
+  }
+  private async runSync() {
     if (this.running || this.disposed || !this.transport) return;
     const transport = this.transport;
     this.running = true; this.mark('syncing');
     try {
       for (let round = 0; round < 20 && !this.disposed && this.transport === transport; round++) {
+        await this.refresh();
+        if (this.disposed || this.transport !== transport) return;
         // Durable outbox is retried BEFORE pulling: a lost HTTP response cannot double-count practice.
         const pending = this.document.outbox;
         if (pending) {
           const reply = await transport.push(pending);
           if (this.disposed || this.transport !== transport) return;
           await this.transaction(doc => {
+            // Another tab may already have acknowledged this batch and created a new one.
+            if (doc.outbox?.mutation !== pending.mutation) return doc;
             const sent = new Map(pending.changes.map(change => [change.id, change.value]));
             const applied = reconcileRows(doc, reply.applied, sent);
             const merged = reconcileRows(applied, reply.conflicts);
@@ -94,18 +115,23 @@ export class ProfileStore {
           if (page.length) await this.transaction(doc => ({ ...doc, ...reconcileRows(doc, page), cursor: Math.max(doc.cursor, ...page.map(row => row.revision)) }));
         } while (page.length === 200 && !this.disposed);
         if (this.disposed || this.transport !== transport) return;
-        const changes = pendingChanges(this.document);
-        if (!changes.length) {
+        let complete = false;
+        await this.transaction(doc => {
+          if (doc.outbox) return doc;
+          const changes = pendingChanges(doc);
+          if (!changes.length) { complete = true; return doc; }
+          const batch: Change[] = []; let bytes = 0;
+          for (const change of changes) {
+            const size = new TextEncoder().encode(JSON.stringify(change)).length;
+            if (size > 6_000_000) throw new Error('Одна запись больше 6 МБ. Скачай резервную копию и уменьши этот материал.');
+            if (batch.length && (batch.length >= 200 || bytes + size > 6_000_000)) break;
+            batch.push(change); bytes += size;
+          }
+          return { ...doc, outbox: { mutation: crypto.randomUUID(), changes: batch } };
+        });
+        if (complete && !this.disposed && this.transport === transport) {
           this.status = { state: 'synced', lastSync: Date.now() }; this.emit(); return;
         }
-        const batch: Change[] = []; let bytes = 0;
-        for (const change of changes) {
-          const size = new TextEncoder().encode(JSON.stringify(change)).length;
-          if (size > 6_000_000) throw new Error('Одна запись больше 6 МБ. Скачай резервную копию и уменьши этот материал.');
-          if (batch.length && (batch.length >= 200 || bytes + size > 6_000_000)) break;
-          batch.push(change); bytes += size;
-        }
-        await this.transaction(doc => ({ ...doc, outbox: { mutation: crypto.randomUUID(), changes: batch } }));
       }
       if (!this.disposed && this.transport === transport) { this.mark('pending'); this.schedule(); }
     } catch (error) {
@@ -113,5 +139,12 @@ export class ProfileStore {
     } finally { this.running = false; }
   }
   async flush() { await this.queue; }
-  dispose() { this.disposed = true; clearTimeout(this.timer); this.listeners.clear(); }
+  async saveBeforeClosing() { await this.flush(); await this.refresh(); await this.sync(); await this.flush(); return this.status; }
+  async close() {
+    this.accepting = false;
+    this.setTransport(undefined);
+    await this.flush();
+    this.dispose();
+  }
+  dispose() { this.accepting = false; this.disposed = true; clearTimeout(this.timer); this.listeners.clear(); }
 }
