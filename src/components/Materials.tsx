@@ -482,7 +482,7 @@ export function Materials() {
                     }}>{version.level}</button>)}
                 </div>}
               </div>
-              <LessonVocabulary key={selectedScene} topicId={selectedScene} />
+              <LessonVocabulary key={"vocabulary:" + selectedScene} topicId={selectedScene} />
               <StarterLesson key={selectedLesson.id + (skillDialogue ? skill.id : '')}
                 lesson={{ ...selectedLesson, notes: [], source: skillDialogue ? '' : 'Диалог и задания из твоих материалов.' }}
                 firstExercise={skillDialogue ? <SkillReply exercise={{ ...skillDialogue, skillId: skill.id }}
@@ -498,7 +498,7 @@ export function Materials() {
                 </section>)}
               {materials.filter(item => item.topicId === selectedScene && item.title.startsWith('Разбор записи ·')).map(item =>
                 <Fold title={item.title} key={item.id}><MaterialText resource={item} /></Fold>)}
-              <LessonPractice key={selectedScene} resources={active.resources} topicId={selectedScene} />
+              <LessonPractice key={"practice:" + selectedScene} resources={active.resources} topicId={selectedScene} />
             </> : catalog === 'schools' && <p className="sub">Импортируй диалог с вопросами из чата, чтобы начать занятие.</p>}
         </div>
       </div>}
