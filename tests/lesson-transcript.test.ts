@@ -10,9 +10,9 @@ test('transcript timestamps retain hour boundaries', () => {
 });
 
 test('November 17 transcript covers the teaching sections on both sides of the break', () => {
-  const path = new URL('../materials/2026-11-17/', import.meta.url);
+  const path = new URL('../materials/en/lessons/dc-public-library/conversation-and-values/', import.meta.url);
   const lines: TranscriptLine[] = JSON.parse(readFileSync(new URL('transcript.json', path), 'utf8'));
-  const packet = JSON.parse(readFileSync(new URL('dcpl-conversation.json', path), 'utf8'));
+  const packet = JSON.parse(readFileSync(new URL('lesson.json', path), 'utf8'));
   const audio = packet.materials.find((item: { title: string }) => item.title === 'Запись урока с таймкодами');
   const chapters = lessonCues(audio.text);
   assert.ok(lines.length > 1400);

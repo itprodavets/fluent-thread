@@ -1,0 +1,452 @@
+[
+  {
+    "start": 0.03,
+    "end": 11.43,
+    "en": "Half-ish. Okay. Let me go ahead. Hi, everyone. Okay. Hello. Okay. Can you all see my screen? Yes. Yes. Okay.",
+    "ru": "В начале слышно обрывочное Half-ish, затем преподаватель приветствует группу и проверяет, виден ли его экран. Участники отвечают «да». Первый обрывок не используется как учебный пример.",
+    "teacher": "Teacher / class",
+    "heading": "Проверка экрана и приветствие",
+    "sourceStart": 0,
+    "sourceEnd": 6
+  },
+  {
+    "start": 11.43,
+    "end": 26.57,
+    "en": "Wonderful. So, well, good morning, good evening, good afternoon, depending on where in the world you are. Today, we're going to talk a little bit about nature versus nurture. Have you guys heard this phrase before?",
+    "ru": "Преподаватель приветствует людей в разных часовых поясах: у кого-то утро, у кого-то вечер или день. Затем объявляет тему nature versus nurture и спрашивает, знакомо ли это выражение.",
+    "teacher": "Teacher",
+    "heading": "Nature versus nurture",
+    "sourceStart": 6,
+    "sourceEnd": 9
+  },
+  {
+    "start": 26.57,
+    "end": 61.81,
+    "en": "No. Okay. So, this is a pretty common argument you might hear in the U.S. I've talked about this with my friends and with some other people over the years, but it's kind of the idea of are people born good or bad, or do they become good or bad based on the environment around them? So, is, like, a person who's a criminal, were they born to become a criminal, or did stuff that happened in their life make them become a criminal?",
+    "ru": "Один участник отвечает, что не слышал выражение. Преподаватель объясняет: рождаются ли люди хорошими или плохими либо становятся такими под влиянием среды? В качестве примера он предлагает обсудить, предопределено ли преступное поведение или его формируют жизненные обстоятельства. Это вопрос для дискуссии, а не научный вывод.",
+    "teacher": "Teacher / class",
+    "heading": "Что означает этот спор",
+    "sourceStart": 9,
+    "sourceEnd": 14
+  },
+  {
+    "start": 64.39,
+    "end": 89.84,
+    "en": "Anyone have any thoughts? Are we born good or are we born bad? Is, uh, criminal is, uh... Are we born good or are we born good or bad based on the human being? I mean, uh, if you're using... I think nature and",
+    "ru": "Преподаватель приглашает высказать мнение. Один из участников начинает отвечать, но распознавание вопроса и последующей фразы ненадёжно. В конце начинается мысль I think nature and… — природа и воспитание взаимодействуют. Распределение этих коротких обрывков между голосами условно.",
+    "teacher": "Class discussion",
+    "heading": "Первые ответы участников",
+    "sourceStart": 14,
+    "sourceEnd": 24
+  },
+  {
+    "start": 93.05,
+    "end": 148.96,
+    "en": "nurture are interacting with each other. Are we born good or are we born good or are we born good or are we born good or are we born good? Are we born good or are we born good or are we born good or are we born good or are we born good? um become worse but not everyone maybe yeah i mean some of them um always very good in any under in in any situations i but i think uh the proportion of those people are very small most people um i think uh changing uh interacting with the uh the environment okay so you think a little more nurture than nature then",
+    "ru": "Собеседник говорит о взаимодействии природы и воспитания. Далее есть многократный повтор Are we born good…: это подозрительный участок распознавания. После него различима мысль, что некоторые люди сохраняют хорошие качества в разных обстоятельствах, но большинство меняется во взаимодействии с окружением. Преподаватель уточняет: значит, воспитание влияет немного сильнее наследственности?",
+    "teacher": "Class discussion",
+    "heading": "Влияние окружения",
+    "sourceStart": 24,
+    "sourceEnd": 39
+  },
+  {
+    "start": 148.96,
+    "end": 173.88,
+    "en": "yeah i i think about uh i think about people aren't born string good or bad this is a situation uh not tour this is not using genetic on personality train all right so we got two for nurture uh and yellow what do you think hey good",
+    "ru": "Ученик начинает с I think about… и высказывает мнение, что людей нельзя считать изначально строго хорошими или плохими. Следующая фраза о генетике и чертах личности распознана плохо, поэтому точная формулировка не восстанавливается. Преподаватель отмечает два ответа в пользу воспитания и приглашает следующего участника.",
+    "teacher": "Learner / Teacher",
+    "heading": "Люди не рождаются однозначно хорошими или плохими",
+    "sourceStart": 39,
+    "sourceEnd": 43
+  },
+  {
+    "start": 174.77,
+    "end": 236.2,
+    "en": "morning guys morning here is tonight hey guys uh i was thinking uh not sure it's related the for instance one person a born with the talent uh for something for instance uh a music yeah this is a nature because the person born with this special talent and nature is this person can become great musician with study is study practicing education dedication and many things this is for me the difference between the the both okay so there's some traits that might be like genetic or given to you at birth and others that are environmental",
+    "ru": "Собеседник поправляет приветствие: у него уже вечер. Он предлагает пример музыканта: врождённый талант относится к природе, а учёба, практика, образование и усердие помогают его развить. Преподаватель переформулирует: некоторые черты могут быть генетическими или данными при рождении, другие связаны со средой.",
+    "teacher": "Partner / Teacher",
+    "heading": "Талант и практика",
+    "sourceStart": 43,
+    "sourceEnd": 52
+  },
+  {
+    "start": 236.71,
+    "end": 273.09,
+    "en": "can i say two oh yeah go ahead kill me i heard if you are raised by strict parents you become strict with your children i heard so it means no nurture it's not so okay a lot so most of you seem to think nurture over nature well okay um so we're going to talk a little bit more about this",
+    "ru": "Участник просит разрешения добавить мысль и приводит пример строгих родителей: ребёнок может перенять такой стиль воспитания и позже вести себя так же со своими детьми. Конец фразы неясен. Преподаватель подводит итог: большинство группы пока отдаёт больший вес воспитанию.",
+    "teacher": "Partner / Teacher",
+    "heading": "Строгие родители",
+    "sourceStart": 52,
+    "sourceEnd": 58
+  },
+  {
+    "start": 273.09,
+    "end": 363.07,
+    "en": "in just a second i'm gonna have you guys go over a little bit of vocabulary first though so we got six vocabulary words and six definitions i want you guys to go ahead and match the word to the definition you guys have about two minutes for this and then we'll go over it night Thank you.",
+    "ru": "Перед дальнейшим обсуждением преподаватель предлагает шесть слов и шесть определений. Нужно сопоставить каждое слово с определением примерно за две минуты, затем проверить всем классом. На самостоятельной работе появляются отдельные Night / Thank you: считать их содержательным диалогом нельзя.",
+    "teacher": "Teacher / uncertain",
+    "heading": "Сопоставить слова и определения",
+    "sourceStart": 58,
+    "sourceEnd": 64
+  },
+  {
+    "start": 363.09,
+    "end": 435.45,
+    "en": "Vulnerability Heredity I'm sorry, I lost the connection for a while and now I'm back. No worries, we are just matching vocabulary right now. Okay. Don't worry, don't worry. Go ahead and finish up the last one you're matching. If you're not all the way through, that's okay. We'll go over it as a class. Okay.",
+    "ru": "Участники произносят vulnerability и heredity. Один сообщает: связь ненадолго пропала, теперь он вернулся. Преподаватель успокаивает его: сейчас группа лишь сопоставляет слова. Затем просит закончить текущий пункт; если не всё готово, ничего страшного — ответы будут разобраны вместе.",
+    "teacher": "Class discussion",
+    "heading": "Возвращение после потери связи",
+    "sourceStart": 64,
+    "sourceEnd": 77
+  },
+  {
+    "start": 435.45,
+    "end": 480.51,
+    "en": "Teacher, could you please talk about pronunciation number five? Indistinguishable. Indistinguishable. Yes. Okay. Did you have a question about it or were you just curious about pronunciation? Maybe free vulnerability? Okay. Vulnerability. We will go over pronunciation for each word in just a minute, but I want to match the definitions before we do. Okay.",
+    "ru": "Участник просит объяснить произношение пятого слова, indistinguishable; затем упоминается vulnerability. Преподаватель уточняет, нужен ли разбор значения или лишь произношения. Он обещает пройти произношение каждого слова, но сначала хочет закончить определения. Короткие реплики и числительное three местами распознаны ненадёжно.",
+    "teacher": "Learner / Teacher",
+    "heading": "Попросить произношение",
+    "sourceStart": 77,
+    "sourceEnd": 92
+  },
+  {
+    "start": 485.37,
+    "end": 520.35,
+    "en": "[participant], do you have an idea for what nurture is, number one? I don't know if [participant] is there. Teacher, I think about this number one, natural. Yeah. Much with D. The processes of talking comes from one, for example, Bobby. Yes. Okay. D is correct.",
+    "ru": "Преподаватель спрашивает ответ для первого слова nurture. Ученик предлагает вариант D. Произнесённое определение распознано как processes of talking… и содержит искажённые слова; его нельзя заучивать. Преподаватель подтверждает D. Учебное значение nurture — забота, воспитание и развитие человека.",
+    "teacher": "Learner / Teacher",
+    "heading": "Определение nurture",
+    "sourceStart": 92,
+    "sourceEnd": 103
+  },
+  {
+    "start": 520.35,
+    "end": 557.09,
+    "en": "[participant], do you have an answer for number two, DNA? DNA is A for the carrier of genetic information. Yes. A carrier of genetic information. Okay. Number three, [participant], vulnerability. For number three, that's A. Yes. Being unprotected from harm, either physically or emotionally.",
+    "ru": "DNA называют носителем генетической информации. Vulnerability объясняется как отсутствие защиты от физического или эмоционального вреда. Буквы ответов в записи звучат противоречиво, поэтому в учебном словаре закреплены значения, а не непроверенные буквы.",
+    "teacher": "Teacher / class",
+    "heading": "DNA и vulnerability",
+    "sourceStart": 103,
+    "sourceEnd": 114
+  },
+  {
+    "start": 557.09,
+    "end": 595.75,
+    "en": "[participant], do you have heredity? Yes. Number four. I think heredity is a passing of mental or physical characteristics from parents to children. It is E. [participant], indistinguishable. Indistinguishable. It's like number C is enableable to identify. Yes.",
+    "ru": "Heredity — передача психических или физических характеристик от родителей детям; преподаватель подтверждает вариант E. Затем группа обсуждает indistinguishable: объекты невозможно отличить друг от друга. Формулировка enableable to identify в ASR искажена; учебная формулировка — impossible to tell apart.",
+    "teacher": "Teacher / class",
+    "heading": "Heredity и indistinguishable",
+    "sourceStart": 114,
+    "sourceEnd": 124
+  },
+  {
+    "start": 595.75,
+    "end": 618.51,
+    "en": "And then, [participant], you got an easy one. IQ. IQ. A major of intelligence, usually with a number score. Yes. Good job, everyone. Okay. Sorry, teacher, my laptop is frozen. I don't know what's happening here. No worries, [participant]. Okay.",
+    "ru": "IQ объясняется как показатель интеллекта, обычно выраженный числом. В ASR major вместо measure. После похвалы один участник сообщает, что ноутбук завис и он не понимает, что происходит. Преподаватель отвечает No worries.",
+    "teacher": "Teacher / class",
+    "heading": "IQ и зависший ноутбук",
+    "sourceStart": 124,
+    "sourceEnd": 136
+  },
+  {
+    "start": 618.51,
+    "end": 652.93,
+    "en": "So, we're going to do a few repeat after me's for these vocabulary words because they are a little interesting. So, nurture. Nurture. Nurture. Nurture. Nurture. Nurture. Nurture. Yeah. Where are we hearing the stress? Is it on the first or the second syllable? Nurture. Nurture. Nurture. Nurture. Nurture. Yeah. The first. Yeah. So, nurture. Nurture. Nurture. Nurture. Okay. Good job.",
+    "ru": "Преподаватель предлагает повторять слова за ним. Группа несколько раз произносит nurture; затем он спрашивает, на первом или втором слоге ударение. Ответ — на первом: NUR-ture. Следует ещё несколько повторов и похвала.",
+    "teacher": "Teacher / class",
+    "heading": "Ударение в nurture",
+    "sourceStart": 136,
+    "sourceEnd": 161
+  },
+  {
+    "start": 653.57,
+    "end": 720.47,
+    "en": "And then, next one is DNA. DNA. DNA. Yeah. DNA. DNA. And then, vulnerability. Vulnerability. Vulnerability. Vulnerability. Vulnerability. Vulnerability. Mm-hmm. This one, this is a long one. It's six syllables. Where do we hear the stress and vulnerability? Vulnerability. Vulnerability. The first one? Vulnerability. Vulnerability. Vulnerability. Vulnerability. So, I heard someone say it on ability. So, yeah. The stress is on right around here for vulnerability. Vulnerability. Vulnerability. Vulnerability. So, yeah. Good job.",
+    "ru": "Группа повторяет DNA и vulnerability. Преподаватель отмечает, что vulnerability длинное слово, и спрашивает об ударении. Участники пробуют разные варианты; преподаватель указывает на часть -bil- / ability. Для практики используется vul-ner-a-BIL-i-ty, а не случайное ударение первого ответа.",
+    "teacher": "Teacher / class",
+    "heading": "DNA и vulnerability: произношение",
+    "sourceStart": 161,
+    "sourceEnd": 196
+  },
+  {
+    "start": 720.47,
+    "end": 777.58,
+    "en": "And then, heredity. Heredity. Heredity. Heredity. Heredity. Heredity. Heredity. Yeah. Heredity. Heredity. Heredity. Someone said hereditary earlier, which is also, they're very similar, but today we're going to be talking about heredity, which is a noun. A noun versus hereditary, which is an adjective. So, you'll be using them. You might use them both today, but we're going to be hearing and reading heredity, not hereditary. They are very similar, though. Heredity. And",
+    "ru": "После повторения heredity преподаватель замечает, что раньше кто-то сказал hereditary. Он различает части речи: heredity — существительное «наследственность», hereditary — прилагательное «наследственный». В сегодняшнем чтении ожидается heredity, хотя оба слова могут пригодиться.",
+    "teacher": "Teacher / class",
+    "heading": "Heredity — существительное, hereditary — прилагательное",
+    "sourceStart": 196,
+    "sourceEnd": 215
+  },
+  {
+    "start": 777.64,
+    "end": 835.3,
+    "en": "that, indistinguishable. Indistinguishable. Indistinguishable. Indistinguishable. Yeah. Indistinguishable. Indistinguishable. This is also six syllables long. Where are we hearing the stress? Indistinguishable. Indistinguishable. Okay, so it's right here on the second syllable, indistinguishable. Indistinguishable. And then our final one is IQ. Great",
+    "ru": "Группа повторяет indistinguishable. В автоматическом тексте ответ про номер слога распознан противоречиво. Для заучивания проверен словарный образец in-di-STIN-gui-sha-ble: основное ударение на /stɪŋ/. IQ — последнее слово этого блока. Номер слога из сомнительной реплики не заучиваем.",
+    "teacher": "Teacher / class",
+    "heading": "Длинное слово indistinguishable",
+    "sourceStart": 215,
+    "sourceEnd": 236
+  },
+  {
+    "start": 835.48,
+    "end": 933.23,
+    "en": "job, everyone. So our next task is going to match the summary with the paragraph. So I'm gonna put the reading up in just a second. So take a minute to read through the different potential titles for the paragraphs and I will also put this in chat. Can all of you see the title options chat? Yes. Oh, yes. Okay, so does each paragraph have one potential title? See, see some people nodding their head. Yeah. So yes, we need to find out a paragraph A, B, C, D. Each one of these has one potential title. Yes. And you guys are gonna have about three minutes to read through and to do this activity. So you're just gonna read for general understanding to just match the titles with the paragraph. Okay, thank",
+    "ru": "Следующее задание — подобрать краткое название к каждому абзацу. Преподаватель сначала показывает варианты заголовков и отправляет их в чат. Он проверяет понимание: каждому абзацу соответствует один заголовок. На общее понимание и сопоставление даётся примерно три минуты.",
+    "teacher": "Teacher / class",
+    "heading": "Читать ради основной мысли",
+    "sourceStart": 236,
+    "sourceEnd": 255
+  },
+  {
+    "start": 933.39,
+    "end": 1112.71,
+    "en": "you so I'm here. Here's the reading. Okay. So, let's see. Okay. Okay. Okay. Okay. Okay. Okay. Okay. Okay. Okay. Thank you. Thank you. Thank you. I'll go ahead and finish up",
+    "ru": "Преподаватель показывает текст. Дальше ASR многократно выдаёт Okay и Thank you во время самостоятельного чтения. Полного текста со слайда запись не содержит: группа читает молча. Учебные тексты ниже — самостоятельные адаптации по теме, а не восстановленная копия статьи.",
+    "teacher": "Independent reading / ASR uncertain",
+    "heading": "Самостоятельное чтение",
+    "sourceStart": 255,
+    "sourceEnd": 270
+  },
+  {
+    "start": 1114.77,
+    "end": 1200.69,
+    "en": "whatever you're reading. Okay. So, let's get into it. For paragraph one. So, does anyone have a different answer for paragraph number one? It's paragraph number one. So, does anyone have a different answer for paragraph number one? Well, let's... So, I actually have a different answer for paragraph number one. What I had was D, human diversity. Let's look back at the text and kind of talk about it because maybe I'm wrong. Okay. So, number one, we have...",
+    "ru": "Преподаватель просит закончить чтение и переходит к первому абзацу. Он спрашивает, есть ли другое мнение, затем признаёт, что в его ключе стоит D, human diversity. Предлагает вернуться к тексту и проверить: возможно, ошибается он сам.",
+    "teacher": "Teacher / class",
+    "heading": "Первый ответ и сомнение преподавателя",
+    "sourceStart": 270,
+    "sourceEnd": 286
+  },
+  {
+    "start": 1200.69,
+    "end": 1267.69,
+    "en": "Identity twist share. So, why do you think... That's interesting. You see the sentence identical twist share virtual in some genetic code. Yeah. It's... It's... Help science and understanding environment factors. No. Okay. Okay. That's a little bit confusing. Yeah. Yeah. Well, actually, okay. Upon rereading it, I do think I agree with you guys a bit more. For that being D, for that being E, understanding identical twins. Okay. So, I think I maybe put down the wrong answer when I was writing my answer key. But, yeah. So, I agree. I do think it is E, understanding identical twins. Mm-hmm.",
+    "ru": "Участник ссылается на предложение об однояйцевых близнецах и почти одинаковом генетическом коде. Реплика ученика местами искажена. После повторного чтения преподаватель соглашается с группой: для первого абзаца лучше E, understanding identical twins. Он допускает, что при составлении ключа записал неверный ответ.",
+    "teacher": "Learner / Teacher",
+    "heading": "Обосновать ответ и пересмотреть ключ",
+    "sourceStart": 286,
+    "sourceEnd": 314
+  },
+  {
+    "start": 1267.69,
+    "end": 1311.69,
+    "en": "What about paragraph two? I think, [participant], this is the time you should send them to the breakout room. Check the answers. Okay. All right. Um. Well, I guess I will be sending y'all into some breakout rooms to do a quick check for the answers, since we do have a few different ones. One second to get this all set up. Okay. So, go ahead and head into breakout room.",
+    "ru": "После вопроса о втором абзаце другой голос напоминает преподавателю о проверке в breakout rooms. Преподаватель решает отправить участников в малые группы, поскольку ответы различаются, и просит немного подождать, пока всё настроит.",
+    "teacher": "Teacher / facilitator",
+    "heading": "Инструкция для малых групп",
+    "sourceStart": 314,
+    "sourceEnd": 328
+  },
+  {
+    "start": 1311.69,
+    "end": 1370.23,
+    "en": "Hi. Hi. Hi. What about think paragraph number two? Sorry. Number two. Let me read it again. I'm a bit tired. So, like. um hi hi what about think uh paragraph number two number two let me read it again i'm a bit tired so like following but not following too much i'm okay i think about uh paragraph number two uh choose b uh this because it's uh compressing did you call a friend's twist it's me sheer how genetic in herding effect on this i'm waiting",
+    "ru": "В малой группе ученик пытается спросить о втором абзаце. Собеседник просит перечитать: он немного устал. Ученик предлагает B и начинает объяснять сравнением двух типов близнецов; слова о близнецах и генетике распознаны с ошибками, поэтому точная цитата аргумента не восстанавливается.",
+    "teacher": "Learner / Partner",
+    "heading": "Начать обсуждение абзаца",
+    "sourceStart": 328,
+    "sourceEnd": 347
+  },
+  {
+    "start": 1370.7,
+    "end": 1480.49,
+    "en": "for the picture to load oh no find i don't see the text anymore oh no what's going on i don't see the text it says to me file error i don't know in paragraph number three to air of research i think about because it's open with uh those two lines of researching in paragraph number three i didn't write down the answers and i don't see the text anymore because the picture is not loading so i don't know what to do uh check could you please check a chat uh [participant] sent text yeah but it's not loading it says file error i don't see the picture read the text text anymore it says you i texted them let's see i see you too what happens it says that all kill one moment",
+    "ru": "Собеседник ждёт загрузки изображения, затем сообщает file error и говорит, что больше не видит текст. Ученик обсуждает третий абзац: F, two areas / lines of research, и предлагает проверить чат, куда другой участник отправил текст. Собеседник отвечает, что изображение всё равно не загружается; он уже написал организаторам.",
+    "teacher": "Learner / Partner",
+    "heading": "Изображение не загружается",
+    "sourceStart": 347,
+    "sourceEnd": 368
+  },
+  {
+    "start": 1505.85,
+    "end": 1626.41,
+    "en": "let's see oh they don't answer i don't know what to do i don't see the text one moment uh loading load okay she said it again okay so number two number two the uh this dna this f intentional three sure almost do you guys have research i'd stay super super what is the role i'd say what is why don't you say uh the important no what is that uh the um what is the role of dna for number two paragraph uh paragraph number two matches b because uh it compare and then in flame twist you you can see paragraph number two compares and uh number three uh my answer was been the is f to area of researching paragraph number three and paragraph number four hello",
+    "ru": "После паузы участники ждут повторной отправки картинки. Когда она появляется, они снова обсуждают второй абзац — роль DNA — и третий, где упоминаются две линии исследования. Несколько слов и букв ответа ненадёжны; окончательный ключ нужно сверять с последующей общей проверкой, а не угадывать по обрывкам.",
+    "teacher": "Learner / Partner",
+    "heading": "Вернуться к проверке ответов",
+    "sourceStart": 368,
+    "sourceEnd": 394
+  },
+  {
+    "start": 1627.93,
+    "end": 1703.29,
+    "en": "i'm back everyone i hope you guys were able to talk about the answers a bit so we already had one for e um for number two uh [participant] what did you get for number two uh we think about b yep what is the role of dna yes okay uh paragraph three [participant] i i was thinking is number c no no okay we have someone disagree okay i love to answer of research yes i agree because it starts directly with these two lines of research and summary the two middle mentions in paragraph one and two that number three is f yes i agree okay um number four",
+    "ru": "Группа возвращается. Для абзаца 1 уже выбран E. Для абзаца 2 преподаватель подтверждает B, What is the role of DNA? Для абзаца 3 один участник предлагает C, другие возражают и ссылаются на two lines of research. Преподаватель подтверждает F.",
+    "teacher": "Teacher / class",
+    "heading": "Общий ключ: абзацы 1–3",
+    "sourceStart": 394,
+    "sourceEnd": 419
+  },
+  {
+    "start": 1704.49,
+    "end": 1741.93,
+    "en": "number four is c earlier research i agree is it uh number five number five a yep separated at birth and number six is yes human diversity yes human diversity yes human diversity yes human diversity yeah okay good job everyone",
+    "ru": "Для абзаца 4 звучит C, earlier research. Для абзаца 5 — A, separated at birth. Для абзаца 6 — D, human diversity. Некоторые слова повторяются; итоговый услышанный порядок заголовков: E, B, F, C, A, D.",
+    "teacher": "Teacher / class",
+    "heading": "Общий ключ: абзацы 4–6",
+    "sourceStart": 419,
+    "sourceEnd": 436
+  },
+  {
+    "start": 1741.93,
+    "end": 1846.41,
+    "en": "okay so we're gonna head into another task this one's gonna be a complete the statement or a fill in the blank so we have eight different sentences here and they're not gonna be exactly the same as what you're gonna read so you're gonna kind of have to infer what is the correct language um i'm i know you guys are gonna be able to do it um yeah so these are kind of in order of where you'll run across them in the text so if like number one is gonna be earlier on in the text and number eight is gonna be lower down so if you notice that you've jumped from like number four to number six number five will be somewhere between them so you're gonna have about five minutes to read through the text and to answer the questions go ahead and read them through them right now and i will get them sent in chat and then i'm gonna switch this to the next slide and then i'm gonna switch this to the next slide but you the questions will the statements are in the chat",
+    "ru": "Следующее задание содержит восемь предложений с пропусками. Их формулировки не обязательно дословно совпадают со статьёй: нужно понять смысл и вывести подходящий ответ. Вопросы идут примерно в порядке текста. Если найдены пункты 4 и 6, подсказка к 5 должна быть между ними. Даётся около пяти минут; задания отправляются в чат.",
+    "teacher": "Teacher",
+    "heading": "Заполнить пропуски по смыслу",
+    "sourceStart": 436,
+    "sourceEnd": 450
+  },
+  {
+    "start": 1846.41,
+    "end": 2042.33,
+    "en": "mm-hmm mm-hmm mm-hmm mm-hmm mm-hmm mm-hmm mm-hmm Thank you. Thank you. Thank you. Thank you. Thank you. Go ahead and finish up whatever sentence you're reading.",
+    "ru": "Во время самостоятельной работы ASR выдаёт длинные серии mm-hmm и Thank you. Надёжного содержательного разговора здесь нет. В конце преподаватель просит закончить предложение, которое участники сейчас читают.",
+    "teacher": "Independent reading / ASR uncertain",
+    "heading": "Чтение и подготовка ответов",
+    "sourceStart": 450,
+    "sourceEnd": 465
+  },
+  {
+    "start": 2042.33,
+    "end": 2269.77,
+    "en": "I'm going to send you guys into breakout rooms and you can discuss your answers there. If you haven't finished, you can finish with your partner. Okay. Okay. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+    "ru": "Преподаватель отправляет группу обсуждать ответы в breakout rooms; если не всё готово, можно закончить вместе с партнёром. С 34:12 до примерно 37:49 распознавание почти целиком состоит из Thank you. Это помечено как ненадёжный интервал, а не как восстановленный разговор. Позже выясняется, что ученик остался без партнёра.",
+    "teacher": "Teacher / independent work",
+    "heading": "Вторая работа в малых группах",
+    "sourceStart": 465,
+    "sourceEnd": 483
+  },
+  {
+    "start": 2269.77,
+    "end": 2303.47,
+    "en": "I'm here, but not at another student. Okay. I'm sorry. I didn't realize. I will move you to a different group. Okay. Okay. Okay. Nature. Nature. Okay. Hello. Yes. Hello, [participant].",
+    "ru": "Ученик сообщает, что он здесь, но другого ученика рядом нет. Преподаватель извиняется: он этого не заметил, и обещает перевести ученика в другую группу. После перемещения звучат приветствия. Автоматические номера голосов местами смешаны.",
+    "teacher": "Learner / Teacher",
+    "heading": "Попросить перевод в другую комнату",
+    "sourceStart": 483,
+    "sourceEnd": 499
+  },
+  {
+    "start": 2303.83,
+    "end": 2331.32,
+    "en": "What is number now, what is number now, your discussion? We are discussion number three. Number three. Okay. I think about number three, natural, is using paragraph number three. Yes. Yes. And number four. I think",
+    "ru": "Ученик спрашивает, какой номер сейчас обсуждают; собеседник отвечает, что третий. Ученик предлагает свой вариант по третьему пункту, затем группа переходит к четвёртому. Формулировки What is number now… и We are discussion… разобраны отдельно как языковые модели для улучшения, без заучивания ошибок ASR.",
+    "teacher": "Learner / Partner",
+    "heading": "Уточнить текущий пункт",
+    "sourceStart": 499,
+    "sourceEnd": 510
+  },
+  {
+    "start": 2332.15,
+    "end": 2414.63,
+    "en": "about at bridge. Bridge. Bridge. Bridge. Bridge. Bridge. Bridge. Bridge. Bridge. Bridge. Bridge. Bridge. At bear. At bear. At bear. Maybe I'm not. I'm not. At bear. I sent a chat. At bear. At bear. yeah I'll bear found the way to gene spoke to be maybe maybe India this is for this in this tea who shareable people number five people found the way to Jim spoke to be in this table this table I don't know how to pronounce it in this table okay the six",
+    "ru": "Распознавание многократно выдаёт Bridge / At bear. По контексту последующей проверки четвёртый ответ может быть at birth, но здесь это не подтверждённая дословная реплика. Далее обсуждается слово indistinguishable; многочисленные искажённые варианты не используются как образец произношения. Несколько фраз о пятом и шестом пунктах остаются неразборчивыми.",
+    "teacher": "Group discussion / ASR uncertain",
+    "heading": "Ненадёжные фрагменты в малой группе",
+    "sourceStart": 510,
+    "sourceEnd": 546
+  },
+  {
+    "start": 2414.63,
+    "end": 2488.71,
+    "en": "I agree all right welcome back everyone I hope you guys were able to finish answering the questions and to check your answers so for number one identical I think about number one identical identical twins that share all their DNA um twins that do not look the same are fraternal yes yeah so fraternal fraternal fraternal nurture yeah okay number three natural yes comparing both types of twins oh I spelled that wrong helps us understand the role of nature and nurture which we were talking about earlier",
+    "ru": "В общей проверке звучит identical для первого пункта и fraternal для второго. Преподаватель связывает сравнение двух типов близнецов с пониманием роли nature и nurture. В учебном пересказе различаются однояйцевые и разнояйцевые близнецы; формулировка о «всей DNA» остаётся упрощением из занятия.",
+    "teacher": "Teacher / class",
+    "heading": "Проверка пропусков: identical, fraternal, nurture",
+    "sourceStart": 546,
+    "sourceEnd": 571
+  },
+  {
+    "start": 2488.71,
+    "end": 2519.8,
+    "en": "teacher how pronunce what is it the frame for pronunce nature in nurture no nurture nurture nurture nurture nurture nurture yeah yeah so nature and nurture nature nature and nurture",
+    "ru": "Участник ещё раз просит произношение. Преподаватель противопоставляет nature и nurture, группа повторяет. Для тренировки закреплены отдельные словарные образцы, чтобы не смешивать похожие по написанию слова.",
+    "teacher": "Teacher / class",
+    "heading": "Различать nature и nurture",
+    "sourceStart": 571,
+    "sourceEnd": 584
+  },
+  {
+    "start": 2521.21,
+    "end": 2579.59,
+    "en": "okay okay number four okay number four yes number five indistinguishable indistinguishable yeah that was great pronunciation yeah indistinguishable indistinguishable indistinguishable yeah yeah again teacher please indistinguishable indistinguishable indistinguishable yeah indistinguishable indistinguishable indistinguishable indistinguishable oh my god oh my god this is what you want to see complicated yes it's it's a long one um",
+    "ru": "Переход к ответу 4 в записи есть, но сам полный ответ чётко не распознан. Далее для пункта 5 подтверждается indistinguishable. Преподаватель хвалит произношение и несколько раз повторяет слово вместе с участниками. Непонятные реплики не превращены в уверенный ключ.",
+    "teacher": "Teacher / class",
+    "heading": "Четвёртый ответ и сложное слово",
+    "sourceStart": 584,
+    "sourceEnd": 606
+  },
+  {
+    "start": 2579.6,
+    "end": 2644.98,
+    "en": "number six human natural human nature human nature human nature human nature number seven thank you thank you great and finally number eight genetic genetic genetic influence genetic genetic influence genetic influence genetic influence you're doing great there's some natives native english speakers who get tripped up on some words like indistinguishable indistinguishable i've heard some native english speakers have a hard time with that so you guys are doing fantastic you can repeat again indistinguishable indistinguishable indistinguishable indistinguishable",
+    "ru": "Для пункта 6 звучит human nature. Пункт 7 в ASR перекрыт короткими Thank you и не восстановлен. Для пункта 8 звучит genetic influence. Преподаватель подбадривает группу: даже носители языка иногда спотыкаются на длинных словах вроде indistinguishable. Затем слово повторяют ещё раз.",
+    "teacher": "Teacher / class",
+    "heading": "Human nature и genetic influence",
+    "sourceStart": 606,
+    "sourceEnd": 629
+  },
+  {
+    "start": 2645.04,
+    "end": 2727.11,
+    "en": "indistinguishable i'm glad you guys are all excited for pronunciation but i want to have you guys talk a little bit more about nature versus nurture so do you guys think there are characteristics that are predetermined so characteristics we're born with did the article did the article change your opinion about nature versus nurture and do you think nature or nurture is more important and do you think nature is more important in shaping who we are as people i think nature [participant] [participant] [participant] [participant] go ahead uh i think uh i think uh nature is the is the more important than than nature nurture is a little important than nature uh nature gives us ingenious and uh natural ability uh natural ability uh nature helps us develop uh personality knowledge and values so i think is in in in enough for the poor environment to give the indication is more than natural",
+    "ru": "Преподаватель возвращает разговор от произношения к смыслу: существуют ли предопределённые черты, изменило ли чтение мнение участников и что сильнее формирует человека? Один участник отвечает, но ASR смешивает nature и nurture, поэтому его позиция не сводится к однозначному выводу.",
+    "teacher": "Teacher / Partner",
+    "heading": "Изменилось ли мнение после чтения",
+    "sourceStart": 629,
+    "sourceEnd": 640
+  },
+  {
+    "start": 2727.11,
+    "end": 2755.75,
+    "en": "nature than nature i think i think i think about the natural is a fundamental and uh uh natural uh this is built and stop uh of it all right any other thoughts we're running a little short on time so i can't send you into breakout rooms so anyone has more thoughts on nature versus nurture go ahead",
+    "ru": "Ученик пытается выразить мысль о фундаменте и том, что над ним строится. Точные слова natural / nature / nurture в ASR неоднозначны. Для практики предложена явно помеченная реконструкция: природа даёт основу, а воспитание помогает её развивать. Преподаватель сообщает, что времени на новые малые группы уже не хватает, и приглашает последние мнения.",
+    "teacher": "Learner / Teacher",
+    "heading": "Основа и развитие",
+    "sourceStart": 640,
+    "sourceEnd": 647
+  },
+  {
+    "start": 2755.75,
+    "end": 2798.71,
+    "en": "for me it was interesting the last uh sentence just says um they found genetic influence helping to shape our lives i couldn't i couldn't have like imagine how genetic could influence like in the potential that we could develop for the future um so it is not only the fact that you can be disciplined or determined to study something like genetics are has like a have a big influence to tell you shaping your future as well yeah learning yeah i think that was really interesting to learn how genetics shapes iq",
+    "ru": "Собеседнику запомнилась финальная мысль о генетическом влиянии на жизнь и будущий потенциал; он говорит, что раньше не представлял этого. Формы genetics are has в автоматическом тексте не считаются надёжной дословной речью. Преподаватель отмечает, что ему было интересно обсуждение генетики и IQ. Эти выводы представлены как содержание урока, а не проверенные научные утверждения.",
+    "teacher": "Partner / Teacher",
+    "heading": "Потенциал и влияние генетики",
+    "sourceStart": 647,
+    "sourceEnd": 657
+  },
+  {
+    "start": 2803.83,
+    "end": 2835.91,
+    "en": "well that is the end of my lesson thank you all for participating and you had you guys were doing great with your pronunciation so keep it up thank you thank you thank you very much um so we had another",
+    "ru": "Преподаватель завершает занятие, благодарит за участие, отмечает хорошую работу над произношением и говорит keep it up — продолжайте в том же духе. Участники благодарят его.",
+    "teacher": "Teacher / class",
+    "heading": "Заключительная похвала",
+    "sourceStart": 657,
+    "sourceEnd": 661
+  },
+  {
+    "start": 2835.91,
+    "end": 2867.59,
+    "en": "teacher for tonight today however she is a little unwell so she had to leave so we had only one lesson tonight so you all are free to go i'm very sorry but we don't have another lesson today uh so next week we have classes again on monday and tuesday then we have the thanksgiving break i'll remind you about that but please come back on monday okay okay okay okay thank you thank you very much thank you",
+    "ru": "Организатор сообщает, что второго урока сегодня не будет, и извиняется. Участников приглашают вернуться в понедельник и вторник следующей недели, после чего будет перерыв Thanksgiving. Речь идёт о днях организатора в США; это не автоматическое подтверждение новых событий по Сингапуру. В конце группа прощается.",
+    "teacher": "Facilitator / class",
+    "heading": "Второе занятие отменено и перерыв Thanksgiving",
+    "sourceStart": 661,
+    "sourceEnd": 674
+  },
+  {
+    "start": 2867.59,
+    "end": 2873.46,
+    "en": "[Recording tail: no further speech recognized.]",
+    "ru": "Хвост записи: дополнительных распознанных реплик нет.",
+    "teacher": "Recording note",
+    "heading": "Конец файла",
+    "sourceStart": 674,
+    "sourceEnd": 674
+  }
+]

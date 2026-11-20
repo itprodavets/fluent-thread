@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "lessons": "en/lessons/catalog.json",
+      "skills": "en/skills/catalog.json",
+      "resources": "en/resources/catalog.json",
+      "schools": "en/schools/programs.json"
+    }
+  ]
+}

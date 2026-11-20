@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Heading } from './common';
-import directory from '../../materials/schools/programs.json';
+import directory from '../../materials/en/schools/programs.json';
 
 const categories = [
   ['all', 'Все программы'], ['free', 'Бесплатные занятия'], ['limited', 'Бесплатно с ограничениями'],

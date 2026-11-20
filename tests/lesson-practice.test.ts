@@ -1,12 +1,13 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import { lessonPath } from './material-fixtures.ts';
 import { lessonPractice, teacherPhraseCards } from '../src/domain/lesson-practice.ts';
 import type { Resource } from '../src/domain/model.ts';
 
 test('dated packages expose only the selected lesson’s phrases, rules and practice', () => {
   for (const [file, count] of [['wolves-and-eco-homes', 4], ['future-plans', 4], ['responses-and-opinions', 5]] as const) {
-    const path = new URL(`../materials/2026-11-16/${file}.json`, import.meta.url);
+    const path = lessonPath(file);
     const packet = JSON.parse(readFileSync(path, 'utf8'));
     const entries: Resource[] = packet.materials.map((entry: Resource, index: number) =>
       ({ ...entry, id: String(index), topicId: file, language: packet.language }));
@@ -28,7 +29,7 @@ test('a missed teacher phrase returns after the delay and a usable phrase leaves
   const { assess, lastSpoken } = await import('../src/domain/model.ts');
   const { applyChatPackage, parseChatPackage } = await import('../src/domain/chat-package.js');
   const { selectLearningTargets } = await import('../src/domain/learning-session.ts');
-  const packet = parseChatPackage(readFileSync(new URL('../materials/2026-11-16/future-plans.json', import.meta.url), 'utf8'));
+  const packet = parseChatPackage(readFileSync(new URL('../materials/en/lessons/ace-tefl/future-plans/lesson.json', import.meta.url), 'utf8'));
   const initial = { language: 'en', languages: { en: {} }, words: [], topics: [], resources: [], results: {} };
   const { next } = applyChatPackage(initial, packet);
   const word = next.words.find((item: { title: string }) => item.title === 'Have a think about it for a moment');

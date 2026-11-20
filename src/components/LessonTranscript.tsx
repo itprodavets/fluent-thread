@@ -40,7 +40,7 @@ export function LessonTranscript({ cues, language, topicId, recordingKey, full =
       </label>
 
     </div>}
-    <p className="sub">Автоматическая расшифровка и перевод. Имя преподавателя указано там, где его реплику можно выделить. Некоторые строки содержат несколько голосов.</p>
+    <p className="sub">Расшифровка и перевод смысла. Роли указаны там, где их можно определить; автоматическое распознавание иногда смешивает голоса. Сомнительные участки отмечены в пояснениях.</p>
     {error ? <p role="status">Не удалось загрузить расшифровку.</p> : !load ? <p lang={language}>{chapter.label}</p>
       : !chapterLines ? <p role="status">Загружаем расшифровку…</p> : chapterLines.length ? <ol aria-label={full ? "Полная расшифровка" : "Расшифровка фрагмента"} className={full ? "transcript-lines full-transcript" : "transcript-lines"} ref={pane}>
       {chapterLines.map((line, index) => <li key={line.start + '-' + index}>

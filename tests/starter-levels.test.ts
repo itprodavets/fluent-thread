@@ -10,7 +10,7 @@ test('every situation has six independently selectable dialogue and listening le
     for (const lesson of versions) {
       assert.ok(isStarterResource(lesson.resource.id));
       assert.equal(lesson.resource.kind, 'dialogue');
-      assert.ok(lesson.resource.text.includes('Denis:'));
+      assert.ok(lesson.resource.text.includes('Learner:'));
       assert.ok(lesson.questions.length >= 3);
     }
   }

@@ -5,14 +5,16 @@ import { applyChatPackage, parseChatPackage } from '../src/domain/chat-package.j
 import { dialogueChoices, importedLessonsFor } from '../src/domain/imported-lessons.ts';
 import { skillMatches } from '../src/domain/skill-dialogues.ts';
 
+import { lessonPath, readLesson } from './material-fixtures.ts';
+
 const read = (file: string) => JSON.parse(readFileSync(new URL('../materials/' + file, import.meta.url), 'utf8'));
 
 test('every published skill resolves to a teachable dialogue from each of the three schools', () => {
-  const dated = read('2026-11-16/lessons.json');
-  const skills = read('2026-11-16/skills.json');
+  const dated = read('en/lessons/catalog.json');
+  const skills = read('en/skills/catalog.json');
   let study = { language: 'en', languages: { en: {} }, words: [], topics: [], resources: [], results: {} };
   for (const name of ['wolves-and-eco-homes', 'future-plans', 'responses-and-opinions']) {
-    const path = new URL('../materials/2026-11-16/' + name + '.json', import.meta.url);
+    const path = lessonPath(name);
     study = applyChatPackage(study, parseChatPackage(readFileSync(path, 'utf8'))).next;
   }
   const lessons = importedLessonsFor(study);
@@ -28,7 +30,7 @@ test('every published skill resolves to a teachable dialogue from each of the th
 });
 
 test('school catalogue keeps unique programs and public registration links', () => {
-  const { programs } = read('schools/programs.json');
+  const { programs } = read('en/schools/programs.json');
   assert.ok(programs.length >= 40);
   assert.equal(new Set(programs.map((program: { name: string }) => program.name)).size, programs.length);
   for (const program of programs) {
@@ -45,8 +47,8 @@ test('skill phrase provenance and retry survive selection of another dialogue', 
   const { assessPhraseCard, phraseReviews, phraseRetryDelay, phraseVocabularyId } = await import('../src/domain/lesson-practice.ts');
   const { skillPhraseCards } = await import('../src/domain/skill-dialogues.ts');
   const { lastSpoken } = await import('../src/domain/model.ts');
-  const packets = ['wolves-and-eco-homes', 'future-plans', 'responses-and-opinions'].map(name => read('2026-11-16/' + name + '.json'));
-  const skills = read('2026-11-16/skills.json');
+  const packets = ['wolves-and-eco-homes', 'future-plans', 'responses-and-opinions'].map(name => readLesson(name));
+  const skills = read('en/skills/catalog.json');
   for (const skill of skills) {
     assert.equal(skill.dialogues.flatMap((dialogue: { phrases: unknown[] }) => dialogue.phrases).length, 6);
     for (const item of skill.dialogues) {

@@ -40,13 +40,13 @@ const scenes: LessonScene[] = [
 
 const followUps: Record<string, Pair[]> = {
   introduction: [
-    ['Where is Denis originally from?', 'Russia.'], ['Where does he live now?', 'Guangzhou, China.'], ['Which three languages does he mention?', 'Russian, Chinese and English.'], ['What shared interest brings the community together?', 'An interest in tea.']
+    ['Where is the learner originally from?', 'Russia.'], ['Where does he live now?', 'Guangzhou, China.'], ['Which three languages does he mention?', 'Russian, Chinese and English.'], ['What shared interest brings the community together?', 'An interest in tea.']
   ],
   restaurant: [
-    ['Which setting appeals to Denis?', 'A restaurant by the water.'], ['What matters more to him than the view?', 'The quality of the food.'], ['Which dish does he mention?', 'Beef and truffle dumplings.'], ['What can they check before deciding?', 'The menu.']
+    ['Which setting appeals to the learner?', 'A restaurant by the water.'], ['What matters more to him than the view?', 'The quality of the food.'], ['Which dish does he mention?', 'Beef and truffle dumplings.'], ['What can they check before deciding?', 'The menu.']
   ],
   walk: [
-    ['What activity does Denis describe?', 'Going for an evening walk.'], ['Does he prefer an easy pace or a fast pace?', 'An easy pace.'], ['What distance does he mention?', 'About ten kilometres at A1 and B1; around seven to ten kilometres, or those two distances, at the other levels.'], ['What can they do after walking for a while?', 'Stop for coffee.']
+    ['What activity does the learner describe?', 'Going for an evening walk.'], ['Does he prefer an easy pace or a fast pace?', 'An easy pace.'], ['What distance does he mention?', 'About ten kilometres at A1 and B1; around seven to ten kilometres, or those two distances, at the other levels.'], ['What can they do after walking for a while?', 'Stop for coffee.']
   ]
 };
 
@@ -74,7 +74,7 @@ export const starterLessons = scenes.flatMap(scene => levels.map(level => {
   const turns = scene.versions[level];
   const resource: Resource = {
     id: 'starter:en:' + scene.id + ':' + level, language: 'en', title: scene.title + ' · ' + level,
-    kind: 'dialogue', text: turns.map(([question, answer]) => 'Partner: ' + question + '\nDenis: ' + answer).join('\n\n'),
+    kind: 'dialogue', text: turns.map(([question, answer]) => 'Partner: ' + question + '\nLearner: ' + answer).join('\n\n'),
     prompt: scene.task, answer: '', url: ''
   };
   const questions = (scene.questions ?? followUps[scene.id]).map(([question, answer]): Pair => [

@@ -14,10 +14,9 @@ import { dialogueMistakesHash } from '../domain/dialogue-mistakes';
 import { SkillReply } from './SkillReply';
 import { SkillPicker } from './SkillPicker';
 import { skillMatches, skillPhraseCards } from '../domain/skill-dialogues';
-import november16 from '../../materials/2026-11-16/lessons.json';
-import november17 from '../../materials/2026-11-17/lessons.json';
+import datedLessons from '../../materials/en/lessons/catalog.json';
 import { lessonSource } from '../domain/school-lessons';
-import skills from '../../materials/2026-11-16/skills.json';
+import skills from '../../materials/en/skills/catalog.json';
 import { lessonPhrasesHash, phraseReviews, skillPhrasesHash } from '../domain/lesson-practice';
 import { lessonCues, lessonTopicTitle } from '../domain/lesson-cues';
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -33,7 +32,6 @@ import { StoryVersions } from './StoryVersions';
 import { StarterLesson, StarterMaterials, TeacherReadingCard } from './StarterMaterials';
 import { copyText, Fold, Heading, SourceLink, VoiceButtons } from './common';
 
-const datedLessons = [...november16, ...november17];
 
 type RecentLesson = { scene: string; dialogue: string };
 function readRecent(key: string): RecentLesson[] {
@@ -335,8 +333,8 @@ export function Materials() {
     setPanel(value);
     if (!dialog.current?.open) dialog.current?.showModal();
   }
-  const missingLessons = study.language === 'en' ? bundledLessons.filter(item =>
-    !active.topics.some(topic => topic.title === item.title)) : [];
+  const missingLessons = bundledLessons.filter(item => item.language === study.language &&
+    !active.topics.some(topic => topic.title === item.title));
   const [loadingLessons, setLoadingLessons] = useState(false);
   async function loadLessons() {
     if (loadingLessons) return;

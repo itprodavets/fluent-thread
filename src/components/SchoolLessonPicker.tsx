@@ -2,10 +2,8 @@ import { useState } from 'react';
 import type { Topic } from '../domain/model';
 import type { DialogueLink } from '../domain/school-lessons';
 import { schoolLessonGroups } from '../domain/school-lessons';
-import november16 from '../../materials/2026-11-16/lessons.json';
-import november17 from '../../materials/2026-11-17/lessons.json';
+import datedLessons from '../../materials/en/lessons/catalog.json';
 
-const datedLessons = [...november16, ...november17];
 
 const emptyDialogues = new Map<string, DialogueLink[]>();
 const dates = new Intl.DateTimeFormat('ru', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });

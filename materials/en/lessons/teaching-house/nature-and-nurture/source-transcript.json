@@ -1,0 +1,4726 @@
+{
+  "source": "Record-2026-11-20 11-20-08-20261120-112008",
+  "durationSeconds": 2873.46,
+  "timingUnit": "seconds (Vibe source centiseconds divided by 100)",
+  "notice": "Complete local ASR output, names replaced by roles. Automatic speaker clusters are not verified identities. Repetitions and misrecognitions are retained here for audit, not for memorization. No audio is published.",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.03,
+      "end": 3.11,
+      "speaker": "ASR voice 0",
+      "text": "Half-ish. Okay. Let me go ahead."
+    },
+    {
+      "index": 1,
+      "start": 3.22,
+      "end": 3.95,
+      "speaker": "ASR voice 0",
+      "text": "Hi, everyone."
+    },
+    {
+      "index": 2,
+      "start": 3.95,
+      "end": 8.05,
+      "speaker": "ASR voice 0",
+      "text": "Okay. Hello. Okay. Can you all see my screen?"
+    },
+    {
+      "index": 3,
+      "start": 8.05,
+      "end": 9.09,
+      "speaker": "ASR voice 1",
+      "text": "Yes."
+    },
+    {
+      "index": 4,
+      "start": 9.09,
+      "end": 10.12,
+      "speaker": "ASR voice 1",
+      "text": "Yes."
+    },
+    {
+      "index": 5,
+      "start": 10.79,
+      "end": 11.43,
+      "speaker": "ASR voice 2",
+      "text": "Okay."
+    },
+    {
+      "index": 6,
+      "start": 11.43,
+      "end": 19.39,
+      "speaker": "ASR voice 0",
+      "text": "Wonderful. So, well, good morning, good evening, good afternoon, depending on where in the world you are."
+    },
+    {
+      "index": 7,
+      "start": 19.39,
+      "end": 24.07,
+      "speaker": "ASR voice 0",
+      "text": "Today, we're going to talk a little bit about nature versus nurture."
+    },
+    {
+      "index": 8,
+      "start": 24.09,
+      "end": 26.57,
+      "speaker": "ASR voice 0",
+      "text": "Have you guys heard this phrase before?"
+    },
+    {
+      "index": 9,
+      "start": 26.57,
+      "end": 29.87,
+      "speaker": "ASR voice 2",
+      "text": "No."
+    },
+    {
+      "index": 10,
+      "start": 30.03,
+      "end": 31.67,
+      "speaker": "ASR voice 2",
+      "text": "Okay. So, this"
+    },
+    {
+      "index": 11,
+      "start": 31.67,
+      "end": 38.69,
+      "speaker": "ASR voice 0",
+      "text": "is a pretty common argument you might hear in the U.S."
+    },
+    {
+      "index": 12,
+      "start": 38.69,
+      "end": 52.09,
+      "speaker": "ASR voice 0",
+      "text": "I've talked about this with my friends and with some other people over the years, but it's kind of the idea of are people born good or bad, or do they become good or bad based on the environment around them?"
+    },
+    {
+      "index": 13,
+      "start": 53.43,
+      "end": 61.81,
+      "speaker": "ASR voice 0",
+      "text": "So, is, like, a person who's a criminal, were they born to become a criminal, or did stuff that happened in their life make them become a criminal?"
+    },
+    {
+      "index": 14,
+      "start": 64.39,
+      "end": 64.75,
+      "speaker": "ASR voice 1",
+      "text": "Anyone"
+    },
+    {
+      "index": 15,
+      "start": 64.75,
+      "end": 65.85,
+      "speaker": "ASR voice 0",
+      "text": "have any thoughts?"
+    },
+    {
+      "index": 16,
+      "start": 65.85,
+      "end": 69.01,
+      "speaker": "ASR voice 0",
+      "text": "Are we born good or are we born bad?"
+    },
+    {
+      "index": 17,
+      "start": 69.01,
+      "end": 70.04,
+      "speaker": "ASR voice 0",
+      "text": "Is, uh,"
+    },
+    {
+      "index": 18,
+      "start": 70.05,
+      "end": 73.05,
+      "speaker": "ASR voice 1",
+      "text": "criminal is, uh..."
+    },
+    {
+      "index": 19,
+      "start": 73.05,
+      "end": 73.51,
+      "speaker": "ASR voice 1",
+      "text": "Are"
+    },
+    {
+      "index": 20,
+      "start": 73.51,
+      "end": 73.81,
+      "speaker": "ASR voice 3",
+      "text": "we"
+    },
+    {
+      "index": 21,
+      "start": 73.81,
+      "end": 81.71,
+      "speaker": "ASR voice 1",
+      "text": "born good or are we born good or bad based on the human being?"
+    },
+    {
+      "index": 22,
+      "start": 81.71,
+      "end": 81.71,
+      "speaker": "ASR voice 1",
+      "text": "I mean, uh, if you're using..."
+    },
+    {
+      "index": 23,
+      "start": 81.71,
+      "end": 89.84,
+      "speaker": "ASR voice 1",
+      "text": "I think nature and"
+    },
+    {
+      "index": 24,
+      "start": 93.05,
+      "end": 97.29,
+      "speaker": "ASR voice 4",
+      "text": "nurture are interacting with each other."
+    },
+    {
+      "index": 25,
+      "start": 97.29,
+      "end": 98.3,
+      "speaker": "ASR voice 4",
+      "text": "Are we born"
+    },
+    {
+      "index": 26,
+      "start": 98.59,
+      "end": 99.54,
+      "speaker": "ASR voice 0",
+      "text": "good or are we born"
+    },
+    {
+      "index": 27,
+      "start": 100.24,
+      "end": 105.95,
+      "speaker": "ASR voice 4",
+      "text": "good or are we born good or are we born good or are we born good?"
+    },
+    {
+      "index": 28,
+      "start": 105.95,
+      "end": 114.61,
+      "speaker": "ASR voice 4",
+      "text": "Are we born good or are we born good or are we born good or are we born good or are we born good?"
+    },
+    {
+      "index": 29,
+      "start": 114.61,
+      "end": 117.87,
+      "speaker": "ASR voice 4",
+      "text": "um become worse but"
+    },
+    {
+      "index": 30,
+      "start": 118.06,
+      "end": 118.34,
+      "speaker": "ASR voice 0",
+      "text": "not"
+    },
+    {
+      "index": 31,
+      "start": 118.61,
+      "end": 126.61,
+      "speaker": "ASR voice 4",
+      "text": "everyone maybe yeah i mean some of them um always very good in"
+    },
+    {
+      "index": 32,
+      "start": 127.41,
+      "end": 127.44,
+      "speaker": "ASR voice 0",
+      "text": "any"
+    },
+    {
+      "index": 33,
+      "start": 127.44,
+      "end": 128.29,
+      "speaker": "ASR voice 4",
+      "text": "under"
+    },
+    {
+      "index": 34,
+      "start": 128.29,
+      "end": 135.73,
+      "speaker": "ASR voice 4",
+      "text": "in in any situations i but i think uh the proportion of those people are very small"
+    },
+    {
+      "index": 35,
+      "start": 136.37,
+      "end": 143.79,
+      "speaker": "ASR voice 4",
+      "text": "most people um i think uh changing uh interacting with the uh the environment"
+    },
+    {
+      "index": 36,
+      "start": 143.8,
+      "end": 145.49,
+      "speaker": "ASR voice 0",
+      "text": "okay so you think a"
+    },
+    {
+      "index": 37,
+      "start": 145.49,
+      "end": 148.05,
+      "speaker": "ASR voice 0",
+      "text": "little more nurture than nature"
+    },
+    {
+      "index": 38,
+      "start": 148.71,
+      "end": 148.96,
+      "speaker": "ASR voice 4",
+      "text": "then"
+    },
+    {
+      "index": 39,
+      "start": 148.96,
+      "end": 154.21,
+      "speaker": "ASR voice 1",
+      "text": "yeah i i think about uh i think about people aren't born"
+    },
+    {
+      "index": 40,
+      "start": 154.21,
+      "end": 166.53,
+      "speaker": "ASR voice 1",
+      "text": "string good or bad this is a situation uh not tour this is not using genetic on personality train"
+    },
+    {
+      "index": 41,
+      "start": 166.53,
+      "end": 168.52,
+      "speaker": "ASR voice 1",
+      "text": "all right so we got"
+    },
+    {
+      "index": 42,
+      "start": 168.52,
+      "end": 173.88,
+      "speaker": "ASR voice 0",
+      "text": "two for nurture uh and yellow what do you think hey good"
+    },
+    {
+      "index": 43,
+      "start": 174.77,
+      "end": 175.73,
+      "speaker": "ASR voice 5",
+      "text": "morning guys"
+    },
+    {
+      "index": 44,
+      "start": 177.81,
+      "end": 191.33,
+      "speaker": "ASR voice 5",
+      "text": "morning here is tonight hey guys uh i was thinking uh not sure it's related the for instance one person"
+    },
+    {
+      "index": 45,
+      "start": 191.33,
+      "end": 199.49,
+      "speaker": "ASR voice 5",
+      "text": "a born with the talent uh for something for instance uh a music yeah"
+    },
+    {
+      "index": 46,
+      "start": 199.49,
+      "end": 200.48,
+      "speaker": "ASR voice 0",
+      "text": "this"
+    },
+    {
+      "index": 47,
+      "start": 200.72,
+      "end": 203.33,
+      "speaker": "ASR voice 5",
+      "text": "is a nature because the person"
+    },
+    {
+      "index": 48,
+      "start": 203.33,
+      "end": 216.21,
+      "speaker": "ASR voice 5",
+      "text": "born with this special talent and nature is this person can become great musician with study is study"
+    },
+    {
+      "index": 49,
+      "start": 216.21,
+      "end": 226.37,
+      "speaker": "ASR voice 5",
+      "text": "practicing education dedication and many things this is for me the difference between the the both"
+    },
+    {
+      "index": 50,
+      "start": 227.57,
+      "end": 235.25,
+      "speaker": "ASR voice 0",
+      "text": "okay so there's some traits that might be like genetic or given to you at birth and others that are"
+    },
+    {
+      "index": 51,
+      "start": 235.25,
+      "end": 236.2,
+      "speaker": "ASR voice 0",
+      "text": "environmental"
+    },
+    {
+      "index": 52,
+      "start": 236.71,
+      "end": 238.38,
+      "speaker": "ASR voice 6",
+      "text": "can i say two oh yeah"
+    },
+    {
+      "index": 53,
+      "start": 238.63,
+      "end": 240.06,
+      "speaker": "ASR voice 0",
+      "text": "go ahead kill me i"
+    },
+    {
+      "index": 54,
+      "start": 240.66,
+      "end": 246.77,
+      "speaker": "ASR voice 6",
+      "text": "heard if you are raised by strict parents"
+    },
+    {
+      "index": 55,
+      "start": 247.89,
+      "end": 259.25,
+      "speaker": "ASR voice 6",
+      "text": "you become strict with your children i heard so it means no nurture it's not"
+    },
+    {
+      "index": 56,
+      "start": 259.25,
+      "end": 264.05,
+      "speaker": "ASR voice 0",
+      "text": "so okay a lot so most of you"
+    },
+    {
+      "index": 57,
+      "start": 264.05,
+      "end": 273.09,
+      "speaker": "ASR voice 0",
+      "text": "seem to think nurture over nature well okay um so we're going to talk a little bit more about this"
+    },
+    {
+      "index": 58,
+      "start": 273.09,
+      "end": 281.25,
+      "speaker": "ASR voice 0",
+      "text": "in just a second i'm gonna have you guys go over a little bit of vocabulary first though so we got"
+    },
+    {
+      "index": 59,
+      "start": 281.25,
+      "end": 289.33,
+      "speaker": "ASR voice 0",
+      "text": "six vocabulary words and six definitions i want you guys to go ahead and match the word to the definition"
+    },
+    {
+      "index": 60,
+      "start": 289.33,
+      "end": 296.59,
+      "speaker": "ASR voice 0",
+      "text": "you guys have about two minutes for this"
+    },
+    {
+      "index": 61,
+      "start": 296.59,
+      "end": 301.01,
+      "speaker": "ASR voice unknown",
+      "text": "and then we'll go over it"
+    },
+    {
+      "index": 62,
+      "start": 303.09,
+      "end": 315.25,
+      "speaker": "ASR voice unknown",
+      "text": "night"
+    },
+    {
+      "index": 63,
+      "start": 333.09,
+      "end": 363.07,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 64,
+      "start": 363.09,
+      "end": 373.89,
+      "speaker": "ASR voice 3",
+      "text": "Vulnerability"
+    },
+    {
+      "index": 65,
+      "start": 373.89,
+      "end": 392.43,
+      "speaker": "ASR voice 1",
+      "text": "Heredity"
+    },
+    {
+      "index": 66,
+      "start": 393.09,
+      "end": 404.61,
+      "speaker": "ASR voice 1",
+      "text": "I'm sorry,"
+    },
+    {
+      "index": 67,
+      "start": 404.61,
+      "end": 408.37,
+      "speaker": "ASR voice 2",
+      "text": "I lost the connection for a while and now I'm back."
+    },
+    {
+      "index": 68,
+      "start": 409.81,
+      "end": 414.93,
+      "speaker": "ASR voice 0",
+      "text": "No worries, we are just matching vocabulary right now."
+    },
+    {
+      "index": 69,
+      "start": 414.93,
+      "end": 415.43,
+      "speaker": "ASR voice 2",
+      "text": "Okay."
+    },
+    {
+      "index": 70,
+      "start": 415.43,
+      "end": 419.6,
+      "speaker": "ASR voice 2",
+      "text": "Don't worry,"
+    },
+    {
+      "index": 71,
+      "start": 419.6,
+      "end": 424.17,
+      "speaker": "ASR voice 1",
+      "text": "don't worry."
+    },
+    {
+      "index": 72,
+      "start": 424.87,
+      "end": 426.2,
+      "speaker": "ASR voice 1",
+      "text": "Go ahead and finish up"
+    },
+    {
+      "index": 73,
+      "start": 426.36,
+      "end": 428.39,
+      "speaker": "ASR voice 0",
+      "text": "the last one you're matching."
+    },
+    {
+      "index": 74,
+      "start": 428.39,
+      "end": 431.31,
+      "speaker": "ASR voice 0",
+      "text": "If you're not all the way through, that's okay."
+    },
+    {
+      "index": 75,
+      "start": 431.31,
+      "end": 433.29,
+      "speaker": "ASR voice 0",
+      "text": "We'll go over it as a class."
+    },
+    {
+      "index": 76,
+      "start": 433.29,
+      "end": 435.45,
+      "speaker": "ASR voice 2",
+      "text": "Okay."
+    },
+    {
+      "index": 77,
+      "start": 435.45,
+      "end": 437.55,
+      "speaker": "ASR voice 2",
+      "text": "Teacher,"
+    },
+    {
+      "index": 78,
+      "start": 437.55,
+      "end": 441.99,
+      "speaker": "ASR voice 1",
+      "text": "could you please talk about pronunciation number five?"
+    },
+    {
+      "index": 79,
+      "start": 442.99,
+      "end": 447.47,
+      "speaker": "ASR voice 1",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 80,
+      "start": 447.47,
+      "end": 450.69,
+      "speaker": "ASR voice 1",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 81,
+      "start": 450.69,
+      "end": 452.21,
+      "speaker": "ASR voice 0",
+      "text": "Yes."
+    },
+    {
+      "index": 82,
+      "start": 452.21,
+      "end": 453.21,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 83,
+      "start": 453.21,
+      "end": 455.22,
+      "speaker": "ASR voice 1",
+      "text": "Did you have a question"
+    },
+    {
+      "index": 84,
+      "start": 455.22,
+      "end": 460.35,
+      "speaker": "ASR voice 0",
+      "text": "about it or were you just curious about pronunciation?"
+    },
+    {
+      "index": 85,
+      "start": 462.75,
+      "end": 466.27,
+      "speaker": "ASR voice 1",
+      "text": "Maybe free vulnerability?"
+    },
+    {
+      "index": 86,
+      "start": 466.27,
+      "end": 469.41,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 87,
+      "start": 469.41,
+      "end": 470.67,
+      "speaker": "ASR voice 1",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 88,
+      "start": 470.67,
+      "end": 470.9,
+      "speaker": "ASR voice 1",
+      "text": "We"
+    },
+    {
+      "index": 89,
+      "start": 470.9,
+      "end": 478.77,
+      "speaker": "ASR voice 0",
+      "text": "will go over pronunciation for each word in just a minute, but I want to match the definitions"
+    },
+    {
+      "index": 90,
+      "start": 478.77,
+      "end": 479.65,
+      "speaker": "ASR voice 0",
+      "text": "before we do."
+    },
+    {
+      "index": 91,
+      "start": 479.65,
+      "end": 480.51,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 92,
+      "start": 485.37,
+      "end": 486.4,
+      "speaker": "ASR voice 0",
+      "text": "[participant], do you"
+    },
+    {
+      "index": 93,
+      "start": 486.77,
+      "end": 487.11,
+      "speaker": "ASR voice 1",
+      "text": "have an"
+    },
+    {
+      "index": 94,
+      "start": 487.23,
+      "end": 490.05,
+      "speaker": "ASR voice 0",
+      "text": "idea for what nurture is, number one?"
+    },
+    {
+      "index": 95,
+      "start": 490.05,
+      "end": 501.19,
+      "speaker": "ASR voice 0",
+      "text": "I don't know if [participant] is there."
+    },
+    {
+      "index": 96,
+      "start": 501.19,
+      "end": 505.41,
+      "speaker": "ASR voice 1",
+      "text": "Teacher, I think about this number one, natural."
+    },
+    {
+      "index": 97,
+      "start": 505.65,
+      "end": 505.95,
+      "speaker": "ASR voice 0",
+      "text": "Yeah."
+    },
+    {
+      "index": 98,
+      "start": 505.96,
+      "end": 508.11,
+      "speaker": "ASR voice 1",
+      "text": "Much with D."
+    },
+    {
+      "index": 99,
+      "start": 508.11,
+      "end": 515.25,
+      "speaker": "ASR voice 1",
+      "text": "The processes of talking comes from one, for example, Bobby."
+    },
+    {
+      "index": 100,
+      "start": 515.25,
+      "end": 518.35,
+      "speaker": "ASR voice 1",
+      "text": "Yes."
+    },
+    {
+      "index": 101,
+      "start": 518.35,
+      "end": 518.97,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 102,
+      "start": 518.97,
+      "end": 520.35,
+      "speaker": "ASR voice 0",
+      "text": "D is correct."
+    },
+    {
+      "index": 103,
+      "start": 520.35,
+      "end": 524.83,
+      "speaker": "ASR voice 0",
+      "text": "[participant], do you have an answer for number two, DNA?"
+    },
+    {
+      "index": 104,
+      "start": 524.83,
+      "end": 525.14,
+      "speaker": "ASR voice 0",
+      "text": "DNA"
+    },
+    {
+      "index": 105,
+      "start": 525.81,
+      "end": 533.17,
+      "speaker": "ASR voice 7",
+      "text": "is A for the carrier of genetic information."
+    },
+    {
+      "index": 106,
+      "start": 535.33,
+      "end": 535.77,
+      "speaker": "ASR voice 0",
+      "text": "Yes."
+    },
+    {
+      "index": 107,
+      "start": 535.77,
+      "end": 538.99,
+      "speaker": "ASR voice 0",
+      "text": "A carrier of genetic information."
+    },
+    {
+      "index": 108,
+      "start": 538.99,
+      "end": 540.25,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 109,
+      "start": 540.25,
+      "end": 545.11,
+      "speaker": "ASR voice 0",
+      "text": "Number three, [participant], vulnerability."
+    },
+    {
+      "index": 110,
+      "start": 545.11,
+      "end": 545.53,
+      "speaker": "ASR voice 0",
+      "text": "For"
+    },
+    {
+      "index": 111,
+      "start": 546.41,
+      "end": 549.55,
+      "speaker": "ASR voice 6",
+      "text": "number three, that's A."
+    },
+    {
+      "index": 112,
+      "start": 549.55,
+      "end": 551.65,
+      "speaker": "ASR voice 0",
+      "text": "Yes."
+    },
+    {
+      "index": 113,
+      "start": 551.65,
+      "end": 557.09,
+      "speaker": "ASR voice 0",
+      "text": "Being unprotected from harm, either physically or emotionally."
+    },
+    {
+      "index": 114,
+      "start": 557.09,
+      "end": 563.51,
+      "speaker": "ASR voice 0",
+      "text": "[participant], do you have heredity?"
+    },
+    {
+      "index": 115,
+      "start": 565.01,
+      "end": 565.79,
+      "speaker": "ASR voice 4",
+      "text": "Yes."
+    },
+    {
+      "index": 116,
+      "start": 565.79,
+      "end": 566.35,
+      "speaker": "ASR voice 4",
+      "text": "Number four."
+    },
+    {
+      "index": 117,
+      "start": 566.35,
+      "end": 576.31,
+      "speaker": "ASR voice 4",
+      "text": "I think heredity is a passing of mental or physical characteristics from parents to children."
+    },
+    {
+      "index": 118,
+      "start": 576.31,
+      "end": 576.38,
+      "speaker": "ASR voice 4",
+      "text": "It"
+    },
+    {
+      "index": 119,
+      "start": 576.91,
+      "end": 578.71,
+      "speaker": "ASR voice 0",
+      "text": "is E."
+    },
+    {
+      "index": 120,
+      "start": 578.71,
+      "end": 583.25,
+      "speaker": "ASR voice 0",
+      "text": "[participant], indistinguishable."
+    },
+    {
+      "index": 121,
+      "start": 583.25,
+      "end": 586.63,
+      "speaker": "ASR voice 5",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 122,
+      "start": 586.97,
+      "end": 593.25,
+      "speaker": "ASR voice 5",
+      "text": "It's like number C is enableable to identify."
+    },
+    {
+      "index": 123,
+      "start": 593.25,
+      "end": 595.75,
+      "speaker": "ASR voice 0",
+      "text": "Yes."
+    },
+    {
+      "index": 124,
+      "start": 595.75,
+      "end": 599.37,
+      "speaker": "ASR voice 0",
+      "text": "And then, [participant], you got an easy one."
+    },
+    {
+      "index": 125,
+      "start": 599.37,
+      "end": 599.89,
+      "speaker": "ASR voice 0",
+      "text": "IQ."
+    },
+    {
+      "index": 126,
+      "start": 599.89,
+      "end": 601.27,
+      "speaker": "ASR voice 0",
+      "text": "IQ."
+    },
+    {
+      "index": 127,
+      "start": 601.27,
+      "end": 605.57,
+      "speaker": "ASR voice 6",
+      "text": "A major of intelligence, usually with a number score."
+    },
+    {
+      "index": 128,
+      "start": 606.53,
+      "end": 606.89,
+      "speaker": "ASR voice 0",
+      "text": "Yes."
+    },
+    {
+      "index": 129,
+      "start": 606.89,
+      "end": 607.91,
+      "speaker": "ASR voice 0",
+      "text": "Good job, everyone."
+    },
+    {
+      "index": 130,
+      "start": 607.91,
+      "end": 609.45,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 131,
+      "start": 609.45,
+      "end": 612.41,
+      "speaker": "ASR voice 2",
+      "text": "Sorry, teacher, my laptop is frozen."
+    },
+    {
+      "index": 132,
+      "start": 612.41,
+      "end": 614.59,
+      "speaker": "ASR voice 2",
+      "text": "I don't know what's happening here."
+    },
+    {
+      "index": 133,
+      "start": 614.59,
+      "end": 614.6,
+      "speaker": "ASR voice 2",
+      "text": "No"
+    },
+    {
+      "index": 134,
+      "start": 614.78,
+      "end": 616.71,
+      "speaker": "ASR voice 0",
+      "text": "worries, [participant]."
+    },
+    {
+      "index": 135,
+      "start": 616.71,
+      "end": 618.51,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 136,
+      "start": 618.51,
+      "end": 626.01,
+      "speaker": "ASR voice 0",
+      "text": "So, we're going to do a few repeat after me's for these vocabulary words because they are a little interesting."
+    },
+    {
+      "index": 137,
+      "start": 627.79,
+      "end": 629.17,
+      "speaker": "ASR voice 0",
+      "text": "So, nurture."
+    },
+    {
+      "index": 138,
+      "start": 629.17,
+      "end": 629.41,
+      "speaker": "ASR voice 0",
+      "text": "Nurture."
+    },
+    {
+      "index": 139,
+      "start": 629.41,
+      "end": 631.17,
+      "speaker": "ASR voice 4",
+      "text": "Nurture."
+    },
+    {
+      "index": 140,
+      "start": 631.17,
+      "end": 633.47,
+      "speaker": "ASR voice 2",
+      "text": "Nurture."
+    },
+    {
+      "index": 141,
+      "start": 633.47,
+      "end": 634.97,
+      "speaker": "ASR voice 1",
+      "text": "Nurture."
+    },
+    {
+      "index": 142,
+      "start": 634.97,
+      "end": 635.53,
+      "speaker": "ASR voice 4",
+      "text": "Nurture."
+    },
+    {
+      "index": 143,
+      "start": 635.53,
+      "end": 636.33,
+      "speaker": "ASR voice 2",
+      "text": "Nurture."
+    },
+    {
+      "index": 144,
+      "start": 636.33,
+      "end": 637.25,
+      "speaker": "ASR voice 5",
+      "text": "Yeah."
+    },
+    {
+      "index": 145,
+      "start": 637.25,
+      "end": 639.03,
+      "speaker": "ASR voice 0",
+      "text": "Where are we hearing the stress?"
+    },
+    {
+      "index": 146,
+      "start": 639.03,
+      "end": 641.37,
+      "speaker": "ASR voice 0",
+      "text": "Is it on the first or the second syllable?"
+    },
+    {
+      "index": 147,
+      "start": 641.37,
+      "end": 642.49,
+      "speaker": "ASR voice 5",
+      "text": "Nurture."
+    },
+    {
+      "index": 148,
+      "start": 642.49,
+      "end": 643.17,
+      "speaker": "ASR voice 2",
+      "text": "Nurture."
+    },
+    {
+      "index": 149,
+      "start": 643.17,
+      "end": 643.67,
+      "speaker": "ASR voice 7",
+      "text": "Nurture."
+    },
+    {
+      "index": 150,
+      "start": 643.67,
+      "end": 645.17,
+      "speaker": "ASR voice 4",
+      "text": "Nurture."
+    },
+    {
+      "index": 151,
+      "start": 645.17,
+      "end": 645.57,
+      "speaker": "ASR voice 4",
+      "text": "Nurture."
+    },
+    {
+      "index": 152,
+      "start": 645.57,
+      "end": 645.67,
+      "speaker": "ASR voice 4",
+      "text": "Yeah."
+    },
+    {
+      "index": 153,
+      "start": 645.67,
+      "end": 646.87,
+      "speaker": "ASR voice 4",
+      "text": "The first."
+    },
+    {
+      "index": 154,
+      "start": 647.04,
+      "end": 647.35,
+      "speaker": "ASR voice 0",
+      "text": "Yeah."
+    },
+    {
+      "index": 155,
+      "start": 647.35,
+      "end": 648.63,
+      "speaker": "ASR voice 0",
+      "text": "So, nurture."
+    },
+    {
+      "index": 156,
+      "start": 648.63,
+      "end": 650.43,
+      "speaker": "ASR voice 2",
+      "text": "Nurture."
+    },
+    {
+      "index": 157,
+      "start": 650.43,
+      "end": 651.59,
+      "speaker": "ASR voice 1",
+      "text": "Nurture."
+    },
+    {
+      "index": 158,
+      "start": 651.59,
+      "end": 651.69,
+      "speaker": "ASR voice 1",
+      "text": "Nurture."
+    },
+    {
+      "index": 159,
+      "start": 651.69,
+      "end": 651.99,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 160,
+      "start": 651.99,
+      "end": 652.93,
+      "speaker": "ASR voice 0",
+      "text": "Good job."
+    },
+    {
+      "index": 161,
+      "start": 653.57,
+      "end": 656.35,
+      "speaker": "ASR voice 0",
+      "text": "And then, next one is DNA."
+    },
+    {
+      "index": 162,
+      "start": 656.35,
+      "end": 659.13,
+      "speaker": "ASR voice 7",
+      "text": "DNA."
+    },
+    {
+      "index": 163,
+      "start": 659.13,
+      "end": 660.53,
+      "speaker": "ASR voice 6",
+      "text": "DNA."
+    },
+    {
+      "index": 164,
+      "start": 660.53,
+      "end": 660.87,
+      "speaker": "ASR voice 1",
+      "text": "Yeah."
+    },
+    {
+      "index": 165,
+      "start": 660.87,
+      "end": 662.73,
+      "speaker": "ASR voice 2",
+      "text": "DNA."
+    },
+    {
+      "index": 166,
+      "start": 662.73,
+      "end": 664.31,
+      "speaker": "ASR voice 0",
+      "text": "DNA."
+    },
+    {
+      "index": 167,
+      "start": 664.31,
+      "end": 666.1,
+      "speaker": "ASR voice 1",
+      "text": "And then,"
+    },
+    {
+      "index": 168,
+      "start": 666.33,
+      "end": 669.31,
+      "speaker": "ASR voice 0",
+      "text": "vulnerability."
+    },
+    {
+      "index": 169,
+      "start": 669.31,
+      "end": 672.41,
+      "speaker": "ASR voice 5",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 170,
+      "start": 672.41,
+      "end": 676.07,
+      "speaker": "ASR voice 5",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 171,
+      "start": 676.12,
+      "end": 678.19,
+      "speaker": "ASR voice 0",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 172,
+      "start": 678.19,
+      "end": 679.59,
+      "speaker": "ASR voice 1",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 173,
+      "start": 679.59,
+      "end": 681.69,
+      "speaker": "ASR voice 2",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 174,
+      "start": 681.69,
+      "end": 682.51,
+      "speaker": "ASR voice 5",
+      "text": "Mm-hmm."
+    },
+    {
+      "index": 175,
+      "start": 683.11,
+      "end": 684.73,
+      "speaker": "ASR voice 0",
+      "text": "This one, this is a long one."
+    },
+    {
+      "index": 176,
+      "start": 684.73,
+      "end": 685.71,
+      "speaker": "ASR voice 0",
+      "text": "It's six syllables."
+    },
+    {
+      "index": 177,
+      "start": 685.71,
+      "end": 689.75,
+      "speaker": "ASR voice 0",
+      "text": "Where do we hear the stress and vulnerability?"
+    },
+    {
+      "index": 178,
+      "start": 689.75,
+      "end": 692.45,
+      "speaker": "ASR voice 0",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 179,
+      "start": 692.45,
+      "end": 693.49,
+      "speaker": "ASR voice 4",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 180,
+      "start": 693.49,
+      "end": 694.41,
+      "speaker": "ASR voice 2",
+      "text": "The first one?"
+    },
+    {
+      "index": 181,
+      "start": 694.41,
+      "end": 698.31,
+      "speaker": "ASR voice 2",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 182,
+      "start": 698.31,
+      "end": 700.17,
+      "speaker": "ASR voice 2",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 183,
+      "start": 700.17,
+      "end": 700.51,
+      "speaker": "ASR voice 4",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 184,
+      "start": 700.51,
+      "end": 700.57,
+      "speaker": "ASR voice 4",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 185,
+      "start": 700.57,
+      "end": 701.4,
+      "speaker": "ASR voice 4",
+      "text": "So, I"
+    },
+    {
+      "index": 186,
+      "start": 701.4,
+      "end": 703.42,
+      "speaker": "ASR voice 2",
+      "text": "heard someone"
+    },
+    {
+      "index": 187,
+      "start": 703.42,
+      "end": 706.31,
+      "speaker": "ASR voice 0",
+      "text": "say it on ability."
+    },
+    {
+      "index": 188,
+      "start": 706.63,
+      "end": 706.93,
+      "speaker": "ASR voice 0",
+      "text": "So, yeah."
+    },
+    {
+      "index": 189,
+      "start": 706.93,
+      "end": 713.35,
+      "speaker": "ASR voice 0",
+      "text": "The stress is on right around here for vulnerability."
+    },
+    {
+      "index": 190,
+      "start": 713.35,
+      "end": 715.65,
+      "speaker": "ASR voice 4",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 191,
+      "start": 715.65,
+      "end": 717.01,
+      "speaker": "ASR voice 7",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 192,
+      "start": 717.01,
+      "end": 717.35,
+      "speaker": "ASR voice 7",
+      "text": "Vulnerability."
+    },
+    {
+      "index": 193,
+      "start": 717.35,
+      "end": 717.74,
+      "speaker": "ASR voice 0",
+      "text": "So,"
+    },
+    {
+      "index": 194,
+      "start": 718.42,
+      "end": 718.93,
+      "speaker": "ASR voice 4",
+      "text": "yeah."
+    },
+    {
+      "index": 195,
+      "start": 718.93,
+      "end": 720.47,
+      "speaker": "ASR voice 0",
+      "text": "Good job."
+    },
+    {
+      "index": 196,
+      "start": 720.47,
+      "end": 723.13,
+      "speaker": "ASR voice 0",
+      "text": "And then, heredity."
+    },
+    {
+      "index": 197,
+      "start": 723.13,
+      "end": 725.33,
+      "speaker": "ASR voice 3",
+      "text": "Heredity."
+    },
+    {
+      "index": 198,
+      "start": 725.33,
+      "end": 726.15,
+      "speaker": "ASR voice 6",
+      "text": "Heredity."
+    },
+    {
+      "index": 199,
+      "start": 726.15,
+      "end": 727.01,
+      "speaker": "ASR voice 1",
+      "text": "Heredity."
+    },
+    {
+      "index": 200,
+      "start": 727.01,
+      "end": 727.57,
+      "speaker": "ASR voice 5",
+      "text": "Heredity."
+    },
+    {
+      "index": 201,
+      "start": 727.57,
+      "end": 728.31,
+      "speaker": "ASR voice 5",
+      "text": "Heredity."
+    },
+    {
+      "index": 202,
+      "start": 728.31,
+      "end": 728.97,
+      "speaker": "ASR voice 5",
+      "text": "Heredity."
+    },
+    {
+      "index": 203,
+      "start": 728.97,
+      "end": 729.85,
+      "speaker": "ASR voice 0",
+      "text": "Yeah."
+    },
+    {
+      "index": 204,
+      "start": 729.85,
+      "end": 730.65,
+      "speaker": "ASR voice 0",
+      "text": "Heredity."
+    },
+    {
+      "index": 205,
+      "start": 730.65,
+      "end": 731.93,
+      "speaker": "ASR voice 1",
+      "text": "Heredity."
+    },
+    {
+      "index": 206,
+      "start": 731.93,
+      "end": 733.13,
+      "speaker": "ASR voice 4",
+      "text": "Heredity."
+    },
+    {
+      "index": 207,
+      "start": 733.13,
+      "end": 748.79,
+      "speaker": "ASR voice 0",
+      "text": "Someone said hereditary earlier, which is also, they're very similar, but today we're going"
+    },
+    {
+      "index": 208,
+      "start": 748.79,
+      "end": 753.61,
+      "speaker": "ASR voice 0",
+      "text": "to be talking about heredity, which is a noun."
+    },
+    {
+      "index": 209,
+      "start": 753.61,
+      "end": 761.59,
+      "speaker": "ASR voice 0",
+      "text": "A noun versus hereditary, which is an adjective."
+    },
+    {
+      "index": 210,
+      "start": 761.6,
+      "end": 765.37,
+      "speaker": "ASR voice 0",
+      "text": "So, you'll be using them."
+    },
+    {
+      "index": 211,
+      "start": 765.37,
+      "end": 772.85,
+      "speaker": "ASR voice 0",
+      "text": "You might use them both today, but we're going to be hearing and reading heredity, not hereditary."
+    },
+    {
+      "index": 212,
+      "start": 772.85,
+      "end": 775.53,
+      "speaker": "ASR voice 0",
+      "text": "They are very similar, though."
+    },
+    {
+      "index": 213,
+      "start": 775.53,
+      "end": 777.25,
+      "speaker": "ASR voice 1",
+      "text": "Heredity."
+    },
+    {
+      "index": 214,
+      "start": 777.25,
+      "end": 777.58,
+      "speaker": "ASR voice 1",
+      "text": "And"
+    },
+    {
+      "index": 215,
+      "start": 777.64,
+      "end": 780.51,
+      "speaker": "ASR voice 0",
+      "text": "that, indistinguishable."
+    },
+    {
+      "index": 216,
+      "start": 780.51,
+      "end": 783.79,
+      "speaker": "ASR voice 4",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 217,
+      "start": 783.79,
+      "end": 784.85,
+      "speaker": "ASR voice 1",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 218,
+      "start": 784.85,
+      "end": 788.47,
+      "speaker": "ASR voice 2",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 219,
+      "start": 788.47,
+      "end": 788.97,
+      "speaker": "ASR voice 7",
+      "text": "Yeah."
+    },
+    {
+      "index": 220,
+      "start": 788.97,
+      "end": 790.91,
+      "speaker": "ASR voice 1",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 221,
+      "start": 790.91,
+      "end": 793.57,
+      "speaker": "ASR voice 4",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 222,
+      "start": 793.57,
+      "end": 793.83,
+      "speaker": "ASR voice 4",
+      "text": "This"
+    },
+    {
+      "index": 223,
+      "start": 794.41,
+      "end": 798.49,
+      "speaker": "ASR voice 0",
+      "text": "is also six syllables long."
+    },
+    {
+      "index": 224,
+      "start": 798.49,
+      "end": 801.11,
+      "speaker": "ASR voice 0",
+      "text": "Where are we hearing the stress?"
+    },
+    {
+      "index": 225,
+      "start": 801.11,
+      "end": 802.83,
+      "speaker": "ASR voice 0",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 226,
+      "start": 802.83,
+      "end": 806.17,
+      "speaker": "ASR voice 6",
+      "text": "Indistinguishable."
+    },
+    {
+      "index": 227,
+      "start": 806.17,
+      "end": 811.15,
+      "speaker": "ASR voice 6",
+      "text": "Okay, so it's right"
+    },
+    {
+      "index": 228,
+      "start": 811.15,
+      "end": 812.86,
+      "speaker": "ASR voice 0",
+      "text": "here on"
+    },
+    {
+      "index": 229,
+      "start": 813.08,
+      "end": 813.47,
+      "speaker": "ASR voice 4",
+      "text": "the"
+    },
+    {
+      "index": 230,
+      "start": 814.28,
+      "end": 815.55,
+      "speaker": "ASR voice 5",
+      "text": "second"
+    },
+    {
+      "index": 231,
+      "start": 815.56,
+      "end": 824.41,
+      "speaker": "ASR voice 0",
+      "text": "syllable, indistinguishable."
+    },
+    {
+      "index": 232,
+      "start": 824.41,
+      "end": 827.35,
+      "speaker": "ASR voice 4",
+      "text": "Indistinguishable. And then"
+    },
+    {
+      "index": 233,
+      "start": 828.56,
+      "end": 829.6,
+      "speaker": "ASR voice 6",
+      "text": "our final"
+    },
+    {
+      "index": 234,
+      "start": 830.38,
+      "end": 832.97,
+      "speaker": "ASR voice 0",
+      "text": "one is IQ."
+    },
+    {
+      "index": 235,
+      "start": 832.97,
+      "end": 835.3,
+      "speaker": "ASR voice 6",
+      "text": "Great"
+    },
+    {
+      "index": 236,
+      "start": 835.48,
+      "end": 850.81,
+      "speaker": "ASR voice 0",
+      "text": "job, everyone. So our next task is going to match the summary with the paragraph."
+    },
+    {
+      "index": 237,
+      "start": 850.81,
+      "end": 861.29,
+      "speaker": "ASR voice 0",
+      "text": "So I'm gonna put the reading up in just a second. So take a minute to read through the different"
+    },
+    {
+      "index": 238,
+      "start": 861.29,
+      "end": 866.81,
+      "speaker": "ASR voice 0",
+      "text": "potential titles for the paragraphs and I will also put this in chat."
+    },
+    {
+      "index": 239,
+      "start": 882.65,
+      "end": 885.61,
+      "speaker": "ASR voice 0",
+      "text": "Can all of you see the title options chat?"
+    },
+    {
+      "index": 240,
+      "start": 885.61,
+      "end": 887.37,
+      "speaker": "ASR voice 1",
+      "text": "Yes."
+    },
+    {
+      "index": 241,
+      "start": 887.37,
+      "end": 888.17,
+      "speaker": "ASR voice 7",
+      "text": "Oh, yes."
+    },
+    {
+      "index": 242,
+      "start": 888.17,
+      "end": 889.77,
+      "speaker": "ASR voice 7",
+      "text": "Okay,"
+    },
+    {
+      "index": 243,
+      "start": 889.77,
+      "end": 893.77,
+      "speaker": "ASR voice 0",
+      "text": "so does each paragraph have one potential title?"
+    },
+    {
+      "index": 244,
+      "start": 898.09,
+      "end": 902.41,
+      "speaker": "ASR voice 0",
+      "text": "See, see some people nodding their head. Yeah. So"
+    },
+    {
+      "index": 245,
+      "start": 902.57,
+      "end": 905.19,
+      "speaker": "ASR voice 1",
+      "text": "yes, we need to find"
+    },
+    {
+      "index": 246,
+      "start": 905.19,
+      "end": 905.61,
+      "speaker": "ASR voice 0",
+      "text": "out"
+    },
+    {
+      "index": 247,
+      "start": 905.61,
+      "end": 909.77,
+      "speaker": "ASR voice 1",
+      "text": "a paragraph A, B, C, D."
+    },
+    {
+      "index": 248,
+      "start": 909.77,
+      "end": 911.93,
+      "speaker": "ASR voice 0",
+      "text": "Each one of these has one potential title."
+    },
+    {
+      "index": 249,
+      "start": 911.93,
+      "end": 912.81,
+      "speaker": "ASR voice 0",
+      "text": "Yes."
+    },
+    {
+      "index": 250,
+      "start": 912.81,
+      "end": 914.99,
+      "speaker": "ASR voice 1",
+      "text": "And you guys are"
+    },
+    {
+      "index": 251,
+      "start": 915.09,
+      "end": 922.17,
+      "speaker": "ASR voice 0",
+      "text": "gonna have about three minutes to read through and to do this activity."
+    },
+    {
+      "index": 252,
+      "start": 922.17,
+      "end": 929.61,
+      "speaker": "ASR voice 0",
+      "text": "So you're just gonna read for general understanding to just match the titles with the paragraph."
+    },
+    {
+      "index": 253,
+      "start": 929.61,
+      "end": 931.63,
+      "speaker": "ASR voice 0",
+      "text": "Okay,"
+    },
+    {
+      "index": 254,
+      "start": 931.68,
+      "end": 933.23,
+      "speaker": "ASR voice 6",
+      "text": "thank"
+    },
+    {
+      "index": 255,
+      "start": 933.39,
+      "end": 949.13,
+      "speaker": "ASR voice 0",
+      "text": "you so I'm here. Here's the reading."
+    },
+    {
+      "index": 256,
+      "start": 949.13,
+      "end": 962.65,
+      "speaker": "ASR voice unknown",
+      "text": "Okay. So, let's see."
+    },
+    {
+      "index": 257,
+      "start": 962.65,
+      "end": 966.65,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 258,
+      "start": 966.65,
+      "end": 968.65,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 259,
+      "start": 968.65,
+      "end": 986.17,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 260,
+      "start": 986.17,
+      "end": 988.17,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 261,
+      "start": 988.17,
+      "end": 990.17,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 262,
+      "start": 990.17,
+      "end": 1009.69,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 263,
+      "start": 1009.69,
+      "end": 1011.69,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 264,
+      "start": 1011.69,
+      "end": 1011.69,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 265,
+      "start": 1011.69,
+      "end": 1013.69,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 266,
+      "start": 1013.69,
+      "end": 1043.67,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 267,
+      "start": 1043.69,
+      "end": 1073.67,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 268,
+      "start": 1073.69,
+      "end": 1103.67,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 269,
+      "start": 1103.69,
+      "end": 1112.71,
+      "speaker": "ASR voice unknown",
+      "text": "I'll go ahead and finish up"
+    },
+    {
+      "index": 270,
+      "start": 1114.77,
+      "end": 1122.69,
+      "speaker": "ASR voice 0",
+      "text": "whatever you're reading."
+    },
+    {
+      "index": 271,
+      "start": 1122.69,
+      "end": 1128.69,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 272,
+      "start": 1128.69,
+      "end": 1135.69,
+      "speaker": "ASR voice 0",
+      "text": "So, let's get into it."
+    },
+    {
+      "index": 273,
+      "start": 1135.69,
+      "end": 1139.69,
+      "speaker": "ASR voice 0",
+      "text": "For paragraph one."
+    },
+    {
+      "index": 274,
+      "start": 1139.69,
+      "end": 1140.63,
+      "speaker": "ASR voice 0",
+      "text": "So,"
+    },
+    {
+      "index": 275,
+      "start": 1140.7,
+      "end": 1156.69,
+      "speaker": "ASR voice 1",
+      "text": "does anyone have a different answer for paragraph number one?"
+    },
+    {
+      "index": 276,
+      "start": 1156.69,
+      "end": 1159.34,
+      "speaker": "ASR voice 1",
+      "text": "It's paragraph number"
+    },
+    {
+      "index": 277,
+      "start": 1159.47,
+      "end": 1160.69,
+      "speaker": "ASR voice 0",
+      "text": "one."
+    },
+    {
+      "index": 278,
+      "start": 1160.69,
+      "end": 1165.69,
+      "speaker": "ASR voice 0",
+      "text": "So, does anyone have a different answer for paragraph number one?"
+    },
+    {
+      "index": 279,
+      "start": 1165.69,
+      "end": 1168.35,
+      "speaker": "ASR voice 5",
+      "text": "Well,"
+    },
+    {
+      "index": 280,
+      "start": 1168.94,
+      "end": 1175.69,
+      "speaker": "ASR voice 0",
+      "text": "let's..."
+    },
+    {
+      "index": 281,
+      "start": 1175.69,
+      "end": 1182.69,
+      "speaker": "ASR voice 0",
+      "text": "So, I actually have a different answer for paragraph number one."
+    },
+    {
+      "index": 282,
+      "start": 1182.69,
+      "end": 1189.69,
+      "speaker": "ASR voice 0",
+      "text": "What I had was D, human diversity."
+    },
+    {
+      "index": 283,
+      "start": 1189.69,
+      "end": 1195.69,
+      "speaker": "ASR voice 0",
+      "text": "Let's look back at the text and kind of talk about it because maybe I'm wrong."
+    },
+    {
+      "index": 284,
+      "start": 1195.69,
+      "end": 1196.69,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 285,
+      "start": 1196.69,
+      "end": 1200.69,
+      "speaker": "ASR voice 0",
+      "text": "So, number one, we have..."
+    },
+    {
+      "index": 286,
+      "start": 1200.69,
+      "end": 1201.9,
+      "speaker": "ASR voice 0",
+      "text": "Identity twist"
+    },
+    {
+      "index": 287,
+      "start": 1201.9,
+      "end": 1202.69,
+      "speaker": "ASR voice 1",
+      "text": "share."
+    },
+    {
+      "index": 288,
+      "start": 1202.69,
+      "end": 1204.69,
+      "speaker": "ASR voice 1",
+      "text": "So, why do you think..."
+    },
+    {
+      "index": 289,
+      "start": 1204.69,
+      "end": 1205.69,
+      "speaker": "ASR voice 0",
+      "text": "That's interesting."
+    },
+    {
+      "index": 290,
+      "start": 1205.69,
+      "end": 1206.19,
+      "speaker": "ASR voice 0",
+      "text": "You"
+    },
+    {
+      "index": 291,
+      "start": 1206.19,
+      "end": 1214.69,
+      "speaker": "ASR voice 1",
+      "text": "see the sentence identical twist share virtual in some genetic code."
+    },
+    {
+      "index": 292,
+      "start": 1214.69,
+      "end": 1215.69,
+      "speaker": "ASR voice 1",
+      "text": "Yeah."
+    },
+    {
+      "index": 293,
+      "start": 1215.69,
+      "end": 1216.69,
+      "speaker": "ASR voice 1",
+      "text": "It's..."
+    },
+    {
+      "index": 294,
+      "start": 1216.69,
+      "end": 1217.69,
+      "speaker": "ASR voice 1",
+      "text": "It's..."
+    },
+    {
+      "index": 295,
+      "start": 1217.69,
+      "end": 1220.69,
+      "speaker": "ASR voice 1",
+      "text": "Help science and understanding environment factors."
+    },
+    {
+      "index": 296,
+      "start": 1220.69,
+      "end": 1221.69,
+      "speaker": "ASR voice 1",
+      "text": "No."
+    },
+    {
+      "index": 297,
+      "start": 1221.69,
+      "end": 1222.69,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 298,
+      "start": 1222.69,
+      "end": 1223.69,
+      "speaker": "ASR voice unknown",
+      "text": "Okay."
+    },
+    {
+      "index": 299,
+      "start": 1223.69,
+      "end": 1224.69,
+      "speaker": "ASR voice unknown",
+      "text": "That's a little bit confusing."
+    },
+    {
+      "index": 300,
+      "start": 1224.69,
+      "end": 1225.69,
+      "speaker": "ASR voice 1",
+      "text": "Yeah."
+    },
+    {
+      "index": 301,
+      "start": 1225.69,
+      "end": 1226.69,
+      "speaker": "ASR voice 1",
+      "text": "Yeah."
+    },
+    {
+      "index": 302,
+      "start": 1226.69,
+      "end": 1227.69,
+      "speaker": "ASR voice 1",
+      "text": "Well, actually, okay."
+    },
+    {
+      "index": 303,
+      "start": 1227.69,
+      "end": 1228.3,
+      "speaker": "ASR voice 1",
+      "text": "Upon"
+    },
+    {
+      "index": 304,
+      "start": 1228.92,
+      "end": 1233.43,
+      "speaker": "ASR voice 0",
+      "text": "rereading it,"
+    },
+    {
+      "index": 305,
+      "start": 1233.43,
+      "end": 1234.45,
+      "speaker": "ASR voice 2",
+      "text": "I do"
+    },
+    {
+      "index": 306,
+      "start": 1234.45,
+      "end": 1245.69,
+      "speaker": "ASR voice 0",
+      "text": "think I agree with you guys a bit more."
+    },
+    {
+      "index": 307,
+      "start": 1245.69,
+      "end": 1253.69,
+      "speaker": "ASR voice 0",
+      "text": "For that being D, for that being E, understanding identical twins."
+    },
+    {
+      "index": 308,
+      "start": 1253.69,
+      "end": 1256.69,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 309,
+      "start": 1256.69,
+      "end": 1260.69,
+      "speaker": "ASR voice 0",
+      "text": "So, I think I maybe put down the wrong answer when I was writing my answer key."
+    },
+    {
+      "index": 310,
+      "start": 1260.69,
+      "end": 1262.69,
+      "speaker": "ASR voice 0",
+      "text": "But, yeah."
+    },
+    {
+      "index": 311,
+      "start": 1262.69,
+      "end": 1263.69,
+      "speaker": "ASR voice 0",
+      "text": "So, I agree."
+    },
+    {
+      "index": 312,
+      "start": 1263.69,
+      "end": 1266.69,
+      "speaker": "ASR voice 0",
+      "text": "I do think it is E, understanding identical twins."
+    },
+    {
+      "index": 313,
+      "start": 1266.69,
+      "end": 1267.69,
+      "speaker": "ASR voice 0",
+      "text": "Mm-hmm."
+    },
+    {
+      "index": 314,
+      "start": 1267.69,
+      "end": 1267.87,
+      "speaker": "ASR voice 1",
+      "text": "What"
+    },
+    {
+      "index": 315,
+      "start": 1268.4,
+      "end": 1271.69,
+      "speaker": "ASR voice 0",
+      "text": "about paragraph two?"
+    },
+    {
+      "index": 316,
+      "start": 1271.69,
+      "end": 1272.14,
+      "speaker": "ASR voice 0",
+      "text": "I think,"
+    },
+    {
+      "index": 317,
+      "start": 1272.14,
+      "end": 1274.69,
+      "speaker": "ASR voice 2",
+      "text": "[participant], this is the time you should send them to the breakout room."
+    },
+    {
+      "index": 318,
+      "start": 1275.69,
+      "end": 1277.69,
+      "speaker": "ASR voice 2",
+      "text": "Check the answers."
+    },
+    {
+      "index": 319,
+      "start": 1277.69,
+      "end": 1278.69,
+      "speaker": "ASR voice 2",
+      "text": "Okay."
+    },
+    {
+      "index": 320,
+      "start": 1278.69,
+      "end": 1279.69,
+      "speaker": "ASR voice 2",
+      "text": "All right."
+    },
+    {
+      "index": 321,
+      "start": 1279.69,
+      "end": 1280.69,
+      "speaker": "ASR voice 0",
+      "text": "Um."
+    },
+    {
+      "index": 322,
+      "start": 1280.69,
+      "end": 1290.69,
+      "speaker": "ASR voice 0",
+      "text": "Well, I guess I will be sending y'all into some breakout rooms to do a quick check for the answers,"
+    },
+    {
+      "index": 323,
+      "start": 1290.69,
+      "end": 1292.69,
+      "speaker": "ASR voice 0",
+      "text": "since we do have a few different ones."
+    },
+    {
+      "index": 324,
+      "start": 1292.69,
+      "end": 1306.69,
+      "speaker": "ASR voice 0",
+      "text": "One second to get this all set up."
+    },
+    {
+      "index": 325,
+      "start": 1306.69,
+      "end": 1307.69,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 326,
+      "start": 1307.69,
+      "end": 1310.9,
+      "speaker": "ASR voice 0",
+      "text": "So, go ahead and head into breakout"
+    },
+    {
+      "index": 327,
+      "start": 1310.9,
+      "end": 1311.69,
+      "speaker": "ASR voice unknown",
+      "text": "room."
+    },
+    {
+      "index": 328,
+      "start": 1311.69,
+      "end": 1312.69,
+      "speaker": "ASR voice unknown",
+      "text": "Hi."
+    },
+    {
+      "index": 329,
+      "start": 1312.69,
+      "end": 1312.69,
+      "speaker": "ASR voice unknown",
+      "text": "Hi."
+    },
+    {
+      "index": 330,
+      "start": 1312.69,
+      "end": 1312.69,
+      "speaker": "ASR voice unknown",
+      "text": "Hi."
+    },
+    {
+      "index": 331,
+      "start": 1312.69,
+      "end": 1313.69,
+      "speaker": "ASR voice unknown",
+      "text": "What about think paragraph number two?"
+    },
+    {
+      "index": 332,
+      "start": 1313.69,
+      "end": 1314.69,
+      "speaker": "ASR voice unknown",
+      "text": "Sorry."
+    },
+    {
+      "index": 333,
+      "start": 1314.69,
+      "end": 1315.69,
+      "speaker": "ASR voice unknown",
+      "text": "Number two."
+    },
+    {
+      "index": 334,
+      "start": 1315.69,
+      "end": 1315.69,
+      "speaker": "ASR voice unknown",
+      "text": "Let me read it again."
+    },
+    {
+      "index": 335,
+      "start": 1315.69,
+      "end": 1316.69,
+      "speaker": "ASR voice unknown",
+      "text": "I'm a bit tired."
+    },
+    {
+      "index": 336,
+      "start": 1316.69,
+      "end": 1317.69,
+      "speaker": "ASR voice unknown",
+      "text": "So, like."
+    },
+    {
+      "index": 337,
+      "start": 1317.69,
+      "end": 1328.91,
+      "speaker": "ASR voice unknown",
+      "text": "um hi hi what about think uh"
+    },
+    {
+      "index": 338,
+      "start": 1331.65,
+      "end": 1333.51,
+      "speaker": "ASR voice 2",
+      "text": "paragraph"
+    },
+    {
+      "index": 339,
+      "start": 1333.51,
+      "end": 1338.17,
+      "speaker": "ASR voice 1",
+      "text": "number two"
+    },
+    {
+      "index": 340,
+      "start": 1338.17,
+      "end": 1340.02,
+      "speaker": "ASR voice 1",
+      "text": "number two let"
+    },
+    {
+      "index": 341,
+      "start": 1340.02,
+      "end": 1344.57,
+      "speaker": "ASR voice 2",
+      "text": "me read it again i'm a bit tired so like"
+    },
+    {
+      "index": 342,
+      "start": 1346.17,
+      "end": 1348.95,
+      "speaker": "ASR voice 2",
+      "text": "following but not following too much i'm"
+    },
+    {
+      "index": 343,
+      "start": 1349.38,
+      "end": 1355.93,
+      "speaker": "ASR voice 1",
+      "text": "okay i think about uh paragraph number two uh choose b"
+    },
+    {
+      "index": 344,
+      "start": 1355.93,
+      "end": 1362.57,
+      "speaker": "ASR voice 1",
+      "text": "uh this because it's uh compressing did you call a friend's twist"
+    },
+    {
+      "index": 345,
+      "start": 1362.57,
+      "end": 1368.97,
+      "speaker": "ASR voice 1",
+      "text": "it's me sheer how genetic in herding effect on this"
+    },
+    {
+      "index": 346,
+      "start": 1368.97,
+      "end": 1370.23,
+      "speaker": "ASR voice 1",
+      "text": "i'm waiting"
+    },
+    {
+      "index": 347,
+      "start": 1370.7,
+      "end": 1381.45,
+      "speaker": "ASR voice 2",
+      "text": "for the picture to load oh no find i don't see the text anymore oh no what's going on i"
+    },
+    {
+      "index": 348,
+      "start": 1381.45,
+      "end": 1391.1,
+      "speaker": "ASR voice 2",
+      "text": "don't see the text it says to me file error i don't know in paragraph"
+    },
+    {
+      "index": 349,
+      "start": 1391.1,
+      "end": 1395.77,
+      "speaker": "ASR voice 1",
+      "text": "number three to air of research"
+    },
+    {
+      "index": 350,
+      "start": 1396.65,
+      "end": 1401.45,
+      "speaker": "ASR voice 1",
+      "text": "i think about"
+    },
+    {
+      "index": 351,
+      "start": 1401.45,
+      "end": 1410.57,
+      "speaker": "ASR voice 1",
+      "text": "because it's open with uh those two lines of researching in paragraph number three"
+    },
+    {
+      "index": 352,
+      "start": 1410.57,
+      "end": 1412.13,
+      "speaker": "ASR voice 1",
+      "text": "i didn't write"
+    },
+    {
+      "index": 353,
+      "start": 1412.87,
+      "end": 1421.93,
+      "speaker": "ASR voice 2",
+      "text": "down the answers and i don't see the text anymore because the picture is not loading so"
+    },
+    {
+      "index": 354,
+      "start": 1422.65,
+      "end": 1425.05,
+      "speaker": "ASR voice 2",
+      "text": "i don't know what to do uh"
+    },
+    {
+      "index": 355,
+      "start": 1425.05,
+      "end": 1425.37,
+      "speaker": "ASR voice 1",
+      "text": "check"
+    },
+    {
+      "index": 356,
+      "start": 1425.37,
+      "end": 1426.81,
+      "speaker": "ASR voice 2",
+      "text": "could you"
+    },
+    {
+      "index": 357,
+      "start": 1426.81,
+      "end": 1432.25,
+      "speaker": "ASR voice 1",
+      "text": "please check a chat uh [participant] sent text"
+    },
+    {
+      "index": 358,
+      "start": 1435.77,
+      "end": 1444.49,
+      "speaker": "ASR voice 2",
+      "text": "yeah but it's not loading it says file error i don't see the picture read the text"
+    },
+    {
+      "index": 359,
+      "start": 1447.29,
+      "end": 1452.45,
+      "speaker": "ASR voice 2",
+      "text": "text anymore"
+    },
+    {
+      "index": 360,
+      "start": 1453.93,
+      "end": 1457.93,
+      "speaker": "ASR voice unknown",
+      "text": "it says"
+    },
+    {
+      "index": 361,
+      "start": 1457.93,
+      "end": 1458.01,
+      "speaker": "ASR voice unknown",
+      "text": "you"
+    },
+    {
+      "index": 362,
+      "start": 1458.01,
+      "end": 1460.01,
+      "speaker": "ASR voice unknown",
+      "text": "i"
+    },
+    {
+      "index": 363,
+      "start": 1463.76,
+      "end": 1472.87,
+      "speaker": "ASR voice 2",
+      "text": "texted them let's see i see"
+    },
+    {
+      "index": 364,
+      "start": 1473.49,
+      "end": 1474.78,
+      "speaker": "ASR voice 1",
+      "text": "you too what"
+    },
+    {
+      "index": 365,
+      "start": 1474.78,
+      "end": 1475.85,
+      "speaker": "ASR voice 2",
+      "text": "happens"
+    },
+    {
+      "index": 366,
+      "start": 1475.85,
+      "end": 1477.14,
+      "speaker": "ASR voice 2",
+      "text": "it says"
+    },
+    {
+      "index": 367,
+      "start": 1477.61,
+      "end": 1480.49,
+      "speaker": "ASR voice 1",
+      "text": "that all kill one moment"
+    },
+    {
+      "index": 368,
+      "start": 1505.85,
+      "end": 1509.36,
+      "speaker": "ASR voice unknown",
+      "text": "let's"
+    },
+    {
+      "index": 369,
+      "start": 1509.37,
+      "end": 1513.61,
+      "speaker": "ASR voice 2",
+      "text": "see oh they don't answer"
+    },
+    {
+      "index": 370,
+      "start": 1513.61,
+      "end": 1517.93,
+      "speaker": "ASR voice 2",
+      "text": "i don't know what to do i don't see the text"
+    },
+    {
+      "index": 371,
+      "start": 1517.93,
+      "end": 1518.54,
+      "speaker": "ASR voice 2",
+      "text": "one"
+    },
+    {
+      "index": 372,
+      "start": 1518.54,
+      "end": 1520.81,
+      "speaker": "ASR voice 1",
+      "text": "moment uh loading"
+    },
+    {
+      "index": 373,
+      "start": 1526.49,
+      "end": 1526.9,
+      "speaker": "ASR voice 1",
+      "text": "load"
+    },
+    {
+      "index": 374,
+      "start": 1527.55,
+      "end": 1529.21,
+      "speaker": "ASR voice 2",
+      "text": "okay she said it again okay"
+    },
+    {
+      "index": 375,
+      "start": 1529.21,
+      "end": 1539.21,
+      "speaker": "ASR voice 2",
+      "text": "so number two"
+    },
+    {
+      "index": 376,
+      "start": 1539.21,
+      "end": 1543.64,
+      "speaker": "ASR voice 2",
+      "text": "number"
+    },
+    {
+      "index": 377,
+      "start": 1546.15,
+      "end": 1551.53,
+      "speaker": "ASR voice 1",
+      "text": "two the uh this dna this f"
+    },
+    {
+      "index": 378,
+      "start": 1554.25,
+      "end": 1555.68,
+      "speaker": "ASR voice 1",
+      "text": "intentional three sure"
+    },
+    {
+      "index": 379,
+      "start": 1555.68,
+      "end": 1557.93,
+      "speaker": "ASR voice 2",
+      "text": "almost"
+    },
+    {
+      "index": 380,
+      "start": 1557.93,
+      "end": 1559.45,
+      "speaker": "ASR voice 2",
+      "text": "do you guys have research"
+    },
+    {
+      "index": 381,
+      "start": 1559.51,
+      "end": 1566.25,
+      "speaker": "ASR voice 2",
+      "text": "i'd stay super super what is the role"
+    },
+    {
+      "index": 382,
+      "start": 1566.25,
+      "end": 1568.73,
+      "speaker": "ASR voice 2",
+      "text": "i'd say what is"
+    },
+    {
+      "index": 383,
+      "start": 1568.73,
+      "end": 1578.17,
+      "speaker": "ASR voice 2",
+      "text": "why don't you say uh the important no what is that uh"
+    },
+    {
+      "index": 384,
+      "start": 1579.69,
+      "end": 1584.97,
+      "speaker": "ASR voice 2",
+      "text": "the um what is the role of dna for number two"
+    },
+    {
+      "index": 385,
+      "start": 1584.97,
+      "end": 1596.17,
+      "speaker": "ASR voice 1",
+      "text": "paragraph uh paragraph number two matches b because uh it compare and then in flame twist"
+    },
+    {
+      "index": 386,
+      "start": 1598.97,
+      "end": 1601.53,
+      "speaker": "ASR voice 1",
+      "text": "you you"
+    },
+    {
+      "index": 387,
+      "start": 1601.53,
+      "end": 1601.93,
+      "speaker": "ASR voice 2",
+      "text": "can"
+    },
+    {
+      "index": 388,
+      "start": 1602.87,
+      "end": 1603.28,
+      "speaker": "ASR voice 1",
+      "text": "see"
+    },
+    {
+      "index": 389,
+      "start": 1604.63,
+      "end": 1604.65,
+      "speaker": "ASR voice 2",
+      "text": "paragraph number two compares"
+    },
+    {
+      "index": 390,
+      "start": 1604.65,
+      "end": 1604.96,
+      "speaker": "ASR voice 2",
+      "text": "and"
+    },
+    {
+      "index": 391,
+      "start": 1604.96,
+      "end": 1614.73,
+      "speaker": "ASR voice 1",
+      "text": "uh number three uh my answer was been the is f to area of researching paragraph number three"
+    },
+    {
+      "index": 392,
+      "start": 1616.09,
+      "end": 1622.09,
+      "speaker": "ASR voice 1",
+      "text": "and paragraph number four"
+    },
+    {
+      "index": 393,
+      "start": 1623.24,
+      "end": 1626.41,
+      "speaker": "ASR voice 1",
+      "text": "hello"
+    },
+    {
+      "index": 394,
+      "start": 1627.93,
+      "end": 1633.69,
+      "speaker": "ASR voice 0",
+      "text": "i'm back everyone i hope you guys were able to talk about the answers a bit"
+    },
+    {
+      "index": 395,
+      "start": 1636.73,
+      "end": 1646.01,
+      "speaker": "ASR voice 0",
+      "text": "so we already had one for e um for number two uh [participant] what did you get"
+    },
+    {
+      "index": 396,
+      "start": 1646.01,
+      "end": 1646.15,
+      "speaker": "ASR voice 0",
+      "text": "for"
+    },
+    {
+      "index": 397,
+      "start": 1647.6,
+      "end": 1650.49,
+      "speaker": "ASR voice 3",
+      "text": "number two uh we think about b"
+    },
+    {
+      "index": 398,
+      "start": 1650.49,
+      "end": 1650.71,
+      "speaker": "ASR voice 3",
+      "text": "yep"
+    },
+    {
+      "index": 399,
+      "start": 1651.77,
+      "end": 1654.49,
+      "speaker": "ASR voice 0",
+      "text": "what is the role of dna"
+    },
+    {
+      "index": 400,
+      "start": 1655.69,
+      "end": 1655.98,
+      "speaker": "ASR voice 3",
+      "text": "yes"
+    },
+    {
+      "index": 401,
+      "start": 1656.05,
+      "end": 1662.33,
+      "speaker": "ASR voice 0",
+      "text": "okay uh paragraph three [participant] i"
+    },
+    {
+      "index": 402,
+      "start": 1662.33,
+      "end": 1665.13,
+      "speaker": "ASR voice 5",
+      "text": "i was thinking is number c"
+    },
+    {
+      "index": 403,
+      "start": 1665.13,
+      "end": 1668.57,
+      "speaker": "ASR voice 5",
+      "text": "no"
+    },
+    {
+      "index": 404,
+      "start": 1668.57,
+      "end": 1670.01,
+      "speaker": "ASR voice 1",
+      "text": "no"
+    },
+    {
+      "index": 405,
+      "start": 1670.01,
+      "end": 1670.58,
+      "speaker": "ASR voice 5",
+      "text": "okay we"
+    },
+    {
+      "index": 406,
+      "start": 1670.91,
+      "end": 1672.41,
+      "speaker": "ASR voice 0",
+      "text": "have someone disagree"
+    },
+    {
+      "index": 407,
+      "start": 1676.41,
+      "end": 1678.97,
+      "speaker": "ASR voice 7",
+      "text": "okay i love to answer of research"
+    },
+    {
+      "index": 408,
+      "start": 1679.91,
+      "end": 1681.29,
+      "speaker": "ASR voice 7",
+      "text": "yes i agree"
+    },
+    {
+      "index": 409,
+      "start": 1681.29,
+      "end": 1683.93,
+      "speaker": "ASR voice 7",
+      "text": "because it starts directly with these"
+    },
+    {
+      "index": 410,
+      "start": 1683.93,
+      "end": 1686.91,
+      "speaker": "ASR voice 7",
+      "text": "two lines of research"
+    },
+    {
+      "index": 411,
+      "start": 1687.05,
+      "end": 1689.37,
+      "speaker": "ASR voice 2",
+      "text": "and summary the two middle"
+    },
+    {
+      "index": 412,
+      "start": 1689.37,
+      "end": 1692.17,
+      "speaker": "ASR voice 2",
+      "text": "mentions in paragraph one and two"
+    },
+    {
+      "index": 413,
+      "start": 1692.17,
+      "end": 1695.05,
+      "speaker": "ASR voice 2",
+      "text": "that"
+    },
+    {
+      "index": 414,
+      "start": 1695.05,
+      "end": 1696.89,
+      "speaker": "ASR voice 0",
+      "text": "number three is f"
+    },
+    {
+      "index": 415,
+      "start": 1696.89,
+      "end": 1697.58,
+      "speaker": "ASR voice 0",
+      "text": "yes"
+    },
+    {
+      "index": 416,
+      "start": 1697.58,
+      "end": 1698.97,
+      "speaker": "ASR voice 5",
+      "text": "i agree"
+    },
+    {
+      "index": 417,
+      "start": 1698.97,
+      "end": 1702.33,
+      "speaker": "ASR voice 7",
+      "text": "okay"
+    },
+    {
+      "index": 418,
+      "start": 1702.33,
+      "end": 1703.29,
+      "speaker": "ASR voice 0",
+      "text": "um number four"
+    },
+    {
+      "index": 419,
+      "start": 1704.49,
+      "end": 1708.49,
+      "speaker": "ASR voice 7",
+      "text": "number four is c earlier research i"
+    },
+    {
+      "index": 420,
+      "start": 1708.49,
+      "end": 1708.81,
+      "speaker": "ASR voice 1",
+      "text": "agree"
+    },
+    {
+      "index": 421,
+      "start": 1708.81,
+      "end": 1712.25,
+      "speaker": "ASR voice 7",
+      "text": "is it"
+    },
+    {
+      "index": 422,
+      "start": 1712.25,
+      "end": 1715.61,
+      "speaker": "ASR voice 7",
+      "text": "uh"
+    },
+    {
+      "index": 423,
+      "start": 1715.61,
+      "end": 1717.35,
+      "speaker": "ASR voice 0",
+      "text": "number five number"
+    },
+    {
+      "index": 424,
+      "start": 1717.35,
+      "end": 1718.25,
+      "speaker": "ASR voice 1",
+      "text": "five a"
+    },
+    {
+      "index": 425,
+      "start": 1718.25,
+      "end": 1718.35,
+      "speaker": "ASR voice 1",
+      "text": "yep"
+    },
+    {
+      "index": 426,
+      "start": 1719.26,
+      "end": 1721.01,
+      "speaker": "ASR voice 6",
+      "text": "separated"
+    },
+    {
+      "index": 427,
+      "start": 1721.43,
+      "end": 1726.17,
+      "speaker": "ASR voice 0",
+      "text": "at birth and number six is"
+    },
+    {
+      "index": 428,
+      "start": 1728.81,
+      "end": 1733.45,
+      "speaker": "ASR voice 7",
+      "text": "yes human diversity"
+    },
+    {
+      "index": 429,
+      "start": 1733.45,
+      "end": 1734.09,
+      "speaker": "ASR voice 0",
+      "text": "yes human diversity"
+    },
+    {
+      "index": 430,
+      "start": 1734.09,
+      "end": 1734.09,
+      "speaker": "ASR voice 0",
+      "text": "yes human diversity"
+    },
+    {
+      "index": 431,
+      "start": 1734.09,
+      "end": 1735.31,
+      "speaker": "ASR voice 0",
+      "text": "yes human"
+    },
+    {
+      "index": 432,
+      "start": 1735.31,
+      "end": 1736.25,
+      "speaker": "ASR voice 7",
+      "text": "diversity"
+    },
+    {
+      "index": 433,
+      "start": 1736.25,
+      "end": 1737.61,
+      "speaker": "ASR voice 7",
+      "text": "yeah"
+    },
+    {
+      "index": 434,
+      "start": 1737.61,
+      "end": 1738.97,
+      "speaker": "ASR voice 0",
+      "text": "okay"
+    },
+    {
+      "index": 435,
+      "start": 1738.97,
+      "end": 1741.93,
+      "speaker": "ASR voice 0",
+      "text": "good job everyone"
+    },
+    {
+      "index": 436,
+      "start": 1741.93,
+      "end": 1746.81,
+      "speaker": "ASR voice 0",
+      "text": "okay so we're gonna head into another task"
+    },
+    {
+      "index": 437,
+      "start": 1746.81,
+      "end": 1752.33,
+      "speaker": "ASR voice 0",
+      "text": "this one's gonna be a complete the statement or a fill in the blank"
+    },
+    {
+      "index": 438,
+      "start": 1753.13,
+      "end": 1756.01,
+      "speaker": "ASR voice 0",
+      "text": "so we have eight different sentences here"
+    },
+    {
+      "index": 439,
+      "start": 1756.01,
+      "end": 1762.57,
+      "speaker": "ASR voice 0",
+      "text": "and they're not gonna be exactly the same as what you're gonna read so you're gonna kind of have"
+    },
+    {
+      "index": 440,
+      "start": 1762.57,
+      "end": 1769.85,
+      "speaker": "ASR voice 0",
+      "text": "to infer what is the correct language um i'm i know you guys are gonna be able to do it"
+    },
+    {
+      "index": 441,
+      "start": 1769.85,
+      "end": 1777.93,
+      "speaker": "ASR voice 0",
+      "text": "um yeah so these are kind of in order of where you'll run across them in the text"
+    },
+    {
+      "index": 442,
+      "start": 1778.65,
+      "end": 1785.77,
+      "speaker": "ASR voice 0",
+      "text": "so if like number one is gonna be earlier on in the text and number eight is gonna be lower down so if you notice"
+    },
+    {
+      "index": 443,
+      "start": 1785.77,
+      "end": 1791.21,
+      "speaker": "ASR voice 0",
+      "text": "that you've jumped from like number four to number six number five will be somewhere between them"
+    },
+    {
+      "index": 444,
+      "start": 1792.25,
+      "end": 1799.61,
+      "speaker": "ASR voice 0",
+      "text": "so you're gonna have about five minutes to read through the text and to answer the questions"
+    },
+    {
+      "index": 445,
+      "start": 1799.61,
+      "end": 1812.73,
+      "speaker": "ASR voice 0",
+      "text": "go ahead and read them through them right now and i will get them sent in chat"
+    },
+    {
+      "index": 446,
+      "start": 1812.73,
+      "end": 1821.92,
+      "speaker": "ASR voice 0",
+      "text": "and then i'm gonna switch this to the"
+    },
+    {
+      "index": 447,
+      "start": 1821.92,
+      "end": 1824.73,
+      "speaker": "ASR voice unknown",
+      "text": "next slide"
+    },
+    {
+      "index": 448,
+      "start": 1824.73,
+      "end": 1830.71,
+      "speaker": "ASR voice unknown",
+      "text": "and"
+    },
+    {
+      "index": 449,
+      "start": 1830.71,
+      "end": 1846.41,
+      "speaker": "ASR voice 0",
+      "text": "then i'm gonna switch this to the next slide but you the questions will the statements are in the chat"
+    },
+    {
+      "index": 450,
+      "start": 1846.41,
+      "end": 1852.33,
+      "speaker": "ASR voice 1",
+      "text": "mm-hmm"
+    },
+    {
+      "index": 451,
+      "start": 1854.73,
+      "end": 1864.73,
+      "speaker": "ASR voice unknown",
+      "text": "mm-hmm"
+    },
+    {
+      "index": 452,
+      "start": 1864.73,
+      "end": 1866.73,
+      "speaker": "ASR voice unknown",
+      "text": "mm-hmm"
+    },
+    {
+      "index": 453,
+      "start": 1866.73,
+      "end": 1868.73,
+      "speaker": "ASR voice unknown",
+      "text": "mm-hmm"
+    },
+    {
+      "index": 454,
+      "start": 1868.73,
+      "end": 1872.73,
+      "speaker": "ASR voice unknown",
+      "text": "mm-hmm"
+    },
+    {
+      "index": 455,
+      "start": 1872.73,
+      "end": 1876.73,
+      "speaker": "ASR voice unknown",
+      "text": "mm-hmm"
+    },
+    {
+      "index": 456,
+      "start": 1876.73,
+      "end": 1882.73,
+      "speaker": "ASR voice unknown",
+      "text": "mm-hmm"
+    },
+    {
+      "index": 457,
+      "start": 1882.73,
+      "end": 1912.71,
+      "speaker": "ASR voice 5",
+      "text": "Thank you."
+    },
+    {
+      "index": 458,
+      "start": 1912.73,
+      "end": 1942.71,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 459,
+      "start": 1942.73,
+      "end": 1972.71,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 460,
+      "start": 1972.73,
+      "end": 2002.71,
+      "speaker": "ASR voice 7",
+      "text": "Thank you."
+    },
+    {
+      "index": 461,
+      "start": 2002.73,
+      "end": 2007.5,
+      "speaker": "ASR voice 7",
+      "text": "Thank"
+    },
+    {
+      "index": 462,
+      "start": 2018.11,
+      "end": 2032.71,
+      "speaker": "ASR voice 3",
+      "text": "you."
+    },
+    {
+      "index": 463,
+      "start": 2032.73,
+      "end": 2035.68,
+      "speaker": "ASR voice unknown",
+      "text": "Go ahead"
+    },
+    {
+      "index": 464,
+      "start": 2035.68,
+      "end": 2042.33,
+      "speaker": "ASR voice 0",
+      "text": "and finish up whatever sentence you're reading."
+    },
+    {
+      "index": 465,
+      "start": 2042.33,
+      "end": 2048.27,
+      "speaker": "ASR voice 0",
+      "text": "I'm going to send you guys into breakout rooms and you can discuss your answers there."
+    },
+    {
+      "index": 466,
+      "start": 2048.47,
+      "end": 2050.93,
+      "speaker": "ASR voice 0",
+      "text": "If you haven't finished, you can finish with your partner."
+    },
+    {
+      "index": 467,
+      "start": 2051.81,
+      "end": 2052.17,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 468,
+      "start": 2052.17,
+      "end": 2052.17,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 469,
+      "start": 2081.81,
+      "end": 2082.81,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 470,
+      "start": 2082.81,
+      "end": 2083.35,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 471,
+      "start": 2083.35,
+      "end": 2084.89,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 472,
+      "start": 2084.89,
+      "end": 2086.25,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 473,
+      "start": 2086.25,
+      "end": 2088.25,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 474,
+      "start": 2088.25,
+      "end": 2089.25,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 475,
+      "start": 2089.25,
+      "end": 2089.79,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 476,
+      "start": 2089.79,
+      "end": 2119.77,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 477,
+      "start": 2119.79,
+      "end": 2149.77,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 478,
+      "start": 2149.79,
+      "end": 2179.77,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 479,
+      "start": 2179.79,
+      "end": 2181.25,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 480,
+      "start": 2209.79,
+      "end": 2239.77,
+      "speaker": "ASR voice unknown",
+      "text": "Thank you."
+    },
+    {
+      "index": 481,
+      "start": 2239.79,
+      "end": 2253.4,
+      "speaker": "ASR voice unknown",
+      "text": "Thank"
+    },
+    {
+      "index": 482,
+      "start": 2253.4,
+      "end": 2269.77,
+      "speaker": "ASR voice 0",
+      "text": "you."
+    },
+    {
+      "index": 483,
+      "start": 2269.77,
+      "end": 2271.26,
+      "speaker": "ASR voice 0",
+      "text": "I'm here,"
+    },
+    {
+      "index": 484,
+      "start": 2271.7,
+      "end": 2275.49,
+      "speaker": "ASR voice 1",
+      "text": "but not at another student."
+    },
+    {
+      "index": 485,
+      "start": 2275.49,
+      "end": 2277.83,
+      "speaker": "ASR voice 0",
+      "text": "Okay."
+    },
+    {
+      "index": 486,
+      "start": 2277.83,
+      "end": 2279.17,
+      "speaker": "ASR voice 0",
+      "text": "I'm sorry."
+    },
+    {
+      "index": 487,
+      "start": 2279.17,
+      "end": 2280.23,
+      "speaker": "ASR voice 0",
+      "text": "I didn't realize."
+    },
+    {
+      "index": 488,
+      "start": 2280.23,
+      "end": 2282.57,
+      "speaker": "ASR voice 0",
+      "text": "I will move you to a different group."
+    },
+    {
+      "index": 489,
+      "start": 2283.57,
+      "end": 2284.23,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 490,
+      "start": 2284.23,
+      "end": 2284.23,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 491,
+      "start": 2284.23,
+      "end": 2284.25,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 492,
+      "start": 2284.25,
+      "end": 2297.21,
+      "speaker": "ASR voice 5",
+      "text": "Nature."
+    },
+    {
+      "index": 493,
+      "start": 2297.21,
+      "end": 2299.01,
+      "speaker": "ASR voice 7",
+      "text": "Nature."
+    },
+    {
+      "index": 494,
+      "start": 2299.01,
+      "end": 2300.11,
+      "speaker": "ASR voice 7",
+      "text": "Okay."
+    },
+    {
+      "index": 495,
+      "start": 2300.11,
+      "end": 2300.55,
+      "speaker": "ASR voice 1",
+      "text": "Hello."
+    },
+    {
+      "index": 496,
+      "start": 2300.55,
+      "end": 2302.51,
+      "speaker": "ASR voice 7",
+      "text": "Yes."
+    },
+    {
+      "index": 497,
+      "start": 2302.51,
+      "end": 2302.92,
+      "speaker": "ASR voice 7",
+      "text": "Hello,"
+    },
+    {
+      "index": 498,
+      "start": 2302.92,
+      "end": 2303.47,
+      "speaker": "ASR voice 5",
+      "text": "[participant]."
+    },
+    {
+      "index": 499,
+      "start": 2303.83,
+      "end": 2309.65,
+      "speaker": "ASR voice 1",
+      "text": "What is number now, what is number now, your discussion?"
+    },
+    {
+      "index": 500,
+      "start": 2309.65,
+      "end": 2310.44,
+      "speaker": "ASR voice 1",
+      "text": "We are"
+    },
+    {
+      "index": 501,
+      "start": 2310.44,
+      "end": 2314.73,
+      "speaker": "ASR voice 5",
+      "text": "discussion number three."
+    },
+    {
+      "index": 502,
+      "start": 2314.73,
+      "end": 2314.76,
+      "speaker": "ASR voice 5",
+      "text": "Number"
+    },
+    {
+      "index": 503,
+      "start": 2315.38,
+      "end": 2316.23,
+      "speaker": "ASR voice 1",
+      "text": "three."
+    },
+    {
+      "index": 504,
+      "start": 2316.23,
+      "end": 2317.63,
+      "speaker": "ASR voice 1",
+      "text": "Okay."
+    },
+    {
+      "index": 505,
+      "start": 2317.63,
+      "end": 2324.41,
+      "speaker": "ASR voice 1",
+      "text": "I think about number three, natural, is using paragraph number three."
+    },
+    {
+      "index": 506,
+      "start": 2325.41,
+      "end": 2326.41,
+      "speaker": "ASR voice 5",
+      "text": "Yes."
+    },
+    {
+      "index": 507,
+      "start": 2326.41,
+      "end": 2326.41,
+      "speaker": "ASR voice 5",
+      "text": "Yes."
+    },
+    {
+      "index": 508,
+      "start": 2326.41,
+      "end": 2330.59,
+      "speaker": "ASR voice 5",
+      "text": "And number four."
+    },
+    {
+      "index": 509,
+      "start": 2330.59,
+      "end": 2331.32,
+      "speaker": "ASR voice 5",
+      "text": "I think"
+    },
+    {
+      "index": 510,
+      "start": 2332.15,
+      "end": 2334.69,
+      "speaker": "ASR voice 1",
+      "text": "about at bridge."
+    },
+    {
+      "index": 511,
+      "start": 2334.69,
+      "end": 2334.69,
+      "speaker": "ASR voice 1",
+      "text": "Bridge."
+    },
+    {
+      "index": 512,
+      "start": 2334.69,
+      "end": 2335.69,
+      "speaker": "ASR voice 1",
+      "text": "Bridge."
+    },
+    {
+      "index": 513,
+      "start": 2335.69,
+      "end": 2335.69,
+      "speaker": "ASR voice 1",
+      "text": "Bridge."
+    },
+    {
+      "index": 514,
+      "start": 2335.69,
+      "end": 2336.69,
+      "speaker": "ASR voice 1",
+      "text": "Bridge."
+    },
+    {
+      "index": 515,
+      "start": 2336.69,
+      "end": 2337.69,
+      "speaker": "ASR voice unknown",
+      "text": "Bridge."
+    },
+    {
+      "index": 516,
+      "start": 2337.69,
+      "end": 2337.69,
+      "speaker": "ASR voice unknown",
+      "text": "Bridge."
+    },
+    {
+      "index": 517,
+      "start": 2337.69,
+      "end": 2339.69,
+      "speaker": "ASR voice 5",
+      "text": "Bridge."
+    },
+    {
+      "index": 518,
+      "start": 2339.69,
+      "end": 2340.69,
+      "speaker": "ASR voice 5",
+      "text": "Bridge."
+    },
+    {
+      "index": 519,
+      "start": 2340.69,
+      "end": 2341.69,
+      "speaker": "ASR voice 5",
+      "text": "Bridge."
+    },
+    {
+      "index": 520,
+      "start": 2341.69,
+      "end": 2341.69,
+      "speaker": "ASR voice 5",
+      "text": "Bridge."
+    },
+    {
+      "index": 521,
+      "start": 2341.69,
+      "end": 2342.69,
+      "speaker": "ASR voice 1",
+      "text": "Bridge."
+    },
+    {
+      "index": 522,
+      "start": 2342.69,
+      "end": 2343.69,
+      "speaker": "ASR voice 1",
+      "text": "At bear."
+    },
+    {
+      "index": 523,
+      "start": 2343.69,
+      "end": 2343.88,
+      "speaker": "ASR voice 1",
+      "text": "At"
+    },
+    {
+      "index": 524,
+      "start": 2344.23,
+      "end": 2344.69,
+      "speaker": "ASR voice 7",
+      "text": "bear."
+    },
+    {
+      "index": 525,
+      "start": 2344.69,
+      "end": 2345.69,
+      "speaker": "ASR voice 7",
+      "text": "At bear."
+    },
+    {
+      "index": 526,
+      "start": 2345.69,
+      "end": 2345.74,
+      "speaker": "ASR voice 7",
+      "text": "Maybe"
+    },
+    {
+      "index": 527,
+      "start": 2347.1,
+      "end": 2349.69,
+      "speaker": "ASR voice 1",
+      "text": "I'm not."
+    },
+    {
+      "index": 528,
+      "start": 2349.69,
+      "end": 2349.93,
+      "speaker": "ASR voice 1",
+      "text": "I'm"
+    },
+    {
+      "index": 529,
+      "start": 2349.94,
+      "end": 2350.49,
+      "speaker": "ASR voice 7",
+      "text": "not."
+    },
+    {
+      "index": 530,
+      "start": 2350.49,
+      "end": 2352.03,
+      "speaker": "ASR voice 7",
+      "text": "At bear."
+    },
+    {
+      "index": 531,
+      "start": 2352.03,
+      "end": 2352.95,
+      "speaker": "ASR voice 7",
+      "text": "I sent"
+    },
+    {
+      "index": 532,
+      "start": 2352.95,
+      "end": 2354.45,
+      "speaker": "ASR voice 1",
+      "text": "a chat."
+    },
+    {
+      "index": 533,
+      "start": 2354.45,
+      "end": 2354.52,
+      "speaker": "ASR voice 1",
+      "text": "At"
+    },
+    {
+      "index": 534,
+      "start": 2355.88,
+      "end": 2358.41,
+      "speaker": "ASR voice 7",
+      "text": "bear."
+    },
+    {
+      "index": 535,
+      "start": 2358.41,
+      "end": 2358.44,
+      "speaker": "ASR voice 7",
+      "text": "At"
+    },
+    {
+      "index": 536,
+      "start": 2358.95,
+      "end": 2359.41,
+      "speaker": "ASR voice 5",
+      "text": "bear."
+    },
+    {
+      "index": 537,
+      "start": 2359.41,
+      "end": 2362.16,
+      "speaker": "ASR voice 1",
+      "text": "yeah I'll"
+    },
+    {
+      "index": 538,
+      "start": 2362.16,
+      "end": 2363.55,
+      "speaker": "ASR voice 7",
+      "text": "bear"
+    },
+    {
+      "index": 539,
+      "start": 2363.55,
+      "end": 2365.33,
+      "speaker": "ASR voice 5",
+      "text": "found"
+    },
+    {
+      "index": 540,
+      "start": 2365.5,
+      "end": 2366.2,
+      "speaker": "ASR voice 7",
+      "text": "the"
+    },
+    {
+      "index": 541,
+      "start": 2366.73,
+      "end": 2374.18,
+      "speaker": "ASR voice 5",
+      "text": "way to gene spoke to be maybe"
+    },
+    {
+      "index": 542,
+      "start": 2375.89,
+      "end": 2380.99,
+      "speaker": "ASR voice 1",
+      "text": "maybe India this is"
+    },
+    {
+      "index": 543,
+      "start": 2380.99,
+      "end": 2396.93,
+      "speaker": "ASR voice 1",
+      "text": "for this in this tea who shareable people number five people found the way to Jim spoke to be"
+    },
+    {
+      "index": 544,
+      "start": 2396.93,
+      "end": 2404.23,
+      "speaker": "ASR voice 1",
+      "text": "in this table this"
+    },
+    {
+      "index": 545,
+      "start": 2404.23,
+      "end": 2414.63,
+      "speaker": "ASR voice 7",
+      "text": "table I don't know how to pronounce it in this table okay the six"
+    },
+    {
+      "index": 546,
+      "start": 2414.63,
+      "end": 2428.12,
+      "speaker": "ASR voice 1",
+      "text": "I agree all right"
+    },
+    {
+      "index": 547,
+      "start": 2428.12,
+      "end": 2437.61,
+      "speaker": "ASR voice 0",
+      "text": "welcome back everyone I hope you guys were able to finish answering the questions"
+    },
+    {
+      "index": 548,
+      "start": 2437.61,
+      "end": 2443.16,
+      "speaker": "ASR voice 0",
+      "text": "and to check your answers so for number one"
+    },
+    {
+      "index": 549,
+      "start": 2443.58,
+      "end": 2444.78,
+      "speaker": "ASR voice 3",
+      "text": "identical I"
+    },
+    {
+      "index": 550,
+      "start": 2445.16,
+      "end": 2445.87,
+      "speaker": "ASR voice 7",
+      "text": "think about"
+    },
+    {
+      "index": 551,
+      "start": 2445.87,
+      "end": 2447.63,
+      "speaker": "ASR voice 1",
+      "text": "number one identical"
+    },
+    {
+      "index": 552,
+      "start": 2447.63,
+      "end": 2449.36,
+      "speaker": "ASR voice 1",
+      "text": "identical"
+    },
+    {
+      "index": 553,
+      "start": 2449.77,
+      "end": 2458.73,
+      "speaker": "ASR voice 0",
+      "text": "twins that share all their DNA um twins that do not look the same are"
+    },
+    {
+      "index": 554,
+      "start": 2458.73,
+      "end": 2461.37,
+      "speaker": "ASR voice 7",
+      "text": "fraternal"
+    },
+    {
+      "index": 555,
+      "start": 2461.37,
+      "end": 2461.67,
+      "speaker": "ASR voice 0",
+      "text": "yes"
+    },
+    {
+      "index": 556,
+      "start": 2461.67,
+      "end": 2461.93,
+      "speaker": "ASR voice 0",
+      "text": "yeah"
+    },
+    {
+      "index": 557,
+      "start": 2462.88,
+      "end": 2464.26,
+      "speaker": "ASR voice 7",
+      "text": "so fraternal"
+    },
+    {
+      "index": 558,
+      "start": 2464.72,
+      "end": 2466.38,
+      "speaker": "ASR voice 0",
+      "text": "fraternal"
+    },
+    {
+      "index": 559,
+      "start": 2466.87,
+      "end": 2468.0,
+      "speaker": "ASR voice 7",
+      "text": "fraternal"
+    },
+    {
+      "index": 560,
+      "start": 2468.86,
+      "end": 2469.76,
+      "speaker": "ASR voice 0",
+      "text": "nurture"
+    },
+    {
+      "index": 561,
+      "start": 2469.76,
+      "end": 2470.57,
+      "speaker": "ASR voice 3",
+      "text": "yeah"
+    },
+    {
+      "index": 562,
+      "start": 2470.57,
+      "end": 2474.71,
+      "speaker": "ASR voice 0",
+      "text": "okay number three natural"
+    },
+    {
+      "index": 563,
+      "start": 2474.71,
+      "end": 2474.99,
+      "speaker": "ASR voice 1",
+      "text": "yes"
+    },
+    {
+      "index": 564,
+      "start": 2475.23,
+      "end": 2476.46,
+      "speaker": "ASR voice 7",
+      "text": "comparing"
+    },
+    {
+      "index": 565,
+      "start": 2476.59,
+      "end": 2477.86,
+      "speaker": "ASR voice 6",
+      "text": "both types"
+    },
+    {
+      "index": 566,
+      "start": 2477.86,
+      "end": 2477.97,
+      "speaker": "ASR voice 7",
+      "text": "of"
+    },
+    {
+      "index": 567,
+      "start": 2478.91,
+      "end": 2484.28,
+      "speaker": "ASR voice 0",
+      "text": "twins oh I spelled that wrong helps us understand"
+    },
+    {
+      "index": 568,
+      "start": 2484.32,
+      "end": 2484.76,
+      "speaker": "ASR voice 7",
+      "text": "the"
+    },
+    {
+      "index": 569,
+      "start": 2484.76,
+      "end": 2486.31,
+      "speaker": "ASR voice 0",
+      "text": "role of nature and"
+    },
+    {
+      "index": 570,
+      "start": 2486.31,
+      "end": 2488.71,
+      "speaker": "ASR voice 0",
+      "text": "nurture which we were talking about earlier"
+    },
+    {
+      "index": 571,
+      "start": 2488.71,
+      "end": 2495.43,
+      "speaker": "ASR voice 7",
+      "text": "teacher how pronunce what is it the frame for pronunce"
+    },
+    {
+      "index": 572,
+      "start": 2495.43,
+      "end": 2496.37,
+      "speaker": "ASR voice 7",
+      "text": "nature in"
+    },
+    {
+      "index": 573,
+      "start": 2497.66,
+      "end": 2498.3,
+      "speaker": "ASR voice 0",
+      "text": "nurture"
+    },
+    {
+      "index": 574,
+      "start": 2498.31,
+      "end": 2499.75,
+      "speaker": "ASR voice 7",
+      "text": "no"
+    },
+    {
+      "index": 575,
+      "start": 2499.75,
+      "end": 2501.3,
+      "speaker": "ASR voice 0",
+      "text": "nurture"
+    },
+    {
+      "index": 576,
+      "start": 2501.46,
+      "end": 2505.27,
+      "speaker": "ASR voice 7",
+      "text": "nurture nurture"
+    },
+    {
+      "index": 577,
+      "start": 2505.27,
+      "end": 2506.04,
+      "speaker": "ASR voice 1",
+      "text": "nurture"
+    },
+    {
+      "index": 578,
+      "start": 2506.22,
+      "end": 2508.92,
+      "speaker": "ASR voice 7",
+      "text": "nurture"
+    },
+    {
+      "index": 579,
+      "start": 2509.39,
+      "end": 2514.39,
+      "speaker": "ASR voice 0",
+      "text": "nurture yeah yeah so nature and nurture"
+    },
+    {
+      "index": 580,
+      "start": 2514.39,
+      "end": 2516.51,
+      "speaker": "ASR voice 7",
+      "text": "nature"
+    },
+    {
+      "index": 581,
+      "start": 2516.51,
+      "end": 2518.44,
+      "speaker": "ASR voice 2",
+      "text": "nature"
+    },
+    {
+      "index": 582,
+      "start": 2518.66,
+      "end": 2519.13,
+      "speaker": "ASR voice 0",
+      "text": "and"
+    },
+    {
+      "index": 583,
+      "start": 2519.41,
+      "end": 2519.8,
+      "speaker": "ASR voice 7",
+      "text": "nurture"
+    },
+    {
+      "index": 584,
+      "start": 2521.21,
+      "end": 2522.47,
+      "speaker": "ASR voice 0",
+      "text": "okay okay number four"
+    },
+    {
+      "index": 585,
+      "start": 2522.47,
+      "end": 2523.51,
+      "speaker": "ASR voice 0",
+      "text": "okay"
+    },
+    {
+      "index": 586,
+      "start": 2523.51,
+      "end": 2524.97,
+      "speaker": "ASR voice 7",
+      "text": "number"
+    },
+    {
+      "index": 587,
+      "start": 2525.31,
+      "end": 2526.39,
+      "speaker": "ASR voice 2",
+      "text": "four"
+    },
+    {
+      "index": 588,
+      "start": 2526.39,
+      "end": 2529.39,
+      "speaker": "ASR voice 6",
+      "text": "yes"
+    },
+    {
+      "index": 589,
+      "start": 2529.54,
+      "end": 2533.51,
+      "speaker": "ASR voice 0",
+      "text": "number five"
+    },
+    {
+      "index": 590,
+      "start": 2533.51,
+      "end": 2535.51,
+      "speaker": "ASR voice 0",
+      "text": "indistinguishable"
+    },
+    {
+      "index": 591,
+      "start": 2535.51,
+      "end": 2538.02,
+      "speaker": "ASR voice 1",
+      "text": "indistinguishable yeah"
+    },
+    {
+      "index": 592,
+      "start": 2538.03,
+      "end": 2538.7,
+      "speaker": "ASR voice 2",
+      "text": "that was"
+    },
+    {
+      "index": 593,
+      "start": 2539.02,
+      "end": 2543.59,
+      "speaker": "ASR voice 0",
+      "text": "great pronunciation yeah indistinguishable"
+    },
+    {
+      "index": 594,
+      "start": 2543.59,
+      "end": 2551.59,
+      "speaker": "ASR voice 7",
+      "text": "indistinguishable indistinguishable"
+    },
+    {
+      "index": 595,
+      "start": 2551.59,
+      "end": 2552.97,
+      "speaker": "ASR voice 0",
+      "text": "yeah"
+    },
+    {
+      "index": 596,
+      "start": 2553.27,
+      "end": 2559.67,
+      "speaker": "ASR voice 7",
+      "text": "yeah again teacher please indistinguishable"
+    },
+    {
+      "index": 597,
+      "start": 2559.67,
+      "end": 2562.31,
+      "speaker": "ASR voice 0",
+      "text": "indistinguishable"
+    },
+    {
+      "index": 598,
+      "start": 2562.74,
+      "end": 2565.67,
+      "speaker": "ASR voice 7",
+      "text": "indistinguishable"
+    },
+    {
+      "index": 599,
+      "start": 2565.67,
+      "end": 2568.45,
+      "speaker": "ASR voice 0",
+      "text": "yeah indistinguishable indistinguishable"
+    },
+    {
+      "index": 600,
+      "start": 2568.45,
+      "end": 2568.87,
+      "speaker": "ASR voice 7",
+      "text": "indistinguishable"
+    },
+    {
+      "index": 601,
+      "start": 2568.87,
+      "end": 2571.67,
+      "speaker": "ASR voice 6",
+      "text": "indistinguishable"
+    },
+    {
+      "index": 602,
+      "start": 2571.67,
+      "end": 2572.72,
+      "speaker": "ASR voice 1",
+      "text": "oh my"
+    },
+    {
+      "index": 603,
+      "start": 2573.5,
+      "end": 2576.71,
+      "speaker": "ASR voice 7",
+      "text": "god oh my god this is what you want to see complicated yes"
+    },
+    {
+      "index": 604,
+      "start": 2576.71,
+      "end": 2578.07,
+      "speaker": "ASR voice 0",
+      "text": "it's it's a long one"
+    },
+    {
+      "index": 605,
+      "start": 2578.07,
+      "end": 2579.59,
+      "speaker": "ASR voice 7",
+      "text": "um"
+    },
+    {
+      "index": 606,
+      "start": 2579.6,
+      "end": 2579.75,
+      "speaker": "ASR voice 0",
+      "text": "number six"
+    },
+    {
+      "index": 607,
+      "start": 2579.75,
+      "end": 2581.75,
+      "speaker": "ASR voice 0",
+      "text": "human"
+    },
+    {
+      "index": 608,
+      "start": 2581.75,
+      "end": 2583.03,
+      "speaker": "ASR voice 1",
+      "text": "natural human"
+    },
+    {
+      "index": 609,
+      "start": 2583.03,
+      "end": 2584.31,
+      "speaker": "ASR voice 6",
+      "text": "nature human"
+    },
+    {
+      "index": 610,
+      "start": 2584.86,
+      "end": 2588.3,
+      "speaker": "ASR voice 0",
+      "text": "nature human nature human"
+    },
+    {
+      "index": 611,
+      "start": 2588.3,
+      "end": 2588.87,
+      "speaker": "ASR voice 7",
+      "text": "nature"
+    },
+    {
+      "index": 612,
+      "start": 2588.87,
+      "end": 2590.3,
+      "speaker": "ASR voice 7",
+      "text": "number"
+    },
+    {
+      "index": 613,
+      "start": 2590.87,
+      "end": 2592.65,
+      "speaker": "ASR voice 0",
+      "text": "seven thank"
+    },
+    {
+      "index": 614,
+      "start": 2592.65,
+      "end": 2593.11,
+      "speaker": "ASR voice 2",
+      "text": "you"
+    },
+    {
+      "index": 615,
+      "start": 2593.11,
+      "end": 2595.83,
+      "speaker": "ASR voice 1",
+      "text": "thank you great"
+    },
+    {
+      "index": 616,
+      "start": 2595.83,
+      "end": 2598.39,
+      "speaker": "ASR voice 0",
+      "text": "and finally number eight"
+    },
+    {
+      "index": 617,
+      "start": 2598.87,
+      "end": 2610.23,
+      "speaker": "ASR voice 2",
+      "text": "genetic"
+    },
+    {
+      "index": 618,
+      "start": 2610.23,
+      "end": 2611.29,
+      "speaker": "ASR voice 0",
+      "text": "genetic"
+    },
+    {
+      "index": 619,
+      "start": 2611.29,
+      "end": 2613.69,
+      "speaker": "ASR voice 1",
+      "text": "genetic influence"
+    },
+    {
+      "index": 620,
+      "start": 2613.71,
+      "end": 2615.84,
+      "speaker": "ASR voice 7",
+      "text": "genetic genetic"
+    },
+    {
+      "index": 621,
+      "start": 2615.84,
+      "end": 2618.31,
+      "speaker": "ASR voice 0",
+      "text": "influence genetic influence genetic influence"
+    },
+    {
+      "index": 622,
+      "start": 2618.31,
+      "end": 2623.35,
+      "speaker": "ASR voice 0",
+      "text": "you're doing great there's some natives native english speakers who get tripped up on some words like"
+    },
+    {
+      "index": 623,
+      "start": 2623.35,
+      "end": 2628.87,
+      "speaker": "ASR voice 0",
+      "text": "indistinguishable indistinguishable i've heard some native english speakers have a hard time with that so"
+    },
+    {
+      "index": 624,
+      "start": 2628.87,
+      "end": 2630.63,
+      "speaker": "ASR voice 0",
+      "text": "you guys are doing fantastic"
+    },
+    {
+      "index": 625,
+      "start": 2630.63,
+      "end": 2634.71,
+      "speaker": "ASR voice 7",
+      "text": "you can repeat again indistinguishable"
+    },
+    {
+      "index": 626,
+      "start": 2634.71,
+      "end": 2638.71,
+      "speaker": "ASR voice 0",
+      "text": "indistinguishable"
+    },
+    {
+      "index": 627,
+      "start": 2638.71,
+      "end": 2644.23,
+      "speaker": "ASR voice 7",
+      "text": "indistinguishable"
+    },
+    {
+      "index": 628,
+      "start": 2644.23,
+      "end": 2644.98,
+      "speaker": "ASR voice 1",
+      "text": "indistinguishable"
+    },
+    {
+      "index": 629,
+      "start": 2645.04,
+      "end": 2646.15,
+      "speaker": "ASR voice 2",
+      "text": "indistinguishable i'm glad"
+    },
+    {
+      "index": 630,
+      "start": 2646.15,
+      "end": 2664.07,
+      "speaker": "ASR voice 0",
+      "text": "you guys are all excited for pronunciation but i want to have you guys talk a little bit more about nature versus nurture so do you guys think there are characteristics that are predetermined so characteristics we're born with did the article"
+    },
+    {
+      "index": 631,
+      "start": 2664.07,
+      "end": 2673.19,
+      "speaker": "ASR voice 0",
+      "text": "did the article change your opinion about nature versus nurture and do you think nature or nurture"
+    },
+    {
+      "index": 632,
+      "start": 2673.19,
+      "end": 2678.31,
+      "speaker": "ASR voice 0",
+      "text": "is more important and do you think nature is more important in shaping who we are as people"
+    },
+    {
+      "index": 633,
+      "start": 2678.31,
+      "end": 2678.98,
+      "speaker": "ASR voice 0",
+      "text": "i"
+    },
+    {
+      "index": 634,
+      "start": 2681.14,
+      "end": 2682.31,
+      "speaker": "ASR voice 7",
+      "text": "think nature"
+    },
+    {
+      "index": 635,
+      "start": 2682.31,
+      "end": 2694.39,
+      "speaker": "ASR voice 7",
+      "text": "[participant] [participant] [participant] [participant] go ahead uh i think uh i think uh nature is the is the more"
+    },
+    {
+      "index": 636,
+      "start": 2694.39,
+      "end": 2705.99,
+      "speaker": "ASR voice 7",
+      "text": "important than than nature nurture is a little important than nature uh nature gives us ingenious and"
+    },
+    {
+      "index": 637,
+      "start": 2705.99,
+      "end": 2715.11,
+      "speaker": "ASR voice 7",
+      "text": "uh natural ability uh natural ability uh nature helps us develop uh personality knowledge"
+    },
+    {
+      "index": 638,
+      "start": 2715.11,
+      "end": 2725.11,
+      "speaker": "ASR voice 7",
+      "text": "and values so i think is in in in enough for the poor environment to give the indication is more than"
+    },
+    {
+      "index": 639,
+      "start": 2725.11,
+      "end": 2727.11,
+      "speaker": "ASR voice 7",
+      "text": "natural"
+    },
+    {
+      "index": 640,
+      "start": 2727.11,
+      "end": 2729.25,
+      "speaker": "ASR voice 0",
+      "text": "nature than nature i think i"
+    },
+    {
+      "index": 641,
+      "start": 2729.46,
+      "end": 2734.23,
+      "speaker": "ASR voice 1",
+      "text": "think i think about the natural is a fundamental and uh"
+    },
+    {
+      "index": 642,
+      "start": 2734.23,
+      "end": 2739.51,
+      "speaker": "ASR voice 1",
+      "text": "uh natural uh this is built and stop uh of it"
+    },
+    {
+      "index": 643,
+      "start": 2739.51,
+      "end": 2741.4,
+      "speaker": "ASR voice 1",
+      "text": "all"
+    },
+    {
+      "index": 644,
+      "start": 2741.79,
+      "end": 2741.99,
+      "speaker": "ASR voice 0",
+      "text": "right"
+    },
+    {
+      "index": 645,
+      "start": 2741.99,
+      "end": 2750.95,
+      "speaker": "ASR voice 0",
+      "text": "any other thoughts we're running a little short on time so i can't send you into breakout rooms so"
+    },
+    {
+      "index": 646,
+      "start": 2752.55,
+      "end": 2755.75,
+      "speaker": "ASR voice 0",
+      "text": "anyone has more thoughts on nature versus nurture go ahead"
+    },
+    {
+      "index": 647,
+      "start": 2755.75,
+      "end": 2757.64,
+      "speaker": "ASR voice 0",
+      "text": "for me it"
+    },
+    {
+      "index": 648,
+      "start": 2757.64,
+      "end": 2765.91,
+      "speaker": "ASR voice 2",
+      "text": "was interesting the last uh sentence just says um they found genetic influence helping to"
+    },
+    {
+      "index": 649,
+      "start": 2765.91,
+      "end": 2767.75,
+      "speaker": "ASR voice 2",
+      "text": "shape our lives i couldn't"
+    },
+    {
+      "index": 650,
+      "start": 2767.85,
+      "end": 2767.85,
+      "speaker": "ASR voice 0",
+      "text": "i"
+    },
+    {
+      "index": 651,
+      "start": 2767.86,
+      "end": 2773.59,
+      "speaker": "ASR voice 2",
+      "text": "couldn't have like imagine how genetic could influence like in the"
+    },
+    {
+      "index": 652,
+      "start": 2773.59,
+      "end": 2780.55,
+      "speaker": "ASR voice 2",
+      "text": "potential that we could develop for the future um so it is not only the fact that you can"
+    },
+    {
+      "index": 653,
+      "start": 2780.55,
+      "end": 2788.31,
+      "speaker": "ASR voice 2",
+      "text": "be disciplined or determined to study something like genetics are has like a have a big influence"
+    },
+    {
+      "index": 654,
+      "start": 2788.31,
+      "end": 2792.65,
+      "speaker": "ASR voice 2",
+      "text": "to tell you shaping your future as well yeah"
+    },
+    {
+      "index": 655,
+      "start": 2793.34,
+      "end": 2796.87,
+      "speaker": "ASR voice 0",
+      "text": "learning yeah i think that was really interesting to learn how"
+    },
+    {
+      "index": 656,
+      "start": 2796.87,
+      "end": 2798.71,
+      "speaker": "ASR voice 0",
+      "text": "genetics shapes iq"
+    },
+    {
+      "index": 657,
+      "start": 2803.83,
+      "end": 2825.99,
+      "speaker": "ASR voice 0",
+      "text": "well that is the end of my lesson thank you all for participating and you had you guys were doing"
+    },
+    {
+      "index": 658,
+      "start": 2825.99,
+      "end": 2828.02,
+      "speaker": "ASR voice 0",
+      "text": "great with your pronunciation so keep it up thank"
+    },
+    {
+      "index": 659,
+      "start": 2829.7,
+      "end": 2830.15,
+      "speaker": "ASR voice 1",
+      "text": "you thank"
+    },
+    {
+      "index": 660,
+      "start": 2831.2,
+      "end": 2835.91,
+      "speaker": "ASR voice 2",
+      "text": "you thank you very much um so we had another"
+    },
+    {
+      "index": 661,
+      "start": 2835.91,
+      "end": 2841.85,
+      "speaker": "ASR voice 2",
+      "text": "teacher for tonight today however she is a little unwell so she had to leave so we"
+    },
+    {
+      "index": 662,
+      "start": 2842.15,
+      "end": 2844.15,
+      "speaker": "ASR voice unknown",
+      "text": "had only one lesson"
+    },
+    {
+      "index": 663,
+      "start": 2844.15,
+      "end": 2845.34,
+      "speaker": "ASR voice unknown",
+      "text": "tonight so you all"
+    },
+    {
+      "index": 664,
+      "start": 2845.34,
+      "end": 2848.83,
+      "speaker": "ASR voice 2",
+      "text": "are free to go i'm very sorry but we don't have another"
+    },
+    {
+      "index": 665,
+      "start": 2848.83,
+      "end": 2851.91,
+      "speaker": "ASR voice unknown",
+      "text": "lesson today uh so next week we"
+    },
+    {
+      "index": 666,
+      "start": 2851.91,
+      "end": 2852.2,
+      "speaker": "ASR voice unknown",
+      "text": "have"
+    },
+    {
+      "index": 667,
+      "start": 2852.35,
+      "end": 2854.48,
+      "speaker": "ASR voice 6",
+      "text": "classes again on monday and"
+    },
+    {
+      "index": 668,
+      "start": 2854.48,
+      "end": 2855.38,
+      "speaker": "ASR voice 1",
+      "text": "tuesday then"
+    },
+    {
+      "index": 669,
+      "start": 2855.38,
+      "end": 2858.15,
+      "speaker": "ASR voice 0",
+      "text": "we have the thanksgiving break i'll remind you about that"
+    },
+    {
+      "index": 670,
+      "start": 2858.15,
+      "end": 2859.82,
+      "speaker": "ASR voice 0",
+      "text": "but please come back on monday okay"
+    },
+    {
+      "index": 671,
+      "start": 2859.92,
+      "end": 2862.3,
+      "speaker": "ASR voice 1",
+      "text": "okay okay okay thank you thank"
+    },
+    {
+      "index": 672,
+      "start": 2862.3,
+      "end": 2864.71,
+      "speaker": "ASR voice 2",
+      "text": "you very much thank"
+    },
+    {
+      "index": 673,
+      "start": 2864.71,
+      "end": 2867.59,
+      "speaker": "ASR voice 1",
+      "text": "you"
+    }
+  ]
+}

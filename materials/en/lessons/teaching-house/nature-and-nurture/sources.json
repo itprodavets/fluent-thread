@@ -1,0 +1,23 @@
+[
+  {
+    "source": "Record-2026-11-20 11-20-08-20261120-112008",
+    "durationSeconds": 2873.46,
+    "segments": 674,
+    "coveredSegments": 674,
+    "transcriptBlocks": 45,
+    "package": "lesson.json",
+    "words": 77,
+    "materials": 59,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "schoolAttribution": "Teaching House inferred from schedule context; school not named in audio",
+    "speakerAttribution": "automatic clusters; uncertain fragments explicitly marked",
+    "publishedAudio": false
+  }
+]

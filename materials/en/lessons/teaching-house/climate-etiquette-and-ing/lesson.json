@@ -1,0 +1,861 @@
+{
+  "format": "nit-rechi",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Климат, британский этикет и формы -ing · 17 ноября",
+    "source": {
+      "school": "Teaching House",
+      "date": "2026-11-17"
+    }
+  },
+  "words": [
+    {
+      "title": "endangered",
+      "meaning": "под угрозой исчезновения",
+      "example": "Pandas are an example of a species that needs protection."
+    },
+    {
+      "title": "a nature reserve",
+      "meaning": "природный заповедник",
+      "example": "A nature reserve can protect the habitat."
+    },
+    {
+      "title": "conservation efforts",
+      "meaning": "меры по сохранению природы",
+      "example": "Conservation efforts can make a difference."
+    },
+    {
+      "title": "melting ice caps",
+      "meaning": "тающие ледяные шапки",
+      "example": "The slide showed melting ice caps."
+    },
+    {
+      "title": "carbon emissions",
+      "meaning": "выбросы углерода",
+      "example": "Many countries are trying to reduce carbon emissions."
+    },
+    {
+      "title": "renewable energy",
+      "meaning": "возобновляемая энергия",
+      "example": "Solar power is a source of renewable energy."
+    },
+    {
+      "title": "switch to renewables",
+      "meaning": "перейти на возобновляемые источники",
+      "example": "More countries are switching to renewables."
+    },
+    {
+      "title": "single-use plastic",
+      "meaning": "одноразовый пластик",
+      "example": "I try to cut back on single-use plastic."
+    },
+    {
+      "title": "take action",
+      "meaning": "принять меры",
+      "example": "Young people are taking action to protect the planet."
+    },
+    {
+      "title": "make a difference",
+      "meaning": "реально что-то изменить",
+      "example": "Small actions can make a difference if enough people take them."
+    },
+    {
+      "title": "optimistic",
+      "meaning": "оптимистично настроенный",
+      "example": "I feel optimistic about the future."
+    },
+    {
+      "title": "pessimistic",
+      "meaning": "пессимистично настроенный",
+      "example": "She is pessimistic about progress."
+    },
+    {
+      "title": "hopeful",
+      "meaning": "полный надежды",
+      "example": "I feel hopeful when I see concrete results."
+    },
+    {
+      "title": "encouraging",
+      "meaning": "обнадёживающий",
+      "example": "The latest progress is encouraging."
+    },
+    {
+      "title": "alarming",
+      "meaning": "вызывающий тревогу",
+      "example": "The amount of waste is alarming."
+    },
+    {
+      "title": "frustrating",
+      "meaning": "раздражающий, вызывающий досаду",
+      "example": "I find the delays frustrating."
+    },
+    {
+      "title": "frustrated",
+      "meaning": "расстроенный, испытывающий досаду",
+      "example": "I feel frustrated by the delays."
+    },
+    {
+      "title": "pointless",
+      "meaning": "бессмысленный",
+      "example": "It feels pointless to argue about that."
+    },
+    {
+      "title": "unnecessary",
+      "meaning": "ненужный, излишний",
+      "example": "We can cut out unnecessary packaging."
+    },
+    {
+      "title": "reserved",
+      "meaning": "сдержанный, закрытый",
+      "example": "Some people seem reserved at first."
+    },
+    {
+      "title": "open-minded",
+      "meaning": "открытый к новым идеям",
+      "example": "She’s open-minded about different customs."
+    },
+    {
+      "title": "witty",
+      "meaning": "остроумный",
+      "example": "He made a witty comment."
+    },
+    {
+      "title": "punctual",
+      "meaning": "пунктуальный",
+      "example": "Our conversation partner is always punctual."
+    },
+    {
+      "title": "respectful",
+      "meaning": "уважительный",
+      "example": "Try to stay respectful when you disagree."
+    },
+    {
+      "title": "a commute",
+      "meaning": "ежедневная дорога на работу или учёбу",
+      "example": "My commute takes about forty minutes."
+    },
+    {
+      "title": "a commuter",
+      "meaning": "тот, кто регулярно ездит на работу или учёбу",
+      "example": "The bus is packed with commuters."
+    },
+    {
+      "title": "make small talk",
+      "meaning": "вести непринуждённый разговор",
+      "example": "It’s easy to make small talk about the weather."
+    },
+    {
+      "title": "break an awkward silence",
+      "meaning": "прервать неловкое молчание",
+      "example": "She asked about the weather to break an awkward silence."
+    },
+    {
+      "title": "without exchanging a word",
+      "meaning": "не сказав друг другу ни слова",
+      "example": "They commuted together for years without exchanging a word."
+    },
+    {
+      "title": "keep to oneself",
+      "meaning": "держаться особняком, не навязываться",
+      "example": "People often keep to themselves on trains."
+    },
+    {
+      "title": "keep something private",
+      "meaning": "не разглашать что-либо",
+      "example": "I prefer to keep my income private."
+    },
+    {
+      "title": "cause offence",
+      "meaning": "обидеть, задеть",
+      "example": "He changes the subject to avoid causing offence."
+    },
+    {
+      "title": "cut in line",
+      "meaning": "влезть в очередь (США)",
+      "example": "It’s rude to cut in line."
+    },
+    {
+      "title": "jump the queue",
+      "meaning": "влезть в очередь (Великобритания)",
+      "example": "People got annoyed when someone jumped the queue."
+    },
+    {
+      "title": "rush hour",
+      "meaning": "час пик",
+      "example": "The trains can get crowded during rush hour."
+    },
+    {
+      "title": "get on / get off",
+      "meaning": "сесть в транспорт / выйти из него",
+      "example": "Wait for people to get off before getting on."
+    },
+    {
+      "title": "let someone do something",
+      "meaning": "позволить кому-либо сделать что-либо",
+      "example": "Let the passengers get off first."
+    },
+    {
+      "title": "be willing to help",
+      "meaning": "быть готовым помочь",
+      "example": "People are often willing to help if you ask."
+    },
+    {
+      "title": "be in a hurry",
+      "meaning": "спешить",
+      "example": "She was in a hurry to catch a bus."
+    },
+    {
+      "title": "be offended by",
+      "meaning": "обидеться на что-либо",
+      "example": "Some people might be offended by the question."
+    },
+    {
+      "title": "Let’s just jump right on in",
+      "meaning": "Давайте сразу начнём",
+      "example": "Let’s jump right into the first activity."
+    },
+    {
+      "title": "Can you give me a thumbs up",
+      "meaning": "Покажите большой палец, если всё видно",
+      "example": "Give me a thumbs up if you can hear me."
+    },
+    {
+      "title": "What do these pictures have in common",
+      "meaning": "Что общего у этих изображений",
+      "example": "What do these examples have in common?"
+    },
+    {
+      "title": "How does that make you feel",
+      "meaning": "Какие чувства это у вас вызывает",
+      "example": "How does the news make you feel?"
+    },
+    {
+      "title": "See if you can figure out the main topic",
+      "meaning": "Попробуйте понять, какова главная тема",
+      "example": "See if you can figure out what the author means."
+    },
+    {
+      "title": "Read this silently to yourself",
+      "meaning": "Прочитайте это про себя",
+      "example": "Read the first paragraph to yourself."
+    },
+    {
+      "title": "We’ll get to that in just one moment",
+      "meaning": "Мы вернёмся к этому буквально через минуту",
+      "example": "We’ll get to the tricky part in a minute."
+    },
+    {
+      "title": "Go through the bolded adjectives",
+      "meaning": "Просмотрите прилагательные, выделенные жирным",
+      "example": "Go through your notes before the next activity."
+    },
+    {
+      "title": "Take thirty more seconds to finish up",
+      "meaning": "Возьмите ещё тридцать секунд, чтобы закончить",
+      "example": "Take a minute to finish up your notes."
+    },
+    {
+      "title": "Pardon me if I mispronounce your name",
+      "meaning": "Извините, если я неправильно произношу ваше имя",
+      "example": "Pardon me if I mispronounce this word."
+    },
+    {
+      "title": "It could be negative in some contexts",
+      "meaning": "В некоторых контекстах оно может звучать отрицательно",
+      "example": "That phrase could be rude in some contexts."
+    },
+    {
+      "title": "We’re going to break out into groups",
+      "meaning": "Сейчас мы разделимся на группы",
+      "example": "Let’s break out into groups and compare answers."
+    },
+    {
+      "title": "You got it",
+      "meaning": "Точно, вы угадали",
+      "example": "Yes, you got it. That’s the word."
+    },
+    {
+      "title": "That could be seen as unfriendly",
+      "meaning": "Это можно воспринять как недружелюбие",
+      "example": "Silence could be seen as awkward in that context."
+    },
+    {
+      "title": "Look for specific information",
+      "meaning": "Ищите конкретные сведения",
+      "example": "Look for a sentence that supports your answer."
+    },
+    {
+      "title": "They aren’t obvious to people who are visiting",
+      "meaning": "Для приезжих эти правила неочевидны",
+      "example": "The unwritten rules aren’t obvious to newcomers."
+    },
+    {
+      "title": "It just pushes people away",
+      "meaning": "Это просто отталкивает людей",
+      "example": "Very personal questions can push people away."
+    },
+    {
+      "title": "We’ll continue from where we left off",
+      "meaning": "Продолжим с того места, где остановились",
+      "example": "Can we pick up where we left off?"
+    },
+    {
+      "title": "I’ll pop this in the chat",
+      "meaning": "Сейчас я выложу это в чат",
+      "example": "I’ll pop the answer key in the chat."
+    },
+    {
+      "title": "How do you feel about renewable energy",
+      "meaning": "Как вы относитесь к возобновляемой энергии",
+      "example": "How do you feel about working from home?"
+    },
+    {
+      "title": "Listen and repeat",
+      "meaning": "Послушайте и повторите",
+      "example": "Listen and repeat the phrase at normal speed."
+    },
+    {
+      "title": "Where is the stress in that sentence",
+      "meaning": "На каких словах ударение в этом предложении",
+      "example": "Where is the stress in encouraging?"
+    },
+    {
+      "title": "There are multiple possible answers",
+      "meaning": "Возможны несколько ответов",
+      "example": "There are several possible answers, depending on context."
+    },
+    {
+      "title": "That was the point of this activity",
+      "meaning": "В этом и был смысл задания",
+      "example": "The point of the exercise is to explain your choice."
+    },
+    {
+      "title": "Before we head out, let’s go over a couple of things",
+      "meaning": "Перед тем как разойтись, давайте разберём пару моментов",
+      "example": "Before we head out, let’s go over the answers."
+    },
+    {
+      "title": "Thank you for sticking around",
+      "meaning": "Спасибо, что остались",
+      "example": "Thanks for sticking around after class."
+    },
+    {
+      "title": "What do you find the most annoying",
+      "meaning": "Что вас больше всего раздражает",
+      "example": "What do you find most challenging about speaking?"
+    },
+    {
+      "title": "You don’t know what everybody else is going through",
+      "meaning": "Вы не знаете, что переживают другие люди",
+      "example": "You don’t know what the other person is going through."
+    },
+    {
+      "title": "Can we say avoid to talk",
+      "meaning": "Можно ли сказать avoid to talk",
+      "example": "I avoid talking loudly on public transport."
+    },
+    {
+      "title": "Be ready to share that back",
+      "meaning": "Будьте готовы рассказать об этом всей группе",
+      "example": "Be ready to share your reasons with the class."
+    },
+    {
+      "title": "Can we think of another way to say this",
+      "meaning": "Можем придумать, как ещё это сказать",
+      "example": "Can you think of a more natural way to say it?"
+    },
+    {
+      "title": "Avoid making an embarrassing mistake",
+      "meaning": "Постарайтесь избежать неловкой ошибки",
+      "example": "I want to avoid making the same mistake twice."
+    },
+    {
+      "title": "I don’t want to make a fool of myself",
+      "meaning": "Я не хочу выставить себя дураком",
+      "example": "Can you give me some tips so I don’t make a fool of myself?"
+    }
+  ],
+  "materials": [
+    {
+      "kind": "reading",
+      "title": "Реплики преподавателя · Элла, Мэттью и Дэниел",
+      "text": "Таймкод указывает на фрагмент урока. Некоторые формулировки сокращены или нормализованы.\n\n03:00 · Let’s just jump right on in.\nПеревод: Давайте сразу начнём.\nКонструкция: Неформальный переход к делу.\nТвой пример для практики: Let’s jump right into the first activity.\n\n03:00 · Can you give me a thumbs up?\nПеревод: Покажите большой палец, если всё видно.\nКонструкция: A thumbs up — жест одобрения или подтверждения.\nТвой пример для практики: Give me a thumbs up if you can hear me.\n\n04:00 · What do these pictures have in common?\nПеревод: Что общего у этих изображений?\nКонструкция: Have something in common — иметь что-то общее.\nТвой пример для практики: What do these examples have in common?\n\n04:00 · How does that make you feel?\nПеревод: Какие чувства это у вас вызывает?\nКонструкция: Make + человек + глагол без to.\nТвой пример для практики: How does the news make you feel?\n\n05:00 · See if you can figure out the main topic.\nПеревод: Попробуйте понять, какова главная тема.\nКонструкция: Figure out — разобраться или выяснить.\nТвой пример для практики: See if you can figure out what the author means.\n\n05:00 · Read this silently to yourself.\nПеревод: Прочитайте это про себя.\nКонструкция: Silently / to yourself противопоставляется aloud.\nТвой пример для практики: Read the first paragraph to yourself.\n\n05:00 · We’ll get to that in just one moment.\nПеревод: Мы вернёмся к этому буквально через минуту.\nКонструкция: Get to something — дойти до вопроса или задачи.\nТвой пример для практики: We’ll get to the tricky part in a minute.\n\n10:00 · Go through the bolded adjectives.\nПеревод: Просмотрите прилагательные, выделенные жирным.\nКонструкция: Go through — пройтись по материалу по порядку.\nТвой пример для практики: Go through your notes before the next activity.\n\n10:00 · Take thirty more seconds to finish up.\nПеревод: Возьмите ещё тридцать секунд, чтобы закончить.\nКонструкция: Finish up означает довести дело до конца.\nТвой пример для практики: Take a minute to finish up your notes.\n\n10:00 · Pardon me if I mispronounce your name.\nПеревод: Извините, если я неправильно произношу ваше имя.\nКонструкция: Mis- указывает на ошибку в действии.\nТвой пример для практики: Pardon me if I mispronounce this word.\n\n15:00 · It could be negative in some contexts.\nПеревод: В некоторых контекстах оно может звучать отрицательно.\nКонструкция: Could be смягчает оценку.\nТвой пример для практики: That phrase could be rude in some contexts.\n\n20:00 · We’re going to break out into groups.\nПеревод: Сейчас мы разделимся на группы.\nКонструкция: Break out into groups — перейти к работе в мини-группах.\nТвой пример для практики: Let’s break out into groups and compare answers.\n\n35:00 · You got it.\nПеревод: Точно, вы угадали.\nКонструкция: Короткая реакция на верный ответ.\nТвой пример для практики: Yes, you got it. That’s the word.\n\n40:00 · That could be seen as unfriendly.\nПеревод: Это можно воспринять как недружелюбие.\nКонструкция: Be seen as мягко передаёт возможное восприятие.\nТвой пример для практики: Silence could be seen as awkward in that context.\n\n45:00 · Look for specific information.\nПеревод: Ищите конкретные сведения.\nКонструкция: Look for — искать. Look at — посмотреть на.\nТвой пример для практики: Look for a sentence that supports your answer.\n\n50:00 · They aren’t obvious to people who are visiting.\nПеревод: Для приезжих эти правила неочевидны.\nКонструкция: Obvious to someone — очевидный для кого-либо.\nТвой пример для практики: The unwritten rules aren’t obvious to newcomers.\n\n55:00 · It just pushes people away.\nПеревод: Это просто отталкивает людей.\nКонструкция: Push someone away здесь образно.\nТвой пример для практики: Very personal questions can push people away.\n\n01:05:00 · We’ll continue from where we left off.\nПеревод: Продолжим с того места, где остановились.\nКонструкция: Leave off — остановиться на каком-то месте.\nТвой пример для практики: Can we pick up where we left off?\n\n01:05:00 · I’ll pop this in the chat.\nПеревод: Сейчас я выложу это в чат.\nКонструкция: Неформальный оборот для отправки сообщения или файла.\nТвой пример для практики: I’ll pop the answer key in the chat.\n\n01:10:00 · How do you feel about renewable energy?\nПеревод: Как вы относитесь к возобновляемой энергии?\nКонструкция: Feel about + тема. Feel + прилагательное описывает чувство.\nТвой пример для практики: How do you feel about working from home?\n\n01:15:00 · Listen and repeat.\nПеревод: Послушайте и повторите.\nКонструкция: Краткая инструкция перед моделью произношения.\nТвой пример для практики: Listen and repeat the phrase at normal speed.\n\n01:15:00 · Where is the stress in that sentence?\nПеревод: На каких словах ударение в этом предложении?\nКонструкция: Stress — ударение, emphasis — смысловой акцент.\nТвой пример для практики: Where is the stress in encouraging?\n\n01:20:00 · There are multiple possible answers.\nПеревод: Возможны несколько ответов.\nКонструкция: Possible answers — допустимые варианты.\nТвой пример для практики: There are several possible answers, depending on context.\n\n01:30:00 · That was the point of this activity.\nПеревод: В этом и был смысл задания.\nКонструкция: The point of something — цель или смысл.\nТвой пример для практики: The point of the exercise is to explain your choice.\n\n01:40:00 · Before we head out, let’s go over a couple of things.\nПеревод: Перед тем как разойтись, давайте разберём пару моментов.\nКонструкция: Head out — уходить. Go over — повторить или разобрать. Учебная редакция.\nТвой пример для практики: Before we head out, let’s go over the answers.\n\n01:40:00 · Thank you for sticking around.\nПеревод: Спасибо, что остались.\nКонструкция: Stick around — остаться немного дольше.\nТвой пример для практики: Thanks for sticking around after class.\n\n01:40:00 · What do you find the most annoying?\nПеревод: Что вас больше всего раздражает?\nКонструкция: Find + объект + прилагательное — считать что-либо каким-либо.\nТвой пример для практики: What do you find most challenging about speaking?\n\n01:45:00 · You don’t know what everybody else is going through.\nПеревод: Вы не знаете, что переживают другие люди.\nКонструкция: Go through — переживать трудный период.\nТвой пример для практики: You don’t know what the other person is going through.\n\n01:50:00 · Can we say avoid to talk?\nПеревод: Можно ли сказать avoid to talk?\nКонструкция: Это проверочный вопрос. Правильная форма — avoid talking.\nТвой пример для практики: I avoid talking loudly on public transport.\n\n01:50:00 · Be ready to share that back.\nПеревод: Будьте готовы рассказать об этом всей группе.\nКонструкция: Share back — представить группе результат обсуждения.\nТвой пример для практики: Be ready to share your reasons with the class.\n\n02:00:00 · Can we think of another way to say this?\nПеревод: Можем придумать, как ещё это сказать?\nКонструкция: Think of another way — придумать другой вариант.\nТвой пример для практики: Can you think of a more natural way to say it?\n\n02:15:00 · Avoid making an embarrassing mistake.\nПеревод: Постарайтесь избежать неловкой ошибки.\nКонструкция: После avoid используется -ing.\nТвой пример для практики: I want to avoid making the same mistake twice.\n\n02:20:00 · I don’t want to make a fool of myself.\nПеревод: Я не хочу выставить себя дураком.\nКонструкция: Разговорное выражение со значением «опозориться».\nТвой пример для практики: Can you give me some tips so I don’t make a fool of myself?",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · прилагательные и формы -ing",
+      "text": "Имена качеств и прилагательные\nAn optimist is a person. Optimism is the attitude. Optimistic describes the person or their outlook. Politeness → polite, patience → patient, friendliness → friendly.\n\nТри позиции прилагательного\nIt’s an encouraging example. I feel hopeful about the future. I find it frustrating to talk about. A/an + adjective + noun, linking verb + adjective, find + object + adjective.\n\nПричина и реакция: -ing и -ed\nThe news is alarming. I’m alarmed by the news. Slow progress is frustrating. I feel frustrated about slow progress.\n\nFeel, believe и find\nI feel hopeful about the changes. I believe the changes will help. I find the progress encouraging. Feel выражает эмоцию, believe — убеждение, find — оценку.\n\nФорма -ing после определённых глаголов\nAvoid arguing, enjoy meeting new people, spend years travelling. После avoid и enjoy нужна форма -ing, а после spend + время форма -ing объясняет, на что ушло время.\n\nФорма -ing как подлежащее\nTalking during a film is rude. Learning English is important to me. Вся фраза с -ing занимает позицию подлежащего.\n\nФорма -ing после предлогов\nWithout exchanging a word. Despite feeling tired, she kept going. Despite the rain … / Despite the fact that it was raining … .\n\nПроцесс, прилагательное и сокращённое определение\nI was laughing — Past Continuous. An entertaining book — прилагательное к book. People standing at the bus stop = people who are standing at the bus stop.\n\nМетро, артикли и множественное число\nLet passengers get off before you get on. Let + объект + глагол без to. С get on/off the train, in a hurry, during rush hour.\n\nУдарение и сцепление слов\nop-ti-MIS-tic, pes-si-MIS-tic, en-COUR-ag-ing. Слушай, как финальное /d/ слова find соединяется с it. Фразовое ударение показывает, что говорящий хочет выделить.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Человек, качество, оценка",
+      "text": "",
+      "translation": "",
+      "prompt": "Поставь optimist, optimism и optimistic. She’s an ___. I admire her ___. She’s ___ about the future.",
+      "answer": "She’s an optimist. I admire her optimism. She’s optimistic about the future."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Frustrating или frustrated",
+      "text": "",
+      "translation": "",
+      "prompt": "Опиши, что медленный прогресс вызывает досаду и ты ею расстроен.",
+      "answer": "Slow progress is frustrating. I feel frustrated by how slowly things are changing."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Три каркаса",
+      "text": "",
+      "translation": "",
+      "prompt": "Опиши новость через an encouraging example, feel и find.",
+      "answer": "It’s an encouraging example. I feel hopeful about the future. I find the news encouraging."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Avoid + -ing",
+      "text": "",
+      "translation": "",
+      "prompt": "Исправь I avoid to speak loudly on the train.",
+      "answer": "I avoid speaking loudly on the train."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Spend + период + -ing",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи, что они годами ездили на одном поезде, не обменявшись ни словом.",
+      "answer": "They spent years travelling on the same train without exchanging a word."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Reduced relative clause",
+      "text": "",
+      "translation": "",
+      "prompt": "Сократи people who are standing at the bus stop, сохранив смысл.",
+      "answer": "People standing at the bus stop."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Despite",
+      "text": "",
+      "translation": "",
+      "prompt": "Скажи, что даже будучи уставшей, она продолжала заниматься. Используй despite.",
+      "answer": "Despite feeling tired, she kept studying."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Let и get off",
+      "text": "",
+      "translation": "",
+      "prompt": "Посоветуй сначала дать людям выйти из поезда.",
+      "answer": "Let passengers get off before you get on."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Мягкое несогласие",
+      "text": "",
+      "translation": "",
+      "prompt": "Возрази на утверждение, что тихие пассажиры недружелюбны, начав с That could be seen as.",
+      "answer": "That could be seen as unfriendly, but sometimes people are just giving each other space."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Определить роль -ing",
+      "text": "",
+      "translation": "",
+      "prompt": "Назови функции в I was laughing, an entertaining book и Talking during a movie is rude.",
+      "answer": "Laughing входит в Past Continuous. Entertaining — прилагательное. Talking during a movie — подлежащее."
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · твои реплики the learner",
+      "text": "00:05:00 · Как прозвучало: This have positive successful story … China created special natural researching … protect bamboo forest…\nЕстественный вариант: There’s a success story behind that picture. China set up nature reserves to protect pandas and their bamboo habitat.\nПочему: A success story, not a positive successful story. Nature reserve = заповедник. Последнюю часть ответа распознавание передало неуверенно.\n\n00:10:00 · Как прозвучало: Encouraging. Optimist. Hopeful.\nЕстественный вариант: I put encouraging, optimistic and hopeful in the positive column.\nПочему: В задании требовалось прилагательное. Optimist — человек, optimistic — характеристика.\n\n00:20:00 · Как прозвучало: Football is the most popular sport in England. … English really love rugby, cricket or tennis.\nЕстественный вариант: Football is very popular in England. People also follow sports like rugby, cricket and tennis.\nПочему: Первая фраза грамматически правильная. People in England / many English people точнее, когда опираешься на личное наблюдение.\n\n00:25:00 · Как прозвучало: Every time I meet several English people … I started chatting with a cafe and there’s events.\nЕстественный вариант: I’ve met English people while travelling. I’ve chatted with some of them in cafés or at events.\nПочему: While travelling обозначает обстоятельства. Разговор с человеком — chat with someone, место — in a café / at an event.\n\n00:25:00 · Как прозвучало: When I’m going to Hong Kong … British people are many.\nЕстественный вариант: Whenever I go to Hong Kong, I meet quite a few British people.\nПочему: Whenever + Present Simple для регулярности. Quite a few people — довольно много людей.\n\n00:25:00 · Как прозвучало: What do you choose adjectives?\nЕстественный вариант: Which adjectives would you choose?\nПочему: Which + существительное, затем would + подлежащее + глагол.\n\n00:30:00 · Как прозвучало: For me, it’s a skill more when I’m chatting with British people.\nЕстественный вариант: Chatting with British people helps me get more comfortable speaking English.\nПочему: Смысл можно передать через helps me + глагол. Chat with a person.\n\n00:30:00 · Как прозвучало: Polite, reserved … open mind.\nЕстественный вариант: I’d describe the people I’ve met as polite, reserved and open-minded.\nПочему: Параллельный ряд прилагательных. An open mind — существительное, open-minded — прилагательное.\n\n00:35:00 · Как прозвучало: The commuter. This is person who will go out, travel between home and work.\nЕстественный вариант: A commuter is someone who regularly travels between home and work.\nПочему: Определение через a commuter is someone who… Регулярность — regularly travels.\n\n00:45:00 · Как прозвучало: Commuters may travel … for years without exchanging word.\nЕстественный вариант: Commuters may travel together for years without exchanging a word.\nПочему: Without + -ing. Exchange a word / exchange a few words.\n\n00:50:00 · Как прозвучало: Why does this true? Who is answer?\nЕстественный вариант: Why is this one true? Who can answer that?\nПочему: Вопрос с be строится через is. После who как подлежащего — who can answer.\n\n00:50:00 · Как прозвучало: They are hidden social rules. It’s mystery foreign visitors.\nЕстественный вариант: These are unwritten social rules. They can be a mystery to foreign visitors.\nПочему: Unwritten rules — неписаные правила. A mystery to someone — загадка для кого-то.\n\n00:55:00 · Как прозвучало: You review surprise … your country, behaviours is similar way?\nЕстественный вариант: Did the article surprise you? Do people behave in a similar way in your country?\nПочему: Did + surprise; people behave. In a similar way, not similar way без a.\n\n01:00:00 · Как прозвучало: And if there’s a question … using a smartphone … subway, all people see it as a smartphone.\nЕстественный вариант: One thing I notice is that a lot of people look at their phones on the subway.\nПочему: Look at a phone, on the subway. A lot of people точнее, если говоришь о наблюдении.\n\n01:05:00 · Как прозвучало: If you’re speaking about money, it’s not good. But if China, it’s okay.\nЕстественный вариант: In my experience, asking about money can feel more personal in some places than in others.\nПочему: In my experience ограничивает обобщение, can feel смягчает. Asking about money — подлежащее.\n\n01:20:00 · Как прозвучало: Alarming … because the symptom of plastic pollution is the ocean, is a serious worrying problem.\nЕстественный вариант: I chose alarming because plastic pollution in the ocean is a serious problem.\nПочему: Pollution in the ocean; choose an adjective because… Symptom часто обозначает признак болезни.\n\n01:25:00 · Как прозвучало: Hearing about your people talking action give and positive feeling about in future.\nЕстественный вариант: I chose hopeful because hearing about young people taking action makes me feel positive about the future.\nПочему: Young people taking action. Hearing … — подлежащее в единственном числе, поэтому makes.\n\n01:25:00 · Как прозвучало: Can you use it … unnecessary, pointless or optimistic in the use here?\nЕстественный вариант: Could we use pointless instead of unnecessary here? Would optimistic fit, too?\nПочему: Instead of — вместо. Would it fit here? — подходит ли слово в данном контексте.\n\n01:35:00 · Как прозвучало: I have not be … I see many electric cars and solar panels … feel very optimistic.\nЕстественный вариант: I’m not pessimistic about the future. Where I live, I see more electric cars and solar panels, which makes me feel hopeful.\nПочему: Настроение: I’m not pessimistic / I don’t feel pessimistic. Which makes me feel… связывает причину и реакцию.\n\n01:35:00 · Как прозвучало: If millions of people are not using many plastic boxes … real difference.\nЕстественный вариант: If millions of people cut back on single-use plastic, it could make a real difference.\nПочему: Cut back on + объект. Make a difference — изменить ситуацию.\n\n01:35:00 · Как прозвучало: It’s a temporary change every time … many rains and storms.\nЕстественный вариант: Where I live, we’ve been getting a lot of heavy rain and storms. I wonder whether El Niño has played a part.\nПочему: Rain неисчисляемое. I wonder whether передаёт предположение, когда причинная связь не установлена.\n\n01:40:00 · Как прозвучало: Putting in line for me … I live in China eight years … I was being at … countries.\nЕстественный вариант: I find it annoying when people cut in line. I’ve lived in China for eight years, and I’ve seen queue-jumping in a lot of places.\nПочему: Американский cut in line и британский jump the queue. I’ve lived … for и I’ve been to + место.\n\n01:45:00 · Как прозвучало: I don’t want … what my energy … this don’t for sure really matter.\nЕстественный вариант: I don’t want to waste my energy on things that don’t really matter.\nПочему: Waste energy on + объект. Things that don’t … — множественное число.\n\n01:55:00 · Как прозвучало: Maybe number four … spend years travelling.\nЕстественный вариант: I found number four tricky: why do we say spend years travelling?\nПочему: I found + объект + прилагательное. Spend years doing something.\n\n02:05:00 · Как прозвучало: I avoid voicing my energy on argument for small.\nЕстественный вариант: I avoid wasting my energy on small arguments.\nПочему: В классе Дэниел подсказал wasting. После avoid форма -ing, после waste energy — on.\n\n02:05:00 · Как прозвучало: I avoid complaining about this I cannot control. Learning English is an important part of my life.\nЕстественный вариант: I avoid complaining about things I can’t control. Learning English is an important part of my life.\nПочему: Things I can’t control — относительная конструкция без that. Второе предложение уже правильное.\n\n02:10:00 · Как прозвучало: Why you’re using this -ing in here? Who can answer?\nЕстественный вариант: Why do we use the -ing form here? Can anyone explain?\nПочему: В прямом вопросе why do we use …, без in перед here.\n\n02:15:00 · Как прозвучало: People rush on the subway before letting passenger get off.\nЕстественный вариант: Don’t be surprised if people rush onto the train before letting passengers get off.\nПочему: Rush onto обозначает движение внутрь. Passengers во множественном числе, let someone get off без to.\n\n02:20:00 · Как прозвучало: The passenger is going to come in to you. … Japan subway, in the commute times.\nЕстественный вариант: People are trying to get on while you’re trying to get off. Does that happen in Japan during rush hour?\nПочему: On/off the train, not come in to you. During rush hour — в час пик.\n\n02:20:00 · Как прозвучало: … every time using thank you and please for friends … sound distance.\nЕстественный вариант: Saying please and thank you every time can sound overly formal between close friends, depending on the context.\nПочему: Sound + прилагательное: sound formal, distant или unfriendly. Depending on the context добавляет точность.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 01:25:00 · 17",
+      "text": "",
+      "translation": "",
+      "prompt": "Перескажи эту мысль своими словами. В записи: «Hearing about your people talking action give and positive feeling about in future.».",
+      "answer": "I chose hopeful because hearing about young people taking action makes me feel positive about the future.\nYoung people taking action. Hearing … — подлежащее в единственном числе, поэтому makes."
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 01:40:00 · 22",
+      "text": "",
+      "translation": "",
+      "prompt": "Перескажи эту мысль своими словами. В записи: «Putting in line for me … I live in China eight years … I was being at … countries.».",
+      "answer": "I find it annoying when people cut in line. I’ve lived in China for eight years, and I’ve seen queue-jumping in a lot of places.\nАмериканский cut in line и британский jump the queue. I’ve lived … for и I’ve been to + место."
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 02:05:00 · 25",
+      "text": "",
+      "translation": "",
+      "prompt": "Перескажи эту мысль своими словами. В записи: «I avoid voicing my energy on argument for small.».",
+      "answer": "I avoid wasting my energy on small arguments.\nВ классе Дэниел подсказал wasting. После avoid форма -ing, после waste energy — on."
+    },
+    {
+      "kind": "exercise",
+      "title": "Исправь свою реплику · 02:15:00 · 28",
+      "text": "",
+      "translation": "",
+      "prompt": "Перескажи эту мысль своими словами. В записи: «People rush on the subway before letting passenger get off.».",
+      "answer": "Don’t be surprised if people rush onto the train before letting passengers get off.\nRush onto обозначает движение внутрь. Passengers во множественном числе, let someone get off без to."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Высказать надежду и привести аргумент · B1",
+      "text": "Ella: How do you feel about the future?\nLearner: I feel hopeful. I see more electric cars where I live.\nElla: Why does that make you hopeful?\nLearner: It shows that people are making changes.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Высказать надежду и привести аргумент · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Answer with I feel hopeful or I find it frustrating, and give one reason.",
+      "answer": "I feel hopeful when I see more people taking action to reduce waste."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Высказать надежду и привести аргумент · B2",
+      "text": "Ella: How do you feel about the progress on climate change?\nLearner: I feel cautiously optimistic. Where I live, I see more electric cars and solar panels.\nElla: Is there anything you still find frustrating?\nLearner: Yes. It feels like progress on reducing plastic waste is slower than it needs to be.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Высказать надежду и привести аргумент · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Answer with I feel hopeful or I find it frustrating, and give one reason.",
+      "answer": "I feel hopeful when I see more people taking action to reduce waste."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Высказать надежду и привести аргумент · C1",
+      "text": "Ella: Looking at the pace of change, would you describe yourself as optimistic or pessimistic?\nLearner: Cautiously optimistic. Seeing a shift towards electric transport and solar energy is encouraging, even though progress is uneven.\nElla: How can individual action make a difference?\nLearner: One change might seem insignificant on its own, but it can have a measurable impact if enough people adopt it.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Высказать надежду и привести аргумент · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Answer with I feel hopeful or I find it frustrating, and give one reason.",
+      "answer": "I feel hopeful when I see more people taking action to reduce waste."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать людей и знакомства · B1",
+      "text": "Matthew: Have you met English people?\nLearner: Yes. I’ve met some in Hong Kong.\nMatthew: How would you describe them?\nLearner: The people I’ve met were friendly and polite.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать людей и знакомства · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Describe how you met someone and give two adjectives.",
+      "answer": "I met a colleague at an event. She was friendly and open-minded."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать людей и знакомства · B2",
+      "text": "Matthew: Do you know any English people? How did you meet?\nLearner: I met some while travelling. We started chatting at an event.\nMatthew: What adjectives would you use?\nLearner: I’d say open-minded and witty. That’s just based on the people I’ve met.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать людей и знакомства · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Describe how you met someone and give two adjectives.",
+      "answer": "I met a colleague at an event. She was friendly and open-minded."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать людей и знакомства · C1",
+      "text": "Matthew: Where has most of your contact with English speakers come from?\nLearner: Mostly through work and events abroad. The first conversations can feel slightly reserved, but they often become much more relaxed.\nMatthew: Would you call that a cultural pattern?\nLearner: Maybe, although I’d hesitate to draw a general conclusion from a handful of encounters.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать людей и знакомства · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Describe how you met someone and give two adjectives.",
+      "answer": "I met a colleague at an event. She was friendly and open-minded."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Начать разговор с незнакомцем · B1",
+      "text": "Matthew: Do commuters talk to each other on your train?\nLearner: Not often. They usually look at their phones.\nMatthew: How would you start a conversation?\nLearner: I’d smile and say, “Excuse me, is this seat free?”",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Начать разговор с незнакомцем · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Start a short conversation at a station, then politely give the other person space.",
+      "answer": "Excuse me, is this the train for the city centre? Thanks, I’ll let you get back to your book."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Начать разговор с незнакомцем · B2",
+      "text": "Matthew: The article says some people share the same train for years without exchanging a word. Would you call that unfriendly?\nLearner: Not necessarily. They might prefer to keep to themselves.\nMatthew: What could you say if you wanted to break the silence?\nLearner: I’d start with something neutral, like asking whether the train is usually this busy.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Начать разговор с незнакомцем · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Start a short conversation at a station, then politely give the other person space.",
+      "answer": "Excuse me, is this the train for the city centre? Thanks, I’ll let you get back to your book."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Начать разговор с незнакомцем · C1",
+      "text": "Matthew: How much can you infer from a quiet train carriage?\nLearner: Very little. Silence could be interpreted as coldness, but it might also reflect an effort to respect other people’s space.\nMatthew: What would a low-pressure opening sound like?\nLearner: A brief comment about a shared situation gives the other person room to respond or carry on with what they were doing.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Начать разговор с незнакомцем · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Start a short conversation at a station, then politely give the other person space.",
+      "answer": "Excuse me, is this the train for the city centre? Thanks, I’ll let you get back to your book."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Разобрать раздражение через формы -ing · B1",
+      "text": "Daniel: What do you find annoying?\nLearner: Talking during a film.\nDaniel: What do you avoid doing?\nLearner: I avoid arguing about small things.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Разобрать раздражение через формы -ing · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Say what you avoid doing and start a second sentence with an -ing phrase.",
+      "answer": "I avoid interrupting people. Listening first makes it easier to respond calmly."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Разобрать раздражение через формы -ing · B2",
+      "text": "Daniel: How do you react when someone cuts in line?\nLearner: I usually say something politely, but I avoid wasting energy on small arguments.\nDaniel: Can you start a sentence with an -ing form?\nLearner: Speaking calmly often works better than raising your voice.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Разобрать раздражение через формы -ing · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Say what you avoid doing and start a second sentence with an -ing phrase.",
+      "answer": "I avoid interrupting people. Listening first makes it easier to respond calmly."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Разобрать раздражение через формы -ing · C1",
+      "text": "Daniel: When does stepping in make sense?\nLearner: Speaking up can be worthwhile when someone keeps interrupting. Even then, I avoid making assumptions about what they’re going through.\nDaniel: Can you give another example with a preposition?\nLearner: Despite feeling annoyed, I try to explain what happened without blaming the other person.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Разобрать раздражение через формы -ing · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Say what you avoid doing and start a second sentence with an -ing phrase.",
+      "answer": "I avoid interrupting people. Listening first makes it easier to respond calmly."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Объяснить правило на примере · B1",
+      "text": "Daniel: What does “people standing there” mean?\nLearner: It means “people who are standing there.”\nDaniel: What about “I was laughing”?\nLearner: That action was happening at the time.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Объяснить правило на примере · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Explain the role of -ing in “Learning English takes time” and “people waiting for the train”.",
+      "answer": "Learning English is the subject. Waiting for the train describes the people and means who are waiting for the train."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Объяснить правило на примере · B2",
+      "text": "Daniel: Why do we say “They spent years travelling”?\nLearner: We use the -ing form after spend plus a period of time.\nDaniel: And how could you shorten “people who are waiting at the bus stop”?\nLearner: “People waiting at the bus stop.”",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Объяснить правило на примере · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Explain the role of -ing in “Learning English takes time” and “people waiting for the train”.",
+      "answer": "Learning English is the subject. Waiting for the train describes the people and means who are waiting for the train."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Объяснить правило на примере · C1",
+      "text": "Daniel: How do you tell these -ing forms apart?\nLearner: In “I was laughing”, it’s part of a continuous verb form. In “an entertaining book”, it describes a noun. In “people standing outside”, it replaces a longer relative clause.\nDaniel: What about “without exchanging a word”?\nLearner: Exchanging follows a preposition, so it takes the -ing form.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Объяснить правило на примере · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Explain the role of -ing in “Learning English takes time” and “people waiting for the train”.",
+      "answer": "Learning English is the subject. Waiting for the train describes the people and means who are waiting for the train."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Дать совет туристу в метро · B1",
+      "text": "Daniel: What should I do on the subway?\nLearner: Let people get off first.\nDaniel: Is it busy in the morning?\nLearner: Yes. Try to avoid rush hour.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Дать совет туристу в метро · B1",
+      "text": "",
+      "translation": "",
+      "prompt": "Give two tips with let someone do something and avoid doing something.",
+      "answer": "Let passengers get off first, and avoid standing right in front of the doors."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Дать совет туристу в метро · B2",
+      "text": "Daniel: Give me a tip for travelling by metro.\nLearner: Let passengers get off before you get on, and try not to block the doors.\nDaniel: What if someone is in a hurry?\nLearner: Give them room and ask politely if you don’t know where to stand.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Дать совет туристу в метро · B2",
+      "text": "",
+      "translation": "",
+      "prompt": "Give two tips with let someone do something and avoid doing something.",
+      "answer": "Let passengers get off first, and avoid standing right in front of the doors."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Дать совет туристу в метро · C1",
+      "text": "Daniel: What should a visitor keep in mind when taking a crowded train?\nLearner: Give people space to get off before stepping aboard. In my experience, the rush-hour crowd can make this difficult, so it helps to wait to one side.\nDaniel: Would you say that etiquette is the same everywhere?\nLearner: The basic courtesy is widely useful, but how people handle a busy platform can vary. When in doubt, follow what people around you are doing.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Дать совет туристу в метро · C1",
+      "text": "",
+      "translation": "",
+      "prompt": "Give two tips with let someone do something and avoid doing something.",
+      "answer": "Let passengers get off first, and avoid standing right in front of the doors."
+    },
+    {
+      "kind": "reading",
+      "title": "Запись урока с таймкодами",
+      "text": "Recording: lesson-2026-11-17-teaching-house\n[00:00:00–300] Начало и три изображения · Ella checks that everyone can see the slide and asks what endangered pandas, melting ice caps and carbon emissions have in common. She then prompts learners to name an emotional reaction.\n[00:05:00–600] Тема текста и первая реплика ученика · Ella asks for a silent read to identify the main topic. The learner starts sharing a hopeful example about panda conservation. Ella acknowledges the point and leaves it for a later discussion. She checks that frustrating is a negative adjective.\n[00:10:00–900] Разложить прилагательные по оттенкам · Learners sort the words in bold into positive, neutral and negative. The learner suggests encouraging, hopeful and optimistic. Ella models the adjective optimistic when he reaches for optimist.\n[00:15:00–1200] Pointless и переход к Мэттью · Ella discusses why unnecessary can be neutral or negative depending on context, and puts pointless in the negative column. She disconnects. Matthew starts a new lesson on English people and asks learners to describe what they know.\n[00:20:00–1500] Телевидение, спорт и задание для групп · Matthew asks learners to recognise English cultural references and encourages them to talk about people they have met. The group mentions football, rugby, tennis, David Attenborough and Doctor Who. The breakout task is to pick four adjectives.\n[00:25:00–1800] Знакомства и прилагательные в мини-группе · the learner talks about meeting English speakers abroad and in Hong Kong. The group notices the difference between qualities such as politeness and adjectives such as polite. They try friendly, open-minded, kind and patient.\n[00:30:00–2100] Возврат из группы и личные наблюдения · Matthew asks whether people know English speakers and how they met. One participant met friends in class and online before meeting them in person. Matthew mentions making friends through games. The class adds punctual, reserved and witty.\n[00:35:00–2400] Commute и commuter · Matthew uses photos of London travellers to elicit commute and commuter. A commute is a regular trip to work or school, and a commuter is the person making it. He then sets a gist-reading question about Kate Fox.\n[00:40:00–2700] Reserved, private или unfriendly · Learners cite the article’s example of people sharing a train for years without exchanging a word. The group considers whether this behaviour means unfriendliness or a preference for privacy. The learner’s audio briefly sounds robotic.\n[00:45:00–3000] Чтение на детали и true/false · Matthew uses a cartoon to illustrate interrupting someone who is reading. Then groups reread the article, decide which statements are true or false and correct the false statements. The learner checks the wording of answers with his group.\n[00:50:00–3300] Погода, личные вопросы и скрытые правила · The group discusses making small talk about the weather, agreeing politely at first and keeping income private. In feedback, Matthew confirms that a custom can be familiar to locals and not obvious to visitors.\n[00:55:00–3600] Как начать разговор и когда не спрашивать о деньгах · Matthew clarifies that a quick agreement about the weather can help start a conversation. He discusses why personal questions can push people away and asks learners to interview one another.\n[01:00:00–3900] Сравнение культур в группе · the learner compares drawing strangers into conversation, asking personal questions and greeting people in his experience. Others explain why they sometimes prefer to keep to themselves or be careful about approaching strangers.\n[01:05:00–4200] Возвращение Эллы и renewable energy · Matthew collects examples of greeting strangers politely and hands the class back to Ella. Ella explains that her Wi-Fi crashed and picks up where she left off, posts an answer key and asks about renewable energy.\n[01:10:00–4500] Feeling, belief, judgment · Ella contrasts a feeling, a belief and a judgment. The class identifies adjectives and compares a/an + adjective + noun, linking verb + adjective, and find + object + adjective.\n[01:15:00–4800] Ударение и связная речь · Ella drills optimistic, pessimistic, pointless, frustrating, hopeful, alarming, unnecessary and encouraging. The group listens for stressed words and the link in find it, then prepares for a cloze activity.\n[01:20:00–5100] Упражнение с пропусками и обоснование · Ella explains that more than one answer can fit if the speaker can justify it. In the group, the learner discusses alarming plastic pollution, hopeful or optimistic reactions and whether an action is pointless.\n[01:25:00–5400] Recycling, emissions и выбор точного слова · Group members justify frustrating for slow progress and encouraging for more countries switching to renewables. In feedback, the learner explains his choice of hopeful. Ella accepts pointless when evaluating a measure and explains why optimistic usually describes an outlook.\n[01:30:00–5700] Обсуждение климатических действий · Ella posts new discussion questions. A participant expresses pessimism about industrial pollution and generations to come. The learner is invited to share his own response.\n[01:35:00–6000] Позиция ученика и Эль-Ниньо · the learner points to electric cars and solar panels in China as reasons for optimism. He argues that many small reductions in single-use plastic can matter and describes heavy rain and storms. Other learners discuss possible economic effects.\n[01:40:00–6300] Финальная коррекция Эллы и вступление Дэниела · Ella corrects “they think” and the adjective pessimistic, then closes her lesson. Daniel asks what annoys learners most, including cutting in line and talking during films. The learner compares what he has seen in different places.\n[01:45:00–6600] Реакции и две функции формы -ing · Daniel asks how people respond when someone annoys them. A learner suggests speaking politely and remembering what others may be going through. Daniel compares “Talking during movies is rude” with “I avoid talking during movies.”\n[01:50:00–6900] Avoid doing и групповая классификация · Daniel explains that “avoid to talk” is incorrect, shares the reading and asks groups to identify the jobs of -ing in the examples. Learners begin distinguishing verb patterns and spend time doing something.\n[01:55:00–7200] Spend years travelling и reduced relative clause · Groups discuss standing at the bus stop and spend years travelling. The learner says the spend example was tricky. Daniel collects the difficult items before reviewing the answer key.\n[02:00:00–7500] Действие, характеристика, причастный оборот и despite · Daniel compares “I was laughing” with “an entertaining book” and practises the -ing ending. He reduces “people who are standing” to “people standing” and shows how despite introduces a contrast.\n[02:05:00–7800] Свои примеры и поиск ошибок · the learner practises avoid wasting energy, avoid complaining and beginning a sentence with “Learning English.” The class edits sentences about customs and looks for errors silently before comparing.\n[02:10:00–8100] Исправления в мини-группе · The group looks for forms after prepositions and at the beginning of subjects. The learner asks why a form fits rather than simply listing corrections. A repeated passage makes one or two exact lines hard to recover.\n[02:15:00–8400] Ответы и переход к советам туристам · Daniel checks the first section and apologises that a second section was unavailable. He asks for advice for visitors and gives the example of avoiding loud conversation on public transport. The learner brings up letting people get off a subway train first.\n[02:20:00–8700] Общественный транспорт и вежливые слова · the learner asks how people board trains in Japan and discusses crowded trains, pushing and using please and thank you with acquaintances. Daniel asks the class to share advice for a visitor.\n[02:25:00–8926.976] Правки Дэниела и завершение · Participants share final examples of politeness. Daniel gives feedback on passengers, be willing to help, be in a hurry and be offended by, then the group says goodbye.",
+      "translation": "",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 00:00:00–00:25:00",
+      "text": "00:00:00 · Начало и три изображения\nElla checks that everyone can see the slide and asks what endangered pandas, melting ice caps and carbon emissions have in common. She then prompts learners to name an emotional reaction.\n\nListening check: What do the pictures have in common?\n\n00:05:00 · Тема текста и первая реплика ученика\nElla asks for a silent read to identify the main topic. The learner starts sharing a hopeful example about panda conservation. Ella acknowledges the point and leaves it for a later discussion. She checks that frustrating is a negative adjective.\n\nListening check: Why does Ella ask the learner to wait?\n\n00:10:00 · Разложить прилагательные по оттенкам\nLearners sort the words in bold into positive, neutral and negative. The learner suggests encouraging, hopeful and optimistic. Ella models the adjective optimistic when he reaches for optimist.\n\nListening check: Which three positive adjectives does the group identify?\n\n00:15:00 · Pointless и переход к Мэттью\nElla discusses why unnecessary can be neutral or negative depending on context, and puts pointless in the negative column. She disconnects. Matthew starts a new lesson on English people and asks learners to describe what they know.\n\nListening check: Which adjective means that an action serves no useful purpose?\n\n00:20:00 · Телевидение, спорт и задание для групп\nMatthew asks learners to recognise English cultural references and encourages them to talk about people they have met. The group mentions football, rugby, tennis, David Attenborough and Doctor Who. The breakout task is to pick four adjectives.\n\nListening check: What two things should each group discuss?",
+      "translation": "00:00:00 · Начало и три изображения\nЭлла проверяет звук и экран. Три изображения выводят к теме климата, а вопрос How does that make you feel? переводит разговор с фактов на эмоции.\nОтвет: They are connected with climate change or environmental damage.\n\n00:05:00 · Тема текста и первая реплика ученика\nЭлла просит прочесть текст про себя и определить главную тему. Ученик приводит пример сохранения панд. Элла предлагает вернуться к нему позже и объясняет frustrating через оценку.\nОтвет: The immediate task is silent reading. The hopeful examples fit a later discussion.\n\n00:10:00 · Разложить прилагательные по оттенкам\nСлова, выделенные жирным, распределяют по трём колонкам. Ученик называет encouraging, hopeful и optimistic. Optimist — человек, optimistic — характеристика.\nОтвет: Encouraging, hopeful and optimistic.\n\n00:15:00 · Pointless и переход к Мэттью\nЭлла отмечает, что unnecessary зависит от контекста, а pointless передаёт отсутствие смысла. После обрыва связи урок ведёт Мэттью.\nОтвет: Pointless.\n\n00:20:00 · Телевидение, спорт и задание для групп\nМэттью обсуждает спорт и культурные отсылки, включая David Attenborough и Doctor Who. В группе нужно рассказать о знакомых и подобрать четыре прилагательных.\nОтвет: How they met English people, and four adjectives they might use to describe them.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 00:25:00–00:50:00",
+      "text": "00:25:00 · Знакомства и прилагательные в мини-группе\nThe learner talks about meeting English speakers abroad and in Hong Kong. The group notices the difference between qualities such as politeness and adjectives such as polite. They try friendly, open-minded, kind and patient.\n\nListening check: How can you turn politeness and patience into adjectives?\n\n00:30:00 · Возврат из группы и личные наблюдения\nMatthew asks whether people know English speakers and how they met. One participant met friends in class and online before meeting them in person. Matthew mentions making friends through games. The class adds punctual, reserved and witty.\n\nListening check: What is the difference between meeting someone online and meeting them in person?\n\n00:35:00 · Commute и commuter\nMatthew uses photos of London travellers to elicit commute and commuter. A commute is a regular trip to work or school, and a commuter is the person making it. He then sets a gist-reading question about Kate Fox.\n\nListening check: Is a one-off trip to the shop normally a commute?\n\n00:40:00 · Reserved, private или unfriendly\nLearners cite the article’s example of people sharing a train for years without exchanging a word. The group considers whether this behaviour means unfriendliness or a preference for privacy. The learner’s audio briefly sounds robotic.\n\nListening check: What two explanations can the same behaviour have?\n\n00:45:00 · Чтение на детали и true/false\nMatthew uses a cartoon to illustrate interrupting someone who is reading. Then groups reread the article, decide which statements are true or false and correct the false statements. The learner checks the wording of answers with his group.\n\nListening check: What extra step does Matthew ask for after deciding a statement is false?",
+      "translation": "00:25:00 · Знакомства и прилагательные в мини-группе\nУченик рассказывает о знакомствах и практике в Гонконге. Участники ищут именно прилагательные: polite, friendly, open-minded, kind, patient.\nОтвет: Polite and patient.\n\n00:30:00 · Возврат из группы и личные наблюдения\nМэттью собирает ответы о знакомствах на занятиях, в интернете и лично. В список попадают punctual, reserved и witty.\nОтвет: In person means physically face to face.\n\n00:35:00 · Commute и commuter\nПо фотографиям Мэттью подводит к commute и commuter. Затем даёт текст Кейт Фокс и вопрос на понимание общей мысли.\nОтвет: No. A commute is the regular trip between home and work or school.\n\n00:40:00 · Reserved, private или unfriendly\nУчастники приводят пример пассажиров, которые годами ездят вместе и не разговаривают. Обсуждают разницу между закрытостью и недружелюбием. Часть ответа ученика искажена связью.\nОтвет: It may seem unfriendly, or it may reflect a wish to give strangers privacy.\n\n00:45:00 · Чтение на детали и true/false\nМэттью показывает, как незнакомец прерывает чтение. Затем группы перечитывают статью, отмечают true/false и исправляют неверные формулировки.\nОтвет: Correct the statement using evidence from the text.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 00:50:00–01:15:00",
+      "text": "00:50:00 · Погода, личные вопросы и скрытые правила\nThe group discusses making small talk about the weather, agreeing politely at first and keeping income private. In feedback, Matthew confirms that a custom can be familiar to locals and not obvious to visitors.\n\nListening check: What phrase means that passengers say nothing to each other?\n\n00:55:00 · Как начать разговор и когда не спрашивать о деньгах\nMatthew clarifies that a quick agreement about the weather can help start a conversation. He discusses why personal questions can push people away and asks learners to interview one another.\n\nListening check: Does the weather example establish a universal rule?\n\n01:00:00 · Сравнение культур в группе\nThe learner compares drawing strangers into conversation, asking personal questions and greeting people in his experience. Others explain why they sometimes prefer to keep to themselves or be careful about approaching strangers.\n\nListening check: What phrase can introduce a personal cultural observation?\n\n01:05:00 · Возвращение Эллы и renewable energy\nMatthew collects examples of greeting strangers politely and hands the class back to Ella. Ella explains that her Wi-Fi crashed and picks up where she left off, posts an answer key and asks about renewable energy.\n\nListening check: What does “pick up where we left off” mean here?\n\n01:10:00 · Feeling, belief, judgment\nElla contrasts a feeling, a belief and a judgment. The class identifies adjectives and compares a/an + adjective + noun, linking verb + adjective, and find + object + adjective.\n\nListening check: Which structure is used in “I find it frustrating”?",
+      "translation": "00:50:00 · Погода, личные вопросы и скрытые правила\nВ группе обсуждают разговор о погоде, мягкое согласие и вопросы о доходах. Мэттью подтверждает, что неписаные правила могут быть непонятны приезжим.\nОтвет: Without exchanging a word.\n\n00:55:00 · Как начать разговор и когда не спрашивать о деньгах\nМэттью объясняет, что комментарий о погоде может упростить первый контакт, а личный вопрос о деньгах — оттолкнуть. Затем участники проводят мини-интервью.\nОтвет: No. It illustrates a way of starting small talk in the article and the class discussion.\n\n01:00:00 · Сравнение культур в группе\nУченик и группа сравнивают собственный опыт разговоров с незнакомцами, вопросов о деньгах и приветствий. Это личные наблюдения участников.\nОтвет: In my experience, people sometimes approach it differently.\n\n01:05:00 · Возвращение Эллы и renewable energy\nМэттью собирает примеры начала разговора и передаёт слово Элле. Она возвращается после сбоя Wi-Fi, публикует ключ и переходит к возобновляемой энергии.\nОтвет: Resume the same task from the point at which it stopped.\n\n01:10:00 · Feeling, belief, judgment\nЭлла различает чувство, убеждение и оценку. Разбирают три каркаса с прилагательными: перед существительным, после глагола-связки и после объекта с find.\nОтвет: Subject + verb + object + adjective.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 01:15:00–01:40:00",
+      "text": "01:15:00 · Ударение и связная речь\nElla drills optimistic, pessimistic, pointless, frustrating, hopeful, alarming, unnecessary and encouraging. The group listens for stressed words and the link in find it, then prepares for a cloze activity.\n\nListening check: What usually receives emphasis in the three model sentences?\n\n01:20:00 · Упражнение с пропусками и обоснование\nElla explains that more than one answer can fit if the speaker can justify it. In the group, the learner discusses alarming plastic pollution, hopeful or optimistic reactions and whether an action is pointless.\n\nListening check: Why can both hopeful and optimistic be reasonable in the same blank?\n\n01:25:00 · Recycling, emissions и выбор точного слова\nGroup members justify frustrating for slow progress and encouraging for more countries switching to renewables. In feedback, the learner explains his choice of hopeful. Ella accepts pointless when evaluating a measure and explains why optimistic usually describes an outlook.\n\nListening check: Can you call a recycling measure pointless? Can you usually call the measure itself optimistic?\n\n01:30:00 · Обсуждение климатических действий\nElla posts new discussion questions. A participant expresses pessimism about industrial pollution and generations to come. The learner is invited to share his own response.\n\nListening check: What structure turns a vague reaction into a position?\n\n01:35:00 · Позиция ученика и Эль-Ниньо\nThe learner points to electric cars and solar panels in China as reasons for optimism. He argues that many small reductions in single-use plastic can matter and describes heavy rain and storms. Other learners discuss possible economic effects.\n\nListening check: How does the learner support his optimism?",
+      "translation": "01:15:00 · Ударение и связная речь\nЭлла тренирует словесное и фразовое ударение и сцепление find it. Затем даёт упражнение с пропусками.\nОтвет: The adjective, with other stressed words depending on the meaning and context.\n\n01:20:00 · Упражнение с пропусками и обоснование\nЭлла разрешает разные ответы при обосновании. Ученик обсуждает alarming, hopeful, optimistic и pointless и сравнивает свои варианты с ответами группы.\nОтвет: Both can describe a positive outlook, though hopeful stresses hope and optimistic an expectation of a good outcome.\n\n01:25:00 · Recycling, emissions и выбор точного слова\nГруппа обсуждает медленное снижение выбросов и переход на возобновляемые источники. Элла принимает pointless для оценки меры и уточняет, где подходит optimistic.\nОтвет: Pointless evaluates its usefulness. Optimistic usually describes a person, outlook or prediction.\n\n01:30:00 · Обсуждение климатических действий\nЭлла запускает обсуждение в группах. Одна участница говорит о промышленных загрязнениях и будущем. Ученику предлагают ответить.\nОтвет: I feel pessimistic about the pace of change because…\n\n01:35:00 · Позиция ученика и Эль-Ниньо\nУченик объясняет оптимизм электромобилями и солнечными панелями и говорит о коллективном эффекте отказа от одноразового пластика. В группе обсуждают ливни, штормы и возможные последствия Эль-Ниньо.\nОтвет: He gives concrete examples of changes he has seen, including electric cars and solar panels.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 01:40:00–02:05:00",
+      "text": "01:40:00 · Финальная коррекция Эллы и вступление Дэниела\nElla corrects “they think” and the adjective pessimistic, then closes her lesson. Daniel asks what annoys learners most, including cutting in line and talking during films. The learner compares what he has seen in different places.\n\nListening check: What phrase means moving ahead of others unfairly in a line?\n\n01:45:00 · Реакции и две функции формы -ing\nDaniel asks how people respond when someone annoys them. A learner suggests speaking politely and remembering what others may be going through. Daniel compares “Talking during movies is rude” with “I avoid talking during movies.”\n\nListening check: What is the subject in the first example, and why does the second use talking?\n\n01:50:00 · Avoid doing и групповая классификация\nDaniel explains that “avoid to talk” is incorrect, shares the reading and asks groups to identify the jobs of -ing in the examples. Learners begin distinguishing verb patterns and spend time doing something.\n\nListening check: How do you complete “I avoid ___ during films” with talk?\n\n01:55:00 · Spend years travelling и reduced relative clause\nGroups discuss standing at the bus stop and spend years travelling. The learner says the spend example was tricky. Daniel collects the difficult items before reviewing the answer key.\n\nListening check: Which pattern is correct: spend years to travel or spend years travelling?\n\n02:00:00 · Действие, характеристика, причастный оборот и despite\nDaniel compares “I was laughing” with “an entertaining book” and practises the -ing ending. He reduces “people who are standing” to “people standing” and shows how despite introduces a contrast.\n\nListening check: What is the full form of “people standing at the bus stop”?",
+      "translation": "01:40:00 · Финальная коррекция Эллы и вступление Дэниела\nЭлла исправляет форму глагола и прилагательное pessimistic. Дэниел начинает с раздражающих ситуаций. Ученик делится наблюдениями об очередях.\nОтвет: Cut in line in US English, or jump the queue in UK English.\n\n01:45:00 · Реакции и две функции формы -ing\nДэниел обсуждает реакции на раздражение и вводит две роли -ing: подлежащее и дополнение после avoid.\nОтвет: “Talking during movies” is the subject. Avoid is followed by the -ing form.\n\n01:50:00 · Avoid doing и групповая классификация\nДэниел исправляет avoid to talk на avoid talking, раздаёт примеры и просит сначала классифицировать -ing, затем объяснить почему.\nОтвет: I avoid talking during films.\n\n01:55:00 · Spend years travelling и reduced relative clause\nГруппа обсуждает конструкции standing at the bus stop и spend years travelling. Ученик выбирает вторую как сложную. Дэниел возвращается к ключу.\nОтвет: Spend years travelling.\n\n02:00:00 · Действие, характеристика, причастный оборот и despite\nДэниел отличает процесс от прилагательного, отрабатывает -ing, сокращает who are standing до standing и объясняет despite.\nОтвет: People who are standing at the bus stop.",
+      "prompt": "",
+      "answer": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · 02:05:00–02:28:46",
+      "text": "02:05:00 · Свои примеры и поиск ошибок\nThe learner practises avoid wasting energy, avoid complaining and beginning a sentence with “Learning English.” The class edits sentences about customs and looks for errors silently before comparing.\n\nListening check: How do you finish “I avoid ___ my energy on small arguments”?\n\n02:10:00 · Исправления в мини-группе\nThe group looks for forms after prepositions and at the beginning of subjects. The learner asks why a form fits rather than simply listing corrections. A repeated passage makes one or two exact lines hard to recover.\n\nListening check: What form follows “without” when the next word is a verb?\n\n02:15:00 · Ответы и переход к советам туристам\nDaniel checks the first section and apologises that a second section was unavailable. He asks for advice for visitors and gives the example of avoiding loud conversation on public transport. The learner brings up letting people get off a subway train first.\n\nListening check: What example of advice does Daniel give?\n\n02:20:00 · Общественный транспорт и вежливые слова\nThe learner asks how people board trains in Japan and discusses crowded trains, pushing and using please and thank you with acquaintances. Daniel asks the class to share advice for a visitor.\n\nListening check: What phrase describes the busiest time for travelling to work?\n\n02:25:00 · Правки Дэниела и завершение\nParticipants share final examples of politeness. Daniel gives feedback on passengers, be willing to help, be in a hurry and be offended by, then the group says goodbye.\n\nListening check: What is the natural equivalent of “people in very hurry”?",
+      "translation": "02:05:00 · Свои примеры и поиск ошибок\nУченик строит собственные примеры с avoid и -ing в начале предложения. Затем группа ищет ошибки в тексте об обычаях.\nОтвет: I avoid wasting my energy on small arguments.\n\n02:10:00 · Исправления в мини-группе\nГруппа ищет нужные формы после предлогов и в подлежащем. Ученик просит объяснить выбор. В записи есть повторы, поэтому часть отдельных слов ненадёжна.\nОтвет: The -ing form, as in without thinking.\n\n02:15:00 · Ответы и переход к советам туристам\nДэниел проверяет первый текст и объясняет, что второй был недоступен. Затем просит дать совет туристу. Ученик начинает с правил посадки в метро.\nОтвет: Avoid speaking loudly on public transportation.\n\n02:20:00 · Общественный транспорт и вежливые слова\nУченик обсуждает посадку в метро, час пик и то, как звучат please и thank you в разных ситуациях. Дэниел собирает советы.\nОтвет: Rush hour.\n\n02:25:00 · Правки Дэниела и завершение\nГруппа заканчивает примерами вежливости. Дэниел правит passengers, be willing to help, be in a hurry и be offended by. Затем участники прощаются.\nОтвет: People who are in a hurry, or people who are in a rush.",
+      "prompt": "",
+      "answer": ""
+    }
+  ]
+}
