@@ -6,7 +6,7 @@ import { assessPhraseCard, lessonPractice, teacherPhraseCards } from '../src/dom
 import type { Study } from '../src/domain/model.ts';
 
 test('story lesson imports all levels and neutral phrase cards without duplicating or resetting progress', () => {
-  const packet = parseChatPackage(readFileSync(new URL('../materials/resources/story-of-an-hour.json', import.meta.url), 'utf8'));
+  const packet = parseChatPackage(readFileSync(new URL('../materials/en/resources/esl-bits/story-of-an-hour/lesson.json', import.meta.url), 'utf8'));
   const initial: Study = { language: 'en', languages: { en: {} }, words: [], topics: [], resources: [], results: {} };
   const first = applyChatPackage(initial, packet);
   assert.equal(first.next.words.length, 48);

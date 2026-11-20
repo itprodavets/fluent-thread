@@ -1,19 +1,28 @@
-export const storyHourLesson = { title: 'The Story of an Hour · свобода и неожиданные чувства', load: () => import('../../materials/resources/story-of-an-hour.json?raw') };
+import catalog from '../../materials/en/lessons/catalog.json';
+
+const loaders: Record<string, () => Promise<{ default: string }>> = {
+  "stafford-house/wolves-and-eco-homes": () => import('../../materials/en/lessons/stafford-house/wolves-and-eco-homes/lesson.json?raw'),
+  "ace-tefl/future-plans": () => import('../../materials/en/lessons/ace-tefl/future-plans/lesson.json?raw'),
+  "dc-teacher-training/responses-and-opinions": () => import('../../materials/en/lessons/dc-teacher-training/responses-and-opinions/lesson.json?raw'),
+  "dc-teacher-training/get-and-interviews": () => import('../../materials/en/lessons/dc-teacher-training/get-and-interviews/lesson.json?raw'),
+  "dc-public-library/conversation-and-values": () => import('../../materials/en/lessons/dc-public-library/conversation-and-values/lesson.json?raw'),
+  "teaching-house/climate-etiquette-and-ing": () => import('../../materials/en/lessons/teaching-house/climate-etiquette-and-ing/lesson.json?raw'),
+  "dc-teacher-training/relationships-and-happiness": () => import('../../materials/en/lessons/dc-teacher-training/relationships-and-happiness/lesson.json?raw'),
+  "teaching-house/generations-and-olympics": () => import('../../materials/en/lessons/teaching-house/generations-and-olympics/lesson.json?raw'),
+  "uuca-esol/workplace-requests": () => import('../../materials/en/lessons/uuca-esol/workplace-requests/lesson.json?raw'),
+  "dc-public-library/learning-and-speaking-confidence": () => import('../../materials/en/lessons/dc-public-library/learning-and-speaking-confidence/lesson.json?raw'),
+  "dc-public-library/culture-and-values": () => import('../../materials/en/lessons/dc-public-library/culture-and-values/lesson.json?raw'),
+  "marin-county-library/superstitions-and-traditions": () => import('../../materials/en/lessons/marin-county-library/superstitions-and-traditions/lesson.json?raw'),
+  "teaching-house/certainty-and-travel": () => import('../../materials/en/lessons/teaching-house/certainty-and-travel/lesson.json?raw'),
+  "ace-tefl/memory-and-verb-patterns": () => import('../../materials/en/lessons/ace-tefl/memory-and-verb-patterns/lesson.json?raw'),
+  "teaching-house/nature-and-nurture": () => import('../../materials/en/lessons/teaching-house/nature-and-nurture/lesson.json?raw'),
+};
+
+export const storyHourLesson = { id: 'esl-bits/story-of-an-hour', language: 'en', title: 'The Story of an Hour · свобода и неожиданные чувства', load: () => import('../../materials/en/resources/esl-bits/story-of-an-hour/lesson.json?raw') };
 
 export const bundledLessons = [
-  storyHourLesson,
-  { title: "Память, привычки и remember / forget / try · 19 ноября", load: () => import('../../materials/2026-11-19/ace-memory.json?raw') },
-  { title: "Работа, прогнозы и истории о поездках · 19 ноября", load: () => import('../../materials/2026-11-19/teaching-house-certainty.json?raw') },
-  { title: "Суеверия, традиции и вежливые вопросы · 19 ноября", load: () => import('../../materials/2026-11-19/marin-superstitions.json?raw') },
-  { title: "Культура, ценности и вежливое обсуждение · 19 ноября", load: () => import('../../materials/2026-11-19/dcpl-cultures.json?raw') },
-  { title: "Говорить увереннее и учиться каждый день · 19 ноября", load: () => import('../../materials/2026-11-19/dcpl-learning.json?raw') },
-  { title: "Отношения, соперничество и счастье · 18 ноября", load: () => import('../../materials/2026-11-18/dc-relationships.json?raw') },
-  { title: "Молодёжь, перемены и цена Олимпиады · 18 ноября", load: () => import('../../materials/2026-11-18/teaching-house-change.json?raw') },
-  { title: "Работа, просьбы и похожие слова · 18 ноября", load: () => import('../../materials/2026-11-18/uuca-workplace.json?raw') },
-  { title: 'Выражения с get, интервью и вопросы · 17 ноября', load: () => import('../../materials/2026-11-17/dc-teacher-training-b2.json?raw') },
-  { title: 'Климат, британский этикет и формы -ing · 17 ноября', load: () => import('../../materials/2026-11-17/teaching-house-b2.json?raw') },
-  { title: 'Разговорный английский с Bruce · 17 ноября', load: () => import('../../materials/2026-11-17/dcpl-conversation.json?raw') },
-  { title: 'Волки, экосистемы и экодом · 16 ноября', load: () => import('../../materials/2026-11-16/wolves-and-eco-homes.json?raw') },
-  { title: 'Планы и договорённости по-английски · 16 ноября', load: () => import('../../materials/2026-11-16/future-plans.json?raw') },
-  { title: 'Короткие ответы, мнения и разговор о себе · 16 ноября', load: () => import('../../materials/2026-11-16/responses-and-opinions.json?raw') }
+  ...[...catalog].sort((a, b) => b.date.localeCompare(a.date)).map(lesson => ({
+    id: lesson.id, language: lesson.language, title: lesson.topic, load: loaders[lesson.id]
+  })),
+  storyHourLesson
 ];

@@ -6,7 +6,7 @@ import { applyChatPackage, parseChatPackage } from '../src/domain/chat-package.j
 import type { DatedLesson } from '../src/domain/school-lessons';
 import type { Topic } from '../src/domain/model';
 
-const dated: DatedLesson[] = JSON.parse(readFileSync(new URL('../materials/2026-11-16/lessons.json', import.meta.url), 'utf8'));
+const dated: DatedLesson[] = JSON.parse(readFileSync(new URL('../materials/en/lessons/catalog.json', import.meta.url), 'utf8'));
 const topic = (id: string, title: string): Topic => ({ id, title, language: 'en', links: [], prompt: '' });
 
 test('legacy topics are grouped under their schools and a search opens the matching dialogue', () => {

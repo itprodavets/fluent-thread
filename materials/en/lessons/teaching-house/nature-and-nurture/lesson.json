@@ -1,0 +1,769 @@
+{
+  "format": "fluent-thread",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Природа и воспитание: мнения, чтение и работа в группе · 20 ноября",
+    "source": {
+      "school": "Teaching House",
+      "date": "2026-11-20"
+    },
+    "prompt": "Прочитай текст, выбери уровень A1–C2 и используй фразы, чтобы выразить мнение, обосновать ответ и вернуться в обсуждение."
+  },
+  "words": [
+    {
+      "title": "nature",
+      "meaning": "природа; врождённые особенности",
+      "example": "Nature may give us certain abilities."
+    },
+    {
+      "title": "nurture",
+      "meaning": "воспитание и влияние среды; заботиться и развивать",
+      "example": "Education and experience are part of nurture."
+    },
+    {
+      "title": "nature versus nurture",
+      "meaning": "наследственность или воспитание: что сильнее влияет",
+      "example": "We discussed nature versus nurture."
+    },
+    {
+      "title": "be born with",
+      "meaning": "родиться с какой-либо особенностью",
+      "example": "Someone may be born with musical talent."
+    },
+    {
+      "title": "be raised by",
+      "meaning": "быть воспитанным кем-либо",
+      "example": "A child may be raised by strict parents."
+    },
+    {
+      "title": "strict parents",
+      "meaning": "строгие родители",
+      "example": "She was raised by strict parents."
+    },
+    {
+      "title": "the environment around us",
+      "meaning": "окружающая нас среда",
+      "example": "The environment around us can shape our habits."
+    },
+    {
+      "title": "environmental factors",
+      "meaning": "факторы окружающей среды",
+      "example": "We discussed environmental factors in development."
+    },
+    {
+      "title": "a trait",
+      "meaning": "черта, особенность",
+      "example": "Patience is a useful trait."
+    },
+    {
+      "title": "a personality trait",
+      "meaning": "черта характера",
+      "example": "Which personality traits can change?"
+    },
+    {
+      "title": "genetic",
+      "meaning": "генетический; прилагательное",
+      "example": "The text mentions genetic information."
+    },
+    {
+      "title": "genetics",
+      "meaning": "генетика; название области знания, обычно единственное число",
+      "example": "Genetics is part of the discussion."
+    },
+    {
+      "title": "genetic information",
+      "meaning": "генетическая информация",
+      "example": "DNA carries genetic information."
+    },
+    {
+      "title": "a genetic code",
+      "meaning": "генетический код",
+      "example": "The reading compares the twins’ genetic code."
+    },
+    {
+      "title": "genetic influence",
+      "meaning": "генетическое влияние",
+      "example": "The article discusses genetic influence."
+    },
+    {
+      "title": "DNA",
+      "meaning": "ДНК; произносится по названиям букв D-N-A",
+      "example": "DNA carries genetic information."
+    },
+    {
+      "title": "heredity",
+      "meaning": "наследственность; существительное",
+      "example": "Heredity is the passing of characteristics from parents to children."
+    },
+    {
+      "title": "hereditary",
+      "meaning": "наследственный; прилагательное",
+      "example": "This is described as a hereditary characteristic."
+    },
+    {
+      "title": "vulnerability",
+      "meaning": "уязвимость; существительное",
+      "example": "The lesson defined physical and emotional vulnerability."
+    },
+    {
+      "title": "physically",
+      "meaning": "физически",
+      "example": "A person can be physically vulnerable."
+    },
+    {
+      "title": "emotionally",
+      "meaning": "эмоционально",
+      "example": "The experience affected her emotionally."
+    },
+    {
+      "title": "unprotected from harm",
+      "meaning": "не защищённый от вреда",
+      "example": "Vulnerability can mean being unprotected from harm."
+    },
+    {
+      "title": "indistinguishable",
+      "meaning": "неотличимый; основной акцент на /stɪŋ/",
+      "example": "The two samples are almost indistinguishable."
+    },
+    {
+      "title": "tell apart",
+      "meaning": "отличить одно от другого; расширение к indistinguishable",
+      "example": "I cannot tell the two pictures apart."
+    },
+    {
+      "title": "IQ",
+      "meaning": "коэффициент интеллекта; произносится по названиям букв I-Q",
+      "example": "The lesson mentioned IQ scores."
+    },
+    {
+      "title": "a measure of",
+      "meaning": "показатель; мера чего-либо",
+      "example": "The exercise describes IQ as a measure of intelligence."
+    },
+    {
+      "title": "a score",
+      "meaning": "балл, числовой результат",
+      "example": "The result is expressed as a score."
+    },
+    {
+      "title": "identical twins",
+      "meaning": "однояйцевые близнецы",
+      "example": "The first paragraph is about identical twins."
+    },
+    {
+      "title": "fraternal twins",
+      "meaning": "разнояйцевые близнецы",
+      "example": "The next task compares identical and fraternal twins."
+    },
+    {
+      "title": "at birth",
+      "meaning": "при рождении",
+      "example": "Some features are present at birth."
+    },
+    {
+      "title": "be separated at birth",
+      "meaning": "быть разлучёнными при рождении",
+      "example": "One heading was “Separated at birth”."
+    },
+    {
+      "title": "human diversity",
+      "meaning": "человеческое разнообразие",
+      "example": "The final heading was “Human diversity”."
+    },
+    {
+      "title": "human nature",
+      "meaning": "человеческая природа",
+      "example": "What does the text suggest about human nature?"
+    },
+    {
+      "title": "a line of research",
+      "meaning": "направление исследования",
+      "example": "The paragraph introduces two lines of research."
+    },
+    {
+      "title": "a characteristic",
+      "meaning": "характеристика, особенность",
+      "example": "Can this characteristic change over time?"
+    },
+    {
+      "title": "predetermined",
+      "meaning": "предопределённый",
+      "example": "Do you think any characteristics are predetermined?"
+    },
+    {
+      "title": "shape who we are",
+      "meaning": "формировать то, какими людьми мы становимся",
+      "example": "Both experience and ability can shape who we are."
+    },
+    {
+      "title": "interact with",
+      "meaning": "взаимодействовать с",
+      "example": "Nature interacts with nurture."
+    },
+    {
+      "title": "a proportion",
+      "meaning": "доля, соотношение",
+      "example": "The proportion of people in this group is small."
+    },
+    {
+      "title": "develop a talent",
+      "meaning": "развить талант; сочетание для практики",
+      "example": "Practice helps someone develop a talent."
+    },
+    {
+      "title": "dedication",
+      "meaning": "преданность делу, усердие",
+      "example": "Learning a skill takes practice and dedication."
+    },
+    {
+      "title": "match the word to the definition",
+      "meaning": "сопоставить слово с определением",
+      "example": "Match the word to the definition first."
+    },
+    {
+      "title": "go over",
+      "meaning": "разобрать, проверить вместе",
+      "example": "We will go over the answers as a class."
+    },
+    {
+      "title": "finish up",
+      "meaning": "закончить текущую работу",
+      "example": "Go ahead and finish up the sentence."
+    },
+    {
+      "title": "as a class",
+      "meaning": "всем классом, всей группой",
+      "example": "We will discuss the answers as a class."
+    },
+    {
+      "title": "a syllable",
+      "meaning": "слог",
+      "example": "Which syllable carries the main stress?"
+    },
+    {
+      "title": "word stress",
+      "meaning": "ударение в слове",
+      "example": "I need to practise the word stress."
+    },
+    {
+      "title": "a noun",
+      "meaning": "существительное",
+      "example": "Heredity is a noun."
+    },
+    {
+      "title": "an adjective",
+      "meaning": "прилагательное",
+      "example": "Hereditary is an adjective."
+    },
+    {
+      "title": "read for general understanding",
+      "meaning": "читать ради общего понимания",
+      "example": "Read for general understanding before checking the details."
+    },
+    {
+      "title": "read through",
+      "meaning": "прочитать целиком, просмотреть",
+      "example": "Take a minute to read through the options."
+    },
+    {
+      "title": "a heading",
+      "meaning": "заголовок; полезный вариант слова title",
+      "example": "Choose the best heading for each paragraph."
+    },
+    {
+      "title": "a paragraph",
+      "meaning": "абзац",
+      "example": "Which paragraph supports your answer?"
+    },
+    {
+      "title": "an answer key",
+      "meaning": "ключ с ответами",
+      "example": "The teacher checked the answer key again."
+    },
+    {
+      "title": "upon rereading",
+      "meaning": "после повторного прочтения",
+      "example": "Upon rereading, I changed my answer."
+    },
+    {
+      "title": "put down an answer",
+      "meaning": "записать ответ",
+      "example": "I may have put down the wrong answer."
+    },
+    {
+      "title": "infer",
+      "meaning": "выводить по смыслу, делать вывод",
+      "example": "We need to infer the missing information."
+    },
+    {
+      "title": "fill in the blank",
+      "meaning": "заполнить пропуск",
+      "example": "Read the sentence and fill in the blank."
+    },
+    {
+      "title": "run across",
+      "meaning": "натолкнуться, встретить в тексте",
+      "example": "You will run across the answers in this order."
+    },
+    {
+      "title": "a breakout room",
+      "meaning": "малая комната для обсуждения в Zoom",
+      "example": "We discussed the task in a breakout room."
+    },
+    {
+      "title": "lose the connection",
+      "meaning": "потерять связь",
+      "example": "I lost the connection for a while."
+    },
+    {
+      "title": "my laptop is frozen",
+      "meaning": "мой ноутбук завис",
+      "example": "My laptop is frozen, so I cannot see the text."
+    },
+    {
+      "title": "a file error",
+      "meaning": "ошибка файла",
+      "example": "The picture will not load; I am getting a file error."
+    },
+    {
+      "title": "load",
+      "meaning": "загружаться; загрузить",
+      "example": "I am waiting for the picture to load."
+    },
+    {
+      "title": "Could you check the chat?",
+      "meaning": "Можешь проверить чат?",
+      "example": "Could you check the chat for the reading?"
+    },
+    {
+      "title": "Which question are you on?",
+      "meaning": "Какой вопрос вы сейчас разбираете?",
+      "example": "Hi, which question are you on?"
+    },
+    {
+      "title": "Could you move me to another room?",
+      "meaning": "Не могли бы вы перевести меня в другую комнату?",
+      "example": "There is nobody else here. Could you move me to another room?"
+    },
+    {
+      "title": "get tripped up on",
+      "meaning": "спотыкаться на чём-либо, испытывать трудность",
+      "example": "Even experienced speakers can get tripped up on a long word."
+    },
+    {
+      "title": "have a hard time with",
+      "meaning": "испытывать трудности с",
+      "example": "I have a hard time with this pronunciation."
+    },
+    {
+      "title": "run short on time",
+      "meaning": "испытывать нехватку времени",
+      "example": "We are running a little short on time."
+    },
+    {
+      "title": "keep it up",
+      "meaning": "продолжай в том же духе",
+      "example": "Your pronunciation is improving. Keep it up!"
+    },
+    {
+      "title": "a foundation",
+      "meaning": "основа; расширение по смыслу ответа ученика",
+      "example": "Natural ability may provide a foundation."
+    },
+    {
+      "title": "build on",
+      "meaning": "развивать на основе чего-либо; расширение по смыслу",
+      "example": "Learning builds on what we already know."
+    },
+    {
+      "title": "I think that",
+      "meaning": "я думаю, что; мнение, а не процесс размышления",
+      "example": "I think that both factors matter."
+    },
+    {
+      "title": "I think about",
+      "meaning": "я размышляю о; тема размышлений",
+      "example": "I often think about how people learn."
+    },
+    {
+      "title": "I see your point",
+      "meaning": "я понимаю твою мысль; фраза для дискуссии",
+      "example": "I see your point, but I would choose a different heading."
+    },
+    {
+      "title": "What makes you say that?",
+      "meaning": "Почему ты так считаешь?; расширение для аргументации",
+      "example": "What makes you say that? Can you point to the sentence?"
+    }
+  ],
+  "materials": [
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · A1",
+      "text": "People are different. We are born with some things. We learn other things at home and at school. I think both are important. In class, we read a short text. We choose a title for each part. If I do not understand, I ask for help.",
+      "translation": "Люди разные. С некоторыми особенностями мы рождаемся. Другому учимся дома и в школе. Я думаю, важно и то и другое. На уроке мы читаем короткий текст и выбираем заголовок для каждой части. Если я не понимаю, прошу помощи."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · A2",
+      "text": "Nature means the qualities we are born with. Nurture means the care, education and experience we receive. A person may have a talent for music, but practice helps develop it. In our lesson, we discussed both ideas. Then we matched words to definitions and headings to paragraphs. One learner could not load the picture, so the group checked the chat. Asking for help kept the discussion going.",
+      "translation": "Nature — качества, с которыми мы рождаемся. Nurture — забота, образование и опыт, которые мы получаем. У человека может быть музыкальный талант, но практика помогает его развить. На занятии обсуждались оба подхода, слова сопоставлялись с определениями, а заголовки — с абзацами. Один ученик не мог загрузить картинку, поэтому группа проверила чат. Просьба о помощи позволила продолжить обсуждение."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · B1",
+      "text": "What shapes a person: nature or nurture? In this lesson, nature referred to inherited characteristics, while nurture referred to upbringing and experience. Learners used music and strict parenting as examples. The reading task focused on twins and the role of DNA, but the original article was read silently and is not fully available in the recording. When choosing a heading, learners had to explain the main idea of a paragraph. The teacher initially preferred a different answer, reread the text and changed the key. This showed that giving a reason can be more useful than simply saying a letter.",
+      "translation": "Что формирует человека: наследственность или воспитание? На уроке nature обозначало наследуемые особенности, а nurture — воспитание и опыт. Участники приводили примеры музыки и строгих родителей. Задание на чтение касалось близнецов и роли DNA, но оригинальную статью читали молча, поэтому её полного текста в записи нет. Выбирая заголовок, нужно было объяснить главную мысль абзаца. Преподаватель сначала предпочёл другой ответ, перечитал текст и исправил ключ. Обоснование оказалось полезнее простой буквы."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · B2",
+      "text": "The nature–nurture debate asks how inherited characteristics and environmental experience contribute to who we become. Rather than treating these influences as mutually exclusive, a learner can acknowledge the role of both and explain which seems more important in a particular example. The class moved from this discussion to a reading task about twins. Its most useful moment came when learners challenged an answer by referring to the text. Upon rereading the paragraph, the teacher revised the answer key. Later, technical problems interrupted the breakout discussion: an image would not load, and one learner was alone in a room. Clear requests helped the group recover. This text is an original learning adaptation of the recorded discussion, not a reproduction of the missing article.",
+      "translation": "Спор о природе и воспитании касается того, как наследуемые особенности и опыт среды влияют на формирование личности. Вместо противопоставления можно признать роль обоих факторов и объяснить, какой кажется важнее в конкретном примере. Затем группа перешла к чтению о близнецах. Особенно полезным оказался момент, когда участники оспорили ответ, опираясь на текст. После повторного чтения преподаватель исправил ключ. Позже обсуждение нарушили технические проблемы: картинка не загружалась, а один ученик остался в комнате один. Чёткие просьбы помогли продолжить работу. Это самостоятельная учебная адаптация обсуждения, а не копия отсутствующей статьи."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · C1",
+      "text": "The discussion became more productive when learners moved beyond a simple choice between nature and nurture. Inherited characteristics may provide a starting point, whereas upbringing, education and experience affect how abilities are developed. The lesson used twin research as a context for practising this distinction; it did not establish that a particular personal outcome is genetically predetermined. An equally valuable learning opportunity concerned evidence. A learner questioned the proposed heading and pointed to wording about identical twins. The teacher reconsidered the paragraph and acknowledged a possible error in the key. In the breakout rooms, the challenge was practical as well as linguistic: participants had to negotiate a missing image, identify the question under discussion and ask to change rooms. These are transferable skills for real conversations, where uncertainty and interruptions are normal.",
+      "translation": "Обсуждение стало содержательнее, когда участники вышли за рамки простого выбора между природой и воспитанием. Наследуемые особенности могут задавать исходные условия, а воспитание, образование и опыт влияют на развитие способностей. Исследования близнецов служили контекстом для языковой практики; урок не доказывал генетическую предопределённость конкретного исхода жизни. Не менее важным оказалось обращение к доказательствам: ученик поставил под сомнение заголовок и сослался на формулировку об однояйцевых близнецах. Преподаватель пересмотрел абзац и признал возможную ошибку в ключе. В малых группах приходилось решать и практические задачи: разобраться с отсутствующей картинкой, уточнить текущий вопрос и попросить перевод в другую комнату. Эти навыки применимы в реальных разговорах с неопределённостью и перебоями."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · C2",
+      "text": "A useful response to the nature–nurture question need not settle a scientific debate. It can distinguish an inherited predisposition from the conditions under which that predisposition is expressed, while making clear how far the available evidence supports the claim. The recorded lesson offered a parallel lesson in interpretation: an answer key was treated as revisable when a learner identified a stronger textual justification. The important move was to make the reasoning inspectable rather than to assert disagreement more forcefully. Technical interruptions then exposed another aspect of communicative competence. Asking which item a group has reached, describing a loading failure precisely and requesting reassignment are modest interventions, yet they preserve participation. None of the unclear audio has been turned into an invented explanation, and the original silently read article has not been reconstructed as though it were available. The aim is to practise proportionate claims, evidence-based disagreement and effective repair.",
+      "translation": "Полезный ответ на вопрос о природе и воспитании не обязан разрешать научный спор. Можно различать наследуемую предрасположенность и условия её проявления, обозначая пределы имеющихся оснований. В записи есть и параллельный урок интерпретации: ключ оказался пересматриваемым, когда ученик предложил более убедительное обоснование по тексту. Важно было сделать ход мысли понятным, а не возражать напористее. Технические перебои показали ещё одну сторону коммуникативной компетенции. Уточнение текущего пункта, точное описание сбоя загрузки и просьба о переводе в другую комнату помогают сохранить участие. Неясное аудио не превращено в выдуманное объяснение, а молча прочитанная статья не восстановлена как доступный оригинал. Цель — тренировать соразмерные утверждения, аргументированное несогласие и восстановление общения."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Природа или воспитание: выразить мнение · A1",
+      "text": "Teacher: Are people born with all their skills?\nLearner: No. We learn many things.\nTeacher: Can you give an example?\nLearner: Music. Talent helps, but practice helps too.\nTeacher: So do both matter?\nLearner: Yes. I think both are important.",
+      "translation": "Преподаватель: Люди рождаются со всеми своими умениями?\nУченик: Нет. Многому мы учимся.\nПреподаватель: Можешь привести пример?\nУченик: Музыка. Талант помогает, но практика тоже помогает.\nПреподаватель: Значит, важно и то и другое?\nУченик: Да. Думаю, важно и то и другое.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Природа или воспитание: выразить мнение · A1",
+      "prompt": "Teacher: Are people born with all their skills?\nLearner: No. We learn many things.\nTeacher: Can you give an example?\nLearner: Music. Talent helps, but practice helps too.\nTeacher: So do both matter?\nLearner: Yes. I think both are important.\n\nWhat example supports the learner’s opinion? Give your own example.",
+      "answer": "Musical ability is the example. Natural talent can matter, but practice helps develop it. My example: learning a language requires regular practice."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Природа или воспитание: выразить мнение · A2",
+      "text": "Teacher: What do you think about nature and nurture?\nLearner: I think both affect us. We are born with some abilities and learn others.\nTeacher: What example would you use?\nLearner: A person may have musical talent, but they need to practise.\nTeacher: Has the discussion changed your opinion?\nLearner: A little. I now think about both ideas together.",
+      "translation": "Преподаватель: Что ты думаешь о наследственности и воспитании?\nУченик: Думаю, оба фактора влияют на нас. С некоторыми способностями мы рождаемся, другие приобретаем.\nПреподаватель: Какой пример ты бы привёл?\nУченик: У человека может быть музыкальный талант, но ему нужно практиковаться.\nПреподаватель: Обсуждение изменило твоё мнение?\nУченик: Немного. Теперь я рассматриваю оба фактора вместе.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Природа или воспитание: выразить мнение · A2",
+      "prompt": "Teacher: What do you think about nature and nurture?\nLearner: I think both affect us. We are born with some abilities and learn others.\nTeacher: What example would you use?\nLearner: A person may have musical talent, but they need to practise.\nTeacher: Has the discussion changed your opinion?\nLearner: A little. I now think about both ideas together.\n\nWhat example supports the learner’s opinion? Give your own example.",
+      "answer": "Musical ability is the example. Natural talent can matter, but practice helps develop it. My example: learning a language requires regular practice."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Природа или воспитание: выразить мнение · B1",
+      "text": "Teacher: Which has a stronger influence on us: nature or nurture?\nLearner: I think both matter. Natural ability is a starting point, but experience helps us develop it.\nTeacher: Could you make that more specific?\nLearner: Someone may be born with a talent for music. Education and regular practice can help that person improve.\nTeacher: Does that mean our future is already decided?\nLearner: No. I would not say that. The environment around us also makes a difference.",
+      "translation": "Преподаватель: Что сильнее влияет на нас: наследственность или воспитание?\nУченик: Думаю, важно и то и другое. Природные способности — отправная точка, но опыт помогает их развить.\nПреподаватель: Можешь выразиться конкретнее?\nУченик: Кто-то может родиться с музыкальным талантом. Образование и регулярная практика могут помочь ему совершенствоваться.\nПреподаватель: Значит ли это, что наше будущее уже решено?\nУченик: Нет, я бы так не сказал. Окружающая среда тоже имеет значение.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Природа или воспитание: выразить мнение · B1",
+      "prompt": "Teacher: Which has a stronger influence on us: nature or nurture?\nLearner: I think both matter. Natural ability is a starting point, but experience helps us develop it.\nTeacher: Could you make that more specific?\nLearner: Someone may be born with a talent for music. Education and regular practice can help that person improve.\nTeacher: Does that mean our future is already decided?\nLearner: No. I would not say that. The environment around us also makes a difference.\n\nWhat example supports the learner’s opinion? Give your own example.",
+      "answer": "Musical ability is the example. Natural talent can matter, but practice helps develop it. My example: learning a language requires regular practice."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Природа или воспитание: выразить мнение · B2",
+      "text": "Teacher: Do you think personality is mainly inherited or shaped by experience?\nLearner: I would avoid choosing just one. Some traits may be inherited, while upbringing and experience affect how we develop.\nTeacher: Can you explain what you mean by that?\nLearner: Natural ability may provide a foundation, but nurture builds on it. A talented musician still needs practice and dedication.\nTeacher: Would you describe the outcome as predetermined?\nLearner: Not on that evidence alone. I think the two influences interact rather than work separately.",
+      "translation": "Преподаватель: Как ты считаешь, характер в основном наследуется или формируется опытом?\nУченик: Я бы не выбирал только один фактор. Некоторые черты могут наследоваться, а воспитание и опыт влияют на наше развитие.\nПреподаватель: Можешь объяснить, что ты имеешь в виду?\nУченик: Природные способности могут дать основу, а воспитание развивает её. Даже талантливому музыканту нужны практика и усердие.\nПреподаватель: Ты бы назвал результат предопределённым?\nУченик: Не на основании только этого примера. Думаю, оба влияния взаимодействуют, а не действуют отдельно.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Природа или воспитание: выразить мнение · B2",
+      "prompt": "Teacher: Do you think personality is mainly inherited or shaped by experience?\nLearner: I would avoid choosing just one. Some traits may be inherited, while upbringing and experience affect how we develop.\nTeacher: Can you explain what you mean by that?\nLearner: Natural ability may provide a foundation, but nurture builds on it. A talented musician still needs practice and dedication.\nTeacher: Would you describe the outcome as predetermined?\nLearner: Not on that evidence alone. I think the two influences interact rather than work separately.\n\nWhat example supports the learner’s opinion? Give your own example.",
+      "answer": "Musical ability is the example. Natural talent can matter, but practice helps develop it. My example: learning a language requires regular practice."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Природа или воспитание: выразить мнение · C1",
+      "text": "Teacher: How would you weigh the relative importance of nature and nurture?\nLearner: I would distinguish an inherited tendency from the opportunities that allow it to develop. Treating the two as a simple either-or choice seems limiting.\nTeacher: What would make that distinction useful in a concrete case?\nLearner: Musical talent is one example. An initial aptitude may matter, but education, encouragement and sustained practice can shape what a person does with it.\nTeacher: So can we infer a person’s future from that aptitude?\nLearner: I would be cautious about that inference. Recognising an influence is different from claiming that an outcome is inevitable.",
+      "translation": "Преподаватель: Как бы ты оценил сравнительную важность наследственности и воспитания?\nУченик: Я бы различал наследуемую склонность и возможности для её развития. Простое противопоставление двух факторов кажется ограничивающим.\nПреподаватель: Чем такое различие полезно в конкретном случае?\nУченик: Например, в музыке. Исходные задатки могут быть важны, но образование, поддержка и постоянная практика влияют на то, как человек их использует.\nПреподаватель: Значит, по этим задаткам можно предсказать будущее человека?\nУченик: Я бы осторожно относился к такому выводу. Признавать влияние — не то же самое, что считать исход неизбежным.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Природа или воспитание: выразить мнение · C1",
+      "prompt": "Teacher: How would you weigh the relative importance of nature and nurture?\nLearner: I would distinguish an inherited tendency from the opportunities that allow it to develop. Treating the two as a simple either-or choice seems limiting.\nTeacher: What would make that distinction useful in a concrete case?\nLearner: Musical talent is one example. An initial aptitude may matter, but education, encouragement and sustained practice can shape what a person does with it.\nTeacher: So can we infer a person’s future from that aptitude?\nLearner: I would be cautious about that inference. Recognising an influence is different from claiming that an outcome is inevitable.\n\nWhat example supports the learner’s opinion? Give your own example.",
+      "answer": "Musical ability is the example. Natural talent can matter, but practice helps develop it. My example: learning a language requires regular practice."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Природа или воспитание: выразить мнение · C2",
+      "text": "Teacher: Does framing the issue as nature versus nurture help us explain individual differences?\nLearner: It gives us a useful distinction, provided we do not mistake it for a complete explanation. An inherited predisposition and the circumstances in which it is expressed are not independent stories.\nTeacher: How would you keep that answer grounded rather than abstract?\nLearner: I would use musical ability as a limited example: aptitude may create an opportunity, but access to teaching and repeated practice affect how that opportunity develops.\nTeacher: What qualification would you add to your conclusion?\nLearner: That the example illustrates an interaction; it does not establish how much each factor contributes in every person. I would keep the strength of the claim proportionate to the evidence.",
+      "translation": "Преподаватель: Помогает ли противопоставление природы и воспитания объяснять индивидуальные различия?\nУченик: Это полезное различие, если не принимать его за полное объяснение. Наследуемая предрасположенность и условия её проявления не существуют независимо друг от друга.\nПреподаватель: Как сделать такой ответ конкретным, а не отвлечённым?\nУченик: Я бы привёл ограниченный пример музыкальных способностей: задатки могут создать возможность, но доступ к обучению и повторная практика влияют на её развитие.\nПреподаватель: Каким уточнением ты бы ограничил свой вывод?\nУченик: Что пример показывает взаимодействие, но не устанавливает долю каждого фактора у любого человека. Я бы соотносил силу утверждения с имеющимися основаниями.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Природа или воспитание: выразить мнение · C2",
+      "prompt": "Teacher: Does framing the issue as nature versus nurture help us explain individual differences?\nLearner: It gives us a useful distinction, provided we do not mistake it for a complete explanation. An inherited predisposition and the circumstances in which it is expressed are not independent stories.\nTeacher: How would you keep that answer grounded rather than abstract?\nLearner: I would use musical ability as a limited example: aptitude may create an opportunity, but access to teaching and repeated practice affect how that opportunity develops.\nTeacher: What qualification would you add to your conclusion?\nLearner: That the example illustrates an interaction; it does not establish how much each factor contributes in every person. I would keep the strength of the claim proportionate to the evidence.\n\nWhat example supports the learner’s opinion? Give your own example.",
+      "answer": "Musical ability is the example. Natural talent can matter, but practice helps develop it. My example: learning a language requires regular practice."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обосновать заголовок абзаца · A1",
+      "text": "Partner: What is your answer for paragraph one?\nLearner: I think it is E.\nPartner: Why E?\nLearner: The paragraph is about twins.\nPartner: Let us read it again.\nLearner: Good idea. Then we can check.",
+      "translation": "Собеседник: Какой у тебя ответ для первого абзаца?\nУченик: Думаю, E.\nСобеседник: Почему E?\nУченик: Абзац о близнецах.\nСобеседник: Давай перечитаем.\nУченик: Хорошая идея. Потом сможем проверить.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обосновать заголовок абзаца · A1",
+      "prompt": "Partner: What is your answer for paragraph one?\nLearner: I think it is E.\nPartner: Why E?\nLearner: The paragraph is about twins.\nPartner: Let us read it again.\nLearner: Good idea. Then we can check.\n\nWhich heading does the learner prefer, and how is the choice justified?",
+      "answer": "The learner prefers E, “Understanding identical twins”, because the paragraph focuses on twins and their genetic code. The choice should match the main idea, not an isolated word."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обосновать заголовок абзаца · A2",
+      "text": "Partner: Which heading did you choose for the first paragraph?\nLearner: I chose E, “Understanding identical twins”.\nPartner: I chose D. Why do you prefer E?\nLearner: The paragraph talks about twins and their genetic code.\nPartner: Can you show me the sentence?\nLearner: Yes. Let us look back at the text.",
+      "translation": "Собеседник: Какой заголовок ты выбрал для первого абзаца?\nУченик: Я выбрал E — «Понимание однояйцевых близнецов».\nСобеседник: Я выбрал D. Почему ты предпочитаешь E?\nУченик: В абзаце говорится о близнецах и их генетическом коде.\nСобеседник: Можешь показать предложение?\nУченик: Да. Давай вернёмся к тексту.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обосновать заголовок абзаца · A2",
+      "prompt": "Partner: Which heading did you choose for the first paragraph?\nLearner: I chose E, “Understanding identical twins”.\nPartner: I chose D. Why do you prefer E?\nLearner: The paragraph talks about twins and their genetic code.\nPartner: Can you show me the sentence?\nLearner: Yes. Let us look back at the text.\n\nWhich heading does the learner prefer, and how is the choice justified?",
+      "answer": "The learner prefers E, “Understanding identical twins”, because the paragraph focuses on twins and their genetic code. The choice should match the main idea, not an isolated word."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обосновать заголовок абзаца · B1",
+      "text": "Partner: I put down “Human diversity” for paragraph one. What did you get?\nLearner: I chose “Understanding identical twins”. I think it matches the main idea better.\nPartner: What part of the text supports your answer?\nLearner: It starts by discussing identical twins and their genetic code. Could we read that sentence again?\nPartner: Upon rereading, I agree. I focused on one detail.\nLearner: That makes sense. Let us use the main idea to check the next heading too.",
+      "translation": "Собеседник: Я записал «Человеческое разнообразие» для первого абзаца. Что у тебя?\nУченик: Я выбрал «Понимание однояйцевых близнецов». Думаю, это лучше соответствует основной мысли.\nСобеседник: Какая часть текста подтверждает твой ответ?\nУченик: Сначала там обсуждаются однояйцевые близнецы и их генетический код. Можем перечитать это предложение?\nСобеседник: После повторного чтения согласен. Я сосредоточился на одной детали.\nУченик: Понимаю. Давай по главной мысли проверим и следующий заголовок.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обосновать заголовок абзаца · B1",
+      "prompt": "Partner: I put down “Human diversity” for paragraph one. What did you get?\nLearner: I chose “Understanding identical twins”. I think it matches the main idea better.\nPartner: What part of the text supports your answer?\nLearner: It starts by discussing identical twins and their genetic code. Could we read that sentence again?\nPartner: Upon rereading, I agree. I focused on one detail.\nLearner: That makes sense. Let us use the main idea to check the next heading too.\n\nWhich heading does the learner prefer, and how is the choice justified?",
+      "answer": "The learner prefers E, “Understanding identical twins”, because the paragraph focuses on twins and their genetic code. The choice should match the main idea, not an isolated word."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обосновать заголовок абзаца · B2",
+      "text": "Partner: I am leaning towards D for the first paragraph. Do you agree?\nLearner: I see why you chose it, but I would go with E. The paragraph focuses on identical twins rather than diversity in general.\nPartner: Could you point to the wording that makes the difference?\nLearner: The opening refers to twins and a shared genetic code. That seems more central than the broader idea of diversity.\nPartner: I may have put down the wrong answer. Let me check again.\nLearner: Of course. We can compare the headings against the whole paragraph, not just a single word.",
+      "translation": "Собеседник: Я склоняюсь к D для первого абзаца. Согласен?\nУченик: Понимаю твой выбор, но я бы выбрал E. Абзац сосредоточен на однояйцевых близнецах, а не на разнообразии в целом.\nСобеседник: Можешь указать формулировку, которая определяет выбор?\nУченик: В начале говорится о близнецах и общем генетическом коде. Это кажется более центральной темой, чем широкая идея разнообразия.\nСобеседник: Возможно, я записал неверный ответ. Дай проверю ещё раз.\nУченик: Конечно. Можно сравнить заголовки со всем абзацем, а не с одним словом.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обосновать заголовок абзаца · B2",
+      "prompt": "Partner: I am leaning towards D for the first paragraph. Do you agree?\nLearner: I see why you chose it, but I would go with E. The paragraph focuses on identical twins rather than diversity in general.\nPartner: Could you point to the wording that makes the difference?\nLearner: The opening refers to twins and a shared genetic code. That seems more central than the broader idea of diversity.\nPartner: I may have put down the wrong answer. Let me check again.\nLearner: Of course. We can compare the headings against the whole paragraph, not just a single word.\n\nWhich heading does the learner prefer, and how is the choice justified?",
+      "answer": "The learner prefers E, “Understanding identical twins”, because the paragraph focuses on twins and their genetic code. The choice should match the main idea, not an isolated word."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обосновать заголовок абзаца · C1",
+      "text": "Partner: The answer key suggests D. Is there a reason to question it?\nLearner: Possibly. I would choose E because it captures the paragraph’s focus more precisely. D seems related to the wider topic without identifying this paragraph’s main point.\nPartner: What textual evidence would you use to justify that distinction?\nLearner: I would refer to the opening discussion of identical twins and their genetic code, then check whether the remaining sentences develop that idea.\nPartner: That makes me reconsider the key. I might have been too quick.\nLearner: It is worth rereading. A plausible heading still has to account for the paragraph as a whole.",
+      "translation": "Собеседник: В ключе указан D. Есть основания сомневаться?\nУченик: Возможно. Я бы выбрал E: он точнее передаёт тему абзаца. D связан с общей темой, но не выделяет главную мысль именно этого абзаца.\nСобеседник: На какие формулировки текста ты бы опирался?\nУченик: Я бы сослался на начало об однояйцевых близнецах и их генетическом коде, а затем проверил, развивают ли эту мысль остальные предложения.\nСобеседник: Это заставляет пересмотреть ключ. Возможно, я поторопился.\nУченик: Стоит перечитать. Даже правдоподобный заголовок должен соответствовать абзацу в целом.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обосновать заголовок абзаца · C1",
+      "prompt": "Partner: The answer key suggests D. Is there a reason to question it?\nLearner: Possibly. I would choose E because it captures the paragraph’s focus more precisely. D seems related to the wider topic without identifying this paragraph’s main point.\nPartner: What textual evidence would you use to justify that distinction?\nLearner: I would refer to the opening discussion of identical twins and their genetic code, then check whether the remaining sentences develop that idea.\nPartner: That makes me reconsider the key. I might have been too quick.\nLearner: It is worth rereading. A plausible heading still has to account for the paragraph as a whole.\n\nWhich heading does the learner prefer, and how is the choice justified?",
+      "answer": "The learner prefers E, “Understanding identical twins”, because the paragraph focuses on twins and their genetic code. The choice should match the main idea, not an isolated word."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Обосновать заголовок абзаца · C2",
+      "text": "Partner: Would you defer to the answer key here, or defend the alternative heading?\nLearner: I would defend the alternative provisionally. The key is a useful reference, but the paragraph itself should determine which heading is better supported.\nPartner: How would you make that challenge constructive?\nLearner: By identifying the textual focus and testing both headings against it. I would explain why the twins’ shared genetic code appears central, while leaving room for a detail I may have missed.\nPartner: Upon rereading, the alternative does seem more defensible.\nLearner: Then we have a reason to revise the answer, not merely a preference for a different letter. That is the distinction I would carry into the next item.",
+      "translation": "Собеседник: Ты бы принял ключ или стал обосновывать альтернативный заголовок?\nУченик: Я бы предварительно обосновал альтернативу. Ключ полезен для сверки, но сам абзац должен определять, какой заголовок лучше подтверждается.\nСобеседник: Как сделать такое возражение конструктивным?\nУченик: Выделить центральную тему и проверить по ней оба заголовка. Я бы объяснил, почему общий генетический код близнецов кажется главным, оставляя возможность, что упустил деталь.\nСобеседник: После повторного чтения альтернатива действительно кажется более обоснованной.\nУченик: Тогда у нас есть основание пересмотреть ответ, а не просто предпочтение другой буквы. Именно это различие я бы использовал в следующем пункте.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Обосновать заголовок абзаца · C2",
+      "prompt": "Partner: Would you defer to the answer key here, or defend the alternative heading?\nLearner: I would defend the alternative provisionally. The key is a useful reference, but the paragraph itself should determine which heading is better supported.\nPartner: How would you make that challenge constructive?\nLearner: By identifying the textual focus and testing both headings against it. I would explain why the twins’ shared genetic code appears central, while leaving room for a detail I may have missed.\nPartner: Upon rereading, the alternative does seem more defensible.\nLearner: Then we have a reason to revise the answer, not merely a preference for a different letter. That is the distinction I would carry into the next item.\n\nWhich heading does the learner prefer, and how is the choice justified?",
+      "answer": "The learner prefers E, “Understanding identical twins”, because the paragraph focuses on twins and their genetic code. The choice should match the main idea, not an isolated word."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Вернуться в обсуждение и попросить помощь · A1",
+      "text": "Learner: Hello. Which question are you on?\nPartner: Question three. Can you see the text?\nLearner: No. The picture does not load.\nPartner: Please check the chat.\nLearner: I can see it now. Thank you.\nPartner: Great. Let us check the answer.",
+      "translation": "Ученик: Привет. Какой вопрос вы разбираете?\nСобеседник: Третий вопрос. Тебе виден текст?\nУченик: Нет. Картинка не загружается.\nСобеседник: Проверь чат, пожалуйста.\nУченик: Теперь вижу. Спасибо.\nСобеседник: Отлично. Давай проверим ответ.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Вернуться в обсуждение и попросить помощь · A1",
+      "prompt": "Learner: Hello. Which question are you on?\nPartner: Question three. Can you see the text?\nLearner: No. The picture does not load.\nPartner: Please check the chat.\nLearner: I can see it now. Thank you.\nPartner: Great. Let us check the answer.\n\nWhat prevents the learner from participating, and what request helps?",
+      "answer": "The learner cannot load the image or has just rejoined the room. Asking which question the group is on and requesting the relevant text helps the learner contribute."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Вернуться в обсуждение и попросить помощь · A2",
+      "text": "Learner: Hi. Which question are you discussing?\nPartner: We are on question three.\nLearner: I lost the connection for a while. Could you show me the text?\nPartner: It is in the chat. Can you open the picture?\nLearner: Not yet. I am getting a file error. Could you send it again?\nPartner: Sure. I will send it again, and we can finish together.",
+      "translation": "Ученик: Привет. Какой вопрос вы обсуждаете?\nСобеседник: Мы на третьем вопросе.\nУченик: У меня ненадолго пропала связь. Можешь показать текст?\nСобеседник: Он в чате. Можешь открыть картинку?\nУченик: Пока нет. Возникает ошибка файла. Можешь отправить ещё раз?\nСобеседник: Конечно. Отправлю ещё раз, и сможем закончить вместе.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Вернуться в обсуждение и попросить помощь · A2",
+      "prompt": "Learner: Hi. Which question are you discussing?\nPartner: We are on question three.\nLearner: I lost the connection for a while. Could you show me the text?\nPartner: It is in the chat. Can you open the picture?\nLearner: Not yet. I am getting a file error. Could you send it again?\nPartner: Sure. I will send it again, and we can finish together.\n\nWhat prevents the learner from participating, and what request helps?",
+      "answer": "The learner cannot load the image or has just rejoined the room. Asking which question the group is on and requesting the relevant text helps the learner contribute."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Вернуться в обсуждение и попросить помощь · B1",
+      "text": "Learner: Sorry, I lost the connection. Which question are you on?\nPartner: We are discussing number three. Have you got the reading?\nLearner: I can see the message, but the picture will not load. It says “file error”.\nPartner: Could you check whether the other picture opens?\nLearner: Yes, that one works. Could you tell me what you chose for number three?\nPartner: We chose F. Let us look at the evidence before we move on.",
+      "translation": "Ученик: Извини, у меня пропала связь. На каком вы вопросе?\nСобеседник: Обсуждаем третий. У тебя есть текст?\nУченик: Сообщение видно, но картинка не загружается. Написано «ошибка файла».\nСобеседник: Можешь проверить, открывается ли другая картинка?\nУченик: Да, эта работает. Можешь сказать, что вы выбрали в третьем пункте?\nСобеседник: Выбрали F. Давай посмотрим на обоснование, прежде чем двигаться дальше.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Вернуться в обсуждение и попросить помощь · B1",
+      "prompt": "Learner: Sorry, I lost the connection. Which question are you on?\nPartner: We are discussing number three. Have you got the reading?\nLearner: I can see the message, but the picture will not load. It says “file error”.\nPartner: Could you check whether the other picture opens?\nLearner: Yes, that one works. Could you tell me what you chose for number three?\nPartner: We chose F. Let us look at the evidence before we move on.\n\nWhat prevents the learner from participating, and what request helps?",
+      "answer": "The learner cannot load the image or has just rejoined the room. Asking which question the group is on and requesting the relevant text helps the learner contribute."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Вернуться в обсуждение и попросить помощь · B2",
+      "text": "Learner: Hi, I have just been moved into this room. Which question have you reached?\nPartner: We are comparing our answers to number three. Can you see the reading?\nLearner: The image is not loading on my laptop. Could you paste the relevant sentence into the chat?\nPartner: Of course. Here it is. We are considering F.\nLearner: Thanks. I would choose F too, because the paragraph introduces two lines of research.\nPartner: That is what we thought. Shall we check the next one?",
+      "translation": "Ученик: Привет, меня только что перевели в эту комнату. До какого вопроса вы дошли?\nСобеседник: Сравниваем ответы на третий. Тебе виден текст?\nУченик: Картинка не загружается на моём ноутбуке. Можешь вставить нужное предложение в чат?\nСобеседник: Конечно. Вот оно. Мы рассматриваем F.\nУченик: Спасибо. Я бы тоже выбрал F, потому что абзац представляет два направления исследования.\nСобеседник: Мы так и думали. Проверим следующий?",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Вернуться в обсуждение и попросить помощь · B2",
+      "prompt": "Learner: Hi, I have just been moved into this room. Which question have you reached?\nPartner: We are comparing our answers to number three. Can you see the reading?\nLearner: The image is not loading on my laptop. Could you paste the relevant sentence into the chat?\nPartner: Of course. Here it is. We are considering F.\nLearner: Thanks. I would choose F too, because the paragraph introduces two lines of research.\nPartner: That is what we thought. Shall we check the next one?\n\nWhat prevents the learner from participating, and what request helps?",
+      "answer": "The learner cannot load the image or has just rejoined the room. Asking which question the group is on and requesting the relevant text helps the learner contribute."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Вернуться в обсуждение и попросить помощь · C1",
+      "text": "Learner: Sorry to join halfway through. Could you bring me up to speed on which item you are discussing?\nPartner: We are checking number three, but we have not agreed on the heading yet.\nLearner: I am having trouble loading the image. Would you mind pasting the paragraph’s opening into the chat?\nPartner: Here it is. One of us chose C and the other chose F.\nLearner: Based on that opening, I would lean towards F. It introduces two lines of research; C seems to describe a narrower point.\nPartner: Good point. Let us test that against the rest before we settle on it.",
+      "translation": "Ученик: Извините, что присоединяюсь посреди обсуждения. Можете сориентировать, какой пункт вы разбираете?\nСобеседник: Проверяем третий пункт, но ещё не согласовали заголовок.\nУченик: У меня проблема с загрузкой картинки. Не могли бы вы вставить начало абзаца в чат?\nСобеседник: Вот. Один выбрал C, другой — F.\nУченик: По этому началу я бы склонялся к F. Там вводятся два направления исследования, а C, похоже, описывает более узкую мысль.\nСобеседник: Хорошая мысль. Давай проверим по остальной части абзаца, прежде чем окончательно решать.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Вернуться в обсуждение и попросить помощь · C1",
+      "prompt": "Learner: Sorry to join halfway through. Could you bring me up to speed on which item you are discussing?\nPartner: We are checking number three, but we have not agreed on the heading yet.\nLearner: I am having trouble loading the image. Would you mind pasting the paragraph’s opening into the chat?\nPartner: Here it is. One of us chose C and the other chose F.\nLearner: Based on that opening, I would lean towards F. It introduces two lines of research; C seems to describe a narrower point.\nPartner: Good point. Let us test that against the rest before we settle on it.\n\nWhat prevents the learner from participating, and what request helps?",
+      "answer": "The learner cannot load the image or has just rejoined the room. Asking which question the group is on and requesting the relevant text helps the learner contribute."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Вернуться в обсуждение и попросить помощь · C2",
+      "text": "Learner: I seem to have joined after the initial comparison. Could you briefly outline where your disagreement lies?\nPartner: We are deciding between C and F for paragraph three, and we are interpreting its opening differently.\nLearner: The image still fails to load here. Could you share the relevant wording as text so I can contribute without holding you up?\nPartner: Certainly. The opening refers to two lines of research.\nLearner: That would make F my provisional choice. I would check whether the paragraph develops both lines, rather than assuming the opening alone settles it.\nPartner: Agreed. Now that we have the same text in front of us, we can make that comparison.",
+      "translation": "Ученик: Похоже, я присоединился после первоначальной сверки. Можете кратко объяснить, в чём вы расходитесь?\nСобеседник: Выбираем между C и F для третьего абзаца и по-разному понимаем его начало.\nУченик: Картинка у меня всё ещё не загружается. Можете поделиться нужной формулировкой текстом, чтобы я мог участвовать и не задерживать вас?\nСобеседник: Конечно. В начале упоминаются два направления исследования.\nУченик: Тогда предварительно я бы выбрал F. Но проверил бы, развиваются ли в абзаце оба направления, а не считал, что одного начала достаточно.\nСобеседник: Согласен. Теперь, когда перед нами одинаковый текст, можно провести это сравнение.",
+      "prompt": "Учебная адаптация ситуации из записи, не дословная цитата. Сыграй роль Learner и сформулируй свой ответ без личных имён."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Вернуться в обсуждение и попросить помощь · C2",
+      "prompt": "Learner: I seem to have joined after the initial comparison. Could you briefly outline where your disagreement lies?\nPartner: We are deciding between C and F for paragraph three, and we are interpreting its opening differently.\nLearner: The image still fails to load here. Could you share the relevant wording as text so I can contribute without holding you up?\nPartner: Certainly. The opening refers to two lines of research.\nLearner: That would make F my provisional choice. I would check whether the paragraph develops both lines, rather than assuming the opening alone settles it.\nPartner: Agreed. Now that we have the same text in front of us, we can make that comparison.\n\nWhat prevents the learner from participating, and what request helps?",
+      "answer": "The learner cannot load the image or has just rejoined the room. Asking which question the group is on and requesting the relevant text helps the learner contribute."
+    },
+    {
+      "kind": "reading",
+      "title": "Реплики преподавателя · обсуждение, инструкции и поддержка",
+      "text": "Учебные формулировки по записи; сокращения, пунктуация и отдельные фразы отредактированы. Это текст для практики, без голоса преподавателя.\n\n00:00:11 · Good morning, good evening, good afternoon, depending on where in the world you are.\nПеревод: Доброе утро, вечер или день — в зависимости от того, где вы находитесь.\nКонструкция: depending on + noun / question clause\nТвой пример для практики: Depending on where you are, the meeting may be early or late.\n\n00:00:19 · Today, we’re going to talk a little bit about nature versus nurture.\nПеревод: Сегодня мы немного поговорим о природе и воспитании.\nКонструкция: be going to + verb: объявить план\nТвой пример для практики: Today, we’re going to talk a little bit about learning habits.\n\n00:00:24 · Have you guys heard this phrase before?\nПеревод: Вы раньше слышали это выражение?\nКонструкция: Present Perfect + before: опыт до настоящего момента\nТвой пример для практики: Have you heard this phrase before?\n\n00:03:47 · Some traits might be genetic or given to you at birth.\nПеревод: Некоторые черты могут быть генетическими или данными при рождении.\nКонструкция: might be + adjective / past participle: осторожное предположение\nТвой пример для практики: Some differences might be related to experience.\n\n00:04:41 · Match the word to the definition.\nПеревод: Сопоставьте слово с определением.\nКонструкция: match A to B\nТвой пример для практики: Could we match each example to the rule?\n\n00:06:49 · No worries, we are just matching vocabulary right now.\nПеревод: Ничего страшного, сейчас мы просто сопоставляем слова.\nКонструкция: No worries + короткое пояснение текущего действия\nТвой пример для практики: No worries, we are just checking the first answer.\n\n00:07:08 · If you’re not all the way through, that’s okay.\nПеревод: Если вы не дошли до конца, ничего страшного.\nКонструкция: be all the way through: полностью закончить\nТвой пример для практики: I’m not all the way through yet. Could I have another minute?\n\n00:07:11 · We’ll go over it as a class.\nПеревод: Мы разберём это всей группой.\nКонструкция: go over + answer / task / rule\nТвой пример для практики: Could we go over the last question as a class?\n\n00:07:35 · Were you just curious about pronunciation?\nПеревод: Тебе просто было интересно произношение?\nКонструкция: be curious about + noun\nТвой пример для практики: I was curious about the difference between these words.\n\n00:10:37 · Where are we hearing the stress?\nПеревод: Где мы слышим ударение?\nКонструкция: word stress: ударение, не стресс как состояние\nТвой пример для практики: Where does the main stress fall in this word?\n\n00:12:28 · Heredity is a noun; hereditary is an adjective.\nПеревод: Heredity — существительное, hereditary — прилагательное.\nКонструкция: X is a noun / an adjective\nТвой пример для практики: Nature is a noun; natural is an adjective.\n\n00:14:10 · Take a minute to read through the different potential titles.\nПеревод: Уделите минуту, чтобы просмотреть возможные заголовки.\nКонструкция: take a minute to + verb\nТвой пример для практики: Take a minute to read through the instructions.\n\n00:15:22 · Read for general understanding.\nПеревод: Читайте для общего понимания.\nКонструкция: read for + purpose\nТвой пример для практики: I’ll read for general understanding first, then check the details.\n\n00:19:49 · Let’s look back at the text.\nПеревод: Давайте вернёмся к тексту.\nКонструкция: Let’s + verb: совместное предложение\nТвой пример для практики: Let’s look back at the paragraph before we decide.\n\n00:20:28 · Upon rereading it, I think I agree with you a bit more.\nПеревод: После повторного чтения я, кажется, больше согласен с вами.\nКонструкция: upon + -ing; I think смягчает вывод\nТвой пример для практики: Upon rereading it, I would choose a different heading.\n\n00:20:56 · I think I maybe put down the wrong answer.\nПеревод: Возможно, я записал неверный ответ.\nКонструкция: put down an answer; признать возможную ошибку\nТвой пример для практики: I may have put down the wrong answer. Let me check.\n\n00:21:32 · One second to get this all set up.\nПеревод: Секунду, чтобы всё настроить.\nКонструкция: get something set up: подготовить, настроить\nТвой пример для практики: Give me a second to get the document set up.\n\n00:29:22 · You’re going to have to infer the correct language.\nПеревод: Вам придётся вывести подходящую формулировку по смыслу.\nКонструкция: have to infer: не искать лишь дословное совпадение\nТвой пример для практики: We may have to infer the answer from the context.\n\n00:34:08 · If you haven’t finished, you can finish with your partner.\nПеревод: Если вы ещё не закончили, можете закончить с партнёром.\nКонструкция: If + Present Perfect, can + verb\nТвой пример для практики: If you haven’t seen the message, you can check it now.\n\n00:38:00 · I will move you to a different group.\nПеревод: Я переведу тебя в другую группу.\nКонструкция: move someone to + place / group\nТвой пример для практики: Could you move me to a different group?\n\n00:43:38 · Even native English speakers get tripped up on some words.\nПеревод: Даже носители английского спотыкаются на некоторых словах.\nКонструкция: get tripped up on + difficult item\nТвой пример для практики: I sometimes get tripped up on long words.\n\n00:45:41 · We’re running a little short on time.\nПеревод: У нас уже немного не хватает времени.\nКонструкция: run short on + time / resources\nТвой пример для практики: We’re running short on time, so let’s check the final answer.\n\n00:47:05 · Keep it up.\nПеревод: Продолжайте в том же духе.\nКонструкция: краткое поощрение продолжать\nТвой пример для практики: You’re getting clearer. Keep it up."
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · мнение, вопросы, пассив и сравнение",
+      "text": "1. I think + clause и I think about + topic\nI think both factors matter. — мнение: «думаю, оба фактора важны».\nI often think about this question. — процесс размышления: «часто думаю над вопросом».\nДля выбора ответа: I think it’s E / I’d choose E, а не I think about E.\n\n2. Nature / natural; nurture; heredity / hereditary\nNature — существительное, natural — прилагательное: Natural ability may matter.\nNurture — воспитание и влияние среды, а не вариант написания nature.\nHeredity is a noun. Hereditary is an adjective: a hereditary characteristic.\nGenetics как название дисциплины обычно согласуется в единственном числе: Genetics is…\n\n3. Вопрос о текущем действии\nWhich question are you discussing? / Which question are you on?\nWe’re discussing number three. — be + discussing, а не We are discussion.\nWhich question have you reached? — к какому пункту вы уже дошли.\n\n4. Косвенные вопросы\nCould you tell me which question you are on? Внутри which question you are on порядок прямой, без are you.\nCould you show me where the evidence is? — не where is the evidence в придаточной части.\n\n5. Пассив: be + past participle\nWe are born with… / She was raised by… / They were separated at birth.\nBorn — форма в конструкции be born, не I born и не I am birth.\n\n6. Сравнение\nNurture seems more important than nature in this example.\nНе the more important, если не выбираем «более важный из двух» в соответствующей именной конструкции.\nBoth factors matter / The two influences interact. Эти фразы позволяют не делать ложный выбор только одного фактора.\n\n7. If + Present Perfect, can + verb\nIf you haven’t finished, you can finish with your partner.\nУсловие относится к текущему результату, поэтому will в части с if здесь не нужен.\n\n8. Another / other / else\nThere is no other student in my room. / There is nobody else here.\nCould you move me to another room? Another + существительное в единственном числе.\n\n9. Произношение без ошибок распознавания\nNurture: ударение на первом слоге. Heredity: he-RED-i-ty; hereditary — другая часть речи.\nVulnerability: vul-ner-a-BIL-i-ty. Indistinguishable: in-di-STIN-gui-sha-ble, основное ударение на /stɪŋ/.\nВ ASR есть противоречивое указание номера слога у indistinguishable. Здесь использован словарный образец Cambridge, а не сомнительная реплика.\nНе заучивай формы Bridge / at bear / in this table из шумного участка как правильное произношение.\n\n10. Аргумент и степень уверенности\nI’d choose E because the paragraph focuses on twins.\nI see your point, but… / I would lean towards… / This suggests…, rather than proves…\nПриводи основание и ограничивай вывод тем, что действительно следует из текста. Не выдавай пересказ урока о генетике за научное доказательство."
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · реплики ученика и естественные ответы",
+      "text": "Реплики основного ученика и участника группы. Автоматические кластеры голосов не доказывают личность; после приветствия около 38:23 атрибуция основному ученику вероятна. Не приписываем ему длинные реплики других участников. Ниже исходный ASR, естественный вариант и объяснение; неразборчивое не превращено в точную цитату.\n\n02:28–02:46\nASR: I think about… people aren’t born…\nЕстественнее: I think people aren’t simply born good or bad. Their environment can also influence them.\nПочему: I think + предложение выражает мнение. Конец исходной фразы про генетику распознан плохо; вариант — учебная реконструкция смысла, не точная цитата.\n\n07:17–07:28\nASR: Could you please talk about pronunciation number five?\nЕстественнее: Could you show us how to pronounce the word in number five?\nПочему: Произношение конкретного слова естественнее запросить через how to pronounce. Говорящий в этом месте определён автоматически, атрибуция не абсолютно надёжна.\n\n08:21–08:35\nASR: I think about this number one… Much with D.\nЕстественнее: I think number one matches D. Nurture means caring for and helping someone develop.\nПочему: Matches — «соответствует», а не much. Слово natural и длинное определение в ASR могут быть ошибкой распознавания, поэтому не считаются доказанной ошибкой произношения ученика.\n\n20:00–20:20\nASR: Identity twist… share virtual… genetic code.\nЕстественнее: The paragraph is about identical twins, who share a very similar genetic code.\nПочему: Identical twins, не identity twist. Это в первую очередь нормализация искажённого ASR. Аргумент: The main idea is understanding identical twins.\n\n21:52–22:35\nASR: What about think paragraph number two? / I think about paragraph number two choose B.\nЕстественнее: What do you think about paragraph two? I’d choose B because it focuses on the role of DNA.\nПочему: Для вопроса нужен do you think; для выбора — I’d choose / I think it’s. Формулировка причины — учебный вариант, подтверждённый последующей общей проверкой.\n\n23:45–23:52\nASR: Could you please check a chat?\nЕстественнее: Could you check the chat? Someone has posted the text there.\nПочему: The chat — конкретный чат этого звонка. Please допустимо; лишние слова можно убрать. Не путать техническую проблему с недостаточным пониманием текста.\n\n37:49–38:03\nASR: I’m here, but not at another student.\nЕстественнее: I’m in the breakout room, but there’s nobody else here. Could you move me to another room?\nПочему: There is / there are сообщает о наличии человека. Nobody else / no other student точнее описывает проблему. Исходная фраза распознана неточно, поэтому приведён естественный вариант для такой ситуации.\n\n38:23–38:37\nASR: What is number now, your discussion?\nЕстественнее: Which question are you on? / Which question are you discussing now?\nПочему: Question или item называет пункт задания. Discussion — существительное, discussing — действие. После приветствия учителю важно быстро понять, на каком пункте группа.\n\n38:37–38:44\nASR: I think about number three, natural…\nЕстественнее: For number three, I think the answer is nurture. It’s in paragraph three.\nПочему: I think the answer is…; природу и воспитание различай по смыслу. В ASR natural / nature / nurture смешаны, поэтому последний вариант не является надёжно установленной фактической ошибкой ученика.\n\n45:29–45:39\nASR: I think about the natural is a fundamental…\nЕстественнее: I think nature provides a foundation, while nurture builds on it.\nПочему: Nature — существительное; natural — прилагательное. A foundation — естественная метафора основы. Конец оригинала неясен: это явно помеченная реконструкция возможной мысли, которую можно принять или заменить своим мнением."
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · что происходило по порядку",
+      "text": "00:00:00 · Проверка экрана и приветствие\nВ начале слышно обрывочное Half-ish, затем преподаватель приветствует группу и проверяет, виден ли его экран. Участники отвечают «да». Первый обрывок не используется как учебный пример.\n\n00:00:11 · Nature versus nurture\nПреподаватель приветствует людей в разных часовых поясах: у кого-то утро, у кого-то вечер или день. Затем объявляет тему nature versus nurture и спрашивает, знакомо ли это выражение.\n\n00:00:26 · Что означает этот спор\nОдин участник отвечает, что не слышал выражение. Преподаватель объясняет: рождаются ли люди хорошими или плохими либо становятся такими под влиянием среды? В качестве примера он предлагает обсудить, предопределено ли преступное поведение или его формируют жизненные обстоятельства. Это вопрос для дискуссии, а не научный вывод.\n\n00:01:04 · Первые ответы участников\nПреподаватель приглашает высказать мнение. Один из участников начинает отвечать, но распознавание вопроса и последующей фразы ненадёжно. В конце начинается мысль I think nature and… — природа и воспитание взаимодействуют. Распределение этих коротких обрывков между голосами условно.\n\n00:01:33 · Влияние окружения\nСобеседник говорит о взаимодействии природы и воспитания. Далее есть многократный повтор Are we born good…: это подозрительный участок распознавания. После него различима мысль, что некоторые люди сохраняют хорошие качества в разных обстоятельствах, но большинство меняется во взаимодействии с окружением. Преподаватель уточняет: значит, воспитание влияет немного сильнее наследственности?\n\n00:02:28 · Люди не рождаются однозначно хорошими или плохими\nУченик начинает с I think about… и высказывает мнение, что людей нельзя считать изначально строго хорошими или плохими. Следующая фраза о генетике и чертах личности распознана плохо, поэтому точная формулировка не восстанавливается. Преподаватель отмечает два ответа в пользу воспитания и приглашает следующего участника.\n\n00:02:54 · Талант и практика\nСобеседник поправляет приветствие: у него уже вечер. Он предлагает пример музыканта: врождённый талант относится к природе, а учёба, практика, образование и усердие помогают его развить. Преподаватель переформулирует: некоторые черты могут быть генетическими или данными при рождении, другие связаны со средой.\n\n00:03:56 · Строгие родители\nУчастник просит разрешения добавить мысль и приводит пример строгих родителей: ребёнок может перенять такой стиль воспитания и позже вести себя так же со своими детьми. Конец фразы неясен. Преподаватель подводит итог: большинство группы пока отдаёт больший вес воспитанию.\n\n00:04:33 · Сопоставить слова и определения\nПеред дальнейшим обсуждением преподаватель предлагает шесть слов и шесть определений. Нужно сопоставить каждое слово с определением примерно за две минуты, затем проверить всем классом. На самостоятельной работе появляются отдельные Night / Thank you: считать их содержательным диалогом нельзя.\n\n00:06:03 · Возвращение после потери связи\nУчастники произносят vulnerability и heredity. Один сообщает: связь ненадолго пропала, теперь он вернулся. Преподаватель успокаивает его: сейчас группа лишь сопоставляет слова. Затем просит закончить текущий пункт; если не всё готово, ничего страшного — ответы будут разобраны вместе.\n\n00:07:15 · Попросить произношение\nУчастник просит объяснить произношение пятого слова, indistinguishable; затем упоминается vulnerability. Преподаватель уточняет, нужен ли разбор значения или лишь произношения. Он обещает пройти произношение каждого слова, но сначала хочет закончить определения. Короткие реплики и числительное three местами распознаны ненадёжно.\n\n00:08:05 · Определение nurture\nПреподаватель спрашивает ответ для первого слова nurture. Ученик предлагает вариант D. Произнесённое определение распознано как processes of talking… и содержит искажённые слова; его нельзя заучивать. Преподаватель подтверждает D. Учебное значение nurture — забота, воспитание и развитие человека.\n\n00:08:40 · DNA и vulnerability\nDNA называют носителем генетической информации. Vulnerability объясняется как отсутствие защиты от физического или эмоционального вреда. Буквы ответов в записи звучат противоречиво, поэтому в учебном словаре закреплены значения, а не непроверенные буквы.\n\n00:09:17 · Heredity и indistinguishable\nHeredity — передача психических или физических характеристик от родителей детям; преподаватель подтверждает вариант E. Затем группа обсуждает indistinguishable: объекты невозможно отличить друг от друга. Формулировка enableable to identify в ASR искажена; учебная формулировка — impossible to tell apart.\n\n00:09:55 · IQ и зависший ноутбук\nIQ объясняется как показатель интеллекта, обычно выраженный числом. В ASR major вместо measure. После похвалы один участник сообщает, что ноутбук завис и он не понимает, что происходит. Преподаватель отвечает No worries.\n\n00:10:18 · Ударение в nurture\nПреподаватель предлагает повторять слова за ним. Группа несколько раз произносит nurture; затем он спрашивает, на первом или втором слоге ударение. Ответ — на первом: NUR-ture. Следует ещё несколько повторов и похвала.\n\n00:10:53 · DNA и vulnerability: произношение\nГруппа повторяет DNA и vulnerability. Преподаватель отмечает, что vulnerability длинное слово, и спрашивает об ударении. Участники пробуют разные варианты; преподаватель указывает на часть -bil- / ability. Для практики используется vul-ner-a-BIL-i-ty, а не случайное ударение первого ответа.\n\n00:12:00 · Heredity — существительное, hereditary — прилагательное\nПосле повторения heredity преподаватель замечает, что раньше кто-то сказал hereditary. Он различает части речи: heredity — существительное «наследственность», hereditary — прилагательное «наследственный». В сегодняшнем чтении ожидается heredity, хотя оба слова могут пригодиться.\n\n00:12:57 · Длинное слово indistinguishable\nГруппа повторяет indistinguishable. В автоматическом тексте ответ про номер слога распознан противоречиво. Для заучивания проверен словарный образец in-di-STIN-gui-sha-ble: основное ударение на /stɪŋ/. IQ — последнее слово этого блока. Номер слога из сомнительной реплики не заучиваем.\n\n00:13:55 · Читать ради основной мысли\nСледующее задание — подобрать краткое название к каждому абзацу. Преподаватель сначала показывает варианты заголовков и отправляет их в чат. Он проверяет понимание: каждому абзацу соответствует один заголовок. На общее понимание и сопоставление даётся примерно три минуты.\n\n00:15:33 · Самостоятельное чтение\nПреподаватель показывает текст. Дальше ASR многократно выдаёт Okay и Thank you во время самостоятельного чтения. Полного текста со слайда запись не содержит: группа читает молча. Учебные тексты ниже — самостоятельные адаптации по теме, а не восстановленная копия статьи.\n\n00:18:34 · Первый ответ и сомнение преподавателя\nПреподаватель просит закончить чтение и переходит к первому абзацу. Он спрашивает, есть ли другое мнение, затем признаёт, что в его ключе стоит D, human diversity. Предлагает вернуться к тексту и проверить: возможно, ошибается он сам.\n\n00:20:00 · Обосновать ответ и пересмотреть ключ\nУчастник ссылается на предложение об однояйцевых близнецах и почти одинаковом генетическом коде. Реплика ученика местами искажена. После повторного чтения преподаватель соглашается с группой: для первого абзаца лучше E, understanding identical twins. Он допускает, что при составлении ключа записал неверный ответ.\n\n00:21:07 · Инструкция для малых групп\nПосле вопроса о втором абзаце другой голос напоминает преподавателю о проверке в breakout rooms. Преподаватель решает отправить участников в малые группы, поскольку ответы различаются, и просит немного подождать, пока всё настроит.\n\n00:21:51 · Начать обсуждение абзаца\nВ малой группе ученик пытается спросить о втором абзаце. Собеседник просит перечитать: он немного устал. Ученик предлагает B и начинает объяснять сравнением двух типов близнецов; слова о близнецах и генетике распознаны с ошибками, поэтому точная цитата аргумента не восстанавливается.\n\n00:22:50 · Изображение не загружается\nСобеседник ждёт загрузки изображения, затем сообщает file error и говорит, что больше не видит текст. Ученик обсуждает третий абзац: F, two areas / lines of research, и предлагает проверить чат, куда другой участник отправил текст. Собеседник отвечает, что изображение всё равно не загружается; он уже написал организаторам.\n\n00:25:05 · Вернуться к проверке ответов\nПосле паузы участники ждут повторной отправки картинки. Когда она появляется, они снова обсуждают второй абзац — роль DNA — и третий, где упоминаются две линии исследования. Несколько слов и букв ответа ненадёжны; окончательный ключ нужно сверять с последующей общей проверкой, а не угадывать по обрывкам.\n\n00:27:07 · Общий ключ: абзацы 1–3\nГруппа возвращается. Для абзаца 1 уже выбран E. Для абзаца 2 преподаватель подтверждает B, What is the role of DNA? Для абзаца 3 один участник предлагает C, другие возражают и ссылаются на two lines of research. Преподаватель подтверждает F.\n\n00:28:24 · Общий ключ: абзацы 4–6\nДля абзаца 4 звучит C, earlier research. Для абзаца 5 — A, separated at birth. Для абзаца 6 — D, human diversity. Некоторые слова повторяются; итоговый услышанный порядок заголовков: E, B, F, C, A, D.\n\n00:29:01 · Заполнить пропуски по смыслу\nСледующее задание содержит восемь предложений с пропусками. Их формулировки не обязательно дословно совпадают со статьёй: нужно понять смысл и вывести подходящий ответ. Вопросы идут примерно в порядке текста. Если найдены пункты 4 и 6, подсказка к 5 должна быть между ними. Даётся около пяти минут; задания отправляются в чат.\n\n00:30:46 · Чтение и подготовка ответов\nВо время самостоятельной работы ASR выдаёт длинные серии mm-hmm и Thank you. Надёжного содержательного разговора здесь нет. В конце преподаватель просит закончить предложение, которое участники сейчас читают.\n\n00:34:02 · Вторая работа в малых группах\nПреподаватель отправляет группу обсуждать ответы в breakout rooms; если не всё готово, можно закончить вместе с партнёром. С 34:12 до примерно 37:49 распознавание почти целиком состоит из Thank you. Это помечено как ненадёжный интервал, а не как восстановленный разговор. Позже выясняется, что ученик остался без партнёра.\n\n00:37:49 · Попросить перевод в другую комнату\nУченик сообщает, что он здесь, но другого ученика рядом нет. Преподаватель извиняется: он этого не заметил, и обещает перевести ученика в другую группу. После перемещения звучат приветствия. Автоматические номера голосов местами смешаны.\n\n00:38:23 · Уточнить текущий пункт\nУченик спрашивает, какой номер сейчас обсуждают; собеседник отвечает, что третий. Ученик предлагает свой вариант по третьему пункту, затем группа переходит к четвёртому. Формулировки What is number now… и We are discussion… разобраны отдельно как языковые модели для улучшения, без заучивания ошибок ASR.\n\n00:38:52 · Ненадёжные фрагменты в малой группе\nРаспознавание многократно выдаёт Bridge / At bear. По контексту последующей проверки четвёртый ответ может быть at birth, но здесь это не подтверждённая дословная реплика. Далее обсуждается слово indistinguishable; многочисленные искажённые варианты не используются как образец произношения. Несколько фраз о пятом и шестом пунктах остаются неразборчивыми.\n\n00:40:14 · Проверка пропусков: identical, fraternal, nurture\nВ общей проверке звучит identical для первого пункта и fraternal для второго. Преподаватель связывает сравнение двух типов близнецов с пониманием роли nature и nurture. В учебном пересказе различаются однояйцевые и разнояйцевые близнецы; формулировка о «всей DNA» остаётся упрощением из занятия.\n\n00:41:28 · Различать nature и nurture\nУчастник ещё раз просит произношение. Преподаватель противопоставляет nature и nurture, группа повторяет. Для тренировки закреплены отдельные словарные образцы, чтобы не смешивать похожие по написанию слова.\n\n00:42:01 · Четвёртый ответ и сложное слово\nПереход к ответу 4 в записи есть, но сам полный ответ чётко не распознан. Далее для пункта 5 подтверждается indistinguishable. Преподаватель хвалит произношение и несколько раз повторяет слово вместе с участниками. Непонятные реплики не превращены в уверенный ключ.\n\n00:42:59 · Human nature и genetic influence\nДля пункта 6 звучит human nature. Пункт 7 в ASR перекрыт короткими Thank you и не восстановлен. Для пункта 8 звучит genetic influence. Преподаватель подбадривает группу: даже носители языка иногда спотыкаются на длинных словах вроде indistinguishable. Затем слово повторяют ещё раз.\n\n00:44:05 · Изменилось ли мнение после чтения\nПреподаватель возвращает разговор от произношения к смыслу: существуют ли предопределённые черты, изменило ли чтение мнение участников и что сильнее формирует человека? Один участник отвечает, но ASR смешивает nature и nurture, поэтому его позиция не сводится к однозначному выводу.\n\n00:45:27 · Основа и развитие\nУченик пытается выразить мысль о фундаменте и том, что над ним строится. Точные слова natural / nature / nurture в ASR неоднозначны. Для практики предложена явно помеченная реконструкция: природа даёт основу, а воспитание помогает её развивать. Преподаватель сообщает, что времени на новые малые группы уже не хватает, и приглашает последние мнения.\n\n00:45:55 · Потенциал и влияние генетики\nСобеседнику запомнилась финальная мысль о генетическом влиянии на жизнь и будущий потенциал; он говорит, что раньше не представлял этого. Формы genetics are has в автоматическом тексте не считаются надёжной дословной речью. Преподаватель отмечает, что ему было интересно обсуждение генетики и IQ. Эти выводы представлены как содержание урока, а не проверенные научные утверждения.\n\n00:46:43 · Заключительная похвала\nПреподаватель завершает занятие, благодарит за участие, отмечает хорошую работу над произношением и говорит keep it up — продолжайте в том же духе. Участники благодарят его.\n\n00:47:15 · Второе занятие отменено и перерыв Thanksgiving\nОрганизатор сообщает, что второго урока сегодня не будет, и извиняется. Участников приглашают вернуться в понедельник и вторник следующей недели, после чего будет перерыв Thanksgiving. Речь идёт о днях организатора в США; это не автоматическое подтверждение новых событий по Сингапуру. В конце группа прощается.\n\n00:47:47 · Конец файла\nХвост записи: дополнительных распознанных реплик нет."
+    },
+    {
+      "kind": "reading",
+      "title": "Запись урока с таймкодами",
+      "text": "Recording: lesson-2026-11-20-nature-nurture\n\n[00:00:00–11.43] Проверка экрана и приветствие\n[00:00:11–26.57] Nature versus nurture\n[00:00:26–61.81] Что означает этот спор\n[00:01:04–89.84] Первые ответы участников\n[00:01:33–148.96] Влияние окружения\n[00:02:28–173.88] Люди не рождаются однозначно хорошими или плохими\n[00:02:54–236.2] Талант и практика\n[00:03:56–273.09] Строгие родители\n[00:04:33–363.07] Сопоставить слова и определения\n[00:06:03–435.45] Возвращение после потери связи\n[00:07:15–480.51] Попросить произношение\n[00:08:05–520.35] Определение nurture\n[00:08:40–557.09] DNA и vulnerability\n[00:09:17–595.75] Heredity и indistinguishable\n[00:09:55–618.51] IQ и зависший ноутбук\n[00:10:18–652.93] Ударение в nurture\n[00:10:53–720.47] DNA и vulnerability: произношение\n[00:12:00–777.58] Heredity — существительное, hereditary — прилагательное\n[00:12:57–835.3] Длинное слово indistinguishable\n[00:13:55–933.23] Читать ради основной мысли\n[00:15:33–1112.71] Самостоятельное чтение\n[00:18:34–1200.69] Первый ответ и сомнение преподавателя\n[00:20:00–1267.69] Обосновать ответ и пересмотреть ключ\n[00:21:07–1311.69] Инструкция для малых групп\n[00:21:51–1370.23] Начать обсуждение абзаца\n[00:22:50–1480.49] Изображение не загружается\n[00:25:05–1626.41] Вернуться к проверке ответов\n[00:27:07–1703.29] Общий ключ: абзацы 1–3\n[00:28:24–1741.93] Общий ключ: абзацы 4–6\n[00:29:01–1846.41] Заполнить пропуски по смыслу\n[00:30:46–2042.33] Чтение и подготовка ответов\n[00:34:02–2269.77] Вторая работа в малых группах\n[00:37:49–2303.47] Попросить перевод в другую комнату\n[00:38:23–2331.32] Уточнить текущий пункт\n[00:38:52–2414.63] Ненадёжные фрагменты в малой группе\n[00:40:14–2488.71] Проверка пропусков: identical, fraternal, nurture\n[00:41:28–2519.8] Различать nature и nurture\n[00:42:01–2579.59] Четвёртый ответ и сложное слово\n[00:42:59–2644.98] Human nature и genetic influence\n[00:44:05–2727.11] Изменилось ли мнение после чтения\n[00:45:27–2755.75] Основа и развитие\n[00:45:55–2798.71] Потенциал и влияние генетики\n[00:46:43–2835.91] Заключительная похвала\n[00:47:15–2867.59] Второе занятие отменено и перерыв Thanksgiving\n[00:47:47–2873.46] Конец файла"
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · полнота, пропуски и надёжность",
+      "text": "Запись 47:53.46, 674 сегмента локального Vibe. Обработан весь диапазон, включая конец с отменой второго занятия. Школа Teaching House определена по контексту расписания и времени записи; название школы в аудио не произносится.\n\nСмысловой перевод в расшифровке объясняет каждый непрерывный блок. Он не притворяется дословным переводом ошибочных обрывков ASR. Полный обезличенный вывод распознавания хранится рядом в source-transcript.json; записи голоса в репозиторий и базу не загружаются.\n\nКластеры голосов автоматические: они смешивают преподавателя и учеников на отдельных словах. Learner — учебная роль, не подтверждение авторства каждой исходной реплики.\n\nОтмечены: зацикленные вопросы около 01:38–01:55; паузы и повторы при самостоятельном чтении 05:03–06:33, 15:49–18:34, 30:54–33:55; ненадёжный интервал в малой группе 34:12–37:49; сильно искажённые слова 38:52–40:14; неясный ответ 4 и отсутствующий в ASR ответ 7. Исходная статья на слайде читалась молча: её нельзя восстановить из этой записи. Все шесть текстов для чтения и диалоги — авторские адаптации, а не выдуманные цитаты оригинала.\n\nУслышанный итог заголовков: 1 E — Understanding identical twins; 2 B — What is the role of DNA?; 3 F — Two lines/areas of research; 4 C — Earlier research; 5 A — Separated at birth; 6 D — Human diversity. Для пропусков уверенно различимы identical, fraternal, nurture, indistinguishable, human nature и genetic influence. Непроверенные буквы определений, пропуски 4 и 7 не превращены в уверенные ответы.\n\nПроизношение проверено по Cambridge: indistinguishable /ˌɪn.dɪˈstɪŋ.ɡwɪ.ʃə.bəl/; главный акцент на /stɪŋ/. Не заучивать сомнительное “second syllable” из автоматического текста. Ссылки приведены в README. Утверждения о генетике в разговоре служат контекстом для английского и не заменяют научную проверку.",
+      "url": "https://github.com/itprodavets/fluent-thread/tree/main/materials/en/lessons/teaching-house/nature-and-nurture"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Think / think about",
+      "prompt": "Исправь ответ о выборе: I think about number two is B.",
+      "answer": "I think number two is B. / I’d choose B for number two."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Мнение и тема",
+      "prompt": "Вставь think / think about: I often ___ this question, but I ___ both factors matter.",
+      "answer": "I often think about this question, but I think both factors matter."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Вопрос в группе",
+      "prompt": "Спроси по-английски: «Какой вопрос вы сейчас обсуждаете?»",
+      "answer": "Which question are you discussing now? / Which question are you on?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Косвенный вопрос",
+      "prompt": "Исправь: Could you tell me which question are you on?",
+      "answer": "Could you tell me which question you are on?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Существительное и прилагательное",
+      "prompt": "Вставь nature / natural; heredity / hereditary: ___ ability may matter. ___ is the passing of characteristics from parents to children.",
+      "answer": "Natural ability may matter. Heredity is the passing of characteristics from parents to children."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Пассив",
+      "prompt": "Исправь: She raised by strict parents. They separated at birth.",
+      "answer": "She was raised by strict parents. They were separated at birth."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Сравнение",
+      "prompt": "Исправь: Nurture is the more important that nature in this example.",
+      "answer": "Nurture is more important than nature in this example."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Условие и результат",
+      "prompt": "Соедини: «Если вы ещё не закончили, можете закончить с партнёром».",
+      "answer": "If you haven’t finished, you can finish with your partner."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Нет партнёра",
+      "prompt": "Сообщи, что в комнате больше никого нет, и вежливо попроси перевод в другую.",
+      "answer": "There’s nobody else in my breakout room. Could you move me to another room, please?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Понимание урока · аргумент и исправление ключа",
+      "prompt": "Почему преподаватель изменил ответ для первого абзаца? Что полезнее: назвать букву или объяснить её выбор? Ответь по-английски.",
+      "answer": "A learner referred to the text about identical twins. Upon rereading, the teacher agreed that E was a better heading. Explaining the main idea and pointing to evidence is more useful than only saying a letter."
+    },
+    {
+      "kind": "exercise",
+      "title": "Понимание урока · восстановить участие",
+      "prompt": "Ты вернулся после потери связи, не видишь картинку и не знаешь текущий вопрос. Напиши или произнеси три короткие фразы, которые помогут снова участвовать.",
+      "answer": "Sorry, I lost the connection for a while. Which question are you on? The picture won’t load; could you paste the relevant sentence into the chat?"
+    }
+  ]
+}

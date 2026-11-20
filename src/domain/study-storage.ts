@@ -1,6 +1,7 @@
 import { lessonTopicTitle } from './lesson-cues';
 import type { Study } from './model';
 import { upgradeStarterTopics } from './starter-topics';
+import { neutralLessonRoles } from './material-roles';
 
 function upgradeLessonTitles(study: Study): Study {
   return { ...study, topics: study.topics.map(topic => {
@@ -10,7 +11,7 @@ function upgradeLessonTitles(study: Study): Study {
 }
 
 export function prepareStudy(study: Study) {
-  return upgradeLessonTitles(upgradeStarterTopics({ ...study, resources: study.resources ?? [] }));
+  return neutralLessonRoles(upgradeLessonTitles(upgradeStarterTopics({ ...study, resources: study.resources ?? [] })));
 }
 
 const key = 'nit-rechi-v1';

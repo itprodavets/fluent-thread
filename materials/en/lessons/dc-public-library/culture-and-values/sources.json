@@ -1,0 +1,18 @@
+[
+  {
+    "source": "Record-2026-11-19 09-13-21-20261119-091321",
+    "durationSeconds": 7861.82,
+    "segments": 2493,
+    "package": "lesson.json",
+    "words": 45,
+    "materials": 35,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ]
+  }
+]

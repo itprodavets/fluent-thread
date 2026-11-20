@@ -1,0 +1,140 @@
+[
+  {
+    "topic": "Волки, экосистемы и экодом · 16 ноября",
+    "previousTitle": "16 ноября · Экосистемы, исчезнувшие виды и экодом",
+    "school": "Stafford House",
+    "date": "2026-11-16",
+    "id": "stafford-house/wolves-and-eco-homes",
+    "language": "en",
+    "path": "lessons/stafford-house/wolves-and-eco-homes/lesson.json",
+    "legacyPath": "2026-11-16/wolves-and-eco-homes.json"
+  },
+  {
+    "topic": "Планы и договорённости по-английски · 16 ноября",
+    "previousTitle": "16 ноября · О себе, футбол и четыре способа говорить о будущем",
+    "school": "ACE TEFL",
+    "date": "2026-11-16",
+    "id": "ace-tefl/future-plans",
+    "language": "en",
+    "path": "lessons/ace-tefl/future-plans/lesson.json",
+    "legacyPath": "2026-11-16/future-plans.json"
+  },
+  {
+    "topic": "Короткие ответы, мнения и разговор о себе · 16 ноября",
+    "previousTitle": "16 ноября · Ударение, короткие ответы и разговор о целях",
+    "school": "DC Teacher Training",
+    "date": "2026-11-16",
+    "id": "dc-teacher-training/responses-and-opinions",
+    "language": "en",
+    "path": "lessons/dc-teacher-training/responses-and-opinions/lesson.json",
+    "legacyPath": "2026-11-16/responses-and-opinions.json"
+  },
+  {
+    "topic": "Выражения с get, интервью и вопросы · 17 ноября",
+    "school": "DC Teacher Training",
+    "date": "2026-11-17",
+    "id": "dc-teacher-training/get-and-interviews",
+    "language": "en",
+    "path": "lessons/dc-teacher-training/get-and-interviews/lesson.json",
+    "legacyPath": "2026-11-17/dc-teacher-training-b2.json"
+  },
+  {
+    "topic": "Разговорный английский с Bruce · 17 ноября",
+    "school": "DC Public Library",
+    "date": "2026-11-17",
+    "id": "dc-public-library/conversation-and-values",
+    "language": "en",
+    "path": "lessons/dc-public-library/conversation-and-values/lesson.json",
+    "legacyPath": "2026-11-17/dcpl-conversation.json"
+  },
+  {
+    "topic": "Климат, британский этикет и формы -ing · 17 ноября",
+    "school": "Teaching House",
+    "date": "2026-11-17",
+    "id": "teaching-house/climate-etiquette-and-ing",
+    "language": "en",
+    "path": "lessons/teaching-house/climate-etiquette-and-ing/lesson.json",
+    "legacyPath": "2026-11-17/teaching-house-b2.json"
+  },
+  {
+    "topic": "Отношения, соперничество и счастье · 18 ноября",
+    "school": "DC Teacher Training",
+    "date": "2026-11-18",
+    "id": "dc-teacher-training/relationships-and-happiness",
+    "language": "en",
+    "path": "lessons/dc-teacher-training/relationships-and-happiness/lesson.json",
+    "legacyPath": "2026-11-18/dc-relationships.json"
+  },
+  {
+    "topic": "Молодёжь, перемены и цена Олимпиады · 18 ноября",
+    "school": "Teaching House",
+    "date": "2026-11-18",
+    "id": "teaching-house/generations-and-olympics",
+    "language": "en",
+    "path": "lessons/teaching-house/generations-and-olympics/lesson.json",
+    "legacyPath": "2026-11-18/teaching-house-change.json"
+  },
+  {
+    "topic": "Работа, просьбы и похожие слова · 18 ноября",
+    "school": "UUCA ESOL",
+    "date": "2026-11-18",
+    "id": "uuca-esol/workplace-requests",
+    "language": "en",
+    "path": "lessons/uuca-esol/workplace-requests/lesson.json",
+    "legacyPath": "2026-11-18/uuca-workplace.json"
+  },
+  {
+    "topic": "Говорить увереннее и учиться каждый день · 19 ноября",
+    "school": "DC Public Library · Marilyn",
+    "date": "2026-11-19",
+    "id": "dc-public-library/learning-and-speaking-confidence",
+    "language": "en",
+    "path": "lessons/dc-public-library/learning-and-speaking-confidence/lesson.json",
+    "legacyPath": "2026-11-19/dcpl-learning.json"
+  },
+  {
+    "topic": "Культура, ценности и вежливое обсуждение · 19 ноября",
+    "school": "DC Public Library",
+    "date": "2026-11-19",
+    "id": "dc-public-library/culture-and-values",
+    "language": "en",
+    "path": "lessons/dc-public-library/culture-and-values/lesson.json",
+    "legacyPath": "2026-11-19/dcpl-cultures.json"
+  },
+  {
+    "topic": "Суеверия, традиции и вежливые вопросы · 19 ноября",
+    "school": "Marin County Library · Chit Chat",
+    "date": "2026-11-19",
+    "id": "marin-county-library/superstitions-and-traditions",
+    "language": "en",
+    "path": "lessons/marin-county-library/superstitions-and-traditions/lesson.json",
+    "legacyPath": "2026-11-19/marin-superstitions.json"
+  },
+  {
+    "topic": "Работа, прогнозы и истории о поездках · 19 ноября",
+    "school": "Teaching House",
+    "date": "2026-11-19",
+    "id": "teaching-house/certainty-and-travel",
+    "language": "en",
+    "path": "lessons/teaching-house/certainty-and-travel/lesson.json",
+    "legacyPath": "2026-11-19/teaching-house-certainty.json"
+  },
+  {
+    "topic": "Память, привычки и remember / forget / try · 19 ноября",
+    "school": "ACE TEFL",
+    "date": "2026-11-19",
+    "id": "ace-tefl/memory-and-verb-patterns",
+    "language": "en",
+    "path": "lessons/ace-tefl/memory-and-verb-patterns/lesson.json",
+    "legacyPath": "2026-11-19/ace-memory.json"
+  },
+  {
+    "topic": "Природа и воспитание: мнения, чтение и работа в группе · 20 ноября",
+    "school": "Teaching House",
+    "date": "2026-11-20",
+    "id": "teaching-house/nature-and-nurture",
+    "language": "en",
+    "path": "lessons/teaching-house/nature-and-nurture/lesson.json",
+    "legacyPath": "2026-11-20/teaching-house-nature-nurture.json"
+  }
+]

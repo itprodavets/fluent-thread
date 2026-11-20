@@ -1,4 +1,5 @@
 import type { Study } from './model.ts';
+import { neutralLessonRoles } from './material-roles.ts';
 
 export type Value = any;
 export type CloudRow = { id: string; value: Value; revision: number };
@@ -101,7 +102,7 @@ export function reconcileRows(document: ProfileDocument, rows: CloudRow[], sent?
     if (merged.conflict) conflicts.push({ id: crypto.randomUUID(), key: row.id, local, remote: row.value, at: Date.now() });
     changed = true;
   }
-  return changed ? { ...document, study: unpackStudy(records), base, conflicts } : document;
+  return changed ? { ...document, study: neutralLessonRoles(unpackStudy(records)), base, conflicts } : document;
 }
 export function reconcileRow(document: ProfileDocument, row: CloudRow, sent?: Value): ProfileDocument {
   return reconcileRows(document, [row], arguments.length >= 3 ? new Map([[row.id, sent]]) : undefined);
