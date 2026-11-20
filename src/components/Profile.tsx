@@ -10,7 +10,7 @@ import { Heading } from './common';
 import { CloudSettings } from './CloudSettings';
 import { statusLabels } from './ProfileSummary';
 export function Profile() {
-  const { user, error: authError } = useIdentity();
+  const { user, error: authError, storageMode } = useIdentity();
   const store = useProfileStore();
   const status = useSyncExternalStore(store.subscribe, store.getStatus);
   const { study, update, notify } = useWorkspace();
@@ -80,7 +80,7 @@ export function Profile() {
             <label>Имя в приложении<input value={name} maxLength={120} onChange={event => setName(event.target.value)} autoComplete="name" /></label>
             <div className="actions"><button type="submit">Сохранить имя</button><button type="button" disabled={busy} onClick={signOut}>Выйти на этом устройстве</button></div>
           </form>
-          <p className="sub">Чтобы открыть свой профиль на другом устройстве, войди с тем же email. Ксении нужно войти со своим адресом — её словарь и прогресс будут отдельными.</p>
+          <p className="sub">{storageMode === 'cloud' ? 'На другом устройстве подключи ту же базу и войди с тем же email — словарь и прогресс загрузятся из облака.' : 'Вход сохраняет учётную запись. Слова и прогресс этого профиля остаются в данном браузере. Для синхронизации подключи свою базу Supabase на обоих устройствах.'}</p>
         </> : <>
           <h2>Войти или создать профиль</h2>
           <p>У каждого свой email. Пароль создавать не нужно — вход подтверждается письмом.</p>
@@ -101,16 +101,17 @@ export function Profile() {
       </section>
       <section className="resource" aria-label="Сохранение и синхронизация">
         <h2>Сохранение</h2>
-        <p role="status">{statusLabels[status.state]}</p>
+        <p role="status">{storageMode === 'checking' ? 'Проверяем режим хранения…' : storageMode === 'error' ? 'Не удалось проверить синхронизацию. Данные сохранены на устройстве; повторим проверку при восстановлении связи.' : statusLabels[status.state]}</p>
+        {storageMode === 'local' && <p>Локальное хранение: слова, материалы, ошибки и очередь повторения остаются в этом браузере. На другом устройстве автоматически не появятся. Скачивай резервную копию или подключи свою базу.</p>}
         {status.lastSync && <p className="sub">Последняя синхронизация: {new Date(status.lastSync).toLocaleString('ru')}</p>}
         {status.message && <p role="status">{status.message}</p>}
         <p>{study.words.length.toLocaleString('ru')} слов и выражений · {Object.keys(study.results).length.toLocaleString('ru')} записей прогресса</p>
         <div className="actions">
-          {user && <button type="button" disabled={status.state === 'syncing'} onClick={() => { void store.sync(); }}>Синхронизировать сейчас</button>}
+          {user && storageMode === 'cloud' && <button type="button" disabled={status.state === 'syncing'} onClick={() => { void store.sync(); }}>Синхронизировать сейчас</button>}
           <button type="button" onClick={downloadBackup}>Скачать резервную копию</button>
           <a className="button" href="#account">Открыть словарь</a>
         </div>
-        <p className="sub">После подключения и входа будут синхронизироваться слова, учебные материалы, ошибки и результаты повторений. Записи твоего голоса и подробная история из Anki остаются на этом устройстве и в резервную копию не включаются.</p>
+        <p className="sub">Облачная синхронизация доступна в своей базе или в подключённом профиле с доступом к облаку приложения. Записи твоего голоса и подробная история из Anki остаются на этом устройстве и в резервную копию не включаются.</p>
         {user && <details className="fold"><summary>Перенести словарь, который был без входа</summary>
           <p>Добавит словарь и результаты повторений в текущий профиль. История Anki и записи также станут доступны в нём на этом устройстве, без загрузки в облако. Сначала проверь email выше. Уже существующие записи профиля имеют приоритет; исходные данные без входа сохранятся.</p>
           <button type="button" disabled={importing} onClick={importGuest}>{importing ? 'Переносим…' : 'Добавить данные без входа в этот профиль'}</button>
@@ -125,6 +126,7 @@ export function Profile() {
           <div className="actions"><button type="button" onClick={() => { void store.resolve(conflict.id,true).catch(() => notify('Не удалось сохранить выбор.')); }}>Использовать мой вариант</button><button type="button" onClick={() => { void store.resolve(conflict.id,false).catch(() => notify('Не удалось сохранить выбор.')); }}>Оставить облачный</button></div>
         </article>)}
       </section>}
+      <section className="resource" aria-label="Данные и статистика"><h2>Данные и статистика</h2><p>Для статистики используются число зарегистрированных аккаунтов и даты входа из системы авторизации. Слова, ответы, ошибки и история Anki для статистики не собираются. Общие уроки загружаются с сайта.</p></section>
       <CloudSettings />
     </div>
   </>;

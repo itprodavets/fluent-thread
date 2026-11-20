@@ -1,3 +1,4 @@
+import { MaterialReview } from './MaterialReview';
 import { useEffect, useId, useState } from 'react';
 import { useWorkspace } from '../context';
 import { assessPhraseCard, assessTeacherPhrase, lessonPractice, phraseVocabularyId, phraseWordKey, teacherPhraseCards } from '../domain/lesson-practice';
@@ -118,6 +119,7 @@ function GrammarExercise({ exercise }: { exercise: Resource }) {
     <p className="source-text" lang={exercise.language}>{exercise.prompt}</p>
     <label>Твой ответ<textarea rows={3} lang={exercise.language} /></label>
     <Fold title="Ответ для самопроверки"><p className="source-text" lang={exercise.language}>{exercise.answer}</p></Fold>
+    <MaterialReview resource={exercise} />
   </Fold>;
 }
 
@@ -137,7 +139,7 @@ export function LessonPractice({ resources, topicId, openPhrases }: { resources:
       })}
     </Fold>}
     {!!grammar.length && <Fold title="Правила и примеры">
-      {grammar.map(material => <p key={material.id} className="source-text">{material.text}</p>)}
+      {grammar.map(material => <div key={material.id}><p className="source-text">{material.text}</p><MaterialReview resource={material} /></div>)}
     </Fold>}
     {!!exercises.length && <Fold title={`Упражнения по грамматике · ${exercises.length}`}>
       {exercises.map(exercise => <GrammarExercise key={exercise.id} exercise={exercise} />)}

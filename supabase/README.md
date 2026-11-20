@@ -70,3 +70,18 @@ Without public configuration the app remains usable locally and accurately state
 Open Profile → Своя база Supabase. Supply a project URL (HTTPS origin only) and a public publishable/anon key. Apply the migration and configure Auth/email delivery in that project first. The app checks the public `fluent_thread_schema_version()` RPC before saving the override. This RPC reveals only a version number; all study data remains protected by RLS.
 
 The override stays in this browser. Enter the same configuration on your other device to sync with that database. Restore the app default using the reset button. Project switching retains each project's per-user local cache, outbox and recording/history namespaces; it does not automatically copy vocabulary into another project. Auth storage and caches include the project origin, so even identical UUIDs in different projects cannot share data. Database passwords, secret keys and service_role keys must never be entered into this setting.
+
+## Local-first shared project
+
+Apply `migrations/202611200002_storage_policy.sql` after the journal migration. Own installations keep full sync by default. On the application owner's shared project only, run `maintenance/enable-shared-local-default.sql` once: it atomically preserves every existing `study_profiles` account in a private allowlist and makes later accounts local-only. The activation does not delete or rewrite learning rows. Re-running activation never adds later users to the list.
+
+Both read RLS and the SECURITY DEFINER sync wrapper enforce storage mode; browser roles cannot call the internal implementation or edit membership/settings. Using the shared URL under “own database” does not bypass this policy. A failed policy check pauses sync but preserves the same local profile, outbox and revisions. A definitively absent RPC is accepted only for a different legacy personal project.
+
+Statistics require no study-data uploads: the administrator can count registrations and inspect existing last-sign-in values in Supabase Authentication. No public directory or additional analytics collector is created.
+
+Read-only checks:
+```sql
+select shared_mode from public.study_storage_settings;
+select count(*) as retained_cloud_accounts from public.study_cloud_members;
+select count(*) as registered_accounts, count(*) filter (where last_sign_in_at >= now()-interval '30 days') as signed_in_last_30_days from auth.users;
+```

@@ -1,3 +1,4 @@
+import { MaterialReviewStatus } from './MaterialReview';
 import { useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { Resource, Topic } from '../domain/model';
@@ -97,7 +98,7 @@ export function ReadingShelf({ resources, topics, language, read, openLesson, le
               select(resource);
               focus(heading);
             }}>
-            {group.title}
+            {group.title} <MaterialReviewStatus resource={resource} />
             {resource.topicId && <small>{topics.find(topic => topic.id === resource.topicId)?.title}</small>}
           </button>
         </li>;

@@ -1,10 +1,14 @@
+import { materialRecallContent } from '../domain/material-review';
 import { useEffect, useRef, useState } from 'react';
 import { useWorkspace } from '../context';
 import { assessTeacherPhrase } from '../domain/lesson-practice';
 import { lessonReviewDue, lessonReviewQueue } from '../domain/lesson-review';
 import type { Topic, Word } from '../domain/model';
 import { stopSpeaking } from '../domain/voice.js';
-import { Heading, VoiceButtons } from './common';
+import { Heading, VoiceButtons, SourceLink } from './common';
+import { MaterialReview } from './MaterialReview';
+import { ReadableMaterial } from './ReadableMaterial';
+import type { Resource } from '../domain/model';
 import { WordExamples } from './WordExamples';
 
 const nextReviewDate = new Intl.DateTimeFormat('ru', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' });
@@ -50,13 +54,29 @@ function ReviewCard({ word, topics, refresh }: { word: Word; topics: Topic[]; re
   </article>;
 }
 
+function MaterialReviewCard({ resource, topics, refresh }: { resource: Resource; topics: Topic[]; refresh: (now:number) => void }) {
+  const [revealed,reveal] = useState(false);
+  const [answer,setAnswer] = useState('');
+  const content = materialRecallContent(resource);
+  return <article className="resource daily-review-card">
+    <p className="sub">{sources(topics)}</p><h2>{resource.title}</h2>
+    <p className="source-text">{resource.prompt || (resource.kind === 'dialogue' ? 'Разыграй диалог своими словами.' : 'Вспомни основные мысли и перескажи своими словами.')}</p>
+    {content.passage && <p className="source-text" lang={resource.language}>{content.passage}</p>}
+    <label>Твой ответ<textarea value={answer} onChange={event => setAnswer(event.target.value)} rows={3} lang={resource.language} /></label>
+    {revealed ? <><SourceLink url={content.url} /><ReadableMaterial text={content.reference} language={resource.language} translation={resource.translation} dialogue={resource.kind === 'dialogue'} /><MaterialReview resource={resource} onRated={refresh} /></>
+      : <button type="button" className="primary" onClick={() => reveal(true)}>Показать ответ</button>}
+  </article>;
+}
+
 export function LessonReview() {
   const { study } = useWorkspace();
   const [now, setNow] = useState(Date.now);
   const [selectedId, select] = useState('');
   const cardArea = useRef<HTMLDivElement>(null);
-  const { due, nextAt } = lessonReviewQueue(study, now);
-  const selected = due.find(item => item.word.id === selectedId) ?? due[0];
+  const { all: due, nextAt } = lessonReviewQueue(study, now);
+  const itemId = (item: typeof due[number]) => item.kind === 'word' ? item.word.id : item.resource.id;
+  const itemTitle = (item: typeof due[number]) => item.kind === 'word' ? item.word.meaning : item.resource.title;
+  const selected = due.find(item => itemId(item) === selectedId) ?? due[0];
 
   useEffect(() => {
     const refresh = () => setNow(Date.now());
@@ -76,19 +96,18 @@ export function LessonReview() {
     <Heading title="Повторить сегодня" />
     <p className="sub" role="status">{due.length ? 'К повторению: ' + due.length : 'Сейчас карточек к повторению нет.'}</p>
     {selected ? <>
-      <div ref={cardArea}><ReviewCard key={selected.word.id} word={selected.word} topics={selected.topics} refresh={timestamp => {
-        setNow(timestamp);
-        select('');
-      }} /></div>
+      <div ref={cardArea}>{selected.kind === 'word'
+        ? <ReviewCard key={selected.word.id} word={selected.word} topics={selected.topics} refresh={timestamp => { setNow(timestamp); select(''); }} />
+        : <MaterialReviewCard key={selected.resource.id} resource={selected.resource} topics={selected.topics} refresh={timestamp => { setNow(timestamp); select(''); }} />}</div>
       {due.length > 1 && <section aria-labelledby="daily-review-list-title">
         <h2 id="daily-review-list-title">Очередь</h2>
         <ol className="daily-review-list">
-          {due.map(({ word, topics }) => <li key={word.id}><button className="school-lesson-choice" type="button"
-            aria-pressed={word.id === selected.word.id} onClick={() => {
-              select(word.id);
+          {due.map(item => <li key={itemId(item)}><button className="school-lesson-choice" type="button"
+            aria-pressed={itemId(item) === itemId(selected)} onClick={() => {
+              select(itemId(item));
               cardArea.current?.scrollIntoView({ block: 'start' });
             }}>
-            {word.meaning}<small>{sources(topics)}</small>
+            {itemTitle(item)}<small>{sources(item.topics)}</small>
           </button></li>)}
         </ol>
       </section>}
