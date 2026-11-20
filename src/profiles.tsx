@@ -2,11 +2,13 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { User } from '@supabase/supabase-js';
 import { cloud, cloudSelection, cloudTransport, defaultCloudConfig } from './domain/cloud';
-import { loadProfile, saveProfile, setLocalOwner } from './domain/profile-storage';
+import { loadProfile, transactProfile, setLocalOwner } from './domain/profile-storage';
 import { ProfileStore } from './domain/profile-store';
+import type { StoredProfile } from './domain/profile-store';
 import { profileOwner } from './domain/cloud-config';
 import { storagePolicyResult, isLegacyPersonalProject } from './domain/storage-policy';
 import type { StorageMode } from './domain/storage-policy';
+import { prepareStudy } from './domain/study-storage';
 import { stopVoice } from './domain/voice.js';
 const AuthContext = createContext<{ user: User | null; loading: boolean; error: string; storageMode: StorageMode }>({ user: null, loading: Boolean(cloud), error: '', storageMode: 'local' });
 const StoreContext = createContext<ProfileStore | null>(null);
@@ -23,6 +25,7 @@ export function Profiles({ children }: { children: (store: ProfileStore) => Reac
   const owner = userId && cloudSelection.config ? profileOwner(cloudSelection.config, userId) : 'guest';
   const [ready, setReady] = useState<ProfileStore>();
   const [error, setError] = useState('');
+  const [storageWarning, setStorageWarning] = useState('');
   useEffect(() => {
     if (!cloud) return;
     let live = true;
@@ -38,21 +41,37 @@ export function Profiles({ children }: { children: (store: ProfileStore) => Reac
   useEffect(() => {
     if (auth.loading) return;
     let live = true; let store: ProfileStore | undefined;
-    setError('');
+    setError(''); setStorageWarning('');
     setStorageMode(userId ? 'checking' : 'local');
     let checking = false;
-    const controller = new AbortController();
-    let release: (() => void) | undefined;
+    let channel: BroadcastChannel | undefined;
     setReady(undefined);
     const open = async () => {
-      const hold = new Promise<void>(resolve => { release = resolve; });
       const document = await loadProfile(owner);
       if (!live) return;
       setLocalOwner(owner);
-      store = new ProfileStore(owner, document, next => saveProfile(owner, next));
+      try { channel = new BroadcastChannel('fluent-thread-profile:' + owner); } catch { /* Focus/online refresh also works without BroadcastChannel. */ }
+      const persistence = {
+        transact: (previous: StoredProfile, change: (doc: StoredProfile) => StoredProfile) => {
+          const save = () => transactProfile(owner, previous, change, () => { if (live) channel?.postMessage('changed'); }).then(next => { if (live) setStorageWarning(''); return next; });
+          // Keep compatibility with an old tab until it is refreshed. New tabs hold this
+          // lock only during the local transaction, never while waiting on the network.
+          return navigator.locks ? navigator.locks.request('nit-rechi-profile:' + owner,
+            { signal: AbortSignal.timeout(10_000) }, save).catch(error => {
+              if (error?.name === 'TimeoutError' || error?.name === 'AbortError') throw new Error('Сохранение ждёт старую вкладку. Обнови другие вкладки Fluent Thread и повтори сохранение.');
+              throw error;
+            }) : save();
+        }
+      };
+      store = new ProfileStore(owner, document, persistence);
+      if (channel) channel.onmessage = () => {
+        if (live) void store?.refresh().then(() => store?.sync()).catch(() => {
+          if (live) setError('Не удалось обновить профиль из другой вкладки. Перезагрузи эту страницу.');
+        });
+      };
       setReady(store);
+      void store.update(prepareStudy).catch(error => { if (live) setStorageWarning(error instanceof Error ? error.message : 'Не удалось сохранить профиль.'); });
       void checkPolicy();
-      await hold;
     };
     const checkPolicy = async () => {
       if (!cloud || !userId || !store || !live || checking) return;
@@ -69,22 +88,24 @@ export function Profiles({ children }: { children: (store: ProfileStore) => Reac
         if (live) { setStorageMode('error'); store.setTransport(undefined); }
       } finally { checking = false; }
     };
-    if (!navigator.locks) setError('Для безопасного сохранения профиля нужен современный браузер с Web Locks. Обнови Chrome, Safari или Firefox.');
-    else void navigator.locks.request('nit-rechi-profile:' + owner, { signal: controller.signal }, open)
-      .catch(error => { if (live && error.name !== 'AbortError') setError('Не удалось открыть профиль. Проверь доступное место и перезагрузи страницу.'); });
-    const sync = () => { void checkPolicy(); };
+    void open().catch(() => { if (live) setError('Не удалось открыть профиль. Проверь доступное место и перезагрузи страницу.'); });
+    const sync = () => {
+      if (!live) return;
+      void store?.refresh().then(checkPolicy).catch(() => { if (live) setError('Не удалось обновить локальный профиль. Перезагрузи страницу.'); });
+    };
+    const saveWhenHidden = () => { if (document.visibilityState === 'hidden') void store?.saveBeforeClosing(); };
     const timer = setInterval(sync, 20_000);
     window.addEventListener('online', sync); window.addEventListener('focus', sync);
+    document.addEventListener('visibilitychange', saveWhenHidden);
     return () => {
-      live = false; controller.abort(); clearInterval(timer);
+      live = false; clearInterval(timer); channel?.close();
       window.removeEventListener('online', sync); window.removeEventListener('focus', sync);
-      stopVoice(); store?.dispose();
-      if (store) void store.flush().finally(() => release?.());
-      else release?.();
+      document.removeEventListener('visibilitychange', saveWhenHidden);
+      stopVoice(); void store?.close();
     };
   }, [owner, auth.loading, userId]);
   return <AuthContext.Provider value={{ ...auth, storageMode }}>
-    {error ? <main role="alert">{error}</main> : auth.loading || !ready || ready.owner !== owner ? <main role="status">Открываем профиль… Если он уже открыт в другой вкладке этого браузера, закрой её — данные загрузятся автоматически.</main>
-      : <StoreContext.Provider value={ready}>{children(ready)}</StoreContext.Provider>}
+    {error ? <main role="alert">{error}</main> : auth.loading || !ready || ready.owner !== owner ? <main role="status">Открываем профиль…</main>
+      : <><p role="alert" hidden={!storageWarning}>{storageWarning}</p><StoreContext.Provider value={ready}>{children(ready)}</StoreContext.Provider></>}
   </AuthContext.Provider>;
 }
