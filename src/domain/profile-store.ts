@@ -25,6 +25,12 @@ export class ProfileStore {
     this.owner = owner; this.document = document;
     if (transport) this.status = { state: 'pending' };
   }
+  setTransport(transport?: SyncTransport) {
+    if (this.transport === transport || (this.transport && transport)) return;
+    this.transport = transport;
+    if (transport) { this.mark('pending'); this.schedule(); }
+    else { clearTimeout(this.timer); this.mark('local'); }
+  }
   subscribe = (listener: () => void) => { this.listeners.add(listener); return () => { this.listeners.delete(listener); }; };
   getStudy = () => this.document.study;
   getDocument = () => this.document;
@@ -64,13 +70,15 @@ export class ProfileStore {
   }
   async sync() {
     if (this.running || this.disposed || !this.transport) return;
+    const transport = this.transport;
     this.running = true; this.mark('syncing');
     try {
-      for (let round = 0; round < 20 && !this.disposed; round++) {
+      for (let round = 0; round < 20 && !this.disposed && this.transport === transport; round++) {
         // Durable outbox is retried BEFORE pulling: a lost HTTP response cannot double-count practice.
         const pending = this.document.outbox;
         if (pending) {
-          const reply = await this.transport.push(pending);
+          const reply = await transport.push(pending);
+          if (this.disposed || this.transport !== transport) return;
           await this.transaction(doc => {
             const sent = new Map(pending.changes.map(change => [change.id, change.value]));
             const applied = reconcileRows(doc, reply.applied, sent);
@@ -81,11 +89,11 @@ export class ProfileStore {
         }
         let page: CloudRow[];
         do {
-          page = await this.transport.pull(this.document.cursor);
-          if (this.disposed) return;
+          page = await transport.pull(this.document.cursor);
+          if (this.disposed || this.transport !== transport) return;
           if (page.length) await this.transaction(doc => ({ ...doc, ...reconcileRows(doc, page), cursor: Math.max(doc.cursor, ...page.map(row => row.revision)) }));
         } while (page.length === 200 && !this.disposed);
-        if (this.disposed) return;
+        if (this.disposed || this.transport !== transport) return;
         const changes = pendingChanges(this.document);
         if (!changes.length) {
           this.status = { state: 'synced', lastSync: Date.now() }; this.emit(); return;
@@ -99,9 +107,9 @@ export class ProfileStore {
         }
         await this.transaction(doc => ({ ...doc, outbox: { mutation: crypto.randomUUID(), changes: batch } }));
       }
-      if (!this.disposed) { this.mark('pending'); this.schedule(); }
+      if (!this.disposed && this.transport === transport) { this.mark('pending'); this.schedule(); }
     } catch (error) {
-      if (!this.disposed) this.mark('error', error instanceof Error ? error.message : 'Не удалось синхронизировать. Изменения сохранены на устройстве.');
+      if (!this.disposed && this.transport === transport) this.mark('error', error instanceof Error ? error.message : 'Не удалось синхронизировать. Изменения сохранены на устройстве.');
     } finally { this.running = false; }
   }
   async flush() { await this.queue; }

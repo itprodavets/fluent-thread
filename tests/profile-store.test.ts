@@ -84,3 +84,21 @@ test('cursor-only checkpoints replay safely after restart without rewriting the 
  await b.sync();assert.deepEqual(b.getStudy().words,[word]);assert.equal(b.status.state,'synced');b.dispose();
  assert.equal(writes,0,'replaying acknowledged rows should not rewrite a large unchanged snapshot');
 });
+
+test('a temporary policy failure pauses transport without losing outbox or local edits', async () => {
+  const doc=fresh();
+  doc.study.profileName='Before';
+  doc.outbox={mutation:crypto.randomUUID(),changes:[{id:'["field","profileName"]',value:'Before',expected:0}]};
+  let finish!:(reply:any)=>void;
+  const transport:SyncTransport={pull:async()=>[],push:()=>new Promise(resolve=>{finish=resolve;})};
+  const store=new ProfileStore('same-owner',doc,async()=>{},transport);
+  const running=store.sync();
+  store.setTransport(undefined);
+  await store.update(s=>({...s,profileName:'Offline edit'}));
+  finish({applied:[{id:'["field","profileName"]',value:'Before',revision:1}],conflicts:[]});
+  await running;
+  assert.equal(store.getStatus().state,'local');
+  assert.equal(store.getStudy().profileName,'Offline edit');
+  assert.equal(store.document.outbox?.mutation,doc.outbox.mutation);
+  store.dispose();
+});

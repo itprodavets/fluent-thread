@@ -40,11 +40,11 @@ export function CloudSettings() {
   function submit(event: FormEvent) { event.preventDefault(); void check(true); }
   return <details className="resource cloud-settings" open={cloudSelection.kind === 'invalid'}>
     <summary>Своя база Supabase</summary>
-    <p>Можно использовать базу приложения или подключить собственный проект Supabase. Словарь и прогресс каждого проекта хранятся отдельно.</p>
+    <p>По умолчанию новые пользователи учатся локально. Подключи свой проект Supabase, чтобы синхронизировать словарь и прогресс между устройствами. Облако приложения доступно только ранее подключённым профилям.</p>
     <p className="sub">Сейчас: {cloudSelection.kind === 'custom' ? 'свой проект' : cloudSelection.kind === 'default' ? 'база приложения' : 'без подключения'}{cloudSelection.config && <> · {cloudSelection.config.url}</>}</p>
     {cloudSelection.error && <p role="alert">{cloudSelection.error}</p>}
     <ol><li>Создай проект Supabase и установи <a href="https://github.com/itprodavets/fluent-thread/blob/main/supabase/migrations/202611190001_profiles.sql" target="_blank" rel="noreferrer">схему Fluent Thread ↗</a>.</li>
-      <li>Настрой вход по email, отправку писем и адрес возврата: <code>{location.origin + location.pathname}</code>.</li>
+      <li>Установи остальные миграции по подробной инструкции ниже. Режим ограничения общего облака для своей базы включать не нужно.</li><li>Настрой вход по email, отправку писем и адрес возврата: <code>{location.origin + location.pathname}</code>.</li>
       <li>Вставь URL проекта и публичный publishable key или anon key.</li></ol>
     <form onSubmit={submit}>
       <label>URL проекта Supabase<input type="url" required disabled={busy} value={url} onChange={event => { setUrl(event.target.value); setMessage(''); }} placeholder="https://project.supabase.co" autoComplete="off" spellCheck={false} maxLength={2048} /></label>
