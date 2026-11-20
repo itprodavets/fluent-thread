@@ -1,3 +1,5 @@
+import { PasswordLogin } from './PasswordLogin';
+import { PasswordSettings } from './PasswordSettings';
 import { useState, useSyncExternalStore } from 'react';
 import type { FormEvent } from 'react';
 import { cloud } from '../domain/cloud';
@@ -94,10 +96,12 @@ export function Profile() {
             <div className="actions"><button type="submit">Сохранить имя</button><button type="button" disabled={busy} onClick={signOut}>Выйти на этом устройстве</button></div>
           </form>
           <p className="sub">{storageMode === 'cloud' ? 'На другом устройстве подключи ту же базу и войди с тем же email — словарь и прогресс загрузятся из облака.' : 'Вход сохраняет учётную запись. Слова и прогресс этого профиля остаются в данном браузере. Для синхронизации подключи свою базу Supabase на обоих устройствах.'}</p>
+          <PasswordSettings />
         </> : <>
           <h2>Войти или создать профиль</h2>
-          <p>У каждого свой email. Пароль создавать не нужно — вход подтверждается письмом.</p>
-          {!cloud ? <p className="profile-warning" role="status">Облачное сохранение пока не настроено. Сейчас можно заниматься и скачивать резервную копию; данные остаются в этом браузере.</p> : <>
+          <p>У каждого свой email и отдельный профиль. Вход по паролю доступен после его установки в профиле.</p>
+          {cloud && <PasswordLogin />}
+          {!cloud ? <p className="profile-warning" role="status">Облачное сохранение пока не настроено. Сейчас можно заниматься и скачивать резервную копию; данные остаются в этом браузере.</p> : <details className="fold"><summary>Войти или создать профиль через письмо</summary>
             <form onSubmit={requestCode}>
               <label>Как тебя зовут<input value={name} onChange={event => setName(event.target.value)} maxLength={120} autoComplete="name" /></label>
               <label>Email<input type="email" required value={email} onChange={event => { setEmail(event.target.value); setSent(false); setToken(''); }} autoComplete="email" /></label>
@@ -107,7 +111,7 @@ export function Profile() {
               <label>Код из письма<input value={token} onChange={event => setToken(event.target.value)} required minLength={6} maxLength={10} inputMode="numeric" autoComplete="one-time-code" /></label>
               <button disabled={busy} type="submit">Подтвердить код</button>
             </form>}
-          </>}
+          </details>}
           {authError && <p role="alert">{authError}</p>}
         </>}
         {message && <p role="status">{message}</p>}

@@ -10,7 +10,7 @@ import { storagePolicyResult, isLegacyPersonalProject } from './domain/storage-p
 import type { StorageMode } from './domain/storage-policy';
 import { prepareStudy } from './domain/study-storage';
 import { stopVoice } from './domain/voice.js';
-const AuthContext = createContext<{ user: User | null; loading: boolean; error: string; storageMode: StorageMode }>({ user: null, loading: Boolean(cloud), error: '', storageMode: 'local' });
+const AuthContext = createContext<{ user: User | null; loading: boolean; error: string; storageMode: StorageMode; recovering: boolean; finishRecovery: () => void }>({ user: null, loading: Boolean(cloud), error: '', storageMode: 'local', recovering: false, finishRecovery: () => {} });
 const StoreContext = createContext<ProfileStore | null>(null);
 export function useIdentity() { return useContext(AuthContext); }
 export function useProfileStore() {
@@ -20,6 +20,7 @@ export function useProfileStore() {
 }
 export function Profiles({ children }: { children: (store: ProfileStore) => ReactNode }) {
   const [auth, setAuth] = useState<{ user: User | null; loading: boolean; error: string }>({user:null,loading:Boolean(cloud),error:''});
+  const [recovering, setRecovering] = useState(false);
   const [storageMode, setStorageMode] = useState<StorageMode>('local');
   const userId = auth.user?.id;
   const owner = userId && cloudSelection.config ? profileOwner(cloudSelection.config, userId) : 'guest';
@@ -29,7 +30,9 @@ export function Profiles({ children }: { children: (store: ProfileStore) => Reac
   useEffect(() => {
     if (!cloud) return;
     let live = true;
-    const subscription = cloud.auth.onAuthStateChange((_event, session) => {
+    const subscription = cloud.auth.onAuthStateChange((event, session) => {
+      if (live && event === 'PASSWORD_RECOVERY') { setRecovering(true); queueMicrotask(() => { if (live) location.hash = '#profile'; }); }
+      if (live && event === 'SIGNED_OUT') setRecovering(false);
       if (live) setAuth({ user: session?.user ?? null, loading: false, error: '' });
     }).data.subscription;
     cloud.auth.getSession().then(({data,error}) => {
@@ -104,7 +107,7 @@ export function Profiles({ children }: { children: (store: ProfileStore) => Reac
       stopVoice(); void store?.close();
     };
   }, [owner, auth.loading, userId]);
-  return <AuthContext.Provider value={{ ...auth, storageMode }}>
+  return <AuthContext.Provider value={{ ...auth, storageMode, recovering, finishRecovery: () => setRecovering(false) }}>
     {error ? <main role="alert">{error}</main> : auth.loading || !ready || ready.owner !== owner ? <main role="status">Открываем профиль…</main>
       : <><p role="alert" hidden={!storageWarning}>{storageWarning}</p><StoreContext.Provider value={ready}>{children(ready)}</StoreContext.Provider></>}
   </AuthContext.Provider>;

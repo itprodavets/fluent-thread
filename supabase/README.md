@@ -85,3 +85,11 @@ select shared_mode from public.study_storage_settings;
 select count(*) as retained_cloud_accounts from public.study_cloud_members;
 select count(*) as registered_accounts, count(*) filter (where last_sign_in_at >= now()-interval '30 days') as signed_in_last_30_days from auth.users;
 ```
+
+## Email and password sign-in
+
+The profile offers `signInWithPassword` as its primary login flow. Existing confirmed email identities set their first password through the signed-in profile using `updateUser({ password })`; their user ID and study data remain unchanged. Passwords never enter Study, sync records, backups, URLs or app analytics. New password entry requires 12 characters and a matching confirmation; existing password login has no artificial minimum that would exclude an older valid password.
+
+The signed-in form accepts an existing password when a personal project requires `current_password`. Reauthentication errors are surfaced with instructions to sign in freshly; the application does not weaken server protections. Recovery uses `resetPasswordForEmail` and the existing `#profile` allowlisted redirect. The `PASSWORD_RECOVERY` auth event opens password settings. Registration/confirmation and password recovery still depend on email delivery. Password changes must be entered and submitted by the account owner.
+
+Email-link login remains available. The shared Free project currently uses default link-only mail templates; changing them to include `{{ .Token }}` requires custom SMTP (or a supported paid email/template option). Do not present email OTP as operational merely because the input field exists.
