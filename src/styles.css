@@ -548,3 +548,7 @@ button:disabled { opacity: .52; cursor: default; }
 .daily-review-card button, .daily-review-list button { min-height: 44px; }
 .daily-review-list { display: grid; gap: 6px; list-style: none; padding: 0; }
 .daily-review-actions > button { flex: 1 1 auto; }
+
+.material-review { margin-block: 1rem; padding-block: 1rem; border-top: 1px solid var(--line, #d9e1dc); }
+.material-review .actions { gap: .5rem; flex-wrap: wrap; }
+.material-review > a { display: inline-block; margin-top: .75rem; }

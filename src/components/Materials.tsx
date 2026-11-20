@@ -1,3 +1,4 @@
+import { MaterialReview } from './MaterialReview';
 import { ownedKey } from '../domain/profile-local';
 import { bundledLessons } from '../domain/bundled-lessons';
 import { ReadingShelf } from './ReadingShelf';
@@ -225,6 +226,10 @@ function ChatExchange({ source, setSource, onImported }: { source?: Resource; se
 }
 
 function MaterialText({ resource, full = false }: { resource: Resource; full?: boolean }) {
+  return <><MaterialContent resource={resource} full={full} /><MaterialReview resource={resource} /></>;
+}
+
+function MaterialContent({ resource, full = false }: { resource: Resource; full?: boolean }) {
   const [open, setOpen] = useState(false);
   const cues = lessonCues(resource.text);
   if (!cues.length) return <><ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue={resource.kind === 'dialogue'} /><VoiceButtons text={resource.text} language={resource.language} /></>;
@@ -539,8 +544,9 @@ export function Materials() {
           <p className="kicker"><LanguageLabel code={resource.language} /> · {kind.label}{topic && ' · ' + topic.title}</p>
           <h2>{resource.title}</h2>
           <SourceLink url={resource.url} />
+          <MaterialReview resource={resource} />
           {resource.text && <Fold title={resource.kind === 'exercise' ? 'Читать условие' : 'Открыть текст'} open={resource.id === opened || undefined}>
-            <MaterialText resource={resource} />
+            <MaterialContent resource={resource} />
 
           </Fold>}
           {resource.story && <><StoryVersions story={resource.story} language={resource.language} /><Fold title="Первая голосовая попытка"><Recording itemId={resource.id} language={resource.language} readOnly /></Fold></>}

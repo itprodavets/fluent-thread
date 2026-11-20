@@ -1,3 +1,4 @@
+import { MaterialReview } from './MaterialReview';
 import type { ReactNode } from 'react';
 import { ReadableMaterial } from './ReadableMaterial';
 import { teacherListening } from '../domain/teacher-listening';
@@ -65,6 +66,7 @@ export function StarterLesson({ lesson, onNext, firstExercise }: { lesson: { res
       <VoiceButtons text={resource.text} language={resource.language} />
       <ReadableMaterial text={resource.text} language={resource.language} translation={resource.translation} dialogue notes={notes} />
     </section>
+    <MaterialReview resource={resource} />
     {step === 1 && firstExercise}
     {question && <section aria-label="Вопрос по диалогу">
       <h4 lang="en">{question[0]}</h4>

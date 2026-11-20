@@ -1,6 +1,7 @@
+import { assessPracticeItem } from '../domain/material-review';
 import { useMemo, useRef, useState } from 'react';
 import { useWorkspace } from '../context';
-import { assess, dateLabel, kinds, modeLabels, normalize, practiceQueue, resultLabels, topicMaterials } from '../domain/model';
+import { dateLabel, kinds, modeLabels, normalize, practiceQueue, resultLabels, topicMaterials } from '../domain/model';
 import type { Outcome, PracticeItem, PracticeMode, Study, Word } from '../domain/model';
 import { practiceRecordingId } from '../domain/story-session';
 import { TopicStudio } from './TopicStudio';
@@ -145,7 +146,7 @@ export function Practice() {
       let next: Study | undefined;
       const saved = await update(current => {
         if (current.language !== item.language) return current;
-        next = assess(current, item.id, result, Date.now(), mode);
+        next = assessPracticeItem(current, item, result, Date.now(), mode);
         return next;
       });
       if (!saved || !next) return;

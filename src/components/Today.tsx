@@ -87,7 +87,7 @@ function TodayDashboard() {
   if (open && session && !completed) return <LearningSession session={session} close={() => setOpen(false)} />;
   const answers = Object.values(session?.answers ?? {});
   const mistakes = dialogueMistakes(study, now);
-  const reviewCount = lessonReviewQueue(study, now).due.length;
+  const reviewCount = lessonReviewQueue(study, now).all.length;
 
   return <div className="today-page">
     <header className="today-heading"><div><p className="kicker">{new Intl.DateTimeFormat('ru', { weekday: 'long', day: 'numeric', month: 'long' }).format(now)}</p>
