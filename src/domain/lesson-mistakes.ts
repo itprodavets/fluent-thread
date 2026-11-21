@@ -29,7 +29,7 @@ export function addLessonMistakes(study: Study, packs: LessonMistakePack[], now:
     const correction = { rule: 'lesson:' + example.id, before: example.original, after: example.corrected, reason: example.reason };
     next[id] = { id, original: example.original, correction, corrections: [correction], due: now, level: 0,
       reviewMode: 'self-check', checklist: example.checklist,
-      source: { lessonId: pack.id, topicId: topic.id, time: example.time, kind: example.kind },
+      source: { lessonId: pack.id, topicId: topic.id, time: example.time, kind: example.kind, date: pack.date },
       scenario: { skillId: 'lesson-mistake', school: pack.school, title: example.title,
         prompt: example.prompt, answer: example.corrected,
         role: { line: example.partner, patterns: [] }, phrases: [] }

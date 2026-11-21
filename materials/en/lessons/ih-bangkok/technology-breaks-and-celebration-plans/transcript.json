@@ -1,0 +1,652 @@
+[
+  {
+    "start": 0.0,
+    "end": 110.98,
+    "en": "- Hi, Learner, how are you? - No. - I'm fine, thank you. - Welcome, Partner, we will start in a few minutes. Welcome, everyone. Give us a few minutes, please. - Okay. Are you first time, Partner, not Learner? - No, I was being at another day, it's Saturday. - Last weekend or today. - You've also been at an airport. You remember? - Sorry? - Last time, you've been in an airport. - No, I'm just off. - Off already. - Yes, today you're ready, but I mean, last Saturday, you're going to... You've been in an airport, but I don't know where you're going. - You're going to... You're going to be in an airport, but I don't know where you're going.",
+    "ru": "Участники здороваются. Обращение Learner позволяет связать ответ «Я в порядке, спасибо» с учеником. Другой участник спрашивает, впервые ли он пришёл; ученик вспоминает прошлую субботу и собеседника в аэропорту. Грамматика и некоторые ответы распознаны ненадёжно; повтор в конце не добавляет нового достоверного события.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Приветствие и воспоминание о прошлой встрече",
+    "sourceStart": 0,
+    "sourceEnd": 26
+  },
+  {
+    "start": 110.98,
+    "end": 238.62,
+    "en": "- Okay, teachers, please don't admit students, we are dividing them between the two rooms, please. - Yes. - So, we're just waiting. - Students, give us another minute, please, and then we're going to start. Thank you. Thank you. Thank you.",
+    "ru": "Организатор просит преподавателей пока не впускать учеников: группу распределяют между двумя комнатами. Ученикам предлагают подождать ещё минуту. Длинные Thank you могут быть повтором ASR во время ожидания, а не многократно произнесённой благодарностью.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Распределение по комнатам и ожидание",
+    "sourceStart": 26,
+    "sourceEnd": 34
+  },
+  {
+    "start": 238.62,
+    "end": 278.28,
+    "en": "Okay, teacher Teacher, you can begin. Hello, everyone. Hi, Teacher, how are you? Hello, Teacher, yes. Hello, long time to see, can you hear me all? Yeah, yes. And can you see my slide? Yes. Yes. Yeah. Okay, very good. So, let's get started.",
+    "ru": "Организатор разрешает преподавателю начинать. Следуют приветствия и проверка: всем ли слышно и виден ли слайд. Преподаватель предлагает начать. Автоматическое распределение голосов смешивает вопросы и ответы.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Начало первого занятия и проверка связи",
+    "sourceStart": 34,
+    "sourceEnd": 51
+  },
+  {
+    "start": 278.28,
+    "end": 361.8,
+    "en": "Okay, what can you see on the slide? There's some phones. Research something on the phone. Yeah, research something on the phone. Correct. The younger student, maybe primary student, the teacher asked them to research some information. Oh, research information. Okay. Where about A2? Where about Partner? Where about Partner, Partner? I see. Where about Learner? I see people. I see people. Three... He's looking at TikTok. Girl. And one boy. Hello. Yes. Hello. Oh, yeah. I can see from the right side of the picture is a teacher who's assisting the students to learn navigating the phone, while the other is using her phone independently. Ah, using her phone independently. Thank you, Partner. Thanks for sharing. Where about A2?",
+    "ru": "Преподаватель спрашивает о слайде. Участники замечают телефоны, поиск информации, школьников и помощь учителя. Обращение к Learner соседствует с фразой о просмотре TikTok, но наложение голосов не позволяет приписать ему всё описание. Более развёрнутый ответ другого участника описывает учителя справа и самостоятельную работу ученицы.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Что видно на фотографии с телефонами",
+    "sourceStart": 51,
+    "sourceEnd": 88
+  },
+  {
+    "start": 361.8,
+    "end": 412.44,
+    "en": "I think the picture I want to say that nowadays, most of the people use the phone, even in school and in dialogue. Okay, that's good. Now, you're going to discuss three questions with your partner in your breakout room. Okay, so could you please take a screenshot of this one? Oh, yes. Okay. I will not... Okay. I don't know what is... Why? Partner, can you help me? Okay. I don't... My... It's a lot of... I can't... Yes, yes. No worry. I'm sending a photo. Okay, okay.",
+    "ru": "Участник замечает, что телефоны теперь используют даже в школе. Преподаватель задаёт обсуждение трёх вопросов в парах и просит сделать снимок слайда. Участнику трудно сохранить изображение; преподаватель предлагает отправить фотографию.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Три вопроса о технологиях и снимок экрана",
+    "sourceStart": 88,
+    "sourceEnd": 113
+  },
+  {
+    "start": 412.44,
+    "end": 458.26,
+    "en": "Okay, can you... Can you see it, Partner? Yes, yes. Thank you. Okay. What's up? Okay. Oh, sorry. Partner, you delete. Why you delete? Oh, sorry. No, you stop. No, you check in the group. Check on the group. Partner? Okay. Check in the group. Online? Yeah, check on the group. Okay, thank you. Oh, you can download. Okay. Already take a screenshot. Hello, everyone.",
+    "ru": "Участники проверяют, видно ли изображение, обсуждают исчезнувшее сообщение и советуют посмотреть групповой чат. Преподаватель напоминает о скачивании или снимке экрана. Это организационная помощь, а не исправление английского ученика.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Помощь с изображением в чате",
+    "sourceStart": 113,
+    "sourceEnd": 143
+  },
+  {
+    "start": 458.26,
+    "end": 484.26,
+    "en": "Are you okay to go and disk it? Yes. Okay. Let's join. It's pre-covered, right? Let's join. Yes. I'm going to put you in the breakout rooms. You can join now. You will have three minutes to discuss these questions with your partner.",
+    "ru": "Преподаватель проверяет готовность, распределяет участников по отдельным комнатам и даёт три минуты для обсуждения вопросов. Фразы join и breakout rooms относятся к переходу в комнату, а не к отдельному учебному содержанию.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Инструкция для первого обсуждения",
+    "sourceStart": 143,
+    "sourceEnd": 155
+  },
+  {
+    "start": 484.26,
+    "end": 581.36,
+    "en": "Okay. Hello. What about, you think, question number one? Oh, how long do you use your smartphone this day? Hello, hello, Partner. Hello, Learner. Hello, Partner. And hello, Partner? Is it Partner? Yeah, hello. Okay, so everyone, so I will share my screen for you. Thanks. Okay, can you see it, everyone? I think about number one, I probably spent... How long do you use my smartphone in a day? I think about... I probably spent around four, four, five hours, maybe more, for every time working a smartphone. What about you? Oh, okay. Partner, what about you? Maybe four to five hours just scrolling on the phone one. Okay. Partner, Partner? Yes, for me, I think more than eight hours. I used my mistake. Eight hours? Yeah. Eight hours, really? Oh. Oh, yeah, I love it. Okay. Wow. Okay.",
+    "ru": "В комнате участники здороваются и демонстрируют слайд. Learner по контексту обращения говорит примерно о четырёх–пяти часах в день, иногда больше, затем спрашивает партнёра. Другой участник сообщает о четырёх–пяти часах прокрутки, ещё один — более чем о восьми часах. Это личные ответы, не нормы использования.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Сколько времени занимает смартфон",
+    "sourceStart": 155,
+    "sourceEnd": 200
+  },
+  {
+    "start": 581.36,
+    "end": 679.48,
+    "en": "Okay, so, and... Okay, so, and... Okay. Okay, it's a number question two. How about, what do you usually technology for? What do you usually use on default? Um... At the phone and computer. You use only a laptop? For working? Yes, and laptop. So, I just, I just come back, I just, um, because I almost come to my home to just switch the speaker, because we're going to join the class, because I'm used to use the phone. Okay. I usually use my smartphone and laptop for working, and the laptop using more for working. So, for me, I had a software developer, and I had a business pen, and usually for technology. Okay. And when I had a communication, and learning, I'm using phone, and for listening and reading. So, for me, I use my smartphone for gaming, watching movies, and, yeah, to share apps. Okay. Okay.",
+    "ru": "Группа переходит ко второму вопросу. Learner объясняет, что использует смартфон и ноутбук для работы; ноутбук особенно важен для разработки и бизнеса, телефон — для общения, учёбы, чтения и слушания. Партнёр упоминает игры, фильмы и приложения. Фраза business pen — ненадёжное распознавание, не новое слово.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Для чего нужны телефон и ноутбук",
+    "sourceStart": 200,
+    "sourceEnd": 227
+  },
+  {
+    "start": 679.48,
+    "end": 755.21,
+    "en": "So, okay, the last question is, do you, would you like to download your phone for one day? Why, or why not? Uh, I am? I am? I am, please? I am, please? I am, please? I am, please? I am, please? I am, please? I mean, that is fine. Without my phone. Yeah. I am, every time available. So, so, can you, without your phone, all day, just one day, there's no phones? I want, uh, not usually at, uh, phone, or maybe, uh, one week, but I cannot, I have, uh, clients, and I have, uh, meetings, and... Yes. Yes. Yes, me too. I, I, I, I, I, I, I can't do that, because, you know, there are many messages, and many, uh, the information to you. So, if you have no, no, some, uh, type of information, I can do that. Yes. Yes. Oh, yeah. What about, thank you? Uh, for me, oh, it's time safe. Thank you. Let's go, let's go. Okay. Fast, fast, fast. Okay, so. Message. Okay.",
+    "ru": "Участники обсуждают один день без устройства; download your phone в ASR противоречит следующему without my phone и не трактуется буквально. Learner хотел бы отказаться от телефона даже на неделю, но ему нужны связь с клиентами и встречи. Другой участник тоже зависит от сообщений. Многократное I am, please может быть артефактом; обсуждение заканчивается при выходе из комнаты.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Можно ли провести день без телефона",
+    "sourceStart": 227,
+    "sourceEnd": 271
+  },
+  {
+    "start": 755.21,
+    "end": 808.1,
+    "en": "Hello, hello. Hello, Learner. Oh, welcome back. I hope you have a great ch-chatting time with your friends. How long do you use your smartphone in a day? I use, uh, my, I use my smartphone maybe, uh, for and fire hours, but, uh, I usually laptop more for my working. Uh, usually, uh, smartphone for learning and reading and message, uh, chat for my clients and my, uh, friends. Oh, okay. Thanks.",
+    "ru": "Преподаватель приветствует вернувшихся и спрашивает о времени со смартфоном. Learner повторяет: около четырёх–пяти часов; ноутбук — в основном для работы, телефон — для учёбы, чтения и сообщений клиентам и друзьям. For and fire в ASR по контексту означает four and five, но исходная строка сохранена без исправления.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Краткий ответ перед всей группой",
+    "sourceStart": 271,
+    "sourceEnd": 285
+  },
+  {
+    "start": 808.1,
+    "end": 944.1,
+    "en": "Now, let's move on expert. You are going to read the article for the first times. Mm-hmm. Read the article quickly and choose the best summary. Don't worry about what you don't know. You don't need to understand everyone. Just focus on the main idea. idea you will have two minutes to read this two minutes to read this after it choose the summary okay you you one minute left you",
+    "ru": "Преподаватель просит быстро прочитать статью и выбрать лучшее краткое изложение. Не нужно понимать каждое неизвестное слово: задача — основная мысль. На чтение даётся около двух минут. Далее идут короткие служебные повторы ASR, не полный текст статьи.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Первое чтение: выбрать основную мысль",
+    "sourceStart": 285,
+    "sourceEnd": 301
+  },
+  {
+    "start": 944.1,
+    "end": 1011.22,
+    "en": "okay okay so what's the writers mainly describing which one do you choose talk with you can discuss with your parts now first how do you think Learner Partner i think about his correct p experience of spending on day with technology yeah yeah i think it's b okay what about it uh what about it do and what about Partner Partner b i also choose b oh okay so let's see yay correct your answer hits experience of spending one day without technology very good",
+    "ru": "Группа выбирает вариант B: опыт одного дня без технологий. Learner начинает ответ с I think about; преподаватель подтверждает правильность содержания. Отдельный вариант spending one day with technology в ASR не меняет подтверждённое without technology. Полной печатной статьи в источнике нет.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Проверка основной мысли",
+    "sourceStart": 301,
+    "sourceEnd": 316
+  },
+  {
+    "start": 1011.22,
+    "end": 1077.94,
+    "en": "now let's move on expert read the article and answer these five questions okay this times we have to look for do we need to find out the specific information according to these questions do we need to find out the specific information okay so uh you don't need to read every word first look for the keywords you will have four minutes to do this look for the keyword for example what does he do at the moment you are going to find out his job in his job one by once he's a tv journalist okay work on your own first work on your own first okay you will have seven minutes to work on your own first and later we will check in the in our recovery okay you will have two minutes to do this okay",
+    "ru": "Преподаватель предлагает пять вопросов, поиск ключевых слов и конкретной информации. Первый вопрос — о работе автора, ответ: телевизионный журналист. Нужно сначала работать самостоятельно, затем сравнить ответы. Указания времени в ASR противоречат друг другу: четыре, семь и две минуты; пакет не устанавливает единственное верное значение.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Чтение для конкретных фактов",
+    "sourceStart": 316,
+    "sourceEnd": 329
+  },
+  {
+    "start": 1077.94,
+    "end": 1260.26,
+    "en": "um um um um don't forget to click or you can download the photo in chat um um may i remind you again don't forget to take a screenshot or you can download the photo in chat make sure you got the photo or screenshot you um okay",
+    "ru": "Во время индивидуального чтения ASR фиксирует um и you, что может быть артефактом тихого участка. Преподаватель напоминает: сделать снимок экрана или скачать изображение из чата. Не следует считать эти повторы новым содержанием статьи или пропущенной речью.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Самостоятельная работа и напоминание о материале",
+    "sourceStart": 329,
+    "sourceEnd": 343
+  },
+  {
+    "start": 1260.26,
+    "end": 1368.1,
+    "en": "okay and now you can join your record room to check your answer with your partner hello hello hello hello and yes i have thank you this is number four is number first is uh tv journalist uh he's you agreed yes yes yes yes we agree okay number two where did you keep uh his phone i think about he look at his always in a driver yeah uh-huh number three uh-huh yeah yeah yeah he appointed to sex savage checkout and join the nomad you number three what about me uh what do you think what is your answer yeah can you hear me yes yes okay yeah i can hear you i can hear you yeah and he avoided sub-service checkout and join the nomad queue yeah i think the answer yes i agree that here what it is self-service check out yeah it says have a check out",
+    "ru": "Группа переходит в комнату и сравнивает ответы. Автор — тележурналист. Он убрал телефон, а в супермаркете избегал кассы самообслуживания и встал в обычную очередь. Driver и nomad queue — ошибки распознавания; точное место хранения телефона здесь не восстанавливается по догадке. Участники уточняют значение self-service checkout и проверяют слышимость.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Проверка фактов: профессия, телефон, касса",
+    "sourceStart": 343,
+    "sourceEnd": 369
+  },
+  {
+    "start": 1368.1,
+    "end": 1481.78,
+    "en": "number four Partner what do you think number four you need me to solve this call no i think about no he cannot yeah i think no no i i i'm i'm agreed i think yes because he mentioned that he missed his fresh phone call and every messages yes he really messages uh my phone all day this worst part was not be able to be able to check updates it's new it's from my friends it's feel very out of touch yeah yeah yeah the less in the left right yeah number five uh what do you think about ie what your answer yeah number five i think he realized that how i did it to technology we all are that is true uh yes i agree this is undoubtedly undoubtedly it made me it is just how educate to technology we all are yes here is it just addictive in technology we all are yes okay good job thank you thank you okay we have a manual time at all oh no no time come back okay so thank you thank you",
+    "ru": "Участники обсуждают, удалось ли автору спокойно обходиться без телефона. Он скучал по звонкам, сообщениям и новостям друзей, чувствовал себя оторванным от общения. В пятом ответе звучит мысль о зависимости людей от технологий. Текст местами читается вслух, поэтому каждую неудачную форму нельзя автоматически считать собственной речью ученика.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Сообщения, чувство оторванности и зависимость",
+    "sourceStart": 369,
+    "sourceEnd": 391
+  },
+  {
+    "start": 1481.78,
+    "end": 1605.89,
+    "en": "thank you so let's check let's check number one number one what's your answer for number one i am a tv journalist very good okay okay and then number two number two he is look at this always is driving why did he keep his phone uh he keep his phone in a door i always remember number three where about number three he avoided the self-service checkout uh um yeah yeah he avoided the self-service checkout and enjoy the queue for a normal good job well then okay and number four no he cannot no he can't no he can't no he can't he missed his phone and cold check message on news he will do say he will do say he will do live without technology yeah no he said he really misses phone all day right okay the last one number five the last one number five uh number five uh he really adjusts uh how additional to technology that is that is he realized well then good next perk",
+    "ru": "Преподаватель собирает ответы: тележурналист; телефон отложен; обычная очередь вместо кассы самообслуживания; тоска по телефону и сообщениям; осознание технологической зависимости. Место хранения телефона распознано как door/driver и остаётся неуверенным. Преподаватель подтверждает основные ответы, но ASR не даёт надёжного дословного текста всех вариантов.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Общая проверка пяти фактов",
+    "sourceStart": 391,
+    "sourceEnd": 429
+  },
+  {
+    "start": 1605.89,
+    "end": 1669.62,
+    "en": "you are going to read the article again answer these five questions this times you need to think about why each person's have this kind of options reads more carefully in details look for the reason in this test look for the reason in this test and you will have uh four yeah you will have four minutes to do it before joining the breakout rooms i will give you some time to do it on your own first so do you need to read do you need to read details and find the reason yes yes yes can we read quickly",
+    "ru": "Теперь нужно объяснить, почему люди действуют и думают так, а не только найти факты. Преподаватель просит читать внимательно и искать причины в тексте, даёт около четырёх минут перед обсуждением. Контрольный вопрос проверяет, достаточно ли просто быстро прочитать статью.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Второе подробное чтение: причины поступков",
+    "sourceStart": 429,
+    "sourceEnd": 440
+  },
+  {
+    "start": 1669.62,
+    "end": 1843.62,
+    "en": "Very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. It's very good. Thank you. One more minute to read this, to answer this.",
+    "ru": "Здесь длинная серия It’s very good, включая нулевые длительности, и Thank you. Во время самостоятельной работы это может быть автоматическое повторение распознавания; исходные сегменты сохранены, но им не приписывается содержательный разговор. В конце слышно напоминание об оставшейся минуте.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Тихая работа и повторяющийся ASR",
+    "sourceStart": 440,
+    "sourceEnd": 477
+  },
+  {
+    "start": 1843.62,
+    "end": 1906.94,
+    "en": "Before joining your breakout room, don't forget to take screenshot or download the photo in chat. I hope you all are ready now. Okay. You can join your breakout room. Hi, Learner. Hi. Hi. Hi. Hi. Now we discuss the teacher's last question, number one to five.",
+    "ru": "Преподаватель снова просит сохранить слайд и разрешает войти в комнату. Участники приветствуют друг друга и уточняют, что обсуждаются последние пять вопросов.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Подготовка к обсуждению причин",
+    "sourceStart": 477,
+    "sourceEnd": 491
+  },
+  {
+    "start": 1906.94,
+    "end": 2023.68,
+    "en": "Why did the waiter decide to conduct a tech field experience? Maybe you can go first. Okay. I think about because he is a TV journalist who spent a lot of his working life in front of a computer or TV. And he, I wonder what is, who do you like to give up technology for a day? That means he needs to do, maybe his job, always to, to do something in the computer or conduct every person. Do you know the conduct? Do you know the conduct is what is that meaning? Conduct. I think about this situation. He is interested. How about if give up technology for one day for TV journalist or other profession who spent? If you see the text in paragraph number one, have you ever wonder what it would be like to give up technology? I am TV journalist and I spent a lot of my working life in front of a computer or TV. I decided to conduct my own and private experiment. I would spend a day try to manage with a technology device. Number",
+    "ru": "Первый вопрос — почему автор решил провести эксперимент. Learner отвечает, что тележурналист много работает перед компьютером или телевизором и хотел понять, как прожить день без устройств. Партнёр спрашивает о conduct; в контексте conduct an experiment — проводить эксперимент. Часть ответа читается из статьи, поэтому грамматические искажения в цитировании не выданы за подтверждённые личные ошибки.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Зачем журналисту эксперимент без технологий",
+    "sourceStart": 491,
+    "sourceEnd": 514
+  },
+  {
+    "start": 2023.68,
+    "end": 2071.94,
+    "en": "two. How did the writer feel while waiting at the band? I think he liked to communicate with the band teller. I think about he felt good. He enjoyed it. It's because he had a very nice conversion with a woman vibe waiting to quiet. But the band teller thing about is strange. She said that, she said something, she, he said that I was writing, not surprisingly, the band teller thought I was a bit strange. Mm-hmm. What about think, Partner?",
+    "ru": "Группа обсуждает чувства автора в банке: ему понравился разговор с женщиной во время ожидания. Партнёр также вспоминает, что кассир банка счёл его немного странным. Band, conversion и quiet в ASR контекстно ненадёжны; учебные модели используют bank, conversation и queue, не исправляя исходные данные.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Ожидание в банке и разговор в очереди",
+    "sourceStart": 514,
+    "sourceEnd": 526
+  },
+  {
+    "start": 2071.94,
+    "end": 2110.92,
+    "en": "Number three. What did you avoid is self service, check out in the supermarket? The number four. Three. Answer. Because he wanted to. What a person. Welcome to everyone. Have you got an idea for number one to five? Yes. Yeah. Okay. Number one. I think about number one. Number one. Number one. Number one. Number one. Why? Number one. Why? Why? Why? This is because he is a TV journalist who spent a lot of this working life in Australia. in front and computer and TV. And he wonder what is the... What is the... Why? What is the... Why? It is because he is a TV journalist who spent a lot of this working life in front and computer and TV. I think about",
+    "ru": "Группа возвращается к причинам отказа от self-service checkout. Затем присоединившемуся участнику повторяют первый ответ о работе журналиста. Многократное number one и why может быть артефактом; одна из строк ошибочно вводит Australia. Текст не доказывает место работы автора.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Касса самообслуживания и повтор первого ответа",
+    "sourceStart": 526,
+    "sourceEnd": 564
+  },
+  {
+    "start": 2110.92,
+    "end": 2207.32,
+    "en": "number why this is this is because he is TV journalist who spent I watch this working live in front and computer and TV and he wonder what is what do you like a give up technology for a day okay so he wanted to see right as you mentioned he wants we like to know to manage with our technology device for one day very good it's lovely and we're about some number two how did it really write it while waiting the bank yes number it would you like to share yes yes yeah I think he he feel he had a very nice conversation with a woman when he was waiting so yeah I think he feel great yeah yes lovely correct okay number three number three why did he advice the sub-safi check-out at the supermarket because he went to a voice a technology okay let's see he wants to avoid technology very good lovely and now check",
+    "ru": "Преподаватель подводит первые три ответа: автор хотел узнать, как обходиться без устройств; в банке ему понравился разговор; кассу самообслуживания он избегал ради отказа от технологий. Участники приводят причины, а преподаватель кратко подтверждает их. Все грамматически неидеальные формы преподавателя не следует заучивать как образец.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Общая проверка: эксперимент, банк, супермаркет",
+    "sourceStart": 564,
+    "sourceEnd": 585
+  },
+  {
+    "start": 2207.32,
+    "end": 2287.1,
+    "en": "your answer this number four why was he worried about not checking his phone yeah and so because he was worried that his friends were to um making plans to go to the new club and he uh wouldn't know about them okay so worry about missing message and not knowing what his friend yes then it's uh thank you and number five for about number five number five he released in the he could live without technology the spend uh try free they give him more face-to-face into interaction interaction yes 58 interaction okay very good now i'm sorry i'm sorry i want to take a screenshot uh you mean this slide uh no no no don't worry uh yeah take it i keep you uh uh uh don't worry okay now this one okay yeah yeah yeah yeah yeah yeah yeah thank you",
+    "ru": "Автор боялся пропустить планы друзей, например приглашение в новый клуб. В финальном ответе обсуждают больше личного общения и возможность обходиться без технологий. ASR финального вывода противоречив, поэтому пакет отделяет пользу опыта от утверждения, что человеку совсем не нужен телефон. Следует просьба задержать слайд для снимка экрана.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Почему тревожили сообщения и что дал эксперимент",
+    "sourceStart": 585,
+    "sourceEnd": 605
+  },
+  {
+    "start": 2287.1,
+    "end": 2395.21,
+    "en": "okay now your groups you are going to plan and diskette your group spend one whole day without using technology for example smartphone computer television or other digital device televisions or other digital device you are going to plan first and diskette one thing is don't forget each group must agree what activity will you do instead of using technology so Partner uh do you need to design activity together hello Partner do you need to design together with your friends or not need to design yes need to design yes need to design what activity you will do instead of using technology okay so two plans i will give you two minutes for each and everyone's and after it we will join the breakout rooms we will join the breakout rooms to choose what activity you are going to do together okay so let's uh you will have two minutes now uh uh teacher i need to do a discussion for these four questions uh needed a discussion for uh your the experience this uh plan discussion yeah okay okay you are going to transfer uh you can start now okay now plan first you will have two minutes",
+    "ru": "Новая задача: спланировать один день без смартфона, компьютера, телевизора и других цифровых устройств. Группа должна договориться о занятиях, сначала подготовив идеи индивидуально. Learner уточняет, нужно ли обсуждать вопросы или сам план. Преподаватель повторяет: сначала подумать, затем согласовать действия в группе.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Совместный план целого дня без устройств",
+    "sourceStart": 605,
+    "sourceEnd": 623
+  },
+  {
+    "start": 2395.21,
+    "end": 2534.1,
+    "en": "you can start now uh uh uh uh uh uh uh uh uh uh Thank you. Thank you. Thank you. Thank you. Before joining the breakout room, don't forget to take a screenshot or you can download the photo in chat. Okay. Everyone, you can join your breakout rooms. Okay. Everyone, you can join your breakout rooms.",
+    "ru": "Во время подготовки ASR даёт длинные uh и Thank you; они могут отражать тишину и не раскрывают скрытых идей участников. Преподаватель снова напоминает о снимке слайда и приглашает в комнаты.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Индивидуальная подготовка и переход в комнаты",
+    "sourceStart": 623,
+    "sourceEnd": 646
+  },
+  {
+    "start": 2534.1,
+    "end": 2635.68,
+    "en": "Hi. Hi. What about things? I know. You need to open your mind. Okay. Okay. Okay. I think about it. You have experience. How about the internet and connection? How about the internet and connection? When I was being a child, we don't have internet, we don't have a smartphone. And we every time going to meet face-to-face. But I think about you too. I also had the same experience with you. If one day we don't need to use the smartphone just to lock the neighbor to go there to gathering. I also had the same experience with you. If one day we don't need to use the smartphone just to lock the neighbor to go there to gathering. It's because far away from the friends, I can't contact. So you must use the iPhone to sign a phone for them. But one day it's not use the iPhone. You just go out with the neighbor or family to go to the restaurant to have the tea or go somewhere to activity hold days. Just use the neighbor or family. It's because no iPhone. If you use the iPhone, we can contact far away from the relative or friends. But no iPhone. Just do in the family and a neighbor. Can't do anything. Thank you.",
+    "ru": "Learner начинает с опыта детства: тогда не было интернета и смартфонов, люди встречались лично. Партнёр развивает идею: без телефона проще общаться с семьёй и соседями, а с далёкими друзьями связаться трудно. Некоторые строки почти дословно повторены разными кластерами, поэтому кластер не служит основанием авторства.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Детство без интернета и близкие люди",
+    "sourceStart": 646,
+    "sourceEnd": 671
+  },
+  {
+    "start": 2635.68,
+    "end": 2692.7,
+    "en": "Yes, yes. When you was being a child, how about you at a meeting and ask, oh, let's go to going to the street for a walk? When I'm a child, if you have to go to some activity, after school, we will talk about each other to give a time or location to go there. Like, for example, after school, maybe Sunday, we will go to hiking. So after school, it's because at that time, no telephone, no, no anything. So we will get to talk each other. Oh, tomorrow at 9 o'clock, we will go hiking at the location, which location, blah, blah, blah. So all the classmates do on time at the location. Oh, yes.",
+    "ru": "Learner спрашивает, как партнёр договаривался о прогулках в детстве. Партнёр объясняет: после школы назначали день, время и место, например воскресный поход; все приходили в условленное место вовремя. Это связный рассказ партнёра, а не набор ошибок ученика.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Как заранее договаривались о встрече",
+    "sourceStart": 671,
+    "sourceEnd": 676
+  },
+  {
+    "start": 2692.7,
+    "end": 2741.03,
+    "en": "Oh, yes. What about Fink, Partner? Partner. Okay. Number one? Yes, yes. We can also, we can also meet them in person or write letters. Write letters. What's the writing? We can write letters. Oh, letters. Oh, yes. Letter. Letter. Okay. Letters, yeah. Write letters to talk to each other. Go to the post station, post station, to send a letter. Oh, yes. That's a long time ago. Okay,",
+    "ru": "Группа предлагает встречаться лично или писать письма. Один участник переспрашивает letters; другой поясняет, что письма отправляют через почту. Post station из ASR в учебных моделях заменено стандартным post office. Это лексическая практика, а не подтверждённая персональная ошибка Learner.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Личные встречи и бумажные письма",
+    "sourceStart": 676,
+    "sourceEnd": 699
+  },
+  {
+    "start": 2741.03,
+    "end": 2835.38,
+    "en": "then the information dictionary, how about usually? When I was traveling to 158 countries, I usually offline map and usually guide book and location direction for work, wonderful. So, and every country, for my experience, no happy internet when you go. Yes. But a long time ago, we also happy, although it's no telephone. Telephone. Yes. Yes. We will go hiking, go to somewhere to play activity, but now always stay at home to watch TV, to play games, something like that. Not the same. Yes. Yes. Yes. Yes. Yes. Yes. What is, what has been this problem if you're going to another country and what I think is this question? The problem is if some friends are far away from you, you need to take the bus or take the test to go to his home to ask him out. Yes. Yes. Yes. And change money. Yes. Yes. Yes. Okay.",
+    "ru": "Learner упоминает путешествия, карты без подключения и путеводители. Число 158 countries в распознавании не подтверждено и не публикуется как биографический факт. Партнёр вспоминает походы и занятия до повсеместных телефонов; сейчас люди чаще сидят дома. Обсуждают расстояния, транспорт к друзьям и обмен денег.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Путешествия, карты и недостатки отсутствия связи",
+    "sourceStart": 699,
+    "sourceEnd": 727
+  },
+  {
+    "start": 2835.38,
+    "end": 2883.38,
+    "en": "What about Partner? What do you think? Number two or number one? Number three. Solution is problem. Yes. Okay. Okay. Okay. Okay. Okay. Okay. Okay. Okay. What's your problem? Okay. Okay. Okay. Okay. One moment. Maybe we are talking about the information for you that maybe blah, blah, blah, blah, blah, not understand what you think. Okay. Hello? And together without technology. Did you have a great time? Yes. Talking about your past experience. Okay.",
+    "ru": "Участники пытаются понять, отвечают ли они на вопросы о проблемах или о решениях. Есть длинные серии Okay и неясное blah, blah; они сохранены, но не получают выдуманного перевода. Затем преподаватель возвращает группу и спрашивает, чем можно заняться без технологий.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Уточнение вопросов и возвращение",
+    "sourceStart": 727,
+    "sourceEnd": 759
+  },
+  {
+    "start": 2883.38,
+    "end": 2940.38,
+    "en": "So when groups, would you like to share what activity will you do instead of using technology on the day? When group discussion. When group discussion. When we was being a child, we not usually use phone and laptop and many technologies. with a few people with a few people with a few people with a few people with a few people. Okay. We will be there now. We will be there now. We will be there now. It's we using paper. Okay. Okay. Okay. So when groups, would you like to share what activity will you do instead of using technology on the day. When group discussion. When we was being a child, we not usually use phone and laptop and many technologies. We will be there now. It's we using paper for letters and we are going to meet location use and another, uh, meet the face to face. Hmm. We do a face to face. Okay. Good. So another groups.",
+    "ru": "В этом участке есть подозрительные повторения и нулевые временные интервалы, включая перескок роли на преподавателя. Более связный ответ Learner около 48-й минуты: в детстве не пользовались смартфонами и ноутбуками, писали на бумаге и встречались лично. Преподаватель переформулирует face to face и приглашает другую группу.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Общий ответ о прошлом и бумажных письмах",
+    "sourceStart": 759,
+    "sourceEnd": 789
+  },
+  {
+    "start": 2940.38,
+    "end": 3050.38,
+    "en": "What activity will you do? Do you are vacation day without using technology? How will you do? How will you spend your whole day with your group? Yes. Uh, write a letter. Yes. Yes. Excuse me. So we are talking about those and say, Oh, if you have the one day have no connection. So what do you do? And I'm, my, my group is said, my group said, Oh, I listening. Uh, some, the person is, I, you're talking about, uh, you say, uh, write a letter. Uh, sorry. Actually, we just get, uh, well, the various we were to, we were just, uh, answering the questions, the full questions, the plan and discuss. We were just fine. Yeah. Yeah. Okay. Anyway, I can hear any, uh, break comes from, you are joining, talking about your past experience, right? For example, uh, like, uh, before, like before, not now I did before, after your school, uh, you, uh, if you want to give a message to your friends, you give and take each other. Uh, you talk and, uh, you, you talk and give information to your friends after school for like upcoming activity. Uh, you have to wait for your friends and talk, right? I had once, when, when, uh, uh, as learners show the experience, another learner also show, Oh, what's problem? We might face logs that way. Yes, definitely. Maybe also in nowadays we need, uh, we need, uh, uh, uh, technology, right? So thank you everyone's very lovely. And you all are really, uh, active. Yeah. I'm really, thank you for your active participations and you get the points. Okay. Thank you. Yes.",
+    "ru": "Преподаватель спрашивает, как группа проведёт день вместе. Участники объясняют, что в основном отвечали на вопросы и вспоминали прошлое, а не согласовали конкретную программу. Преподаватель принимает обсуждение, напоминает о передаче информации после школы и возможных трудностях без технологий, благодарит за участие.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Разница между воспоминаниями и общим планом",
+    "sourceStart": 789,
+    "sourceEnd": 829
+  },
+  {
+    "start": 3050.38,
+    "end": 3108.38,
+    "en": "We're going through it. Thank you. Thank you. Please don't go. I'm posting a link in the chat. And you're going to use this link for your next lesson right now. So here is what only one. Only one here, but you've got another lesson on the other side. So please use this. Yeah. There's a link in the chat. One second. There's a link coming in the chat. Okay. Uh, Partner, we will join. Okay. One second. Slow down. Okay. There's a link in the chat. No. Partner. Yeah. Let me finish them. Okay. Okay. So everyone, you finished your one lesson here. You have another lesson in the other room. I'm posting the link in the chat now. So use this link to go to the chat, uh, to the next room, please. Okay.",
+    "ru": "Организатор просит не уходить: первое занятие закончилось, второе идёт в другой комнате. Ссылку отправляют в чат; её адрес в записи не приведён и в пакет не добавлен. Просят дождаться сообщения и перейти в следующую комнату.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Переход ко второму занятию",
+    "sourceStart": 829,
+    "sourceEnd": 864
+  },
+  {
+    "start": 3108.38,
+    "end": 3192.38,
+    "en": "So like in this small gathering, you can, you know, have better conversation, but in a big party, I understand. Yes. Yes. Yes. Yes. So how about when? Do you like big or small party? Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. So how about when? Do you like big or small party? Yeah. Hello. Um, for the newcomers, we are discussing which kind of party do prefer a big party or small gathering. Okay. And so far, yeah, so far today, and Partner prefer small gatherings. Uh, anybody like big party? I think, uh, uh, for me, uh, I definitely prefer a small group. There's big parties. He had energy. Um, I see. So, well, it seems like we kind of share the same minds.",
+    "ru": "Во втором занятии уже обсуждают предпочтения: камерная встреча позволяет лучше поговорить. Новым участникам объясняют вопрос. Learner предпочитает небольшую группу; фрагмент про энергию больших вечеринок неполон. Преподаватель замечает общее предпочтение небольших встреч и переводит разговор к свадьбе.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Маленькая встреча или большая вечеринка",
+    "sourceStart": 864,
+    "sourceEnd": 904
+  },
+  {
+    "start": 3192.38,
+    "end": 3249.38,
+    "en": "So far, um, all the speakers like smaller gatherings, but what if it's a wedding? What if it's a wedding? Partner and Partner are planning their wedding. Um, if, what will you suggest for them for the five decisions they should make first for planning a wedding? Now, I'm gonna, uh, invite you to discuss it in a group. So that, uh, you can decide together for the five things you have to, I'm sorry. For the five decisions they should make first for their wedding. Okay. Okay. Now, uh, I'll see you in three minutes. Okay.",
+    "ru": "Учебная пара планирует свадьбу. Преподаватель просит в группе выбрать пять решений, которые нужно принять в первую очередь, и даёт три минуты. Имена персонажей нейтрализованы: важны роли и решения, а не частные имена.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Пять первых решений при планировании свадьбы",
+    "sourceStart": 904,
+    "sourceEnd": 918
+  },
+  {
+    "start": 3249.38,
+    "end": 3334.42,
+    "en": "Hello. Hello. Hello. Hello. Hello. Learner. And, Partner, I don't know how to pronounce your name. Partner. Partner. Partner. Right. Okay. Now, we can come. Uh, the new couple have the wedding planning. Uh, what was your wedding planning? Uh, what was your wedding planning? Uh, what was your wedding planning? Uh, what was your wedding planning? I think about... Hello, Partner, hello, Partner, hello, Partner, hello, Partner. Okay, everyone, can you see my screen? Yes, I can see your screen. Okay, so thank you. So now discuss the five decisions can they make first. Five decisions they should make first. Partner and Partner are planning their wedding. Planning their wedding. Okay, Partner, I think about your not experiences wedding. Maybe you can try. What about this situation? What do you think of this summary? What is your summary? Um,",
+    "ru": "Участники приветствуются, уточняют произношение имени, затем демонстрируют экран. Суть задания повторена: выбрать пять первых решений для свадьбы. Learner предлагает услышать взгляд человека без свадебного опыта; ASR формулировки не полностью ясны.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Начало групповой работы и демонстрация задания",
+    "sourceStart": 918,
+    "sourceEnd": 951
+  },
+  {
+    "start": 3334.42,
+    "end": 3441.42,
+    "en": "so the first thing, I think the first thing is the, um, how many, how many person to participate? No, no, no. It's a number one. It's, it's not a good idea. Number one, you need a discussion for setting and budget. If you not have money, why you need it? It's going to, how many person was being parents, only parents, if you're not a budget. Yeah, only parents, yeah. Okay. Uh, number one, setting and budget. Uh, okay. Number two. Well, number two? Yes. Yes. Yes. Yes. I think, uh, the teacher asked us, uh, it's because they are planning their wedding. Uh, so we must think about how, uh, like, um, Partner mentioned before, how many people to invite to the wedding party? Uh, wedding party, wedding party. And also where is the best location for us, uh, for them to have the gathering, uh, have the dinner, some like that. And when is the best time on Sunday or, or Saturday, uh, in the evening, some like that. Uh, also, uh, invite some friends to take a photo or, uh, order the, uh, delicious food for them. Okay, Partner, Partner, Partner, Partner.",
+    "ru": "Партнёр предлагает начать с числа гостей. Learner возражает: сначала нужен бюджет, от него зависит масштаб. Другой участник предлагает число приглашённых, место, дату, фотографии и еду. Это обсуждение приоритетов; универсального обязательного порядка для всех свадеб урок не устанавливает.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Бюджет или число гостей: порядок решений",
+    "sourceStart": 951,
+    "sourceEnd": 967
+  },
+  {
+    "start": 3441.42,
+    "end": 3592.96,
+    "en": "Could you please, uh, uh, uh, uh, help me? Uh, we, uh, uh, uh, more to this team have experiences, uh, wedding. I have experience, uh, maybe, uh, more work, uh, have, uh, experience. All team have experience. Uh, my experience, uh, I, uh, uh, think about is number one. You need a, uh, setting budget. Number two, uh, you need to choose, uh, date. Number three, uh, create a road, uh, guest, uh, list. Uh, number four, booking, uh, in restaurant is a place. And to find that, uh, you need to find that, uh, you need to find that. a roach guest list number four booking in restaurant is a place and five deciding in style and catering okay so hello hello welcome back excuse me teacher uh i want uh a discussion of who not uh now uh wedding experience uh i want to know what about think is this situation if you create a plan for uh for uh for me i know i have experiences many of these teams have experience but i i'm many interested yeah so well you can share with us uh you and your group's ideas for the top five decisions you have to make first okay i had uh uh i can uh uh tell how about this uh i have experience and so i mean number one two three four five it's uh it's not problem uh okay number one for me it as a setting is a budget number two choose this date number three is creating a road guest list number uh for this booking this place and number five what you eat uh is but for me it's more interested if you're not experiencing this wedding uh could you please give me the what about think is situation",
+    "ru": "Learner перечисляет бюджет, дату, предварительный список гостей, место и стиль с питанием. После возвращения он поясняет, что хотел бы услышать мнение людей без опыта, потому что опытные уже знают привычный порядок. Rough guest list распознано как road/roach; это не обучающее выражение.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Пять решений и запрос другого опыта",
+    "sourceStart": 967,
+    "sourceEnd": 987
+  },
+  {
+    "start": 3592.96,
+    "end": 3704.48,
+    "en": "well uh let's uh let's hear about the other groups uh hear about their thoughts maybe they can answer your question um i think Partner right yeah how to pronounce your yeah so how's your group's uh list the top five what about me uh i've seen i've seen i've seen i've seen uh wedding cake uh uh uh uh uh uh uh uh uh uh uh uh uh uh send out invitations um invitation invitation um they should decide where to go or one there so the venue honeymoon honeymoon honeymoon yeah okay oh yes honeymoon honeymoon um they should book a hotel for their sure the venue yeah okay okay nice okay let's listen to their conversation and uh you're going to do this listening individually uh choose one answer that's their main topic okay listen individually and carefully uh okay please yeah please mute so that we don't have any",
+    "ru": "Преподаватель приглашает другие группы. Звучат торт, приглашения, свадебное путешествие и отель; venue уточняют как место проведения. Затем предлагают самостоятельно послушать разговор и выбрать его основную тему, выключив микрофоны для уменьшения фонового шума.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Другие предложения и подготовка к аудированию",
+    "sourceStart": 987,
+    "sourceEnd": 1009
+  },
+  {
+    "start": 3704.48,
+    "end": 3779.5,
+    "en": "background sound anyway as i was saying about the wedding can you can you hear the sound can you hear hear the sound of the audio yes uh sum up yes i thought i heard if we want to get married in june yes you might so what do we need to think about well the usual thing with lots of guests lots of guests or just a small one how about how about we invite no one what we could just have a secret wedding go to las vegas in america or something like that seriously it's an idea seriously Partner don't you think it's a good idea to set a limit so no more more than 80 guests yes i suppose it is okay okay Partner sure we can invite her well yes but i was thinking we'll need a photographer uh Partner that's kind of an unnecessary detail right now yes of course",
+    "ru": "В учебном диалоге пара хочет пожениться в июне, обсуждает большую или маленькую свадьбу, секретную церемонию, ограничение в 80 гостей и фотографа. Один собеседник считает фотографа преждевременной деталью и возвращает разговор к списку гостей. Часть аудио отсутствует в ASR; недостающие слова не дописаны.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Первое прослушивание: гости и второстепенные детали",
+    "sourceStart": 1009,
+    "sourceEnd": 1030
+  },
+  {
+    "start": 3779.5,
+    "end": 3845.93,
+    "en": "let's go back to the guests so how many relatives and how many friends so could we just invite close family and friends we'll have to invite aunt Partner or madame Partner we have to invite her of course we could sit next to my uncle Partner but he never says anything exactly the perfect bear who else what about the people you work with i don't know about that we could always invite them to the evening reception don't you agree but i would like to invite Partner as i said that's fine anyway i think we need to limit it to close friends and family members even the scary one i sort of get both excited and nervous when i think about it it'll be fine the next question is where well there's that lovely old hotel you know near where my cousin lives oh region's lodge actually thinking about where after we're married where are we going to live good question what you might call a necessary detail now",
+    "ru": "Разговор продолжается: близкие родственники и друзья, коллеги на вечернем приёме, разные характеры родственников. Один участник одновременно радуется и нервничает. Вопрос where сначала понимают как выбор отеля для свадьбы, но затем уточняют: где пара будет жить после свадьбы. Этот будущий дом назван необходимой деталью.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Родственники, приём и будущий дом",
+    "sourceStart": 1030,
+    "sourceEnd": 1050
+  },
+  {
+    "start": 3845.93,
+    "end": 3944.16,
+    "en": "please write down your answer write down your choice yes like Partner in the chat box thank you Partner and Partner everybody put your answer in the chat box wow it looks like we have the same mind yeah okay nice um yes thank you Learner the letter will be enough but my other question is did they mention a and c an volunteer did they mention a and c was no no no they didn't mention it yes they already mentioned but a little yes they mentioned but their main topic is b everybody's correct congratulations and uh now we're gonna listen again take a screenshot please and uh for all three questions now please read the instructions and questions quietly for yourself i'm going to give you like one minute for reading the instruction and the questions all three",
+    "ru": "Преподаватель просит записать выбранную букву в чат. Основная тема — вариант B; другие темы могли упоминаться, но не быть главными. Далее нужно прочитать три вопроса к повторному прослушиванию и подготовиться записывать идеи и детали.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Проверка главной темы и новые вопросы",
+    "sourceStart": 1050,
+    "sourceEnd": 1065
+  },
+  {
+    "start": 3944.16,
+    "end": 4049.36,
+    "en": "okay now listen again and take a note of your ideas to all three questions and also the details from the audio okay take notes listen take notes and then you will have a discussion okay anyway everybody can hear it the sound as i was saying at the wedding i was thinking we should start making some decisions if we want to get married in june yes you're right so what do we need to think about well the usual things guests are vending for the reception the cake so maybe the first thing to decide is who should we invite i mean do we want a large wedding with lots of guests or just a small one how about how about we invite no one what we could just have a secret wedding go to las vegas in america or something like that seriously it's an idea seriously Partner don't you think it's a good idea to set a limit so no more than 80 guests yes i suppose two okay and Partner sure we can invite her well yes but i was thinking we'll need a photographer well yes but do you agree the test will be perfect as a photographer",
+    "ru": "Преподаватель объясняет, что после заметок будет обсуждение. Аудио повторяет июньскую свадьбу, выбор масштаба, идею тайной церемонии, максимум 80 гостей и спор о том, пора ли выбирать фотографа. ASR варьирует имена; в публикации они заменены нейтральными ролями.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Второе прослушивание: начало и список гостей",
+    "sourceStart": 1065,
+    "sourceEnd": 1092
+  },
+  {
+    "start": 4049.36,
+    "end": 4134.13,
+    "en": "um Partner that's kind of an unnecessary detail right now yes of course to go back to the guests so how many relatives and how many friends so could we just invite close family friends we'll have to invite aunt Partner mad aunt Partner we have to invite her of course we could sit next to my uncle Partner but he never says anything he's actually the perfect pair who else what about the people you work with i don't know about that we could always invite them to the evening reception don't you agree it'd be easier not to provide them but i would like to invite Partner as i said that's fine anyway i think we need to limit it to close friends and family members even the scary one i sort of get both excited and nervous when i think about it fine the next question is where well there's that lovely old hotel you know near where my cousin lives oh regent's lodge actually thinking about where after we're married where are we going to live good question what you might call a necessary detail okay um do you have all the uh you know your own answers or do you need to listen again do you need to listen again yeah listen okay but for",
+    "ru": "Пара возвращается к гостям и ограничению близкими людьми, обсуждает коллег и вечерний приём. Один собеседник выражает одновременно волнение и радость. После упоминания отеля выясняется, что вопрос о месте означает будущий общий дом. Преподаватель спрашивает, требуется ли ещё одно прослушивание.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Второе прослушивание: приоритеты и место жизни",
+    "sourceStart": 1092,
+    "sourceEnd": 1117
+  },
+  {
+    "start": 4134.13,
+    "end": 4207.67,
+    "en": "the last listening okay listen again this time your ideas and details from the audio anyway as i was saying about the wedding i was thinking we should start making some decisions if we want to get married in june yes you're right so what do we need to think about well the usual thing guests are available for the reception the cake so maybe the first one to decide is who should we invite i mean do we want a large wedding with lots of guests or just a small one how about how about we invite no one what we could just have a secret wedding go to las vegas in america or something like that seriously it's an idea seriously Partner don't you think it's a good idea to set a limit so no more than 80 guests yes i suppose it is okay and Partner sure we can invite her well yes but i was thinking we'll need a photographer well yes but don't you agree the test will be perfect as a photographer um Partner that's kind of an unnecessary detail right now yes of course",
+    "ru": "Преподаватель объявляет последнее прослушивание с заметками. Снова звучат свадьба в июне, гости, секретная церемония и предел в 80 человек; вопрос фотографа считают преждевременным на этом этапе. Повтор — часть занятия, а не новый сюжет.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Третье прослушивание: от начала до фотографа",
+    "sourceStart": 1117,
+    "sourceEnd": 1138
+  },
+  {
+    "start": 4207.67,
+    "end": 4288.66,
+    "en": "let's go back to the guests so how many relatives and how many friends so could we just invite close family and friends we'll have to invite aunt Partner you're mad and i'll clip we have to invite her of course we could sit next to my uncle Partner but he never says anything he's actually the perfect pair who else what about the people you work with i don't know about that we could always invite them to the evening reception don't you agree it'd be easier not to invite them but i would like to invite Partner as i said that's fine anyway i think we need to limit it to close friends and family members even the scary one i sort of get both excited and nervous when i think about impatient the next question is where well there's that lovely old hotel you know near where my cousin lives oh regent's lodge actually thinking about where after we're married where are we going to live good question what you might call a necessary detail okay now i'm gonna send you to your breakout rooms for the discussion for six minutes so have a thorough discussion hello",
+    "ru": "Продолжается обсуждение приглашённых и вечернего приёма. Будущий дом снова противопоставлен месту церемонии; necessary detail здесь — важный жизненный вопрос. После окончания аудио преподаватель направляет участников на подробное шестиминутное обсуждение трёх вопросов.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Третье прослушивание: завершение и групповая задача",
+    "sourceStart": 1138,
+    "sourceEnd": 1163
+  },
+  {
+    "start": 4288.66,
+    "end": 4396.64,
+    "en": "hello hello Learner Partner and Partner Partner okay i think about uh number one why does Partner calling invite us and it's any details right now but necessary to him how minded the feeling and why i think about i think about he probably feel a bit stressed and impatient because it's tight deadline Partner is activity fine with invite Partner he calls choosing and photographer and in certain details right now to him setting the guide limit and 18 80 80 uh 80 uh 80 before jews is top priority i'm not sure maybe Partner what is your opinion yeah to be honest the audio that it's so difficult to to listen yeah i hear a lot of the background a lot of noise in background so that it's so difficult for me the to hear to hear to hear yes listen the first one do you agree that for me that is this number one number one is uh to to ask the uh photograph who you will be a photograph the the the the the man said is it's not designed now it's not it's not details right now uh-huh",
+    "ru": "В комнате Learner предполагает стресс и нетерпение из-за сроков: сначала следует определить число гостей, а фотограф — позже. Он ссылается на предел 80. Это интерпретация тона и приоритетов, не прямое заявление персонажа о стрессе. Другой участник жалуется на шум и трудность аудирования.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Как чувствует себя собеседник и что важнее",
+    "sourceStart": 1163,
+    "sourceEnd": 1184
+  },
+  {
+    "start": 4396.64,
+    "end": 4456.72,
+    "en": "number two i think about number two Partner uh call their future home necessary details it's because she is thinking before it's wedding day she is feeling both experiences nervous because getting married and starting new life maybe they will choose the location where it's very important i'm not sure number three what do you think Partner and Partner's person personality are like and why i think about Partner simpactic show is organized or organized or",
+    "ru": "Learner объясняет, почему будущий дом важен: речь о совместной жизни после свадьбы, а не только об одном дне. Упоминаются радость и нервозность перед новым этапом. Затем обсуждают характеры: практичность и организованность одного человека; другие качества второго пока подбирают. ASR многих прилагательных искажён.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Будущий дом и первые впечатления о характерах",
+    "sourceStart": 1184,
+    "sourceEnd": 1193
+  },
+  {
+    "start": 4456.72,
+    "end": 4609.36,
+    "en": "organized i might be uh it's the best Learner you can we find the number one is what can you tell me again number one to number one for question number one yes uh uh he probably feels a speed stresses and implementation because it's the tide deadline uh hello hello hello his call chooses a photographer but uh details right now to him and setting the guys uh limit limit max uh 80 persons number two number two you can say it again now you two you write me uh yes okay okay yes i don't know uh i think uh i think about Partner because this future home is necessary details because she is thinking uh it's a wedding day about this real life together is she admins is feel more exclude is nervous because she is getting married and starting a new life in uh hugo step it's hard for me number three what do you think Partner and Partner's personality are like one minute left and why uh Partner's seems uh practitioner on organized uh Partner is more spontaneous and emotions okay okay okay thank you so what about what about Partner number three i don't know it's because i i agree with the Learner uh Partner uh is the organized the key is follow the talks of advice something like that so oh by the way uh Learner where are you from from russia but i live in china oh you live in you live in china yes okay so thank you thank you so much thank you thank you",
+    "ru": "Партнёр просит повторить первый и второй ответы. Learner снова связывает нетерпение со сроками и важность дома с новой жизнью, затем предлагает organized и spontaneous. Emotions в исходной строке не выдаётся за правильное прилагательное; эмоциональность как интерпретация спорна. Группа соглашается, благодарит друг друга и кратко знакомится.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Повтор объяснения и organized / spontaneous",
+    "sourceStart": 1193,
+    "sourceEnd": 1229
+  },
+  {
+    "start": 4609.36,
+    "end": 4713.84,
+    "en": "hello hello hello welcome back i hear that you have very sour discussion and some group discuss them twice to see if they change their answers okay group one any volunteer to share your idea of the the first why the first question okay okay i think about uh number one why does Partner call invite Partner invest in necessary details right now what necessary to him her mind is feeling and why i think about uh Partner Partner he probably feel a speed stress and impatient because it's uh tight deadline and he calls choose photographer but uh it's necessary details right now this is uh how many person guys limit it's 80 80 before topic top priority yes exactly he doesn't think it is like unnecessary at all but right now it's more important yes it's more",
+    "ru": "После возвращения Learner объясняет первый ответ. Преподаватель уточняет: фотограф не является совершенно ненужным, просто сейчас другие решения важнее. Это ключевой смысл right now. Стресс и дедлайн остаются выводом ученика, а не установленным фактом сценария.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Общая проверка: не сейчас и не вообще",
+    "sourceStart": 1229,
+    "sourceEnd": 1242
+  },
+  {
+    "start": 4713.84,
+    "end": 4784.53,
+    "en": "important yes yes and uh i'm gonna give second question to group two Partner um has your group's answer for question question two uh i think Partner call the location because i think the location is very important to to to uh to have a wedding so uh that's why they call the the location is uh necessary to tell like the location is very very very i think it's a comparison i think about this not location this future home is uh necessary details it's not a location is uh uh she's feel both exclusive nervous because it's getting married it's starting with new life is uh hugo step it's a step by step if where you live with it is when you're married after a minute yes",
+    "ru": "Другая группа отвечает о важности места церемонии. Learner уточняет, что в реплике necessary detail говорится о будущем доме после свадьбы, и объясняет новый жизненный этап. Преподаватель благодарит обоих. Исправление смысла другого ответа — отдельное коммуникативное умение.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Место свадьбы или будущий дом",
+    "sourceStart": 1242,
+    "sourceEnd": 1255
+  },
+  {
+    "start": 4784.53,
+    "end": 4869.0,
+    "en": "exactly thank you both and the Partner how about the third question how about their you know how about your personality is in my group Partner answered um and she's she mentioned Partner seems practical and organized it because he wants to decide things a step by step and focus on the main points first letter to first letter than Partner but she said um Partner seems emotional but i talked to her um she seems thoughtful and private not emotional because she wants a small secret wedding with the only um uh spontaneous secret wedding and he she cares about the their future home so that's why we talk to each other Partner is more spontaneous yeah that's a very good word i have used that uh you know in Learner group they they have another two adjective organized for Partner and spontaneous for Partner that's two beautiful words and now we don't plan for our wedding",
+    "ru": "Группы предлагают practical и organized для одного собеседника, spontaneous для другого. Участница возражает против простого emotional: ей ближе thoughtful и private, потому что человек думает о небольшом круге и будущем доме. Преподаватель хвалит выбранные прилагательные. Это обсуждение интерпретаций, а не диагноз личности.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Характеры: аргументы и альтернативные трактовки",
+    "sourceStart": 1255,
+    "sourceEnd": 1273
+  },
+  {
+    "start": 4869.0,
+    "end": 4932.32,
+    "en": "we plan for the new year because the new year is coming right right yeah together yeah you plan new year for our class uh take your screenshot take a screenshot of this of this slide and decide on as many details as you can you can you know decide on more than all this you know all these items don't worry about money imaginary say Partner will pay for everything so in your group uh have one reporter to share your plan later and decide as many details as you can you have a very long discussion i hope to hear very good you know party yes",
+    "ru": "Преподаватель предлагает вместо свадьбы спланировать Новый год для класса. Нужно сохранить слайд, согласовать как можно больше деталей и выбрать докладчика. Деньги воображаемые, один условный спонсор оплатит всё. Это учебная ролевая задача, не реальная договорённость об оплате.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "План новогодней вечеринки для класса",
+    "sourceStart": 1273,
+    "sourceEnd": 1283
+  },
+  {
+    "start": 4932.32,
+    "end": 5040.81,
+    "en": "okay okay guys i see you again yes i see it is smart you can keep your idea okay so uh by the way i think it's where is china do you live and guangzhou guangzhou guangzhou oh okay okay so let's together we have planned about the new year celebrations mm-hmm okay okay okay okay guys what do you think about today's end time uh what uh when you start is uh uh working is uh reading for uh starting is happy news yes oh firstly we will choose the day and time yeah uh in the 2027 is the in the february 6th that's the the february 6th the february 6th on saturday yes and the day is uh also we don't need to go to work also maybe it's sorry sorry sorry sorry sorry sorry sorry i know and that is as she say uh the date is the host in february 6th 6th on saturday oh yes yes can you see the screen okay i type the screen they say the date is february 6th right yes okay so",
+    "ru": "После краткого знакомства группа выбирает день и время. Предлагается 6 февраля 2027 года, суббота; позднее доклад связывает это с китайским Новым годом. В модели дата — содержание группового предложения, а не утверждение о времени личной встречи или местных правилах праздника.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Дата: какой именно Новый год",
+    "sourceStart": 1283,
+    "sourceEnd": 1313
+  },
+  {
+    "start": 5040.81,
+    "end": 5150.22,
+    "en": "it's uh it's uh 6th february yes it is thailand is uh vietnam what about the city okay okay let's go in uh what is uh what is uh what is city one one one moment uh kong kong and uh kata beach kata beach yes uh where is this uh what is city name please help me me it is uh is uh thailand uh have uh uh kata beach uh one moment i uh uh i check into this what is name city you just you just forgot from um for me um for me i think that because the new year uh we are the the stern friends phuket phuket let's go is phuket phuket phuket in the thailand phuket in thailand not in taiwan yes it is uh okay i mean it is uh thailand so",
+    "ru": "Learner пытается вспомнить название города/места с Kata Beach в Таиланде; партнёр подсказывает Phuket. Группа уточняет Thailand, не Taiwan. Пляж предлагается как место праздника. Неуверенные kong kong и другие географические формы ASR не превращаются в дополнительные маршруты.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Выбор города: пляж Ката и Пхукет",
+    "sourceStart": 1313,
+    "sourceEnd": 1334
+  },
+  {
+    "start": 5150.22,
+    "end": 5253.2,
+    "en": "where is where so where's the van the van no no no no no no i i i don't think so maybe we choose there is a it's karaoke para karaoke and dancing it's it's beach dancing what do you have the name of where is where is it is exhibition center or or just oh just only the shops no no no it's uh let's go this beach it uh kata beach it's kata beach uh location okay okay uh what do you mean that uh uh theme is this code the theme is casual casual casual casual casual casual in beach oh yes it's like castle really yes because the friends yeah because our friend yes so the i think yes yes casual just you bring you're bringing a friend right you bring a friend you see i'll say oh i said oh we were going i said yes yes yes yes i don't say oh where did you say no you i didn't even know karaoke the audience it means the owner of them that are friends yes so that i think the um uh the garden rest is casual casual casual casual casual yes okay okay oh yeah yeah yeah yeah yeah",
+    "ru": "Группа уточняет venue: пляж, караоке, танцы; названия конкретного заведения нет. Обсуждают theme и dress code, договариваются о casual — обычной неформальной одежде. Castle в ASR по контексту относится к casual, но исходные слова сохранены.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Место, караоке, танцы и повседневная одежда",
+    "sourceStart": 1334,
+    "sourceEnd": 1363
+  },
+  {
+    "start": 5253.2,
+    "end": 5306.58,
+    "en": "okay uh uh i think about this uh uh parents and uh friends and other people oh that means all the friends if you if you took the parents is meter a big party a big party okay all the friends right other friends right all the friends yeah yeah yeah you are like that uh Partner you are uh type a no i'm feeling vietnam but ah vietnam okay okay okay what is a lot of country no she is what what what is a city vietnam ho chi mi city yes in ho chi mi city city yes i live in ho chi mi city yes i live in ho chi mi city yes i know okay",
+    "ru": "Предлагают друзей, родственников и других знакомых; это скорее большая компания. Затем участники ненадолго уточняют, где живёт партнёр: звучит Ho Chi Minh City во Вьетнаме. Имена нейтрализованы; биографическая деталь не используется для персонального вывода.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Гости и разговор о месте проживания",
+    "sourceStart": 1363,
+    "sourceEnd": 1389
+  },
+  {
+    "start": 5306.58,
+    "end": 5409.28,
+    "en": "so what is a special yes maybe what is the activities yes maybe the karaoke you know yeah okay okay okay yes yes and dancing and dancing and dancing yes yes yes yes and i'm saying okay um Partner reporter surprise um and uh some um we some inside i have some ducks right the ducks uh uh what maybe did you write maybe maybe maybe at uh maybe two minutes of travel is a culture quiz the ducks do you know that's means the duck is like the you some of the shock one is it yes yes i know yes yes i think about maybe two minutes travel is a culture quiz yes yes i'm saying is it is it you're right you're right okay yeah okay i think about uh need quiz need a quiz counter quiz okay that's a good one yeah yes where quiz yeah okay uh mentor is surprise yes yeah yeah oh let's go let's go let's go",
+    "ru": "Группа обсуждает караоке и танцы, предлагает короткую викторину о путешествиях и культуре. ASR ducks и counter quiz ненадёжны: правильное название игры не восстанавливается уверенно. Идея викторины ясна; обсуждают сюрприз и завершение работы.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Занятия, викторина и сюрприз",
+    "sourceStart": 1389,
+    "sourceEnd": 1425
+  },
+  {
+    "start": 5409.28,
+    "end": 5507.64,
+    "en": "welcome back welcome back okay we're now after we're now after the class we're going to phuket is all class and uh waiting it when you're happy here so starting yeah it's very nice yeah so uh okay for the first i uh first i want to you know preview for both of you that for the activities both groups share the same mind that surprised me uh okay okay okay okay this one too okay so um yes so um we are talking about something the celebration of the date and it's uh february it's february 6th so that's chinese new year okay yeah it's right yeah so and then in the city is going to the sometimes because sometimes it's a very popular it's very nice nice place it's very cheaper than than another place okay and and i think it's and i think in the value you're going to the this disco ktv okay so yes okay so i i so i guess i don't i don't know the name so i just put disco ktv okay okay yeah let's go on yeah",
+    "ru": "После возвращения шутят о поездке всем классом. Докладчик называет 6 февраля, китайский Новый год, место в Таиланде, условное Disco KTV, повседневную одежду и друзей. Пхукет был предложен раньше, но детали итогового места в речи неясны. Это воображаемый план, а не бронирование.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Возвращение и доклад первой группы",
+    "sourceStart": 1425,
+    "sourceEnd": 1450
+  },
+  {
+    "start": 5507.64,
+    "end": 5600.72,
+    "en": "and let's move on to the theme is i i totally agree because i just think about it what dress is is it's it's aware but i told you it is i say oh is it just castle casual okay yes those no more normal dress out i don't know i don't know where i don't know what i don't know what i don't know where to where is it and um and the guest is all the friends older friends all right yes maybe your family your your your friends your church mates it all the friends you can come in just like all right or some international friends just okay okay and activities and activities are some karaoke dancing at that and mix a quiz mix a quiz yeah please and for the surprise yes um make a surprise because um you say if you have the the some that all the questions is correct correct so you have the big prize yeah big prize yeah oh i oh i'll just say oh you you say oh maybe uh it's looser just never mind a small price all right that's nice and how about group two who is group two's reporter",
+    "ru": "Продолжается доклад о неформальной одежде и друзьях, включая семьи и международных знакомых. Занятия — караоке, танцы и викторина; за правильные ответы предлагается большой приз, также упоминается небольшой. Price в ASR здесь нельзя заучивать вместо prize. Преподаватель приглашает вторую группу.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Доклад: одежда, гости, занятия и приз",
+    "sourceStart": 1450,
+    "sourceEnd": 1478
+  },
+  {
+    "start": 5600.72,
+    "end": 5734.02,
+    "en": "uh uh did you group two who's your no no no no no no no i think it's a food that it's a food that is a food that is a food that is a food that is a food that i've been reported uh we thought it will be a fitness celebration we hope um everyone will have a wonderful time happy new year okay uh date and time our class is going to have a new year party on 30 december 2026 from from 7 p.m to one o'clock okay okay okay the party will take place uh in uh in milan or in america okay that's the time will be happy new year uh everyone should wear elegant clothes in gold and silver colors we will invite our classmates teachers and friends we are going to decoration with balloons lights and christmas tree we will have we will have pizza snacks cakes and soft drinks there will be and many vodka jazz dancing and fun games our special surprise will be a visit from santa claus with presents uh happy new year yeah thank",
+    "ru": "Вторая группа предлагает вечеринку 30 декабря 2026 года с 19:00 до 01:00. Место ASR передаёт противоречиво: Milan or in America, поэтому точный город не установлен. Нарядная золотая и серебряная одежда, одноклассники, учителя, друзья, воздушные шары, огни, ёлка, пицца, закуски, торты и безалкогольные напитки; игры, танцы и подарки от Санты. Короткое vodka — шутливое вмешательство, не рекомендация.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Доклад второй группы: другой праздник",
+    "sourceStart": 1478,
+    "sourceEnd": 1500
+  },
+  {
+    "start": 5734.02,
+    "end": 5829.56,
+    "en": "you very much and uh well i think you know that both groups plans karaoke and dancing so i sincerely hope that there is a real party after we completing santa and welcome new year and we can have this uh and also have uh gathering and see overseas gathering yes okay that's for today and thank you very much and uh i'd like to see you next week thank you thank you thank you thank you very good that was it for today no vodka for you Learner i'm afraid yes i don't i don't drink uh this is the job all right there guys well done yeah um um well done yeah we're done for today please come tomorrow yeah uh we have two lessons tomorrow as well same time we start 2 30 bangkok time yeah okay all right have a good sunday afternoon evening and see you uh saturday evening and see you tomorrow okay okay thank you see you tomorrow bye bye thank you thank you thank you Partner thank you you",
+    "ru": "Преподаватель отмечает общие идеи групп и благодарит за работу. На шутку об алкоголе Learner отвечает, что не пьёт и это шутка; job в ASR не трактуется как профессия. Организатор сообщает о двух уроках на следующий день с 14:30 по Бангкоку. В конце звучат прощания. Последний сегмент заканчивается на 5824.88; до 5829.56 нет ASR-текста, нельзя установить, была ли там тишина или нераспознанный звук.",
+    "teacher": "Mixed roles; contextual attribution only; ASR clusters unverified",
+    "heading": "Завершение занятия и время следующей встречи",
+    "sourceStart": 1500,
+    "sourceEnd": 1526
+  }
+]

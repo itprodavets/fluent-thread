@@ -6,6 +6,8 @@
 
 | Школа | Тема | Дата записи | Материалы |
 | --- | --- | --- | --- |
+| IH Bangkok | [День без технологий, свадебные решения и план праздника · IH Bangkok](ih-bangkok/technology-breaks-and-celebration-plans/) | 2026-11-21 | [Читать](ih-bangkok/technology-breaks-and-celebration-plans/README.md) · [JSON](ih-bangkok/technology-breaks-and-celebration-plans/lesson.json) |
+| ACE TEFL | [Отчёт о дебатах и город солнечных зеркал · ACE TEFL · 21 ноября](ace-tefl/reports-and-mirror-town/) | 2026-11-21 | [Читать](ace-tefl/reports-and-mirror-town/README.md) · [JSON](ace-tefl/reports-and-mirror-town/lesson.json) |
 | DC Teacher Training | [Преступления, мнения и Simple / Continuous · 20 ноября](dc-teacher-training/crime-punishment-and-time/) | 2026-11-20 | [Читать](dc-teacher-training/crime-punishment-and-time/README.md) · [JSON](dc-teacher-training/crime-punishment-and-time/lesson.json) |
 | ACE TEFL (предположительно; в записи не подтверждено) | [Как объяснить забытое слово: уточнение, описание и вежливая интонация · 20 ноября](ace-tefl/clarifying-meaning/) | 2026-11-20 | [Читать](ace-tefl/clarifying-meaning/README.md) · [JSON](ace-tefl/clarifying-meaning/lesson.json) |
 | ACE TEFL | [Память, привычки и remember / forget / try · 19 ноября](ace-tefl/memory-and-verb-patterns/) | 2026-11-19 | [Читать](ace-tefl/memory-and-verb-patterns/README.md) · [JSON](ace-tefl/memory-and-verb-patterns/lesson.json) |

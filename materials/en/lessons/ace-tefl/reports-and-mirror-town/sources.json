@@ -1,0 +1,47 @@
+[
+  {
+    "source": "Record-2026-11-21 19-47-42-20261121-194742",
+    "durationSeconds": 6499.8,
+    "segments": 1698,
+    "coveredSegments": 1698,
+    "transcriptBlocks": 82,
+    "package": "lesson.json",
+    "words": 150,
+    "materials": 60,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "schoolAttribution": "ACE TEFL explicitly confirmed by user",
+    "sessionTiming": "Approximately 18:00–19:47 SGT by session context; source filename and createdAt are save metadata, not verified start time",
+    "speakerAttribution": "ASR voice clusters unverified; contextual attribution only, uncertainty retained",
+    "publishedAudio": false,
+    "sourceContentSha256": "371f7d1969d225e6d5ab3b7bbf2d8e44e5398dfa31297299097e22e070aeff73",
+    "sourceLastSegmentEnd": 6491.24,
+    "untranscribedTailSeconds": 8.56,
+    "untranscribedGaps": "Source pauses and sparse recognition retained; repeated filler output is not evidence of continuous speech",
+    "readingVersions": 6,
+    "dialogueScenes": 3,
+    "dialogues": 18,
+    "dialogueComprehensionExercises": 18,
+    "teacherPhraseCards": 36,
+    "correctionEntries": 34,
+    "mistakePracticeCards": 13,
+    "grammarRules": 15,
+    "grammarExercises": 10,
+    "additionalComprehensionExercises": 3,
+    "externalChecks": [],
+    "provenance": [
+      "User-provided Vibe transcript, all 1698 segments, centiseconds converted to seconds; source wording retained except privacy substitutions",
+      "User supplied screenshot of homework; exact four headings transcribed, image not published",
+      "User confirmed ACE TEFL attribution",
+      "Video information is attributed to the recording; missing original report, summary paragraphs and full worksheet are not reconstructed as source documents"
+    ],
+    "privacy": "Learner and participant names replaced with neutral roles; private email and meeting-link patterns removed; no absolute source paths or original audio",
+    "adaptations": "Six readings, eighteen dialogues and all example answers are authored learning models, not verbatim recording quotations"
+  }
+]

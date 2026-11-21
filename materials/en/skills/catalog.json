@@ -111,6 +111,28 @@
             "origin": "образец ответа"
           }
         ]
+      },
+      {
+        "school": "ACE TEFL",
+        "title": "Уточнить задание и отправку",
+        "prompt": "Clarify the size of the writing task and check who should receive it.",
+        "answer": "Could you clarify whether you want four opening sentences or a full report? Should I send them only to the first teacher?",
+        "role": {
+          "line": "Please write the opening sentences and email them after class.",
+          "patterns": [
+            "Could you clarify",
+            "Should I send"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "Could you clarify whether you want four opening sentences or a full report?",
+            "meaning": "Можешь уточнить: нужны четыре начальных предложения или полный отчёт?",
+            "pattern": "Could you clarify whether + subject + verb — уточнить выбор между двумя вариантами.",
+            "example": "Could you clarify whether you want a summary or the full text?",
+            "origin": "образец ответа"
+          }
+        ]
       }
     ]
   },
@@ -224,6 +246,28 @@
             "pattern": "At + момент: will be -ing; by + срок: will have + причастие.",
             "example": "At six I’ll be working; by seven I’ll have finished.",
             "origin": "диалог"
+          }
+        ]
+      },
+      {
+        "school": "IH Bangkok",
+        "title": "День без телефона",
+        "prompt": "Make a realistic plan for one morning without your phone. State an intention and agree where to meet.",
+        "answer": "We’re going to spend the morning outside. We’ll meet at the park at ten.",
+        "role": {
+          "line": "We have talked about the past, but what will we actually do on our day offline?",
+          "patterns": [
+            "going to",
+            "We’ll"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "We’re going to spend the morning outside.",
+            "meaning": "Мы собираемся провести утро на улице.",
+            "pattern": "Be going to + base verb — намерение; spend time + место/занятие.",
+            "example": "We’re going to spend the afternoon together without our phones.",
+            "origin": "образец ответа"
           }
         ]
       }

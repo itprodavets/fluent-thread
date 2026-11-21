@@ -19,7 +19,7 @@ test('only explicitly added examples from imported English recordings become per
  assert.equal(Object.keys(seeded.dialogueMistakes!).length,29);
  assert.equal(seeded.results,initial.results);
  assert.equal(lessonReviewQueue(seeded,now).all.filter(item=>item.kind==='mistake').length,29);
- assert.ok(Object.values(seeded.dialogueMistakes!).every(card=>card.due===now&&card.level===0&&!card.last&&card.source?.topicId&&card.checklist?.length));
+ assert.ok(Object.values(seeded.dialogueMistakes!).every(card=>card.due===now&&card.level===0&&!card.last&&card.source?.topicId&&card.source.date==='2026-11-20'&&card.checklist?.length));
  assert.equal(addLessonMistakes(seeded,packs,now+500),seeded);
 });
 test('free answers persist with explicit self assessment; import and cloud round trips never reset them',()=>{

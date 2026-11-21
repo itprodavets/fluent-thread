@@ -19,6 +19,9 @@ export function LessonMistakeReply({ mistake, recordingId, onReviewed }: {
   const value = mode === 'written' ? written : spoken;
   const live = study.dialogueMistakes?.[mistake.id];
   const scheduled = !!live?.last && live.due > Date.now();
+  const sourceDate = mistake.source?.date ? Date.parse(mistake.source.date + 'T12:00:00Z') : NaN;
+  const sourceLabel = Number.isFinite(sourceDate)
+    ? new Intl.DateTimeFormat('ru', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(sourceDate) : 'урока';
 
   async function score(outcome: Outcome) {
     if (!value.trim() || !revealed || saving || recording || scheduled) return;
@@ -29,7 +32,7 @@ export function LessonMistakeReply({ mistake, recordingId, onReviewed }: {
   }
 
   return <section className="skill-reply" aria-label="Ответ своими словами и сверка">
-    {mistake.source && <p className="sub">Запись 20 ноября · {mistake.source.time} · {mistake.source.kind === 'communication' ? 'Ясность общения' : mistake.source.kind === 'naturalness' ? 'Естественная формулировка' : 'Грамматика'}</p>}
+    {mistake.source && <p className="sub">Запись {sourceLabel} · {mistake.source.time} · {mistake.source.kind === 'communication' ? 'Ясность общения' : mistake.source.kind === 'naturalness' ? 'Естественная формулировка' : 'Грамматика'}</p>}
     <div className="skill-partner-line"><strong>Собеседник</strong><p lang="en">{mistake.scenario.role.line}</p>
       <VoiceButtons text={mistake.scenario.role.line} language="en" /></div>
     <p>{mistake.scenario.prompt}</p>

@@ -1,6 +1,8 @@
 import catalog from '../../materials/en/lessons/catalog.json';
 
 const loaders: Record<string, () => Promise<{ default: string }>> = {
+  "ih-bangkok/technology-breaks-and-celebration-plans": () => import('../../materials/en/lessons/ih-bangkok/technology-breaks-and-celebration-plans/lesson.json?raw'),
+  "ace-tefl/reports-and-mirror-town": () => import('../../materials/en/lessons/ace-tefl/reports-and-mirror-town/lesson.json?raw'),
   "dc-teacher-training/crime-punishment-and-time": () => import('../../materials/en/lessons/dc-teacher-training/crime-punishment-and-time/lesson.json?raw'),
   "ace-tefl/clarifying-meaning": () => import('../../materials/en/lessons/ace-tefl/clarifying-meaning/lesson.json?raw'),
   "stafford-house/wolves-and-eco-homes": () => import('../../materials/en/lessons/stafford-house/wolves-and-eco-homes/lesson.json?raw'),

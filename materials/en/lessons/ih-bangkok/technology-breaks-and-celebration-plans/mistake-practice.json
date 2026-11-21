@@ -1,0 +1,144 @@
+{
+  "id": "ih-bangkok/technology-breaks-and-celebration-plans",
+  "recordingKey": "lesson-2026-11-21-ih-bangkok",
+  "school": "IH Bangkok",
+  "date": "2026-11-21",
+  "notice": "Context-based grammar practice only. ASR voice clusters do not identify the learner. Quoted fragments retain recognition limitations; corrected lines are authored models. Reading-aloud distortions, partner speech, uncertain ASR tokens and optional naturalness have been excluded from the mistake queue.",
+  "cards": [
+    {
+      "id": "work",
+      "time": "12:59–13:25",
+      "title": "Говорить о назначении устройства",
+      "original": "I usually laptop more for my working.",
+      "corrected": "I usually use my laptop more for work.",
+      "reason": "Контекст: ученик перечисляет свои способы использования устройств перед всей группой. В передаче смысла нужен use; стандартное for work вместо for my working. Модель сохраняет смысл, не заявляя точное восстановление ASR.",
+      "partner": "What do you use your laptop for?",
+      "prompt": "Объясни, для чего используешь ноутбук и телефон.",
+      "checklist": [
+        "Использую явный глагол use.",
+        "Для назначения говорю for work / for learning либо to + verb."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "think-clause",
+      "time": "15:58–16:24; 31:58–32:11",
+      "title": "Вводить мнение предложением",
+      "original": "I think about his correct… / I think about because he is a TV journalist…",
+      "corrected": "I think B is correct because it describes a day without technology.",
+      "reason": "I think about повторяется в ответах, где далее идёт мнение или объяснение. Для этой функции I think + clause. Само I think about it в других местах нормально. Продолжение — учебная модель.",
+      "partner": "Which summary do you think is correct?",
+      "prompt": "Назови вариант и объясни причину.",
+      "checklist": [
+        "Ввожу утверждение через I think + clause.",
+        "Даю одну понятную причину."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "child-question",
+      "time": "43:55–44:08",
+      "title": "Спросить о детстве",
+      "original": "When you was being a child…",
+      "corrected": "When you were a child, how did you arrange to meet your friends?",
+      "reason": "Ученик спрашивает партнёра о его детстве после его рассказа; авторство выводится из обмена, не из номера голоса. Для you — were, для обычного состояния «был ребёнком» was/were без being.",
+      "partner": "We used to meet without sending messages.",
+      "prompt": "Уточни, как партнёр договаривался о встречах в детстве.",
+      "checklist": [
+        "Использую you were a child.",
+        "Формулирую вопрос с did + base verb."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "childhood-habit",
+      "time": "42:29–42:40",
+      "title": "Назвать прошлую привычку",
+      "original": "We every time going to meet face-to-face.",
+      "corrected": "We used to meet face to face.",
+      "reason": "В рассказе о времени без интернета нужна ясная форма прошлой привычки. Возможен Past Simple: We often met face to face. Не every time вместо every day без контекста.",
+      "partner": "How did people communicate before smartphones?",
+      "prompt": "Назови одну прошлую привычку и сравни с настоящим.",
+      "checklist": [
+        "Использую used to + base verb или понятный Past Simple.",
+        "Сравнение с настоящим ясно по смыслу."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "past-negative",
+      "time": "48:22–48:35",
+      "title": "Отрицание о прошлом",
+      "original": "We not usually use phone and laptop…",
+      "corrected": "We didn’t usually use phones or laptops when we were children.",
+      "reason": "В связном повторе ответа о детстве подтверждается отрицательная форма без did. Множественные phones/laptops передают устройства вообще. Более ранний нулевой дубликат ASR отдельно не считается ошибкой.",
+      "partner": "Did you use digital devices when you were children?",
+      "prompt": "Расскажи о том, чем обычно не пользовались раньше.",
+      "checklist": [
+        "В отрицании о прошлом есть didn’t + base verb.",
+        "Для we использую were children, если добавляю эту часть."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "what-think",
+      "time": "23:35–23:52; 58:44–59:50",
+      "title": "Спросить чужое мнение",
+      "original": "What about think is situation?",
+      "corrected": "What do you think about this situation?",
+      "reason": "В повторном запросе мнения нужен полноценный вопрос. What about you? само по себе правильно, но здесь требуется ask what someone thinks.",
+      "partner": "I haven’t planned a wedding before.",
+      "prompt": "Попроси человека без опыта предложить свои первые решения.",
+      "checklist": [
+        "В вопросе есть What do you think…? или естественный эквивалент.",
+        "Понятно, о какой ситуации спрашиваю."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "set-budget",
+      "time": "55:48–56:22; 57:31–57:52",
+      "title": "Назвать первый шаг",
+      "original": "You need a setting budget.",
+      "corrected": "You need to set a budget first.",
+      "reason": "Ученик явно предлагает бюджет как первый пункт. Need to + verb, set a budget. Допустимый вариант: Setting a budget comes first.",
+      "partner": "What should a couple decide first?",
+      "prompt": "Назови первый шаг и объясни, как он влияет на следующий.",
+      "checklist": [
+        "Строю need to set a budget или грамматичный вариант с setting.",
+        "Объясняю связь с числом гостей или местом."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "choose-date",
+      "time": "57:31–57:52",
+      "title": "Артикль в choose a date",
+      "original": "You need to choose date.",
+      "corrected": "You need to choose a date and make a guest list.",
+      "reason": "Перед единственным исчисляемым date нужен определитель: a date / the date. Продолжение про список — модель по контексту перечисления, не дословная цитата.",
+      "partner": "What comes after agreeing on a budget?",
+      "prompt": "Предложи следующий шаг после бюджета, используя choose a/the date, затем добавь ещё одно действие.",
+      "checklist": [
+        "Добавляю a/the перед date.",
+        "Согласую формы перечисляемых действий."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "he-feels",
+      "time": "71:53–72:02; 77:57–78:05",
+      "title": "Осторожно описать ощущение",
+      "original": "He probably feel a bit stressed and impatient…",
+      "corrected": "He probably feels a bit stressed and impatient.",
+      "reason": "В собственном ответе о чувствах персонажа несколько раз пропускается -s после he. Stress здесь вывод ученика, не прямое признание персонажа. Нельзя по ASR оценить произношение каждого окончания.",
+      "partner": "How do you think the speaker feels, and why?",
+      "prompt": "Дай осторожную интерпретацию и обоснуй её конкретной репликой.",
+      "checklist": [
+        "После he использую feels / seems.",
+        "Помечаю вывод probably / seems / may и даю основание."
+      ],
+      "kind": "grammar"
+    }
+  ]
+}

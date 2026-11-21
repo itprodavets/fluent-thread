@@ -1,0 +1,822 @@
+[
+  {
+    "start": 0.0,
+    "end": 78.52,
+    "en": "Hi, Learner. How are you? I'm fine, thank you. And you? Were you invited in? Did someone let you in? Because I haven't made anyone a co-host. How did you manage to get in? That's interesting. Hmm. Hmm. Okay, okay. I'll find out. You did it. How did you do it? I didn't make you co-host. How did you manage to do that? It's not your fault, Learner. I'm just trying to manage the rooms and who comes in. How are you? I'm fine, thank you. I like studying every time. I needed a more practice. Okay, don't worry with us. You're gonna have tons of practice. You are going to have English lessons for hours. Okay. Okay. Good. All right. You're the only one here. You're starting with Teacher.",
+    "ru": "Организатор приветствует ученика и спрашивает, как он вошёл без назначения соведущим. Ученик отвечает, что всё хорошо и ему нужно больше практики; организатор обещает много часов английского. Затем выясняется, что пока пришёл только один ученик.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Вход в комнату и приветствие",
+    "sourceStart": 0,
+    "sourceEnd": 17
+  },
+  {
+    "start": 79.72,
+    "end": 137.6,
+    "en": "If it's okay with you, I'm going to put you in a breakout room on your own until more students come in. And we're going to wait for three or four minutes. And we hopefully can start. You are the only one who came on time, Learner. Thank you. But you're alone. You're alone. So, is it okay if I put you in a breakout room? Thank you. Okay. Good. All right. I'm going to put you in room one and I'm going to send you to company as soon as we have some. I think I will only do it now, but if I don't come here, it will be And there is this baby, who is the daughter of Teacher, she is strong, I don't know I don't know, I'll have to go All right, I'll have to go",
+    "ru": "Ученика просят ненадолго перейти в отдельную комнату и подождать три-четыре минуты. Он единственный пришёл вовремя; организатор обещает отправить к нему компанию, когда появятся другие. Далее ASR передаёт обрывочное высказывание о ребёнке и необходимости уйти: связь с уроком и говорящий не подтверждены.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Ожидание остальных участников",
+    "sourceStart": 17,
+    "sourceEnd": 31
+  },
+  {
+    "start": 148.76,
+    "end": 363.76,
+    "en": "All right All right All right All right All right All right All right All right All right All right All right All right All right All right All right All right All right but Peres also defied Barcelona. The thing is that Real has put in the contract Nikopasa a point of the return of the purchase. In other words, even if Barcelona can't do it, Real will still keep the control of the situation and will return the player when he wants. In another one, Florentino Peres has been on the way in front of Barcelona. Barcelona wanted to sign Nikopasa, to be able to...",
+    "ru": "В ожидании ASR многократно выдаёт All right. Затем появляется фрагмент о футбольных клубах, контракте игрока и условии обратного выкупа. Это посторонний фон или ошибка распознавания, а не учебный диалог; повторения полностью сохранены в английской колонке.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Пауза и посторонний фон: футбол",
+    "sourceStart": 31,
+    "sourceEnd": 55
+  },
+  {
+    "start": 374.76,
+    "end": 517.84,
+    "en": "Thank you. Thank you. Thank you. ...однократно включала одних и тех же персонажей в различные части серии. В качестве примера можно привести лжеца Майка и разных деэдрических принцев. Стоит также учесть, что тизер шестой части датирован всего через пять лет после событий Скайрим. Поэтому логично предположить, что многие из них могли остаться в живых и, возможно, переселились в Хаммерфелл из-за гражданской войны в Скайриме. Вернутся ли герои Скайрима в за... ...после поединка ты сказал, что хочешь встретиться с Умаром на турнире РАФ. Действительно собираешься добиться этого боя? Не знаю. Надеюсь, что да. В следующий раз я буду намного лучше подготовлен. И я абсолютно уверен, что смогу сделать свою работу. Мы можем побороться с Умаром, можем побороться с Усманом. Но особенно я хочу встретиться...",
+    "ru": "После повторяемого Thank you распознаны русские фрагменты об игровых персонажах, событиях Скайрима и Хаммерфелле, затем об интервью бойца и возможном поединке. Это не содержание английского занятия и не подтверждённые реплики ученика. Исходный язык этих фрагментов оставлен без перевода в английском поле.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Посторонняя русская речь во время ожидания",
+    "sourceStart": 55,
+    "sourceEnd": 73
+  },
+  {
+    "start": 517.84,
+    "end": 569.62,
+    "en": "Hi, Learner. Can you hear me? Yes, I hear you. I have to ask you. Is it okay if we start the lesson with only you? Can you do it or is it too much? If it's too much, let me know. I need to start the lesson with you or alone? I think no one else has come in yet. People may come in later. The first lesson with Teacher. Can we start it with you only? Are you okay with being the only student? Okay, okay. I'm okay. I can't make you do it, so I have to ask you first. All right, excellent. I'm closing the rooms and we're starting. Good. Okay.",
+    "ru": "Организатор проверяет звук и спрашивает, согласен ли ученик начать один и не будет ли ему слишком тяжело. Ученик уточняет, будет ли занятие с преподавателем или в одиночку. Ему объясняют, что он будет единственным учеником, а другие, возможно, присоединятся позже; он соглашается.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Согласие начать индивидуально",
+    "sourceStart": 73,
+    "sourceEnd": 98
+  },
+  {
+    "start": 573.0,
+    "end": 648.44,
+    "en": "Good. Enjoy your lesson, everyone. Okay? Thank you. Thank you. Hi, Learner. How are you? Hello. I'm fine. And you? I'm great. I'm very happy to see you again. Oh, thank you. I'm happy to see you again. Oh, thank you. All right. So, I'm sorry that it's only you today, but we'll still hopefully, you know, learn together. You can see my screen, right? Mm-hmm. Wonderful. Okay.",
+    "ru": "Организатор желает хорошего урока. Преподаватель и ученик приветствуют друг друга, говорят, что рады новой встрече. Преподаватель признаёт, что ученик сегодня один, и проверяет демонстрацию экрана.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Знакомство с первым преподавателем",
+    "sourceStart": 98,
+    "sourceEnd": 123
+  },
+  {
+    "start": 648.44,
+    "end": 728.1,
+    "en": "So, today we are going to go through a report, writing a report. Can you tell me what, what is, in general, a formal report? This is a formal report when you want, when you want to, when you present facts, if, uh, uh, best, uh, service, uh, updated, is, uh, clear recommendation, and, uh, Would it be, maybe, when would we write it? Okay. When I'm going to a restaurant or maybe a cafe, uh, every, uh, cafe and restaurant have, uh, this book report, I cannot, uh, menu. No, no, no, no, no. Have it a book report. Uh, menu, it's okay. A review? Do you mean a review? Yes, yes. It is, uh, review. Okay. That's, that's something else. A review is something else. Okay.",
+    "ru": "Тема первой части — написание отчёта. На вопрос об определении ученик упоминает факты и рекомендации, затем приводит пример книги в кафе или ресторане. Возникает путаница между report и review: преподаватель уточняет, что отзыв — другой вид текста.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Что такое формальный отчёт",
+    "sourceStart": 123,
+    "sourceEnd": 148
+  },
+  {
+    "start": 728.1,
+    "end": 840.04,
+    "en": "A report would be more after a meeting, a meeting with a lot of people. You would summarize, you would say what happened there. Um, ah, I just sent you meant, uh, about in writing after, uh, if you have a problem, it's completed in project is, uh, have, uh, analysis in the report. Yes, exactly. Yes, that's what I mean. That's completely fine. A review, review report, those are very similar words. I understand the confusion, but, uh, but, uh, many times I see in a cafe, uh, is the many to have, uh, uh, uh, book report when you, uh, want, uh, ask it, uh, it's, if you're bad service, you see, you kind of, right. It's, uh, that's something similar. Yes. After we read a book, we, we report about it and we rewrite about it. That's something similar. A formal report would be more for, uh, we write it in our job, for instance, after to, to summarize a meeting or to, um, to explain, to give recommendations on what to do after a debate. I think about, uh, uh, uh, official report, uh, usually, uh, for, uh, example, I, uh, have many manager working is, uh, for, uh, uh, with, uh, clients and, uh, every week and every month, uh, uh, main manager, uh, get, uh, a report analysis for how to do it. How about working is, uh, every, uh, manager.",
+    "ru": "Преподаватель объясняет: в отчёте можно подвести итоги встречи или дебатов и дать рекомендации. Ученик возвращается к примеру книги жалоб при плохом обслуживании, затем описывает отчёты менеджеров, работающих с клиентами. В конце становится заметна проблема со связью преподавателя.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Отчёт, отзыв и рабочие примеры",
+    "sourceStart": 148,
+    "sourceEnd": 174
+  },
+  {
+    "start": 843.26,
+    "end": 898.24,
+    "en": "Hello? Did we lose, uh, Teacher? No, she's here. Teacher is, uh, waiting. Okay, maybe, yes, I know, maybe her internet connection, yeah, she was thrown out. Don't worry. Don't worry. I will agree with you, Learner. Okay. Okay, okay. No problem. A formal report is something that we write at work. Okay. When we want to look at something in detail, in a lot of detail, we want to analyze it. Yes? Yes. Yes. We want to write what was good, what was bad, what needs to change, this kind of situation.",
+    "ru": "Участники замечают, что первый преподаватель временно потерял связь. Организатор успокаивает ученика и уточняет назначение рабочего отчёта: подробно анализировать ситуацию, отметить хорошее, плохое и то, что требуется изменить.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Сбой связи и помощь организатора",
+    "sourceStart": 174,
+    "sourceEnd": 197
+  },
+  {
+    "start": 898.24,
+    "end": 955.06,
+    "en": "And in a formal report, in the end, we always put suggestions or recommendations. Yes. We say, for example, we analyze this schedule and there were some good things, but we recommend that you change. One, two, three, four. Okay. Or if it were a meeting, it would be something like, we all discussed the next investment for the company. And Learner suggested this, Teacher suggested that. And in the end, we decided to do one, two, three, four action points. Okay. Action points. This is a report. Yeah. You know, the things that you will do, decisions. Mm-hmm. Ah, there. He's back. Excellent.",
+    "ru": "Организатор описывает отчёт с предложениями об изменении расписания и отчёт о встрече по инвестициям. В последнем можно записать, кто что предложил, какие решения приняли и какие дальнейшие действия согласовали. Это примеры функций отчёта, а не реальные решения данного урока.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Рекомендации и согласованные действия",
+    "sourceStart": 197,
+    "sourceEnd": 219
+  },
+  {
+    "start": 959.58,
+    "end": 1009.88,
+    "en": "Let me see if Teacher, no worries. Learner and I, Learner and I discussed and clarified what a report is. Okay. Wonderful. At length, you can move on to your next task. Okay. Okay. And don't forget, I have your presentation. If you're sharing something and you get kicked out, I can pick it up. Okay? Okay. Wonderful. Oh, I'm sorry. My computer crashed. So I, yeah, I should buy a new one. Okay. I'm sorry, Learner. We will continue on. Okay. Ugh, sorry. All right. So you've already discussed what the report is. So I'll move on.",
+    "ru": "Преподаватель возвращается после сбоя компьютера. Организатор сообщает, что определение отчёта уже разобрано, и обещает подхватить демонстрацию при новом отключении. Преподаватель извиняется и переходит к короткому тексту.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Возвращение преподавателя",
+    "sourceStart": 219,
+    "sourceEnd": 246
+  },
+  {
+    "start": 1009.88,
+    "end": 1112.26,
+    "en": "We, I'm going to give you now a short text to read. All right? Mm-hmm. In the text. In the text, the text is separated into four sections. Okay? In each section has a different topic. So we need to read the report and then give which, which section fits which heading. Mm-hmm. Mm-hmm. Okay. Okay. I, yes, I understand. I need to read in context and choose what is A, B, C, D is a. Uh, activities is, uh, which one fits each paragraph. Uh-huh. Okay. Okay? So I'll, I'll, I'll exit the, if I can, I'll exit the presentation just so we can open the text here. so you'll have the text with the, wonderful, you'll have the text with the headings. Okay. Can you see it properly? Uh, yes. Yes. I see. Okay. Wonderful. Then I'll give you, let's do five minutes to read everything and separate in the different sections. Is that okay? Okay. Okay. Here if you need it.",
+    "ru": "Для чтения предлагают образец отчёта из четырёх разделов. Нужно прочитать текст и соотнести каждый раздел с подходящим заголовком. Ученик проверяет, правильно ли понял задачу; преподаватель открывает текст, проверяет видимость и даёт пять минут.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Инструкция: подобрать заголовки",
+    "sourceStart": 246,
+    "sourceEnd": 283
+  },
+  {
+    "start": 1141.26,
+    "end": 1366.26,
+    "en": "Let's see. Let's see. Let's see. Let's see. Let's see. Let's see. Let's see. Let's see. Let's see.",
+    "ru": "Отведено время на чтение и выбор заголовков. ASR многократно повторяет Let’s see; это не позволяет восстановить, что происходило в тишине. Полный экранный текст и список вариантов в источнике отсутствуют.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Самостоятельное чтение",
+    "sourceStart": 283,
+    "sourceEnd": 294
+  },
+  {
+    "start": 1366.26,
+    "end": 1399.0,
+    "en": "Learner, did you... Did you finish? Yes. Yes? Wonderful. Okay. I see you wrote on the screen very well. I did not know you could do that. Let me return to... Let me return to the slide. Let me return to the slide. Oh, no! Could you delete everything you wrote? Okay, okay. No problem. Delete. Okay. Okay, wonderful. So let's see. This is the text you read. What was the text about?",
+    "ru": "Ученик сообщает, что закончил. Преподаватель замечает его пометки на экране и просит удалить их, чтобы вернуться к слайду. Затем спрашивает, о чём был прочитанный текст.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Аннотации на экране",
+    "sourceStart": 294,
+    "sourceEnd": 316
+  },
+  {
+    "start": 1401.0,
+    "end": 1519.84,
+    "en": "About ResenScout deployment, it's proposal new hosting. Mm-hmm. If YS reports have been written, it's B. So let's see which section fits. Yeah, this proposal of reports is giving an account. The section one. Do you remember what was it? For reporting or giving an account in proposal. Yeah. So we see in the text itself, we see it very clearly. The purpose of this report is. That's our answer. Yes, this proposal, this report to give it in account is outcomes is the recept meeting about the schema to building a new house in Parkland. Yeah. This is section number one. So what I mean is that you don't even need to read the entire section to know the answer. To the topic. The topic of this paragraph is why. Why is this text even written? So we see in the highlight here, it says the purpose of the report is to. Yes, it's a needed proposal or not only accounts. And you see all problems and maybe analysis for proposal housing. Wonderful. Wonderful. So I see you said the same, right? That it's B while the report has been written. Yes. Wonderful. Okay.",
+    "ru": "ASR сильно искажает начальное описание, однако далее речь явно идёт о предложении построить жильё на парковой территории и отчёте о недавней встрече. Преподаватель показывает ключ The purpose of this report is to…: он сразу раскрывает, зачем написан текст. Ученик выбирает заголовок о цели отчёта.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Первый раздел: цель отчёта",
+    "sourceStart": 316,
+    "sourceEnd": 353
+  },
+  {
+    "start": 1519.84,
+    "end": 1564.4,
+    "en": "For section two, do you remember what you said? Number two, uh, uh, section, uh, benefits is proposal, uh, uh, Schema. Of the proposed scheme. Ah, scheme. Yes. Schema. Sorry. Yes. Uh, no, it's, it's a confusing word. It's completely understandable. So the benefits and we can see again in the text itself, right? Yes. Uh, yes. This has been informed to new people. Yes. Area housing is not short supply. And so many reasons we propose in this new scheme. Exactly. So again, you were correct here.",
+    "ru": "Второй раздел — benefits of the proposed scheme, преимущества предлагаемого проекта. Преподаватель помогает с формой scheme. Ученик ссылается на аргумент о нехватке жилья; ASR передаёт фразу о short supply ненадёжно, поэтому её не следует заучивать как точную цитату.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Второй раздел: преимущества проекта",
+    "sourceStart": 353,
+    "sourceEnd": 375
+  },
+  {
+    "start": 1564.4,
+    "end": 1610.0,
+    "en": "Do you remember for section three, what was it? Uh, proposal scheme. Uh, what is what? Dribbacks. Drawbacks. Ah, drawbacks. Drawbacks, yes. Drawbacks of the proposed scheme. And again, we can see in the text that some of the say, we don't want this because. Yes, because introduces negative as, uh, aspect in object means. Yeah. That's a drawback. A drawback is the negative. Uh, negative. Yes. Natural, uh, parkland is dispatching, uh, local white leaf. Yeah.",
+    "ru": "Разбирают drawbacks — отрицательные стороны проекта. Участники находят возражения и обсуждают парковую территорию и местную живую природу; ASR искажает несколько слов. Правильное значение drawbacks подтверждается объяснением преподавателя.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Третий раздел: недостатки",
+    "sourceStart": 375,
+    "sourceEnd": 396
+  },
+  {
+    "start": 1610.68,
+    "end": 1644.24,
+    "en": "And section four, what was it? Uh, recommendation. Exactly. So I would recommend it might be helpful to. Mm-hmm. Every report ends with the recommendations. Yes. When you see the reporting, uh, in a need is, uh, described for recommendation. What, uh, need to do for, uh, uh, change, uh, situation. Exactly. Okay. Wonderful. All right.",
+    "ru": "Последний раздел рассматриваемого образца содержит рекомендации: I would recommend… и It might be helpful to…. Ученик объясняет, что там говорится о действиях для улучшения ситуации. Обобщение преподавателя о конце каждого отчёта относится к учебному образцу; другие жанры отчётности могут строиться иначе.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Четвёртый раздел: рекомендации",
+    "sourceStart": 396,
+    "sourceEnd": 410
+  },
+  {
+    "start": 1644.24,
+    "end": 1699.86,
+    "en": "Next up. This is more. I will send in the chat the text itself. So you'll have it, but you need to fill up this box using the text from the report. So I think you saw it yourself that some of the, um, the sentences in the text were underlined. Do you remember? Um, they were, they were underlined, you see? Proposal new housing. Yes. Yeah. So there is, there are some sentences that are underlined. So we need to fill this box up using those sentences. Mm-hmm. And then we need to put them in the correct, yeah, introductory paragraph. We need to put the correct ones, the correct sentences there.",
+    "ru": "Нужно заполнить таблицу выражениями из прочитанного текста, используя подчёркнутые предложения. Категории включают вводную часть, передачу сказанного или произошедшего и рекомендации. Это извлечение языковых моделей, а не написание собственного отчёта.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Вторая задача: извлечь готовые выражения",
+    "sourceStart": 410,
+    "sourceEnd": 429
+  },
+  {
+    "start": 1699.86,
+    "end": 1760.88,
+    "en": "I think about this number one, introduce, uh, paragraph, uh, it's, um, proposal. It's, uh, so I will send it in the chat right now. I'll send the, the text itself just so you'll have it. There's just a second. Do you see it now? Oh, this is not the text. Oh, good job. Okay. Wait, so let me do it this. Otherwise you have the box in the chat that you need to fill out. Yes. I see it. Uh, it's boxing. Yeah. And I'll put on the screen, the text itself. Mm-hmm. Okay. And again, I'll give you five minutes to do this. Okay. Okay.",
+    "ru": "Преподаватель пытается отправить материал в чат: сначала появляется не тот текст, затем таблица. Таблицу надо заполнить по тексту, который показывается на экране. Ученик подтверждает, что видит таблицу; преподаватель снова выделяет пять минут.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Где найти текст и таблицу",
+    "sourceStart": 429,
+    "sourceEnd": 452
+  },
+  {
+    "start": 1760.99,
+    "end": 1797.68,
+    "en": "Do you understand what we're doing? Yes. I think about this, uh, introduce, uh, uh, uh, for fill your books, uh, under, uh, under less, uh, for text. You need to the, uh, one, two, three. Yes. Fill out. And you need to use the, the sentences from this text. Mm-hmm. All right. Wonderful. So again, I'll be here. If you have any questions. Okay. Okay.",
+    "ru": "Преподаватель спрашивает, понятна ли задача. Ученик пытается пересказать, что требуется перенести подчёркнутые выражения в нужные поля; преподаватель ещё раз подчёркивает необходимость использовать предложения исходного текста. Это место важно для практики уточняющих вопросов.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Проверка понимания инструкции",
+    "sourceStart": 452,
+    "sourceEnd": 469
+  },
+  {
+    "start": 1797.68,
+    "end": 2087.68,
+    "en": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+    "ru": "В записи длительный самостоятельный этап. ASR выдаёт повторяемое Thank you с промежутками; смысловой текст в этих интервалах не восстановлен. Эти строки сохранены как данные распознавания, а не подтверждение непрерывной речи.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Время на заполнение таблицы",
+    "sourceStart": 469,
+    "sourceEnd": 486
+  },
+  {
+    "start": 2087.68,
+    "end": 2177.68,
+    "en": "Learner, are you done or do you need more time? I think about this number one introduce paragraph for this proposal, this report, main report, this given account, this at commons meeting. Are you done? No, wait, are you done with the entire box? Did you fill out the entire thing? I'm not understand. Okay. Give me a recommendation for about this situation, yes? For how about I see this situation, yes? No, you need to fill out the box that I sent in the chat. Yes. Yes. Yes. If you see it as this given recommendation, eight, nine, ten. It's not your own recommendations. It's from this text. Mm-hmm. Okay. One moment. Give me that one, two minutes. I see. No problem. All right. No problem. One, two minutes. I see. Okay. No problem. All right. No problem. problem.",
+    "ru": "Преподаватель спрашивает, закончена ли вся таблица. Ученик отвечает, что не понимает, и пытается предложить рекомендации по ситуации. Преподаватель уточняет: сейчас нужны не собственные рекомендации, а готовые предложения из текста; ученик просит ещё одну-две минуты.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Недопонимание: свои идеи или выражения текста",
+    "sourceStart": 486,
+    "sourceEnd": 522
+  },
+  {
+    "start": 2205.68,
+    "end": 2325.68,
+    "en": "problem. problem. Okay. Learner, did you manage? Okay. I'm feeling this... We'll go through this together. We'll see. Maybe I did not explain properly. Okay. Let's introduce... Let's see together. Okay. This is the box. Introduce paragraph number one. I think about this proposal, this report, is to give an account oncoming recent meeting. Yes, but... Okay. I didn't explain myself correctly. You need to use the text itself to show how these things are built. Like, what do we put in an introductory paragraph when we write a report?",
+    "ru": "После короткой паузы преподаватель предлагает пройти таблицу вместе и допускает, что первоначальное объяснение было недостаточно ясным. Ученик начинает с вводного абзаца. Преподаватель возвращает внимание к тому, какими словами строится введение в образце.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Дополнительное время и совместный разбор",
+    "sourceStart": 522,
+    "sourceEnd": 551
+  },
+  {
+    "start": 2325.68,
+    "end": 2379.68,
+    "en": "This is paragraph number one? Yes. Give an account? So, for example, from the text itself there was an underlined sentence. The purpose of this report is to... summary... Mm-hmm. Okay. I understand. Next, the report summaries on the main arguments. Exactly. And then what? And the recommendation... Some recommendation? Concludes. Concludes. Concludes. Yes, yes. Concludes. Concludes. Concludes. Yes. Not conclude this. Yes. That is my mistake. Sorry. No, that's completely fine. Okay. Wonderful.",
+    "ru": "Находят The purpose of this report is to…, затем выражение о кратком изложении основных аргументов и заключении с рекомендациями. Обсуждается слово concludes; преподаватель противопоставляет его ошибочному расчленению conclude this. Из-за обрывков ASR точное полное предложение не восстанавливается как цитата.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Языковые модели введения",
+    "sourceStart": 551,
+    "sourceEnd": 589
+  },
+  {
+    "start": 2379.68,
+    "end": 2415.68,
+    "en": "So, let's see. For reporting what was said and what happened, do you have any examples from the text itself? Again. Uh... I... He pointed out this... We has been the... Ah, yes. He pointed out that. Exactly. And what else? Uh... He... Argued. He argued. Exactly. He argued. He argued.",
+    "ru": "Во второй категории ищут выражения для передачи мнений и событий. Ученик называет He pointed out that… и He argued…. Эти рамки позволяют отделить позицию участника встречи от позиции автора отчёта.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Передать сказанное: pointed out и argued",
+    "sourceStart": 589,
+    "sourceEnd": 613
+  },
+  {
+    "start": 2415.68,
+    "end": 2466.87,
+    "en": "What else do we have? He... He... He... He... I... I think it... Where this text... Is this number six? In number six we have? Uh... This... Uh... Natural Parkland is... Major... It was evident. Uh... Major... A local residence. Is that... Okay. So, we have that... It was evident. Evident. That... The residents... Were... Were against... The... The scheme. Right? Right. Is... Uh... Attainant left... Uh... Felt. Uh... For attainant left... Uh... Felt. What",
+    "ru": "Разбирают It was evident that… и предложение о большинстве местных жителей, присутствовавших на встрече. Ученик и преподаватель читают фрагменты по частям; ASR ошибается в residents, attended и других словах. Смысл — фиксировать отношение жителей к проекту, а не угадывать недостающие слова.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Общее впечатление и мнение большинства",
+    "sourceStart": 613,
+    "sourceEnd": 658
+  },
+  {
+    "start": 2466.91,
+    "end": 2510.68,
+    "en": "do we... Yeah. No, it's... It's okay. Wait. Let me... Put it in the chat. The text itself as well. Because I don't think you have it. Mmm... Number seven. According? Wait. Let me come back. Okay. In number seven, what do we have? According. According. The majority of local residents who attended felt that it was more... Oh, you said that. I'm sorry. You said that. Okay. So you... You were ahead of... Of me. You're right. This is something that happened.",
+    "ru": "Преподаватель понимает, что ученику может не хватать самого текста, и пытается снова отправить его. Обсуждают выражение о большинстве жителей; преподаватель замечает, что ученик уже назвал нужное и даже опередил разбор. Ученик уточняет различие между строками таблицы.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Поиск недостающего текста в чате",
+    "sourceStart": 658,
+    "sourceEnd": 689
+  },
+  {
+    "start": 2510.68,
+    "end": 2541.68,
+    "en": "Uh... One moment. I confused. Number six. It was... Eviden. And number seven. It's major. Uh... Local residents who attainment. Uh... Important to keep. Ah... This is not correct. It's according. Yes? Number seven. What do you mean? Uh... According is... Uh... According is... Uh... Who... Uh... A response in... Uh... Construction company. You can use that too. But was the sentence underlined?",
+    "ru": "Ученик возвращается к строкам шесть и семь и спрашивает о значении according to. Появляется ссылка на представителя строительной компании. В расшифровке перемешаны голоса и обращения, поэтому отдельные фразы этого блока нельзя надёжно приписывать ученику.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "According to: вопрос об источнике",
+    "sourceStart": 689,
+    "sourceEnd": 723
+  },
+  {
+    "start": 2541.68,
+    "end": 2564.68,
+    "en": "Sorry to interrupt. I don't think Learner can do this task without the text. So I put it in the chat. Oh, wonderful. So that he can have it. Uh... I don't think Learner can do this task without the text. So I put it in the chat. Oh, wonderful. So that he can have it. Okay. Okay. So that he can have it. Okay. So let him have a quick look. And wrap it up. Uh-huh. Yes, yes.",
+    "ru": "Организатор вмешивается: выполнить задачу без текста невозможно, поэтому текст надо дать в чате. Эта мысль частично дублируется ASR в нескольких кластерах. Затем ученику предлагают быстро посмотреть на материал и закончить упражнение.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Материал действительно нужен ученику",
+    "sourceStart": 723,
+    "sourceEnd": 744
+  },
+  {
+    "start": 2564.68,
+    "end": 2613.68,
+    "en": "Okay, Learner. So you have the text. And again, look at the underlined sentences. Uh... Uh... Uh... Number... Paragraph number two. If you see, according to, uh... Mr. McKay, who... represent the construction... construction company. Yes, but that's... Um... But that's not something that happened. You can... You can use that, but it's not completely... What happened. So what happened is that the guy who represents the construction company, he pointed out... Mm-hmm. And he argued... Mm-hmm. I understand. Apartment books. Okay. Ah, okay. Okay.",
+    "ru": "Ученик читает according to и относительное описание представителя строительной компании. Преподаватель поясняет, что для текущей категории нужны выражения о сказанном: he pointed out и he argued. According to тоже может вводить источник, но отличается от глагола, описывающего речевое действие.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Источник мнения и глагол сообщения",
+    "sourceStart": 744,
+    "sourceEnd": 772
+  },
+  {
+    "start": 2613.68,
+    "end": 2666.68,
+    "en": "So for the last part, the giving recommendations, what sentences do we have? I think about... Consolation. Consolation is... It was evident... That's something else. In conclusion, it was evident that... In the last paragraph, do you remember? That the last one, the last part of the text is to give recommendations. It is quite... One moment. It's quite... It's quite... Ah, paragraph number four... Mm-hmm. It was evident that they're acquired what is of negative feeling about the proposal skin. You're right. That's not evident. It's evident that... Evident... Evident... That's something else. Evident... That's something else. In conclusion, it was evident that... In the last paragraph, do you remember? That the last one, the last part of the text is to give recommendations. It's quite... One moment. It's quite... Mm-hmm. It's quite... It's quite... It's quite... It's quite... It's quite... It's quite... It's quite... It's quite... It's quite... Uh, paragraph number four... Mm-hmm.",
+    "ru": "Начинают последнюю категорию. Ученик возвращается к заключению и It was evident that…, а преподаватель направляет его к тому, что автор предлагает сделать. ASR повторяет фрагменты и искажает in conclusion; это не повод приписывать ученику все повторённые строки как самостоятельные ошибки.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Ищем именно рекомендацию",
+    "sourceStart": 772,
+    "sourceEnd": 820
+  },
+  {
+    "start": 2666.68,
+    "end": 2704.68,
+    "en": "You're right. So what... What does the writer of the report suggests? How do we... Give recommendations? Consolation. In consolation, it was... Evident... I will do a recommendation that... Uh... F... F... F... F... F... F... F... F... Further? Further... Further research, yes. Is done as... How new housing could be made as green possible. Right. So I would recommend that... Are there... Ah, yes. I would recommend that.",
+    "ru": "На вопрос о предложении автора ученик находит идею дальнейшего исследования: как сделать новое жильё максимально экологичным. Преподаватель подтверждает модель I would recommend that…. Ряд звуков и начальных букв в ASR не образует самостоятельных содержательных высказываний.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Рекомендовать исследование",
+    "sourceStart": 820,
+    "sourceEnd": 851
+  },
+  {
+    "start": 2704.68,
+    "end": 2765.47,
+    "en": "There's one more sentence example in the text. Mm-hmm. Uh... Uh... I would recommend that... Uh... Future research is done in... For how new housing could be made as green possible. Uh... Mm-hmm. future research is done info of new housing could is made as green possible person keeping is viewed area support is local birds and inspect is not you can use it in mind also be helpful exactly yes that those are all the sentences there isn't another one so you know you don't need to look any further oh further yeah what there isn't",
+    "ru": "Ученик повторяет рекомендацию исследовать экологичное жильё, затем ищет вторую рамку: It might also be helpful…. Упоминается поддержка местных птиц и насекомых, но полная исходная формулировка недоступна. Преподаватель объясняет, что не все десять строк обязательно имеют отдельный пример в тексте и дальше искать не нужно.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "It might also be helpful: завершение таблицы",
+    "sourceStart": 851,
+    "sourceEnd": 878
+  },
+  {
+    "start": 2765.47,
+    "end": 2851.4,
+    "en": "an another sentence there there are 10 sentences here but there aren't any in the text itself it's not also helpful which is okay okay this did you understand what we just went through yes i understand but it's for me a little confused this um what is about me to writing is uh form field that's completely fine we're step by step yes okay i am not that many times is uh feeling is uh this form yes that's completely for my incident yeah okay but we understand that a text a report is has three major parts we have the introductory where we give a little what why are we writing this report and then we tell what happened and then we give our own recommendations from your point of view you think that you that going forward we should do this we should do this and that",
+    "ru": "Ученик говорит, что задача с заполнением формы была немного запутанной и такой формат ему непривычен. Преподаватель предлагает двигаться постепенно и подводит итог: введение объясняет цель, основная часть передаёт произошедшее, заключение даёт собственные рекомендации. Четыре раздела образца объединяются в три более широкие функции.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Трудность формата и структура отчёта",
+    "sourceStart": 878,
+    "sourceEnd": 902
+  },
+  {
+    "start": 2852.39,
+    "end": 2943.08,
+    "en": "and uh maybe tenant i needed a user link according to according to you can say when you want to when someone says something so according to him you know yes yes i i mean when i give recommendation i would recommendation uh that and i'm also be helpful too and uh if i now is uh text according to uh uh it's world uh what uh uh the question to be honest yes it uh i i mean this uh one moment if you see the uh text uh paragraph number two according to mr mackay who responsibility confusion company uh he is uh uh minister uh mr it",
+    "ru": "Ученик пытается понять, можно ли использовать according to рядом с рекомендациями. Преподаватель объясняет: according to him означает ссылку на то, что сказал другой человек. Ученик ссылается на второй абзац о представителе строительной компании; некоторые слова распознаны очень плохо.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Уточняющий вопрос про according to",
+    "sourceStart": 902,
+    "sourceEnd": 913
+  },
+  {
+    "start": 2943.08,
+    "end": 3010.28,
+    "en": "doesn't say what he is yes he is maybe uh two at a recommend uh half a recommendation uh i mean uh what about uh he doesn't have a recommendation he argues his part he wants this apartment building to be built because he he will make money off of it and he wants he wants to build it yes so obviously he will be um very fond of the idea of building this um okay uh okay uh it only comes from whoever is writing the report i am writing the report so i am recommending okay someone else is talking this is we talk about when someone else is talking we give this we tell what they said in the second and third paragraph",
+    "ru": "Преподаватель поясняет: представитель компании защищает строительство, а автор отчёта в последнем разделе формулирует собственное предложение. Сказанное другими участниками передаётся во втором и третьем абзацах. Утверждение «рекомендации только от автора» здесь описывает распределение ролей в этой задаче, а не запрет сообщать чужие рекомендации в английском языке.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Чужой аргумент и рекомендация автора",
+    "sourceStart": 913,
+    "sourceEnd": 926
+  },
+  {
+    "start": 3013.4,
+    "end": 3064.28,
+    "en": "okay okay when we tell what happened ah yes i understand what a recommendation only comes from whoever is writing did you understand or do you have yes that uh yes i i i understand this situation yes it's not what recommendations is uh comply writing for exactly it's a report yes yes exactly a recommendation only comes if you write the text it comes only from you okay so can we can we move on or do you have any anything else to ask about uh we can next",
+    "ru": "Ученик подтверждает, что понял различие между пересказом мнений и рекомендацией автора. Преподаватель ещё раз повторяет правило для данного текста и спрашивает, остались ли вопросы. Ученик соглашается перейти дальше.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Проверка понимания и переход",
+    "sourceStart": 926,
+    "sourceEnd": 943
+  },
+  {
+    "start": 3065.24,
+    "end": 3140.12,
+    "en": "okay okay wonderful okay do you remember last week you had a debate about um a food quarter food quarter uh yeah exactly okay that's completely fine there was um a company or the city let's say wanted to build a new food quarter and and some of the students had to be um against the idea and some people had to be um wanted the food quarter uh uh with uh discussion for uh benefits yes therefore drawbacks drawbacks i think about drawbacks drawbacks uh benefits uh benefits uh for uh for many people uh have uh job",
+    "ru": "Преподаватель напоминает прошлую дискуссию о предложении построить фудкорт: одни участники поддерживали его, другие возражали. Ученик вспоминает benefits и drawbacks и аргумент о рабочих местах. ASR записывает food quarter; в учебных моделях используется food court.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Вспомнить дебаты о фудкорте",
+    "sourceStart": 943,
+    "sourceEnd": 954
+  },
+  {
+    "start": 3140.12,
+    "end": 3230.78,
+    "en": "okay so do you remember it Learner i think we've lost Teacher again so i will share Teacher can you hear us okay so this is what we're going to do Learner uh do you remember yeah can you see this um this screen mm-hmm and you see okay all right so do you remember when you discussed what was some people wanted to have the food quarter there and others didn't some people said there's going to be a lot of noise and it's not going to be nice and other people said no it's going to be new jobs for people and it's going to be you know good for the neighborhood do you remember anything from that discussion is that a yes sorry no if you don't yeah yeah yes yes i understand for the minute and writing opening sentence for each uh heading why report has been right and benefits and drawbacks recommendation okay but",
+    "ru": "Преподаватель снова теряет связь, организатор подхватывает экран. Он напоминает аргументы прошлых дебатов: возможный шум с одной стороны, новые рабочие места и польза району с другой. Ученик называет четыре заголовка и пытается уточнить, что нужно написать.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Повторный сбой и напоминание аргументов",
+    "sourceStart": 954,
+    "sourceEnd": 966
+  },
+  {
+    "start": 3230.78,
+    "end": 3296.4,
+    "en": "do you know what you talked about it is a report on the meeting ah ah you want the for uh give it um recommendation and uh how about uh for meeting uh yeah but only one sentence the opening sentence not a full report because it's a lot to write just you know this is why we're writing these are the benefits i'm just finishing uh Teacher no worries these are the drawbacks and these are my recommendations so uh what i am thinking of doing um Teacher because we are running out of time and you don't think we have a few minutes left i think it's like exactly for this what was that i didn't hear you i'm saying i think there are a few minutes left so it's like perfect for no there are",
+    "ru": "Организатор уточняет, что это отчёт о прошлой дискуссии, но целиком писать его сейчас не требуется. Нужна лишь одна открывающая фраза для каждого из четырёх пунктов: цель, преимущества, недостатки, собственные рекомендации. Первый преподаватель возвращается; участники обсуждают оставшееся время.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Только четыре начальных предложения",
+    "sourceStart": 966,
+    "sourceEnd": 977
+  },
+  {
+    "start": 3296.54,
+    "end": 3347.79,
+    "en": "no four minutes left you started at 12 08 and it's 12 54. so it is a full 45 minutes but i have a better idea why don't Learner write these four sentences and send them to you via email so you can have some feedback next time you can tell him what he did do you think you could do that Learner can you do the right thing let me let me give you a screenshot of that so that you have it and Teacher and Teacher sorry uh Teacher could you put your uh email in the chat of",
+    "ru": "Организатор поясняет, что время первой части уже истекло, и предлагает написать четыре предложения дома и отправить первому преподавателю по электронной почте. Преподаватель сможет дать обратную связь в следующий раз. Обещают снимок задания и адрес в чате; их фактическое содержимое в расшифровке отсутствует.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Домашнее задание вместо работы в классе",
+    "sourceStart": 977,
+    "sourceEnd": 985
+  },
+  {
+    "start": 3348.3,
+    "end": 3411.72,
+    "en": "course yes so um the next person is not too late but we don't miss the opportunity for writing practice um Learner can you see a picture in an email in the chat yes okay so do you think you could write these four sentences and send them to Teacher okay uh i understand okay uh i understand that i need to send a message uh in email for a proposal so proposal and uh how about this session uh and benefits and draw box and recommendation exactly what you see the four points that you see on the picture can you see the picture in the chat yes i see the picture so download it we want one sentence for each point okay okay",
+    "ru": "Проверяют, видит ли ученик картинку и адрес в чате. Ученик пересказывает задание: написать о предложении, преимуществах, недостатках и рекомендациях. Организатор подтверждает: ровно по одному начальному предложению на каждый пункт; нужно скачать картинку и отправить четыре предложения преподавателю.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Подтверждение задания и отправки",
+    "sourceStart": 985,
+    "sourceEnd": 999
+  },
+  {
+    "start": 3412.68,
+    "end": 3502.28,
+    "en": "good without without okay all right Teacher thank you i know this has been extremely stressful for you being kicked out twice during the lesson and um i don't see anyone else coming so perhaps we could have one more lesson with Learner uh who is next is it you Teacher okay yeah let's see how we can fix that uh i am trying carbon will you be okay teaching next week because i don't want you to have three hours only with Learner yeah poor Learner sorry i said poor Learner Learner yes i mean how many hours can he have on his own i was hoping someone else was coming in by now but nobody did so i don't think it's fair on anyone to have the third lesson with one student when he's overwhelmed are you okay i will write to Teacher and make sure we have more next time are you okay to ditch next time Teacher so maybe we can wait if somebody else joins otherwise i'll do next week exactly yes if there is someone else of course you can continue",
+    "ru": "Организатор благодарит первого преподавателя, которому мешали отключения. Другие ученики так и не пришли; обсуждают, стоит ли проводить третье занятие с единственным учеником и не перегружен ли он. Часть преподавания предлагают перенести на следующую неделю, если никто больше не присоединится.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Сколько индивидуальных занятий проводить",
+    "sourceStart": 999,
+    "sourceEnd": 1017
+  },
+  {
+    "start": 3502.28,
+    "end": 3632.72,
+    "en": "okay we are managing this thank you away thank you Teacher and i will let you get on with it i will put the time in the chat as well so that is clear it's going to be 42 past i don't know what but this is the time when you finish and of week hi Learner nice to meet you hi Teacher uh nice to meet you too uh can you can you hear me okay you can right yes okay perfect i'm just going to share my screen in a moment okay okay let's see if this will work okay let's see if this will work okay there we go there we go there we go can you see my screen perfect okay",
+    "ru": "Организатор передаёт занятие второму преподавателю и фиксирует время окончания в чате. Преподаватель и ученик знакомятся и проверяют звук; затем начинается демонстрация экрана. ASR в паузе повторяет технические фразы.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Второй преподаватель и новый экран",
+    "sourceStart": 1017,
+    "sourceEnd": 1028
+  },
+  {
+    "start": 3634.15,
+    "end": 3740.98,
+    "en": "okay so here we have three pictures um can you describe these what do you see mount rains as people okay so i think about this uh yeah i think about this uh norwegian is here yeah this is norway yeah good um so do you think these are all the same place okay so we'll be learning narrow valley okay so we will be learning narrow valley this place with a video later on later on later in the lesson good okay okay what is about uh picture number two when your home uh big home at uh white what is uh what is please the building in picture two uh where is this place uh where is this place so these are all all of these pictures are in the same place in norway and we will watch a video which will give us lots of information or later or later okay okay okay",
+    "ru": "Преподаватель показывает три фотографии и просит описать их. Ученик называет горы, людей, долину и задаёт вопрос о здании на второй фотографии. Преподаватель подтверждает: все три изображения относятся к одному месту в Норвегии, подробнее о нём расскажет видео.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Три фотографии одного места",
+    "sourceStart": 1028,
+    "sourceEnd": 1051
+  },
+  {
+    "start": 3741.24,
+    "end": 3814.84,
+    "en": "okay okay perfect so here we have some words um some adjectives that we might use to describe places like this um what might you describe as rugged oh good okay okay okay okay okay okay okay okay uh this is uh cut uh relief or the rugged rock faces uh yeah like a cliff yeah perfect and what would we describe as wooded would it uh this uh many uh trees uh and covered heavy denser for forest yeah densely covered with trees so so many trees it's all packed together and you can't see the ground yes",
+    "ru": "Начинают разбирать прилагательные для описания местности. Rugged связано с неровными скалами и обрывами; wooded означает покрытый деревьями. Преподаватель раскрывает densely covered with trees: деревья растут очень густо.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Лексика пейзажа: rugged и wooded",
+    "sourceStart": 1051,
+    "sourceEnd": 1061
+  },
+  {
+    "start": 3816.19,
+    "end": 3925.48,
+    "en": "yes uh and uh snow keep it uh this is many snow white uh it's picking again this blue sky is good so in the winter so in the winter when the mountains have snow on the top i think about this uh but uh yes it is a season maybe a winter but uh many at uh place at uh every time is uh have snow capital it's no problem so snow capped is when there is snow on the very top the top part yeah yes yes very top and then towering towering towering uh towering what is what is towering towering is uh oh this is uh when you uh when you deep a shadow over the valley yes not quite towering just means when something is very very tall very very tall very very tall ah understand if you stand next to a mountain it will be towering it will be towering over you because you have to look up okay does that make sense um it's just another way of saying very tall",
+    "ru": "Snow-capped описывает вершину, покрытую снегом; ученик замечает, что снег может лежать не только зимой. Towering означает очень высокий, возвышающийся над человеком или окружающим пространством. Это не просто «отбрасывающий тень»; преподаватель исправляет такую предварительную догадку.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Snow-capped и towering",
+    "sourceStart": 1061,
+    "sourceEnd": 1085
+  },
+  {
+    "start": 3929.4,
+    "end": 4011.48,
+    "en": "okay okay okay um let's move on okay we are going to move on and we will look more at these words in the next exercise too okay okay so i want you to tell me which words in the box on the left we would use to describe which pictures uh i think for example deep mountain now there's no cap tower really wooden i think about uh a it's uh have a show capes mountain uh a snow-capped mountain yeah that's a good it's narrow valley many wood is uh towering so let's go through these words um",
+    "ru": "В следующем упражнении нужно определить, к каким изображениям подходят слова из рамки. Ученик предлагает snow-capped mountain, narrow valley и другие сочетания. Преподаватель последовательно уточняет, какая часть изображения подходит к каждому слову.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Соотнести слова с фотографиями",
+    "sourceStart": 1085,
+    "sourceEnd": 1100
+  },
+  {
+    "start": 4013.4,
+    "end": 4083.32,
+    "en": "which picture would we use the word deep for uh deep i think about a a yeah uh which part of a yes it is this uh city is uh very deep bottom old in the bottom of the valley deep in the valley yeah perfect um and then you already said mountain is a and narrow the a so that's good and rugged and snow-capped what would we use the word wooded for wooded uh is a and b to have the many woods yeah perfect okay",
+    "ru": "Обсуждают глубоко расположенный город на дне долины: deep in the valley. Преподаватель подтверждает сочетания mountain, narrow, rugged и snow-capped. Wooded ученик относит к изображениям с большим количеством деревьев.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Deep in the valley и wooded",
+    "sourceStart": 1100,
+    "sourceEnd": 1117
+  },
+  {
+    "start": 4083.32,
+    "end": 4161.32,
+    "en": "so now uh this this is a place in norway called wuken these three pictures are from this town okay so it's a the town in the valley and in picture c you can see people in the town children who live there so this is all the same place so what do you think it might be like to live there i don't think about will be like uh in english we say ruken i'm not sure how a norwegian would say it but at least or at least or ruken it's correct yes yeah so",
+    "ru": "Преподаватель объясняет, что на фотографиях один норвежский город и его жители, и спрашивает, каково там жить. Обсуждение произношения названия не даёт надёжной норвежской модели. Ученик должен предположить хорошие и плохие стороны по изображениям до просмотра видео.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Предсказать жизнь в Рьюкане",
+    "sourceStart": 1117,
+    "sourceEnd": 1136
+  },
+  {
+    "start": 4161.32,
+    "end": 4237.32,
+    "en": "just from the pictures and what you might think take a moment to think about how life would be there what would be some of the good things and some of the bad things okay uh i needed out best and worse yes exactly or you sent a text for now this is just your opinion so maybe life could be like this maybe this would be a good thing about living there so this is before we find out the information from the video um okay okay okay almost like you are guessing mm-hmm mm-hmm",
+    "ru": "Ученик уточняет, нужно ли назвать лучшее и худшее и будет ли текст. Преподаватель объясняет: сейчас требуется собственное предположение, почти догадка, а не поиск ответа в материале. Информация из видео появится позднее.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Это мнение, а не поиск готового текста",
+    "sourceStart": 1136,
+    "sourceEnd": 1154
+  },
+  {
+    "start": 4237.37,
+    "end": 4317.03,
+    "en": "i'm sure i think about uh best thing uh trace code be uh imagine application and out activities flying skiing hiking and what is mountain air and going walk very nice good yeah good yeah so there would be lots of activities in nature maybe yes it's activity more uh for nature uh there might be would you enjoy these activities are these a good thing i think uh i like it uh activities uh for hiking and uh walk and uh skin okay great great okay great great so these are some of the best things um i",
+    "ru": "Ученик предполагает, что там приятно ходить пешком, кататься на лыжах, гулять и дышать горным воздухом. Преподаватель объединяет примеры как activities in nature и спрашивает, нравятся ли они ученику. Ученик подтверждает интерес к таким занятиям.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Преимущества: природа и активный отдых",
+    "sourceStart": 1154,
+    "sourceEnd": 1182
+  },
+  {
+    "start": 4320.05,
+    "end": 4357.64,
+    "en": "think about uh i think about this might be uh this is uh community uh community uh uh uh uh uh uh maybe people uh uh every time uh support uh uh they yes they support each other yeah and what about the worst things what could a bad thing be",
+    "ru": "Ученик добавляет мысль о местном сообществе и взаимопомощи. Преподаватель помогает закончить её выражением support each other — поддерживать друг друга. Затем просит перейти к отрицательным сторонам жизни.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Поддержка сообщества",
+    "sourceStart": 1182,
+    "sourceEnd": 1204
+  },
+  {
+    "start": 4357.64,
+    "end": 4417.16,
+    "en": "worst is when you have a problem it's city or uh worst so we have best things that are amazing and then worst things that are very bad or not very good i think about uh worst there could be so this is city bottom so deep and natural there could be almost not directly sunlight no direct sunlight yeah that's a big problem that's true okay i think that's great let's",
+    "ru": "Преподаватель уточняет значение best и worst. Ученик предполагает, что город расположен глубоко в долине и туда почти не попадает прямой солнечный свет. Преподаватель подтверждает формулировку no direct sunlight и подводит промежуточный итог.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Недостаток: мало прямого солнца",
+    "sourceStart": 1204,
+    "sourceEnd": 1235
+  },
+  {
+    "start": 4417.16,
+    "end": 4480.92,
+    "en": "see so you talked about some of the oh we talked about the activities being some of the best things like skiing and nature and then community and so the worst thing might be the lack of sunlight okay let's and and worse was being at us maybe a limited job and minimal activities for outside if you want to another activity not need for natural and hacking and skin and maybe i don't know yeah good because it's a very small town yeah there might not be many jobs",
+    "ru": "Преподаватель перечисляет уже названные преимущества — природа и сообщество — и возможную проблему нехватки солнца. Ученик добавляет ограниченный выбор работы и занятий, не связанных с природой. Это гипотезы до просмотра, а не проверенная статистика города.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Другие возможные недостатки",
+    "sourceStart": 1235,
+    "sourceEnd": 1271
+  },
+  {
+    "start": 4482.02,
+    "end": 4541.96,
+    "en": "can you see these two paragraphs a and a and b the summary is the best the video begins oh it is both of these paragraphs describe the video that we will watch okay so i would like you to read these paragraphs and choose the one which best describes the video so first you will read them then we will watch the video and then after you can choose okay okay so have some take some minutes to read these okay okay okay",
+    "ru": "Показаны два абзаца A и B, описывающих будущее видео. Нужно сначала прочитать их, затем посмотреть видео и выбрать более точное краткое содержание. Ученику дают немного времени на чтение.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Первый просмотр: выбрать краткое содержание",
+    "sourceStart": 1271,
+    "sourceEnd": 1304
+  },
+  {
+    "start": 4569.96,
+    "end": 4625.2,
+    "en": "i read but i need exactly for summary what about thing and selection a or b and you see and video or maybe listening and choose yes so after the video you can choose a or b okay whichever one is the same as the video okay i read it i already watching video can",
+    "ru": "Ученик проверяет: сначала прочитать, потом посмотреть или прослушать видео и выбрать A или B. Преподаватель подтверждает, что окончательный выбор делается после просмотра. Дальнейшая фраза ученика о готовности смотреть распознана не вполне ясно и не доказывает, что видео уже было просмотрено.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Уточнить последовательность действий",
+    "sourceStart": 1304,
+    "sourceEnd": 1339
+  },
+  {
+    "start": 4625.92,
+    "end": 4664.6,
+    "en": "you put it in the chat please i have just done there the summaries are in the chat can you see them there no you have to choose everyone in the chat you messaged yourself okay that's true thank you okay there we go can you see the summaries in the chat yes i see it let's go to watching the video perfect",
+    "ru": "Организатор просит выложить абзацы в общий чат. Выясняется, что преподаватель отправил сообщение самому себе; нужно выбрать адресатом всех участников. После исправления ученик подтверждает, что видит тексты, и начинается видео.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Сообщение ушло самому себе",
+    "sourceStart": 1339,
+    "sourceEnd": 1371
+  },
+  {
+    "start": 4664.6,
+    "end": 4775.32,
+    "en": "there is little doubt that the weather can dramatically affect our mood the wind many of us will have of time spent relaxing in a park on a bright and sunny day with the smell of freshly cut grass and the reassuring warmth of the sun on our skin we can all remember a time we can all remember a time we've ended up miserable and annoyed after getting soaked to the skin just trying to get to work on a grey and rainy day when we would much rather be dry and cozy on the sofa at home but some extremes of climate and geography can have a far more dramatic impact on our physical and mental well-being than the occasional day of bad weather but some of us can even imagine what it is like to live in shadow not seeing the sun outside our window for nearly six months every year but this is the reality of living in the small town of rukkan in the telemark district of norway for rukkan the problem is not simply its climate although the average temperature in the winter rarely exceeds minus five degrees celsius with fewer than six hours of sunlight a day in mid-december",
+    "ru": "Видеотекст сопоставляет удовольствие от солнечного дня с раздражением после дождя и говорит о влиянии климата и географии на самочувствие. Затем описывает норвежский Рьюкан, где зимой прямое солнце скрыто горами. Упоминаются почти шесть месяцев тени, зимняя температура около минус пяти и короткий декабрьский день; это сведения видео, не независимо обновлённая справка.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Видео: погода, настроение и положение города",
+    "sourceStart": 1371,
+    "sourceEnd": 1389
+  },
+  {
+    "start": 4775.32,
+    "end": 4835.3,
+    "en": "it is the result of the town's geography the town lies at the foot of one of the tallest mountains in southern norway the magnificent gaustatoppen on the high plateau above it the tracks of a popular ski resort crisscross the brightly lit snow while hidden deep down in the westfjord valley rukkan's residents get used to being denied any more than a distant glimpse of the low winter sun for the long months between october and march but ironically the town owes its very existence to this seemingly uninviting location it was founded in 1908 by the industrialist sam eid when his company norsk hydro built the world's largest hydroelectric power plant at the site of the 104 meter rukkan waterfall today while the",
+    "ru": "Город расположен у высокой горы, а наверху освещённые солнцем лыжные склоны. Жители долины между октябрём и мартом почти лишены прямого солнца. Видеотекст связывает основание города в 1908 году с промышленностью, гидроэлектростанцией и водопадом высотой 104 метра; имена и географические названия ASR передаёт неточно.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Видео: долина, горы и промышленная история",
+    "sourceStart": 1389,
+    "sourceEnd": 1403
+  },
+  {
+    "start": 4835.3,
+    "end": 4893.56,
+    "en": "original vormark power plant is now a museum and tourist attraction the legacy of sam eid lives on in rukkan and curiously it's not just for his industrial achievements that he's remembered eid understood the toll that living in the shadows for six months of the year had on the people of rukkan as early as 1913 he came up with the idea of using mirrors on the mountaintops to reflect sun down into the town but he had neither the resources nor the technology to put this plan into action instead in 1928 norse hydro paid for the construction of a cable car that could take the town's residents up out of the shadows to enjoy some much needed sunlight and that's how it used to be for the people of rukkan",
+    "ru": "Бывшая электростанция описана как музей. Промышленник понимал, как влияет жизнь в тени, и в 1913 году предложил отражать солнце с гор зеркалами, но не хватало средств и технологий. Вместо этого в 1928 году построили канатную дорогу, чтобы жители могли подняться к солнцу.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Видео: замысел зеркал и канатная дорога",
+    "sourceStart": 1403,
+    "sourceEnd": 1413
+  },
+  {
+    "start": 4893.56,
+    "end": 4949.56,
+    "en": "if you wanted to feel the warmth of the winter sun on your face you had to leave the town that was until 2001 when the artist martin anderson decided to revisit eid's original sun mirrors idea with cutting-edge technology 12 years later three 17 square meter glass mirrors finally sat on the mountainside high above the mountain side high above the town today controlled by a computer in germany they follow the path of the sun and reflect its rays into rukkan's town square the artificial sunlight that illuminates the benches far down in the valley is only 20 percent less intense than the actual sun bringing the light back to the town was a costly and slow process",
+    "ru": "По видеотексту, в 2001 году художник вернулся к идее солнечных зеркал. Через двенадцать лет установили три зеркала площадью по 17 квадратных метров; компьютер управляет их движением вслед за солнцем. Они направляют свет на городскую площадь; его интенсивность описана как на 20 процентов ниже прямого солнечного света.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Видео: возвращение к идее и работа зеркал",
+    "sourceStart": 1413,
+    "sourceEnd": 1424
+  },
+  {
+    "start": 4949.56,
+    "end": 5012.2,
+    "en": "not everyone thought that a small patch of sun was worth the half a million dollars it took to build the mirrors but seeing faces brighten as they step into the sunlight makes it seem like a small price to pay teachers bring their students to eat their lunch in the sun and older people come to relax and chat with friends the difference the sunshine makes is magical it brings people together and it makes them smile the residents of rukan no longer have to spend the winter in shadows waiting impatiently for the sun to return and it's clear that they're all enjoying getting used to their new place in the sun the sun to return and the sun to return and they're all enjoying the sun to return and the sun to return",
+    "ru": "Видеотекст называет стоимость около полумиллиона долларов и отмечает, что не все считали маленькое солнечное пятно оправданным расходом. Затем описывает людей, которые обедают, общаются и радуются свету на площади. Зеркала частично решают проблему конкретного пространства, а не освещают зимой весь город; в конце ASR повторяет слова о возвращении солнца.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Видео: стоимость и общественная польза",
+    "sourceStart": 1424,
+    "sourceEnd": 1435
+  },
+  {
+    "start": 5012.2,
+    "end": 5102.82,
+    "en": "okay there we go so take a minute to look at the summaries again and decide which one is accurate for the video i think about i think about i think about this video uh i think now the this situation i see is national uh geography this city but uh i'm not now at what is name city and i understand when you using uh sun panels for the sun lighting mirrors yeah yes mirrors mirrors yes mirror so which one of these do you think is the correct summary for this video interested do you understand the task yes i understand i need to choose a or b therefore so you're thinking okay that's fine yes",
+    "ru": "После просмотра преподаватель просит выбрать подходящий абзац. Ученик сначала обсуждает географию и устройство, называя его солнечными панелями; преподаватель уточняет mirrors, зеркала. Затем ещё раз проверяет, понимает ли ученик задачу выбора A или B.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Пересказ впечатлений вместо выбора",
+    "sourceStart": 1435,
+    "sourceEnd": 1451
+  },
+  {
+    "start": 5103.83,
+    "end": 5221.8,
+    "en": "but uh i think about uh it's uh for me if i select uh choose this physical amount and heads is very nice if you live in this city but uh if you're working uh if your job uh needs uh every time so does a describe the video or does b describe the video nothing nothing one moment i think about uh uh i i i choose this uh b the video first discussion how weather cannot affect or mods and explain it's the video is packed and uh uh rukan uh geography and cities is still little about history and town finally describe how the geography problem has now been this part should now solve it partially solved yeah perfect so it is b yes yes it's more yeah because we have a structure of first talking about the weather then the geography then the history and then the solution this is the structure of the summary and of",
+    "ru": "Ученик обдумывает ответ и выбирает B: сначала влияние погоды, затем география, история и частичное решение проблемы. Преподаватель подтверждает, что именно такая последовательность соответствует структуре видео. Неясное личное отступление ученика в начале не восстанавливается как точная завершённая мысль.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Правильное краткое содержание: B",
+    "sourceStart": 1451,
+    "sourceEnd": 1472
+  },
+  {
+    "start": 5221.8,
+    "end": 5312.68,
+    "en": "the video so perfect um now take a look at these numbers these are all numbers which appear in the video so we will watch them again that we will watch the video again and see what each number refers to what is the question here it does this one two three so for example 1908 1908 1908 could be a year uh-huh or minus five could be a temperature so if we watch the video we can listen for these numbers and you can make a note comment of what the number is referring to and these this will be in the chat can i make a suggestion Learner and Teacher Learner if i were you i would copy the numbers on a piece of paper and as you listen you write the thing next to each number this is easier to do than remembering you know all of the video because it's six or seven minutes so if you could do that Teacher",
+    "ru": "Теперь надо слушать конкретные числа и записывать, к чему каждое относится. Преподаватель приводит примеры: 1908 может быть годом, минус пять — температурой. Организатор советует переписать все числа на бумагу и делать пометки во время просмотра, а не удерживать шестиминутный текст в памяти.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Второй просмотр: числа и их значения",
+    "sourceStart": 1472,
+    "sourceEnd": 1487
+  },
+  {
+    "start": 5314.44,
+    "end": 5430.28,
+    "en": "okay so perfect can do you have a piece of paper yes i have one one moment one moment i need oh okay okay could you copy down these numbers so minus five 1908 all of them okay one moment okay okay great so i'm going to play the video again and next to these numbers just write down what the number is what it refers to okay mm-hmm great",
+    "ru": "Ученик ищет лист бумаги, затем переписывает числа. Преподаватель повторяет инструкцию: рядом с каждым числом написать, что оно обозначает. Короткие паузы и повторения сохранены в исходной колонке.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Подготовить бумагу и переписать числа",
+    "sourceStart": 1487,
+    "sourceEnd": 1504
+  },
+  {
+    "start": 5430.28,
+    "end": 5548.04,
+    "en": "there is little doubt that the weather can dramatically affect our mood many of us will have happy memories of time spent relaxing in a park on a bright and sunny day with the smell of freshly cut grass and the reassuring warmth of the sun on our skin so we can all remember a time we've ended up miserable and annoyed after getting soaked to the skin just trying to get to work on a gray and rainy day when we would much rather be dry and cozy on the sofa at home but some extremes of climate and geography can have a far more dramatic impact on our physical and mental well-being than the occasional day of bad weather and the other day of the sun is that we can't see the sun in the sun in the sun outside our window for nearly six months every year but this is the reality of living in the small town of root gone in the telemark district of norway for rakan the problem is not simply its climate although the average temperature in the winter rarely exceeds minus five degrees celsius with fewer than six hours of sunlight a day in mid-december it is the result of the town's geography the town lies at the foot of one of the tallest mountains in southern norway the magnificent gaustatoppen on the high plateau above it the tracks of a popular ski resort crisscross the brightly lit snow",
+    "ru": "Видео снова начинается с погоды и настроения, затем описывает Рьюкан и его положение в глубокой долине. Повторяются температура около минус пяти, короткий световой день и тень от гор. Некоторые предложения ASR на этом проходе искажает сильнее, чем при первом просмотре; повторы не исправлены в исходном тексте.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Повтор видео: климат и география",
+    "sourceStart": 1504,
+    "sourceEnd": 1520
+  },
+  {
+    "start": 5549.08,
+    "end": 5609.88,
+    "en": "while hidden deep down in the westfjord valley rukan's residents get used to being denied any more than a distant glimpse of the low winter sun for the long months between october and march but ironically the town owes its very existence to this seemingly uninviting location it was founded in 1908 by the industrialist sam eid when his company okay so i just want to check we just heard one of the numbers and so i have it uh in uh five minus five uh celsius is uh yes right and uh 19 eight four so yeah we just heard 1908 right yes this is uh rakan was founded okay good so this is going well i'll let it play to the end okay okay",
+    "ru": "Диктор рассказывает о зимней тени и основании промышленного города. Преподаватель останавливает воспроизведение после числа 1908; ученик связывает минус пять с температурой и 1908 с основанием города. Преподаватель подтверждает и разрешает смотреть дальше до конца.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Повтор видео: 1908 и проверка по ходу",
+    "sourceStart": 1520,
+    "sourceEnd": 1537
+  },
+  {
+    "start": 5609.88,
+    "end": 5680.92,
+    "en": "norsk hydro built the world's largest hydroelectric power plant at the site of the 104 meter rukan waterfall this 100 100 today while the original wallmark power plant is now a museum and tourist attraction the legacy of sam eid lives on in rukan and curiously it's not just for his industrial achievements that he's remembered eid understood the toll that living in the shadows for six months of the year had on the the people of rukan as early as 1913 he came up with the idea of using mirrors on the mountaintops to reflect sun down into the town but he had neither the resources nor the technology to put this plan into action instead in 1928 norsk hydro paid for the construction of a cable car that could take the town's residents up out of the shadows to enjoy some much needed sunlight and that's how it used to be",
+    "ru": "Повторяется информация о водопаде высотой 104 метра, бывшей электростанции, идее зеркал в 1913 году и канатной дороге 1928 года. Подъём позволял жителям выйти из тени к солнечному свету. В английской колонке сохранены включения ученика и диктора, которые ASR смешивает.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Повтор видео: 104, 1913 и 1928",
+    "sourceStart": 1537,
+    "sourceEnd": 1551
+  },
+  {
+    "start": 5680.92,
+    "end": 5793.08,
+    "en": "for the people of rukan if you wanted to feel the warmth of the winter sun on your face you had to leave the town that was until 2001 when the artist martin anderson decided to revisit eid's original sun mirrors idea with cutting-edge technology 12 years later three 17 square meter glass mirrors finally sat on the mountain side high above the mountain side high above the town today controlled by a computer in germany they follow the path of the sun and reflect its rays into rukan's town square the artificial sunlight that illuminates the benches far down in the valley is only 20 percent less intense than the actual sun bringing the light back to the town was a costly and slow process not everyone thought that a small patch of sun was worth the half a million dollars it took to build the mirrors but seeing faces brighten as they step into the sunlight makes it seem like a small price to pay teachers bring their students to eat their lunch in the sun and older people come to relax and chat with friends the difference the sunshine makes is magical it brings people together and it makes them smile the residents of rukan no longer have to spend the winter in shadows waiting impatiently for the sun to return and it's clear that they're all enjoying getting used to their new place in the sun",
+    "ru": "Снова звучит рассказ о возрождении проекта в 2001 году, трёх зеркалах по 17 квадратных метров и отражённом свете на 20 процентов менее интенсивном. Затем называются полмиллиона долларов и общественный эффект солнечного пятна: люди встречаются, обедают и улыбаются. Полный повтор видеоречи сохранён, хотя информация уже встречалась.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Повтор видео: 2001, 17, 20 процентов и стоимость",
+    "sourceStart": 1551,
+    "sourceEnd": 1567
+  },
+  {
+    "start": 5800.36,
+    "end": 5901.69,
+    "en": "okay okay okay the uh number one is uh this is tempura for uh celsius for average and uh the average the average time winter winter tempura uh winter tempura it's uh uh um minus five as this degree at celsius hello here here i am again it seems like you're not very lucky Learner uh but what you said was correct it is minus five is the winter temperature yes temperature yes temperature yes temperature if you look in the chat i've put it in temperature don't worry always i believe today's lessons were hexed no one can stay in poor Learner you begin with the teacher and in the middle of the lesson the teacher goes away and here i am okay but the thing is Learner got the first one correct minus five is the winter temperature i put it in the chat and you can take it from here Teacher okay",
+    "ru": "Ученик объясняет значение минус пяти, подбирая слово temperature. Снова вмешивается организатор из-за связи и подтверждает: речь о зимней температуре. Он пишет слово в чат, замечает, что сегодня преподаватели постоянно отключаются, и передаёт занятие обратно.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Ответ о температуре и новый разрыв связи",
+    "sourceStart": 1567,
+    "sourceEnd": 1585
+  },
+  {
+    "start": 5901.72,
+    "end": 5989.87,
+    "en": "okay then uh uh uh 1908 this founder uh founder uh founder uh what is rooken of uh founded rooken and uh yeah 1908 yes and uh 104 this is uh the waterfall matters uh height hello the height of the waterfall yes perfect amazing um what about 1913 19 this is uh idea for using a mirror the year for using the mirrors yes this is uh not usually this uh only create idea so this is very close uh 1908 was the year the sorry 1913 was the year the idea was proposed for the mirrors uh-huh uh-huh so it's when the idea was the idea was discussed",
+    "ru": "Ученик связывает 1908 с основанием города, 104 с высотой водопада, 1913 с идеей использовать зеркала. Преподаватель уточняет важное различие: в 1913 году идею предложили, а не реализовали. Ученик подтверждает это и переходит к канатной дороге.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Ответы: основание, водопад и замысел",
+    "sourceStart": 1585,
+    "sourceEnd": 1599
+  },
+  {
+    "start": 5990.12,
+    "end": 6066.2,
+    "en": "yes it's this idea using mirrors this not at a yes it's not at a building this uh only idea using mirror and 1928 this uh create a cable uh cable car for going to uh for going to main dress for the scene uh sunlight yeah perfect and then we have 20 uh 2001 is uh visited this martin martin i don't know who is this that's smart uh martin uh this is when the the sun mirrors project ah okay this is sun mirror okay uh uh 17 uh 17 uh this is uh square meters uh for creating uh uh mirror uh glass mirror the mirrors are for each 17 square meters yes yes perfect",
+    "ru": "Ученик объясняет 1928 как создание канатной дороги для подъёма к солнцу. С числом 2001 возникают сомнения об имени художника; преподаватель связывает его с проектом зеркал. Площадь каждого зеркала — 17 квадратных метров; это не общая площадь всех трёх.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Ответы: канатная дорога, проект и площадь",
+    "sourceStart": 1599,
+    "sourceEnd": 1612
+  },
+  {
+    "start": 6066.2,
+    "end": 6148.36,
+    "en": "uh it's uh 20 percent this is i think about uh this uh this minute uh when your son um uh uh sun choose uh glass mirror in 20 percent uh for what is world so close okay the the sunlight from the mirrors the sun from the mirrors is 20 percent less power than the real yes yes instance uh yeah yes okay and uh half million of this is uh price for building mirror uh building uh building uh building mirror building the mirrors yeah it costs half a million yeah this is easy oh yes is this less intense yes it's 20 percent yeah sunlight yes",
+    "ru": "Ученик пытается объяснить 20 процентов; преподаватель уточняет, что отражённый свет слабее прямого солнечного. Полмиллиона относится к стоимости строительства зеркал в рассказе видео. Ученик возвращается к точному less intense, подтверждая понимание сравнения.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Ответы: интенсивность и цена",
+    "sourceStart": 1612,
+    "sourceEnd": 1629
+  },
+  {
+    "start": 6150.84,
+    "end": 6217.96,
+    "en": "amazing amazing so you did really well with these um our last task is now to talk about where you live so can you think about where you live and what are the best things and the worst things and then tell me okay okay uh um i think about this best thing i live in china for me is best is many technologies is here every time is smart smart city smart technology or many projects and many goods for using and for me it's very nice it's interesting it must be very different than europe um",
+    "ru": "Преподаватель предлагает назвать лучшие и худшие стороны места, где живёт ученик. Ученик говорит о жизни в Китае, технологиях, умных городах, проектах и доступных товарах. Это его оценка собственного опыта, а не обобщённая статистика страны.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Свой город: лучшие стороны",
+    "sourceStart": 1629,
+    "sourceEnd": 1640
+  },
+  {
+    "start": 6217.96,
+    "end": 6335.91,
+    "en": "what might the worst thing be i think about uh it's worse for me but i'm not going to um when you come back at all the people uh home but i think about this uh traffic is uh for me it's worse if i'm going to when i need to meet my friends and this time is a comeback is all people in home um it's for me it's worse uh this traffic uh big traffic so the traffic's really heavy yes okay do you think there's a way they could fix the traffic i think about uh uh this is uh for all words it's a big uh problem and need to fix uh every people uh need uh living uh all uh all worlds not needed in the building is a big city need a uh middle city and uh minimal create a city and all um square square place using if you created a big uh city this every time uh was business traffic uh big traffic and was being at uh many people so this is a problem in every big city you think yes my my city is uh have uh 20 minutes uh people live i",
+    "ru": "Ученик описывает плотное движение, особенно когда люди возвращаются домой и ему нужно встретиться с друзьями. Преподаватель даёт естественное выражение heavy traffic и спрашивает, как решить проблему. Ученик предлагает больше небольших и средних городов вместо концентрации населения в огромных; ASR искажает количественную реплику, поэтому точное население не утверждается.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Свой город: пробки и решение",
+    "sourceStart": 1640,
+    "sourceEnd": 1657
+  },
+  {
+    "start": 6335.91,
+    "end": 6409.58,
+    "en": "think we've run out of time yes you did you have run out of time i will have to stop you thank you very much Learner for today don't forget your writing with the Teacher okay do you have your email excellent and we are going to find you a partner next time so you're not alone during the lesson i promise okay okay for me for for me this experiment is very nice i only the one-to-one is teacher is studied is for me it's more practical but um okay you like it then okay yes did you learn anything today what do you think oh this um today is a very nice teacher for the discussion for about a situation is not uh city is uh how about this using uh sunlight and using uh a glass mirror that was a very interesting thing yes very",
+    "ru": "Организатор завершает занятие и напоминает о письменном задании первому преподавателю. Обещает найти партнёра на следующий раз. Ученик говорит, что индивидуальный формат оказался полезным и практичным, и вспоминает интересную историю о зеркалах и солнечном свете.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Время закончилось и отзыв об уроке",
+    "sourceStart": 1657,
+    "sourceEnd": 1673
+  },
+  {
+    "start": 6409.58,
+    "end": 6455.93,
+    "en": "interested yes uh could you please uh send me your email i uh when i sent uh uh saying that i think yes for the writing Teacher can you put your email ah don't worry i got it Teacher Teacher Teacher can you see it yes i i i need to send only Teacher or you two yes not to me not to me okay okay okay okay okay i have okay i i i think about it i i need to send uh Teacher and to you but if she wants to share it with me that's okay but you don't have to send it to me no no worries okay",
+    "ru": "Ученик повторно просит адрес для письменной работы и уточняет, надо ли отправлять её ещё и организатору. Организатор объясняет: отправить только первому преподавателю; копия организатору не требуется. Если преподаватель сам захочет поделиться работой, это возможно; приватный адрес не произносится в доступном тексте.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Кому отправить четыре предложения",
+    "sourceStart": 1673,
+    "sourceEnd": 1689
+  },
+  {
+    "start": 6456.22,
+    "end": 6491.24,
+    "en": "okay okay okay thanks a lot Learner and we'll see you next saturday okay okay yeah thank you thank you this for me this more experiment is for the studying is very interesting it's not and it's not too much for you good good okay then thank you thank you have a nice uh weekend thank you you too you too bye Learner bye",
+    "ru": "Участники благодарят друг друга и договариваются увидеться в следующую субботу. Ученик ещё раз говорит, что опыт учёбы был интересным; организатор убеждается, что нагрузка не была чрезмерной. В конце желают хороших выходных и прощаются.",
+    "teacher": "Mixed roles; ASR voice clusters do not establish identity",
+    "heading": "Прощание и заключительная оценка",
+    "sourceStart": 1689,
+    "sourceEnd": 1698
+  },
+  {
+    "start": 6491.24,
+    "end": 6499.8,
+    "en": "",
+    "ru": "Последние 8,56 секунды исходной записи не содержат распознанного текста. По одной расшифровке нельзя установить, была ли здесь тишина или нераспознанный звук.",
+    "teacher": "Untranscribed tail",
+    "heading": "Хвост записи без расшифровки · 8,56 секунды",
+    "sourceStart": 1698,
+    "sourceEnd": 1698
+  }
+]
