@@ -1,0 +1,284 @@
+{
+  "format": "fluent-thread",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Отчёт за четыре предложения: цель, плюсы, минусы и рекомендация",
+    "source": {
+      "school": "ACE TEFL",
+      "date": "2026-11-21"
+    },
+    "prompt": "От задания со слайда к собственному отчёту: четыре функции, модели A1–C2, перевод, 14 оборотов и упражнения с постепенным снятием опор. Авторские модели, не цитаты преподавателя."
+  },
+  "words": [
+    {
+      "title": "The purpose of this report is to",
+      "meaning": "Цель этого отчёта —…",
+      "example": "The purpose of this report is to summarise the discussion.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "summarise the discussion about",
+      "meaning": "кратко изложить обсуждение…",
+      "example": "Please summarise the discussion about the new library.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "the proposed scheme",
+      "meaning": "предлагаемый проект",
+      "example": "The proposed scheme could benefit local people.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "One of the main benefits discussed was that",
+      "meaning": "Одним из основных обсуждавшихся преимуществ было то, что…",
+      "example": "One of the main benefits discussed was that the library could offer free study space.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "could create jobs for local people",
+      "meaning": "мог бы создать рабочие места для местных жителей",
+      "example": "The new centre could create jobs for local people.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "The main concern raised was",
+      "meaning": "Основным высказанным опасением было…",
+      "example": "The main concern raised was the extra traffic.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "the noise it could create",
+      "meaning": "шум, который он мог бы создавать",
+      "example": "Residents discussed the noise it could create.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "I would recommend",
+      "meaning": "Я бы рекомендовал…",
+      "example": "I would recommend approving the project.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "allow the project to go ahead",
+      "meaning": "разрешить реализацию проекта",
+      "example": "We could allow the project to go ahead.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "provided that",
+      "meaning": "при условии, что…",
+      "example": "The project can go ahead, provided that noise is limited.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "effective measures are taken to",
+      "meaning": "принимаются эффективные меры, чтобы…",
+      "example": "Effective measures are taken to protect residents.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "limit noise for local residents",
+      "meaning": "ограничить шум для местных жителей",
+      "example": "We need measures to limit noise for local residents.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "subject to the implementation of",
+      "meaning": "при условии реализации…",
+      "example": "Approval is subject to the implementation of noise controls.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "On balance, I would recommend",
+      "meaning": "Взвесив доводы, я бы рекомендовал…",
+      "example": "On balance, I would recommend a small pilot project.",
+      "vocabularyLevel": "learning"
+    }
+  ],
+  "materials": [
+    {
+      "kind": "reading",
+      "title": "Как работать · четыре предложения отчёта",
+      "text": "Цель: самостоятельно написать четыре начальных предложения формального отчёта. Это авторская практика по заданию ACE TEFL, а не новая расшифровка или цитаты преподавателя.\n\nЗадание со слайда: Write an opening sentence for each heading.\nWhy the report has been written\nBenefits of the proposed scheme\nDrawbacks of the proposed scheme\nRecommendations\n\nТема — прежнее обсуждение фуд-корта. В записи упоминались рабочие места и шум; полного текста прежних дебатов нет. Условное одобрение ниже — предложенная позиция автора, не установленное решение встречи. Нужны четыре предложения, а не полный отчёт. A1–A2 — подготовительные простые модели, а не образцы экзаменационного формального стиля. Сложнее не обязательно лучше: начинай с B1/B2.\n\nПорядок: прочитай модель → вспомни оборот по переводу → выполни задания без подсказки → напиши четыре своих предложения → сверь смысл, грамматику и источник аргументов. В оценках «Ещё раз / С подсказкой / Самостоятельно» отмечай собственный результат, а не факт открытия текста. Для фраз доступны «Могу использовать» и отложенное повторение. Автоматической оценки свободного отчёта учителем здесь нет."
+    },
+    {
+      "kind": "reading",
+      "title": "Четыре предложения отчёта · A1",
+      "text": "Why the report has been written\nThis report is about a new food court.\n\nBenefits of the proposed scheme\nThe food court can give local people jobs.\n\nDrawbacks of the proposed scheme\nThe food court can be noisy.\n\nRecommendations\nI think the project is a good idea if it is not too noisy.",
+      "translation": "Зачем написан отчёт\nЭтот отчёт о новом фуд-корте.\n\nПреимущества предлагаемого проекта\nФуд-корт может дать местным жителям работу.\n\nНедостатки предлагаемого проекта\nФуд-корт может быть шумным.\n\nРекомендации\nЯ думаю, проект — хорошая идея, если он не будет слишком шумным."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Написать четыре начала разделов · A1",
+      "text": "Partner: What is the report about?\nLearner: This report is about a new food court.\nPartner: What benefit was discussed?\nLearner: The food court can give local people jobs.\nPartner: What concern was raised?\nLearner: The food court can be noisy.\nPartner: What is your own recommendation?\nLearner: I think the project is a good idea if it is not too noisy.",
+      "translation": "Собеседник: О чём отчёт?\nУченик: Этот отчёт о новом фуд-корте.\nСобеседник: Какое преимущество обсуждалось?\nУченик: Фуд-корт может дать местным жителям работу.\nСобеседник: Какое опасение высказали?\nУченик: Фуд-корт может быть шумным.\nСобеседник: Какова твоя собственная рекомендация?\nУченик: Я думаю, проект — хорошая идея, если он не будет слишком шумным."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Написать четыре начала разделов · A1",
+      "prompt": "Partner: What is the report about?\nLearner: This report is about a new food court.\nPartner: What benefit was discussed?\nLearner: The food court can give local people jobs.\nPartner: What concern was raised?\nLearner: The food court can be noisy.\nPartner: What is your own recommendation?\nLearner: I think the project is a good idea if it is not too noisy.\n\nЗакрой образец и напиши четыре предложения по тем же четырём заголовкам. Сохрани смысл: обсуждение фуд-корта, возможные рабочие места, возможный шум и твоя рекомендация. Допускаются другие правильные формулировки. Не приписывай участникам встречи своё условие об ограничении шума.",
+      "answer": "Возможный ответ:\nThis report is about a new food court.\nThe food court can give local people jobs.\nThe food court can be noisy.\nI think the project is a good idea if it is not too noisy.\n\nСамопроверка: 1) В первом предложении есть цель/тема. 2) Benefit сообщает возможную пользу. 3) Drawback сообщает опасение. 4) Рекомендация — твоя позиция. Проверь согласование, could + base verb и recommend + -ing / that-clause."
+    },
+    {
+      "kind": "reading",
+      "title": "Четыре предложения отчёта · A2",
+      "text": "Why the report has been written\nThis report describes the discussion about a new food court.\n\nBenefits of the proposed scheme\nOne good point is that it could create jobs for local people.\n\nDrawbacks of the proposed scheme\nOne problem is that it could make the neighbourhood noisier.\n\nRecommendations\nI think the project should go ahead if there are rules to reduce noise.",
+      "translation": "Зачем написан отчёт\nЭтот отчёт описывает обсуждение нового фуд-корта.\n\nПреимущества предлагаемого проекта\nОдна положительная сторона в том, что он мог бы создать рабочие места для местных жителей.\n\nНедостатки предлагаемого проекта\nОдна проблема в том, что он мог бы сделать район более шумным.\n\nРекомендации\nЯ думаю, проект следует реализовать, если будут правила для уменьшения шума."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Написать четыре начала разделов · A2",
+      "text": "Partner: What does your report describe?\nLearner: This report describes the discussion about a new food court.\nPartner: What benefit was discussed?\nLearner: One good point is that it could create jobs for local people.\nPartner: What concern was raised?\nLearner: One problem is that it could make the neighbourhood noisier.\nPartner: What is your own recommendation?\nLearner: I think the project should go ahead if there are rules to reduce noise.",
+      "translation": "Собеседник: Что описывает твой отчёт?\nУченик: Этот отчёт описывает обсуждение нового фуд-корта.\nСобеседник: Какое преимущество обсуждалось?\nУченик: Одна положительная сторона в том, что он мог бы создать рабочие места для местных жителей.\nСобеседник: Какое опасение высказали?\nУченик: Одна проблема в том, что он мог бы сделать район более шумным.\nСобеседник: Какова твоя собственная рекомендация?\nУченик: Я думаю, проект следует реализовать, если будут правила для уменьшения шума."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Написать четыре начала разделов · A2",
+      "prompt": "Partner: What does your report describe?\nLearner: This report describes the discussion about a new food court.\nPartner: What benefit was discussed?\nLearner: One good point is that it could create jobs for local people.\nPartner: What concern was raised?\nLearner: One problem is that it could make the neighbourhood noisier.\nPartner: What is your own recommendation?\nLearner: I think the project should go ahead if there are rules to reduce noise.\n\nЗакрой образец и напиши четыре предложения по тем же четырём заголовкам. Сохрани смысл: обсуждение фуд-корта, возможные рабочие места, возможный шум и твоя рекомендация. Допускаются другие правильные формулировки. Не приписывай участникам встречи своё условие об ограничении шума.",
+      "answer": "Возможный ответ:\nThis report describes the discussion about a new food court.\nOne good point is that it could create jobs for local people.\nOne problem is that it could make the neighbourhood noisier.\nI think the project should go ahead if there are rules to reduce noise.\n\nСамопроверка: 1) В первом предложении есть цель/тема. 2) Benefit сообщает возможную пользу. 3) Drawback сообщает опасение. 4) Рекомендация — твоя позиция. Проверь согласование, could + base verb и recommend + -ing / that-clause."
+    },
+    {
+      "kind": "reading",
+      "title": "Четыре предложения отчёта · B1",
+      "text": "Why the report has been written\nThe aim of this report is to describe the discussion about the proposed food court.\n\nBenefits of the proposed scheme\nOne benefit discussed was that the food court could create jobs for local people.\n\nDrawbacks of the proposed scheme\nOne problem raised was the noise it could cause in the neighbourhood.\n\nRecommendations\nI would recommend approving the project if steps are taken to reduce noise.",
+      "translation": "Зачем написан отчёт\nЦель этого отчёта — описать обсуждение предлагаемого фуд-корта.\n\nПреимущества предлагаемого проекта\nОдним из обсуждавшихся преимуществ было то, что фуд-корт мог бы создать рабочие места для местных жителей.\n\nНедостатки предлагаемого проекта\nОдной из поднятых проблем был шум, который он мог бы создавать в районе.\n\nРекомендации\nЯ бы рекомендовал одобрить проект, если будут приняты меры для уменьшения шума."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Написать четыре начала разделов · B1",
+      "text": "Partner: How would you introduce the report?\nLearner: The aim of this report is to describe the discussion about the proposed food court.\nPartner: What benefit was discussed?\nLearner: One benefit discussed was that the food court could create jobs for local people.\nPartner: What concern was raised?\nLearner: One problem raised was the noise it could cause in the neighbourhood.\nPartner: What is your own recommendation?\nLearner: I would recommend approving the project if steps are taken to reduce noise.",
+      "translation": "Собеседник: Как ты начнёшь отчёт?\nУченик: Цель этого отчёта — описать обсуждение предлагаемого фуд-корта.\nСобеседник: Какое преимущество обсуждалось?\nУченик: Одним из обсуждавшихся преимуществ было то, что фуд-корт мог бы создать рабочие места для местных жителей.\nСобеседник: Какое опасение высказали?\nУченик: Одной из поднятых проблем был шум, который он мог бы создавать в районе.\nСобеседник: Какова твоя собственная рекомендация?\nУченик: Я бы рекомендовал одобрить проект, если будут приняты меры для уменьшения шума."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Написать четыре начала разделов · B1",
+      "prompt": "Partner: How would you introduce the report?\nLearner: The aim of this report is to describe the discussion about the proposed food court.\nPartner: What benefit was discussed?\nLearner: One benefit discussed was that the food court could create jobs for local people.\nPartner: What concern was raised?\nLearner: One problem raised was the noise it could cause in the neighbourhood.\nPartner: What is your own recommendation?\nLearner: I would recommend approving the project if steps are taken to reduce noise.\n\nЗакрой образец и напиши четыре предложения по тем же четырём заголовкам. Сохрани смысл: обсуждение фуд-корта, возможные рабочие места, возможный шум и твоя рекомендация. Допускаются другие правильные формулировки. Не приписывай участникам встречи своё условие об ограничении шума.",
+      "answer": "Возможный ответ:\nThe aim of this report is to describe the discussion about the proposed food court.\nOne benefit discussed was that the food court could create jobs for local people.\nOne problem raised was the noise it could cause in the neighbourhood.\nI would recommend approving the project if steps are taken to reduce noise.\n\nСамопроверка: 1) В первом предложении есть цель/тема. 2) Benefit сообщает возможную пользу. 3) Drawback сообщает опасение. 4) Рекомендация — твоя позиция. Проверь согласование, could + base verb и recommend + -ing / that-clause."
+    },
+    {
+      "kind": "reading",
+      "title": "Четыре предложения отчёта · B2",
+      "text": "Why the report has been written\nThe purpose of this report is to summarise the discussion about the proposed food court in our neighbourhood.\n\nBenefits of the proposed scheme\nOne of the main benefits discussed was that the new food court could create jobs for local people.\n\nDrawbacks of the proposed scheme\nThe main concern raised was the noise the food court could create in the neighbourhood.\n\nRecommendations\nI would recommend allowing the project to go ahead, provided that effective measures are taken to limit noise for local residents.",
+      "translation": "Зачем написан отчёт\nЦель этого отчёта — кратко изложить обсуждение предлагаемого фуд-корта в нашем районе.\n\nПреимущества предлагаемого проекта\nОдним из основных обсуждавшихся преимуществ было то, что новый фуд-корт мог бы создать рабочие места для местных жителей.\n\nНедостатки предлагаемого проекта\nОсновным высказанным опасением был шум, который фуд-корт мог бы создавать в районе.\n\nРекомендации\nЯ бы рекомендовал разрешить реализацию проекта при условии принятия эффективных мер по ограничению шума для местных жителей."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Написать четыре начала разделов · B2",
+      "text": "Partner: How would you introduce the report?\nLearner: The purpose of this report is to summarise the discussion about the proposed food court in our neighbourhood.\nPartner: What benefit was discussed?\nLearner: One of the main benefits discussed was that the new food court could create jobs for local people.\nPartner: What concern was raised?\nLearner: The main concern raised was the noise the food court could create in the neighbourhood.\nPartner: What is your own recommendation?\nLearner: I would recommend allowing the project to go ahead, provided that effective measures are taken to limit noise for local residents.",
+      "translation": "Собеседник: Как ты начнёшь отчёт?\nУченик: Цель этого отчёта — кратко изложить обсуждение предлагаемого фуд-корта в нашем районе.\nСобеседник: Какое преимущество обсуждалось?\nУченик: Одним из основных обсуждавшихся преимуществ было то, что новый фуд-корт мог бы создать рабочие места для местных жителей.\nСобеседник: Какое опасение высказали?\nУченик: Основным высказанным опасением был шум, который фуд-корт мог бы создавать в районе.\nСобеседник: Какова твоя собственная рекомендация?\nУченик: Я бы рекомендовал разрешить реализацию проекта при условии принятия эффективных мер по ограничению шума для местных жителей."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Написать четыре начала разделов · B2",
+      "prompt": "Partner: How would you introduce the report?\nLearner: The purpose of this report is to summarise the discussion about the proposed food court in our neighbourhood.\nPartner: What benefit was discussed?\nLearner: One of the main benefits discussed was that the new food court could create jobs for local people.\nPartner: What concern was raised?\nLearner: The main concern raised was the noise the food court could create in the neighbourhood.\nPartner: What is your own recommendation?\nLearner: I would recommend allowing the project to go ahead, provided that effective measures are taken to limit noise for local residents.\n\nЗакрой образец и напиши четыре предложения по тем же четырём заголовкам. Сохрани смысл: обсуждение фуд-корта, возможные рабочие места, возможный шум и твоя рекомендация. Допускаются другие правильные формулировки. Не приписывай участникам встречи своё условие об ограничении шума.",
+      "answer": "Возможный ответ:\nThe purpose of this report is to summarise the discussion about the proposed food court in our neighbourhood.\nOne of the main benefits discussed was that the new food court could create jobs for local people.\nThe main concern raised was the noise the food court could create in the neighbourhood.\nI would recommend allowing the project to go ahead, provided that effective measures are taken to limit noise for local residents.\n\nСамопроверка: 1) В первом предложении есть цель/тема. 2) Benefit сообщает возможную пользу. 3) Drawback сообщает опасение. 4) Рекомендация — твоя позиция. Проверь согласование, could + base verb и recommend + -ing / that-clause."
+    },
+    {
+      "kind": "reading",
+      "title": "Четыре предложения отчёта · C1",
+      "text": "Why the report has been written\nThis report aims to provide an overview of the discussion concerning the proposed food court in our neighbourhood.\n\nBenefits of the proposed scheme\nA key advantage identified during the discussion was the potential for the scheme to generate local employment.\n\nDrawbacks of the proposed scheme\nThe principal concern raised was the potential increase in noise affecting nearby residents.\n\nRecommendations\nI would recommend that the scheme be approved, provided that effective noise-control measures are put in place.",
+      "translation": "Зачем написан отчёт\nЭтот отчёт призван дать обзор обсуждения предлагаемого фуд-корта в нашем районе.\n\nПреимущества предлагаемого проекта\nКлючевым преимуществом, отмеченным при обсуждении, была возможность создания местных рабочих мест благодаря проекту.\n\nНедостатки предлагаемого проекта\nОсновным высказанным опасением было возможное усиление шума, затрагивающее жителей поблизости.\n\nРекомендации\nЯ бы рекомендовал одобрить проект при условии введения эффективных мер контроля шума."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Написать четыре начала разделов · C1",
+      "text": "Partner: How would you introduce the report?\nLearner: This report aims to provide an overview of the discussion concerning the proposed food court in our neighbourhood.\nPartner: What benefit was discussed?\nLearner: A key advantage identified during the discussion was the potential for the scheme to generate local employment.\nPartner: What concern was raised?\nLearner: The principal concern raised was the potential increase in noise affecting nearby residents.\nPartner: What is your own recommendation?\nLearner: I would recommend that the scheme be approved, provided that effective noise-control measures are put in place.",
+      "translation": "Собеседник: Как ты начнёшь отчёт?\nУченик: Этот отчёт призван дать обзор обсуждения предлагаемого фуд-корта в нашем районе.\nСобеседник: Какое преимущество обсуждалось?\nУченик: Ключевым преимуществом, отмеченным при обсуждении, была возможность создания местных рабочих мест благодаря проекту.\nСобеседник: Какое опасение высказали?\nУченик: Основным высказанным опасением было возможное усиление шума, затрагивающее жителей поблизости.\nСобеседник: Какова твоя собственная рекомендация?\nУченик: Я бы рекомендовал одобрить проект при условии введения эффективных мер контроля шума."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Написать четыре начала разделов · C1",
+      "prompt": "Partner: How would you introduce the report?\nLearner: This report aims to provide an overview of the discussion concerning the proposed food court in our neighbourhood.\nPartner: What benefit was discussed?\nLearner: A key advantage identified during the discussion was the potential for the scheme to generate local employment.\nPartner: What concern was raised?\nLearner: The principal concern raised was the potential increase in noise affecting nearby residents.\nPartner: What is your own recommendation?\nLearner: I would recommend that the scheme be approved, provided that effective noise-control measures are put in place.\n\nЗакрой образец и напиши четыре предложения по тем же четырём заголовкам. Сохрани смысл: обсуждение фуд-корта, возможные рабочие места, возможный шум и твоя рекомендация. Допускаются другие правильные формулировки. Не приписывай участникам встречи своё условие об ограничении шума.",
+      "answer": "Возможный ответ:\nThis report aims to provide an overview of the discussion concerning the proposed food court in our neighbourhood.\nA key advantage identified during the discussion was the potential for the scheme to generate local employment.\nThe principal concern raised was the potential increase in noise affecting nearby residents.\nI would recommend that the scheme be approved, provided that effective noise-control measures are put in place.\n\nСамопроверка: 1) В первом предложении есть цель/тема. 2) Benefit сообщает возможную пользу. 3) Drawback сообщает опасение. 4) Рекомендация — твоя позиция. Проверь согласование, could + base verb и recommend + -ing / that-clause."
+    },
+    {
+      "kind": "reading",
+      "title": "Четыре предложения отчёта · C2",
+      "text": "Why the report has been written\nThe purpose of this report is to synthesise the arguments presented in the discussion of the proposed neighbourhood food court.\n\nBenefits of the proposed scheme\nAmong the advantages identified was the prospect of generating employment within the local community.\n\nDrawbacks of the proposed scheme\nThe principal reservation expressed concerned the potential for increased noise to disturb nearby residents.\n\nRecommendations\nOn balance, I would recommend granting approval, subject to the implementation of effective measures to mitigate noise.",
+      "translation": "Зачем написан отчёт\nЦель этого отчёта — обобщить доводы, представленные при обсуждении предлагаемого районного фуд-корта.\n\nПреимущества предлагаемого проекта\nСреди отмеченных преимуществ была перспектива создания рабочих мест в местном сообществе.\n\nНедостатки предлагаемого проекта\nГлавное высказанное возражение касалось возможности того, что усиление шума будет беспокоить жителей поблизости.\n\nРекомендации\nВзвесив доводы, я бы рекомендовал одобрить проект при условии реализации эффективных мер по снижению шума."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Написать четыре начала разделов · C2",
+      "text": "Partner: How would you introduce the report?\nLearner: The purpose of this report is to synthesise the arguments presented in the discussion of the proposed neighbourhood food court.\nPartner: What benefit was discussed?\nLearner: Among the advantages identified was the prospect of generating employment within the local community.\nPartner: What concern was raised?\nLearner: The principal reservation expressed concerned the potential for increased noise to disturb nearby residents.\nPartner: What is your own recommendation?\nLearner: On balance, I would recommend granting approval, subject to the implementation of effective measures to mitigate noise.",
+      "translation": "Собеседник: Как ты начнёшь отчёт?\nУченик: Цель этого отчёта — обобщить доводы, представленные при обсуждении предлагаемого районного фуд-корта.\nСобеседник: Какое преимущество обсуждалось?\nУченик: Среди отмеченных преимуществ была перспектива создания рабочих мест в местном сообществе.\nСобеседник: Какое опасение высказали?\nУченик: Главное высказанное возражение касалось возможности того, что усиление шума будет беспокоить жителей поблизости.\nСобеседник: Какова твоя собственная рекомендация?\nУченик: Взвесив доводы, я бы рекомендовал одобрить проект при условии реализации эффективных мер по снижению шума."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Написать четыре начала разделов · C2",
+      "prompt": "Partner: How would you introduce the report?\nLearner: The purpose of this report is to synthesise the arguments presented in the discussion of the proposed neighbourhood food court.\nPartner: What benefit was discussed?\nLearner: Among the advantages identified was the prospect of generating employment within the local community.\nPartner: What concern was raised?\nLearner: The principal reservation expressed concerned the potential for increased noise to disturb nearby residents.\nPartner: What is your own recommendation?\nLearner: On balance, I would recommend granting approval, subject to the implementation of effective measures to mitigate noise.\n\nЗакрой образец и напиши четыре предложения по тем же четырём заголовкам. Сохрани смысл: обсуждение фуд-корта, возможные рабочие места, возможный шум и твоя рекомендация. Допускаются другие правильные формулировки. Не приписывай участникам встречи своё условие об ограничении шума.",
+      "answer": "Возможный ответ:\nThe purpose of this report is to synthesise the arguments presented in the discussion of the proposed neighbourhood food court.\nAmong the advantages identified was the prospect of generating employment within the local community.\nThe principal reservation expressed concerned the potential for increased noise to disturb nearby residents.\nOn balance, I would recommend granting approval, subject to the implementation of effective measures to mitigate noise.\n\nСамопроверка: 1) В первом предложении есть цель/тема. 2) Benefit сообщает возможную пользу. 3) Drawback сообщает опасение. 4) Рекомендация — твоя позиция. Проверь согласование, could + base verb и recommend + -ing / that-clause."
+    },
+    {
+      "kind": "reading",
+      "title": "Полезные фразы · конструктор формального отчёта",
+      "text": "Авторские обороты для письма; не дословные цитаты преподавателя.\n\nФраза 1 · The purpose of this report is to…\nПеревод: Цель этого отчёта —…\nКонструкция: The purpose of + noun + is to + base verb. После to не пишем summarising.\nТвой пример для практики: The purpose of this report is to summarise the discussion.\n\nФраза 2 · summarise the discussion about…\nПеревод: кратко изложить обсуждение…\nКонструкция: summarise + объект; about + тема. BrE summarise; AmE summarize тоже верно.\nТвой пример для практики: Please summarise the discussion about the new library.\n\nФраза 3 · the proposed scheme\nПеревод: предлагаемый проект\nКонструкция: proposed + noun. В данном контексте scheme — проект, не мошенническая схема.\nТвой пример для практики: The proposed scheme could benefit local people.\n\nФраза 4 · One of the main benefits discussed was that…\nПеревод: Одним из основных обсуждавшихся преимуществ было то, что…\nКонструкция: one of + the + plural noun; was согласуется с one. discussed = that were discussed.\nТвой пример для практики: One of the main benefits discussed was that the library could offer free study space.\n\nФраза 5 · could create jobs for local people\nПеревод: мог бы создать рабочие места для местных жителей\nКонструкция: could + base verb: возможность, а не гарантированный результат.\nТвой пример для практики: The new centre could create jobs for local people.\n\nФраза 6 · The main concern raised was…\nПеревод: Основным высказанным опасением было…\nКонструкция: concern raised = concern that was raised. Raise a concern = высказать опасение.\nТвой пример для практики: The main concern raised was the extra traffic.\n\nФраза 7 · the noise it could create\nПеревод: шум, который он мог бы создавать\nКонструкция: the noise (that) it could create: that можно опустить, оно объект. Подлежащее it остаётся.\nТвой пример для практики: Residents discussed the noise it could create.\n\nФраза 8 · I would recommend…\nПеревод: Я бы рекомендовал…\nКонструкция: recommend + -ing либо recommend that + subject + base verb / should + base verb. Не recommend to approve.\nТвой пример для практики: I would recommend approving the project.\n\nФраза 9 · allow the project to go ahead\nПеревод: разрешить реализацию проекта\nКонструкция: allow + object + to + verb; go ahead = состояться / быть реализованным.\nТвой пример для практики: We could allow the project to go ahead.\n\nФраза 10 · provided that…\nПеревод: при условии, что…\nКонструкция: provided that + clause; для будущего условия здесь Present Simple, не will.\nТвой пример для практики: The project can go ahead, provided that noise is limited.\n\nФраза 11 · effective measures are taken to…\nПеревод: принимаются эффективные меры, чтобы…\nКонструкция: take measures to + base verb; are taken — пассив, важны меры, а не исполнитель.\nТвой пример для практики: Effective measures are taken to protect residents.\n\nФраза 12 · limit noise for local residents\nПеревод: ограничить шум для местных жителей\nКонструкция: limit / reduce noise; noise в этом значении неисчисляемое.\nТвой пример для практики: We need measures to limit noise for local residents.\n\nФраза 13 · subject to the implementation of…\nПеревод: при условии реализации…\nКонструкция: subject to + noun / -ing; provided that + полное предложение. Не subject to measures are taken.\nТвой пример для практики: Approval is subject to the implementation of noise controls.\n\nФраза 14 · On balance, I would recommend…\nПеревод: Взвесив доводы, я бы рекомендовал…\nКонструкция: On balance вводит итоговую оценку обеих сторон; после оборота запятая.\nТвой пример для практики: On balance, I would recommend a small pilot project."
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · четыре функции и точные конструкции",
+      "text": "1. Цель отчёта: The purpose of this report is to + verb. Пример: …is to summarise the discussion. После is to здесь инфинитив, не -ing.\n\n2. One of the main benefits was…: one of + существительное во множественном числе, но главный субъект one — единственное число. One of the benefits was… / The benefits were…\n\n3. Обсуждённое не равно доказанному: a benefit discussed / a concern raised — сокращённые относительные конструкции. Полные формы: a benefit that was discussed / a concern that was raised. Они сообщают, что прозвучало в обсуждении.\n\n4. Could + начальная форма: could create / could cause, не could creates / could to create. В этих моделях could обозначает возможный эффект проекта, а не установленный факт. Не нужно механически заменять каждое can на could в любом отчёте.\n\n5. Рекомендация: I would recommend approving the project. Альтернативы: I would recommend that the project be approved / should be approved. Не I would recommend to approve.\n\n6. Разрешить действие: allow + объект + to + глагол. Allow the project to go ahead. Само go ahead здесь означает реализоваться.\n\n7. Условие: provided that + предложение. …provided that measures are taken. При условии о будущем здесь используем Present Simple. Subject to + существительное: subject to noise controls / subject to the implementation of noise controls.\n\n8. Пассив: measures are taken. Take–took–taken. Исполнитель не назван, потому что главное — наличие мер. Noise в этом смысле неисчисляемое: less noise, не fewer noises.\n\n9. Регистр и ясность: в формальном отчёте избегай gonna, lots of good stuff и неподтверждённых уверенных обещаний. Точные простые предложения лучше длинных шаблонов, смысл которых непонятен. Цель задания — четыре начала разделов; полный отчёт обычно требует дальнейшего развития аргументов."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 1 · Узнай функцию",
+      "prompt": "Соотнеси начала с функциями: A The purpose of this report is to…; B The main concern raised was…; C I would recommend…; D One benefit discussed was…\nФункции: цель, преимущество, недостаток, рекомендация.",
+      "answer": "Цель — A; преимущество — D; недостаток — B; рекомендация — C. Concern = опасение; recommendation = предложение автора о том, что делать."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 2 · Собери цель",
+      "prompt": "Составь предложение: this report / The purpose of / is / the discussion / to summarise / about the proposed food court.",
+      "answer": "The purpose of this report is to summarise the discussion about the proposed food court.\nПеревод: Цель этого отчёта — кратко изложить обсуждение предлагаемого фуд-корта.\nКаркас: The purpose of + noun + is to + verb + object."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 3 · Вспомни по переводу",
+      "prompt": "Переведи без образца: «Одним из основных обсуждавшихся преимуществ было то, что фуд-корт мог бы создать рабочие места для местных жителей».",
+      "answer": "One of the main benefits discussed was that the food court could create jobs for local people.\nДопустимо: One benefit discussed was that…\nПроверь: benefits во множественном числе, was после one, create после could."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 4 · Опиши опасение",
+      "prompt": "Напиши по-английски: «Основным высказанным опасением был шум, который фуд-корт мог бы создавать в районе». Используй concern raised и could.",
+      "answer": "The main concern raised was the noise the food court could create in the neighbourhood.\nВариант с that: …the noise that the food court could create…\nConcern raised = concern that was raised; что опасение высказали — не доказательство, что результат неизбежен."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 5 · Исправь типичные ошибки",
+      "prompt": "Исправь: 1 The purpose of this report is summarising the debate. 2 One of the main benefit were new jobs. 3 It could creates jobs. 4 I would recommend to approve the project. 5 Provided that measures will be taken, it can go ahead.\nЭто специально придуманные ошибки для практики, а не приписанные ученику реплики.",
+      "answer": "1 The purpose of this report is to summarise the debate. 2 One of the main benefits was new jobs. 3 It could create jobs. 4 I would recommend approving the project. / I would recommend that the project be approved. 5 Provided that measures are taken, it can go ahead.\nПричины: инфинитив; one of + plural и was; could + base verb; recommend + -ing / that; настоящее время в будущем условии."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 6 · Преобразуй рекомендацию",
+      "prompt": "Перепиши I would recommend approving the project с that. Затем замени provided that noise controls are introduced на subject to + существительное.",
+      "answer": "I would recommend that the project be approved. / …that the project should be approved.\n…subject to the introduction of noise controls. / …subject to noise controls.\nProvided that + clause, subject to + noun phrase. Это альтернативы, не обязательное усложнение."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 7 · Отдели источник от позиции",
+      "prompt": "Что из этого сообщает прозвучавший аргумент, а что предлагает решение автора? A A participant pointed out that the scheme could create jobs. B I would recommend approving it only if noise is limited.\nМожно ли написать, что все участники согласились с B, если этого нет в записи?",
+      "answer": "A передаёт аргумент участника. B — собственная рекомендация автора. Нельзя приписать согласие всем без источника. English: The recommendation is my own proposal, not a confirmed decision of the meeting."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 8 · Напиши с подсказками",
+      "prompt": "Напиши четыре предложения о фуд-корте. Подсказки: The purpose… / One benefit… / The main concern… / I would recommend…\nПрежде чем открыть ответ, проверь: все ли четыре функции есть; где факт обсуждения, а где твоя позиция?",
+      "answer": "Возможный B2-ответ:\nThe purpose of this report is to summarise the discussion about the proposed food court in our neighbourhood.\nOne of the main benefits discussed was that the new food court could create jobs for local people.\nThe main concern raised was the noise the food court could create in the neighbourhood.\nI would recommend allowing the project to go ahead, provided that effective measures are taken to limit noise for local residents.\n\nТочное совпадение не нужно. Условия о шуме — предложенная собственная рекомендация. Если ты против проекта, можно написать: I would recommend postponing the project until effective noise controls are agreed."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 9 · Перенеси навык на новую ситуацию",
+      "prompt": "Новая вымышленная учебная ситуация: обсуждали публичную библиотеку. Польза — бесплатные места для учёбы; опасение — расходы на обслуживание. Напиши четыре предложения под теми же заголовками. Сам выбери рекомендацию. Это не сведения с урока.",
+      "answer": "Возможный ответ:\nThe purpose of this report is to summarise the discussion about the proposed public library.\nOne benefit discussed was that the library could provide free study space for local people.\nThe main concern raised was the cost of maintaining the building.\nI would recommend approving the project, provided that a realistic maintenance budget is agreed.\n\nПеревод: цель — изложить обсуждение; польза — бесплатное место для учёбы; опасение — стоимость содержания; рекомендация — одобрение при согласованном реалистичном бюджете. Другие обоснованные рекомендации тоже верны."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Отчёт 10 · Напиши без опор и повтори",
+      "prompt": "Сначала без шаблонов напиши четыре предложения о фуд-корте. Затем придумай свой проект и повтори структуру с новой лексикой. Проверь: purpose; reported benefit; reported concern; own recommendation. Оцени себя только после собственной попытки.",
+      "answer": "Контроль: 1) В каждом предложении одна понятная функция. 2) Нет придуманного единогласного решения. 3) One of the benefits was; could + verb; recommend + -ing / that; provided that + clause. 4) Твой новый проект и новые аргументы обозначены как учебная ситуация.\nЕсли пришлось подсмотреть — «С подсказкой». Если снова не получилось — «Ещё раз». Если написал самостоятельно и прошёл проверку — «Самостоятельно». Это самооценка, не автоматическая проверка грамматики."
+    }
+  ]
+}

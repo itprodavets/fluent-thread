@@ -11,6 +11,7 @@ import { useWorkspace } from '../context';
 import { Heading } from './common';
 import { CloudSettings } from './CloudSettings';
 import { statusLabels } from './ProfileSummary';
+import { downloadProfileBackup } from './ProfileBackup';
 export function Profile() {
   const { user, error: authError, storageMode } = useIdentity();
   const store = useProfileStore();
@@ -78,12 +79,6 @@ export function Profile() {
     } catch { notify('Не удалось перенести данные. Исходный словарь сохранён без изменений.'); }
     finally { setImporting(false); }
   }
-  function downloadBackup() {
-    const blob = new Blob([JSON.stringify({ format: 'fluent-thread-profile', version: 1, exportedAt: new Date().toISOString(), study, conflicts: document.conflicts }, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob); const anchor = window.document.createElement('a');
-    anchor.href = url; anchor.download = 'fluent-thread-profile-' + new Date().toISOString().slice(0,10) + '.json';
-    anchor.click(); setTimeout(() => URL.revokeObjectURL(url), 10_000);
-  }
   return <>
     <Heading title="Профиль" detail="Твой словарь, ошибки и очередь повторения — отдельно от других пользователей." />
     <div className="profile-layout">
@@ -126,7 +121,7 @@ export function Profile() {
         <div className="actions">
           {user && storageMode === 'cloud' && <button type="button" disabled={status.state === 'syncing'} onClick={() => { void store.sync(); }}>Синхронизировать сейчас</button>}
           <button type="button" disabled={busy} onClick={() => void saveBeforeClosing()}>{busy ? 'Сохраняем…' : 'Сохранить перед закрытием'}</button>
-          <button type="button" onClick={downloadBackup}>Скачать резервную копию</button>
+          <button type="button" onClick={() => downloadProfileBackup(store.getDocument())}>Скачать резервную копию</button>
           <a className="button" href="#account">Открыть словарь</a>
         </div>
         <p className="sub">Можно держать профиль открытым в нескольких вкладках. Изменения сохраняются после каждого действия; при переходе в другую вкладку приложение дополнительно запускает синхронизацию. Закрытие браузера без сети не гарантирует отправку в облако: оставшиеся изменения отправятся при следующем открытии.</p>

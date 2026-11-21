@@ -168,5 +168,13 @@
     "id": "ace-tefl/reports-and-mirror-town",
     "language": "en",
     "path": "lessons/ace-tefl/reports-and-mirror-town/lesson.json"
+  },
+  {
+    "id": "ace-tefl/report-opening-sentences",
+    "language": "en",
+    "topic": "Отчёт за четыре предложения: цель, плюсы, минусы и рекомендация",
+    "school": "ACE TEFL",
+    "date": "2026-11-21",
+    "path": "lessons/ace-tefl/report-opening-sentences/lesson.json"
   }
 ]
