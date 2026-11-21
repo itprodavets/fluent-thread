@@ -47,12 +47,12 @@ test('skill phrase provenance and retry survive selection of another dialogue', 
   const { assessPhraseCard, phraseReviews, phraseRetryDelay, phraseVocabularyId } = await import('../src/domain/lesson-practice.ts');
   const { skillPhraseCards } = await import('../src/domain/skill-dialogues.ts');
   const { lastSpoken } = await import('../src/domain/model.ts');
-  const packets = ['wolves-and-eco-homes', 'future-plans', 'responses-and-opinions'].map(name => readLesson(name));
+  const packets = read('en/lessons/catalog.json').map((item: { path: string }) => read('en/' + item.path));
   const skills = read('en/skills/catalog.json');
   for (const skill of skills) {
-    assert.equal(skill.dialogues.flatMap((dialogue: { phrases: unknown[] }) => dialogue.phrases).length, 6);
+    assert.ok(skill.dialogues.flatMap((dialogue: { phrases: unknown[] }) => dialogue.phrases).length >= 6);
     for (const item of skill.dialogues) {
-      const packet = packets.find(entry => entry.topic.source.school === item.school);
+      const packet = packets.find(entry => entry.topic.source.school === item.school && entry.materials.some((material: { kind: string; title: string }) => material.kind === 'dialogue' && material.title.startsWith(item.title + ' · ')));
       assert.ok(packet);
       const dialogue = packet.materials.filter((material: { kind: string; title: string }) =>
         material.kind === 'dialogue' && material.title.startsWith(item.title + ' · '));

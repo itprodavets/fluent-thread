@@ -1,0 +1,6056 @@
+{
+  "source": "Record-2026-11-20 23-06-11-20261120-230611",
+  "durationSeconds": 3885.74,
+  "timingUnit": "seconds (Vibe centiseconds divided by 100)",
+  "notice": "Complete ASR with names replaced by neutral roles. Voice clusters are unverified, not speaker identities. Misrecognitions and repetitions are retained as source data, not correct English. No audio or private paths published. Last ASR segment ends at 3871.28; untranscribed tail to 3885.74.",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 0.42,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "i'm"
+    },
+    {
+      "index": 1,
+      "start": 0.42,
+      "end": 0.87,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "fine"
+    },
+    {
+      "index": 2,
+      "start": 1.19,
+      "end": 4.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "thank you and you and oh"
+    },
+    {
+      "index": 3,
+      "start": 4.96,
+      "end": 8.12,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "hello"
+    },
+    {
+      "index": 4,
+      "start": 8.45,
+      "end": 10.25,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "i'm fine thank you"
+    },
+    {
+      "index": 5,
+      "start": 10.54,
+      "end": 11.52,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "hello there"
+    },
+    {
+      "index": 6,
+      "start": 28.08,
+      "end": 30.47,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "hello so that's Partner right"
+    },
+    {
+      "index": 7,
+      "start": 30.83,
+      "end": 32.79,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "yes good afternoon good"
+    },
+    {
+      "index": 8,
+      "start": 33.51,
+      "end": 37.12,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "afternoon to you too Partner how are you i'm"
+    },
+    {
+      "index": 9,
+      "start": 37.12,
+      "end": 37.6,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "fine"
+    },
+    {
+      "index": 10,
+      "start": 37.6,
+      "end": 42.69,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "thank you thank you i just renamed you so we all"
+    },
+    {
+      "index": 11,
+      "start": 43.1,
+      "end": 48.4,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "recognize you and we all know Partner of course"
+    },
+    {
+      "index": 12,
+      "start": 48.4,
+      "end": 50.65,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "hello Partner good to see you hello"
+    },
+    {
+      "index": 13,
+      "start": 51.13,
+      "end": 52.96,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "nice to see you all"
+    },
+    {
+      "index": 14,
+      "start": 56.16,
+      "end": 63.84,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "we'll just give it a couple of minutes and then Teacher uh will start the lesson and i will leave"
+    },
+    {
+      "index": 15,
+      "start": 63.84,
+      "end": 72.4,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "oops who did we lose the most important person Teacher"
+    },
+    {
+      "index": 16,
+      "start": 76.88,
+      "end": 79.84,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "hopefully he will join very soon"
+    },
+    {
+      "index": 17,
+      "start": 79.84,
+      "end": 82.28,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "where is"
+    },
+    {
+      "index": 18,
+      "start": 82.89,
+      "end": 85.55,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "he located in"
+    },
+    {
+      "index": 19,
+      "start": 86.44,
+      "end": 87.02,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "germany"
+    },
+    {
+      "index": 20,
+      "start": 87.02,
+      "end": 89.51,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "okay so it's okay"
+    },
+    {
+      "index": 21,
+      "start": 89.52,
+      "end": 93.76,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe uh you can speak uh germany now"
+    },
+    {
+      "index": 22,
+      "start": 95.12,
+      "end": 96.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "good and talk good and morgan"
+    },
+    {
+      "index": 23,
+      "start": 96.88,
+      "end": 100.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "good enough Learner"
+    },
+    {
+      "index": 24,
+      "start": 100.13,
+      "end": 101.86,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "where Learner where are you from from"
+    },
+    {
+      "index": 25,
+      "start": 102.24,
+      "end": 106.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "russia but i i live in china and uh when i"
+    },
+    {
+      "index": 26,
+      "start": 106.96,
+      "end": 117.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh yeah when i child uh and uh studying uh started in school i uh speaking fluence germany but now i"
+    },
+    {
+      "index": 27,
+      "start": 117.84,
+      "end": 127.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "cannot speak germany but only read and understanding what you uh speaking i want to say in germany"
+    },
+    {
+      "index": 28,
+      "start": 129.28,
+      "end": 132.64,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "great great okay so you're there Teacher i"
+    },
+    {
+      "index": 29,
+      "start": 132.64,
+      "end": 136.05,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "thought we had lost you temporarily"
+    },
+    {
+      "index": 30,
+      "start": 136.45,
+      "end": 137.6,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "yeah you did lose me but i'm"
+    },
+    {
+      "index": 31,
+      "start": 137.6,
+      "end": 138.86,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "back now you're"
+    },
+    {
+      "index": 32,
+      "start": 138.88,
+      "end": 144.96,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "back and you're still uh a co-host good"
+    },
+    {
+      "index": 33,
+      "start": 144.96,
+      "end": 145.14,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "so"
+    },
+    {
+      "index": 34,
+      "start": 145.25,
+      "end": 151.68,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "you're in control and we have five students"
+    },
+    {
+      "index": 35,
+      "start": 151.68,
+      "end": 157.52,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "there's there's two more we are expecting so let's give it a couple of minutes but you can never"
+    },
+    {
+      "index": 36,
+      "start": 157.52,
+      "end": 164.0,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "trust that they will come so in two minutes guys will be starting anyway is that okay"
+    },
+    {
+      "index": 37,
+      "start": 164.0,
+      "end": 166.64,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "like the key is that okay all"
+    },
+    {
+      "index": 38,
+      "start": 166.84,
+      "end": 169.36,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "right excellent"
+    },
+    {
+      "index": 39,
+      "start": 169.36,
+      "end": 169.78,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "good"
+    },
+    {
+      "index": 40,
+      "start": 170.06,
+      "end": 171.49,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "Partner we know each"
+    },
+    {
+      "index": 41,
+      "start": 171.93,
+      "end": 175.2,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "other from before how are you"
+    },
+    {
+      "index": 42,
+      "start": 176.24,
+      "end": 178.03,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "not bad thanks how are you good"
+    },
+    {
+      "index": 43,
+      "start": 178.26,
+      "end": 182.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "good good i'm i'm well thanks yeah and Partner how are you i'm"
+    },
+    {
+      "index": 44,
+      "start": 182.24,
+      "end": 182.8,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "fine"
+    },
+    {
+      "index": 45,
+      "start": 182.8,
+      "end": 183.65,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "thank you good"
+    },
+    {
+      "index": 46,
+      "start": 183.99,
+      "end": 185.15,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "where are you from"
+    },
+    {
+      "index": 47,
+      "start": 185.52,
+      "end": 190.32,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "hey i'm from poland but uh to be to be honest i have been living"
+    },
+    {
+      "index": 48,
+      "start": 190.32,
+      "end": 193.8,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "here for the last 26 years"
+    },
+    {
+      "index": 49,
+      "start": 193.8,
+      "end": 196.09,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay here meaning uh"
+    },
+    {
+      "index": 50,
+      "start": 196.14,
+      "end": 197.82,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "athens yes you"
+    },
+    {
+      "index": 51,
+      "start": 198.3,
+      "end": 200.13,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "know uh in athens yes in"
+    },
+    {
+      "index": 52,
+      "start": 200.31,
+      "end": 201.04,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "athens okay"
+    },
+    {
+      "index": 53,
+      "start": 203.68,
+      "end": 206.36,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "great and Partner i assume that you are greek"
+    },
+    {
+      "index": 54,
+      "start": 207.51,
+      "end": 208.46,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yeah"
+    },
+    {
+      "index": 55,
+      "start": 208.48,
+      "end": 211.04,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "from your beautiful greek name and are you also"
+    },
+    {
+      "index": 56,
+      "start": 211.04,
+      "end": 211.96,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "in athens"
+    },
+    {
+      "index": 57,
+      "start": 211.96,
+      "end": 214.23,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yes no i'm from paten great"
+    },
+    {
+      "index": 58,
+      "start": 215.28,
+      "end": 222.88,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "so we have a very very multicultural group today which is"
+    },
+    {
+      "index": 59,
+      "start": 222.88,
+      "end": 228.56,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "interesting so you don't all share the same mother tongue that's always that's always a challenge and"
+    },
+    {
+      "index": 60,
+      "start": 228.56,
+      "end": 231.08,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "it's also a good thing for an english lesson"
+    },
+    {
+      "index": 61,
+      "start": 231.08,
+      "end": 231.16,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "some"
+    },
+    {
+      "index": 62,
+      "start": 232.07,
+      "end": 233.67,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "interesting oh Partner is here okay"
+    },
+    {
+      "index": 63,
+      "start": 234.92,
+      "end": 236.0,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "so i'll be"
+    },
+    {
+      "index": 64,
+      "start": 236.0,
+      "end": 241.68,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "leaving you and you can get started when you're ready and when you finish just close the room and"
+    },
+    {
+      "index": 65,
+      "start": 241.68,
+      "end": 243.07,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "and leave or just"
+    },
+    {
+      "index": 66,
+      "start": 243.6,
+      "end": 244.68,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "leave bye"
+    },
+    {
+      "index": 67,
+      "start": 244.68,
+      "end": 245.5,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "from me"
+    },
+    {
+      "index": 68,
+      "start": 245.5,
+      "end": 246.72,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "enjoy your"
+    },
+    {
+      "index": 69,
+      "start": 246.75,
+      "end": 249.84,
+      "speaker": "ASR voice 0 (unverified)",
+      "text": "lesson guys Partner"
+    },
+    {
+      "index": 70,
+      "start": 250.11,
+      "end": 255.81,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "can you hear me and"
+    },
+    {
+      "index": 71,
+      "start": 255.81,
+      "end": 257.76,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "see me"
+    },
+    {
+      "index": 72,
+      "start": 258.56,
+      "end": 272.4,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "you know it goes maybe not okay we're gonna start anyway Partner can join in when he's ready so"
+    },
+    {
+      "index": 73,
+      "start": 272.4,
+      "end": 279.04,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "uh i want to tell you a little story about uh last winter when i was really really ill i had a terrible"
+    },
+    {
+      "index": 74,
+      "start": 279.04,
+      "end": 286.0,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "sore throat so i called my doctor's office and my tonsils were really swollen but i didn't know the"
+    },
+    {
+      "index": 75,
+      "start": 286.0,
+      "end": 292.4,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "german word for tonsils so i just said um yeah my throat hurts and you know those those little things"
+    },
+    {
+      "index": 76,
+      "start": 292.4,
+      "end": 300.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "that hang down at the back of my mouth and the receptionist said sorry what she didn't understand"
+    },
+    {
+      "index": 77,
+      "start": 300.24,
+      "end": 304.48,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "me i couldn't explain what was wrong so has something like that ever happened to you before"
+    },
+    {
+      "index": 78,
+      "start": 304.48,
+      "end": 310.48,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "Partner"
+    },
+    {
+      "index": 79,
+      "start": 310.48,
+      "end": 311.27,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 80,
+      "start": 311.28,
+      "end": 312.89,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "no never you"
+    },
+    {
+      "index": 81,
+      "start": 313.09,
+      "end": 315.6,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "always knew the words in english"
+    },
+    {
+      "index": 82,
+      "start": 315.6,
+      "end": 316.4,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "i mean i"
+    },
+    {
+      "index": 83,
+      "start": 316.59,
+      "end": 326.56,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "uh couldn't understand all uh everything i understood that uh you had you just got ill and you"
+    },
+    {
+      "index": 84,
+      "start": 326.56,
+      "end": 338.48,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "went to the doctor but uh can you repeat what happened i mean what did you um yes i"
+    },
+    {
+      "index": 85,
+      "start": 338.48,
+      "end": 338.88,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "was trying"
+    },
+    {
+      "index": 86,
+      "start": 338.88,
+      "end": 345.28,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "to explain what was wrong in my throat but i didn't have the word for it and she couldn't understand what"
+    },
+    {
+      "index": 87,
+      "start": 345.28,
+      "end": 351.92,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "i meant yeah Partner has that ever happened to you when you spoke english that you couldn't come up with"
+    },
+    {
+      "index": 88,
+      "start": 351.92,
+      "end": 354.52,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "the word and you couldn't communicate what you were"
+    },
+    {
+      "index": 89,
+      "start": 354.73,
+      "end": 357.2,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "trying to say no that's a common thing especially"
+    },
+    {
+      "index": 90,
+      "start": 357.2,
+      "end": 364.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "when people are nervous or worried about something they always forget words but i usually paraphrase"
+    },
+    {
+      "index": 91,
+      "start": 364.64,
+      "end": 368.62,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "and i was lucky to be understood good good so"
+    },
+    {
+      "index": 92,
+      "start": 368.62,
+      "end": 373.2,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "that's what we're going to talk about today is how you can"
+    },
+    {
+      "index": 93,
+      "start": 373.2,
+      "end": 379.92,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "communicate with people better when you don't have the word either you never learned it or you just can't"
+    },
+    {
+      "index": 94,
+      "start": 379.92,
+      "end": 386.96,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "remember okay so you're calling the doctor's office can everyone see the screen right now"
+    },
+    {
+      "index": 95,
+      "start": 386.96,
+      "end": 388.95,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "no uh hold"
+    },
+    {
+      "index": 96,
+      "start": 389.24,
+      "end": 392.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "a moment i need to share that"
+    },
+    {
+      "index": 97,
+      "start": 402.24,
+      "end": 411.67,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "oh okay"
+    },
+    {
+      "index": 98,
+      "start": 411.67,
+      "end": 415.92,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay okay so you are calling the doctor's office"
+    },
+    {
+      "index": 99,
+      "start": 415.92,
+      "end": 419.97,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "because something hurts but you don't know the word okay so one"
+    },
+    {
+      "index": 100,
+      "start": 420.23,
+      "end": 420.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "of you"
+    },
+    {
+      "index": 101,
+      "start": 420.64,
+      "end": 423.04,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "will be the patient you will"
+    },
+    {
+      "index": 102,
+      "start": 423.04,
+      "end": 430.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "choose a number from this picture but you will keep it secret don't tell us okay then someone else will be"
+    },
+    {
+      "index": 103,
+      "start": 430.24,
+      "end": 437.12,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "the receptionist okay so the patient will tell the receptionist where it hurts now don't use your hands"
+    },
+    {
+      "index": 104,
+      "start": 437.12,
+      "end": 446.56,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "don't say the number or the name okay the receptionist will ask questions okay to try to find out what the"
+    },
+    {
+      "index": 105,
+      "start": 446.56,
+      "end": 457.2,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "patient means then the receptionist gets one guess okay and the patient will say yes that's it or no it's number five okay"
+    },
+    {
+      "index": 106,
+      "start": 458.24,
+      "end": 463.36,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "so to show you what i mean i'm going to do a little demo i will play both parts for you guys"
+    },
+    {
+      "index": 107,
+      "start": 463.36,
+      "end": 475.2,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "the receptionist wears glasses the patient does not okay so hello doctor's office how can i help"
+    },
+    {
+      "index": 108,
+      "start": 475.2,
+      "end": 483.84,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "hello i'm calling because something hurts um it's on my foot you know the the part you stand on"
+    },
+    {
+      "index": 109,
+      "start": 485.44,
+      "end": 488.72,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "which part of your foot which part of your foot the back"
+    },
+    {
+      "index": 110,
+      "start": 488.72,
+      "end": 498.64,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "hmm is it number three yes that's it okay so you see how there needs to be a back and forth between"
+    },
+    {
+      "index": 111,
+      "start": 498.64,
+      "end": 500.4,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "the receptionist and the patient"
+    },
+    {
+      "index": 112,
+      "start": 500.4,
+      "end": 512.72,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay so we're going to do this as a group first okay um okay okay Learner um as the patient can you say the number or the name"
+    },
+    {
+      "index": 113,
+      "start": 513.52,
+      "end": 513.72,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 114,
+      "start": 513.79,
+      "end": 519.76,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "my name is Learner uh doctor i needed help uh it's uh it's my"
+    },
+    {
+      "index": 115,
+      "start": 519.76,
+      "end": 520.38,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it's"
+    },
+    {
+      "index": 116,
+      "start": 520.4,
+      "end": 522.13,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "my Learner Learner Learner sorry"
+    },
+    {
+      "index": 117,
+      "start": 522.27,
+      "end": 525.36,
+      "speaker": "ASR voice 5 (unverified)",
+      "text": "guys i was asking you for a moment forgive me i"
+    },
+    {
+      "index": 118,
+      "start": 525.36,
+      "end": 526.16,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "was i was asking you a"
+    },
+    {
+      "index": 119,
+      "start": 526.16,
+      "end": 532.8,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "question when you're a patient can you say the number that you see or do you have to keep it secret"
+    },
+    {
+      "index": 120,
+      "start": 533.76,
+      "end": 540.9,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i want to uh is uh eight it's back it's like here i want this discussion don't say the"
+    },
+    {
+      "index": 121,
+      "start": 540.9,
+      "end": 541.6,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "number you have"
+    },
+    {
+      "index": 122,
+      "start": 541.6,
+      "end": 543.07,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "to keep it secret okay okay"
+    },
+    {
+      "index": 123,
+      "start": 543.6,
+      "end": 544.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "don't say"
+    },
+    {
+      "index": 124,
+      "start": 544.0,
+      "end": 546.8,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "the number keep it secret exactly ah"
+    },
+    {
+      "index": 125,
+      "start": 547.02,
+      "end": 547.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "ah okay okay"
+    },
+    {
+      "index": 126,
+      "start": 547.59,
+      "end": 548.8,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "yeah and"
+    },
+    {
+      "index": 127,
+      "start": 548.8,
+      "end": 555.84,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "Partner do you um have to ask questions before your guests as the receptionist yes"
+    },
+    {
+      "index": 128,
+      "start": 555.84,
+      "end": 556.16,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "of course"
+    },
+    {
+      "index": 129,
+      "start": 557.12,
+      "end": 566.0,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "yes exactly good all right so let's do one round now i want uh Partner can you be the patient"
+    },
+    {
+      "index": 130,
+      "start": 566.0,
+      "end": 570.72,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "and Partner can you be the receptionist please yes"
+    },
+    {
+      "index": 131,
+      "start": 570.72,
+      "end": 573.04,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 132,
+      "start": 575.84,
+      "end": 579.35,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "hello here's the doctor's office how can i help you please"
+    },
+    {
+      "index": 133,
+      "start": 579.35,
+      "end": 584.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "no uh i'm calling because something hurts"
+    },
+    {
+      "index": 134,
+      "start": 584.64,
+      "end": 592.48,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "it's under my neck and uh above my lungs i've forgotten the word i'm sorry could you could just"
+    },
+    {
+      "index": 135,
+      "start": 593.6,
+      "end": 594.16,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "under"
+    },
+    {
+      "index": 136,
+      "start": 594.16,
+      "end": 595.06,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "anything"
+    },
+    {
+      "index": 137,
+      "start": 595.06,
+      "end": 600.95,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "under your neck and and what under your neck and"
+    },
+    {
+      "index": 138,
+      "start": 601.11,
+      "end": 603.76,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "and above my lungs yes"
+    },
+    {
+      "index": 139,
+      "start": 603.76,
+      "end": 606.8,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "um maybe is it"
+    },
+    {
+      "index": 140,
+      "start": 606.8,
+      "end": 607.62,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "number two"
+    },
+    {
+      "index": 141,
+      "start": 608.29,
+      "end": 611.65,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah it is it was easy as i can see okay"
+    },
+    {
+      "index": 142,
+      "start": 611.75,
+      "end": 617.28,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "wow great great job okay now uh Partner you will be"
+    },
+    {
+      "index": 143,
+      "start": 617.28,
+      "end": 621.6,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "the receptionist and Learner you will be the patient"
+    },
+    {
+      "index": 144,
+      "start": 621.74,
+      "end": 623.07,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay hello"
+    },
+    {
+      "index": 145,
+      "start": 623.07,
+      "end": 626.08,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "doctor's office how can i help you"
+    },
+    {
+      "index": 146,
+      "start": 626.08,
+      "end": 626.99,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "hello it's"
+    },
+    {
+      "index": 147,
+      "start": 627.1,
+      "end": 634.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "my back it's the right side it's no top i fly the trains the bowling fights and my chest"
+    },
+    {
+      "index": 148,
+      "start": 634.24,
+      "end": 638.25,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "bluffing shoulder i don't know what is could you please help me sorry"
+    },
+    {
+      "index": 149,
+      "start": 639.36,
+      "end": 641.52,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i'm not sure i"
+    },
+    {
+      "index": 150,
+      "start": 642.64,
+      "end": 647.79,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "get the last phrase could could you tell me where it hurts is it"
+    },
+    {
+      "index": 151,
+      "start": 647.79,
+      "end": 649.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "your back"
+    },
+    {
+      "index": 152,
+      "start": 649.16,
+      "end": 651.76,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "or is it your front"
+    },
+    {
+      "index": 153,
+      "start": 651.76,
+      "end": 653.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh back"
+    },
+    {
+      "index": 154,
+      "start": 653.92,
+      "end": 663.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh it's my situation every time i see the many see today in working kids uh office i'm not going to"
+    },
+    {
+      "index": 155,
+      "start": 663.04,
+      "end": 672.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "street i every time see it's my uh right leg between his back i don't know uh maybe you can help me how about"
+    },
+    {
+      "index": 156,
+      "start": 672.8,
+      "end": 679.53,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you can uh decide my problem sure uh"
+    },
+    {
+      "index": 157,
+      "start": 679.53,
+      "end": 686.32,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "could you could you possibly tell me where it hurts uh is it the"
+    },
+    {
+      "index": 158,
+      "start": 686.32,
+      "end": 691.95,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "right or left side of your uh is it to the right to your backbone right"
+    },
+    {
+      "index": 159,
+      "start": 692.03,
+      "end": 694.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "a leg right right right today is"
+    },
+    {
+      "index": 160,
+      "start": 694.72,
+      "end": 700.99,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh is i have it here right back is ice power i don't know why"
+    },
+    {
+      "index": 161,
+      "start": 701.44,
+      "end": 706.48,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "okay i see is it number eight oh"
+    },
+    {
+      "index": 162,
+      "start": 706.48,
+      "end": 707.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 163,
+      "start": 708.64,
+      "end": 714.64,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "yes all right good good good Partner can you be the receptionist and Partner can you be the patient"
+    },
+    {
+      "index": 164,
+      "start": 714.64,
+      "end": 715.77,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "all right"
+    },
+    {
+      "index": 165,
+      "start": 715.77,
+      "end": 720.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "uh hello doctor's office how can i help you"
+    },
+    {
+      "index": 166,
+      "start": 720.56,
+      "end": 724.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "Partner you're"
+    },
+    {
+      "index": 167,
+      "start": 724.56,
+      "end": 728.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "the patient"
+    },
+    {
+      "index": 168,
+      "start": 736.8,
+      "end": 747.52,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "Partner can you hear me i don't think Partner can hear me okay Partner can you be the patient please"
+    },
+    {
+      "index": 169,
+      "start": 747.52,
+      "end": 756.16,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "yes um who is the receptionist no"
+    },
+    {
+      "index": 170,
+      "start": 756.16,
+      "end": 757.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yeah but attention"
+    },
+    {
+      "index": 171,
+      "start": 763.52,
+      "end": 768.62,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "so Partner you will be the receptionist and uh Partner you'll be the patient okay"
+    },
+    {
+      "index": 172,
+      "start": 768.65,
+      "end": 770.88,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay hello"
+    },
+    {
+      "index": 173,
+      "start": 770.88,
+      "end": 773.19,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "how can i help you"
+    },
+    {
+      "index": 174,
+      "start": 773.19,
+      "end": 782.96,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "uh hello because i'm calling you because i have a very intense pain um on my foot"
+    },
+    {
+      "index": 175,
+      "start": 782.96,
+      "end": 792.08,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "on my legs but i don't i'm not able to describe you exactly where the pain is but it is"
+    },
+    {
+      "index": 176,
+      "start": 793.52,
+      "end": 806.56,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "uh on my leg uh on my leg back and um where i where i step when i walk and uh i put my foot down i have pain"
+    },
+    {
+      "index": 177,
+      "start": 806.56,
+      "end": 810.72,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "is"
+    },
+    {
+      "index": 178,
+      "start": 810.72,
+      "end": 811.44,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "it never fine"
+    },
+    {
+      "index": 179,
+      "start": 811.44,
+      "end": 814.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "um"
+    },
+    {
+      "index": 180,
+      "start": 814.24,
+      "end": 816.24,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "um"
+    },
+    {
+      "index": 181,
+      "start": 816.24,
+      "end": 817.44,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "no it's in the back"
+    },
+    {
+      "index": 182,
+      "start": 817.44,
+      "end": 818.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "the back"
+    },
+    {
+      "index": 183,
+      "start": 818.95,
+      "end": 820.29,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "on my foot in"
+    },
+    {
+      "index": 184,
+      "start": 820.4,
+      "end": 820.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "the back"
+    },
+    {
+      "index": 185,
+      "start": 821.68,
+      "end": 822.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "number three"
+    },
+    {
+      "index": 186,
+      "start": 822.4,
+      "end": 823.92,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "sorry"
+    },
+    {
+      "index": 187,
+      "start": 823.92,
+      "end": 826.0,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "is"
+    },
+    {
+      "index": 188,
+      "start": 826.0,
+      "end": 827.52,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "number three yes"
+    },
+    {
+      "index": 189,
+      "start": 827.52,
+      "end": 828.08,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "number three"
+    },
+    {
+      "index": 190,
+      "start": 828.08,
+      "end": 830.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay good"
+    },
+    {
+      "index": 191,
+      "start": 830.24,
+      "end": 834.08,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "and Partner can you hear me"
+    },
+    {
+      "index": 192,
+      "start": 834.08,
+      "end": 840.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "no i like you can hear me i"
+    },
+    {
+      "index": 193,
+      "start": 840.5,
+      "end": 847.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i like uh it's uh Partner role is uh receptionist it's very nice"
+    },
+    {
+      "index": 194,
+      "start": 848.4,
+      "end": 856.16,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "yes yes Partner you're a wonderful actress we all agree on that okay so which calls were were quick"
+    },
+    {
+      "index": 195,
+      "start": 856.16,
+      "end": 858.08,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "and easy what was easy to describe"
+    },
+    {
+      "index": 196,
+      "start": 858.08,
+      "end": 861.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "um"
+    },
+    {
+      "index": 197,
+      "start": 864.48,
+      "end": 873.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "Partner"
+    },
+    {
+      "index": 198,
+      "start": 873.18,
+      "end": 876.56,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "Partner you you you uh did a good job what was easy for to describe"
+    },
+    {
+      "index": 199,
+      "start": 876.56,
+      "end": 876.72,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "when"
+    },
+    {
+      "index": 200,
+      "start": 876.97,
+      "end": 883.44,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "you know the parts of the body that are near it's easy if you do not understand"
+    },
+    {
+      "index": 201,
+      "start": 884.08,
+      "end": 891.44,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "um how to say it uh what is near so it's much more complicated but in general uh if you have"
+    },
+    {
+      "index": 202,
+      "start": 891.44,
+      "end": 898.16,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "like something to describe uh the place that uh you know how the part of the body you know"
+    },
+    {
+      "index": 203,
+      "start": 898.16,
+      "end": 899.99,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "it's obvious"
+    },
+    {
+      "index": 204,
+      "start": 899.99,
+      "end": 904.8,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "yeah good so i'm going to show you now what these parts are called in english"
+    },
+    {
+      "index": 205,
+      "start": 905.92,
+      "end": 910.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "you can just take a quick look you don't have to learn these for today i will put this pdf"
+    },
+    {
+      "index": 206,
+      "start": 910.24,
+      "end": 916.4,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "uh in the chat box later in the lesson then you can keep this for your files for later okay"
+    },
+    {
+      "index": 207,
+      "start": 916.4,
+      "end": 918.4,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "did anybody know any of these words actually"
+    },
+    {
+      "index": 208,
+      "start": 918.4,
+      "end": 923.2,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "Partner you know a few Learner did you know any of these words"
+    },
+    {
+      "index": 209,
+      "start": 927.12,
+      "end": 929.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "what is uh any words what do you mean"
+    },
+    {
+      "index": 210,
+      "start": 929.12,
+      "end": 932.26,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "on body what"
+    },
+    {
+      "index": 211,
+      "start": 932.26,
+      "end": 932.67,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "do"
+    },
+    {
+      "index": 212,
+      "start": 932.67,
+      "end": 937.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you mean it's uh it's as their words what uh what is words"
+    },
+    {
+      "index": 213,
+      "start": 937.84,
+      "end": 940.11,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh did you know did"
+    },
+    {
+      "index": 214,
+      "start": 940.11,
+      "end": 943.04,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "you know did you know any of these words before"
+    },
+    {
+      "index": 215,
+      "start": 943.04,
+      "end": 944.0,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "ah yes"
+    },
+    {
+      "index": 216,
+      "start": 944.22,
+      "end": 945.5,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes yes some"
+    },
+    {
+      "index": 217,
+      "start": 945.64,
+      "end": 950.88,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "of them okay great all right so we're going to listen now to a call"
+    },
+    {
+      "index": 218,
+      "start": 950.88,
+      "end": 955.12,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "to a doctor's office i want you to listen for two things okay"
+    },
+    {
+      "index": 219,
+      "start": 956.24,
+      "end": 965.04,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "you're going to listen for what's the what's the problem and what should he do okay what's"
+    },
+    {
+      "index": 220,
+      "start": 965.04,
+      "end": 965.2,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "the"
+    },
+    {
+      "index": 221,
+      "start": 965.2,
+      "end": 967.44,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "what's the problem"
+    },
+    {
+      "index": 222,
+      "start": 968.23,
+      "end": 974.16,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "that he has and what should he do or what does the receptionist tell him to do"
+    },
+    {
+      "index": 223,
+      "start": 974.16,
+      "end": 974.6,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 224,
+      "start": 975.11,
+      "end": 976.71,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay"
+    },
+    {
+      "index": 225,
+      "start": 976.72,
+      "end": 977.64,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay hello"
+    },
+    {
+      "index": 226,
+      "start": 977.64,
+      "end": 979.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "doctor couldn't care"
+    },
+    {
+      "index": 227,
+      "start": 979.57,
+      "end": 980.76,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "less's office"
+    },
+    {
+      "index": 228,
+      "start": 981.74,
+      "end": 981.76,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 229,
+      "start": 981.76,
+      "end": 983.99,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay yes"
+    },
+    {
+      "index": 230,
+      "start": 984.01,
+      "end": 984.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 231,
+      "start": 986.24,
+      "end": 992.36,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "hello doctor couldn't care less's office how may i help you hi"
+    },
+    {
+      "index": 232,
+      "start": 992.66,
+      "end": 995.2,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "um i have a problem with my eye"
+    },
+    {
+      "index": 233,
+      "start": 995.2,
+      "end": 1001.68,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "well not in the eye it's on the skin the part that closes when you uh when you sleep"
+    },
+    {
+      "index": 234,
+      "start": 1001.68,
+      "end": 1003.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay can you"
+    },
+    {
+      "index": 235,
+      "start": 1003.04,
+      "end": 1004.86,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "describe exactly where it's"
+    },
+    {
+      "index": 236,
+      "start": 1004.98,
+      "end": 1008.16,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "on the the edge the bottom part near the little hairs do you know what i mean"
+    },
+    {
+      "index": 237,
+      "start": 1008.16,
+      "end": 1009.8,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "do you know what i mean your"
+    },
+    {
+      "index": 238,
+      "start": 1009.8,
+      "end": 1012.03,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "lower eyelid near the eyelashes yes"
+    },
+    {
+      "index": 239,
+      "start": 1012.44,
+      "end": 1014.88,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "eyelid there's a small red bump there"
+    },
+    {
+      "index": 240,
+      "start": 1014.88,
+      "end": 1016.95,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "it's kind of like a pimple but it hurts sorry"
+    },
+    {
+      "index": 241,
+      "start": 1017.36,
+      "end": 1018.86,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "does it hurt all the time"
+    },
+    {
+      "index": 242,
+      "start": 1018.86,
+      "end": 1021.04,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "or only when you touch it"
+    },
+    {
+      "index": 243,
+      "start": 1021.04,
+      "end": 1023.77,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "mostly when i touch it and when i blink a"
+    },
+    {
+      "index": 244,
+      "start": 1024.13,
+      "end": 1027.6,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "little right so you mean a small sore red bump on the edge of"
+    },
+    {
+      "index": 245,
+      "start": 1027.6,
+      "end": 1031.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "your lower eyelid how long has it been there three days"
+    },
+    {
+      "index": 246,
+      "start": 1031.12,
+      "end": 1034.0,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "i think is it something bad no"
+    },
+    {
+      "index": 247,
+      "start": 1034.0,
+      "end": 1034.56,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "it sounds like"
+    },
+    {
+      "index": 248,
+      "start": 1034.56,
+      "end": 1040.96,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "a sty very common put something warm on it a clean cloth with warm water for about 10 minutes three or"
+    },
+    {
+      "index": 249,
+      "start": 1040.96,
+      "end": 1043.02,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "four times a day does that make"
+    },
+    {
+      "index": 250,
+      "start": 1043.02,
+      "end": 1047.52,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "sense okay so let me check i make a cloth warm with water and i hold"
+    },
+    {
+      "index": 251,
+      "start": 1047.52,
+      "end": 1051.18,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "it on my eye 10 minutes three or four times every day"
+    },
+    {
+      "index": 252,
+      "start": 1051.19,
+      "end": 1054.16,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "exactly and don't squeeze it if it's not better"
+    },
+    {
+      "index": 253,
+      "start": 1054.16,
+      "end": 1055.52,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "in a week call us again"
+    },
+    {
+      "index": 254,
+      "start": 1055.85,
+      "end": 1061.04,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay don't squeeze it and call again in a week thank you okay so"
+    },
+    {
+      "index": 255,
+      "start": 1061.04,
+      "end": 1062.0,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "Partner what was"
+    },
+    {
+      "index": 256,
+      "start": 1062.0,
+      "end": 1063.69,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "the problem"
+    },
+    {
+      "index": 257,
+      "start": 1064.63,
+      "end": 1075.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "he had a problem with his skin close to his eyes do you agree Partner i"
+    },
+    {
+      "index": 258,
+      "start": 1075.24,
+      "end": 1077.6,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "agree but his"
+    },
+    {
+      "index": 259,
+      "start": 1077.6,
+      "end": 1081.02,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "pronunciation was a bit weird but yes i agree"
+    },
+    {
+      "index": 260,
+      "start": 1081.54,
+      "end": 1085.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "well he's not a native speaker he's learning just like"
+    },
+    {
+      "index": 261,
+      "start": 1085.2,
+      "end": 1091.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "all of us okay good yes the problem was he had a small sore on his upper eyelid right or his lower"
+    },
+    {
+      "index": 262,
+      "start": 1091.76,
+      "end": 1101.28,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "eyelid right and uh yes he said a sty right okay good and uh Partner what should he do well"
+    },
+    {
+      "index": 263,
+      "start": 1101.28,
+      "end": 1102.88,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "uh he should"
+    },
+    {
+      "index": 264,
+      "start": 1102.88,
+      "end": 1114.0,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "put something warm uh 10 minutes three or four times a day and he mustn't squeeze the um lower i mean"
+    },
+    {
+      "index": 265,
+      "start": 1114.0,
+      "end": 1114.37,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "don't"
+    },
+    {
+      "index": 266,
+      "start": 1114.87,
+      "end": 1116.06,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "squeeze the read constant"
+    },
+    {
+      "index": 267,
+      "start": 1116.06,
+      "end": 1120.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yep don't squeeze it okay and what should he do after a week if it's not"
+    },
+    {
+      "index": 268,
+      "start": 1120.72,
+      "end": 1121.87,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "not better go"
+    },
+    {
+      "index": 269,
+      "start": 1121.87,
+      "end": 1123.43,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "to the doctor you need"
+    },
+    {
+      "index": 270,
+      "start": 1123.96,
+      "end": 1125.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "to call doctor yes again"
+    },
+    {
+      "index": 271,
+      "start": 1125.92,
+      "end": 1127.1,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "exactly so"
+    },
+    {
+      "index": 272,
+      "start": 1127.72,
+      "end": 1130.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "put a warm cloth on it for 10"
+    },
+    {
+      "index": 273,
+      "start": 1130.24,
+      "end": 1138.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "minutes three or four times a day don't squeeze and if it's not better call the doctor great we're going"
+    },
+    {
+      "index": 274,
+      "start": 1138.24,
+      "end": 1142.44,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "to listen once more and i want you to listen now for how"
+    },
+    {
+      "index": 275,
+      "start": 1142.44,
+      "end": 1145.92,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "he explains where it is he doesn't know the word for"
+    },
+    {
+      "index": 276,
+      "start": 1145.92,
+      "end": 1152.4,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "stye so he has to explain where it is listen for that and listen for how the receptionist checks"
+    },
+    {
+      "index": 277,
+      "start": 1152.41,
+      "end": 1159.92,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "that she understands okay please listen hello"
+    },
+    {
+      "index": 278,
+      "start": 1159.92,
+      "end": 1161.44,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "doctor couldn't care less's office"
+    },
+    {
+      "index": 279,
+      "start": 1161.44,
+      "end": 1162.37,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "how may i"
+    },
+    {
+      "index": 280,
+      "start": 1162.51,
+      "end": 1170.24,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "help you hi um i have a problem with my eye well not in the eye it's on the skin the part that"
+    },
+    {
+      "index": 281,
+      "start": 1170.24,
+      "end": 1172.85,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "closes when you hey when you sleep"
+    },
+    {
+      "index": 282,
+      "start": 1173.34,
+      "end": 1175.8,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay can you describe exactly where"
+    },
+    {
+      "index": 283,
+      "start": 1176.2,
+      "end": 1177.6,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "it's on the the edge the"
+    },
+    {
+      "index": 284,
+      "start": 1177.6,
+      "end": 1180.54,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "bottom part near the little hairs do you know what i"
+    },
+    {
+      "index": 285,
+      "start": 1180.82,
+      "end": 1183.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "mean your lower eyelid near the eyelashes"
+    },
+    {
+      "index": 286,
+      "start": 1183.04,
+      "end": 1184.56,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "yes eyelid"
+    },
+    {
+      "index": 287,
+      "start": 1184.56,
+      "end": 1188.58,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "there's a small red bump there it's kind of like a pimple but it hurts sorry"
+    },
+    {
+      "index": 288,
+      "start": 1188.58,
+      "end": 1190.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "does it hurt all the time"
+    },
+    {
+      "index": 289,
+      "start": 1190.48,
+      "end": 1191.82,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "or only when you touch it"
+    },
+    {
+      "index": 290,
+      "start": 1192.26,
+      "end": 1194.56,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "mostly when i touch it and when i blink a little"
+    },
+    {
+      "index": 291,
+      "start": 1194.56,
+      "end": 1197.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "right so you mean a small"
+    },
+    {
+      "index": 292,
+      "start": 1197.12,
+      "end": 1201.94,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "sore red bump on the edge of your lower eyelid how long has it been there three"
+    },
+    {
+      "index": 293,
+      "start": 1202.58,
+      "end": 1203.44,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "days i think is it"
+    },
+    {
+      "index": 294,
+      "start": 1203.44,
+      "end": 1204.37,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "something bad"
+    },
+    {
+      "index": 295,
+      "start": 1204.64,
+      "end": 1210.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "no it sounds like a sty very common put something warm on it a clean cloth with warm water"
+    },
+    {
+      "index": 296,
+      "start": 1210.48,
+      "end": 1214.21,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "for about 10 minutes three or four times a day does that make"
+    },
+    {
+      "index": 297,
+      "start": 1214.63,
+      "end": 1216.96,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "sense okay so let me check i make a cloth"
+    },
+    {
+      "index": 298,
+      "start": 1216.96,
+      "end": 1221.69,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "warm with water and i hold it on my eye 10 minutes three or four times every"
+    },
+    {
+      "index": 299,
+      "start": 1222.1,
+      "end": 1223.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "day exactly and don't squeeze"
+    },
+    {
+      "index": 300,
+      "start": 1223.92,
+      "end": 1226.69,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "it if it's not better in a week call us again"
+    },
+    {
+      "index": 301,
+      "start": 1227.06,
+      "end": 1231.12,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay don't squeeze it and call again in a week thank you okay"
+    },
+    {
+      "index": 302,
+      "start": 1231.12,
+      "end": 1236.43,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "Learner how does he explain uh where it is uh he's"
+    },
+    {
+      "index": 303,
+      "start": 1236.88,
+      "end": 1240.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "playing to where is by describe a location"
+    },
+    {
+      "index": 304,
+      "start": 1240.48,
+      "end": 1255.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "fun function function simple words uh it's uh skin uh part uh ah in skin when you uh when uh he is sleeping"
+    },
+    {
+      "index": 305,
+      "start": 1255.12,
+      "end": 1256.81,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "very good he says"
+    },
+    {
+      "index": 306,
+      "start": 1257.48,
+      "end": 1260.4,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "the part that closes when"
+    },
+    {
+      "index": 307,
+      "start": 1262.88,
+      "end": 1267.1,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hello"
+    },
+    {
+      "index": 308,
+      "start": 1267.44,
+      "end": 1267.76,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "doctor couldn't care less his office when sleep how may i help you hi"
+    },
+    {
+      "index": 309,
+      "start": 1267.76,
+      "end": 1268.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "bottom"
+    },
+    {
+      "index": 310,
+      "start": 1268.16,
+      "end": 1269.22,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "and uh"
+    },
+    {
+      "index": 311,
+      "start": 1269.68,
+      "end": 1274.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and uh bottom part that closes little hairs"
+    },
+    {
+      "index": 312,
+      "start": 1274.32,
+      "end": 1287.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "great and uh sorry go ahead uh i think about uh when your skin is part is closest when you sleep"
+    },
+    {
+      "index": 313,
+      "start": 1288.32,
+      "end": 1293.65,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and uh uh bottom parts and little hairs he said the eyelid"
+    },
+    {
+      "index": 314,
+      "start": 1293.8,
+      "end": 1297.28,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "right near the little hairs exactly great"
+    },
+    {
+      "index": 315,
+      "start": 1297.28,
+      "end": 1301.44,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "and Partner uh what does the how does the receptionist check"
+    },
+    {
+      "index": 316,
+      "start": 1301.44,
+      "end": 1312.96,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "uh he asked uh when does it uh hurt uh when the pain starts and how long ago it has been"
+    },
+    {
+      "index": 317,
+      "start": 1314.4,
+      "end": 1320.48,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "the pain and um the thing the little thing that uh she described"
+    },
+    {
+      "index": 318,
+      "start": 1320.48,
+      "end": 1324.56,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "hello"
+    },
+    {
+      "index": 319,
+      "start": 1324.56,
+      "end": 1331.04,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "doctor couldn't care less confirms what he says the lower eyelid lid near the eyelashes right"
+    },
+    {
+      "index": 320,
+      "start": 1331.04,
+      "end": 1332.83,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "great all right i'm putting"
+    },
+    {
+      "index": 321,
+      "start": 1332.98,
+      "end": 1339.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "something now into the chat box a pdf for you i would like you to download"
+    },
+    {
+      "index": 322,
+      "start": 1339.2,
+      "end": 1340.01,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "it and open you"
+    },
+    {
+      "index": 323,
+      "start": 1340.94,
+      "end": 1342.31,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "will also see"
+    },
+    {
+      "index": 324,
+      "start": 1342.31,
+      "end": 1347.68,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "the same thing shared on your screen"
+    },
+    {
+      "index": 325,
+      "start": 1347.68,
+      "end": 1353.42,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "are you"
+    },
+    {
+      "index": 326,
+      "start": 1354.09,
+      "end": 1358.31,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sure that i shared it"
+    },
+    {
+      "index": 327,
+      "start": 1358.31,
+      "end": 1359.87,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "but you should also"
+    },
+    {
+      "index": 328,
+      "start": 1359.87,
+      "end": 1362.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "open up the pdf i just sent"
+    },
+    {
+      "index": 329,
+      "start": 1362.8,
+      "end": 1364.31,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay okay does"
+    },
+    {
+      "index": 330,
+      "start": 1365.1,
+      "end": 1366.32,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "everyone have this open"
+    },
+    {
+      "index": 331,
+      "start": 1366.32,
+      "end": 1367.92,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 332,
+      "start": 1367.92,
+      "end": 1368.06,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 333,
+      "start": 1369.1,
+      "end": 1374.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "good okay so here we have the script from the dialogue"
+    },
+    {
+      "index": 334,
+      "start": 1374.56,
+      "end": 1383.68,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "we just heard i want you in breakout rooms in pairs to match one through six you see this in blue on the"
+    },
+    {
+      "index": 335,
+      "start": 1383.68,
+      "end": 1392.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "the left to what each person is doing in each sentence in a through f so if you look at number one"
+    },
+    {
+      "index": 336,
+      "start": 1392.72,
+      "end": 1402.08,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "the part that closes when you uh when you sleep so does he know the word in the sentence"
+    },
+    {
+      "index": 337,
+      "start": 1402.08,
+      "end": 1407.28,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "does he know the word sty in the sentence no no"
+    },
+    {
+      "index": 338,
+      "start": 1407.28,
+      "end": 1407.44,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "he"
+    },
+    {
+      "index": 339,
+      "start": 1407.44,
+      "end": 1411.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "doesn't he can't find the word so if you look over on the"
+    },
+    {
+      "index": 340,
+      "start": 1411.04,
+      "end": 1420.0,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "right that would be letter c can't find the word so then you will type c in the box right there okay"
+    },
+    {
+      "index": 341,
+      "start": 1420.01,
+      "end": 1428.8,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "so now i would like you in breakout rooms in pairs to do two through six okay and i will give you about"
+    },
+    {
+      "index": 342,
+      "start": 1428.8,
+      "end": 1431.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "two minutes to do two minutes to do this okay"
+    },
+    {
+      "index": 343,
+      "start": 1431.04,
+      "end": 1434.26,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "let me"
+    },
+    {
+      "index": 344,
+      "start": 1434.99,
+      "end": 1443.27,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "get the breakout"
+    },
+    {
+      "index": 345,
+      "start": 1443.27,
+      "end": 1449.76,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "rooms ready"
+    },
+    {
+      "index": 346,
+      "start": 1449.76,
+      "end": 1459.6,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "so"
+    },
+    {
+      "index": 347,
+      "start": 1459.6,
+      "end": 1461.6,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "so"
+    },
+    {
+      "index": 348,
+      "start": 1461.6,
+      "end": 1463.6,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "so"
+    },
+    {
+      "index": 349,
+      "start": 1463.6,
+      "end": 1477.44,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "so"
+    },
+    {
+      "index": 350,
+      "start": 1477.44,
+      "end": 1491.44,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "finish"
+    },
+    {
+      "index": 351,
+      "start": 1491.44,
+      "end": 1505.28,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 352,
+      "start": 1505.28,
+      "end": 1507.35,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "hello hello again"
+    },
+    {
+      "index": 353,
+      "start": 1508.12,
+      "end": 1508.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hello again"
+    },
+    {
+      "index": 354,
+      "start": 1508.56,
+      "end": 1511.26,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "can you see"
+    },
+    {
+      "index": 355,
+      "start": 1511.3,
+      "end": 1515.52,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "my screen uh"
+    },
+    {
+      "index": 356,
+      "start": 1515.52,
+      "end": 1517.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes i see"
+    },
+    {
+      "index": 357,
+      "start": 1519.68,
+      "end": 1520.62,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and i"
+    },
+    {
+      "index": 358,
+      "start": 1520.69,
+      "end": 1521.6,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "can't"
+    },
+    {
+      "index": 359,
+      "start": 1521.6,
+      "end": 1521.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "all right"
+    },
+    {
+      "index": 360,
+      "start": 1521.84,
+      "end": 1523.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 361,
+      "start": 1523.92,
+      "end": 1526.64,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh number"
+    },
+    {
+      "index": 362,
+      "start": 1526.64,
+      "end": 1531.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "answer s yes"
+    },
+    {
+      "index": 363,
+      "start": 1531.04,
+      "end": 1532.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 364,
+      "start": 1532.08,
+      "end": 1533.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "or"
+    },
+    {
+      "index": 365,
+      "start": 1533.36,
+      "end": 1535.04,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah i want to see"
+    },
+    {
+      "index": 366,
+      "start": 1535.05,
+      "end": 1539.92,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "can you describe exactly where"
+    },
+    {
+      "index": 367,
+      "start": 1539.92,
+      "end": 1540.19,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i"
+    },
+    {
+      "index": 368,
+      "start": 1541.76,
+      "end": 1542.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "think it's"
+    },
+    {
+      "index": 369,
+      "start": 1542.72,
+      "end": 1544.44,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "well in"
+    },
+    {
+      "index": 370,
+      "start": 1545.2,
+      "end": 1551.1,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "number one is no number two can you describe"
+    },
+    {
+      "index": 371,
+      "start": 1551.11,
+      "end": 1553.12,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "exactly where not"
+    },
+    {
+      "index": 372,
+      "start": 1554.26,
+      "end": 1556.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sure ask where"
+    },
+    {
+      "index": 373,
+      "start": 1556.88,
+      "end": 1567.76,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "one moment"
+    },
+    {
+      "index": 374,
+      "start": 1572.72,
+      "end": 1577.59,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i"
+    },
+    {
+      "index": 375,
+      "start": 1578.48,
+      "end": 1578.48,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "think"
+    },
+    {
+      "index": 376,
+      "start": 1578.48,
+      "end": 1585.28,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "and we may move on to the third sentence and then go back to this if you're not sure whether it's if"
+    },
+    {
+      "index": 377,
+      "start": 1585.28,
+      "end": 1588.96,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "uh if whether it's e or not"
+    },
+    {
+      "index": 378,
+      "start": 1588.96,
+      "end": 1593.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "ah this is because this receptionist is sure where this problem"
+    },
+    {
+      "index": 379,
+      "start": 1593.68,
+      "end": 1601.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "is uh and ask it's more details is number two not sure"
+    },
+    {
+      "index": 380,
+      "start": 1602.72,
+      "end": 1603.44,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah"
+    },
+    {
+      "index": 381,
+      "start": 1603.44,
+      "end": 1603.52,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah"
+    },
+    {
+      "index": 382,
+      "start": 1603.52,
+      "end": 1608.8,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "the receptionist is not sure that's why she asks"
+    },
+    {
+      "index": 383,
+      "start": 1608.83,
+      "end": 1611.52,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "to describe the place"
+    },
+    {
+      "index": 384,
+      "start": 1611.52,
+      "end": 1620.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "the edge the bottom part near the little hairs do you know what i mean number three yeah the first part of"
+    },
+    {
+      "index": 385,
+      "start": 1620.64,
+      "end": 1625.44,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "the sentence"
+    },
+    {
+      "index": 386,
+      "start": 1625.44,
+      "end": 1626.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "um"
+    },
+    {
+      "index": 387,
+      "start": 1626.32,
+      "end": 1629.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "number two uh this is e"
+    },
+    {
+      "index": 388,
+      "start": 1629.12,
+      "end": 1631.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "not sure"
+    },
+    {
+      "index": 389,
+      "start": 1631.29,
+      "end": 1634.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 390,
+      "start": 1634.64,
+      "end": 1635.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh number three"
+    },
+    {
+      "index": 391,
+      "start": 1635.68,
+      "end": 1638.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh say where"
+    },
+    {
+      "index": 392,
+      "start": 1641.44,
+      "end": 1645.44,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "because it's give us uh extract the location his uh age"
+    },
+    {
+      "index": 393,
+      "start": 1645.44,
+      "end": 1650.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh number three is this f yes i agree"
+    },
+    {
+      "index": 394,
+      "start": 1650.88,
+      "end": 1654.16,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah and what about number four"
+    },
+    {
+      "index": 395,
+      "start": 1659.36,
+      "end": 1665.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "check your distance uh"
+    },
+    {
+      "index": 396,
+      "start": 1665.12,
+      "end": 1665.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "he asked i made sure it's a"
+    },
+    {
+      "index": 397,
+      "start": 1665.28,
+      "end": 1668.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "explanation"
+    },
+    {
+      "index": 398,
+      "start": 1668.8,
+      "end": 1672.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i think about this d"
+    },
+    {
+      "index": 399,
+      "start": 1672.24,
+      "end": 1676.16,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah maybe d i do agree"
+    },
+    {
+      "index": 400,
+      "start": 1676.16,
+      "end": 1680.08,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "your lower eyelid near the eyelashes"
+    },
+    {
+      "index": 401,
+      "start": 1683.04,
+      "end": 1686.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "um check guys"
+    },
+    {
+      "index": 402,
+      "start": 1686.56,
+      "end": 1688.56,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 403,
+      "start": 1688.56,
+      "end": 1689.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 404,
+      "start": 1689.2,
+      "end": 1691.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hey"
+    },
+    {
+      "index": 405,
+      "start": 1691.92,
+      "end": 1696.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and uh last uh b"
+    },
+    {
+      "index": 406,
+      "start": 1696.0,
+      "end": 1700.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yeah but beta is this number"
+    },
+    {
+      "index": 407,
+      "start": 1700.88,
+      "end": 1708.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh because she summaries his food describe is here on words and confirm"
+    },
+    {
+      "index": 408,
+      "start": 1710.08,
+      "end": 1718.64,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh yes"
+    },
+    {
+      "index": 409,
+      "start": 1718.92,
+      "end": 1722.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh okay"
+    },
+    {
+      "index": 410,
+      "start": 1722.8,
+      "end": 1736.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "for uh for beta this uh six is if you see"
+    },
+    {
+      "index": 411,
+      "start": 1738.08,
+      "end": 1738.4,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "all right"
+    },
+    {
+      "index": 412,
+      "start": 1738.4,
+      "end": 1742.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "mean small so red bump and age"
+    },
+    {
+      "index": 413,
+      "start": 1742.24,
+      "end": 1749.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "well"
+    },
+    {
+      "index": 414,
+      "start": 1749.52,
+      "end": 1750.69,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "thank you seeing the main"
+    },
+    {
+      "index": 415,
+      "start": 1751.84,
+      "end": 1752.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "thank you"
+    },
+    {
+      "index": 416,
+      "start": 1752.08,
+      "end": 1764.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hello again welcome"
+    },
+    {
+      "index": 417,
+      "start": 1764.13,
+      "end": 1766.64,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "back everyone Partner can you hear me"
+    },
+    {
+      "index": 418,
+      "start": 1767.52,
+      "end": 1771.52,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "yeah yeah yeah okay hi welcome Partner i have a problem with their"
+    },
+    {
+      "index": 419,
+      "start": 1771.52,
+      "end": 1772.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "audio"
+    },
+    {
+      "index": 420,
+      "start": 1772.24,
+      "end": 1772.53,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "ah"
+    },
+    {
+      "index": 421,
+      "start": 1772.53,
+      "end": 1778.08,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay good i hope it's good okay so Partner what did you get for number two"
+    },
+    {
+      "index": 422,
+      "start": 1778.08,
+      "end": 1786.32,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "uh i'm sorry excuse me uh say where"
+    },
+    {
+      "index": 423,
+      "start": 1787.76,
+      "end": 1789.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "say where do we agree yes the bottom part"
+    },
+    {
+      "index": 424,
+      "start": 1789.92,
+      "end": 1795.28,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "letter e"
+    },
+    {
+      "index": 425,
+      "start": 1795.28,
+      "end": 1796.16,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "letter"
+    },
+    {
+      "index": 426,
+      "start": 1796.24,
+      "end": 1798.4,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "e not sure number two"
+    },
+    {
+      "index": 427,
+      "start": 1798.4,
+      "end": 1802.0,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "is letter e can you describe exactly where"
+    },
+    {
+      "index": 428,
+      "start": 1802.0,
+      "end": 1804.0,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 429,
+      "start": 1804.0,
+      "end": 1804.62,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "that's a question"
+    },
+    {
+      "index": 430,
+      "start": 1804.62,
+      "end": 1805.52,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "right if you're not sure"
+    },
+    {
+      "index": 431,
+      "start": 1805.52,
+      "end": 1808.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes or can you describe exactly where yes"
+    },
+    {
+      "index": 432,
+      "start": 1809.36,
+      "end": 1810.64,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay Partner"
+    },
+    {
+      "index": 433,
+      "start": 1810.64,
+      "end": 1816.07,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 434,
+      "start": 1816.24,
+      "end": 1816.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "Partner number three just a second i need to open the document okay"
+    },
+    {
+      "index": 435,
+      "start": 1816.4,
+      "end": 1816.63,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and"
+    },
+    {
+      "index": 436,
+      "start": 1817.4,
+      "end": 1820.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "number three is f say where"
+    },
+    {
+      "index": 437,
+      "start": 1823.12,
+      "end": 1827.58,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "very good very good number four Partner"
+    },
+    {
+      "index": 438,
+      "start": 1827.79,
+      "end": 1836.53,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "uh just a moment do you know what i mean um maybe it's d check you are understood island"
+    },
+    {
+      "index": 439,
+      "start": 1837.0,
+      "end": 1839.87,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "Partner what do you think letter d i"
+    },
+    {
+      "index": 440,
+      "start": 1839.87,
+      "end": 1843.36,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "don't know what about we talk about"
+    },
+    {
+      "index": 441,
+      "start": 1843.36,
+      "end": 1843.48,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "ah"
+    },
+    {
+      "index": 442,
+      "start": 1843.64,
+      "end": 1849.48,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "okay i don't have any the image so i see the four the third i'm"
+    },
+    {
+      "index": 443,
+      "start": 1849.48,
+      "end": 1851.2,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "sorry once more"
+    },
+    {
+      "index": 444,
+      "start": 1851.84,
+      "end": 1852.17,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "i"
+    },
+    {
+      "index": 445,
+      "start": 1852.17,
+      "end": 1855.36,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "don't know i'm not looking for anything"
+    },
+    {
+      "index": 446,
+      "start": 1855.36,
+      "end": 1856.74,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "i'm not looking for"
+    },
+    {
+      "index": 447,
+      "start": 1856.82,
+      "end": 1857.84,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "anything uh you just want to watch"
+    },
+    {
+      "index": 448,
+      "start": 1858.28,
+      "end": 1858.56,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "yeah okay"
+    },
+    {
+      "index": 449,
+      "start": 1858.56,
+      "end": 1860.3,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "okay okay"
+    },
+    {
+      "index": 450,
+      "start": 1860.66,
+      "end": 1861.28,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 451,
+      "start": 1861.28,
+      "end": 1864.56,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "but you should possibly share your screen so that we are"
+    },
+    {
+      "index": 452,
+      "start": 1864.56,
+      "end": 1865.2,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "sorry yes"
+    },
+    {
+      "index": 453,
+      "start": 1865.2,
+      "end": 1869.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yeah it's very easy my"
+    },
+    {
+      "index": 454,
+      "start": 1869.92,
+      "end": 1874.08,
+      "speaker": "ASR voice 1 (unverified)",
+      "text": "my apologies when i came out of the breakout room it was no longer sharing so"
+    },
+    {
+      "index": 455,
+      "start": 1877.68,
+      "end": 1878.28,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 456,
+      "start": 1878.48,
+      "end": 1882.32,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "here we go here we go i'm sorry about that guys can everyone see now"
+    },
+    {
+      "index": 457,
+      "start": 1882.32,
+      "end": 1884.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes yeah"
+    },
+    {
+      "index": 458,
+      "start": 1884.24,
+      "end": 1885.28,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 459,
+      "start": 1885.28,
+      "end": 1889.0,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "so um Partner what did you say number four was"
+    },
+    {
+      "index": 460,
+      "start": 1889.36,
+      "end": 1893.44,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "i'm not sure i said uh check you are understood but"
+    },
+    {
+      "index": 461,
+      "start": 1893.44,
+      "end": 1898.37,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "maybe it's d or e not sure ask i think i"
+    },
+    {
+      "index": 462,
+      "start": 1898.92,
+      "end": 1906.4,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "think about d if you see it as h for bottom parts near little hairs do you know what i"
+    },
+    {
+      "index": 463,
+      "start": 1906.4,
+      "end": 1908.46,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "what i mean i think about this"
+    },
+    {
+      "index": 464,
+      "start": 1908.46,
+      "end": 1912.16,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "exactly good Learner what did you get for number five"
+    },
+    {
+      "index": 465,
+      "start": 1912.16,
+      "end": 1920.11,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "number five uh uh a and uh dialogue very"
+    },
+    {
+      "index": 466,
+      "start": 1920.43,
+      "end": 1923.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "good number five and he goes what about number six"
+    },
+    {
+      "index": 467,
+      "start": 1924.4,
+      "end": 1931.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "one moment i hear uh j lover is near this number five"
+    },
+    {
+      "index": 468,
+      "start": 1931.36,
+      "end": 1932.57,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "number"
+    },
+    {
+      "index": 469,
+      "start": 1933.3,
+      "end": 1936.8,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "five is a yeah and yes number six"
+    },
+    {
+      "index": 470,
+      "start": 1939.04,
+      "end": 1941.6,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "i think that i think the six is um"
+    },
+    {
+      "index": 471,
+      "start": 1941.6,
+      "end": 1947.76,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "they think is"
+    },
+    {
+      "index": 472,
+      "start": 1947.76,
+      "end": 1952.0,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "the only"
+    },
+    {
+      "index": 473,
+      "start": 1952.0,
+      "end": 1954.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "letter we didn't use was b b"
+    },
+    {
+      "index": 474,
+      "start": 1954.4,
+      "end": 1954.7,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "so"
+    },
+    {
+      "index": 475,
+      "start": 1955.16,
+      "end": 1956.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "number six"
+    },
+    {
+      "index": 476,
+      "start": 1956.86,
+      "end": 1957.15,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "yeah"
+    },
+    {
+      "index": 477,
+      "start": 1957.27,
+      "end": 1962.8,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "is paraphrased back Partner talked about paraphrasing before right Partner what does paraphrase mean"
+    },
+    {
+      "index": 478,
+      "start": 1964.32,
+      "end": 1970.56,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "it is explaining exactly the same things with help of another portion of words"
+    },
+    {
+      "index": 479,
+      "start": 1970.56,
+      "end": 1971.09,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "so to"
+    },
+    {
+      "index": 480,
+      "start": 1971.34,
+      "end": 1978.16,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "use your own words back at someone so that they know you understand what you meant that what they"
+    },
+    {
+      "index": 481,
+      "start": 1978.16,
+      "end": 1982.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "meant good all right um Learner can you erase all that please"
+    },
+    {
+      "index": 482,
+      "start": 1984.72,
+      "end": 1990.32,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "thank you okay so now we're going to look at some phrases you can use in any situation"
+    },
+    {
+      "index": 483,
+      "start": 1990.32,
+      "end": 1997.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "not just when you're calling a doctor's office okay so the first is when you can't find a word"
+    },
+    {
+      "index": 484,
+      "start": 1998.08,
+      "end": 2000.64,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you can say i don't know the word but"
+    },
+    {
+      "index": 485,
+      "start": 2000.64,
+      "end": 2007.44,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "again what happened to my voice at the end of this i don't know the word but"
+    },
+    {
+      "index": 486,
+      "start": 2007.44,
+      "end": 2009.28,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "rising tone"
+    },
+    {
+      "index": 487,
+      "start": 2009.28,
+      "end": 2009.46,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "rising"
+    },
+    {
+      "index": 488,
+      "start": 2010.09,
+      "end": 2016.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "tone yeah right we use rising tone when we ask a question right so can you guys repeat after"
+    },
+    {
+      "index": 489,
+      "start": 2016.56,
+      "end": 2021.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "me please i don't know the word but everyone i don't"
+    },
+    {
+      "index": 490,
+      "start": 2021.04,
+      "end": 2023.39,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "know but good"
+    },
+    {
+      "index": 491,
+      "start": 2024.22,
+      "end": 2027.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "Learner can you repeat i don't"
+    },
+    {
+      "index": 492,
+      "start": 2027.12,
+      "end": 2028.94,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "know the word but"
+    },
+    {
+      "index": 493,
+      "start": 2028.94,
+      "end": 2032.05,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i don't know words but good good"
+    },
+    {
+      "index": 494,
+      "start": 2032.75,
+      "end": 2036.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "rising intonation all right if you're a listener"
+    },
+    {
+      "index": 495,
+      "start": 2036.96,
+      "end": 2042.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and you're not sure you should ask right so you can say sorry what did you mean"
+    },
+    {
+      "index": 496,
+      "start": 2042.72,
+      "end": 2045.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sorry what do you mean"
+    },
+    {
+      "index": 497,
+      "start": 2047.6,
+      "end": 2050.3,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "everybody sorry what"
+    },
+    {
+      "index": 498,
+      "start": 2050.3,
+      "end": 2050.6,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "do"
+    },
+    {
+      "index": 499,
+      "start": 2050.61,
+      "end": 2051.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you mean"
+    },
+    {
+      "index": 500,
+      "start": 2051.68,
+      "end": 2060.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "good now if you're not sure you can say where or what kind"
+    },
+    {
+      "index": 501,
+      "start": 2060.24,
+      "end": 2071.6,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "or what the object is for it's the kind of um you use it to so if i took this i would say um it's a kind"
+    },
+    {
+      "index": 502,
+      "start": 2071.6,
+      "end": 2078.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "of device you use it to put papers together right you use it to put papers together"
+    },
+    {
+      "index": 503,
+      "start": 2078.48,
+      "end": 2089.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and another important move is to check that you understood yeah does that make sense does that make"
+    },
+    {
+      "index": 504,
+      "start": 2089.2,
+      "end": 2091.91,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "sense so you hear again at the"
+    },
+    {
+      "index": 505,
+      "start": 2091.91,
+      "end": 2092.25,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "end"
+    },
+    {
+      "index": 506,
+      "start": 2092.4,
+      "end": 2093.37,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "does it make"
+    },
+    {
+      "index": 507,
+      "start": 2093.37,
+      "end": 2095.87,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sense so we do this together"
+    },
+    {
+      "index": 508,
+      "start": 2095.9,
+      "end": 2098.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yeah listen does does that make"
+    },
+    {
+      "index": 509,
+      "start": 2098.4,
+      "end": 2099.79,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "sense everybody does"
+    },
+    {
+      "index": 510,
+      "start": 2100.48,
+      "end": 2101.1,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "that"
+    },
+    {
+      "index": 511,
+      "start": 2101.27,
+      "end": 2101.81,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "make"
+    },
+    {
+      "index": 512,
+      "start": 2101.81,
+      "end": 2103.27,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sense good"
+    },
+    {
+      "index": 513,
+      "start": 2103.87,
+      "end": 2105.52,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "Partner does that"
+    },
+    {
+      "index": 514,
+      "start": 2105.52,
+      "end": 2106.85,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "make sense"
+    },
+    {
+      "index": 515,
+      "start": 2107.18,
+      "end": 2111.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "good all right as a listener you also"
+    },
+    {
+      "index": 516,
+      "start": 2111.12,
+      "end": 2118.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "want to check a guess yeah do you mean the do you mean the stapler do you mean the stapler"
+    },
+    {
+      "index": 517,
+      "start": 2120.08,
+      "end": 2122.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah because there may be a paper clip exactly"
+    },
+    {
+      "index": 518,
+      "start": 2122.97,
+      "end": 2128.8,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "exactly Partner do you mean the repeat after me do"
+    },
+    {
+      "index": 519,
+      "start": 2128.8,
+      "end": 2129.93,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you mean the do you"
+    },
+    {
+      "index": 520,
+      "start": 2130.36,
+      "end": 2131.2,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "mean the"
+    },
+    {
+      "index": 521,
+      "start": 2131.56,
+      "end": 2132.64,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yeah very good"
+    },
+    {
+      "index": 522,
+      "start": 2132.64,
+      "end": 2133.87,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and the last"
+    },
+    {
+      "index": 523,
+      "start": 2134.24,
+      "end": 2137.68,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "one Partner's favorite paraphrase back"
+    },
+    {
+      "index": 524,
+      "start": 2138.48,
+      "end": 2144.32,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "uh so you mean the stapler so you mean the stapler uh you"
+    },
+    {
+      "index": 525,
+      "start": 2144.32,
+      "end": 2145.49,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "said so you"
+    },
+    {
+      "index": 526,
+      "start": 2145.53,
+      "end": 2146.02,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "mean"
+    },
+    {
+      "index": 527,
+      "start": 2146.02,
+      "end": 2146.41,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "the"
+    },
+    {
+      "index": 528,
+      "start": 2146.41,
+      "end": 2147.44,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "stapler"
+    },
+    {
+      "index": 529,
+      "start": 2148.8,
+      "end": 2149.38,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "so"
+    },
+    {
+      "index": 530,
+      "start": 2150.57,
+      "end": 2154.09,
+      "speaker": "ASR voice 4 (unverified)",
+      "text": "you mean"
+    },
+    {
+      "index": 531,
+      "start": 2154.09,
+      "end": 2163.28,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "the stapler very good"
+    },
+    {
+      "index": 532,
+      "start": 2163.28,
+      "end": 2164.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "very"
+    },
+    {
+      "index": 533,
+      "start": 2165.24,
+      "end": 2170.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "good all right so we're going to play the same game again but"
+    },
+    {
+      "index": 534,
+      "start": 2170.4,
+      "end": 2177.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "this time i want you to use all these phrases we just learned and we'll see if it goes uh a little"
+    },
+    {
+      "index": 535,
+      "start": 2177.92,
+      "end": 2187.68,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "bit easier for you all okay so if you look down on page two of your pdf please look at page two of"
+    },
+    {
+      "index": 536,
+      "start": 2187.68,
+      "end": 2194.32,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "your pdf you'll see this same slide there does everyone see that on page two there is not"
+    },
+    {
+      "index": 537,
+      "start": 2194.32,
+      "end": 2195.52,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "page two"
+    },
+    {
+      "index": 538,
+      "start": 2195.52,
+      "end": 2197.63,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i'm afraid we've got only one page"
+    },
+    {
+      "index": 539,
+      "start": 2197.78,
+      "end": 2204.16,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "oh sorry my apologies one moment i have to give you the next pdf"
+    },
+    {
+      "index": 540,
+      "start": 2207.2,
+      "end": 2210.16,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay i was just checking if you were paying attention"
+    },
+    {
+      "index": 541,
+      "start": 2210.16,
+      "end": 2215.36,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay so here's the next pdf please download this and open it"
+    },
+    {
+      "index": 542,
+      "start": 2215.36,
+      "end": 2223.36,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "teacher"
+    },
+    {
+      "index": 543,
+      "start": 2223.36,
+      "end": 2223.82,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh i"
+    },
+    {
+      "index": 544,
+      "start": 2223.82,
+      "end": 2224.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "correct"
+    },
+    {
+      "index": 545,
+      "start": 2225.04,
+      "end": 2230.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh understand uh you need uh i need this uh create moment"
+    },
+    {
+      "index": 546,
+      "start": 2231.76,
+      "end": 2241.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "in uh in uh i percent and doctor and uh i don't uh i don't uh how about this leg and maybe another uh"
+    },
+    {
+      "index": 547,
+      "start": 2241.52,
+      "end": 2243.49,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "Learner Learner i just"
+    },
+    {
+      "index": 548,
+      "start": 2243.49,
+      "end": 2246.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "want to know if you open the pdf"
+    },
+    {
+      "index": 549,
+      "start": 2246.48,
+      "end": 2246.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "what are"
+    },
+    {
+      "index": 550,
+      "start": 2247.12,
+      "end": 2250.08,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "you talking about i can't understand this"
+    },
+    {
+      "index": 551,
+      "start": 2252.8,
+      "end": 2253.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you don't understand me"
+    },
+    {
+      "index": 552,
+      "start": 2253.76,
+      "end": 2259.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "no i understand but that uh my question was being there for"
+    },
+    {
+      "index": 553,
+      "start": 2259.68,
+      "end": 2268.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "this uh i need to create situation and for my uh body and i not understand what uh is my"
+    },
+    {
+      "index": 554,
+      "start": 2269.36,
+      "end": 2278.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it's like but i uh uh ask it i have this problem but i don't know if the body is uh tired and uh"
+    },
+    {
+      "index": 555,
+      "start": 2278.32,
+      "end": 2281.07,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "many many uh sentences for"
+    },
+    {
+      "index": 556,
+      "start": 2281.27,
+      "end": 2284.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "Learner you're making Learner please listen you're making this much more"
+    },
+    {
+      "index": 557,
+      "start": 2284.4,
+      "end": 2291.44,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "complicated we're just practicing communication strategies to talk about body parts that you don't"
+    },
+    {
+      "index": 558,
+      "start": 2291.44,
+      "end": 2295.6,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "know the names of okay so does everyone have the pdf open yes"
+    },
+    {
+      "index": 559,
+      "start": 2295.6,
+      "end": 2296.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 560,
+      "start": 2297.67,
+      "end": 2303.52,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "great okay so as i said we're going to play the same game but i want you to use some of the new"
+    },
+    {
+      "index": 561,
+      "start": 2303.52,
+      "end": 2310.88,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "language we just learned okay exactly the same game but i want you to try to use some of the language"
+    },
+    {
+      "index": 562,
+      "start": 2310.88,
+      "end": 2319.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay and i want you at the beginning not to give all the information away right so when you say"
+    },
+    {
+      "index": 563,
+      "start": 2319.76,
+      "end": 2329.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "um yes it hurts on my leg that's all then the receptionist has to ask do you mean the front"
+    },
+    {
+      "index": 564,
+      "start": 2330.4,
+      "end": 2341.84,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "no not the front ah so you mean the back yes below the knee yes is it number six that's right okay so"
+    },
+    {
+      "index": 565,
+      "start": 2341.84,
+      "end": 2347.28,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "don't give all of the information at the beginning so that the receptionist can ask questions and confirm"
+    },
+    {
+      "index": 566,
+      "start": 2347.28,
+      "end": 2349.02,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay Partner when i"
+    },
+    {
+      "index": 567,
+      "start": 2349.36,
+      "end": 2349.97,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "just showed"
+    },
+    {
+      "index": 568,
+      "start": 2349.97,
+      "end": 2352.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you this model did i guess straight away"
+    },
+    {
+      "index": 569,
+      "start": 2354.4,
+      "end": 2354.99,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "no no what"
+    },
+    {
+      "index": 570,
+      "start": 2355.34,
+      "end": 2364.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "did i do first as the receptionist ask questions and checked exactly good all right i'm"
+    },
+    {
+      "index": 571,
+      "start": 2364.56,
+      "end": 2378.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "going to put you back in uh breakout rooms and i will give you three minutes to practice these okay"
+    },
+    {
+      "index": 572,
+      "start": 2378.72,
+      "end": 2388.68,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "hello"
+    },
+    {
+      "index": 573,
+      "start": 2393.31,
+      "end": 2396.21,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "again do"
+    },
+    {
+      "index": 574,
+      "start": 2396.76,
+      "end": 2397.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you want me"
+    },
+    {
+      "index": 575,
+      "start": 2397.6,
+      "end": 2398.56,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "to share the screen"
+    },
+    {
+      "index": 576,
+      "start": 2401.92,
+      "end": 2407.71,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh you cannot uh share screen yeah"
+    },
+    {
+      "index": 577,
+      "start": 2407.75,
+      "end": 2409.25,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i can oh"
+    },
+    {
+      "index": 578,
+      "start": 2410.16,
+      "end": 2414.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay oh i see it in your screen"
+    },
+    {
+      "index": 579,
+      "start": 2414.56,
+      "end": 2426.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay uh could you please choose a role is maybe you percent or maybe administrator"
+    },
+    {
+      "index": 580,
+      "start": 2428.56,
+      "end": 2431.54,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "talk to you to decide i cannot i can put a"
+    },
+    {
+      "index": 581,
+      "start": 2431.55,
+      "end": 2434.64,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "potential it's okay for me"
+    },
+    {
+      "index": 582,
+      "start": 2434.64,
+      "end": 2437.01,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "so shall i"
+    },
+    {
+      "index": 583,
+      "start": 2437.29,
+      "end": 2440.88,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "start yes let's"
+    },
+    {
+      "index": 584,
+      "start": 2440.88,
+      "end": 2441.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "go"
+    },
+    {
+      "index": 585,
+      "start": 2448.32,
+      "end": 2451.84,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "hello"
+    },
+    {
+      "index": 586,
+      "start": 2451.98,
+      "end": 2458.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hello dr n's office hello how can i help you hi uh something hard near my chest i'm my right side"
+    },
+    {
+      "index": 587,
+      "start": 2458.24,
+      "end": 2459.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "is it on the"
+    },
+    {
+      "index": 588,
+      "start": 2459.96,
+      "end": 2463.28,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "front or on your back"
+    },
+    {
+      "index": 589,
+      "start": 2463.28,
+      "end": 2464.02,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "uh i"
+    },
+    {
+      "index": 590,
+      "start": 2464.69,
+      "end": 2466.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "think about this"
+    },
+    {
+      "index": 591,
+      "start": 2469.68,
+      "end": 2476.96,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "front"
+    },
+    {
+      "index": 592,
+      "start": 2476.96,
+      "end": 2477.28,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i see uh sorry do you mean number four"
+    },
+    {
+      "index": 593,
+      "start": 2477.28,
+      "end": 2488.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "well but i don't know this word but it's below my chest on the side it's kind and"
+    },
+    {
+      "index": 594,
+      "start": 2488.56,
+      "end": 2494.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sewed uh bone under my arm does make a sense"
+    },
+    {
+      "index": 595,
+      "start": 2496.24,
+      "end": 2499.76,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah yeah do you mean ribs"
+    },
+    {
+      "index": 596,
+      "start": 2499.76,
+      "end": 2499.88,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i"
+    },
+    {
+      "index": 597,
+      "start": 2501.02,
+      "end": 2506.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "think about no"
+    },
+    {
+      "index": 598,
+      "start": 2506.96,
+      "end": 2512.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh this is it makes sense"
+    },
+    {
+      "index": 599,
+      "start": 2512.8,
+      "end": 2515.55,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "so you"
+    },
+    {
+      "index": 600,
+      "start": 2517.2,
+      "end": 2524.88,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "mean your front part of the body hurt and it's somewhere near your belly"
+    },
+    {
+      "index": 601,
+      "start": 2524.88,
+      "end": 2527.58,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "so you"
+    },
+    {
+      "index": 602,
+      "start": 2527.58,
+      "end": 2538.71,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "want me to paraphrase now"
+    },
+    {
+      "index": 603,
+      "start": 2539.3,
+      "end": 2541.12,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i see"
+    },
+    {
+      "index": 604,
+      "start": 2541.13,
+      "end": 2549.44,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "belly is an informal word for naming the part of the body where the stomach is"
+    },
+    {
+      "index": 605,
+      "start": 2550.16,
+      "end": 2555.84,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "sometimes little kids say belly or uh people say belly when it's a bit fat"
+    },
+    {
+      "index": 606,
+      "start": 2555.84,
+      "end": 2556.03,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "the"
+    },
+    {
+      "index": 607,
+      "start": 2556.03,
+      "end": 2557.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "russian"
+    },
+    {
+      "index": 608,
+      "start": 2558.06,
+      "end": 2559.04,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "word is"
+    },
+    {
+      "index": 609,
+      "start": 2566.24,
+      "end": 2574.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh but uh i had a minute uh number two uh this is what is this"
+    },
+    {
+      "index": 610,
+      "start": 2574.88,
+      "end": 2579.6,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "collarbone"
+    },
+    {
+      "index": 611,
+      "start": 2579.6,
+      "end": 2579.84,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "power"
+    },
+    {
+      "index": 612,
+      "start": 2582.25,
+      "end": 2583.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "bone yes"
+    },
+    {
+      "index": 613,
+      "start": 2586.8,
+      "end": 2592.0,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i see i see well i just wanted you to say that it's higher than the belly"
+    },
+    {
+      "index": 614,
+      "start": 2592.0,
+      "end": 2592.52,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "but we"
+    },
+    {
+      "index": 615,
+      "start": 2592.87,
+      "end": 2594.23,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "had another word"
+    },
+    {
+      "index": 616,
+      "start": 2594.85,
+      "end": 2599.28,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "to explain that's funny that was funny sorry for that"
+    },
+    {
+      "index": 617,
+      "start": 2599.28,
+      "end": 2604.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "um yes when i am going to a doctor in china"
+    },
+    {
+      "index": 618,
+      "start": 2604.88,
+      "end": 2612.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "oh this is hard that uh what you what is the problem i have this problem okay"
+    },
+    {
+      "index": 619,
+      "start": 2612.81,
+      "end": 2620.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you you you needed a uh not problem you cannot more the drink water is"
+    },
+    {
+      "index": 620,
+      "start": 2621.44,
+      "end": 2630.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh and you if you uh not it's possible is your describe this problem you come back please again"
+    },
+    {
+      "index": 621,
+      "start": 2630.48,
+      "end": 2631.85,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you"
+    },
+    {
+      "index": 622,
+      "start": 2631.85,
+      "end": 2648.0,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "know sometimes i do not know what hurts even in my native language it's difficult to explain"
+    },
+    {
+      "index": 623,
+      "start": 2648.0,
+      "end": 2657.52,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 624,
+      "start": 2657.52,
+      "end": 2664.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay welcome back everybody was that round a little bit easier with these new phrases"
+    },
+    {
+      "index": 625,
+      "start": 2664.72,
+      "end": 2664.86,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "i"
+    },
+    {
+      "index": 626,
+      "start": 2666.2,
+      "end": 2666.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "see"
+    },
+    {
+      "index": 627,
+      "start": 2666.81,
+      "end": 2667.77,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "a little"
+    },
+    {
+      "index": 628,
+      "start": 2669.47,
+      "end": 2669.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "bit"
+    },
+    {
+      "index": 629,
+      "start": 2669.76,
+      "end": 2670.28,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "Learner"
+    },
+    {
+      "index": 630,
+      "start": 2670.28,
+      "end": 2671.28,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you said easy"
+    },
+    {
+      "index": 631,
+      "start": 2671.28,
+      "end": 2672.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes easy"
+    },
+    {
+      "index": 632,
+      "start": 2673.68,
+      "end": 2679.84,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "easier yeah i heard what i was also impressed is that i heard people use the using the intonation"
+    },
+    {
+      "index": 633,
+      "start": 2679.84,
+      "end": 2684.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "like does that make sense so i'm very happy that you guys were doing all of that"
+    },
+    {
+      "index": 634,
+      "start": 2684.56,
+      "end": 2684.69,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 635,
+      "start": 2685.51,
+      "end": 2693.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "today so sorry today i'm uh more tired is my presentation is uh a little bit is uh"
+    },
+    {
+      "index": 636,
+      "start": 2693.84,
+      "end": 2696.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hard and uh"
+    },
+    {
+      "index": 637,
+      "start": 2696.24,
+      "end": 2699.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "your pronunciation sounds great Learner i can understand you very well"
+    },
+    {
+      "index": 638,
+      "start": 2699.92,
+      "end": 2700.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 639,
+      "start": 2700.29,
+      "end": 2701.13,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "thank you so now"
+    },
+    {
+      "index": 640,
+      "start": 2701.35,
+      "end": 2707.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "we're going to change the setting okay but we're going to use the same game"
+    },
+    {
+      "index": 641,
+      "start": 2707.04,
+      "end": 2715.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and the same principles okay so if you look at page three in your pdf you'll see now we are at the pharmacy"
+    },
+    {
+      "index": 642,
+      "start": 2715.04,
+      "end": 2722.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you're at the pharmacy and you need something but of course you don't know the word i chose words that"
+    },
+    {
+      "index": 643,
+      "start": 2722.48,
+      "end": 2728.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "we're pretty difficult to see these are c1 c2 level words most of them um so i want you"
+    },
+    {
+      "index": 644,
+      "start": 2728.24,
+      "end": 2737.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "to take turns being the customer and the pharmacist the pharmacist will pick a picture and a number"
+    },
+    {
+      "index": 645,
+      "start": 2737.2,
+      "end": 2743.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "but of course will not say what the number is and we'll try to explain what they need to the pharmacist"
+    },
+    {
+      "index": 646,
+      "start": 2744.8,
+      "end": 2752.08,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "what it's for what kind of thing it is the pharmacist will ask questions and then we'll check"
+    },
+    {
+      "index": 647,
+      "start": 2752.08,
+      "end": 2754.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "before they guess the number"
+    },
+    {
+      "index": 648,
+      "start": 2754.72,
+      "end": 2763.84,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay so uh Partner how many guesses do you get as the pharmacist"
+    },
+    {
+      "index": 649,
+      "start": 2765.92,
+      "end": 2774.8,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "how many guess"
+    },
+    {
+      "index": 650,
+      "start": 2774.8,
+      "end": 2774.91,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "how many"
+    },
+    {
+      "index": 651,
+      "start": 2774.91,
+      "end": 2776.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "guesses how many guess yes how many guesses oh three yeah"
+    },
+    {
+      "index": 652,
+      "start": 2776.96,
+      "end": 2784.88,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "no no no not a genie just just one you only get one guess but you have to check before"
+    },
+    {
+      "index": 653,
+      "start": 2784.88,
+      "end": 2793.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yep exactly and after the guess you will switch right as we did before so you'll do customer pharmacist"
+    },
+    {
+      "index": 654,
+      "start": 2793.04,
+      "end": 2798.8,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and then you will switch roles okay so i will put you back into breakout rooms and we will do this"
+    },
+    {
+      "index": 655,
+      "start": 2798.8,
+      "end": 2804.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "again this time in the pharmacy and you see on the right hand side you have all of these uh language"
+    },
+    {
+      "index": 656,
+      "start": 2804.96,
+      "end": 2811.6,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "points we learned i would love if you try to use as many as possible okay okay"
+    },
+    {
+      "index": 657,
+      "start": 2811.6,
+      "end": 2817.93,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it's really"
+    },
+    {
+      "index": 658,
+      "start": 2819.16,
+      "end": 2822.16,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "nice"
+    },
+    {
+      "index": 659,
+      "start": 2823.04,
+      "end": 2834.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay you will be a seller or pharmacist"
+    },
+    {
+      "index": 660,
+      "start": 2834.88,
+      "end": 2840.4,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "pharmacist okay do you want me to be the pharmacist first"
+    },
+    {
+      "index": 661,
+      "start": 2840.4,
+      "end": 2844.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "hello how can i help you"
+    },
+    {
+      "index": 662,
+      "start": 2844.64,
+      "end": 2850.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hi i will be starting my laptop all day and my"
+    },
+    {
+      "index": 663,
+      "start": 2850.96,
+      "end": 2857.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "age is really dry i don't know this word but maybe you can help me"
+    },
+    {
+      "index": 664,
+      "start": 2857.28,
+      "end": 2858.97,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you need"
+    },
+    {
+      "index": 665,
+      "start": 2860.33,
+      "end": 2866.48,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "something for your eyes right yeah"
+    },
+    {
+      "index": 666,
+      "start": 2866.48,
+      "end": 2869.28,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 667,
+      "start": 2869.28,
+      "end": 2870.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i drops uh"
+    },
+    {
+      "index": 668,
+      "start": 2870.8,
+      "end": 2877.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes i i age drops yes i need age drops please"
+    },
+    {
+      "index": 669,
+      "start": 2879.36,
+      "end": 2882.48,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "here you are so we shall swap as you can see"
+    },
+    {
+      "index": 670,
+      "start": 2882.48,
+      "end": 2882.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 671,
+      "start": 2884.0,
+      "end": 2887.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe another situation"
+    },
+    {
+      "index": 672,
+      "start": 2887.12,
+      "end": 2890.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "might be hard"
+    },
+    {
+      "index": 673,
+      "start": 2890.08,
+      "end": 2890.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "so now"
+    },
+    {
+      "index": 674,
+      "start": 2890.96,
+      "end": 2893.77,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "you are pharmacist"
+    },
+    {
+      "index": 675,
+      "start": 2894.01,
+      "end": 2895.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 676,
+      "start": 2895.2,
+      "end": 2899.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh hi can you help you"
+    },
+    {
+      "index": 677,
+      "start": 2899.12,
+      "end": 2907.68,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah no the thing is i've um you know my son has got a temperature and"
+    },
+    {
+      "index": 678,
+      "start": 2907.68,
+      "end": 2915.6,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "um i'm afraid he's running a fever but we've forgotten that thing that gadget we use to measure the temperature"
+    },
+    {
+      "index": 679,
+      "start": 2915.6,
+      "end": 2919.36,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "um does that make sense"
+    },
+    {
+      "index": 680,
+      "start": 2921.52,
+      "end": 2928.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe maybe you cannot sleep uh night is uh many times since sounds and"
+    },
+    {
+      "index": 681,
+      "start": 2928.0,
+      "end": 2932.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 682,
+      "start": 2932.65,
+      "end": 2935.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh could you please uh"
+    },
+    {
+      "index": 683,
+      "start": 2935.84,
+      "end": 2940.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "what your situation when you're going to sleep"
+    },
+    {
+      "index": 684,
+      "start": 2942.0,
+      "end": 2948.88,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "uh well the thing is i don't know the word but it's the thing we used to measure the temperature"
+    },
+    {
+      "index": 685,
+      "start": 2948.88,
+      "end": 2950.88,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 686,
+      "start": 2950.88,
+      "end": 2952.03,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "temperature to check the"
+    },
+    {
+      "index": 687,
+      "start": 2952.03,
+      "end": 2952.8,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "temperature"
+    },
+    {
+      "index": 688,
+      "start": 2953.84,
+      "end": 2962.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh you you you think about thermometer you needed uh which is uh okay but uh"
+    },
+    {
+      "index": 689,
+      "start": 2964.8,
+      "end": 2978.64,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 690,
+      "start": 2978.64,
+      "end": 2980.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it's very nice"
+    },
+    {
+      "index": 691,
+      "start": 2980.0,
+      "end": 2982.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay"
+    },
+    {
+      "index": 692,
+      "start": 2982.96,
+      "end": 2985.04,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "let's try something else"
+    },
+    {
+      "index": 693,
+      "start": 2986.64,
+      "end": 2988.89,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe maybe maybe uh yeah you can uh how"
+    },
+    {
+      "index": 694,
+      "start": 2988.89,
+      "end": 2989.52,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "can i help you"
+    },
+    {
+      "index": 695,
+      "start": 2989.52,
+      "end": 3000.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "oh yeah hi i i have my accident piece paper i don't know this word but on kind small"
+    },
+    {
+      "index": 696,
+      "start": 3000.72,
+      "end": 3005.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "stick strips and salt and paid and middle"
+    },
+    {
+      "index": 697,
+      "start": 3008.56,
+      "end": 3012.61,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "sorry what thing do you want this"
+    },
+    {
+      "index": 698,
+      "start": 3013.72,
+      "end": 3020.78,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "is uses cover and protect and small"
+    },
+    {
+      "index": 699,
+      "start": 3020.78,
+      "end": 3022.56,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "card"
+    },
+    {
+      "index": 700,
+      "start": 3022.56,
+      "end": 3023.57,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "do"
+    },
+    {
+      "index": 701,
+      "start": 3023.57,
+      "end": 3033.2,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "you mean the well i give up i don't understand could you paraphrase"
+    },
+    {
+      "index": 702,
+      "start": 3034.4,
+      "end": 3040.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "that's my bad sorry small card blister on your skin"
+    },
+    {
+      "index": 703,
+      "start": 3040.56,
+      "end": 3046.34,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "do you mean the"
+    },
+    {
+      "index": 704,
+      "start": 3048.52,
+      "end": 3049.92,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "plaster"
+    },
+    {
+      "index": 705,
+      "start": 3049.92,
+      "end": 3051.5,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yes could"
+    },
+    {
+      "index": 706,
+      "start": 3052.04,
+      "end": 3057.18,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you please give me faster band eight yeah"
+    },
+    {
+      "index": 707,
+      "start": 3057.44,
+      "end": 3062.08,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "i i heard god instead of card and i was trying"
+    },
+    {
+      "index": 708,
+      "start": 3064.4,
+      "end": 3066.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 709,
+      "start": 3066.56,
+      "end": 3070.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "when you use a small cut that is this is uh in boot is"
+    },
+    {
+      "index": 710,
+      "start": 3070.72,
+      "end": 3072.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "let's go"
+    },
+    {
+      "index": 711,
+      "start": 3072.72,
+      "end": 3074.24,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "yeah"
+    },
+    {
+      "index": 712,
+      "start": 3074.24,
+      "end": 3079.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay hi can you help you"
+    },
+    {
+      "index": 713,
+      "start": 3079.92,
+      "end": 3080.27,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes"
+    },
+    {
+      "index": 714,
+      "start": 3082.17,
+      "end": 3085.52,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "please you know i need that things"
+    },
+    {
+      "index": 715,
+      "start": 3094.4,
+      "end": 3104.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay welcome back i got to listen to both rooms a little bit i was very happy to hear"
+    },
+    {
+      "index": 716,
+      "start": 3104.72,
+      "end": 3113.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you guys were having a good time getting some laughs but also using the new language and uh and"
+    },
+    {
+      "index": 717,
+      "start": 3113.2,
+      "end": 3119.84,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "describing these very difficult words um i will show you now what these words are you can see if"
+    },
+    {
+      "index": 718,
+      "start": 3119.84,
+      "end": 3126.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "anything familiar i heard someone knew what earplugs were somebody called number seven a plaster"
+    },
+    {
+      "index": 719,
+      "start": 3126.24,
+      "end": 3135.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "which is also known as a band-aid that's the name brand good very very good guys okay so the last"
+    },
+    {
+      "index": 720,
+      "start": 3135.12,
+      "end": 3142.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "thing we're going to do today is i want you to tell a story to your partner it can be a true story or you"
+    },
+    {
+      "index": 721,
+      "start": 3142.72,
+      "end": 3145.68,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "can make it up but i want you to think of a word"
+    },
+    {
+      "index": 722,
+      "start": 3145.68,
+      "end": 3153.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and explain this story without saying the word pretend like you don't know the word"
+    },
+    {
+      "index": 723,
+      "start": 3153.12,
+      "end": 3159.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and then your partner will have to guess what the word is just like we did in the other games okay"
+    },
+    {
+      "index": 724,
+      "start": 3159.92,
+      "end": 3168.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "so for example uh two weeks ago my toilet stopped working so i called the plumber and even though i've"
+    },
+    {
+      "index": 725,
+      "start": 3168.4,
+      "end": 3173.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "lived in germany for 20 years i don't know all the parts of a toilet i don't even know what that is in"
+    },
+    {
+      "index": 726,
+      "start": 3173.04,
+      "end": 3179.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "english in my own language so i called and i said um yeah there's a problem with the toilet uh when i"
+    },
+    {
+      "index": 727,
+      "start": 3179.04,
+      "end": 3186.88,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "push the thing the water doesn't go down and he said um the thing uh which water do you mean the"
+    },
+    {
+      "index": 728,
+      "start": 3186.88,
+      "end": 3192.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "water in the bowl or the water in the tank and i said oh yeah the water in in the bowl and when i push"
+    },
+    {
+      "index": 729,
+      "start": 3192.48,
+      "end": 3199.36,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "the thing on the side it doesn't go down he said ah you mean the the flush handle ah yeah that's it okay"
+    },
+    {
+      "index": 730,
+      "start": 3199.36,
+      "end": 3199.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "thanks"
+    },
+    {
+      "index": 731,
+      "start": 3199.76,
+      "end": 3201.46,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes flashing clock so i'm going"
+    },
+    {
+      "index": 732,
+      "start": 3201.49,
+      "end": 3204.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "to put you guys back in breakout rooms just for a couple minutes"
+    },
+    {
+      "index": 733,
+      "start": 3204.96,
+      "end": 3211.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and then i want you to tell a story again it can be true or you can make it up and keep a word secret"
+    },
+    {
+      "index": 734,
+      "start": 3211.12,
+      "end": 3218.43,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "in your head and try to see if your"
+    },
+    {
+      "index": 735,
+      "start": 3218.44,
+      "end": 3223.68,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "partner can guess okay"
+    },
+    {
+      "index": 736,
+      "start": 3232.16,
+      "end": 3241.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hi hi uh i have it uh might is a problem i i every time at uh"
+    },
+    {
+      "index": 737,
+      "start": 3241.36,
+      "end": 3252.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "in many country uh have uh another uh if you usually you want to charge a laptop and charge"
+    },
+    {
+      "index": 738,
+      "start": 3255.28,
+      "end": 3270.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh charge uh phone is uh have its minimal problem uh could you please uh listen my uh my story"
+    },
+    {
+      "index": 739,
+      "start": 3270.8,
+      "end": 3272.65,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh i'm"
+    },
+    {
+      "index": 740,
+      "start": 3272.65,
+      "end": 3273.93,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "all ears uh i"
+    },
+    {
+      "index": 741,
+      "start": 3274.93,
+      "end": 3283.44,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "visited at 158 countries this is happens to me is time with electronics on"
+    },
+    {
+      "index": 742,
+      "start": 3283.44,
+      "end": 3292.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "when i arrived in my hotel it's night releasing my laptop changers this fit is low i went to from desk"
+    },
+    {
+      "index": 743,
+      "start": 3292.08,
+      "end": 3300.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and i said i don't know what is world could you please uh give me a small plastic device"
+    },
+    {
+      "index": 744,
+      "start": 3300.0,
+      "end": 3302.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and you between the charger"
+    },
+    {
+      "index": 745,
+      "start": 3302.24,
+      "end": 3310.93,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe you know what you uh what do you mean uh do you make sentence do you"
+    },
+    {
+      "index": 746,
+      "start": 3311.35,
+      "end": 3312.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "mean uh the"
+    },
+    {
+      "index": 747,
+      "start": 3313.2,
+      "end": 3313.98,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "adapter"
+    },
+    {
+      "index": 748,
+      "start": 3314.74,
+      "end": 3324.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "adapter yes adapter but if asking adapter not understand many people"
+    },
+    {
+      "index": 749,
+      "start": 3324.0,
+      "end": 3329.14,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "why i don't"
+    },
+    {
+      "index": 750,
+      "start": 3329.54,
+      "end": 3329.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "know"
+    },
+    {
+      "index": 751,
+      "start": 3329.92,
+      "end": 3331.35,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "in hong"
+    },
+    {
+      "index": 752,
+      "start": 3331.35,
+      "end": 3340.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "kong it is a very problem uh and adapter has another uh"
+    },
+    {
+      "index": 753,
+      "start": 3342.88,
+      "end": 3355.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "switcher and uh switcher and uh using in british adapter and uh when i had i need a adapter not understand"
+    },
+    {
+      "index": 754,
+      "start": 3355.6,
+      "end": 3361.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "word i mean and i need uh what is uh world"
+    },
+    {
+      "index": 755,
+      "start": 3361.32,
+      "end": 3365.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 756,
+      "start": 3370.24,
+      "end": 3382.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "what is world one moment i"
+    },
+    {
+      "index": 757,
+      "start": 3382.88,
+      "end": 3390.98,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i check"
+    },
+    {
+      "index": 758,
+      "start": 3392.09,
+      "end": 3398.24,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "what"
+    },
+    {
+      "index": 759,
+      "start": 3400.24,
+      "end": 3405.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "is uh plug adapter and uh plug adapter and uh"
+    },
+    {
+      "index": 760,
+      "start": 3405.92,
+      "end": 3409.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "plug adapter and uh"
+    },
+    {
+      "index": 761,
+      "start": 3410.87,
+      "end": 3417.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "ah uh another world uh voltage converter"
+    },
+    {
+      "index": 762,
+      "start": 3417.92,
+      "end": 3418.98,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "oh now i see"
+    },
+    {
+      "index": 763,
+      "start": 3419.21,
+      "end": 3422.48,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "it's absolutely different thing"
+    },
+    {
+      "index": 764,
+      "start": 3423.68,
+      "end": 3433.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes yes it's uh when i had a plug adapter using it's uh not understand for me but uh voltage converter is uh"
+    },
+    {
+      "index": 765,
+      "start": 3433.36,
+      "end": 3435.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh very nice in converter"
+    },
+    {
+      "index": 766,
+      "start": 3436.93,
+      "end": 3446.32,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "well i had a similar situation but in my native language you know we had a neighbor um"
+    },
+    {
+      "index": 767,
+      "start": 3446.32,
+      "end": 3453.12,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "um we used to live in another flat and there was a young neighbor um who lived the next door"
+    },
+    {
+      "index": 768,
+      "start": 3453.12,
+      "end": 3462.0,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "um he played ice hockey was not clever enough i would say but uh there was a situation when uh"
+    },
+    {
+      "index": 769,
+      "start": 3462.0,
+      "end": 3473.44,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "uh we had kind of um renovation at film and the thing was that i used my portable screwdriver to"
+    },
+    {
+      "index": 770,
+      "start": 3473.44,
+      "end": 3475.12,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "um"
+    },
+    {
+      "index": 771,
+      "start": 3475.12,
+      "end": 3487.12,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "to well i was making a piece of furniture and um there is something that is named as confirmed in russia"
+    },
+    {
+      "index": 772,
+      "start": 3489.12,
+      "end": 3504.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay welcome back is everyone here"
+    },
+    {
+      "index": 773,
+      "start": 3504.4,
+      "end": 3506.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yeah"
+    },
+    {
+      "index": 774,
+      "start": 3508.64,
+      "end": 3516.08,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "good good good okay so i i heard a lot of good language today a lot of good intonation a lot of"
+    },
+    {
+      "index": 775,
+      "start": 3516.08,
+      "end": 3522.0,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "using these new uh language points to describe what you uh what you were talking about and some of"
+    },
+    {
+      "index": 776,
+      "start": 3522.0,
+      "end": 3528.08,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you got guessed very very quickly i want to put up on the on the whiteboard some feedback some good"
+    },
+    {
+      "index": 777,
+      "start": 3528.08,
+      "end": 3533.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "feedback and some feedback uh where we need to screwdriver adjustments to make it even better"
+    },
+    {
+      "index": 778,
+      "start": 3533.76,
+      "end": 3535.62,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "so i will type something sorry"
+    },
+    {
+      "index": 779,
+      "start": 3536.17,
+      "end": 3542.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh teacher i have a question for Partner in uh yes"
+    },
+    {
+      "index": 780,
+      "start": 3542.08,
+      "end": 3542.38,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "you"
+    },
+    {
+      "index": 781,
+      "start": 3542.74,
+      "end": 3547.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "mean the square drive beat for your history"
+    },
+    {
+      "index": 782,
+      "start": 3550.56,
+      "end": 3558.24,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "no that was kind of um not a self-tapping screw not a battery"
+    },
+    {
+      "index": 783,
+      "start": 3558.24,
+      "end": 3559.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "charger"
+    },
+    {
+      "index": 784,
+      "start": 3559.36,
+      "end": 3562.64,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "no no no the thing that we"
+    },
+    {
+      "index": 785,
+      "start": 3562.64,
+      "end": 3572.24,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "screw into the two parts of uh two pieces of um wood to to make them one thing and i was explaining that"
+    },
+    {
+      "index": 786,
+      "start": 3572.24,
+      "end": 3575.44,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "word in russian so the guy i didn't know it in russian"
+    },
+    {
+      "index": 787,
+      "start": 3575.44,
+      "end": 3576.08,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "well"
+    },
+    {
+      "index": 788,
+      "start": 3576.08,
+      "end": 3580.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "plug well plug and when i use the water"
+    },
+    {
+      "index": 789,
+      "start": 3580.08,
+      "end": 3586.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "this will will plug and uh this name is english"
+    },
+    {
+      "index": 790,
+      "start": 3589.92,
+      "end": 3591.77,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "uh"
+    },
+    {
+      "index": 791,
+      "start": 3591.91,
+      "end": 3595.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "i'm afraid i'm not sure okay Learner can i can i give you guys some feedback and you guys can talk"
+    },
+    {
+      "index": 792,
+      "start": 3595.12,
+      "end": 3601.44,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "about this after so the first was someone described something as being under your neck"
+    },
+    {
+      "index": 793,
+      "start": 3601.44,
+      "end": 3603.27,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "neck"
+    },
+    {
+      "index": 794,
+      "start": 3603.35,
+      "end": 3603.4,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i"
+    },
+    {
+      "index": 795,
+      "start": 3603.55,
+      "end": 3609.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "think you were talking about the collarbone yeah so is this correct under your neck"
+    },
+    {
+      "index": 796,
+      "start": 3614.16,
+      "end": 3615.14,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "below"
+    },
+    {
+      "index": 797,
+      "start": 3615.3,
+      "end": 3624.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "below below below below good okay"
+    },
+    {
+      "index": 798,
+      "start": 3624.75,
+      "end": 3632.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "i also heard this i'm not sure i get the last phrase"
+    },
+    {
+      "index": 799,
+      "start": 3634.64,
+      "end": 3636.16,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "i"
+    },
+    {
+      "index": 800,
+      "start": 3637.51,
+      "end": 3645.92,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "would"
+    },
+    {
+      "index": 801,
+      "start": 3645.92,
+      "end": 3649.25,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "i would say it's almost correct why"
+    },
+    {
+      "index": 802,
+      "start": 3649.4,
+      "end": 3649.89,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "not so"
+    },
+    {
+      "index": 803,
+      "start": 3650.16,
+      "end": 3653.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "what's wrong what's wrong with this Partner good"
+    },
+    {
+      "index": 804,
+      "start": 3653.92,
+      "end": 3654.88,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "got"
+    },
+    {
+      "index": 805,
+      "start": 3654.88,
+      "end": 3655.24,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "i'll"
+    },
+    {
+      "index": 806,
+      "start": 3655.67,
+      "end": 3656.96,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "go to right"
+    },
+    {
+      "index": 807,
+      "start": 3656.96,
+      "end": 3662.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "we want a simple past form right all right"
+    },
+    {
+      "index": 808,
+      "start": 3664.64,
+      "end": 3666.02,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "i heard"
+    },
+    {
+      "index": 809,
+      "start": 3666.21,
+      "end": 3675.43,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "someone say this does make sense does make sense does"
+    },
+    {
+      "index": 810,
+      "start": 3675.73,
+      "end": 3677.18,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "it make sense"
+    },
+    {
+      "index": 811,
+      "start": 3677.2,
+      "end": 3678.4,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "does this make sense"
+    },
+    {
+      "index": 812,
+      "start": 3678.4,
+      "end": 3679.14,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "does it make"
+    },
+    {
+      "index": 813,
+      "start": 3679.81,
+      "end": 3682.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "sense right all right was the engine"
+    },
+    {
+      "index": 814,
+      "start": 3682.64,
+      "end": 3683.19,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "was the"
+    },
+    {
+      "index": 815,
+      "start": 3683.19,
+      "end": 3685.04,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "intonation correct"
+    },
+    {
+      "index": 816,
+      "start": 3685.04,
+      "end": 3686.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "does make"
+    },
+    {
+      "index": 817,
+      "start": 3686.2,
+      "end": 3689.06,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it sense does it make sense"
+    },
+    {
+      "index": 818,
+      "start": 3689.81,
+      "end": 3691.44,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "was that correct"
+    },
+    {
+      "index": 819,
+      "start": 3693.76,
+      "end": 3699.92,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay yes right you're asking a question so the intonation is rising at the end good"
+    },
+    {
+      "index": 820,
+      "start": 3699.92,
+      "end": 3708.64,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "i also heard this today oh i see do you mean"
+    },
+    {
+      "index": 821,
+      "start": 3708.64,
+      "end": 3716.18,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "Partner does this"
+    },
+    {
+      "index": 822,
+      "start": 3716.18,
+      "end": 3721.76,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "look correct"
+    },
+    {
+      "index": 823,
+      "start": 3722.88,
+      "end": 3723.14,
+      "speaker": "ASR voice ? (unverified)",
+      "text": "it"
+    },
+    {
+      "index": 824,
+      "start": 3723.16,
+      "end": 3730.64,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "looks pretty good to me yeah oh i see is confirmation and then do you mean and then they're confirming"
+    },
+    {
+      "index": 825,
+      "start": 3730.64,
+      "end": 3733.68,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "exactly maybe possibly paraphrasing"
+    },
+    {
+      "index": 826,
+      "start": 3733.68,
+      "end": 3739.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "good there's one more sorry what thing do you want"
+    },
+    {
+      "index": 827,
+      "start": 3739.76,
+      "end": 3745.84,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "this was in the uh this was in the uh pharmacy"
+    },
+    {
+      "index": 828,
+      "start": 3748.24,
+      "end": 3749.33,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "is that very polite no"
+    },
+    {
+      "index": 829,
+      "start": 3750.11,
+      "end": 3751.64,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "very polite not very"
+    },
+    {
+      "index": 830,
+      "start": 3751.91,
+      "end": 3756.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "polite yeah so Partner what would be a more polite way to"
+    },
+    {
+      "index": 831,
+      "start": 3756.4,
+      "end": 3758.4,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "say this um"
+    },
+    {
+      "index": 832,
+      "start": 3758.4,
+      "end": 3765.04,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "sorry what exactly do you want"
+    },
+    {
+      "index": 833,
+      "start": 3765.04,
+      "end": 3766.32,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "perfect what"
+    },
+    {
+      "index": 834,
+      "start": 3766.32,
+      "end": 3769.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "exactly do you want"
+    },
+    {
+      "index": 835,
+      "start": 3771.76,
+      "end": 3777.38,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "or what exactly are you looking for would even be a bit more polite i think yes"
+    },
+    {
+      "index": 836,
+      "start": 3777.43,
+      "end": 3777.49,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "i"
+    },
+    {
+      "index": 837,
+      "start": 3777.68,
+      "end": 3778.48,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "also heard this"
+    },
+    {
+      "index": 838,
+      "start": 3778.48,
+      "end": 3780.96,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "which i loved"
+    },
+    {
+      "index": 839,
+      "start": 3780.96,
+      "end": 3786.72,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "very proud sorry i don't understand could you paraphrase"
+    },
+    {
+      "index": 840,
+      "start": 3786.72,
+      "end": 3794.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "this is great hopefully the person knows what paraphrase means or then you will have to start"
+    },
+    {
+      "index": 841,
+      "start": 3794.56,
+      "end": 3797.14,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "explaining paraphrase and going back and forth he's"
+    },
+    {
+      "index": 842,
+      "start": 3797.14,
+      "end": 3797.6,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "the mate"
+    },
+    {
+      "index": 843,
+      "start": 3797.6,
+      "end": 3801.52,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "yeah yeah yeah what's another way you could if"
+    },
+    {
+      "index": 844,
+      "start": 3801.52,
+      "end": 3804.65,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "they didn't know paraphrase what's another way you could say that could do"
+    },
+    {
+      "index": 845,
+      "start": 3804.96,
+      "end": 3805.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you please"
+    },
+    {
+      "index": 846,
+      "start": 3808.4,
+      "end": 3811.68,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "could you say that another way yeah something like that"
+    },
+    {
+      "index": 847,
+      "start": 3811.68,
+      "end": 3813.02,
+      "speaker": "ASR voice 3 (unverified)",
+      "text": "okay and the"
+    },
+    {
+      "index": 848,
+      "start": 3813.02,
+      "end": 3819.76,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "last one was listen to how i say that this does that make sense"
+    },
+    {
+      "index": 849,
+      "start": 3821.84,
+      "end": 3825.12,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "does that make so what's wrong with it Partner"
+    },
+    {
+      "index": 850,
+      "start": 3825.12,
+      "end": 3828.56,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "it it sounds sarcastic i would say or something like"
+    },
+    {
+      "index": 851,
+      "start": 3828.56,
+      "end": 3831.58,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "like your um does that make sense yeah"
+    },
+    {
+      "index": 852,
+      "start": 3832.36,
+      "end": 3837.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "exactly it's missing the rising intonation exactly great guys"
+    },
+    {
+      "index": 853,
+      "start": 3837.2,
+      "end": 3845.6,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "i'm going to put now in the window of the of the chat box all of these sheets with all the vocabulary"
+    },
+    {
+      "index": 854,
+      "start": 3846.24,
+      "end": 3850.0,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "so that in the future you guys can have those for your records and you can learn it"
+    },
+    {
+      "index": 855,
+      "start": 3850.0,
+      "end": 3855.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay guys thank you so much this was a great lesson i had a lot of fun i hope you did too"
+    },
+    {
+      "index": 856,
+      "start": 3855.2,
+      "end": 3861.2,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "and i hope in the future that you can use some of these phrases to help um to help communicate better"
+    },
+    {
+      "index": 857,
+      "start": 3861.2,
+      "end": 3862.54,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "okay thank"
+    },
+    {
+      "index": 858,
+      "start": 3862.65,
+      "end": 3863.67,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you thanks guys"
+    },
+    {
+      "index": 859,
+      "start": 3863.91,
+      "end": 3866.56,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "have a great night a great weekend okay"
+    },
+    {
+      "index": 860,
+      "start": 3866.56,
+      "end": 3867.46,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "thank"
+    },
+    {
+      "index": 861,
+      "start": 3867.46,
+      "end": 3868.0,
+      "speaker": "ASR voice 6 (unverified)",
+      "text": "you"
+    },
+    {
+      "index": 862,
+      "start": 3868.0,
+      "end": 3870.02,
+      "speaker": "ASR voice 7 (unverified)",
+      "text": "bye-bye thank"
+    },
+    {
+      "index": 863,
+      "start": 3870.02,
+      "end": 3871.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you bye"
+    }
+  ]
+}

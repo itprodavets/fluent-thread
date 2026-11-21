@@ -1,0 +1,2012 @@
+{
+  "notice": "Complete inventory of cluster 2, plus contextual correction ledger in lesson.json. Identity is inferred only from context; clusters and short overlaps are unreliable. Source text is neutralized, not corrected.",
+  "segments": [
+    {
+      "index": 2,
+      "start": 1.19,
+      "end": 4.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "thank you and you and oh",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 21,
+      "start": 89.52,
+      "end": 93.76,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe uh you can speak uh germany now",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 22,
+      "start": 95.12,
+      "end": 96.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "good and talk good and morgan",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 23,
+      "start": 96.88,
+      "end": 100.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "good enough Learner",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 25,
+      "start": 102.24,
+      "end": 106.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "russia but i i live in china and uh when i",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 26,
+      "start": 106.96,
+      "end": 117.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh yeah when i child uh and uh studying uh started in school i uh speaking fluence germany but now i",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 27,
+      "start": 117.84,
+      "end": 127.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "cannot speak germany but only read and understanding what you uh speaking i want to say in germany",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 97,
+      "start": 402.24,
+      "end": 411.67,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "oh okay",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 100,
+      "start": 420.23,
+      "end": 420.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "of you",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 114,
+      "start": 513.79,
+      "end": 519.76,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "my name is Learner uh doctor i needed help uh it's uh it's my",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 115,
+      "start": 519.76,
+      "end": 520.38,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it's",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 120,
+      "start": 533.76,
+      "end": 540.9,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i want to uh is uh eight it's back it's like here i want this discussion don't say the",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 123,
+      "start": 543.6,
+      "end": 544.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "don't say",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 125,
+      "start": 547.02,
+      "end": 547.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "ah okay okay",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 144,
+      "start": 621.74,
+      "end": 623.07,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay hello",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 147,
+      "start": 627.1,
+      "end": 634.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "my back it's the right side it's no top i fly the trains the bowling fights and my chest",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 148,
+      "start": 634.24,
+      "end": 638.25,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "bluffing shoulder i don't know what is could you please help me sorry",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 151,
+      "start": 647.79,
+      "end": 649.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "your back",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 153,
+      "start": 651.76,
+      "end": 653.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh back",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 154,
+      "start": 653.92,
+      "end": 663.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh it's my situation every time i see the many see today in working kids uh office i'm not going to",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 155,
+      "start": 663.04,
+      "end": 672.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "street i every time see it's my uh right leg between his back i don't know uh maybe you can help me how about",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 156,
+      "start": 672.8,
+      "end": 679.53,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you can uh decide my problem sure uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 159,
+      "start": 692.03,
+      "end": 694.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "a leg right right right today is",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 160,
+      "start": 694.72,
+      "end": 700.99,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh is i have it here right back is ice power i don't know why",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 162,
+      "start": 706.48,
+      "end": 707.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 170,
+      "start": 756.16,
+      "end": 757.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yeah but attention",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 193,
+      "start": 840.5,
+      "end": 847.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i like uh it's uh Partner role is uh receptionist it's very nice",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 196,
+      "start": 858.08,
+      "end": 861.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "um",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 197,
+      "start": 864.48,
+      "end": 873.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "Partner",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 209,
+      "start": 927.12,
+      "end": 929.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "what is uh any words what do you mean",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 210,
+      "start": 929.12,
+      "end": 932.26,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "on body what",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 212,
+      "start": 932.67,
+      "end": 937.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you mean it's uh it's as their words what uh what is words",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 213,
+      "start": 937.84,
+      "end": 940.11,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh did you know did",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 216,
+      "start": 944.22,
+      "end": 945.5,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes yes some",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 224,
+      "start": 975.11,
+      "end": 976.71,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 230,
+      "start": 984.01,
+      "end": 984.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 266,
+      "start": 1114.87,
+      "end": 1116.06,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "squeeze the read constant",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 270,
+      "start": 1123.96,
+      "end": 1125.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "to call doctor yes again",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 303,
+      "start": 1236.88,
+      "end": 1240.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "playing to where is by describe a location",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 304,
+      "start": 1240.48,
+      "end": 1255.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "fun function function simple words uh it's uh skin uh part uh ah in skin when you uh when uh he is sleeping",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 305,
+      "start": 1255.12,
+      "end": 1256.81,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "very good he says",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 307,
+      "start": 1262.88,
+      "end": 1267.1,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hello",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 309,
+      "start": 1267.76,
+      "end": 1268.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "bottom",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 311,
+      "start": 1269.68,
+      "end": 1274.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and uh bottom part that closes little hairs",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 312,
+      "start": 1274.32,
+      "end": 1287.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "great and uh sorry go ahead uh i think about uh when your skin is part is closest when you sleep",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 313,
+      "start": 1288.32,
+      "end": 1293.65,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and uh uh bottom parts and little hairs he said the eyelid",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 323,
+      "start": 1340.94,
+      "end": 1342.31,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "will also see",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 326,
+      "start": 1354.09,
+      "end": 1358.31,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sure that i shared it",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 328,
+      "start": 1359.87,
+      "end": 1362.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "open up the pdf i just sent",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 329,
+      "start": 1362.8,
+      "end": 1364.31,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay okay does",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 332,
+      "start": 1367.92,
+      "end": 1368.06,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 343,
+      "start": 1431.04,
+      "end": 1434.26,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "let me",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 353,
+      "start": 1508.12,
+      "end": 1508.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hello again",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 354,
+      "start": 1508.56,
+      "end": 1511.26,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "can you see",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 356,
+      "start": 1515.52,
+      "end": 1517.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes i see",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 357,
+      "start": 1519.68,
+      "end": 1520.62,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and i",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 359,
+      "start": 1521.6,
+      "end": 1521.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "all right",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 360,
+      "start": 1521.84,
+      "end": 1523.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 361,
+      "start": 1523.92,
+      "end": 1526.64,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh number",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 362,
+      "start": 1526.64,
+      "end": 1531.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "answer s yes",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 363,
+      "start": 1531.04,
+      "end": 1532.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 364,
+      "start": 1532.08,
+      "end": 1533.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "or",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 368,
+      "start": 1541.76,
+      "end": 1542.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "think it's",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 370,
+      "start": 1545.2,
+      "end": 1551.1,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "number one is no number two can you describe",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 372,
+      "start": 1554.26,
+      "end": 1556.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sure ask where",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 373,
+      "start": 1556.88,
+      "end": 1567.76,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "one moment",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 374,
+      "start": 1572.72,
+      "end": 1577.59,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 378,
+      "start": 1588.96,
+      "end": 1593.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "ah this is because this receptionist is sure where this problem",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 379,
+      "start": 1593.68,
+      "end": 1601.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "is uh and ask it's more details is number two not sure",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 386,
+      "start": 1625.44,
+      "end": 1626.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "um",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 387,
+      "start": 1626.32,
+      "end": 1629.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "number two uh this is e",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 388,
+      "start": 1629.12,
+      "end": 1631.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "not sure",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 390,
+      "start": 1634.64,
+      "end": 1635.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh number three",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 391,
+      "start": 1635.68,
+      "end": 1638.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh say where",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 392,
+      "start": 1641.44,
+      "end": 1645.44,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "because it's give us uh extract the location his uh age",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 393,
+      "start": 1645.44,
+      "end": 1650.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh number three is this f yes i agree",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 395,
+      "start": 1659.36,
+      "end": 1665.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "check your distance uh",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 396,
+      "start": 1665.12,
+      "end": 1665.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "he asked i made sure it's a",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 397,
+      "start": 1665.28,
+      "end": 1668.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "explanation",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 398,
+      "start": 1668.8,
+      "end": 1672.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i think about this d",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 401,
+      "start": 1683.04,
+      "end": 1686.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "um check guys",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 403,
+      "start": 1688.56,
+      "end": 1689.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 404,
+      "start": 1689.2,
+      "end": 1691.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hey",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 405,
+      "start": 1691.92,
+      "end": 1696.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and uh last uh b",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 406,
+      "start": 1696.0,
+      "end": 1700.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yeah but beta is this number",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 407,
+      "start": 1700.88,
+      "end": 1708.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh because she summaries his food describe is here on words and confirm",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 408,
+      "start": 1710.08,
+      "end": 1718.64,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh yes",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 409,
+      "start": 1718.92,
+      "end": 1722.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh okay",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 410,
+      "start": 1722.8,
+      "end": 1736.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "for uh for beta this uh six is if you see",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 411,
+      "start": 1738.08,
+      "end": 1738.4,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "all right",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 412,
+      "start": 1738.4,
+      "end": 1742.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "mean small so red bump and age",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 413,
+      "start": 1742.24,
+      "end": 1749.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "well",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 415,
+      "start": 1751.84,
+      "end": 1752.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "thank you",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 416,
+      "start": 1752.08,
+      "end": 1764.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hello again welcome",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 429,
+      "start": 1804.0,
+      "end": 1804.62,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "that's a question",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 431,
+      "start": 1805.52,
+      "end": 1808.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes or can you describe exactly where yes",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 453,
+      "start": 1865.2,
+      "end": 1869.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yeah it's very easy my",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 457,
+      "start": 1882.32,
+      "end": 1884.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes yeah",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 462,
+      "start": 1898.92,
+      "end": 1906.4,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "think about d if you see it as h for bottom parts near little hairs do you know what i",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 463,
+      "start": 1906.4,
+      "end": 1908.46,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "what i mean i think about this",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 465,
+      "start": 1912.16,
+      "end": 1920.11,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "number five uh uh a and uh dialogue very",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 467,
+      "start": 1924.4,
+      "end": 1931.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "one moment i hear uh j lover is near this number five",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 468,
+      "start": 1931.36,
+      "end": 1932.57,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "number",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 490,
+      "start": 2021.04,
+      "end": 2023.39,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "know but good",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 493,
+      "start": 2028.94,
+      "end": 2032.05,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i don't know words but good good",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 496,
+      "start": 2042.72,
+      "end": 2045.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sorry what do you mean",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 499,
+      "start": 2050.61,
+      "end": 2051.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you mean",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 505,
+      "start": 2091.91,
+      "end": 2092.25,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "end",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 507,
+      "start": 2093.37,
+      "end": 2095.87,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sense so we do this together",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 512,
+      "start": 2101.81,
+      "end": 2103.27,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sense good",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 522,
+      "start": 2132.64,
+      "end": 2133.87,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and the last",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 525,
+      "start": 2144.32,
+      "end": 2145.49,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "said so you",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 527,
+      "start": 2146.02,
+      "end": 2146.41,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "the",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 532,
+      "start": 2163.28,
+      "end": 2164.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "very",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 543,
+      "start": 2223.36,
+      "end": 2223.82,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh i",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 545,
+      "start": 2225.04,
+      "end": 2230.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh understand uh you need uh i need this uh create moment",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 546,
+      "start": 2231.76,
+      "end": 2241.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "in uh in uh i percent and doctor and uh i don't uh i don't uh how about this leg and maybe another uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 547,
+      "start": 2241.52,
+      "end": 2243.49,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "Learner Learner i just",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 552,
+      "start": 2253.76,
+      "end": 2259.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "no i understand but that uh my question was being there for",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 553,
+      "start": 2259.68,
+      "end": 2268.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "this uh i need to create situation and for my uh body and i not understand what uh is my",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 554,
+      "start": 2269.36,
+      "end": 2278.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it's like but i uh uh ask it i have this problem but i don't know if the body is uh tired and uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 555,
+      "start": 2278.32,
+      "end": 2281.07,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "many many uh sentences for",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 559,
+      "start": 2295.6,
+      "end": 2296.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 567,
+      "start": 2349.36,
+      "end": 2349.97,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "just showed",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 574,
+      "start": 2396.76,
+      "end": 2397.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you want me",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 576,
+      "start": 2401.92,
+      "end": 2407.71,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh you cannot uh share screen yeah",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 578,
+      "start": 2410.16,
+      "end": 2414.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay oh i see it in your screen",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 579,
+      "start": 2414.56,
+      "end": 2426.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay uh could you please choose a role is maybe you percent or maybe administrator",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 581,
+      "start": 2431.55,
+      "end": 2434.64,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "potential it's okay for me",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 582,
+      "start": 2434.64,
+      "end": 2437.01,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "so shall i",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 584,
+      "start": 2440.88,
+      "end": 2441.52,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "go",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 586,
+      "start": 2451.98,
+      "end": 2458.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hello dr n's office hello how can i help you hi uh something hard near my chest i'm my right side",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 587,
+      "start": 2458.24,
+      "end": 2459.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "is it on the",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 590,
+      "start": 2464.69,
+      "end": 2466.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "think about this",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 593,
+      "start": 2477.28,
+      "end": 2488.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "well but i don't know this word but it's below my chest on the side it's kind and",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 594,
+      "start": 2488.56,
+      "end": 2494.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "sewed uh bone under my arm does make a sense",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 597,
+      "start": 2501.02,
+      "end": 2506.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "think about no",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 598,
+      "start": 2506.96,
+      "end": 2512.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh this is it makes sense",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 599,
+      "start": 2512.8,
+      "end": 2515.55,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "so you",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 602,
+      "start": 2527.58,
+      "end": 2538.71,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "want me to paraphrase now",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 607,
+      "start": 2556.03,
+      "end": 2557.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "russian",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 609,
+      "start": 2566.24,
+      "end": 2574.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh but uh i had a minute uh number two uh this is what is this",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 612,
+      "start": 2582.25,
+      "end": 2583.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "bone yes",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 615,
+      "start": 2592.87,
+      "end": 2594.23,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "had another word",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 617,
+      "start": 2599.28,
+      "end": 2604.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "um yes when i am going to a doctor in china",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 618,
+      "start": 2604.88,
+      "end": 2612.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "oh this is hard that uh what you what is the problem i have this problem okay",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 619,
+      "start": 2612.81,
+      "end": 2620.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you you you needed a uh not problem you cannot more the drink water is",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 620,
+      "start": 2621.44,
+      "end": 2630.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh and you if you uh not it's possible is your describe this problem you come back please again",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 621,
+      "start": 2630.48,
+      "end": 2631.85,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 626,
+      "start": 2666.2,
+      "end": 2666.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "see",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 627,
+      "start": 2666.81,
+      "end": 2667.77,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "a little",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 631,
+      "start": 2671.28,
+      "end": 2672.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes easy",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 635,
+      "start": 2685.51,
+      "end": 2693.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "today so sorry today i'm uh more tired is my presentation is uh a little bit is uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 636,
+      "start": 2693.84,
+      "end": 2696.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hard and uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 639,
+      "start": 2700.29,
+      "end": 2701.13,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "thank you so now",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 657,
+      "start": 2811.6,
+      "end": 2817.93,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it's really",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 659,
+      "start": 2823.04,
+      "end": 2834.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay okay you will be a seller or pharmacist",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 662,
+      "start": 2844.64,
+      "end": 2850.16,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hi i will be starting my laptop all day and my",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 663,
+      "start": 2850.96,
+      "end": 2857.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "age is really dry i don't know this word but maybe you can help me",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 664,
+      "start": 2857.28,
+      "end": 2858.97,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you need",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 667,
+      "start": 2869.28,
+      "end": 2870.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i drops uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 668,
+      "start": 2870.8,
+      "end": 2877.04,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes i i age drops yes i need age drops please",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 671,
+      "start": 2884.0,
+      "end": 2887.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe another situation",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 672,
+      "start": 2887.12,
+      "end": 2890.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "might be hard",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 673,
+      "start": 2890.08,
+      "end": 2890.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "so now",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 675,
+      "start": 2894.01,
+      "end": 2895.2,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 676,
+      "start": 2895.2,
+      "end": 2899.12,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh hi can you help you",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 680,
+      "start": 2921.52,
+      "end": 2928.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe maybe you cannot sleep uh night is uh many times since sounds and",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 681,
+      "start": 2928.0,
+      "end": 2932.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 682,
+      "start": 2932.65,
+      "end": 2935.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh could you please uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 683,
+      "start": 2935.84,
+      "end": 2940.32,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "what your situation when you're going to sleep",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 686,
+      "start": 2950.88,
+      "end": 2952.03,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "temperature to check the",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 688,
+      "start": 2953.84,
+      "end": 2962.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh you you you think about thermometer you needed uh which is uh okay but uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 689,
+      "start": 2964.8,
+      "end": 2978.64,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 690,
+      "start": 2978.64,
+      "end": 2980.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it's very nice",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 691,
+      "start": 2980.0,
+      "end": 2982.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 693,
+      "start": 2986.64,
+      "end": 2988.89,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe maybe maybe uh yeah you can uh how",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 695,
+      "start": 2989.52,
+      "end": 3000.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "oh yeah hi i i have my accident piece paper i don't know this word but on kind small",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 696,
+      "start": 3000.72,
+      "end": 3005.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "stick strips and salt and paid and middle",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 698,
+      "start": 3013.72,
+      "end": 3020.78,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "is uses cover and protect and small",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 702,
+      "start": 3034.4,
+      "end": 3040.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "that's my bad sorry small card blister on your skin",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 703,
+      "start": 3040.56,
+      "end": 3046.34,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "do you mean the",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 706,
+      "start": 3052.04,
+      "end": 3057.18,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you please give me faster band eight yeah",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 708,
+      "start": 3064.4,
+      "end": 3066.56,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 709,
+      "start": 3066.56,
+      "end": 3070.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "when you use a small cut that is this is uh in boot is",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 710,
+      "start": 3070.72,
+      "end": 3072.72,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "let's go",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 712,
+      "start": 3074.24,
+      "end": 3079.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "okay hi can you help you",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 713,
+      "start": 3079.92,
+      "end": 3080.27,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 731,
+      "start": 3199.76,
+      "end": 3201.46,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes flashing clock so i'm going",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 736,
+      "start": 3232.16,
+      "end": 3241.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "hi hi uh i have it uh might is a problem i i every time at uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 737,
+      "start": 3241.36,
+      "end": 3252.96,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "in many country uh have uh another uh if you usually you want to charge a laptop and charge",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 738,
+      "start": 3255.28,
+      "end": 3270.8,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh charge uh phone is uh have its minimal problem uh could you please uh listen my uh my story",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 739,
+      "start": 3270.8,
+      "end": 3272.65,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh i'm",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 741,
+      "start": 3274.93,
+      "end": 3283.44,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "visited at 158 countries this is happens to me is time with electronics on",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 742,
+      "start": 3283.44,
+      "end": 3292.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "when i arrived in my hotel it's night releasing my laptop changers this fit is low i went to from desk",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 743,
+      "start": 3292.08,
+      "end": 3300.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and i said i don't know what is world could you please uh give me a small plastic device",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 744,
+      "start": 3300.0,
+      "end": 3302.24,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "and you between the charger",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 745,
+      "start": 3302.24,
+      "end": 3310.93,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "maybe you know what you uh what do you mean uh do you make sentence do you",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 748,
+      "start": 3314.74,
+      "end": 3324.0,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "adapter yes adapter but if asking adapter not understand many people",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 750,
+      "start": 3329.54,
+      "end": 3329.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "know",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 752,
+      "start": 3331.35,
+      "end": 3340.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "kong it is a very problem uh and adapter has another uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 753,
+      "start": 3342.88,
+      "end": 3355.6,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "switcher and uh switcher and uh using in british adapter and uh when i had i need a adapter not understand",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 754,
+      "start": 3355.6,
+      "end": 3361.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "word i mean and i need uh what is uh world",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 755,
+      "start": 3361.32,
+      "end": 3365.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 756,
+      "start": 3370.24,
+      "end": 3382.88,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "what is world one moment i",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 757,
+      "start": 3382.88,
+      "end": 3390.98,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i check",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 759,
+      "start": 3400.24,
+      "end": 3405.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "is uh plug adapter and uh plug adapter and uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 760,
+      "start": 3405.92,
+      "end": 3409.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "plug adapter and uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 761,
+      "start": 3410.87,
+      "end": 3417.92,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "ah uh another world uh voltage converter",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 762,
+      "start": 3417.92,
+      "end": 3418.98,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "oh now i see",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 764,
+      "start": 3423.68,
+      "end": 3433.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "yes yes it's uh when i had a plug adapter using it's uh not understand for me but uh voltage converter is uh",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 765,
+      "start": 3433.36,
+      "end": 3435.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh very nice in converter",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 779,
+      "start": 3536.17,
+      "end": 3542.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "uh teacher i have a question for Partner in uh yes",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 781,
+      "start": 3542.74,
+      "end": 3547.84,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "mean the square drive beat for your history",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 783,
+      "start": 3558.24,
+      "end": 3559.36,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "charger",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 788,
+      "start": 3576.08,
+      "end": 3580.08,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "plug well plug and when i use the water",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 789,
+      "start": 3580.08,
+      "end": 3586.48,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "this will will plug and uh this name is english",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 794,
+      "start": 3603.35,
+      "end": 3603.4,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "i",
+      "attribution": "uncertain; ASR cluster alone does not establish identity",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 814,
+      "start": 3682.64,
+      "end": 3683.19,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "was the",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 817,
+      "start": 3686.2,
+      "end": 3689.06,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "it sense does it make sense",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 845,
+      "start": 3804.96,
+      "end": 3805.68,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you please",
+      "attribution": "uncertain or mixed; likely Teacher/Partner/playback fragment; do not count as a Learner error",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 858,
+      "start": 3862.65,
+      "end": 3863.67,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you thanks guys",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    },
+    {
+      "index": 863,
+      "start": 3870.02,
+      "end": 3871.28,
+      "speaker": "ASR voice 2 (unverified)",
+      "text": "you bye",
+      "attribution": "contextually attributable to Learner",
+      "assessment": "See time-based correction ledger for supported teaching models; ASR garble is not evidence of a personal grammar/pronunciation error."
+    }
+  ]
+}

@@ -1,0 +1,1247 @@
+{
+  "format": "fluent-thread",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Как объяснить забытое слово: уточнение, описание и вежливая интонация · 20 ноября",
+    "source": {
+      "school": "ACE TEFL (предположительно; в записи не подтверждено)",
+      "date": "2026-11-20"
+    },
+    "prompt": "Выбери уровень A1–C2. Прочитай адаптацию, опиши предмет без названия, уточни догадку партнёра и проверь понимание. Полный двуязычный разбор записи отделён от авторских учебных моделей."
+  },
+  "words": [
+    {
+      "title": "clarify",
+      "meaning": "прояснять, уточнять",
+      "example": "Could you clarify which part you mean?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "clarification",
+      "meaning": "уточнение",
+      "example": "I need some clarification before I guess.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "meaning",
+      "meaning": "значение; смысл",
+      "example": "The meaning is clear now.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "paraphrase",
+      "meaning": "перефразировать, передать другими словами",
+      "example": "Could you paraphrase that sentence?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "paraphrasing",
+      "meaning": "перефразирование",
+      "example": "Paraphrasing helps when a word is missing.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "in your own words",
+      "meaning": "своими словами",
+      "example": "Explain the problem in your own words.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "say it another way",
+      "meaning": "сказать это иначе",
+      "example": "Could you say it another way?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "come up with a word",
+      "meaning": "вспомнить или подобрать слово",
+      "example": "I couldn’t come up with the word.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "forget a word",
+      "meaning": "забыть слово",
+      "example": "Sometimes I forget a word when I’m tired.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "remember",
+      "meaning": "помнить; вспомнить",
+      "example": "I can’t remember its name.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "I don’t know the word, but…",
+      "meaning": "я не знаю слова, но…",
+      "example": "I don’t know the word, but it’s a small device.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "What do you mean?",
+      "meaning": "что ты имеешь в виду?",
+      "example": "Sorry, what do you mean by “the thing”?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "What did you mean?",
+      "meaning": "что ты имел в виду?",
+      "example": "What did you mean in your last sentence?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Do you know what I mean?",
+      "meaning": "понимаешь, что я имею в виду?",
+      "example": "It’s on the edge. Do you know what I mean?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Does that make sense?",
+      "meaning": "это понятно; понятно ли я объясняю?",
+      "example": "You use it to hold papers together. Does that make sense?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Do you mean…?",
+      "meaning": "ты имеешь в виду…?",
+      "example": "Do you mean the lower eyelid?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "So you mean…",
+      "meaning": "то есть ты имеешь в виду…",
+      "example": "So you mean the back of your foot.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Let me check.",
+      "meaning": "дай уточню; позволь проверить",
+      "example": "Let me check: you mean the left side?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "I’m not sure.",
+      "meaning": "я не уверен",
+      "example": "I’m not sure which object you mean.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "I’m not sure I got that.",
+      "meaning": "не уверен, что понял это",
+      "example": "I’m not sure I got that. Could you repeat it?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Oh, I see.",
+      "meaning": "а, понятно",
+      "example": "Oh, I see. You mean the socket.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "That’s it.",
+      "meaning": "вот именно; это оно",
+      "example": "Yes, that’s it. Thank you.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "exactly",
+      "meaning": "именно; точно",
+      "example": "Yes, exactly. It’s below the neck.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "What exactly are you looking for?",
+      "meaning": "что именно вы ищете?",
+      "example": "Sorry, what exactly are you looking for?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "How can I help you?",
+      "meaning": "чем могу помочь?",
+      "example": "Hello, how can I help you?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Could you possibly…?",
+      "meaning": "не могли бы вы…?; осторожная просьба",
+      "example": "Could you possibly describe the shape?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "keep it secret",
+      "meaning": "держать это в секрете",
+      "example": "Choose a number and keep it secret.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "take turns",
+      "meaning": "делать по очереди",
+      "example": "Take turns being the customer.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "switch roles",
+      "meaning": "поменяться ролями",
+      "example": "Let’s switch roles after this call.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "one guess",
+      "meaning": "одна попытка угадать",
+      "example": "You only get one guess.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "guess straight away",
+      "meaning": "угадывать сразу",
+      "example": "Don’t guess straight away; ask a question first.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "back and forth",
+      "meaning": "обмен репликами в обе стороны",
+      "example": "A useful conversation needs some back and forth.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "breakout room",
+      "meaning": "отдельная комната для работы в группе",
+      "example": "We practised in a breakout room.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "share the screen",
+      "meaning": "демонстрировать экран",
+      "example": "Can you share the screen, please?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "download",
+      "meaning": "скачать",
+      "example": "Please download the PDF.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "open the PDF",
+      "meaning": "открыть PDF",
+      "example": "I’ve opened the PDF, but I can only see one page.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "page two",
+      "meaning": "вторая страница",
+      "example": "Is there a page two in this file?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "repeat after me",
+      "meaning": "повторяйте за мной",
+      "example": "Repeat after me: “Does that make sense?”",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "feedback",
+      "meaning": "обратная связь; неисчисляемое",
+      "example": "The teacher gave us useful feedback.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "make an adjustment",
+      "meaning": "внести небольшое изменение",
+      "example": "We can make an adjustment to the wording.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "pronunciation",
+      "meaning": "произношение",
+      "example": "Clear pronunciation can help the listener.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "intonation",
+      "meaning": "интонация",
+      "example": "Intonation changes how the question sounds.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "rising intonation",
+      "meaning": "восходящая интонация",
+      "example": "We practised this check with rising intonation.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "falling intonation",
+      "meaning": "нисходящая интонация",
+      "example": "Falling intonation is common in many statements.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "fall-rise",
+      "meaning": "нисходяще-восходящий тон",
+      "example": "A fall-rise can express uncertainty.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "sarcastic",
+      "meaning": "саркастичный",
+      "example": "In that demonstration, the tone sounded sarcastic.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "polite",
+      "meaning": "вежливый",
+      "example": "Could you describe it? is a polite request.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "blunt",
+      "meaning": "резкий, прямолинейный",
+      "example": "“What thing?” can sound rather blunt.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "confirm",
+      "meaning": "подтвердить",
+      "example": "Ask the customer to confirm your guess.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "confirmation",
+      "meaning": "подтверждение",
+      "example": "“Yes, that’s it” is confirmation.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "check understanding",
+      "meaning": "проверить понимание",
+      "example": "Repeat the description to check understanding.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "function",
+      "meaning": "функция, назначение",
+      "example": "Explain the object’s function.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "location",
+      "meaning": "местоположение",
+      "example": "Give its location before its name.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "shape",
+      "meaning": "форма",
+      "example": "What shape is it?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "a kind of",
+      "meaning": "разновидность; своего рода",
+      "example": "It’s a kind of tool.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "be used to do something",
+      "meaning": "использоваться для действия",
+      "example": "A thermometer is used to measure temperature.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "you use it to…",
+      "meaning": "это используют, чтобы…",
+      "example": "You use it to put papers together.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "be used for",
+      "meaning": "использоваться для чего-либо",
+      "example": "It’s used for measuring temperature.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "relative clause",
+      "meaning": "относительное придаточное предложение",
+      "example": "“The part that closes” contains a relative clause.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "the part that…",
+      "meaning": "та часть, которая…",
+      "example": "It’s the part that closes when you sleep.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "near",
+      "meaning": "рядом с; около",
+      "example": "It’s near the eyelashes.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "above",
+      "meaning": "выше; над",
+      "example": "The collarbone is above the chest.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "below",
+      "meaning": "ниже",
+      "example": "It’s below the neck.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "under",
+      "meaning": "под; часто непосредственно под или прикрыто",
+      "example": "The note is under the book.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "on the edge",
+      "meaning": "на краю",
+      "example": "There is a mark on the edge.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "on the right side",
+      "meaning": "с правой стороны",
+      "example": "It’s on the right side of my back.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "on the left side",
+      "meaning": "с левой стороны",
+      "example": "The pocket is on the left side.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "at the front",
+      "meaning": "спереди",
+      "example": "The button is at the front.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "at the back",
+      "meaning": "сзади",
+      "example": "The switch is at the back.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "between",
+      "meaning": "между",
+      "example": "It goes between the charger and the socket.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "throat",
+      "meaning": "горло",
+      "example": "The story began with a sore throat.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "sore throat",
+      "meaning": "больное горло; боль в горле",
+      "example": "The speaker had a sore throat last winter.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "tonsil",
+      "meaning": "миндалина",
+      "example": "The tonsils are at the sides of the throat.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "tonsils",
+      "meaning": "миндалины",
+      "example": "The speaker couldn’t remember the word “tonsils”.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "uvula",
+      "meaning": "нёбный язычок",
+      "example": "The uvula hangs at the back of the mouth.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "swollen",
+      "meaning": "опухший, отёкший",
+      "example": "The story mentioned swollen tonsils.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "eyelid",
+      "meaning": "веко",
+      "example": "The eyelid closes over the eye.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "lower eyelid",
+      "meaning": "нижнее веко",
+      "example": "The dialogue describes the lower eyelid.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "upper eyelid",
+      "meaning": "верхнее веко",
+      "example": "The upper eyelid is above the eye.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "eyelash",
+      "meaning": "ресница",
+      "example": "An eyelash is a small hair near the eye.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "eyelashes",
+      "meaning": "ресницы",
+      "example": "The description mentions the little hairs: eyelashes.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "stye",
+      "meaning": "ячмень на веке; также написание sty",
+      "example": "The listening dialogue uses the word “stye”.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "a bump",
+      "meaning": "бугорок, припухлость",
+      "example": "The speaker describes a small red bump.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "a pimple",
+      "meaning": "прыщик",
+      "example": "He compares the bump to a pimple.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "sore",
+      "meaning": "болезненный; ноющий",
+      "example": "The bump in the dialogue is sore.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "hurt",
+      "meaning": "болеть; причинять боль",
+      "example": "Which part hurts?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "pain",
+      "meaning": "боль; существительное",
+      "example": "Can you describe where the pain is?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "blink",
+      "meaning": "моргать",
+      "example": "The character says it hurts when he blinks.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "touch",
+      "meaning": "касаться",
+      "example": "Does it hurt when you touch it?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "squeeze",
+      "meaning": "сжимать; выдавливать",
+      "example": "The verb “squeeze” appears in the listening.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "cloth",
+      "meaning": "ткань; тряпочка",
+      "example": "The listening mentions a clean cloth.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "doctor’s office",
+      "meaning": "приёмная или кабинет врача",
+      "example": "The role-play takes place at a doctor’s office.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "receptionist",
+      "meaning": "администратор приёмной",
+      "example": "The receptionist asks for more detail.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "patient",
+      "meaning": "пациент",
+      "example": "The patient describes a body part.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "backbone",
+      "meaning": "позвоночник; разговорное название",
+      "example": "Is it to the right of your backbone?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "spine",
+      "meaning": "позвоночник",
+      "example": "“Spine” is another word for backbone.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "shoulder",
+      "meaning": "плечо",
+      "example": "The shoulder is near the top of the arm.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "chest",
+      "meaning": "грудь; грудная клетка",
+      "example": "The collarbone is above the chest.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "collarbone",
+      "meaning": "ключица",
+      "example": "The partner eventually identifies the collarbone.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "rib",
+      "meaning": "ребро",
+      "example": "A rib is one of the bones around the chest.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "ribs",
+      "meaning": "рёбра",
+      "example": "The first guess was ribs, but it wasn’t confirmed.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "belly",
+      "meaning": "живот; разговорное слово",
+      "example": "“Belly” is an informal word for the abdomen.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "abdomen",
+      "meaning": "живот; более нейтральный анатомический термин",
+      "example": "“Abdomen” is more formal than “belly”.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "heel",
+      "meaning": "пятка",
+      "example": "The heel is at the back of the foot.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "foot",
+      "meaning": "ступня; стопа",
+      "example": "Describe the back of your foot.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "feet",
+      "meaning": "стопы; множественное число от foot",
+      "example": "My feet are on the floor.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "leg",
+      "meaning": "нога",
+      "example": "The knee is part of the leg.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "knee",
+      "meaning": "колено",
+      "example": "It’s below the knee.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "pharmacy",
+      "meaning": "аптека",
+      "example": "The second role-play is at a pharmacy.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "pharmacist",
+      "meaning": "фармацевт; сотрудник аптеки",
+      "example": "The pharmacist asks what the item is for.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "customer",
+      "meaning": "покупатель; клиент",
+      "example": "The customer doesn’t know the product’s name.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "eye drops",
+      "meaning": "капли для глаз; форма множественного числа",
+      "example": "In the role-play, the customer asks for eye drops.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "dry eyes",
+      "meaning": "сухость глаз; сухие глаза",
+      "example": "The character describes dry eyes after using a laptop.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "thermometer",
+      "meaning": "термометр",
+      "example": "You use a thermometer to measure temperature.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "measure temperature",
+      "meaning": "измерять температуру",
+      "example": "The gadget is used to measure temperature.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "run a fever",
+      "meaning": "иметь повышенную температуру",
+      "example": "The character says her son is running a fever.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "plaster",
+      "meaning": "лейкопластырь; британский вариант",
+      "example": "A plaster can cover a small cut.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "adhesive bandage",
+      "meaning": "лейкопластырь; общее название, особенно в США",
+      "example": "The American generic term is adhesive bandage.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Band-Aid",
+      "meaning": "торговое название пластыря",
+      "example": "Band-Aid is a brand name.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "cut",
+      "meaning": "порез; произносить конечный t",
+      "example": "The listener misheard the word “cut”.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "blister",
+      "meaning": "волдырь; пузырь на коже",
+      "example": "The role-play mentions a cut or blister.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "earplugs",
+      "meaning": "беруши",
+      "example": "The teacher mentions earplugs during feedback.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "stapler",
+      "meaning": "степлер",
+      "example": "A stapler joins sheets of paper with staples.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "paper clip",
+      "meaning": "скрепка",
+      "example": "A paper clip holds papers together without staples.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "plumber",
+      "meaning": "сантехник",
+      "example": "The teacher called a plumber in his example.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "flush handle",
+      "meaning": "ручка слива унитаза",
+      "example": "The hidden word in the teacher’s story is “flush handle”.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "toilet bowl",
+      "meaning": "чаша унитаза",
+      "example": "Was the water in the toilet bowl?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "tank",
+      "meaning": "бачок; резервуар",
+      "example": "The plumber asked whether he meant the tank.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "charger",
+      "meaning": "зарядное устройство",
+      "example": "My charger doesn’t fit this socket.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "plug adapter",
+      "meaning": "переходник для вилки",
+      "example": "A plug adapter changes the physical connection.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "voltage converter",
+      "meaning": "преобразователь напряжения",
+      "example": "A voltage converter changes voltage.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "socket",
+      "meaning": "розетка; гнездо",
+      "example": "Describe the socket rather than only saying “the thing”.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "front desk",
+      "meaning": "стойка регистрации",
+      "example": "The traveller asked at the front desk.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "I’m all ears.",
+      "meaning": "я весь внимание",
+      "example": "Tell me your story. I’m all ears.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "make it up",
+      "meaning": "выдумать это",
+      "example": "You can tell a true story or make it up.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "screwdriver",
+      "meaning": "отвёртка; в контексте также инструмент для завинчивания",
+      "example": "The partner described a screwdriver.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "self-tapping screw",
+      "meaning": "саморез",
+      "example": "The partner said it was not a self-tapping screw.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "drive bit",
+      "meaning": "бита для отвёртки или шуруповёрта",
+      "example": "A drive bit was one unconfirmed guess.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "German",
+      "meaning": "немецкий язык; немецкий",
+      "example": "I used to speak German at school.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Germany",
+      "meaning": "Германия; страна",
+      "example": "The teacher lives in Germany.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "used to",
+      "meaning": "раньше обычно делал; прежнее состояние",
+      "example": "I used to speak German more fluently.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "when I was a child",
+      "meaning": "когда я был ребёнком",
+      "example": "I learned the language when I was a child.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "understand what people say",
+      "meaning": "понимать, что говорят люди",
+      "example": "I can still understand what people say.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "even though",
+      "meaning": "хотя; несмотря на то что",
+      "example": "Even though he knows the language, he sometimes forgets words.",
+      "vocabularyLevel": "learning"
+    }
+  ],
+  "materials": [
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · A1",
+      "text": "Sometimes I do not know an English word. I can still speak. I can say, ‘I don’t know the word, but it’s a small thing.’ I can say where it is. I can say what it does. My partner can ask a question. ‘Do you mean the stapler?’ I can answer, ‘Yes, that’s it.’ We help each other.",
+      "translation": "Иногда я не знаю английского слова. Я всё равно могу говорить. Я могу сказать: «Я не знаю слова, но это маленькая вещь». Я могу объяснить, где она находится. Я могу объяснить, что она делает. Партнёр может задать вопрос: «Ты имеешь в виду степлер?» Я могу ответить: «Да, именно». Мы помогаем друг другу."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · A2",
+      "text": "In the lesson, students describe things without using their names. One person is a patient and the other is a receptionist. The patient chooses a body part and keeps its number secret. The receptionist asks where it is: ‘Is it on the front or on the back?’ Then the receptionist checks a guess. Later, the students play the same game at a pharmacy. They describe objects by their location and use. Knowing every word is not necessary for a useful conversation.",
+      "translation": "На уроке ученики описывают предметы, не используя названия. Один человек играет пациента, а другой — администратора. Пациент выбирает часть тела и держит её номер в секрете. Администратор спрашивает, где она находится: «Спереди или сзади?» Затем проверяет догадку. Позже ученики играют в ту же игру в аптеке. Они описывают предметы через расположение и назначение. Чтобы разговор был полезным, необязательно знать каждое слово."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · B1",
+      "text": "Forgetting a word does not have to end a conversation. In this lesson, a caller explains an unfamiliar word by describing the part of the body, its location and what it does. The listener does more than guess: she asks questions and repeats the description in her own words. This gives the caller a chance to correct a misunderstanding. The students then practise at a pharmacy and tell stories about hidden objects. The lesson also shows that a polite expression needs a suitable tone. ‘Does that make sense?’ should invite a real answer in this practice.",
+      "translation": "Если забыл слово, разговор не обязательно заканчивается. На этом уроке звонящий объясняет незнакомое слово через описание части тела, её расположения и функции. Слушательница не просто угадывает: она задаёт вопросы и повторяет описание своими словами. Так звонящий получает возможность исправить недопонимание. Затем ученики практикуются в ситуации аптеки и рассказывают истории о скрытых предметах. Урок также показывает, что вежливому выражению нужен подходящий тон. В этом упражнении вопрос «Я понятно объясняю?» должен приглашать к настоящему ответу."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · B2",
+      "text": "A successful explanation is a joint effort. The speaker can give a general category, a location, a comparison or a function; the listener can narrow the possibilities through targeted questions. Saying that an object holds papers together is useful, but it could describe either a paper clip or a stapler. A further question about how it works would distinguish them. The lesson’s hidden-word games create opportunities for this exchange. They also reveal the limits of vague references such as ‘the thing’ and of inaccurate spatial descriptions. A correct guess alone is less valuable than a clear explanation that both people can verify.",
+      "translation": "Удачное объяснение — совместная работа. Говорящий может назвать общую категорию, местоположение, сходство или функцию; слушатель может сузить круг вариантов целевыми вопросами. Сказать, что предмет скрепляет бумаги, полезно, но это может быть и скрепка, и степлер. Дополнительный вопрос о работе предмета позволит их различить. Игры со скрытым словом дают возможность обмениваться такими репликами. Они также показывают ограничения расплывчатой ссылки «эта штука» и неточных пространственных описаний. Сама правильная догадка менее полезна, чем ясное объяснение, которое оба человека могут проверить."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · C1",
+      "text": "Circumlocution works best when it is responsive rather than exhaustive. A speaker who provides every detail in an unbroken turn may overwhelm the listener, whereas a brief initial description leaves room for diagnostic questions. In the lesson, participants rehearse both sides of this process: acknowledging a missing word, specifying location or function, checking a tentative interpretation and paraphrasing it back. Intonation contributes to the interaction without operating as a simple grammatical switch. The teacher’s deliberately awkward checking question illustrates a possible sarcastic effect in context; it does not establish that falling tones are inherently impolite. Effective repair depends on wording, delivery and the relationship between the speakers.",
+      "translation": "Описательный обход неизвестного слова лучше работает как отклик собеседнику, а не как исчерпывающий монолог. Говорящий, который выдаёт все детали без перерыва, может перегрузить слушателя; краткое начальное описание оставляет место для вопросов, различающих варианты. На уроке участники тренируют обе стороны процесса: признают, что слово забыто, уточняют расположение или функцию, проверяют предварительное понимание и возвращают его собеседнику своими словами. Интонация помогает взаимодействию, но не действует как простой грамматический переключатель. Нарочито неудачный вопрос преподавателя показывает возможный саркастический эффект в контексте; он не доказывает, что нисходящий тон сам по себе невежлив. Успешное исправление недопонимания зависит от слов, подачи и отношений между собеседниками."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · C2",
+      "text": "The lesson treats lexical gaps as occasions for collaborative meaning-making. Its most transferable skill is not the recovery of a particular label but the management of uncertainty: committing only to what is understood, requesting discriminating information and making interpretations available for correction. The distinction between a plug adapter and a voltage converter is instructive because superficial similarity can conceal a difference in function. Likewise, an inaccurate anatomical landmark can defeat otherwise fluent circumlocution. The source also requires epistemic care from its reader. Automatic transcripts contain overlapping voices, garbled strings and incomplete stories; a polished teaching model should therefore remain visibly distinct from a verbatim record. Confidence in an explanation should follow the evidence available, including the other speaker’s confirmation, rather than the apparent fluency of the wording.",
+      "translation": "Урок рассматривает пробелы в словаре как повод совместно выстраивать смысл. Самый переносимый навык — не восстановление отдельного названия, а работа с неопределённостью: подтверждать только понятное, запрашивать различающую информацию и формулировать догадки так, чтобы их можно было поправить. Различие между переходником для вилки и преобразователем напряжения показательно: внешнее сходство может скрывать разницу функций. Точно так же неверный анатомический ориентир мешает даже беглому описанию. Читателю источника тоже нужна осторожность в выводах. В автоматической расшифровке есть наложения голосов, искажённые цепочки слов и незаконченные истории; поэтому отредактированная учебная модель должна явно отличаться от дословной записи. Уверенность в объяснении должна следовать доступным свидетельствам, включая подтверждение собеседника, а не внешней гладкости формулировки."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать место и проверить понимание · A1",
+      "text": "Teacher: Where is it?\nLearner: Near my eye. I don’t know the word.\nTeacher: The part that closes?\nLearner: Yes.\nTeacher: Do you mean the eyelid?\nLearner: Yes, that’s it.",
+      "translation": "Преподаватель: Где это?\nУченик: Рядом с глазом. Я не знаю слова.\nПреподаватель: Та часть, которая закрывается?\nУченик: Да.\nПреподаватель: Ты имеешь в виду веко?\nУченик: Да, именно.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать место и проверить понимание · A1",
+      "prompt": "Teacher: Where is it?\nLearner: Near my eye. I don’t know the word.\nTeacher: The part that closes?\nLearner: Yes.\nTeacher: Do you mean the eyelid?\nLearner: Yes, that’s it.\n\nВопрос: Какое слово ищет ученик и какой признак помогает?",
+      "answer": "The word is eyelid. It is the part that closes over the eye."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать место и проверить понимание · A2",
+      "text": "Partner: Can you describe the place?\nLearner: It’s below my neck and above my chest.\nPartner: Is it a bone?\nLearner: Yes, a long bone near the shoulder.\nPartner: Do you mean the collarbone?\nLearner: Yes, that’s it. Thank you.",
+      "translation": "Партнёр: Можешь описать место?\nУченик: Оно ниже шеи и выше груди.\nПартнёр: Это кость?\nУченик: Да, длинная кость рядом с плечом.\nПартнёр: Ты имеешь в виду ключицу?\nУченик: Да, именно. Спасибо.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать место и проверить понимание · A2",
+      "prompt": "Partner: Can you describe the place?\nLearner: It’s below my neck and above my chest.\nPartner: Is it a bone?\nLearner: Yes, a long bone near the shoulder.\nPartner: Do you mean the collarbone?\nLearner: Yes, that’s it. Thank you.\n\nВопрос: Какие два пространственных ориентира использует ученик?",
+      "answer": "It is below the neck and above the chest."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать место и проверить понимание · B1",
+      "text": "Partner: You said ‘my leg’. Which part do you mean?\nLearner: I don’t know the word, but it’s at the back of my foot.\nPartner: Is it the part that touches the ground when you stand?\nLearner: Yes, the back part. Does that make sense?\nPartner: I think so. Do you mean your heel?\nLearner: Exactly. I meant the heel, not the whole leg.",
+      "translation": "Партнёр: Ты сказал «нога». Какую часть ты имеешь в виду?\nУченик: Я не знаю слова, но она сзади стопы.\nПартнёр: Это та часть, которая касается земли, когда стоишь?\nУченик: Да, задняя часть. Понятно объясняю?\nПартнёр: Думаю, да. Ты имеешь в виду пятку?\nУченик: Именно. Я имел в виду пятку, а не всю ногу.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать место и проверить понимание · B1",
+      "prompt": "Partner: You said ‘my leg’. Which part do you mean?\nLearner: I don’t know the word, but it’s at the back of my foot.\nPartner: Is it the part that touches the ground when you stand?\nLearner: Yes, the back part. Does that make sense?\nPartner: I think so. Do you mean your heel?\nLearner: Exactly. I meant the heel, not the whole leg.\n\nВопрос: Почему одного слова leg было недостаточно?",
+      "answer": "Leg was too general. The learner specified the back of the foot, which allowed the partner to identify the heel."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать место и проверить понимание · B2",
+      "text": "Partner: I’m not sure I got the location. Could you describe it another way?\nLearner: It’s beside the eye, on the skin that closes over it.\nPartner: Do you mean the upper eyelid or the lower one?\nLearner: The lower one, near the little hairs.\nPartner: So you mean the edge of the lower eyelid, near the eyelashes?\nLearner: Yes. Your description is more precise than mine.",
+      "translation": "Партнёр: Не уверен, что понял место. Можешь описать иначе?\nУченик: Рядом с глазом, на коже, которая его закрывает.\nПартнёр: Ты имеешь в виду верхнее веко или нижнее?\nУченик: Нижнее, возле маленьких волосков.\nПартнёр: То есть край нижнего века возле ресниц?\nУченик: Да. Твоё описание точнее моего.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать место и проверить понимание · B2",
+      "prompt": "Partner: I’m not sure I got the location. Could you describe it another way?\nLearner: It’s beside the eye, on the skin that closes over it.\nPartner: Do you mean the upper eyelid or the lower one?\nLearner: The lower one, near the little hairs.\nPartner: So you mean the edge of the lower eyelid, near the eyelashes?\nLearner: Yes. Your description is more precise than mine.\n\nВопрос: Как партнёр сужает значение и затем проверяет его?",
+      "answer": "The partner asks upper or lower, then paraphrases the location as the edge of the lower eyelid near the eyelashes."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать место и проверить понимание · C1",
+      "text": "Learner: In my first description, I said ‘under the neck’.\nPartner: For the collarbone, ‘below the neck’ is clearer here.\nLearner: Is ‘under’ always wrong with body parts?\nPartner: No. It can be appropriate in other relationships, such as something under the arm. The choice depends on what you mean.\nLearner: So I should check the actual spatial relationship rather than replace every ‘under’ with ‘below’.\nPartner: Exactly. Accuracy in the description matters as much as the vocabulary.",
+      "translation": "Ученик: В первом описании я сказал «под шеей».\nПартнёр: Для ключицы здесь яснее below the neck.\nУченик: Under всегда неправильно с частями тела?\nПартнёр: Нет. Оно подходит для других отношений, например чего-то под рукой. Выбор зависит от смысла.\nУченик: Значит, надо проверять само пространственное отношение, а не заменять каждое under на below.\nПартнёр: Именно. Точность описания так же важна, как словарный запас.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать место и проверить понимание · C1",
+      "prompt": "Learner: In my first description, I said ‘under the neck’.\nPartner: For the collarbone, ‘below the neck’ is clearer here.\nLearner: Is ‘under’ always wrong with body parts?\nPartner: No. It can be appropriate in other relationships, such as something under the arm. The choice depends on what you mean.\nLearner: So I should check the actual spatial relationship rather than replace every ‘under’ with ‘below’.\nPartner: Exactly. Accuracy in the description matters as much as the vocabulary.\n\nВопрос: Почему нельзя сформулировать правило «всегда below вместо under»?",
+      "answer": "The words express different spatial relationships. Under can be appropriate, for example under the arm; below is clearer for the collarbone in this context."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Описать место и проверить понимание · C2",
+      "text": "Learner: I described the tonsils as something hanging at the back of the mouth.\nPartner: That description may direct the listener to the uvula instead.\nLearner: Then a fluent paraphrase can still be misleading.\nPartner: Yes. Circumlocution succeeds only if its defining features are accurate enough to distinguish the referent.\nLearner: I could acknowledge uncertainty and ask whether I mean the structures at the sides of the throat.\nPartner: That would make your interpretation open to correction rather than present a doubtful landmark as fact.",
+      "translation": "Ученик: Я описал миндалины как что-то свисающее сзади во рту.\nПартнёр: Такое описание скорее может навести слушателя на нёбный язычок.\nУченик: Значит, беглое перефразирование всё равно может вводить в заблуждение.\nПартнёр: Да. Описательный обход работает, только если определяющие признаки достаточно точны, чтобы отличить предмет.\nУченик: Я мог бы признать неуверенность и спросить, имею ли я в виду образования по сторонам горла.\nПартнёр: Это позволит исправить догадку, а не выдавать сомнительный ориентир за факт.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Описать место и проверить понимание · C2",
+      "prompt": "Learner: I described the tonsils as something hanging at the back of the mouth.\nPartner: That description may direct the listener to the uvula instead.\nLearner: Then a fluent paraphrase can still be misleading.\nPartner: Yes. Circumlocution succeeds only if its defining features are accurate enough to distinguish the referent.\nLearner: I could acknowledge uncertainty and ask whether I mean the structures at the sides of the throat.\nPartner: That would make your interpretation open to correction rather than present a doubtful landmark as fact.\n\nВопрос: В чём разница между беглостью и точностью в этом примере?",
+      "answer": "A fluent description can identify the wrong structure. Accurate defining features and an explicit invitation to correct the interpretation are needed."
+    },
+    {
+      "kind": "dialogue",
+      "title": "В аптеке: описать предмет по функции · A1",
+      "text": "Partner: Hello. How can I help you?\nLearner: I need a thing for temperature.\nPartner: To check temperature?\nLearner: Yes. I don’t know the word.\nPartner: A thermometer?\nLearner: Yes, please.",
+      "translation": "Партнёр: Здравствуйте. Чем могу помочь?\nУченик: Мне нужна штука для температуры.\nПартнёр: Чтобы проверять температуру?\nУченик: Да. Я не знаю слова.\nПартнёр: Термометр?\nУченик: Да, пожалуйста.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В аптеке: описать предмет по функции · A1",
+      "prompt": "Partner: Hello. How can I help you?\nLearner: I need a thing for temperature.\nPartner: To check temperature?\nLearner: Yes. I don’t know the word.\nPartner: A thermometer?\nLearner: Yes, please.\n\nВопрос: Для чего нужен предмет?",
+      "answer": "It is used to check temperature."
+    },
+    {
+      "kind": "dialogue",
+      "title": "В аптеке: описать предмет по функции · A2",
+      "text": "Partner: What exactly are you looking for?\nLearner: A small strip. I don’t know the English word.\nPartner: What do you use it for?\nLearner: To cover a small cut. It sticks to the skin.\nPartner: Do you mean a plaster?\nLearner: Yes, that’s the word. Thank you.",
+      "translation": "Партнёр: Что именно вы ищете?\nУченик: Маленькую полоску. Я не знаю английского слова.\nПартнёр: Для чего её используют?\nУченик: Чтобы закрыть небольшой порез. Она приклеивается к коже.\nПартнёр: Вы имеете в виду пластырь?\nУченик: Да, это нужное слово. Спасибо.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В аптеке: описать предмет по функции · A2",
+      "prompt": "Partner: What exactly are you looking for?\nLearner: A small strip. I don’t know the English word.\nPartner: What do you use it for?\nLearner: To cover a small cut. It sticks to the skin.\nPartner: Do you mean a plaster?\nLearner: Yes, that’s the word. Thank you.\n\nВопрос: Какие два признака указывают на пластырь?",
+      "answer": "It covers a small cut and sticks to the skin."
+    },
+    {
+      "kind": "dialogue",
+      "title": "В аптеке: описать предмет по функции · B1",
+      "text": "Learner: I’ve been looking at my laptop all day. I need something for my eyes.\nPartner: Could you tell me what kind of thing you mean?\nLearner: It’s liquid in a little bottle. I’ve forgotten the word.\nPartner: Do you mean eye drops?\nLearner: Yes. I was trying to describe the product, not ask you to guess from one symptom.\nPartner: The bottle and the liquid made your description much clearer.",
+      "translation": "Ученик: Я весь день смотрел в ноутбук. Мне нужно что-то для глаз.\nПартнёр: Можете сказать, какой именно предмет вы имеете в виду?\nУченик: Это жидкость в маленьком флаконе. Я забыл слово.\nПартнёр: Вы имеете в виду глазные капли?\nУченик: Да. Я пытался описать продукт, а не просить угадать его по одному симптому.\nПартнёр: Флакон и жидкость сделали описание гораздо яснее.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В аптеке: описать предмет по функции · B1",
+      "prompt": "Learner: I’ve been looking at my laptop all day. I need something for my eyes.\nPartner: Could you tell me what kind of thing you mean?\nLearner: It’s liquid in a little bottle. I’ve forgotten the word.\nPartner: Do you mean eye drops?\nLearner: Yes. I was trying to describe the product, not ask you to guess from one symptom.\nPartner: The bottle and the liquid made your description much clearer.\n\nВопрос: Какие детали улучшают описание, кроме контекста работы за ноутбуком?",
+      "answer": "The learner says it is liquid in a small bottle, which helps identify eye drops as the intended word."
+    },
+    {
+      "kind": "dialogue",
+      "title": "В аптеке: описать предмет по функции · B2",
+      "text": "Partner: Sorry, I heard ‘card’. Did you mean a cut in the skin?\nLearner: Yes, a small cut. I’m describing the strip used to cover it.\nPartner: So you mean an adhesive bandage?\nLearner: I know it as a plaster. Are those the same word here?\nPartner: They refer to the same kind of item in this context. Band-Aid is a brand name.\nLearner: That helps. I’ll say ‘a small adhesive strip for a cut’ if I forget the word.",
+      "translation": "Партнёр: Простите, я услышал card. Вы имели в виду cut — порез кожи?\nУченик: Да, небольшой порез. Я описываю полоску, которой его закрывают.\nПартнёр: То есть лейкопластырь?\nУченик: Я знаю его как plaster. Здесь эти слова обозначают одно и то же?\nПартнёр: В данном контексте это один тип предмета. Band-Aid — торговая марка.\nУченик: Это помогает. Если забуду слово, скажу «маленькая клейкая полоска для пореза».",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В аптеке: описать предмет по функции · B2",
+      "prompt": "Partner: Sorry, I heard ‘card’. Did you mean a cut in the skin?\nLearner: Yes, a small cut. I’m describing the strip used to cover it.\nPartner: So you mean an adhesive bandage?\nLearner: I know it as a plaster. Are those the same word here?\nPartner: They refer to the same kind of item in this context. Band-Aid is a brand name.\nLearner: That helps. I’ll say ‘a small adhesive strip for a cut’ if I forget the word.\n\nВопрос: Что стало причиной первого непонимания и как его устранили?",
+      "answer": "The partner heard card instead of cut. They checked the sound, described the item’s function and confirmed the intended meaning."
+    },
+    {
+      "kind": "dialogue",
+      "title": "В аптеке: описать предмет по функции · C1",
+      "text": "Learner: ‘Sorry, what thing do you want?’ seems understandable. Why change it?\nPartner: It is understandable, but it can sound abrupt in a service conversation.\nLearner: Would ‘What exactly are you looking for?’ be more tactful?\nPartner: Usually, especially with a calm tone. You could also ask, ‘Could you describe what you need it for?’\nLearner: That invites useful detail rather than making the customer feel responsible for the confusion.\nPartner: Exactly. Politeness and clarity can support each other.",
+      "translation": "Ученик: «Простите, какую штуку вы хотите?» вроде понятно. Зачем менять?\nПартнёр: Понятно, но в разговоре с клиентом может прозвучать резко.\nУченик: «Что именно вы ищете?» будет тактичнее?\nПартнёр: Обычно да, особенно спокойным тоном. Можно также спросить: «Можете описать, для чего это вам нужно?»\nУченик: Это приглашает сообщить полезные детали, а не заставляет клиента чувствовать себя виноватым в путанице.\nПартнёр: Именно. Вежливость и ясность могут помогать друг другу.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В аптеке: описать предмет по функции · C1",
+      "prompt": "Learner: ‘Sorry, what thing do you want?’ seems understandable. Why change it?\nPartner: It is understandable, but it can sound abrupt in a service conversation.\nLearner: Would ‘What exactly are you looking for?’ be more tactful?\nPartner: Usually, especially with a calm tone. You could also ask, ‘Could you describe what you need it for?’\nLearner: That invites useful detail rather than making the customer feel responsible for the confusion.\nPartner: Exactly. Politeness and clarity can support each other.\n\nВопрос: Как совместить вежливость и полезный запрос информации?",
+      "answer": "Use a calm request such as ‘Could you describe what you need it for?’ It invites a functional description while avoiding an abrupt demand."
+    },
+    {
+      "kind": "dialogue",
+      "title": "В аптеке: описать предмет по функции · C2",
+      "text": "Learner: If I ask ‘Could you paraphrase?’, have I necessarily made the exchange easier?\nPartner: Only if the listener knows what ‘paraphrase’ means. Otherwise, your repair request creates another lexical gap.\nLearner: ‘Could you say that another way?’ is more accessible.\nPartner: And a targeted prompt may work better still: ‘What does it look like?’ or ‘What do you use it for?’\nLearner: So successful repair depends on the information the listener needs, not on the sophistication of the request.\nPartner: Precisely. The simplest wording can produce the most discriminating answer.",
+      "translation": "Ученик: Если я спрашиваю «Не могли бы вы перефразировать?», обязательно ли разговор становится легче?\nПартнёр: Только если слушатель знает слово paraphrase. Иначе сама просьба создаёт ещё один пробел в словаре.\nУченик: «Можете сказать это иначе?» доступнее.\nПартнёр: А целевой вопрос может сработать ещё лучше: «Как это выглядит?» или «Для чего это используют?»\nУченик: Значит, успех зависит от нужной слушателю информации, а не от сложности просьбы.\nПартнёр: Верно. Самая простая формулировка может дать ответ, который лучше всего различает варианты.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · В аптеке: описать предмет по функции · C2",
+      "prompt": "Learner: If I ask ‘Could you paraphrase?’, have I necessarily made the exchange easier?\nPartner: Only if the listener knows what ‘paraphrase’ means. Otherwise, your repair request creates another lexical gap.\nLearner: ‘Could you say that another way?’ is more accessible.\nPartner: And a targeted prompt may work better still: ‘What does it look like?’ or ‘What do you use it for?’\nLearner: So successful repair depends on the information the listener needs, not on the sophistication of the request.\nPartner: Precisely. The simplest wording can produce the most discriminating answer.\n\nВопрос: Когда общая просьба о перефразировании уступает целевому вопросу?",
+      "answer": "When the speaker needs guidance about the missing information, a question about appearance or function can produce a more useful answer than a general request to paraphrase."
+    },
+    {
+      "kind": "dialogue",
+      "title": "История без забытого слова · A1",
+      "text": "Learner: I’m in a hotel. I need a small thing for my charger.\nPartner: Is it for your phone?\nLearner: Yes. The plug does not fit.\nPartner: Do you mean a plug adapter?\nLearner: Yes, that’s it.\nPartner: Ask at the front desk.",
+      "translation": "Ученик: Я в отеле. Мне нужна маленькая штука для зарядки.\nПартнёр: Для телефона?\nУченик: Да. Вилка не подходит.\nПартнёр: Ты имеешь в виду переходник?\nУченик: Да, именно.\nПартнёр: Спроси на стойке регистрации.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · История без забытого слова · A1",
+      "prompt": "Learner: I’m in a hotel. I need a small thing for my charger.\nPartner: Is it for your phone?\nLearner: Yes. The plug does not fit.\nPartner: Do you mean a plug adapter?\nLearner: Yes, that’s it.\nPartner: Ask at the front desk.\n\nВопрос: Почему герой ищет переходник?",
+      "answer": "The plug does not fit the socket."
+    },
+    {
+      "kind": "dialogue",
+      "title": "История без забытого слова · A2",
+      "text": "Learner: Yesterday I wanted to put some papers together. I forgot the word for the tool.\nPartner: Was it a paper clip?\nLearner: No. You push the top, and it puts a small metal piece through the paper.\nPartner: A stapler?\nLearner: Yes. It’s bigger than a paper clip.\nPartner: The extra detail helped me guess.",
+      "translation": "Ученик: Вчера я хотел скрепить бумаги. Я забыл название инструмента.\nПартнёр: Это была скрепка?\nУченик: Нет. Нажимаешь сверху, и он вставляет маленькую металлическую деталь сквозь бумагу.\nПартнёр: Степлер?\nУченик: Да. Он больше скрепки.\nПартнёр: Дополнительная деталь помогла угадать.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · История без забытого слова · A2",
+      "prompt": "Learner: Yesterday I wanted to put some papers together. I forgot the word for the tool.\nPartner: Was it a paper clip?\nLearner: No. You push the top, and it puts a small metal piece through the paper.\nPartner: A stapler?\nLearner: Yes. It’s bigger than a paper clip.\nPartner: The extra detail helped me guess.\n\nВопрос: Какая деталь отличает степлер от скрепки?",
+      "answer": "You push the top, and it puts a metal staple through the paper."
+    },
+    {
+      "kind": "dialogue",
+      "title": "История без забытого слова · B1",
+      "text": "Learner: A few days ago, the toilet stopped working. I couldn’t remember the name of the thing on the side.\nPartner: What happens when you use it?\nLearner: Usually, I push it and the water goes down.\nPartner: Do you mean the flush handle?\nLearner: Yes. I described what it does instead of naming it.\nPartner: That was enough to identify the part.",
+      "translation": "Ученик: Несколько дней назад унитаз перестал работать. Я не мог вспомнить название штуки сбоку.\nПартнёр: Что происходит, когда ей пользуешься?\nУченик: Обычно я нажимаю, и вода уходит.\nПартнёр: Ты имеешь в виду ручку слива?\nУченик: Да. Я описал её функцию вместо названия.\nПартнёр: Этого хватило, чтобы определить деталь.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · История без забытого слова · B1",
+      "prompt": "Learner: A few days ago, the toilet stopped working. I couldn’t remember the name of the thing on the side.\nPartner: What happens when you use it?\nLearner: Usually, I push it and the water goes down.\nPartner: Do you mean the flush handle?\nLearner: Yes. I described what it does instead of naming it.\nPartner: That was enough to identify the part.\n\nВопрос: Какие признаки использует рассказчик?",
+      "answer": "The narrator gives the location on the side of the toilet and explains that pushing it normally makes the water go down."
+    },
+    {
+      "kind": "dialogue",
+      "title": "История без забытого слова · B2",
+      "text": "Learner: At the hotel, I asked for ‘an adapter’, but the receptionist wasn’t sure what I meant.\nPartner: Did you explain the problem with the charger?\nLearner: I said that its plug didn’t match the socket.\nPartner: That describes a plug adapter. A voltage converter has a different function.\nLearner: So I should distinguish the physical connection from the voltage question.\nPartner: Yes. A broad label may hide an important difference.",
+      "translation": "Ученик: В отеле я попросил adapter, но администратор не понял, что именно я имею в виду.\nПартнёр: Ты объяснил проблему с зарядкой?\nУченик: Я сказал, что её вилка не подходит к розетке.\nПартнёр: Это описание переходника для вилки. У преобразователя напряжения другая функция.\nУченик: Значит, надо различать физическое соединение и вопрос напряжения.\nПартнёр: Да. За общим названием может скрываться важная разница.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · История без забытого слова · B2",
+      "prompt": "Learner: At the hotel, I asked for ‘an adapter’, but the receptionist wasn’t sure what I meant.\nPartner: Did you explain the problem with the charger?\nLearner: I said that its plug didn’t match the socket.\nPartner: That describes a plug adapter. A voltage converter has a different function.\nLearner: So I should distinguish the physical connection from the voltage question.\nPartner: Yes. A broad label may hide an important difference.\n\nВопрос: Какой следующий вопрос помог бы различить два устройства?",
+      "answer": "Is the problem that the plug does not fit the socket, or do you mean a device that changes voltage?"
+    },
+    {
+      "kind": "dialogue",
+      "title": "История без забытого слова · C1",
+      "text": "Learner: My story became so detailed that my partner lost track of the object.\nPartner: Try giving a short starting point and letting me ask questions.\nLearner: It’s a tool I used while making furniture.\nPartner: What does it do to the two pieces of wood?\nLearner: Actually, I mean the small part that joins them, not the tool.\nPartner: That correction is useful. We’ve narrowed the category before trying to name the part.",
+      "translation": "Ученик: Моя история стала такой подробной, что партнёр перестал понимать, какой предмет мы ищем.\nПартнёр: Дай краткую отправную точку и позволь задавать вопросы.\nУченик: Это инструмент, которым я пользовался при сборке мебели.\nПартнёр: Что он делает с двумя кусками дерева?\nУченик: Вообще-то я имею в виду маленькую деталь, которая их соединяет, а не инструмент.\nПартнёр: Это полезное исправление. Мы сузили категорию до попытки назвать деталь.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · История без забытого слова · C1",
+      "prompt": "Learner: My story became so detailed that my partner lost track of the object.\nPartner: Try giving a short starting point and letting me ask questions.\nLearner: It’s a tool I used while making furniture.\nPartner: What does it do to the two pieces of wood?\nLearner: Actually, I mean the small part that joins them, not the tool.\nPartner: That correction is useful. We’ve narrowed the category before trying to name the part.\n\nВопрос: Какую ошибку в категории исправил ученик?",
+      "answer": "The learner corrected ‘tool’ to ‘the small part that joins two pieces of wood’, so the partner would look for a fastener rather than a tool."
+    },
+    {
+      "kind": "dialogue",
+      "title": "История без забытого слова · C2",
+      "text": "Learner: The recording seems to mention a square-drive bit, a screw and a plug. Can we state which item was intended?\nPartner: Not confidently. Several suggestions were rejected, and the discussion was interrupted.\nLearner: Then the teaching version should preserve that uncertainty.\nPartner: Yes. We can practise asking ‘Do you mean the fastener or the tool that turns it?’ without claiming that the source reached a final answer.\nLearner: A model can improve the exchange while remaining honest about its status.\nPartner: Exactly. Pedagogical usefulness does not require a fabricated resolution.",
+      "translation": "Ученик: Кажется, в записи упоминаются бита с квадратным приводом, винт и заглушка. Можем утверждать, какой предмет имелся в виду?\nПартнёр: Уверенно — нет. Несколько вариантов отвергли, а разговор прервался.\nУченик: Тогда в учебной версии нужно сохранить эту неопределённость.\nПартнёр: Да. Можно тренировать вопрос «Вы имеете в виду крепёж или инструмент, который его вращает?», не утверждая, что источник дал окончательный ответ.\nУченик: Модель может улучшать разговор и честно обозначать свой статус.\nПартнёр: Именно. Педагогическая польза не требует выдуманной развязки.",
+      "prompt": "Авторский учебный диалог по стратегии урока; не цитата записи. Прочитай обе роли, затем замени одну деталь своим примером."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · История без забытого слова · C2",
+      "prompt": "Learner: The recording seems to mention a square-drive bit, a screw and a plug. Can we state which item was intended?\nPartner: Not confidently. Several suggestions were rejected, and the discussion was interrupted.\nLearner: Then the teaching version should preserve that uncertainty.\nPartner: Yes. We can practise asking ‘Do you mean the fastener or the tool that turns it?’ without claiming that the source reached a final answer.\nLearner: A model can improve the exchange while remaining honest about its status.\nPartner: Exactly. Pedagogical usefulness does not require a fabricated resolution.\n\nВопрос: Почему нельзя записать последнюю догадку как подтверждённый ответ?",
+      "answer": "The source contains rejected suggestions and an interrupted discussion. The intended item was not confirmed, so a final answer would be invented."
+    },
+    {
+      "kind": "reading",
+      "title": "Реплики преподавателя · уточнение, инструкции и поддержка",
+      "text": "Фраза 1 · We’ll just give it a couple of minutes.\nПеревод: Подождём ещё пару минут.\nКонструкция: give it + период времени: выделить ещё немного времени.\nТвой пример для практики: I’ll give it a minute and try again.\n\nФраза 2 · Can you hear me and see me?\nПеревод: Вы меня слышите и видите?\nКонструкция: Can + подлежащее + базовая форма; два действия соединены and.\nТвой пример для практики: Can you hear me clearly?\n\nФраза 3 · Has something like that ever happened to you before?\nПеревод: С тобой когда-нибудь случалось нечто подобное?\nКонструкция: Has + событие + ever happened + to someone: опыт до настоящего момента.\nТвой пример для практики: Has this ever happened to you at work?\n\nФраза 4 · You just can’t remember.\nПеревод: Ты просто не можешь вспомнить.\nКонструкция: can’t + инфинитив без to; remember без обязательного дополнения, если ясно из контекста.\nТвой пример для практики: I know the word, but I just can’t remember it.\n\nФраза 5 · Can everyone see the screen right now?\nПеревод: Все сейчас видят экран?\nКонструкция: Can everyone + глагол; right now = прямо сейчас.\nТвой пример для практики: Can everyone see the diagram right now?\n\nФраза 6 · Choose a number from this picture.\nПеревод: Выбери номер на этой картинке.\nКонструкция: Choose + объект + from + источник выбора.\nТвой пример для практики: Choose a picture from this page.\n\nФраза 7 · Keep it secret.\nПеревод: Держи это в секрете.\nКонструкция: keep + объект + прилагательное: сохранять состояние.\nТвой пример для практики: I’ll keep the answer secret until you guess.\n\nФраза 8 · Don’t use your hands.\nПеревод: Не показывайте руками.\nКонструкция: Don’t + базовая форма: отрицательное повеление.\nТвой пример для практики: Don’t say the name; describe its function.\n\nФраза 9 · The receptionist will ask questions.\nПеревод: Администратор будет задавать вопросы.\nКонструкция: will + базовая форма; ask questions без предлога.\nТвой пример для практики: The partner will ask questions before guessing.\n\nФраза 10 · You get one guess.\nПеревод: У тебя одна попытка угадать.\nКонструкция: get + число + guess: иметь право на попытку.\nТвой пример для практики: You get one guess after two questions.\n\nФраза 11 · I will play both parts for you.\nПеревод: Я сыграю для вас обе роли.\nКонструкция: play a part / both parts = играть роль / обе роли.\nТвой пример для практики: I’ll play both parts in the example.\n\nФраза 12 · Which part of your foot?\nПеревод: Какая часть стопы?\nКонструкция: Which part of + объект; краткий уточняющий вопрос.\nТвой пример для практики: Which part of the device do you mean?\n\nФраза 13 · There needs to be a back and forth.\nПеревод: Нужен обмен репликами.\nКонструкция: There needs to be + существительное: должно быть; back and forth = взаимный обмен.\nТвой пример для практики: There needs to be a back and forth between us.\n\nФраза 14 · Can you be the patient?\nПеревод: Можешь побыть пациентом?\nКонструкция: Can you be + роль; просьба распределить роли.\nТвой пример для практики: Can you be the customer first?\n\nФраза 15 · I don’t think he can hear me.\nПеревод: Не думаю, что он меня слышит.\nКонструкция: I don’t think + предложение: мягкое предположение с отрицанием у think.\nТвой пример для практики: I don’t think the microphone is working.\n\nФраза 16 · What was easy to describe?\nПеревод: Что было легко описать?\nКонструкция: What + was + adjective + to-infinitive.\nТвой пример для практики: What was difficult to explain?\n\nФраза 17 · You don’t have to learn these for today.\nПеревод: Вам не нужно заучивать это к сегодняшнему занятию.\nКонструкция: don’t have to = нет необходимости; не то же самое, что mustn’t.\nТвой пример для практики: You don’t have to remember every new word today.\n\nФраза 18 · Listen for two things.\nПеревод: Слушайте, чтобы найти два пункта.\nКонструкция: listen for = слушать с целью уловить конкретное.\nТвой пример для практики: Listen for the place and the function.\n\nФраза 19 · Can you describe exactly where?\nПеревод: Можешь описать, где именно?\nКонструкция: Can you describe + косвенная вопросительная часть; в полной форме where it is.\nТвой пример для практики: Could you describe exactly where the button is?\n\nФраза 20 · The part that closes when you sleep.\nПеревод: Та часть, которая закрывается, когда ты спишь.\nКонструкция: the part that + глагол: определяющее придаточное; closes согласуется с part.\nТвой пример для практики: It’s the part that opens when you press this button.\n\nФраза 21 · Do you know what I mean?\nПеревод: Понимаешь, что я имею в виду?\nКонструкция: Do you know + what I mean: прямой порядок слов во вложенной части.\nТвой пример для практики: It’s on the lower edge. Do you know what I mean?\n\nФраза 22 · So you mean a small red bump.\nПеревод: То есть ты имеешь в виду маленький красный бугорок.\nКонструкция: So you mean + пересказ смысла: проверить интерпретацию.\nТвой пример для практики: So you mean a small tool for joining papers.\n\nФраза 23 · How long has it been there?\nПеревод: Как давно это там находится?\nКонструкция: How long + present perfect: длительность до настоящего.\nТвой пример для практики: How long has that mark been there?\n\nФраза 24 · Let me check.\nПеревод: Дай уточню.\nКонструкция: Let me + базовая форма: объявить собственное следующее действие.\nТвой пример для практики: Let me check: the plug doesn’t fit, right?\n\nФраза 25 · Use your own words.\nПеревод: Используйте свои слова.\nКонструкция: use + your own + существительное: передать смысл самостоятельно.\nТвой пример для практики: I’ll use my own words to explain it.\n\nФраза 26 · I don’t know the word, but…\nПеревод: Я не знаю слова, но…\nКонструкция: the word = конкретное нужное слово; but вводит обходное описание.\nТвой пример для практики: I don’t know the word, but it’s a tool for fixing furniture.\n\nФраза 27 · Sorry, what do you mean?\nПеревод: Прости, что ты имеешь в виду?\nКонструкция: Sorry смягчает; What do you mean? уточняет текущую мысль.\nТвой пример для практики: Sorry, what do you mean by “the back part”?\n\nФраза 28 · It’s a kind of device.\nПеревод: Это своего рода устройство.\nКонструкция: a kind of + исчисляемое существительное в ед. числе; сначала категория.\nТвой пример для практики: It’s a kind of device for measuring temperature.\n\nФраза 29 · You use it to put papers together.\nПеревод: Это используют, чтобы скреплять бумаги.\nКонструкция: use + объект + to + действие: назначение.\nТвой пример для практики: You use it to hold the pages together.\n\nФраза 30 · Does that make sense?\nПеревод: Понятно ли я объясняю?\nКонструкция: Does + that + make sense: подлежащее обязательно; a перед sense не нужно.\nТвой пример для практики: The button is at the back. Does that make sense?\n\nФраза 31 · Do you mean the stapler?\nПеревод: Ты имеешь в виду степлер?\nКонструкция: Do you mean + догадка: предложить и проверить вариант.\nТвой пример для практики: Do you mean a paper clip or a stapler?\n\nФраза 32 · So you mean the stapler.\nПеревод: То есть ты имеешь в виду степлер.\nКонструкция: So you mean + утверждение-пересказ; тон может приглашать к подтверждению.\nТвой пример для практики: So you mean the plug adapter, not the charger.\n\nФраза 33 · We’ve got only one page.\nПеревод: У нас только одна страница.\nКонструкция: have got = иметь; only перед количеством.\nТвой пример для практики: I’ve got only one page in this PDF.\n\nФраза 34 · Don’t give all the information at the beginning.\nПеревод: Не выдавайте всю информацию в самом начале.\nКонструкция: Don’t + глагол; information неисчисляемое.\nТвой пример для практики: I’ll give one clue at the beginning.\n\nФраза 35 · Take turns being the customer and the pharmacist.\nПеревод: По очереди играйте покупателя и фармацевта.\nКонструкция: take turns + -ing: делать что-либо по очереди.\nТвой пример для практики: Let’s take turns describing an object.\n\nФраза 36 · What exactly are you looking for?\nПеревод: Что именно вы ищете?\nКонструкция: What + exactly + are you looking for; устойчивое look for = искать.\nТвой пример для практики: What exactly are you looking for in the picture?\n\nФраза 37 · Could you say that another way?\nПеревод: Можешь сказать это иначе?\nКонструкция: Could you + базовая форма: вежливая просьба; another way = иначе.\nТвой пример для практики: Could you say that another way, please?\n\nФраза 38 · You can make it up.\nПеревод: Можно это выдумать.\nКонструкция: make up + объект; местоимение it располагается между make и up.\nТвой пример для практики: I’ll make up a short story about a missing word."
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · описание, вопросы, время и интонация",
+      "text": "1. Забыл слово — сохрани ход мысли. I don’t know the word, but it’s a kind of tool. The word обозначает одно конкретное нужное слово, а words — слова вообще. Модель продолжения не обязана быть вопросом; подъём в but… может показывать, что мысль ещё не закончена.\n\n2. Три опоры описания: категория (It’s a kind of device), место (It’s below the neck), функция (You use it to measure temperature). Полезно добавить форму и противопоставление похожим предметам. Сначала краткий ориентир, затем ответы на вопросы. Длинная история без ориентиров увеличивает нагрузку на слушателя.\n\n3. Относительное придаточное: the part that closes when you sleep; the device that measures temperature. That связывает существительное и определяющую характеристику. С part/device в единственном числе: closes/measures. Для назначения: You use it to + infinitive; It is used for + -ing. You use it to measure / It is used for measuring.\n\n4. Две проверки с разным фокусом. Does that make sense? — понятно ли объяснение слушателю. Do you mean…? — верна ли моя догадка. So you mean… — пересказ для подтверждения. Let me check… — объявление проверки. Не заменяй все эти функции одной фразой «I understand» до фактического уточнения.\n\n5. Вопрос needs subject: Does it/this/that make sense? В конструкции make sense нет артикля a. Утверждение It makes sense; после does — make без s. В вопросе What do you mean? нужен do, но после Could you tell me / Do you know вложенная часть имеет прямой порядок: Do you know what I mean? Could you tell me where it is? Не where is it во вложенной части.\n\n6. I think it’s D / I think the answer is D = мнение о выборе. I’m thinking about D = обдумываю вариант; I think about this problem often = часто думаю об этой проблеме. I think about D не становится стандартным способом сказать «Мне кажется, ответ D». После think в значении мнения можно предложение без that.\n\n7. Сравнение: It’s easier now; This round was a little easier. Easy — базовая характеристика; easier — сравнение с первым раундом. A little смягчает степень сравнения. More tired корректно, так как tired обычно сравнивают через more. Для естественной фразы: I’m more tired today, so speaking feels harder.\n\n8. Самопрезентация: I’m from Russia, but I live in China. When I was a child, I studied German at school. I used to speak German fluently. Now I can still read it and understand what people say, but I don’t speak it as well. German — язык; Germany — страна. When I was a child требует was и a. Used to + инфинитив — прежняя привычка/состояние; не то же самое, что be used to + -ing = привыкнуть.\n\n9. Время и понимание: I’m not sure I got the last phrase подчёркивает уже услышанную фразу. I’m not sure I get what you mean описывает текущее понимание и тоже грамматично. Предпочтение got в обратной связи не делает любое get ошибкой. What did you mean? отсылает к прошлой реплике; What do you mean? — к текущему смыслу.\n\n10. Пространство: below = ниже по положению, above = выше. Under часто указывает на положение непосредственно под чем-то, прикрытость или определённое отношение, но также имеет другие употребления. Для ключицы в этом уроке естественно below the neck / above the chest; under your neck не лучший ориентир. Under the arm в другом описании допустимо. Если ключица названа below the chest, надо исправить фактическое место, не только предлог. Foot — стопа, feet — стопы, leg — нога; heel — задняя часть стопы.\n\n11. Вежливые просьбы: Sorry, could you describe it another way? / What exactly are you looking for? / Could you tell me what you need it for? Формула How can I help you? предлагает помощь; Can you help me? просит её. Can you help you? путает роли. What thing do you want? может звучать резко; exactly само по себе не гарантирует вежливости.\n\n12. Интонация зависит от задачи. В тренировочных проверках Does that make sense? и Do you mean…? подъём или мягкий нисходяще-восходящий тон часто сигнализирует открытость к ответу и неуверенность. Это не правило «все вопросы идут вверх»: многие wh-вопросы естественно имеют падение, а нисходящая интонация не всегда означает сарказм. В записи саркастический эффект обсуждается у конкретной демонстрации преподавателя. Текст ASR не позволяет независимо измерить мелодику каждой реплики.\n\n13. Предметы и понятия: eyelid — веко, eyelashes — ресницы, stye (также sty) — название болезненного образования на веке; это разные слова, а не синонимы. Tonsils — миндалины по сторонам горла, uvula — свисающий язычок. В исходной истории они описаны неточно. Plaster — британское слово для лейкопластыря; adhesive bandage — общее американское название; Band-Aid — марка. В этом пакете медицинская лексика служит языковой практике; назначения из учебного аудио не превращены в инструкции.\n\n14. Назначение вместо внешнего сходства: plug adapter обеспечивает другой формат физического соединения, voltage converter меняет напряжение. Из рассказа нельзя уверенно установить, что именно потребовалось человеку; не используй историю как техническую инструкцию. Stapler и paper clip оба держат бумаги, поэтому нужно спросить, пробивает ли предмет листы скобой. Screw / drive bit / screwdriver — крепёж, насадка и инструмент; в незаконченной истории окончательный предмет не подтверждён.\n\n15. Useful forms: feedback и information обычно неисчисляемые: some useful feedback, not a feedback; words/phrases исчисляемые. I need help / I needed help выбирают по времени, а не механически заменяют одно другим. Describe something to someone, а не describe someone something. Listen to my story, а не listen my story. Tell a story, а не history, если речь о рассказе, а не истории как дисциплине."
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · реплики ученика и естественные ответы",
+      "text": "Все исправления ниже отделены от ненадёжного ASR. «Модель» — авторская естественная формулировка, не обещание восстановить неразборчивое слово. Идентификация ученика надёжна в самопрезентации, обращениях и устойчивых парных эпизодах; фрагменты хорового повтора и служебные реплики отмечены как неуверенные. Реплики других участников из финальной обратной связи не записаны как личные ошибки ученика.\n\n1. 01:29–02:07\nASR: maybe you can speak germany now; cannot speak germany\nМодель: Maybe you can speak German now. / I can’t speak German as well now.\nРазбор: Надёжно: язык — German, страна — Germany. Пример восстановленной структуры не является дословной цитатой.\n\n2. 01:35–01:40\nASR: good and talk good and morgan\nМодель: Guten Tag / Guten Morgen\nРазбор: Немецкое приветствие ASR записал английскими обрывками. Это не доказанная ошибка английской грамматики; не заучивать цепочку.\n\n3. 01:42–01:57\nASR: from russia but i live in china; when i child\nМодель: I’m from Russia, but I live in China. When I was a child…\nРазбор: Первая реплика успешна по смыслу; полная форма полезна для тренировки. Во второй нужны was и a.\n\n4. 01:46–02:07\nASR: studying started in school; i speaking fluence germany\nМодель: I studied German at school. I used to speak German fluently.\nРазбор: Ясна тема прежнего знания языка; точная последовательность исходной глагольной формы неуверенна. Used to — предложенная модель, а не слышимое исправление учителя.\n\n5. 01:57–02:07\nASR: only read and understanding what you speaking\nМодель: Now I can still read German and understand what people say.\nРазбор: После can однородные базовые формы read / understand. Для текущей речи можно what you’re saying; это выбор смысла, а не единственный перевод.\n\n6. 08:33–09:08\nASR: my name is Learner; doctor i needed help; eight\nМодель: Are we supposed to keep the number secret? / I need help.\nРазбор: Главная трудность — инструкция, а не имя. Не говорить номер. I needed help допустимо в рассказе о прошлом; в текущем ролевом звонке I need help естественнее.\n\n7. 10:27–11:41\nASR: it’s my back; it’s the right side; [garbled ASR]\nМодель: It’s on the right side of my back. Could you ask me a few questions?\nРазбор: Надёжны back / right side и запрос помощи. Остальную цепочку о тренировках, работе и ноге нельзя превращать в точные ошибки. Модель нейтральная, без выдуманного симптома.\n\n8. 11:32–11:47\nASR: right right; yes\nМодель: Yes, the right side. / Yes, that’s it.\nРазбор: Успешное уточнение стороны и подтверждение номера; это расширение краткого ответа, не обязательная ошибка.\n\n9. 14:00–14:07\nASR: I like… role is receptionist… very nice\nМодель: I liked your role as the receptionist. You did it very well.\nРазбор: Понятна положительная оценка партнёра. Это естественная модель комплимента, а не дословная реконструкция каждого слова.\n\n10. 14:18–14:33\nASR: um; Partner\nМодель: I thought that call was easier to understand.\nРазбор: Ответ обрывочен, надёжно слышно только обращение. Полный ответ — учебный вариант, не доказанная реплика ученика.\n\n11. 15:27–15:45\nASR: what is any words what do you mean; yes some\nМодель: Do you mean the words on the picture? / Yes, I knew some of them.\nРазбор: Просьба уточнить работает; модель делает её точнее. После any words не нужно автоматически is; лучше спросить, какие слова имеются в виду.\n\n12. 18:34–18:45\nASR: don’t squeeze…; you need to call doctor again\nМодель: He needs to call the doctor again.\nРазбор: Пересказ услышанного, а не медицинская рекомендация пакета. Перед конкретным doctor нужен the; he в пересказе героя.\n\n13. 20:36–21:33\nASR: by describe a location; function; skin part closes when sleep\nМодель: He explains it by describing its location and function: the part that closes when you sleep.\nРазбор: После by — -ing. Part единственное число → closes. Часть фраз накладывается на аудио; не приписывать ученику голос записи.\n\n14. 22:20–22:44\nASR: will also see; are you sure that I shared it; open up the PDF\nМодель: Could you check whether the screen is shared?\nРазбор: Эти фрагменты ASR voice 2 по содержанию могут принадлежать преподавателю. Не считать их установленными репликами ученика и не диагностировать личные ошибки.\n\n15. 25:08–25:39\nASR: hello again; yes i see; number answer\nМодель: Hello again. Yes, I can see your screen. Which sentence are we on?\nРазбор: Приветствие и подтверждение понятны. Начало обсуждения номеров неполное; вопрос о текущем пункте — полезный дополнительный образец.\n\n16. 25:45–26:41\nASR: number two… not sure ask where; receptionist is sure… not sure\nМодель: I think number two is E because the receptionist isn’t sure where the problem is and asks for more detail.\nРазбор: Итоговый смысл — неуверенность и уточнение. В исходной цепочке sure/not sure меняется; не считать промежуточную оговорку устойчивым убеждением.\n\n17. 27:05–27:30\nASR: number two this is e; number three say where; give us extract location\nМодель: Number two is E. Number three is F because it gives the exact location.\nРазбор: Exact location, а не extract location, — нормальная учебная форма; extract могло быть ASR. В третьем лице gives.\n\n18. 27:39–28:00\nASR: check your distance; i think about this d\nМодель: It checks that the listener understands. I think it’s D.\nРазбор: Distance в ASR не надёжен; в упражнении речь о понимании. Для мнения I think + предложение, а не I think about.\n\n19. 28:03–29:09\nASR: last b; she summaries… own words and confirm\nМодель: I think the last one is B because she summarises his description in her own words.\nРазбор: Смысл итогового пересказа понятен; форма исходного summaries/food ненадёжна. Данная версия — отредактированная модель.\n\n20. 30:04–30:08\nASR: that’s a question; can you describe exactly where\nМодель: That’s a question asking for more detail.\nРазбор: Успешное наблюдение о функции фразы; расширенный ответ — учебная модель.\n\n21. 31:05–31:09\nASR: yeah it’s very easy my\nМодель: Yes, I can see the screen now.\nРазбор: Фрагмент оборван, точный смысл неясен. Не диагностировать грамматику по my в конце.\n\n22. 31:38–31:48\nASR: I think about D; I think about this\nМодель: I think it’s D. / I think this is D.\nРазбор: Надёжное повторение think about как мнения о букве: здесь нужна структура с предложением.\n\n23. 31:52–32:12\nASR: number five a; one moment I hear… near… five\nМодель: I chose A for number five. Could you repeat which sentence we’re checking?\nРазбор: Первая буква подтверждена учителем. Дальше ASR неясен, поэтому вопрос — предложенный способ уточнения.\n\n24. 33:41–33:52\nASR: I don’t know but; I don’t know words but\nМодель: I don’t know the word, but…\nРазбор: Повторять всю рамку: конкретное the word в единственном числе. Нужное продолжение — описание.\n\n25. 34:02–34:11\nASR: sorry what do you mean\nМодель: Sorry, what do you mean?\nРазбор: Это удачная модель; исправлять грамматику не нужно. What did you mean? указывает на прошлую реплику.\n\n26. 34:52–36:05\nASR: sense; do you mean; so you mean; very good\nМодель: Does that make sense? / So you mean the stapler.\nРазбор: Фрагменты хорового повторения: нельзя оценивать отсутствие слов в индивидуальной реплике, если фраза распределена между голосами.\n\n27. 37:03–38:16\nASR: I need… create… situation… my body\nМодель: Do I need to invent a situation, or should I just describe one body part?\nРазбор: Из длинного неясного вопроса понятен запрос об инструкции. Это явно предложенная краткая формулировка, не восстановленная цитата.\n\n28. 40:01–40:14\nASR: you cannot share screen; I see it in your screen\nМодель: Can you share your screen? / I can see it on your screen now.\nРазбор: Если имеется в виду вопрос — инверсия can you. On your screen, а не in. Первый фрагмент может быть утверждением; уточнить намерение.\n\n29. 40:14–40:40\nASR: could you please choose a role; percent; administrator; potential\nМодель: Could you choose a role? Would you like to be the patient or the receptionist? Either is fine with me.\nРазбор: Просьба выбрать роль удачна. Percent/potential — ASR, не установленные лексические ошибки.\n\n30. 40:51–41:06\nASR: hello doctor’s office… how can I help… near my chest… right side\nМодель: Hello, doctor’s office. How can I help you? / It’s on the right side.\nРазбор: Сегмент сливает две роли. Не приписывать ученику весь обмен; нейтрально выделены две отдельные модели.\n\n31. 41:17–41:34\nASR: I don’t know this word but… below my chest… bone under my arm; does make a sense\nМодель: I don’t know the word, but it’s a bone below my neck and above my chest. Does that make sense?\nРазбор: Партнёр позднее называет collarbone: для неё below my chest неточно. В вопросе нужны that/it и make sense без a. Если объект иной, сначала проверить, что действительно имеется в виду.\n\n32. 41:41–42:18\nASR: I think about no; this is it makes sense; want me paraphrase now\nМодель: I don’t think so. / Do you want me to paraphrase now?\nРазбор: No как отказ понятен; для несогласия естественно I don’t think so. Фраза о paraphrase частично пересекается с голосом партнёра; атрибуция не абсолютна.\n\n33. 42:46–43:14\nASR: I had a minute number two; bone yes; another word\nМодель: I meant number two. Do you mean the collarbone?\nРазбор: Had a minute, вероятно, искажение I meant. Не выдавать это за проверенную ошибку времени.\n\n34. 43:19–43:51\nASR: when I am going to a doctor in China… [garbled]\nМодель: When I go to the doctor in China, it can be difficult to explain the problem.\nРазбор: Понятен общий контекст трудности общения; конкретные слова о воде и возвращении неясны. Модель не утверждает действий реального врача.\n\n35. 44:26–44:33\nASR: a little; yes easy\nМодель: Yes, it was a little easier this time.\nРазбор: Сравнение с предыдущим раундом требует easier. Учитель моделирует сравнительную форму.\n\n36. 44:45–45:01\nASR: today I’m more tired; my presentation… hard; thank you\nМодель: I’m more tired today, so speaking feels harder. Thank you for the encouragement.\nРазбор: More tired корректно. Presentation может быть ASR для pronunciation; не ставить уверенный диагноз подмены слова. Отредактированная модель сохраняет только ясный смысл усталости.\n\n37. 47:03–47:14\nASR: you will be a seller or pharmacist\nМодель: Would you like to be the customer or the pharmacist?\nРазбор: Для данной игры противопоставляются customer / pharmacist; seller в обычной торговле возможно, но это не роль покупателя.\n\n38. 47:24–47:57\nASR: I will be starting my laptop all day; age dry; age drops\nМодель: I’ve been looking at my laptop all day. My eyes feel dry. I mean eye drops.\nРазбор: Starting/age — вероятные ошибки ASR, не доказанные ошибки произношения. Пример грамматики — авторская модель длительного действия, не восстановленная форма.\n\n39. 48:14–48:19; 51:14–51:20\nASR: hi can you help you\nМодель: Hello. How can I help you?\nРазбор: В роли фармацевта предлагают помощь. Если покупатель просит помощь, Can you help me? Смешение местоимений меняет смысл.\n\n40. 48:41–49:00\nASR: cannot sleep… sounds… what your situation when going to sleep\nМодель: Sorry, did you say you need something to measure temperature?\nРазбор: Вопрос о сне не проверяет услышанную функцию термометра. Лучше сначала повторить услышанное, не переходить к другой гипотезе. Искажённые фразы не восстанавливаются дословно.\n\n41. 49:13–49:22\nASR: you think about thermometer you needed\nМодель: Do you mean a thermometer?\nРазбор: Нужна проверка догадки do you mean, а не think about как готовое отождествление предмета.\n\n42. 49:49–50:23\nASR: accident piece paper… stick strips… cover protect small card\nМодель: I have a small cut. I need an adhesive strip with a soft pad in the middle to cover it.\nРазбор: Смысл пластыря подтверждён в конце; card, paid и salt в ASR ненадёжны. Модель не выдаётся за точную цитату.\n\n43. 50:34–51:12\nASR: that’s my bad; small card blister; give me faster band eight\nМодель: Sorry, I meant a small cut or a blister. Could I have a plaster, please?\nРазбор: That’s my bad допустимо в неформальной речи; sorry нейтральнее. Faster/band eight — ASR для plaster/Band-Aid, не доказанная грамматическая ошибка.\n\n44. 53:19–53:21\nASR: yes flashing clock\nМодель: Do you mean the flush handle?\nРазбор: Обрывок ASR ненадёжен. Пример показывает, как переспросить название из рассказа; не приписывать уверенно flash clock ученику.\n\n45. 53:52–54:32\nASR: in many country… charge laptop phone… listen my story\nМодель: I’ve had this problem in several countries when charging my laptop or phone. Could you listen to my story?\nРазбор: Countries после many/several; listen to + объект. Точная первая глагольная форма неясна, поэтому это модель, а не цитата.\n\n46. 54:34–55:10\nASR: I visited at 158 countries… arrived in hotel… from desk… what is world… do you make sentence\nМодель: When I arrived at the hotel, my charger didn’t fit the socket. I went to the front desk and described what I needed. Does that make sense?\nРазбор: Visit обычно без at перед страной; arrive at the hotel; front desk. Число из истории не проверено и могло быть выдумано по условию игры. World может скрывать word. Ни число, ни точная ситуация не закрепляются как биографический факт.\n\n47. 55:14–56:30\nASR: if asking adapter not understand many people; in Hong Kong… switcher; I check\nМодель: Some people didn’t understand what I meant by “adapter”. Let me check the exact word.\nРазбор: Модель делает субъект и объект ясными. По switcher нельзя определить конкретный электрический элемент; не утверждать фактическую причину непонимания.\n\n48. 56:40–57:15\nASR: plug adapter… another world voltage converter\nМодель: Do I mean a plug adapter or a voltage converter? They have different functions.\nРазбор: Слова найдены, но окончательная потребность не подтверждена. Word/world может быть ASR; главное — проверить различие смысла.\n\n49. 58:56–59:46\nASR: question for Partner; square drive beat for your history; charger; plug… water\nМодель: Could I ask about your story? Do you mean a square-drive bit, or a fastener that joins two pieces of wood?\nРазбор: Story = рассказ; history = история как прошлое/область знания. Beat вероятно bit. Гипотеза биты отвергнута; дальнейшее plug не подтверждено. Не придумывать окончательное название крепежа.\n\n50. 61:22–61:29\nASR: does make it sense; does it make sense\nМодель: Does it make sense?\nРазбор: Ученик повторяет и сам приближается к правильной структуре: does + it + make sense.\n\n51. 63:24–63:25\nASR: you please\nМодель: Could you say that another way, please?\nРазбор: Ученик лишь начинает фразу; полный вариант произносит преподаватель. Данное предложение — модель для практики, не цитата ученика.\n\n52. 64:22–64:31\nASR: thank you; thank you bye\nМодель: Thank you. Have a good evening. Goodbye.\nРазбор: Удачное завершение: обязательного исправления нет; расширенный вежливый вариант можно использовать в следующий раз."
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · что происходило по порядку",
+      "text": "00:00–01:19 · Приветствие и ожидание преподавателя\nКороткие приветствия: «Я в порядке, спасибо, а вы?» Организатор приветствует участников, меняет отображаемое имя одного из них, чтобы группу было проще узнать, и предлагает подождать пару минут. Преподаватель временно отключается; группа надеется, что он скоро вернётся.\n\n01:19–02:07 · Германия и знакомство ученика\nОбсуждают, где находится преподаватель: в Германии. Ученик шутит о немецком приветствии и рассказывает, что родом из России, живёт в Китае, в детстве и школе говорил по-немецки, а сейчас в основном читает и понимает. ASR передаёт Germany вместо названия языка German; реплики 01:29–02:07 надёжно относятся к ученику по обращению, но немецкое приветствие записано неточно.\n\n02:09–02:49 · Преподаватель вернулся\nПреподаватель подтверждает, что связь пропадала и он уже вернулся. Организатор передаёт ему управление встречей: сейчас пять учеников, ожидают ещё двоих, но через две минуты занятие начнётся независимо от их прихода.\n\n02:50–03:53 · Многоязычная группа\nУчастники знакомятся: одна участница из Польши уже 26 лет живёт в Афинах; у другой греческое имя, но название её города ASR передаёт неясно. Преподаватель отмечает, что у группы разные родные языки: это и сложность, и полезное условие для практики английского.\n\n03:54–04:32 · Начало и проверка связи\nОрганизатор прощается, просит закрыть комнату после занятия. Преподаватель проверяет, слышит и видит ли его присоединившийся участник. Ответа пока нет, поэтому урок продолжается.\n\n04:32–05:04 · История о забытом слове tonsils\nПреподаватель рассказывает, как прошлой зимой заболел, позвонил врачу и не смог вспомнить немецкое слово «миндалины». Он описывал боль в горле и «маленькие штуки, свисающие сзади во рту», но сотрудница не поняла. Это неточное анатомическое описание: свисающий по центру язычок — uvula, а миндалины находятся по сторонам. История показывает проблему общения, а не образец определения.\n\n05:04–06:08 · Попросить повторить и перефразировать\nУчастница сначала говорит, что подобного не случалось, затем уточняет, что поняла не всё, и просит повторить историю. Преподаватель объясняет, что не знал названия болезненной части горла. Другая участница говорит: люди часто забывают слова, когда нервничают; ей обычно помогает перефразирование.\n\n06:08–06:51 · Цель урока и общий экран\nЦель — общаться, когда слово никогда не учили или временно забыли. Преподаватель объявляет ситуацию звонка в приёмную врача и обнаруживает, что ещё не включил демонстрацию экрана. Есть пауза при настройке; короткие «okay» не дают дополнительного содержания.\n\n06:51–07:37 · Правила игры «пациент — администратор»\nПациент тайно выбирает номер части тела на картинке. Нельзя показывать руками, произносить номер или название. Администратор задаёт уточняющие вопросы, затем получает одну попытку угадать. Пациент подтверждает ответ либо сообщает правильный номер.\n\n07:38–08:20 · Демонстрация двух ролей\nПреподаватель играет обе роли и обозначает администратора очками. Пациент говорит, что болит часть стопы, на которую он опирается; администратор уточняет, какая часть, слышит «сзади» и угадывает номер три. Важно чередовать реплики, а не выдавать всё сразу.\n\n08:20–09:16 · Ученик уточняет инструкцию\nНа проверочный вопрос ученик начинает играть пациента и представляется. Преподаватель останавливает его и повторяет: разрешено ли называть номер? Ученик всё же произносит «восемь», после чего понимает, что номер нужно держать в секрете. Затем преподаватель проверяет, должен ли администратор задавать вопросы перед догадкой: да.\n\n09:17–10:11 · Первый звонок: ниже шеи\nДва участника разыгрывают звонок. Пациент описывает место «под шеей и над лёгкими», администратор переспрашивает и угадывает номер два. Позже преподаватель уточнит, что для положения ключицы естественнее below your neck. Картинка в исходной записи текста отсутствует.\n\n10:11–10:51 · Ученик описывает боль в спине\nУченик становится пациентом и говорит о правой стороне спины. Фрагменты о тренировке, груди и плече сильно искажены ASR; точное событие не восстанавливается. Партнёр честно говорит, что не понял последнюю фразу, и спрашивает: боль спереди или сзади?\n\n10:51–11:47 · Уточняющие вопросы о спине\nУченик отвечает «сзади», пытается объяснить связь с сидячей работой, но запись фразы ненадёжна. Партнёр уточняет сторону относительно позвоночника и в конце угадывает номер восемь. Ученик подтверждает. Это успешное согласование номера, но не достоверное определение диагноза или части тела.\n\n11:48–12:37 · Проблема со звуком и смена пары\nПреподаватель назначает новую пару. Один участник не отвечает, поэтому пациента заменяют. Несколько голосов уточняют, кто администратор. Короткий обрывок attention не позволяет уверенно определить говорящего.\n\n12:43–13:48 · Вторая пара: задняя часть стопы\nПациент описывает сильную боль в ноге, особенно при опоре и ходьбе, затем уточняет, что речь о задней части стопы. Администратор сначала делает неясную догадку, затем предлагает номер три; пациент подтверждает. Слова foot и leg смешиваются в исходном ответе.\n\n13:48–14:59 · Что было легко описать\nПреподаватель ещё раз проверяет связь. Ученик хвалит исполнение роли администратора; преподаватель соглашается. Группа обсуждает, что легче описывать часть тела, когда знаешь названия соседних частей и можешь объяснить её расположение относительно них.\n\n14:59–15:45 · Названия частей тела и вопрос ученику\nПреподаватель показывает английские названия, обещает отправить PDF и говорит, что заучивать всё прямо сейчас не нужно. Ученик не сразу понимает вопрос «Знал ли ты раньше какие-нибудь из этих слов?», просит уточнить и затем отвечает, что знал некоторые.\n\n15:45–16:24 · Задание к аудиодиалогу\nГруппа должна услышать два пункта: что за проблема у пациента и что советует сотрудник приёмной. Есть краткий пробный запуск и реплики «да». Шуточное название кабинета в учебном аудио связано с выражением couldn’t care less; это не название реального учреждения.\n\n16:26–17:03 · Аудиодиалог: глаз и веко\nПациент говорит, что проблема не внутри глаза, а на коже, которая закрывается во время сна. Уточняет: край нижней части возле «маленьких волосков». Сотрудник проверяет: нижнее веко возле ресниц? Пациент подтверждает и описывает красный болезненный бугорок, похожий на прыщик. Больно при касании и немного при моргании.\n\n17:04–17:41 · Аудиодиалог: проверить понимание\nСотрудник повторяет описание своими словами и спрашивает, как давно появилась проблема. Пациент отвечает: кажется, три дня. В учебном аудио звучит слово stye и бытовые рекомендации; исходные слова сохранены для полноты в английской колонке, но этот пакет не превращает их в медицинскую инструкцию. Пациент повторяет услышанное, чтобы проверить понимание.\n\n17:41–18:58 · Первое обсуждение услышанного\nУчастники определяют проблему как болезненный бугорок на коже у глаза. Одна участница замечает необычное произношение; преподаватель напоминает, что герой тоже учит язык. В обсуждении сначала звучит upper, затем lower eyelid; сам диалог указывает на нижнее веко. Группа пересказывает действия героя, ученик добавляет, что нужно снова позвонить врачу.\n\n18:58–19:44 · Повторное прослушивание: искать стратегию\nТеперь нужно услышать, как пациент описывает место без нужного слова и как администратор проверяет понимание. Начинается тот же учебный диалог: кожа, закрывающая глаз во сне, нижний край возле ресниц; сотрудник уточняет местоположение.\n\n19:44–20:31 · Повторный диалог: признаки и перефразирование\nПовторяются описание красного болезненного бугорка, вопрос о прикосновении и моргании, пересказ сотрудником и ответ «три дня». Далее повторяется бытовой совет из аудиосценария и обратная проверка понимания пациентом. Это повтор того же материала, а не новый случай.\n\n20:31–21:37 · Ответ ученика: расположение и функция\nПреподаватель спрашивает, как герой объясняет место. Ученик выделяет две стратегии: расположение и функция, простые слова о коже, закрывающей глаз во сне, нижнем крае и маленьких волосках. Некоторые фрагменты накладываются на повторное воспроизведение; слова hello и название кабинета могут принадлежать учебному аудио.\n\n21:37–22:44 · Как администратор проверяет понимание\nУчастница перечисляет вопросы о боли и времени её появления. Преподаватель обращает внимание именно на подтверждение: «Нижнее веко возле ресниц?» Затем отправляет PDF и просит открыть его одновременно с общей демонстрацией. В коротких репликах о демонстрации автоматические голоса смешаны; их нельзя все приписывать ученику.\n\n22:45–23:51 · Сопоставить шесть фраз и функции\nВ PDF показан сценарий. В парах нужно сопоставить фразы 1–6 с функциями A–F. Первый пример: герой не может найти слово и описывает функцию части тела; это C. Остальные пункты группа делает в малых комнатах за две минуты.\n\n23:51–25:23 · Переход в малые комнаты\nПреподаватель настраивает комнаты. Между короткими служебными репликами ASR выдаёт многократное so и растянутое finish; это ненадёжный участок перехода/паузы, а не осмысленный монолог для заучивания. Затем партнёры снова здороваются и проверяют экран.\n\n25:23–26:51 · Пара обсуждает пункт два\nПартнёры читают Can you describe exactly where? Ученик пытается определить функцию вопроса, сначала не уверен; партнёр предлагает перейти к следующему пункту и вернуться. В итоге уточняют: администратор не уверен и поэтому просит подробности о месте. Ученик называет E.\n\n26:51–27:56 · Пункты три и четыре\nОписание нижнего края возле маленьких волосков соответствует указанию места: F. Вопрос Do you know what I mean? проверяет, понял ли слушатель: D. Фраза ученика check your distance в ASR ненадёжна; по контексту речь о проверке понимания, а не расстояния.\n\n27:56–29:24 · Догадка и пересказ своими словами\nПартнёры обсуждают оставшиеся функции: предположение о нижнем веке — A; пересказ «маленький красный болезненный бугорок на краю…» — B. Ученик пытается объяснить, что сотрудница суммирует описание своими словами. Некоторые окончания и номера распознаны неясно; общий ключ позднее проверяется всем классом.\n\n29:24–30:08 · Возвращение и проверка пункта два\nВернувшийся участник сообщает о проблемах со звуком. Группа проверяет второй ответ: E, так как вопрос Can you describe exactly where? показывает неуверенность и запрос уточнения. Первое say where исправляется на not sure / ask.\n\n30:09–31:14 · Экран снова не виден\nПроверяют F для третьего пункта и D для четвёртого. Один участник не видит изображение и не понимает, о чём говорят. Партнёр просит включить демонстрацию; преподаватель извиняется: при выходе из малой комнаты она выключилась. Здесь реплики о непонимании принадлежат разным участникам.\n\n31:17–32:37 · Ключ к шести функциям\nПосле восстановления экрана группа подтверждает D для проверки понимания, A для предположения «нижнее веко у ресниц», B для пересказа. Вместе с первым C, вторым E и третьим F это даёт ключ C–E–F–D–A–B. Ученик использует I think about там, где естественнее I think.\n\n32:37–33:10 · Что значит paraphrase\nПартнёр объясняет: передать тот же смысл другими словами. Преподаватель дополняет: вернуть услышанную мысль собеседнику своими словами, чтобы он понял, что его поняли. Затем просит очистить пометки и переходит к фразам, полезным в любой ситуации, не только у врача.\n\n33:10–33:52 · Не знаешь слова: модель и интонация\nПервая модель: I don’t know the word, but… Преподаватель показывает повышающийся тон и просит повторить. Ученик сначала пропускает the word, затем говорит words. Для одной неизвестной лексемы тренировочная модель — the word. Повышение здесь также удерживает очередь и показывает незавершённость; это не универсальное правило всех вопросов.\n\n33:52–34:38 · Попросить уточнение и описать функцию\nДля слушателя: Sorry, what did you mean? / What do you mean? Для говорящего: категория предмета и назначение — It’s a kind of device; you use it to put papers together. Эти признаки ещё не отличают степлер от скрепки, поэтому нужен следующий уточняющий вопрос.\n\n34:38–35:06 · Проверить, понятно ли объяснение\nГруппа тренирует Does that make sense? с дружелюбным вопросительным тоном. Преподаватель приглашает повторять всем и по одному. Короткие части фразы распределены ASR между голосами; не каждое слово с меткой голоса ученика является его отдельным самостоятельным ответом.\n\n35:07–36:04 · Проверить догадку и перефразировать\nDo you mean the stapler? проверяет догадку; партнёр замечает, что это может быть скрепка. So you mean the stapler повторяет понимание своими словами. Группа повторяет модели. Уточнение формы или функции помогает различить похожие предметы.\n\n36:05–36:55 · Следующая страница отсутствует\nНужно повторить игру с новыми фразами. Преподаватель просит страницу два, но у участников только одна страница. Он извиняется, шутит о внимании и отправляет следующий PDF. Это реальная проблема материала, а не ошибка понимания ученика.\n\n36:55–38:16 · Ученик уточняет, нужно ли придумать ситуацию\nУченик пытается спросить, надо ли придумывать историю пациента и подробно объяснять проблему тела. Фразы ASR фрагментарны; точный вопрос не восстанавливается. Преподаватель сначала спрашивает только, открыт ли PDF, затем объясняет: задача проще — тренировать стратегии описания частей тела, названий которых не знаешь.\n\n38:17–39:38 · Новая демонстрация: не выдавать всё сразу\nТот же формат, но теперь нужно использовать новые выражения. Начать с краткого «болит нога», дать администратору спросить «спереди?», ответить «сзади», уточнить «ниже колена», проверить догадку и лишь затем назвать номер. Проверочный вопрос подтверждает: преподаватель сначала спрашивал и проверял, а не угадывал сразу.\n\n39:38–40:41 · В паре: экран и выбор роли\nПартнёры здороваются, проверяют демонстрацию и распределяют роли. Ученик просит выбрать пациента или администратора; автоматический текст percent, potential здесь не является надёжной лексикой. Затем начинают звонок.\n\n40:48–41:39 · Описание груди и неверная догадка\nВ начале записи две роли частично слились в одном ASR сегменте. Дальше слышны правая сторона, вопрос «спереди или сзади», затем описание кости сбоку/под рукой. Партнёр предполагает ribs. Ученик использует does make a sense, позже исправляемое на Does that make sense? Точный исходный объект пока не установлен.\n\n41:41–43:19 · Belly и уточнение ключицы\nПартнёр перефразирует: болит передняя часть тела возле живота? Объясняет разговорное belly. Ученик возвращает разговор к номеру два; партнёр называет collarbone. Ключица находится выше груди, поэтому исходное below my chest не подходит; нужно исправлять сам ориентир, а не считать догадку ribs окончательным ответом.\n\n43:19–44:17 · История общения с врачом в Китае\nУченик рассказывает о трудностях объяснения проблемы врачу в Китае. Фразы о воде и возвращении сильно искажены, поэтому конкретные действия врача не устанавливаются. Партнёр отвечает, что иногда трудно понять и объяснить боль даже на родном языке.\n\n44:17–45:01 · Стало ли легче и усталость ученика\nПреподаватель спрашивает, стало ли легче; ученик отвечает easy, преподаватель моделирует easier. Отмечает использование новых фраз и интонации. Ученик говорит, что сегодня сильнее устал и говорить трудно; ASR presentation может скрывать pronunciation или другую мысль. Преподаватель поддерживает: произношение понятно.\n\n45:01–45:54 · Новая ситуация: аптека\nТеперь нужно описывать товары в аптеке. Преподаватель считает многие названия сложными, уровня C1/C2; это его оценка выбранных картинок, не проверенная классификация каждой лексемы. В инструкции оговорка: выбирающим картинку назван pharmacist, хотя по смыслу покупатель описывает нужный предмет, а фармацевт уточняет и угадывает.\n\n45:54–46:51 · Одна догадка и смена ролей\nНа вопрос о числе попыток слышно «три». Преподаватель шутит, что фармацевт не джинн: попытка только одна, а перед ней нужно уточнить и проверить понимание. После ответа роли меняются. В парах следует использовать как можно больше изученных конструкций.\n\n46:51–48:02 · Аптека: капли для глаз\nПартнёры выбирают, кто будет фармацевтом. Ученик говорит о целодневной работе с ноутбуком и сухости глаз; ASR starting и age ненадёжны. Партнёр уточняет «что-то для глаз?», после чего они находят eye drops. Затем меняются ролями.\n\n48:04–49:42 · Аптека: термометр\nТеперь ученик — фармацевт. Партнёр рассказывает, что у сына температура и нужен прибор для измерения. Ученик сначала спрашивает о сне и звуках, что не отвечает описанию, затем после повторения функции узнаёт thermometer. Фраза Can you help you? нуждается в исправлении на How can I help you?\n\n49:42–50:33 · Аптека: пластырь и непонимание\nУченик описывает маленькую клейкую полоску с мягкой частью посередине, чтобы закрывать и защищать небольшой порез. ASR передаёт cut как card и искажает другие слова. Партнёр просит перефразировать и в конце узнаёт plaster. Важно не заучивать ошибочные формы распознавания.\n\n50:34–51:25 · Уточнить plaster и Band-Aid\nУченик уточняет про небольшой порез/волдырь и просит пластырь. Партнёр объясняет, что услышал другое слово. Ученик ещё пытается пояснить назначение; снова звучит начало приветствия, затем следующая просьба обрывается возвращением в общий класс. Название Band-Aid в ASR записано как band eight.\n\n51:34–52:39 · Обратная связь и последняя игра\nПреподаватель доволен: в комнатах смеялись и пользовались новыми выражениями. Показывает названия; упоминает earplugs и plaster, а Band-Aid называет торговой маркой. Последнее задание — рассказать настоящую или выдуманную историю, скрыв одно слово, чтобы партнёр его угадал.\n\n52:39–53:43 · Пример: ручка слива унитаза\nПреподаватель рассказывает, как сломался унитаз. Несмотря на 20 лет жизни в Германии, он не знает всех названий деталей даже на родном языке. Говорит: нажимаю на штуку сбоку, вода не уходит. Сантехник уточняет, вода в чаше или бачке, и узнаёт flush handle. Затем преподаватель отправляет пары рассказывать свои истории.\n\n53:52–55:10 · История ученика: зарядка в путешествии\nУченик начинает историю о проблеме зарядки телефона и ноутбука в разных странах, просит выслушать. Партнёр отвечает I’m all ears. В ASR звучит число 158 стран; это непроверенное высказывание в игре, где истории разрешено выдумывать. В отеле зарядное устройство не подошло, и ученик пытается описать маленький переходник сотруднику стойки регистрации.\n\n55:11–56:01 · Adapter и непонимание в Гонконге\nПартнёр предполагает adapter, ученик соглашается, но говорит, что это слово не всегда понимают, и приводит Гонконг и британский тип переходника. Фрагменты про switcher не позволяют установить конкретную деталь или электрическую неисправность. Ученик останавливается, чтобы проверить слово.\n\n56:01–57:15 · Plug adapter и voltage converter\nПосле паузы и поиска ученик называет plug adapter, затем voltage converter. Партнёр замечает, что это разные вещи. Учебный вывод: уточнять, нужна ли совместимость формы вилки или изменение напряжения; сама история не доказывает, какой именно прибор требовался. Пауза поиска сохранена, недостающие слова не добавлены.\n\n57:16–58:07 · История партнёра: мебельный крепёж\nПартнёр рассказывает похожий случай на родном языке: раньше жил в другой квартире, делал мебель во время ремонта, пользовался шуруповёртом и пытался назвать крепёж соседу. ASR confirmed, вероятно, передаёт «конфирмат», но уверенно устанавливать изделие по этому обрывку нельзя. История прерывается возвращением в общий класс.\n\n58:09–58:55 · Подготовка обратной связи\nПреподаватель отмечает хорошие новые выражения и интонацию, готовит примеры на доске. ASR вставляет screwdriver в фразу об улучшениях; вероятна примесь предыдущей темы. Ученик просит уточнить у партнёра название предмета из истории.\n\n58:56–59:55 · Крепёж: догадки остаются непроверенными\nУченик предлагает square-drive bit (ASR beat) и другие варианты. Партнёр отрицает догадку, описывает предмет, соединяющий два куска дерева, и упоминает, что объяснял слово по-русски. Ученику приходит в голову plug; следующая фраза о воде ненадёжна. Преподаватель признаёт неуверенность и возвращает группу к обратной связи. Итоговое название не подтверждено.\n\n59:55–61:02 · Below, а не under; get или got\nПреподаватель исправляет описание ключицы: below your neck естественнее в данном пространственном отношении. Затем предлагает I’m not sure I get the last phrase и предпочитает got, если речь о уже прозвучавшей фразе. Настоящее get тоже возможно для текущего понимания: это контекстный выбор времени, а не запрет грамматически допустимой формы.\n\n61:04–61:39 · Подлежащее в Does it make sense?\nГруппа восстанавливает вопрос с подлежащим it, this или that: Does it/this/that make sense? Ученик повторяет модель. Преподаватель проверяет интонацию и показывает восходящий тон в вопросе-проверке; ASR engine в этом месте искажает intonation.\n\n61:39–62:57 · Подтверждение и вежливое уточнение\nOh, I see подтверждает понимание, Do you mean…? проверяет догадку. Затем рассматривают Sorry, what thing do you want? Более естественно What exactly do you want?, а ещё мягче What exactly are you looking for? Вежливость зависит и от тона; want не становится автоматически вежливым только из-за exactly.\n\n62:57–63:33 · Попросить сказать иначе\nПреподаватель хвалит Sorry, I don’t understand. Could you paraphrase? Но если человек не знает слово paraphrase, проще Could you say that another way? Ученик начинает вежливую просьбу, точный полный вариант за него не восстанавливается. Короткий обрывок the mate не даёт надёжного смысла.\n\n63:33–64:45 · Интонация и завершение\nПреподаватель произносит Does that make sense? нарочито неудачным тоном. Партнёр замечает сарказм; преподаватель связывает эффект с отсутствием подъёма. Это конкретная демонстрация, а не правило «любой нисходящий вопрос — сарказм». Преподаватель обещает отправить листы со словарём, благодарит группу и желает хорошего вечера и выходных. После последнего распознанного bye в 64:31.28 до конца 64:45.74 нет текстовых сегментов; содержание этого хвоста не восстанавливается."
+    },
+    {
+      "kind": "reading",
+      "title": "Запись урока с таймкодами",
+      "text": "Recording: lesson-2026-11-20-ace-clarifying\n\n[00:00:00–79.84] Приветствие и ожидание преподавателя\n[00:01:19–127.04] Германия и знакомство ученика\n[00:02:09–169.78] Преподаватель вернулся\n[00:02:50–233.67] Многоязычная группа\n[00:03:54–272.4] Начало и проверка связи\n[00:04:32–304.48] История о забытом слове tonsils\n[00:05:04–368.62] Попросить повторить и перефразировать\n[00:06:08–411.67] Цель урока и общий экран\n[00:06:51–457.2] Правила игры «пациент — администратор»\n[00:07:38–500.4] Демонстрация двух ролей\n[00:08:20–556.16] Ученик уточняет инструкцию\n[00:09:17–611.65] Первый звонок: ниже шеи\n[00:10:11–651.76] Ученик описывает боль в спине\n[00:10:51–707.36] Уточняющие вопросы о спине\n[00:11:48–757.92] Проблема со звуком и смена пары\n[00:12:43–828.08] Вторая пара: задняя часть стопы\n[00:13:48–899.99] Что было легко описать\n[00:14:59–945.5] Названия частей тела и вопрос ученику\n[00:15:45–984.24] Задание к аудиодиалогу\n[00:16:26–1023.77] Аудиодиалог: глаз и веко\n[00:17:04–1061.04] Аудиодиалог: проверить понимание\n[00:17:41–1138.24] Первое обсуждение услышанного\n[00:18:58–1184.56] Повторное прослушивание: искать стратегию\n[00:19:44–1231.12] Повторный диалог: признаки и перефразирование\n[00:20:31–1297.28] Ответ ученика: расположение и функция\n[00:21:37–1364.31] Как администратор проверяет понимание\n[00:22:45–1431.04] Сопоставить шесть фраз и функции\n[00:23:51–1523.92] Переход в малые комнаты\n[00:25:23–1611.52] Пара обсуждает пункт два\n[00:26:51–1676.16] Пункты три и четыре\n[00:27:56–1764.12] Догадка и пересказ своими словами\n[00:29:24–1808.08] Возвращение и проверка пункта два\n[00:30:09–1874.08] Экран снова не виден\n[00:31:17–1957.15] Ключ к шести функциям\n[00:32:37–1990.32] Что значит paraphrase\n[00:33:10–2032.05] Не знаешь слова: модель и интонация\n[00:33:52–2078.48] Попросить уточнение и описать функцию\n[00:34:38–2106.85] Проверить, понятно ли объяснение\n[00:35:07–2164.6] Проверить догадку и перефразировать\n[00:36:05–2215.36] Следующая страница отсутствует\n[00:36:55–2296.52] Ученик уточняет, нужно ли придумать ситуацию\n[00:38:17–2378.72] Новая демонстрация: не выдавать всё сразу\n[00:39:38–2441.52] В паре: экран и выбор роли\n[00:40:48–2499.88] Описание груди и неверная догадка\n[00:41:41–2599.28] Belly и уточнение ключицы\n[00:43:19–2657.52] История общения с врачом в Китае\n[00:44:17–2701.13] Стало ли легче и усталость ученика\n[00:45:01–2754.72] Новая ситуация: аптека\n[00:45:54–2811.6] Одна догадка и смена ролей\n[00:46:51–2882.64] Аптека: капли для глаз\n[00:48:04–2982.96] Аптека: термометр\n[00:49:42–3033.2] Аптека: пластырь и непонимание\n[00:50:34–3085.52] Уточнить plaster и Band-Aid\n[00:51:34–3159.92] Обратная связь и последняя игра\n[00:52:39–3223.68] Пример: ручка слива унитаза\n[00:53:52–3310.93] История ученика: зарядка в путешествии\n[00:55:11–3361.28] Adapter и непонимание в Гонконге\n[00:56:01–3435.36] Plug adapter и voltage converter\n[00:57:16–3487.12] История партнёра: мебельный крепёж\n[00:58:09–3535.62] Подготовка обратной связи\n[00:58:56–3595.12] Крепёж: догадки остаются непроверенными\n[00:59:55–3662.4] Below, а не under; get или got\n[01:01:04–3699.92] Подлежащее в Does it make sense?\n[01:01:39–3777.49] Подтверждение и вежливое уточнение\n[01:02:57–3813.02] Попросить сказать иначе\n[01:03:33–3885.74] Интонация и завершение"
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · полнота, пропуски и надёжность",
+      "text": "Источник: локальная автоматическая расшифровка занятия 20 ноября 2026, начатого в 23:06. Продолжительность файла — 64:45.74 (3885.74 с). Все 864 исходных индекса сохранены в source-transcript.json и непрерывно покрыты 66 двуязычными блоками transcript.json: sourceStart включительно, sourceEnd исключительно. Исходные сотые секунды поделены на 100. Последняя распознанная реплика заканчивается в 64:31.28; до 64:45.74 нет текста. Весь хвост включён в последний блок без придуманной речи. Между сегментами есть промежутки; они не приравнены автоматически к отсутствию звука.\n\nEnglish в transcript.json сохраняет все исходные слова с нейтрализацией имён, включая ошибки и повторы; это не исправленный английский для заучивания. Русский текст — подробный смысловой перевод/разбор с оговорками, а не ложное дословное восстановление повреждённого ASR. В исходных сегментах имена заменены ролями, авто-кластеры остаются неподтверждёнными голосами. Один кластер меняет функцию, а в 40:51–40:58 две роли сливаются; метка voice 2 не равна ученику. В 22:20–22:44 и хоровых повторах часть «его» фрагментов явно может быть голосом преподавателя или воспроизводимой записи. Отдельный learner-utterance-audit.json перечисляет все фрагменты voice 2, указывает контекстную уверенность и не назначает личных ошибок по одной метке.\n\nНазвание ACE TEFL — предположение по организаторскому/греческому контексту; в доступном тексте школа прямо не названа, а календарное окно не подтверждает точно этот старт. Это не проверенное происхождение каждого слайда. Оригинальные PDF и картинки в пакет не включены и не восстановлены выдуманными цитатами. Номера на картинках известны только там, где их подтверждают в разговоре. Подтверждённый ключ функций: 1 C, 2 E, 3 F, 4 D, 5 A, 6 B. Буквы относятся к этому упражнению, не к отсутствующему оригинальному макету.\n\nНенадёжны немецкое приветствие 01:35, длинное описание спины 10:27–11:41, transition so 24:09–24:37, части обсуждения букв 27:39–29:09, длинный вопрос 37:03–38:15, анатомическое описание 40:51–43:14, рассказ о враче 43:19–43:51, starting/age вместо слов о ноутбуке и глазах 47:24, cut/card и plaster/faster/band eight 49:49–51:12, flush handle/flash clock 53:19, числа и детали путешествия 54:34, switcher 55:31, крепёж 57:42–59:46. Гарнитура/микрофон и наложение могут влиять на качество, но текст ASR сам по себе не доказывает ошибку произношения. Анализ аудиосигнала нашёл 12 пауз >=4 с, всего около 72.7 с, ни одной >=20 с; пик около 0 dB допускает клиппинг, но не доказывает его. RMS около −22.20 dB. Эти измерения не доказывают полную разборчивость голосов.\n\nШесть чтений A1–C2 и все 18 диалогов — авторские адаптации для практики, не цитаты реальных участников. Учебные примеры используют роли Learner/Teacher/Partner. Истории по условию могут быть выдуманы; число стран и события из них не закреплены как факты биографии. Никакие данные аккаунта не меняются. Аудио, частные абсолютные пути, адреса, ссылки на встречу и контакты не публикуются.\n\nПроверки терминов: Cambridge различает tonsils, uvula и eyelid; Merriam-Webster фиксирует варианты stye/sty. Рассказ об «исходящих вниз миндалинах» анатомически неточен. Интонационные модели проверяются контекстно: мягкий подъём/нисходяще-восходящий тон часто помогает проверке, но не все вопросы имеют подъём и не любой спад саркастичен. Present get при текущем понимании грамматичен; got уместно для прошлой услышанной фразы. В учебном аудио есть бытовые медицинские советы; они сохранены только внутри полного ASR, а не превращены в рекомендации этого пакета. Ссылки и границы проверки приведены в README."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · German или Germany",
+      "prompt": "Исправь: When I child, I speaking Germany at school.",
+      "answer": "When I was a child, I studied German at school. / When I was a child, I used to speak German at school."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Сказать мнение о букве",
+      "prompt": "Исправь ответ о выборе: I think about D is correct.",
+      "answer": "I think D is correct. / I think it’s D."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Подлежащее и sense",
+      "prompt": "Исправь: Does make a sense? Затем сделай утверждение.",
+      "answer": "Does that make sense? / Does it make sense? Утверждение: That makes sense. / It makes sense."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Назначение",
+      "prompt": "Закончи двумя способами: You use a thermometer ___ temperature. It is used for ___ temperature.",
+      "answer": "You use a thermometer to measure temperature. It is used for measuring temperature."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Косвенный вопрос",
+      "prompt": "Исправь: Could you tell me where is it? Do you know what do I mean?",
+      "answer": "Could you tell me where it is? Do you know what I mean?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Пространство и точность",
+      "prompt": "Опиши положение ключицы, используя neck и chest. Объясни по-русски, почему нельзя механически заменять любое under на below.",
+      "answer": "The collarbone is below the neck and above the chest. Under и below могут выражать разные пространственные отношения; under the arm допустимо в другом контексте."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Вежливая роль",
+      "prompt": "Ты фармацевт. Исправь Can you help you? и замени What thing do you want? более мягким вопросом.",
+      "answer": "Hello. How can I help you? What exactly are you looking for? / Could you describe what you need it for?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Easy и easier",
+      "prompt": "Сравни второй раунд с первым: It was a little ___ this time. Затем сообщи, что сегодня сильнее устал.",
+      "answer": "It was a little easier this time. I’m more tired today, so speaking feels harder."
+    },
+    {
+      "kind": "exercise",
+      "title": "Понимание урока · Шесть функций",
+      "prompt": "Сопоставь стратегии:1не могу найти слово;2не уверен — спрашиваю;3описываю место;4проверяю, что меня поняли;5проверяю догадку;6пересказываю. Какие буквы прозвучали в общем ключе?",
+      "answer": "1 C; 2 E; 3 F; 4 D; 5 A; 6 B. Это ключ функций упражнения, а не восстановленный оригинальный PDF."
+    },
+    {
+      "kind": "exercise",
+      "title": "Понимание урока · Уточнить вместо угадать",
+      "prompt": "Предмет держит бумаги вместе. Придумай вопрос, чтобы различить paper clip и stapler; затем проверь догадку.",
+      "answer": "Does it put a metal staple through the paper, or does it just slide over the edge? Do you mean a stapler?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Понимание урока · Проверка без сарказма",
+      "prompt": "Партнёр не знает слово paraphrase и не понял твоё описание. Попроси сказать иначе или уточни признак простыми словами; затем проверь понимание.",
+      "answer": "Could you say that another way? What do you use it for? So you mean a device for measuring temperature? / Does that make sense? Тон мягко приглашает к ответу; это не правило для любой интонации любого вопроса."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "source": "Record-2026-11-20 20-06-12-20261120-200613",
+    "durationSeconds": 7546.58,
+    "segments": 3866,
+    "coveredSegments": 3866,
+    "transcriptBlocks": 41,
+    "package": "lesson.json",
+    "words": 109,
+    "materials": 60,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "schoolAttribution": "DC Teacher Training — Upper Intermediate B2 (David), confirmed by user; teachers in recording Kara and Habib",
+    "speakerAttribution": "ASR clusters mix identities; direct address/context used only where explicit. Adapted role Learner is not a claim of authorship for every fragment.",
+    "publishedAudio": false,
+    "untranscribedTailSeconds": 302.81,
+    "grammarReferences": [
+      "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect-simple-continuous",
+      "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/future-continuous-future-perfect",
+      "https://dictionary.cambridge.org/dictionary/english/row"
+    ]
+  }
+]

@@ -62,3 +62,40 @@ test('new lesson retains complete source coverage, six levels and immediately us
   assert.ok(packet.words.length>=70);
   assert.ok(!/\bDen(?:n)?is\b|Денис|Деннис/iu.test(JSON.stringify(packet)));
 });
+
+test('both evening recordings retain every ASR segment, translations, roles and six-level practice',()=>{
+  const cases = [
+    {id:'dc-teacher-training/crime-punishment-and-time',count:3866,duration:7546.58,scenes:4,phrases:38,key:'lesson-2026-11-20-dc-crime-time'},
+    {id:'ace-tefl/clarifying-meaning',count:864,duration:3885.74,scenes:3,phrases:38,key:'lesson-2026-11-20-ace-clarifying'}
+  ];
+  for(const item of cases){
+    const folder='en/lessons/'+item.id+'/';
+    const source=read(folder+'source-transcript.json'),transcript=read(folder+'transcript.json');
+    assert.equal(source.segments.length,item.count);assert.equal(source.durationSeconds,item.duration);
+    assert.deepEqual(transcript.flatMap((line:any)=>Array.from({length:line.sourceEnd-line.sourceStart},(_,i)=>line.sourceStart+i)),source.segments.map((line:any)=>line.index));
+    for(const line of transcript){
+      assert.equal(line.en,source.segments.slice(line.sourceStart,line.sourceEnd).map((segment:any)=>segment.text).join(' '));
+      assert.ok(line.ru.length>40);assert.ok(line.end>line.start);
+    }
+    assert.equal(transcript.at(-1).end,item.duration);
+    const packet=parseChatPackage(readFileSync(resolve(root,folder,'lesson.json'),'utf8'));
+    assert.ok(packet.words.every((word:any)=>word.vocabularyLevel==='learning'));
+    const groups=new Map<string,string[]>();
+    for(const material of packet.materials.filter((row:any)=>row.kind==='dialogue')){
+      const {title,level}=dialogueVersion(material.title);const levels=groups.get(title)??[];levels.push(level!);groups.set(title,levels);
+      assert.ok(material.text.includes('Learner:'));assert.ok(material.translation);
+      assert.ok(packet.materials.some((row:any)=>row.title==='Чтение и ответ · '+material.title && row.prompt.includes(material.text) && row.answer));
+    }
+    assert.equal(groups.size,item.scenes);
+    for(const levels of groups.values())assert.deepEqual(levels,['A1','A2','B1','B2','C1','C2']);
+    for(const level of ['A1','A2','B1','B2','C1','C2'])assert.ok(packet.materials.some((row:any)=>row.kind==='reading'&&row.title==='Текст для чтения · '+level));
+    assert.equal(teacherPhraseCards(packet.materials.find((row:any)=>row.title.startsWith('Реплики преподавателя ·'))!.text).length,item.phrases);
+    const timed=packet.materials.find((row:any)=>row.title==='Запись урока с таймкодами')!;
+    assert.ok(timed.text.includes('Recording: '+item.key));assert.equal(lessonCues(timed.text).length,transcript.length);
+    for(const name of ['lesson.json','transcript.json','source-transcript.json','README.md','sources.json']){
+      const text=readFileSync(resolve(root,folder,name),'utf8');
+      assert.ok(!/\bDen(?:n)?is(?:e)?\b|Денис|Деннис|\/Users\/|[\w.+-]+@[\w.-]+\.[a-z]{2,}|zoom\.us\/j\//iu.test(text),`${item.id}/${name}: privacy`);
+    }
+    assert.ok(!readdirSync(resolve(root,folder)).some(name=>/\.(wav|mp3|m4a|mp4|webm)$/i.test(name)));
+  }
+});

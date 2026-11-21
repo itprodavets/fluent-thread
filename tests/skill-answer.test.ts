@@ -17,9 +17,9 @@ test('skill feedback identifies actual snippets and offers a separate softer phr
   assert.deepEqual(inspectSkillAnswer('I’ll see if we will leave earlier. I see what you mean.', 'disagreeing', []).corrections, []);
 });
 
-test('all nine dialogue scenarios have an interlocutor line and model without detected errors', () => {
+test('all published dialogue scenarios have an interlocutor line and model without detected errors', () => {
   const skills = JSON.parse(readFileSync(new URL('../materials/en/skills/catalog.json', import.meta.url), 'utf8'));
-  assert.equal(skills.flatMap(skill => skill.dialogues).length, 9);
+  assert.ok(skills.flatMap(skill => skill.dialogues).length >= 12);
   for (const skill of skills) for (const dialogue of skill.dialogues) {
     assert.ok(dialogue.role.line && dialogue.role.patterns.length && dialogue.answer);
     assert.deepEqual(inspectSkillAnswer(dialogue.answer, skill.id, dialogue.role.patterns).corrections, []);
