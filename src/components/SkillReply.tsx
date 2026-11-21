@@ -5,6 +5,7 @@ import { dialogueMistakesHash, dialogueReviewOutcome, reviewDialogueMistake, sav
 import type { DialogueMistake, DialogueScenario } from '../domain/dialogue-mistakes';
 import { Recording } from './Recording';
 import { Fold, VoiceButtons } from './common';
+import { LessonMistakeReply } from './LessonMistakeReply';
 
 export function MistakeCorrections({ mistake }: { mistake: DialogueMistake }) {
   return <ul className="speech-corrections">{mistake.corrections.map((item, index) =>
@@ -12,7 +13,14 @@ export function MistakeCorrections({ mistake }: { mistake: DialogueMistake }) {
   )}</ul>;
 }
 
-export function SkillReply({ exercise, recordingId, mistake }: { exercise: DialogueScenario; recordingId: string; mistake?: DialogueMistake }) {
+type ReplyProps = { exercise: DialogueScenario; recordingId: string; mistake?: DialogueMistake; onReviewed?: () => void };
+export function SkillReply(props: ReplyProps) {
+  return props.mistake?.reviewMode === 'self-check'
+    ? <LessonMistakeReply mistake={props.mistake} recordingId={props.recordingId} onReviewed={props.onReviewed} />
+    : <RuleSkillReply {...props} />;
+}
+
+function RuleSkillReply({ exercise, recordingId, mistake, onReviewed }: ReplyProps) {
   const { update } = useWorkspace();
   const { skillId } = exercise;
   const [saving, setSaving] = useState(false);
@@ -34,7 +42,7 @@ export function SkillReply({ exercise, recordingId, mistake }: { exercise: Dialo
     setSaving(true);
     try {
       if (await update(current => mistake ? reviewDialogueMistake(current, mistake.id, answer, corrections, now)
-        : saveDialogueMistakes(current, exercise, answer, corrections, now))) setReviewed(answer);
+        : saveDialogueMistakes(current, exercise, answer, corrections, now))) { setReviewed(answer); onReviewed?.(); }
     } finally { setSaving(false); }
   }
 
