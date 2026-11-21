@@ -31,7 +31,7 @@ export function DialogueMistakeReview() {
     <p className="sub" role="status">К повторению: {due.length} · Сохранено: {all.length}</p>
     {!!available.length && <div className="resource">
       <h3>Разобранные ошибки из твоих уроков</h3>
-      <p>Ситуации, исправления и пункты для самостоятельной проверки из записей 20 ноября. Неуверенные слова распознавания не назначены как личные ошибки.</p>
+      <p>Ситуации, исправления и пункты для самостоятельной проверки из разобранных записей уроков. Неуверенные слова распознавания не назначены как личные ошибки.</p>
       <button type="button" className="primary" disabled={adding} onClick={async () => {
         setAdding(true);
         try { if (await update(current => addLessonMistakes(current, lessonMistakePacks, Date.now()))) setNow(Date.now()); }
