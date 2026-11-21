@@ -1,0 +1,189 @@
+{
+  "id": "dc-teacher-training/crime-punishment-and-time",
+  "recordingKey": "lesson-2026-11-20-dc-crime-time",
+  "school": "DC Teacher Training",
+  "date": "2026-11-20",
+  "notice": "Упражнения по подтверждённому контексту. Исходные строки — обезличенные фрагменты ASR или явно помеченный пересказ; модели для обучения не являются дословными цитатами. Кластеры голосов сами по себе не подтверждают авторство. Не включены немецкое приветствие, лексические искажения ASR, реплики других людей, удачные короткие ответы и неподтверждённые догадки.",
+  "cards": [
+    {
+      "id": "participle",
+      "time": "23:50–24:10",
+      "title": "Назвать форму evicted",
+      "original": "Passive verb.",
+      "corrected": "Evicted is a past participle. The whole structure is passive.",
+      "reason": "Форма отдельного evicted — past participle; passive описывает конструкцию be evicted.",
+      "partner": "What form is “evicted” in “be evicted”?",
+      "prompt": "Назови форму слова и затем объясни всю конструкцию. Попробуй другой пример с expelled.",
+      "checklist": [
+        "Различаю past participle и passive.",
+        "Указываю be + past participle, а не только называю весь оборот."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "partner-chooses",
+      "time": "41:00–44:30",
+      "title": "Обсудить гипотетический выбор",
+      "original": "If a partner choose…",
+      "corrected": "What would we say if our partner chose expulsion?",
+      "reason": "Возможный выбор: What if our partner chooses…? Более условный вопрос: What would we say if our partner chose…? Неясное expat в ASR не диагностируется как лексическая ошибка.",
+      "partner": "Are you arguing for expulsion, or asking about your partner’s choice?",
+      "prompt": "Объясни, что это гипотеза, и задай вопрос о выборе партнёра.",
+      "checklist": [
+        "Ясно отделяю гипотезу от своего мнения.",
+        "Использую chooses после partner или chose в условной модели с would."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "speak-chinese",
+      "time": "72:00–73:00",
+      "title": "Рассказать о владении языком",
+      "original": "I’m speaking Chinese.",
+      "corrected": "I speak Chinese.",
+      "reason": "Для обычного умения говорим I speak. I’m speaking описывает речь сейчас или временную ситуацию.",
+      "partner": "Which languages do you speak?",
+      "prompt": "Расскажи о языке, которым владеешь, и добавь свой пример о другом умении.",
+      "checklist": [
+        "Для постоянного навыка использую Present Simple или can speak.",
+        "Не запрещаю Continuous в контексте речи прямо сейчас."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "english-practice",
+      "time": "72:30–74:00",
+      "title": "Попросить больше разговорной практики",
+      "original": "I want more practice for English.",
+      "corrected": "I’d like more opportunities to practise speaking English.",
+      "reason": "Более естественные сочетания: practise speaking English, get more speaking practice. Это улучшение формулировки, а не запрет любого practice for.",
+      "partner": "Would you prefer to explain it in Russian?",
+      "prompt": "Ответь, что предпочитаешь практиковать английский, и объясни зачем.",
+      "checklist": [
+        "Использую practise speaking / get speaking practice / practise English.",
+        "Сохраняю смысл своей цели, могу переформулировать."
+      ],
+      "kind": "naturalness"
+    },
+    {
+      "id": "why-question",
+      "time": "75:00–77:00",
+      "title": "Спросить о выборе формы",
+      "original": "Why you use this?",
+      "corrected": "Why did you choose this form?",
+      "reason": "В вопросе нужен вспомогательный do/did: Why do we use…? / Why did you choose…? После него начальная форма.",
+      "partner": "I chose “will read”.",
+      "prompt": "Попроси объяснить выбор. Можно спросить о конкретном ответе или об общем правиле.",
+      "checklist": [
+        "Есть do/did или другая корректная вопросительная конструкция.",
+        "После did использую choose/use, не chose/used."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "recent-activity",
+      "time": "77:45–78:30",
+      "title": "Объяснить have been drinking",
+      "original": "We choose being drinking. This present person continues…",
+      "corrected": "We chose “have been drinking”. It’s the present perfect continuous, so the focus is on a recent activity.",
+      "reason": "Исходник — повреждённый ASR после прямого обращения. Тренируем цельную конструкцию have been + -ing и ясное объяснение, не ставим диагноз произношению по person continues.",
+      "partner": "Which form did you choose, and why?",
+      "prompt": "Назови выбранную форму и объясни деятельность, связанную с настоящим. Придумай свой пример.",
+      "checklist": [
+        "Строю have/has been + -ing.",
+        "Объясняю акцент на деятельности, а не универсальное правило «много раз»."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "choice",
+      "time": "82:00–84:00",
+      "title": "Узнать выбор партнёра",
+      "original": "What is your choose?",
+      "corrected": "Which option did you choose?",
+      "reason": "Choose — глагол, choice — существительное. Возможен и вопрос What’s your choice?",
+      "partner": "I’ve finished the grammar task.",
+      "prompt": "Спроси, какой вариант выбрал партнёр, и попроси назвать причину.",
+      "checklist": [
+        "Не использую choose как существительное.",
+        "Если использую did, после него choose; также подходит What’s your choice?"
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "think-clause",
+      "time": "82:00–85:00",
+      "title": "Высказать мнение о времени",
+      "original": "I think about number one three and six this present perfect simple.",
+      "corrected": "I think numbers one, three and six are in the present perfect simple.",
+      "reason": "Для мнения I think + предложение. Think about + предмет/-ing значит обдумывать. Номерной ключ исходного рисунка не считается проверенным.",
+      "partner": "Which sentences do you think describe a completed result?",
+      "prompt": "Предложи свою классификацию и объясни её; можешь выбрать другие примеры.",
+      "checklist": [
+        "После I think есть полноценное предложение.",
+        "Think about оставляю для значения «обдумывать», не вставляю перед утверждением."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "facebook",
+      "time": "84:00–86:00",
+      "title": "Назвать платформу",
+      "original": "Our friends in Facebook…",
+      "corrected": "Our friends on Facebook will be reading about it.",
+      "reason": "Для платформы в таком контексте обычно on Facebook. ASR предложения фрагментарен; тренируется сочетание, а не точный ключ карикатуры.",
+      "partner": "Where will your friends be reading about this?",
+      "prompt": "Ответь про платформу и действие в будущем. Можно использовать другую социальную сеть.",
+      "checklist": [
+        "Использую on + платформа.",
+        "Для процесса в будущий момент могу использовать will be reading."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "profession",
+      "time": "86:00–89:00",
+      "title": "Представиться по профессии",
+      "original": "I am businessman and I a software developer.",
+      "corrected": "I’m a businessperson and a software developer.",
+      "reason": "Нужен be; перед исчисляемой профессией в единственном числе — a/an. Непонятные подробности проекта из ASR не добавлены.",
+      "partner": "What do you do?",
+      "prompt": "Назови профессию и добавь одну подробность о своей работе.",
+      "checklist": [
+        "Есть am/work as или другая правильная связка.",
+        "При исчисляемой профессии в единственном числе есть a/an."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "been-to",
+      "time": "110:00–113:00",
+      "title": "Рассказать об опыте поездок",
+      "original": "I’ve been many times in Beijing.",
+      "corrected": "I’ve been to Beijing many times.",
+      "reason": "Been to — опыт посещения места. Been in может описывать пребывание, но это другая точка зрения.",
+      "partner": "Have you visited Beijing?",
+      "prompt": "Расскажи об опыте поездок в один город без конкретного законченного года.",
+      "checklist": [
+        "Использую been to / visited для опыта посещения.",
+        "Различаю опыт поездки и пребывание в месте."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "finished-year",
+      "time": "110:00–113:00",
+      "title": "Назвать год поездки",
+      "original": "I’ve been to Olympic Games … 2008.",
+      "corrected": "I went to the Olympics in 2008.",
+      "reason": "С законченным годом отдельной поездки — Past Simple. I’ve been to the Olympics без такого года возможно как опыт.",
+      "partner": "When did you go to the Olympics?",
+      "prompt": "Ответь с законченным годом; затем придумай свою поездку с датой.",
+      "checklist": [
+        "Для законченного события с годом использую Past Simple.",
+        "Не смешиваю Present Perfect с in 2008 в обычном рассказе об этой поездке."
+      ],
+      "kind": "grammar"
+    }
+  ]
+}

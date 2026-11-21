@@ -25,7 +25,10 @@ export type DialogueMistake = {
   original: string;
   due: number;
   level: number;
-  last?: { answer: string; result: 'fixed' | 'retry' };
+  last?: { answer: string; result: 'fixed' | 'retry'; assessment?: import('./model').Outcome };
+  reviewMode?: 'self-check';
+  checklist?: string[];
+  source?: { lessonId: string; topicId: string; time: string; kind: string };
 };
 
 function mistakeId(scenario: DialogueScenario, rule: string) {
@@ -35,6 +38,11 @@ function mistakeId(scenario: DialogueScenario, rule: string) {
 export function dialogueMistakes(study: Study, now: number) {
   const all = study.language === 'en' ? Object.values(study.dialogueMistakes ?? {}).sort((a, b) => a.due - b.due) : [];
   return { all, due: all.filter(card => card.due <= now) };
+}
+
+export function mistakeReviewMoved(study: Study, id: string, now: number) {
+  const card = study.dialogueMistakes?.[id];
+  return !card || card.due > now;
 }
 
 export function saveDialogueMistakes(study: Study, scenario: DialogueScenario, answer: string, corrections: Correction[], now: number, except?: string): Study {

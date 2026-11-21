@@ -1623,3 +1623,177 @@ RU: Говорят, что уже поздно, предлагают закон�
 1 What do you think? 2 Which option did you choose? / What’s your choice? 3 What if our partner chooses expulsion? / What would we say if our partner chose it? 4 I’m a businessperson and a software developer. 5 I went to Beijing in 2008. 6 Why did you choose this form? / Why do we use this form? 7 I’ll be lying on the beach. 8 I speak German. 9 The document isn’t accessible. / It says I need access. 10 I’ll be helping my daughter with her homework. Собственное продолжение может отличаться: сохраняй намерение и ясную связь с вопросом.
 
 </details>
+
+## Повторение разобранных ошибок
+
+[Карточки для повторения](mistake-practice.json) добавляются в приложении: «Материалы → Мои ошибки → Добавить в повторение». Каждая карточка предлагает новый ответ своими словами, модель и пункты проверки. Самооценка планирует повторение в общей очереди; примеры не присваиваются пользователям автоматически. Повторное добавление сохраняет личные ответы и сроки.
+
+Упражнения по подтверждённому контексту. Исходные строки — обезличенные фрагменты ASR или явно помеченный пересказ; модели для обучения не являются дословными цитатами. Кластеры голосов сами по себе не подтверждают авторство. Не включены немецкое приветствие, лексические искажения ASR, реплики других людей, удачные короткие ответы и неподтверждённые догадки.
+
+### Назвать форму evicted · 23:50–24:10
+
+Контекст/ASR: Passive verb.
+
+Собеседник: What form is “evicted” in “be evicted”?
+
+Задание: Назови форму слова и затем объясни всю конструкцию. Попробуй другой пример с expelled.
+
+Модель: Evicted is a past participle. The whole structure is passive.
+
+Форма отдельного evicted — past participle; passive описывает конструкцию be evicted.
+
+Проверь: Различаю past participle и passive.; Указываю be + past participle, а не только называю весь оборот.
+
+### Обсудить гипотетический выбор · 41:00–44:30
+
+Контекст/ASR: If a partner choose…
+
+Собеседник: Are you arguing for expulsion, or asking about your partner’s choice?
+
+Задание: Объясни, что это гипотеза, и задай вопрос о выборе партнёра.
+
+Модель: What would we say if our partner chose expulsion?
+
+Возможный выбор: What if our partner chooses…? Более условный вопрос: What would we say if our partner chose…? Неясное expat в ASR не диагностируется как лексическая ошибка.
+
+Проверь: Ясно отделяю гипотезу от своего мнения.; Использую chooses после partner или chose в условной модели с would.
+
+### Рассказать о владении языком · 72:00–73:00
+
+Контекст/ASR: I’m speaking Chinese.
+
+Собеседник: Which languages do you speak?
+
+Задание: Расскажи о языке, которым владеешь, и добавь свой пример о другом умении.
+
+Модель: I speak Chinese.
+
+Для обычного умения говорим I speak. I’m speaking описывает речь сейчас или временную ситуацию.
+
+Проверь: Для постоянного навыка использую Present Simple или can speak.; Не запрещаю Continuous в контексте речи прямо сейчас.
+
+### Попросить больше разговорной практики · 72:30–74:00
+
+Контекст/ASR: I want more practice for English.
+
+Собеседник: Would you prefer to explain it in Russian?
+
+Задание: Ответь, что предпочитаешь практиковать английский, и объясни зачем.
+
+Модель: I’d like more opportunities to practise speaking English.
+
+Более естественные сочетания: practise speaking English, get more speaking practice. Это улучшение формулировки, а не запрет любого practice for.
+
+Проверь: Использую practise speaking / get speaking practice / practise English.; Сохраняю смысл своей цели, могу переформулировать.
+
+### Спросить о выборе формы · 75:00–77:00
+
+Контекст/ASR: Why you use this?
+
+Собеседник: I chose “will read”.
+
+Задание: Попроси объяснить выбор. Можно спросить о конкретном ответе или об общем правиле.
+
+Модель: Why did you choose this form?
+
+В вопросе нужен вспомогательный do/did: Why do we use…? / Why did you choose…? После него начальная форма.
+
+Проверь: Есть do/did или другая корректная вопросительная конструкция.; После did использую choose/use, не chose/used.
+
+### Объяснить have been drinking · 77:45–78:30
+
+Контекст/ASR: We choose being drinking. This present person continues…
+
+Собеседник: Which form did you choose, and why?
+
+Задание: Назови выбранную форму и объясни деятельность, связанную с настоящим. Придумай свой пример.
+
+Модель: We chose “have been drinking”. It’s the present perfect continuous, so the focus is on a recent activity.
+
+Исходник — повреждённый ASR после прямого обращения. Тренируем цельную конструкцию have been + -ing и ясное объяснение, не ставим диагноз произношению по person continues.
+
+Проверь: Строю have/has been + -ing.; Объясняю акцент на деятельности, а не универсальное правило «много раз».
+
+### Узнать выбор партнёра · 82:00–84:00
+
+Контекст/ASR: What is your choose?
+
+Собеседник: I’ve finished the grammar task.
+
+Задание: Спроси, какой вариант выбрал партнёр, и попроси назвать причину.
+
+Модель: Which option did you choose?
+
+Choose — глагол, choice — существительное. Возможен и вопрос What’s your choice?
+
+Проверь: Не использую choose как существительное.; Если использую did, после него choose; также подходит What’s your choice?
+
+### Высказать мнение о времени · 82:00–85:00
+
+Контекст/ASR: I think about number one three and six this present perfect simple.
+
+Собеседник: Which sentences do you think describe a completed result?
+
+Задание: Предложи свою классификацию и объясни её; можешь выбрать другие примеры.
+
+Модель: I think numbers one, three and six are in the present perfect simple.
+
+Для мнения I think + предложение. Think about + предмет/-ing значит обдумывать. Номерной ключ исходного рисунка не считается проверенным.
+
+Проверь: После I think есть полноценное предложение.; Think about оставляю для значения «обдумывать», не вставляю перед утверждением.
+
+### Назвать платформу · 84:00–86:00
+
+Контекст/ASR: Our friends in Facebook…
+
+Собеседник: Where will your friends be reading about this?
+
+Задание: Ответь про платформу и действие в будущем. Можно использовать другую социальную сеть.
+
+Модель: Our friends on Facebook will be reading about it.
+
+Для платформы в таком контексте обычно on Facebook. ASR предложения фрагментарен; тренируется сочетание, а не точный ключ карикатуры.
+
+Проверь: Использую on + платформа.; Для процесса в будущий момент могу использовать will be reading.
+
+### Представиться по профессии · 86:00–89:00
+
+Контекст/ASR: I am businessman and I a software developer.
+
+Собеседник: What do you do?
+
+Задание: Назови профессию и добавь одну подробность о своей работе.
+
+Модель: I’m a businessperson and a software developer.
+
+Нужен be; перед исчисляемой профессией в единственном числе — a/an. Непонятные подробности проекта из ASR не добавлены.
+
+Проверь: Есть am/work as или другая правильная связка.; При исчисляемой профессии в единственном числе есть a/an.
+
+### Рассказать об опыте поездок · 110:00–113:00
+
+Контекст/ASR: I’ve been many times in Beijing.
+
+Собеседник: Have you visited Beijing?
+
+Задание: Расскажи об опыте поездок в один город без конкретного законченного года.
+
+Модель: I’ve been to Beijing many times.
+
+Been to — опыт посещения места. Been in может описывать пребывание, но это другая точка зрения.
+
+Проверь: Использую been to / visited для опыта посещения.; Различаю опыт поездки и пребывание в месте.
+
+### Назвать год поездки · 110:00–113:00
+
+Контекст/ASR: I’ve been to Olympic Games … 2008.
+
+Собеседник: When did you go to the Olympics?
+
+Задание: Ответь с законченным годом; затем придумай свою поездку с датой.
+
+Модель: I went to the Olympics in 2008.
+
+С законченным годом отдельной поездки — Past Simple. I’ve been to the Olympics без такого года возможно как опыт.
+
+Проверь: Для законченного события с годом использую Past Simple.; Не смешиваю Present Perfect с in 2008 в обычном рассказе об этой поездке.

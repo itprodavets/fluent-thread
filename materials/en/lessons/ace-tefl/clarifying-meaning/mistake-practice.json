@@ -1,0 +1,264 @@
+{
+  "id": "ace-tefl/clarifying-meaning",
+  "recordingKey": "lesson-2026-11-20-ace-clarifying",
+  "school": "ACE TEFL (предположительно; в записи не подтверждено)",
+  "date": "2026-11-20",
+  "notice": "Упражнения по подтверждённому контексту. Исходные строки — обезличенные фрагменты ASR или явно помеченный пересказ; модели для обучения не являются дословными цитатами. Кластеры голосов сами по себе не подтверждают авторство. Не включены немецкое приветствие, лексические искажения ASR, реплики других людей, удачные короткие ответы и неподтверждённые догадки.",
+  "cards": [
+    {
+      "id": "child",
+      "time": "01:42–01:57",
+      "title": "Рассказать о детстве",
+      "original": "When I child…",
+      "corrected": "When I was a child, I learnt German at school.",
+      "reason": "После I нужно was; перед child — a. Продолжение про школу — учебная модель по контексту.",
+      "partner": "Did you learn any languages when you were a child?",
+      "prompt": "Расскажи о детстве и добавь свою подробность.",
+      "checklist": [
+        "Использую was и a в when I was a child.",
+        "Продолжение о законченном прошлом согласовано по времени."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "parallel-can",
+      "time": "01:57–02:07",
+      "title": "Назвать сохранившиеся умения",
+      "original": "Only read and understanding what you speaking.",
+      "corrected": "Now I can still read German and understand what people say.",
+      "reason": "Модель восстанавливает ясный смысл фрагмента: после can однородные базовые read и understand. Точное исходное предложение не утверждается.",
+      "partner": "Can you still use the language you learnt at school?",
+      "prompt": "Ответь, что можешь читать и понимать, и добавь, что хочешь улучшить.",
+      "checklist": [
+        "После can используются базовые формы, если связываю их одним can.",
+        "В what people say / what you’re saying есть подлежащее и глагол."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "letter-opinion",
+      "time": "31:38–31:48",
+      "title": "Выразить мнение о варианте",
+      "original": "I think about D.",
+      "corrected": "I think it’s D.",
+      "reason": "Надёжный повтор в обсуждении: для мнения о букве нужна структура I think + clause. Think about — обдумывать.",
+      "partner": "Which answer do you think is right?",
+      "prompt": "Назови вариант и объясни его своими словами.",
+      "checklist": [
+        "Использую I think it is… / I’d choose… или аналогичное утверждение.",
+        "Не заменяю I think that… на I think about + предложение."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "missing-word",
+      "time": "33:41–33:52",
+      "title": "Описать одно забытое слово",
+      "original": "I don’t know words, but…",
+      "corrected": "I don’t know the word, but it’s a small device used to measure temperature.",
+      "reason": "В данной задаче описывается один предмет: the word. Если речь действительно о нескольких словах, words допустимо. Продолжение — учебная модель.",
+      "partner": "What exactly are you looking for?",
+      "prompt": "Объясни один предмет без названия. Можно придумать другой предмет.",
+      "checklist": [
+        "Уточняю, что не знаю название одного предмета.",
+        "После but даю понятное описание назначения или расположения."
+      ],
+      "kind": "naturalness"
+    },
+    {
+      "id": "screen",
+      "time": "40:01–40:14",
+      "title": "Сказать, где виден материал",
+      "original": "I see it in your screen.",
+      "corrected": "I can see it on your screen now.",
+      "reason": "Материал отображается on the screen. Фрагмент о невозможности поделиться экраном может быть утверждением, поэтому по нему отдельная ошибка вопроса не создана.",
+      "partner": "Can you see the document I’m sharing?",
+      "prompt": "Подтверди, что документ виден, или объясни проблему с экраном.",
+      "checklist": [
+        "Использую on your/the screen для отображаемого материала.",
+        "Ясно говорю, виден документ или нет."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "make-sense",
+      "time": "41:17–41:34; 61:22–61:29",
+      "title": "Проверить понимание",
+      "original": "Does make a sense? / Does make it sense?",
+      "corrected": "Does that make sense?",
+      "reason": "Нужно подлежащее it/this/that после does и make sense без a. Позже ученик уже повторяет правильную форму; это закрепление, не новая ошибка.",
+      "partner": "I think you mean the small bone near the shoulder.",
+      "prompt": "Подтверди или уточни описание, затем проверь, понятно ли оно.",
+      "checklist": [
+        "Строю Does it/this/that make sense? с подлежащим.",
+        "Не добавляю a в make sense."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "easier",
+      "time": "44:26–44:33",
+      "title": "Сравнить два раунда",
+      "original": "Yes, easy.",
+      "corrected": "Yes, it was a little easier this time.",
+      "reason": "Когда сравниваем с предыдущей попыткой, нужно easier, а не просто easy. Короткое yes само по себе не ошибка.",
+      "partner": "Was it easier the second time?",
+      "prompt": "Сравни вторую попытку с первой и объясни причину.",
+      "checklist": [
+        "Передаю сравнение: easier / harder / more difficult.",
+        "Не считаю more tired ошибкой: это корректная сравнительная форма."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "pharmacy-roles",
+      "time": "47:03–47:14",
+      "title": "Договориться о ролях в аптеке",
+      "original": "You will be a seller or pharmacist?",
+      "corrected": "Would you like to be the customer or the pharmacist?",
+      "reason": "В игре один покупатель, другой фармацевт. Seller может обозначать продавца, но не заменяет роль покупателя.",
+      "partner": "Which role would you like to play?",
+      "prompt": "Предложи партнёру выбрать роль, затем скажи, какую возьмёшь сам.",
+      "checklist": [
+        "Различаю customer и pharmacist.",
+        "Задаю понятный вопрос о предпочтении, не навязываю обе роли одному человеку."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "offer-help",
+      "time": "48:14–48:19; 51:14–51:20",
+      "title": "Предложить или попросить помощь",
+      "original": "Hi, can you help you?",
+      "corrected": "Hello. How can I help you?",
+      "reason": "Фармацевт предлагает помощь: How can I help you? Покупатель просит: Can you help me? Местоимения меняют направление помощи.",
+      "partner": "Hello, I’m looking for something but I don’t know its name.",
+      "prompt": "Ответь как фармацевт, который предлагает помощь. Потом придумай просьбу покупателя.",
+      "checklist": [
+        "В предложении помощи я помогаю тебе: I help you.",
+        "В просьбе о помощи ты помогаешь мне: you help me."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "check-guess",
+      "time": "49:13–49:22",
+      "title": "Проверить догадку о предмете",
+      "original": "You think about thermometer you needed.",
+      "corrected": "Do you mean a thermometer?",
+      "reason": "Проверка догадки — Do you mean…? Это не тот же смысл, что думать о термометре.",
+      "partner": "I need a device to measure my son’s temperature.",
+      "prompt": "Уточни догадку, затем попроси подтвердить, правильно ли понял.",
+      "checklist": [
+        "Задаю вопрос Do you mean…? / Are you looking for…?",
+        "Сохраняю назначение из слов партнёра, не подменяю его другой ситуацией."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "listen-first",
+      "time": "48:41–49:00",
+      "title": "Уточнить смысл до новой догадки",
+      "original": "В ответ на описание термометра задан вопрос о сне и звуках.",
+      "corrected": "Sorry, did you say you need something to measure temperature?",
+      "reason": "Коммуникативная трудность: вопрос о сне не проверяет услышанную функцию. Это пересказ ситуации, а не дословная цитата повреждённого ASR.",
+      "partner": "My son has a fever, and I need something to measure his temperature.",
+      "prompt": "Сначала перефразируй услышанное, потом предложи название предмета.",
+      "checklist": [
+        "В пересказе сохраняю temperature / measure.",
+        "Не перехожу к другой гипотезе, пока не проверил исходное описание."
+      ],
+      "kind": "communication"
+    },
+    {
+      "id": "many-countries",
+      "time": "53:52–54:32",
+      "title": "Сказать «во многих странах»",
+      "original": "In many country…",
+      "corrected": "I’ve had this problem in several countries.",
+      "reason": "После many/several — исчисляемое существительное во множественном числе: countries. Точная исходная первая глагольная форма не восстанавливается.",
+      "partner": "Has this happened to you in more than one country?",
+      "prompt": "Расскажи о повторявшейся ситуации в разных странах; история может быть учебной.",
+      "checklist": [
+        "После many/several использую countries во множественном числе.",
+        "Не выдаю непроверенное число стран из игры за факт биографии."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "listen-to",
+      "time": "53:52–54:32",
+      "title": "Попросить выслушать историю",
+      "original": "Listen my story.",
+      "corrected": "Could you listen to my story?",
+      "reason": "Listen to + объект. Более мягкая просьба: Could you listen…? или Can I tell you a story?",
+      "partner": "You said something unusual happened at the hotel.",
+      "prompt": "Попроси выслушать короткую историю и начни её своими словами.",
+      "checklist": [
+        "В конструкции listen + объект использую to.",
+        "Также допустимо tell you a story — без механического копирования модели."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "visit",
+      "time": "54:34–55:10",
+      "title": "Рассказать о посещении стран",
+      "original": "I visited at … countries.",
+      "corrected": "I’ve visited several countries.",
+      "reason": "Visit обычно принимает прямое дополнение: visit a country, без at. В игре история могла быть выдуманной, число не используется.",
+      "partner": "Which places have you visited?",
+      "prompt": "Ответь о местах, которые посещал, не копируя число из записи.",
+      "checklist": [
+        "После visit перед страной или городом нет лишнего at.",
+        "Могу назвать реальный опыт или явно учебный пример."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "arrive",
+      "time": "54:34–55:10",
+      "title": "Рассказать о прибытии в отель",
+      "original": "Arrived in hotel…",
+      "corrected": "When I arrived at the hotel, my charger didn’t fit the socket.",
+      "reason": "Arrive at a hotel; arrive in a city/country. У конкретного отеля — the. Продолжение адаптировано из истории, не биографическая проверка.",
+      "partner": "What happened when you reached the hotel?",
+      "prompt": "Опиши прибытие в конкретное здание; затем сравни с прибытием в город.",
+      "checklist": [
+        "Arrive at + конкретное здание; arrive in + город/страна.",
+        "При известном конкретном отеле использую the hotel."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "story",
+      "time": "58:56–59:46",
+      "title": "Спросить о рассказанной истории",
+      "original": "For your history…",
+      "corrected": "Could I ask about your story?",
+      "reason": "Story — рассказ или случай. History — история как прошлое или область знания. Beat/bit в том же ASR не считается установленной ошибкой ученика.",
+      "partner": "I couldn’t name the fastener in my story.",
+      "prompt": "Задай вопрос о рассказе партнёра и попроси описать функцию предмета.",
+      "checklist": [
+        "Для рассказанного случая выбираю story.",
+        "Не придумываю неподтверждённое название крепежа."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "task-clarification",
+      "time": "37:03–38:16",
+      "title": "Проверить, что нужно сделать",
+      "original": "I need … create … situation … my body…",
+      "corrected": "Do I need to invent a situation, or should I just describe one body part?",
+      "reason": "В неясном вопросе различим запрос об инструкции. Тренируем ясное противопоставление двух вариантов, не считаем обрывки точной грамматической цитатой.",
+      "partner": "Use the phrases to describe a body part without naming it.",
+      "prompt": "Уточни, надо ли придумывать целую историю или достаточно описания.",
+      "checklist": [
+        "Называю оба возможных понимания инструкции.",
+        "После need to / should использую подходящую базовую форму глагола."
+      ],
+      "kind": "communication"
+    }
+  ]
+}
