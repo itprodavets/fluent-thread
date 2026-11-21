@@ -89,6 +89,28 @@
             "Would it be all right"
           ]
         }
+      },
+      {
+        "school": "ACE TEFL (предположительно; в записи не подтверждено)",
+        "title": "В аптеке: описать предмет по функции",
+        "prompt": "You cannot remember the name of a plaster. Describe its purpose and politely check that the pharmacist understands.",
+        "answer": "I don’t know the word, but it’s a small sticky strip you put over a cut. Does that make sense?",
+        "role": {
+          "line": "What exactly are you looking for?",
+          "patterns": [
+            "I don’t know the word",
+            "Does that make sense"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "Does that make sense?",
+            "meaning": "Это понятно?",
+            "pattern": "Does + that + make sense? — обязательно подлежащее, тон зависит от ситуации.",
+            "example": "I mean the small sticky strip. Does that make sense?",
+            "origin": "образец ответа"
+          }
+        ]
       }
     ]
   },
@@ -182,6 +204,28 @@
             "I’ll"
           ]
         }
+      },
+      {
+        "school": "DC Teacher Training",
+        "title": "Объяснить Simple и Continuous",
+        "prompt": "Explain what you will be doing at nine tomorrow and contrast it with what you will have finished by ten.",
+        "answer": "At nine I’ll be reading. By ten I’ll have finished.",
+        "role": {
+          "line": "Will the activity be in progress at nine?",
+          "patterns": [
+            "I’ll be",
+            "I’ll have"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "At nine I’ll be reading; by ten I’ll have finished.",
+            "meaning": "В девять буду читать; к десяти закончу.",
+            "pattern": "At + момент: will be -ing; by + срок: will have + причастие.",
+            "example": "At six I’ll be working; by seven I’ll have finished.",
+            "origin": "диалог"
+          }
+        ]
       }
     ]
   },
@@ -275,6 +319,28 @@
             "Would it work if"
           ]
         }
+      },
+      {
+        "school": "DC Teacher Training",
+        "title": "Уточнить позицию и не согласиться",
+        "prompt": "Your partner thinks you support expulsion. Clarify that you are exploring a hypothetical, then explain your concern.",
+        "answer": "I’m not arguing for expulsion; I’m asking how to respond to that view. It could have lasting consequences for a first mistake.",
+        "role": {
+          "line": "So your recommendation is expulsion?",
+          "patterns": [
+            "I’m not arguing for",
+            "I’m asking"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "I’m not arguing for expulsion; I’m asking how to respond to that view.",
+            "meaning": "Я не выступаю за исключение; спрашиваю, как ответить на такую позицию.",
+            "pattern": "I’m not arguing for X; I’m asking how… — различить позицию и вопрос.",
+            "example": "I’m not arguing for cancellation; I’m asking how we could change the plan.",
+            "origin": "диалог"
+          }
+        ]
       }
     ]
   }

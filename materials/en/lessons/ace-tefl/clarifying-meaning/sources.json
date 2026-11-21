@@ -1,0 +1,72 @@
+[
+  {
+    "source": "Record-2026-11-20 23-06-11-20261120-230611",
+    "durationSeconds": 3885.74,
+    "segments": 864,
+    "coveredSegments": 864,
+    "transcriptBlocks": 66,
+    "package": "lesson.json",
+    "words": 144,
+    "materials": 59,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "schoolAttribution": "ACE TEFL inferred from contextual association; school not spoken and exact class start not independently confirmed",
+    "speakerAttribution": "Automatic clusters unreliable; contextual attribution and uncertainties explicitly audited",
+    "publishedAudio": false,
+    "sourceContentSha256": "5962ab77b37d6b661f0f873243ce81c67c96dc6ed282ae178dcc5ae3084e666f",
+    "sourceLastSegmentEnd": 3871.28,
+    "untranscribedTailSeconds": 14.46,
+    "readingVersions": 6,
+    "dialogueScenes": 3,
+    "dialogues": 18,
+    "dialogueComprehensionExercises": 18,
+    "teacherPhraseCards": 38,
+    "correctionEntries": 52,
+    "grammarExercises": 8,
+    "additionalComprehensionExercises": 3,
+    "cluster2AuditSegments": 223,
+    "externalChecks": [
+      {
+        "title": "Merriam-Webster: sty / stye",
+        "url": "https://scrabble.m-w.com/dictionary/styes",
+        "use": "Publisher dictionary confirms both spellings and eyelid-related meaning; no treatment advice derived."
+      },
+      {
+        "title": "Cambridge Dictionary: tonsil",
+        "url": "https://dictionary.cambridge.org/dictionary/english/tonsil",
+        "use": "Term and location; search result verified, direct page returned403."
+      },
+      {
+        "title": "Cambridge Dictionary: uvula",
+        "url": "https://dictionary.cambridge.org/dictionary/english/uvula",
+        "use": "Distinguish uvula from tonsils; search result verified, direct page returned403."
+      },
+      {
+        "title": "Cambridge Dictionary: eyelid",
+        "url": "https://dictionary.cambridge.org/dictionary/english/eyelid",
+        "use": "Eyelid term; search result verified, direct page returned403."
+      },
+      {
+        "title": "Cambridge Grammar: intonation",
+        "url": "https://dictionary.cambridge.org/grammar/british-grammar/intonation",
+        "use": "Intonation patterns are context-sensitive; rising and fall-rise are distinct."
+      },
+      {
+        "title": "Cambridge Grammar: echo and checking questions",
+        "url": "https://dictionary.cambridge.org/grammar/british-grammar/questions-echo-and-checking-questions",
+        "use": "Rising/fall-rising in checking questions; not all questions rise."
+      },
+      {
+        "title": "British Council: indirect questions",
+        "url": "https://learnenglishteens.britishcouncil.org/sites/teens/files/gs_question_words_0.pdf",
+        "use": "Statement word order within indirect question clauses."
+      }
+    ]
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "start": 0.0,
+    "end": 79.84,
+    "en": "i'm fine thank you and you and oh hello i'm fine thank you hello there hello so that's Partner right yes good afternoon good afternoon to you too Partner how are you i'm fine thank you thank you i just renamed you so we all recognize you and we all know Partner of course hello Partner good to see you hello nice to see you all we'll just give it a couple of minutes and then Teacher uh will start the lesson and i will leave oops who did we lose the most important person Teacher hopefully he will join very soon",
+    "ru": "Короткие приветствия: «Я в порядке, спасибо, а вы?» Организатор приветствует участников, меняет отображаемое имя одного из них, чтобы группу было проще узнать, и предлагает подождать пару минут. Преподаватель временно отключается; группа надеется, что он скоро вернётся.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Приветствие и ожидание преподавателя",
+    "sourceStart": 0,
+    "sourceEnd": 17
+  },
+  {
+    "start": 79.84,
+    "end": 127.04,
+    "en": "where is he located in germany okay so it's okay maybe uh you can speak uh germany now good and talk good and morgan good enough Learner where Learner where are you from from russia but i i live in china and uh when i uh yeah when i child uh and uh studying uh started in school i uh speaking fluence germany but now i cannot speak germany but only read and understanding what you uh speaking i want to say in germany",
+    "ru": "Обсуждают, где находится преподаватель: в Германии. Ученик шутит о немецком приветствии и рассказывает, что родом из России, живёт в Китае, в детстве и школе говорил по-немецки, а сейчас в основном читает и понимает. ASR передаёт Germany вместо названия языка German; реплики 01:29–02:07 надёжно относятся к ученику по обращению, но немецкое приветствие записано неточно.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Германия и знакомство ученика",
+    "sourceStart": 17,
+    "sourceEnd": 28
+  },
+  {
+    "start": 129.28,
+    "end": 169.78,
+    "en": "great great okay so you're there Teacher i thought we had lost you temporarily yeah you did lose me but i'm back now you're back and you're still uh a co-host good so you're in control and we have five students there's there's two more we are expecting so let's give it a couple of minutes but you can never trust that they will come so in two minutes guys will be starting anyway is that okay like the key is that okay all right excellent good",
+    "ru": "Преподаватель подтверждает, что связь пропадала и он уже вернулся. Организатор передаёт ему управление встречей: сейчас пять учеников, ожидают ещё двоих, но через две минуты занятие начнётся независимо от их прихода.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Преподаватель вернулся",
+    "sourceStart": 28,
+    "sourceEnd": 40
+  },
+  {
+    "start": 170.06,
+    "end": 233.67,
+    "en": "Partner we know each other from before how are you not bad thanks how are you good good good i'm i'm well thanks yeah and Partner how are you i'm fine thank you good where are you from hey i'm from poland but uh to be to be honest i have been living here for the last 26 years okay here meaning uh athens yes you know uh in athens yes in athens okay great and Partner i assume that you are greek yeah from your beautiful greek name and are you also in athens yes no i'm from paten great so we have a very very multicultural group today which is interesting so you don't all share the same mother tongue that's always that's always a challenge and it's also a good thing for an english lesson some interesting oh Partner is here okay",
+    "ru": "Участники знакомятся: одна участница из Польши уже 26 лет живёт в Афинах; у другой греческое имя, но название её города ASR передаёт неясно. Преподаватель отмечает, что у группы разные родные языки: это и сложность, и полезное условие для практики английского.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Многоязычная группа",
+    "sourceStart": 40,
+    "sourceEnd": 63
+  },
+  {
+    "start": 234.92,
+    "end": 272.4,
+    "en": "so i'll be leaving you and you can get started when you're ready and when you finish just close the room and and leave or just leave bye from me enjoy your lesson guys Partner can you hear me and see me you know it goes maybe not okay we're gonna start anyway Partner can join in when he's ready so",
+    "ru": "Организатор прощается, просит закрыть комнату после занятия. Преподаватель проверяет, слышит и видит ли его присоединившийся участник. Ответа пока нет, поэтому урок продолжается.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Начало и проверка связи",
+    "sourceStart": 63,
+    "sourceEnd": 73
+  },
+  {
+    "start": 272.4,
+    "end": 304.48,
+    "en": "uh i want to tell you a little story about uh last winter when i was really really ill i had a terrible sore throat so i called my doctor's office and my tonsils were really swollen but i didn't know the german word for tonsils so i just said um yeah my throat hurts and you know those those little things that hang down at the back of my mouth and the receptionist said sorry what she didn't understand me i couldn't explain what was wrong so has something like that ever happened to you before",
+    "ru": "Преподаватель рассказывает, как прошлой зимой заболел, позвонил врачу и не смог вспомнить немецкое слово «миндалины». Он описывал боль в горле и «маленькие штуки, свисающие сзади во рту», но сотрудница не поняла. Это неточное анатомическое описание: свисающий по центру язычок — uvula, а миндалины находятся по сторонам. История показывает проблему общения, а не образец определения.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "История о забытом слове tonsils",
+    "sourceStart": 73,
+    "sourceEnd": 78
+  },
+  {
+    "start": 304.48,
+    "end": 368.62,
+    "en": "Partner uh no never you always knew the words in english i mean i uh couldn't understand all uh everything i understood that uh you had you just got ill and you went to the doctor but uh can you repeat what happened i mean what did you um yes i was trying to explain what was wrong in my throat but i didn't have the word for it and she couldn't understand what i meant yeah Partner has that ever happened to you when you spoke english that you couldn't come up with the word and you couldn't communicate what you were trying to say no that's a common thing especially when people are nervous or worried about something they always forget words but i usually paraphrase and i was lucky to be understood good good so",
+    "ru": "Участница сначала говорит, что подобного не случалось, затем уточняет, что поняла не всё, и просит повторить историю. Преподаватель объясняет, что не знал названия болезненной части горла. Другая участница говорит: люди часто забывают слова, когда нервничают; ей обычно помогает перефразирование.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Попросить повторить и перефразировать",
+    "sourceStart": 78,
+    "sourceEnd": 92
+  },
+  {
+    "start": 368.62,
+    "end": 411.67,
+    "en": "that's what we're going to talk about today is how you can communicate with people better when you don't have the word either you never learned it or you just can't remember okay so you're calling the doctor's office can everyone see the screen right now no uh hold a moment i need to share that oh okay",
+    "ru": "Цель — общаться, когда слово никогда не учили или временно забыли. Преподаватель объявляет ситуацию звонка в приёмную врача и обнаруживает, что ещё не включил демонстрацию экрана. Есть пауза при настройке; короткие «okay» не дают дополнительного содержания.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Цель урока и общий экран",
+    "sourceStart": 92,
+    "sourceEnd": 98
+  },
+  {
+    "start": 411.67,
+    "end": 457.2,
+    "en": "okay okay so you are calling the doctor's office because something hurts but you don't know the word okay so one of you will be the patient you will choose a number from this picture but you will keep it secret don't tell us okay then someone else will be the receptionist okay so the patient will tell the receptionist where it hurts now don't use your hands don't say the number or the name okay the receptionist will ask questions okay to try to find out what the patient means then the receptionist gets one guess okay and the patient will say yes that's it or no it's number five okay",
+    "ru": "Пациент тайно выбирает номер части тела на картинке. Нельзя показывать руками, произносить номер или название. Администратор задаёт уточняющие вопросы, затем получает одну попытку угадать. Пациент подтверждает ответ либо сообщает правильный номер.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Правила игры «пациент — администратор»",
+    "sourceStart": 98,
+    "sourceEnd": 106
+  },
+  {
+    "start": 458.24,
+    "end": 500.4,
+    "en": "so to show you what i mean i'm going to do a little demo i will play both parts for you guys the receptionist wears glasses the patient does not okay so hello doctor's office how can i help hello i'm calling because something hurts um it's on my foot you know the the part you stand on which part of your foot which part of your foot the back hmm is it number three yes that's it okay so you see how there needs to be a back and forth between the receptionist and the patient",
+    "ru": "Преподаватель играет обе роли и обозначает администратора очками. Пациент говорит, что болит часть стопы, на которую он опирается; администратор уточняет, какая часть, слышит «сзади» и угадывает номер три. Важно чередовать реплики, а не выдавать всё сразу.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Демонстрация двух ролей",
+    "sourceStart": 106,
+    "sourceEnd": 112
+  },
+  {
+    "start": 500.4,
+    "end": 556.16,
+    "en": "okay so we're going to do this as a group first okay um okay okay Learner um as the patient can you say the number or the name uh my name is Learner uh doctor i needed help uh it's uh it's my it's my Learner Learner Learner sorry guys i was asking you for a moment forgive me i was i was asking you a question when you're a patient can you say the number that you see or do you have to keep it secret i want to uh is uh eight it's back it's like here i want this discussion don't say the number you have to keep it secret okay okay don't say the number keep it secret exactly ah ah okay okay yeah and Partner do you um have to ask questions before your guests as the receptionist yes of course",
+    "ru": "На проверочный вопрос ученик начинает играть пациента и представляется. Преподаватель останавливает его и повторяет: разрешено ли называть номер? Ученик всё же произносит «восемь», после чего понимает, что номер нужно держать в секрете. Затем преподаватель проверяет, должен ли администратор задавать вопросы перед догадкой: да.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Ученик уточняет инструкцию",
+    "sourceStart": 112,
+    "sourceEnd": 129
+  },
+  {
+    "start": 557.12,
+    "end": 611.65,
+    "en": "yes exactly good all right so let's do one round now i want uh Partner can you be the patient and Partner can you be the receptionist please yes okay hello here's the doctor's office how can i help you please no uh i'm calling because something hurts it's under my neck and uh above my lungs i've forgotten the word i'm sorry could you could just under anything under your neck and and what under your neck and and above my lungs yes um maybe is it number two yeah it is it was easy as i can see okay",
+    "ru": "Два участника разыгрывают звонок. Пациент описывает место «под шеей и над лёгкими», администратор переспрашивает и угадывает номер два. Позже преподаватель уточнит, что для положения ключицы естественнее below your neck. Картинка в исходной записи текста отсутствует.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Первый звонок: ниже шеи",
+    "sourceStart": 129,
+    "sourceEnd": 142
+  },
+  {
+    "start": 611.75,
+    "end": 651.76,
+    "en": "wow great great job okay now uh Partner you will be the receptionist and Learner you will be the patient okay okay hello doctor's office how can i help you hello it's my back it's the right side it's no top i fly the trains the bowling fights and my chest bluffing shoulder i don't know what is could you please help me sorry i'm not sure i get the last phrase could could you tell me where it hurts is it your back or is it your front",
+    "ru": "Ученик становится пациентом и говорит о правой стороне спины. Фрагменты о тренировке, груди и плече сильно искажены ASR; точное событие не восстанавливается. Партнёр честно говорит, что не понял последнюю фразу, и спрашивает: боль спереди или сзади?",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Ученик описывает боль в спине",
+    "sourceStart": 142,
+    "sourceEnd": 153
+  },
+  {
+    "start": 651.76,
+    "end": 707.36,
+    "en": "uh back uh it's my situation every time i see the many see today in working kids uh office i'm not going to street i every time see it's my uh right leg between his back i don't know uh maybe you can help me how about you can uh decide my problem sure uh could you could you possibly tell me where it hurts uh is it the right or left side of your uh is it to the right to your backbone right a leg right right right today is uh is i have it here right back is ice power i don't know why okay i see is it number eight oh yes",
+    "ru": "Ученик отвечает «сзади», пытается объяснить связь с сидячей работой, но запись фразы ненадёжна. Партнёр уточняет сторону относительно позвоночника и в конце угадывает номер восемь. Ученик подтверждает. Это успешное согласование номера, но не достоверное определение диагноза или части тела.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Уточняющие вопросы о спине",
+    "sourceStart": 153,
+    "sourceEnd": 163
+  },
+  {
+    "start": 708.64,
+    "end": 757.92,
+    "en": "yes all right good good good Partner can you be the receptionist and Partner can you be the patient all right uh hello doctor's office how can i help you Partner you're the patient Partner can you hear me i don't think Partner can hear me okay Partner can you be the patient please yes um who is the receptionist no yeah but attention",
+    "ru": "Преподаватель назначает новую пару. Один участник не отвечает, поэтому пациента заменяют. Несколько голосов уточняют, кто администратор. Короткий обрывок attention не позволяет уверенно определить говорящего.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Проблема со звуком и смена пары",
+    "sourceStart": 163,
+    "sourceEnd": 171
+  },
+  {
+    "start": 763.52,
+    "end": 828.08,
+    "en": "so Partner you will be the receptionist and uh Partner you'll be the patient okay okay hello how can i help you uh hello because i'm calling you because i have a very intense pain um on my foot on my legs but i don't i'm not able to describe you exactly where the pain is but it is uh on my leg uh on my leg back and um where i where i step when i walk and uh i put my foot down i have pain is it never fine um um no it's in the back the back on my foot in the back number three sorry is number three yes number three",
+    "ru": "Пациент описывает сильную боль в ноге, особенно при опоре и ходьбе, затем уточняет, что речь о задней части стопы. Администратор сначала делает неясную догадку, затем предлагает номер три; пациент подтверждает. Слова foot и leg смешиваются в исходном ответе.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Вторая пара: задняя часть стопы",
+    "sourceStart": 171,
+    "sourceEnd": 190
+  },
+  {
+    "start": 828.08,
+    "end": 899.99,
+    "en": "okay good and Partner can you hear me no i like you can hear me i i like uh it's uh Partner role is uh receptionist it's very nice yes yes Partner you're a wonderful actress we all agree on that okay so which calls were were quick and easy what was easy to describe um Partner Partner you you you uh did a good job what was easy for to describe when you know the parts of the body that are near it's easy if you do not understand um how to say it uh what is near so it's much more complicated but in general uh if you have like something to describe uh the place that uh you know how the part of the body you know it's obvious",
+    "ru": "Преподаватель ещё раз проверяет связь. Ученик хвалит исполнение роли администратора; преподаватель соглашается. Группа обсуждает, что легче описывать часть тела, когда знаешь названия соседних частей и можешь объяснить её расположение относительно них.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Что было легко описать",
+    "sourceStart": 190,
+    "sourceEnd": 204
+  },
+  {
+    "start": 899.99,
+    "end": 945.5,
+    "en": "yeah good so i'm going to show you now what these parts are called in english you can just take a quick look you don't have to learn these for today i will put this pdf uh in the chat box later in the lesson then you can keep this for your files for later okay did anybody know any of these words actually Partner you know a few Learner did you know any of these words what is uh any words what do you mean on body what do you mean it's uh it's as their words what uh what is words uh did you know did you know did you know any of these words before ah yes yes yes some",
+    "ru": "Преподаватель показывает английские названия, обещает отправить PDF и говорит, что заучивать всё прямо сейчас не нужно. Ученик не сразу понимает вопрос «Знал ли ты раньше какие-нибудь из этих слов?», просит уточнить и затем отвечает, что знал некоторые.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Названия частей тела и вопрос ученику",
+    "sourceStart": 204,
+    "sourceEnd": 217
+  },
+  {
+    "start": 945.64,
+    "end": 984.24,
+    "en": "of them okay great all right so we're going to listen now to a call to a doctor's office i want you to listen for two things okay you're going to listen for what's the what's the problem and what should he do okay what's the what's the problem that he has and what should he do or what does the receptionist tell him to do okay okay okay okay hello doctor couldn't care less's office yes okay yes yes",
+    "ru": "Группа должна услышать два пункта: что за проблема у пациента и что советует сотрудник приёмной. Есть краткий пробный запуск и реплики «да». Шуточное название кабинета в учебном аудио связано с выражением couldn’t care less; это не название реального учреждения.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Задание к аудиодиалогу",
+    "sourceStart": 217,
+    "sourceEnd": 231
+  },
+  {
+    "start": 986.24,
+    "end": 1023.77,
+    "en": "hello doctor couldn't care less's office how may i help you hi um i have a problem with my eye well not in the eye it's on the skin the part that closes when you uh when you sleep okay can you describe exactly where it's on the the edge the bottom part near the little hairs do you know what i mean do you know what i mean your lower eyelid near the eyelashes yes eyelid there's a small red bump there it's kind of like a pimple but it hurts sorry does it hurt all the time or only when you touch it mostly when i touch it and when i blink a",
+    "ru": "Пациент говорит, что проблема не внутри глаза, а на коже, которая закрывается во время сна. Уточняет: край нижней части возле «маленьких волосков». Сотрудник проверяет: нижнее веко возле ресниц? Пациент подтверждает и описывает красный болезненный бугорок, похожий на прыщик. Больно при касании и немного при моргании.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Аудиодиалог: глаз и веко",
+    "sourceStart": 231,
+    "sourceEnd": 244
+  },
+  {
+    "start": 1024.13,
+    "end": 1061.04,
+    "en": "little right so you mean a small sore red bump on the edge of your lower eyelid how long has it been there three days i think is it something bad no it sounds like a sty very common put something warm on it a clean cloth with warm water for about 10 minutes three or four times a day does that make sense okay so let me check i make a cloth warm with water and i hold it on my eye 10 minutes three or four times every day exactly and don't squeeze it if it's not better in a week call us again okay don't squeeze it and call again in a week thank you okay so",
+    "ru": "Сотрудник повторяет описание своими словами и спрашивает, как давно появилась проблема. Пациент отвечает: кажется, три дня. В учебном аудио звучит слово stye и бытовые рекомендации; исходные слова сохранены для полноты в английской колонке, но этот пакет не превращает их в медицинскую инструкцию. Пациент повторяет услышанное, чтобы проверить понимание.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Аудиодиалог: проверить понимание",
+    "sourceStart": 244,
+    "sourceEnd": 255
+  },
+  {
+    "start": 1061.04,
+    "end": 1138.24,
+    "en": "Partner what was the problem he had a problem with his skin close to his eyes do you agree Partner i agree but his pronunciation was a bit weird but yes i agree well he's not a native speaker he's learning just like all of us okay good yes the problem was he had a small sore on his upper eyelid right or his lower eyelid right and uh yes he said a sty right okay good and uh Partner what should he do well uh he should put something warm uh 10 minutes three or four times a day and he mustn't squeeze the um lower i mean don't squeeze the read constant yep don't squeeze it okay and what should he do after a week if it's not not better go to the doctor you need to call doctor yes again exactly so put a warm cloth on it for 10 minutes three or four times a day don't squeeze and if it's not better call the doctor great we're going",
+    "ru": "Участники определяют проблему как болезненный бугорок на коже у глаза. Одна участница замечает необычное произношение; преподаватель напоминает, что герой тоже учит язык. В обсуждении сначала звучит upper, затем lower eyelid; сам диалог указывает на нижнее веко. Группа пересказывает действия героя, ученик добавляет, что нужно снова позвонить врачу.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Первое обсуждение услышанного",
+    "sourceStart": 255,
+    "sourceEnd": 274
+  },
+  {
+    "start": 1138.24,
+    "end": 1184.56,
+    "en": "to listen once more and i want you to listen now for how he explains where it is he doesn't know the word for stye so he has to explain where it is listen for that and listen for how the receptionist checks that she understands okay please listen hello doctor couldn't care less's office how may i help you hi um i have a problem with my eye well not in the eye it's on the skin the part that closes when you hey when you sleep okay can you describe exactly where it's on the the edge the bottom part near the little hairs do you know what i mean your lower eyelid near the eyelashes yes eyelid",
+    "ru": "Теперь нужно услышать, как пациент описывает место без нужного слова и как администратор проверяет понимание. Начинается тот же учебный диалог: кожа, закрывающая глаз во сне, нижний край возле ресниц; сотрудник уточняет местоположение.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Повторное прослушивание: искать стратегию",
+    "sourceStart": 274,
+    "sourceEnd": 287
+  },
+  {
+    "start": 1184.56,
+    "end": 1231.12,
+    "en": "there's a small red bump there it's kind of like a pimple but it hurts sorry does it hurt all the time or only when you touch it mostly when i touch it and when i blink a little right so you mean a small sore red bump on the edge of your lower eyelid how long has it been there three days i think is it something bad no it sounds like a sty very common put something warm on it a clean cloth with warm water for about 10 minutes three or four times a day does that make sense okay so let me check i make a cloth warm with water and i hold it on my eye 10 minutes three or four times every day exactly and don't squeeze it if it's not better in a week call us again okay don't squeeze it and call again in a week thank you okay",
+    "ru": "Повторяются описание красного болезненного бугорка, вопрос о прикосновении и моргании, пересказ сотрудником и ответ «три дня». Далее повторяется бытовой совет из аудиосценария и обратная проверка понимания пациентом. Это повтор того же материала, а не новый случай.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Повторный диалог: признаки и перефразирование",
+    "sourceStart": 287,
+    "sourceEnd": 302
+  },
+  {
+    "start": 1231.12,
+    "end": 1297.28,
+    "en": "Learner how does he explain uh where it is uh he's playing to where is by describe a location fun function function simple words uh it's uh skin uh part uh ah in skin when you uh when uh he is sleeping very good he says the part that closes when hello doctor couldn't care less his office when sleep how may i help you hi bottom and uh and uh bottom part that closes little hairs great and uh sorry go ahead uh i think about uh when your skin is part is closest when you sleep and uh uh bottom parts and little hairs he said the eyelid right near the little hairs exactly great",
+    "ru": "Преподаватель спрашивает, как герой объясняет место. Ученик выделяет две стратегии: расположение и функция, простые слова о коже, закрывающей глаз во сне, нижнем крае и маленьких волосках. Некоторые фрагменты накладываются на повторное воспроизведение; слова hello и название кабинета могут принадлежать учебному аудио.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Ответ ученика: расположение и функция",
+    "sourceStart": 302,
+    "sourceEnd": 315
+  },
+  {
+    "start": 1297.28,
+    "end": 1364.31,
+    "en": "and Partner uh what does the how does the receptionist check uh he asked uh when does it uh hurt uh when the pain starts and how long ago it has been the pain and um the thing the little thing that uh she described hello doctor couldn't care less confirms what he says the lower eyelid lid near the eyelashes right great all right i'm putting something now into the chat box a pdf for you i would like you to download it and open you will also see the same thing shared on your screen are you sure that i shared it but you should also open up the pdf i just sent okay okay okay does",
+    "ru": "Участница перечисляет вопросы о боли и времени её появления. Преподаватель обращает внимание именно на подтверждение: «Нижнее веко возле ресниц?» Затем отправляет PDF и просит открыть его одновременно с общей демонстрацией. В коротких репликах о демонстрации автоматические голоса смешаны; их нельзя все приписывать ученику.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Как администратор проверяет понимание",
+    "sourceStart": 315,
+    "sourceEnd": 330
+  },
+  {
+    "start": 1365.1,
+    "end": 1431.04,
+    "en": "everyone have this open yes yes good okay so here we have the script from the dialogue we just heard i want you in breakout rooms in pairs to match one through six you see this in blue on the the left to what each person is doing in each sentence in a through f so if you look at number one the part that closes when you uh when you sleep so does he know the word in the sentence does he know the word sty in the sentence no no he doesn't he can't find the word so if you look over on the right that would be letter c can't find the word so then you will type c in the box right there okay so now i would like you in breakout rooms in pairs to do two through six okay and i will give you about two minutes to do two minutes to do this okay",
+    "ru": "В PDF показан сценарий. В парах нужно сопоставить фразы 1–6 с функциями A–F. Первый пример: герой не может найти слово и описывает функцию части тела; это C. Остальные пункты группа делает в малых комнатах за две минуты.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Сопоставить шесть фраз и функции",
+    "sourceStart": 330,
+    "sourceEnd": 343
+  },
+  {
+    "start": 1431.04,
+    "end": 1523.92,
+    "en": "let me get the breakout rooms ready so so so so finish okay hello hello again hello again can you see my screen uh yes i see and i can't all right okay",
+    "ru": "Преподаватель настраивает комнаты. Между короткими служебными репликами ASR выдаёт многократное so и растянутое finish; это ненадёжный участок перехода/паузы, а не осмысленный монолог для заучивания. Затем партнёры снова здороваются и проверяют экран.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Переход в малые комнаты",
+    "sourceStart": 343,
+    "sourceEnd": 361
+  },
+  {
+    "start": 1523.92,
+    "end": 1611.52,
+    "en": "uh number answer s yes yes or yeah i want to see can you describe exactly where i think it's well in number one is no number two can you describe exactly where not sure ask where one moment i think and we may move on to the third sentence and then go back to this if you're not sure whether it's if uh if whether it's e or not ah this is because this receptionist is sure where this problem is uh and ask it's more details is number two not sure yeah yeah the receptionist is not sure that's why she asks to describe the place",
+    "ru": "Партнёры читают Can you describe exactly where? Ученик пытается определить функцию вопроса, сначала не уверен; партнёр предлагает перейти к следующему пункту и вернуться. В итоге уточняют: администратор не уверен и поэтому просит подробности о месте. Ученик называет E.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Пара обсуждает пункт два",
+    "sourceStart": 361,
+    "sourceEnd": 384
+  },
+  {
+    "start": 1611.52,
+    "end": 1676.16,
+    "en": "the edge the bottom part near the little hairs do you know what i mean number three yeah the first part of the sentence um number two uh this is e not sure yes uh number three uh say where because it's give us uh extract the location his uh age uh number three is this f yes i agree yeah and what about number four check your distance uh he asked i made sure it's a explanation i think about this d yeah maybe d i do agree",
+    "ru": "Описание нижнего края возле маленьких волосков соответствует указанию места: F. Вопрос Do you know what I mean? проверяет, понял ли слушатель: D. Фраза ученика check your distance в ASR ненадёжна; по контексту речь о проверке понимания, а не расстояния.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Пункты три и четыре",
+    "sourceStart": 384,
+    "sourceEnd": 400
+  },
+  {
+    "start": 1676.16,
+    "end": 1764.12,
+    "en": "your lower eyelid near the eyelashes um check guys yes yes hey and uh last uh b yeah but beta is this number uh because she summaries his food describe is here on words and confirm uh yes uh okay for uh for beta this uh six is if you see all right mean small so red bump and age well thank you seeing the main thank you hello again welcome",
+    "ru": "Партнёры обсуждают оставшиеся функции: предположение о нижнем веке — A; пересказ «маленький красный болезненный бугорок на краю…» — B. Ученик пытается объяснить, что сотрудница суммирует описание своими словами. Некоторые окончания и номера распознаны неясно; общий ключ позднее проверяется всем классом.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Догадка и пересказ своими словами",
+    "sourceStart": 400,
+    "sourceEnd": 417
+  },
+  {
+    "start": 1764.13,
+    "end": 1808.08,
+    "en": "back everyone Partner can you hear me yeah yeah yeah okay hi welcome Partner i have a problem with their audio ah okay good i hope it's good okay so Partner what did you get for number two uh i'm sorry excuse me uh say where say where do we agree yes the bottom part letter e letter e not sure number two is letter e can you describe exactly where uh that's a question right if you're not sure yes or can you describe exactly where yes",
+    "ru": "Вернувшийся участник сообщает о проблемах со звуком. Группа проверяет второй ответ: E, так как вопрос Can you describe exactly where? показывает неуверенность и запрос уточнения. Первое say where исправляется на not sure / ask.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Возвращение и проверка пункта два",
+    "sourceStart": 417,
+    "sourceEnd": 432
+  },
+  {
+    "start": 1809.36,
+    "end": 1874.08,
+    "en": "okay Partner okay Partner number three just a second i need to open the document okay and number three is f say where very good very good number four Partner uh just a moment do you know what i mean um maybe it's d check you are understood island Partner what do you think letter d i don't know what about we talk about ah okay i don't have any the image so i see the four the third i'm sorry once more i don't know i'm not looking for anything i'm not looking for anything uh you just want to watch yeah okay okay okay okay but you should possibly share your screen so that we are sorry yes yeah it's very easy my my apologies when i came out of the breakout room it was no longer sharing so",
+    "ru": "Проверяют F для третьего пункта и D для четвёртого. Один участник не видит изображение и не понимает, о чём говорят. Партнёр просит включить демонстрацию; преподаватель извиняется: при выходе из малой комнаты она выключилась. Здесь реплики о непонимании принадлежат разным участникам.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Экран снова не виден",
+    "sourceStart": 432,
+    "sourceEnd": 455
+  },
+  {
+    "start": 1877.68,
+    "end": 1957.15,
+    "en": "okay here we go here we go i'm sorry about that guys can everyone see now yes yeah okay so um Partner what did you say number four was i'm not sure i said uh check you are understood but maybe it's d or e not sure ask i think i think about d if you see it as h for bottom parts near little hairs do you know what i what i mean i think about this exactly good Learner what did you get for number five number five uh uh a and uh dialogue very good number five and he goes what about number six one moment i hear uh j lover is near this number five number five is a yeah and yes number six i think that i think the six is um they think is the only letter we didn't use was b b so number six yeah",
+    "ru": "После восстановления экрана группа подтверждает D для проверки понимания, A для предположения «нижнее веко у ресниц», B для пересказа. Вместе с первым C, вторым E и третьим F это даёт ключ C–E–F–D–A–B. Ученик использует I think about там, где естественнее I think.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Ключ к шести функциям",
+    "sourceStart": 455,
+    "sourceEnd": 477
+  },
+  {
+    "start": 1957.27,
+    "end": 1990.32,
+    "en": "is paraphrased back Partner talked about paraphrasing before right Partner what does paraphrase mean it is explaining exactly the same things with help of another portion of words so to use your own words back at someone so that they know you understand what you meant that what they meant good all right um Learner can you erase all that please thank you okay so now we're going to look at some phrases you can use in any situation",
+    "ru": "Партнёр объясняет: передать тот же смысл другими словами. Преподаватель дополняет: вернуть услышанную мысль собеседнику своими словами, чтобы он понял, что его поняли. Затем просит очистить пометки и переходит к фразам, полезным в любой ситуации, не только у врача.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Что значит paraphrase",
+    "sourceStart": 477,
+    "sourceEnd": 483
+  },
+  {
+    "start": 1990.32,
+    "end": 2032.05,
+    "en": "not just when you're calling a doctor's office okay so the first is when you can't find a word you can say i don't know the word but again what happened to my voice at the end of this i don't know the word but rising tone rising tone yeah right we use rising tone when we ask a question right so can you guys repeat after me please i don't know the word but everyone i don't know but good Learner can you repeat i don't know the word but i don't know words but good good",
+    "ru": "Первая модель: I don’t know the word, but… Преподаватель показывает повышающийся тон и просит повторить. Ученик сначала пропускает the word, затем говорит words. Для одной неизвестной лексемы тренировочная модель — the word. Повышение здесь также удерживает очередь и показывает незавершённость; это не универсальное правило всех вопросов.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Не знаешь слова: модель и интонация",
+    "sourceStart": 483,
+    "sourceEnd": 494
+  },
+  {
+    "start": 2032.75,
+    "end": 2078.48,
+    "en": "rising intonation all right if you're a listener and you're not sure you should ask right so you can say sorry what did you mean sorry what do you mean everybody sorry what do you mean good now if you're not sure you can say where or what kind or what the object is for it's the kind of um you use it to so if i took this i would say um it's a kind of device you use it to put papers together right you use it to put papers together",
+    "ru": "Для слушателя: Sorry, what did you mean? / What do you mean? Для говорящего: категория предмета и назначение — It’s a kind of device; you use it to put papers together. Эти признаки ещё не отличают степлер от скрепки, поэтому нужен следующий уточняющий вопрос.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Попросить уточнение и описать функцию",
+    "sourceStart": 494,
+    "sourceEnd": 503
+  },
+  {
+    "start": 2078.48,
+    "end": 2106.85,
+    "en": "and another important move is to check that you understood yeah does that make sense does that make sense so you hear again at the end does it make sense so we do this together yeah listen does does that make sense everybody does that make sense good Partner does that make sense",
+    "ru": "Группа тренирует Does that make sense? с дружелюбным вопросительным тоном. Преподаватель приглашает повторять всем и по одному. Короткие части фразы распределены ASR между голосами; не каждое слово с меткой голоса ученика является его отдельным самостоятельным ответом.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Проверить, понятно ли объяснение",
+    "sourceStart": 503,
+    "sourceEnd": 515
+  },
+  {
+    "start": 2107.18,
+    "end": 2164.6,
+    "en": "good all right as a listener you also want to check a guess yeah do you mean the do you mean the stapler do you mean the stapler yeah because there may be a paper clip exactly exactly Partner do you mean the repeat after me do you mean the do you mean the yeah very good and the last one Partner's favorite paraphrase back uh so you mean the stapler so you mean the stapler uh you said so you mean the stapler so you mean the stapler very good very",
+    "ru": "Do you mean the stapler? проверяет догадку; партнёр замечает, что это может быть скрепка. So you mean the stapler повторяет понимание своими словами. Группа повторяет модели. Уточнение формы или функции помогает различить похожие предметы.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Проверить догадку и перефразировать",
+    "sourceStart": 515,
+    "sourceEnd": 533
+  },
+  {
+    "start": 2165.24,
+    "end": 2215.36,
+    "en": "good all right so we're going to play the same game again but this time i want you to use all these phrases we just learned and we'll see if it goes uh a little bit easier for you all okay so if you look down on page two of your pdf please look at page two of your pdf you'll see this same slide there does everyone see that on page two there is not page two i'm afraid we've got only one page oh sorry my apologies one moment i have to give you the next pdf okay i was just checking if you were paying attention okay so here's the next pdf please download this and open it",
+    "ru": "Нужно повторить игру с новыми фразами. Преподаватель просит страницу два, но у участников только одна страница. Он извиняется, шутит о внимании и отправляет следующий PDF. Это реальная проблема материала, а не ошибка понимания ученика.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Следующая страница отсутствует",
+    "sourceStart": 533,
+    "sourceEnd": 542
+  },
+  {
+    "start": 2215.36,
+    "end": 2296.52,
+    "en": "teacher uh i correct uh understand uh you need uh i need this uh create moment in uh in uh i percent and doctor and uh i don't uh i don't uh how about this leg and maybe another uh Learner Learner i just want to know if you open the pdf what are you talking about i can't understand this you don't understand me no i understand but that uh my question was being there for this uh i need to create situation and for my uh body and i not understand what uh is my it's like but i uh uh ask it i have this problem but i don't know if the body is uh tired and uh many many uh sentences for Learner you're making Learner please listen you're making this much more complicated we're just practicing communication strategies to talk about body parts that you don't know the names of okay so does everyone have the pdf open yes yes",
+    "ru": "Ученик пытается спросить, надо ли придумывать историю пациента и подробно объяснять проблему тела. Фразы ASR фрагментарны; точный вопрос не восстанавливается. Преподаватель сначала спрашивает только, открыт ли PDF, затем объясняет: задача проще — тренировать стратегии описания частей тела, названий которых не знаешь.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Ученик уточняет, нужно ли придумать ситуацию",
+    "sourceStart": 542,
+    "sourceEnd": 560
+  },
+  {
+    "start": 2297.67,
+    "end": 2378.72,
+    "en": "great okay so as i said we're going to play the same game but i want you to use some of the new language we just learned okay exactly the same game but i want you to try to use some of the language okay and i want you at the beginning not to give all the information away right so when you say um yes it hurts on my leg that's all then the receptionist has to ask do you mean the front no not the front ah so you mean the back yes below the knee yes is it number six that's right okay so don't give all of the information at the beginning so that the receptionist can ask questions and confirm okay Partner when i just showed you this model did i guess straight away no no what did i do first as the receptionist ask questions and checked exactly good all right i'm going to put you back in uh breakout rooms and i will give you three minutes to practice these okay",
+    "ru": "Тот же формат, но теперь нужно использовать новые выражения. Начать с краткого «болит нога», дать администратору спросить «спереди?», ответить «сзади», уточнить «ниже колена», проверить догадку и лишь затем назвать номер. Проверочный вопрос подтверждает: преподаватель сначала спрашивал и проверял, а не угадывал сразу.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Новая демонстрация: не выдавать всё сразу",
+    "sourceStart": 560,
+    "sourceEnd": 572
+  },
+  {
+    "start": 2378.72,
+    "end": 2441.52,
+    "en": "hello again do you want me to share the screen uh you cannot uh share screen yeah i can oh okay okay oh i see it in your screen okay uh could you please choose a role is maybe you percent or maybe administrator talk to you to decide i cannot i can put a potential it's okay for me so shall i start yes let's go",
+    "ru": "Партнёры здороваются, проверяют демонстрацию и распределяют роли. Ученик просит выбрать пациента или администратора; автоматический текст percent, potential здесь не является надёжной лексикой. Затем начинают звонок.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "В паре: экран и выбор роли",
+    "sourceStart": 572,
+    "sourceEnd": 585
+  },
+  {
+    "start": 2448.32,
+    "end": 2499.88,
+    "en": "hello hello dr n's office hello how can i help you hi uh something hard near my chest i'm my right side is it on the front or on your back uh i think about this front i see uh sorry do you mean number four well but i don't know this word but it's below my chest on the side it's kind and sewed uh bone under my arm does make a sense yeah yeah do you mean ribs i",
+    "ru": "В начале записи две роли частично слились в одном ASR сегменте. Дальше слышны правая сторона, вопрос «спереди или сзади», затем описание кости сбоку/под рукой. Партнёр предполагает ribs. Ученик использует does make a sense, позже исправляемое на Does that make sense? Точный исходный объект пока не установлен.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Описание груди и неверная догадка",
+    "sourceStart": 585,
+    "sourceEnd": 597
+  },
+  {
+    "start": 2501.02,
+    "end": 2599.28,
+    "en": "think about no uh this is it makes sense so you mean your front part of the body hurt and it's somewhere near your belly so you want me to paraphrase now i see belly is an informal word for naming the part of the body where the stomach is sometimes little kids say belly or uh people say belly when it's a bit fat the russian word is uh but uh i had a minute uh number two uh this is what is this collarbone power bone yes i see i see well i just wanted you to say that it's higher than the belly but we had another word to explain that's funny that was funny sorry for that",
+    "ru": "Партнёр перефразирует: болит передняя часть тела возле живота? Объясняет разговорное belly. Ученик возвращает разговор к номеру два; партнёр называет collarbone. Ключица находится выше груди, поэтому исходное below my chest не подходит; нужно исправлять сам ориентир, а не считать догадку ribs окончательным ответом.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Belly и уточнение ключицы",
+    "sourceStart": 597,
+    "sourceEnd": 617
+  },
+  {
+    "start": 2599.28,
+    "end": 2657.52,
+    "en": "um yes when i am going to a doctor in china oh this is hard that uh what you what is the problem i have this problem okay you you you needed a uh not problem you cannot more the drink water is uh and you if you uh not it's possible is your describe this problem you come back please again you know sometimes i do not know what hurts even in my native language it's difficult to explain okay",
+    "ru": "Ученик рассказывает о трудностях объяснения проблемы врачу в Китае. Фразы о воде и возвращении сильно искажены, поэтому конкретные действия врача не устанавливаются. Партнёр отвечает, что иногда трудно понять и объяснить боль даже на родном языке.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "История общения с врачом в Китае",
+    "sourceStart": 617,
+    "sourceEnd": 624
+  },
+  {
+    "start": 2657.52,
+    "end": 2701.13,
+    "en": "okay welcome back everybody was that round a little bit easier with these new phrases i see a little bit Learner you said easy yes easy easier yeah i heard what i was also impressed is that i heard people use the using the intonation like does that make sense so i'm very happy that you guys were doing all of that yes today so sorry today i'm uh more tired is my presentation is uh a little bit is uh hard and uh your pronunciation sounds great Learner i can understand you very well okay thank you so now",
+    "ru": "Преподаватель спрашивает, стало ли легче; ученик отвечает easy, преподаватель моделирует easier. Отмечает использование новых фраз и интонации. Ученик говорит, что сегодня сильнее устал и говорить трудно; ASR presentation может скрывать pronunciation или другую мысль. Преподаватель поддерживает: произношение понятно.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Стало ли легче и усталость ученика",
+    "sourceStart": 624,
+    "sourceEnd": 640
+  },
+  {
+    "start": 2701.35,
+    "end": 2754.72,
+    "en": "we're going to change the setting okay but we're going to use the same game and the same principles okay so if you look at page three in your pdf you'll see now we are at the pharmacy you're at the pharmacy and you need something but of course you don't know the word i chose words that we're pretty difficult to see these are c1 c2 level words most of them um so i want you to take turns being the customer and the pharmacist the pharmacist will pick a picture and a number but of course will not say what the number is and we'll try to explain what they need to the pharmacist what it's for what kind of thing it is the pharmacist will ask questions and then we'll check before they guess the number",
+    "ru": "Теперь нужно описывать товары в аптеке. Преподаватель считает многие названия сложными, уровня C1/C2; это его оценка выбранных картинок, не проверенная классификация каждой лексемы. В инструкции оговорка: выбирающим картинку назван pharmacist, хотя по смыслу покупатель описывает нужный предмет, а фармацевт уточняет и угадывает.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Новая ситуация: аптека",
+    "sourceStart": 640,
+    "sourceEnd": 648
+  },
+  {
+    "start": 2754.72,
+    "end": 2811.6,
+    "en": "okay so uh Partner how many guesses do you get as the pharmacist how many guess how many guesses how many guess yes how many guesses oh three yeah no no no not a genie just just one you only get one guess but you have to check before yep exactly and after the guess you will switch right as we did before so you'll do customer pharmacist and then you will switch roles okay so i will put you back into breakout rooms and we will do this again this time in the pharmacy and you see on the right hand side you have all of these uh language points we learned i would love if you try to use as many as possible okay okay",
+    "ru": "На вопрос о числе попыток слышно «три». Преподаватель шутит, что фармацевт не джинн: попытка только одна, а перед ней нужно уточнить и проверить понимание. После ответа роли меняются. В парах следует использовать как можно больше изученных конструкций.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Одна догадка и смена ролей",
+    "sourceStart": 648,
+    "sourceEnd": 657
+  },
+  {
+    "start": 2811.6,
+    "end": 2882.64,
+    "en": "it's really nice okay okay you will be a seller or pharmacist pharmacist okay do you want me to be the pharmacist first hello how can i help you hi i will be starting my laptop all day and my age is really dry i don't know this word but maybe you can help me you need something for your eyes right yeah uh i drops uh yes i i age drops yes i need age drops please here you are so we shall swap as you can see okay",
+    "ru": "Партнёры выбирают, кто будет фармацевтом. Ученик говорит о целодневной работе с ноутбуком и сухости глаз; ASR starting и age ненадёжны. Партнёр уточняет «что-то для глаз?», после чего они находят eye drops. Затем меняются ролями.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Аптека: капли для глаз",
+    "sourceStart": 657,
+    "sourceEnd": 671
+  },
+  {
+    "start": 2884.0,
+    "end": 2982.96,
+    "en": "maybe another situation might be hard so now you are pharmacist okay uh hi can you help you yeah no the thing is i've um you know my son has got a temperature and um i'm afraid he's running a fever but we've forgotten that thing that gadget we use to measure the temperature um does that make sense maybe maybe you cannot sleep uh night is uh many times since sounds and uh uh could you please uh what your situation when you're going to sleep uh well the thing is i don't know the word but it's the thing we used to measure the temperature uh temperature to check the temperature uh you you you think about thermometer you needed uh which is uh okay but uh uh it's very nice okay",
+    "ru": "Теперь ученик — фармацевт. Партнёр рассказывает, что у сына температура и нужен прибор для измерения. Ученик сначала спрашивает о сне и звуках, что не отвечает описанию, затем после повторения функции узнаёт thermometer. Фраза Can you help you? нуждается в исправлении на How can I help you?",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Аптека: термометр",
+    "sourceStart": 671,
+    "sourceEnd": 692
+  },
+  {
+    "start": 2982.96,
+    "end": 3033.2,
+    "en": "let's try something else maybe maybe maybe uh yeah you can uh how can i help you oh yeah hi i i have my accident piece paper i don't know this word but on kind small stick strips and salt and paid and middle sorry what thing do you want this is uses cover and protect and small card do you mean the well i give up i don't understand could you paraphrase",
+    "ru": "Ученик описывает маленькую клейкую полоску с мягкой частью посередине, чтобы закрывать и защищать небольшой порез. ASR передаёт cut как card и искажает другие слова. Партнёр просит перефразировать и в конце узнаёт plaster. Важно не заучивать ошибочные формы распознавания.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Аптека: пластырь и непонимание",
+    "sourceStart": 692,
+    "sourceEnd": 702
+  },
+  {
+    "start": 3034.4,
+    "end": 3085.52,
+    "en": "that's my bad sorry small card blister on your skin do you mean the plaster yes could you please give me faster band eight yeah i i heard god instead of card and i was trying uh when you use a small cut that is this is uh in boot is let's go yeah okay hi can you help you yes please you know i need that things",
+    "ru": "Ученик уточняет про небольшой порез/волдырь и просит пластырь. Партнёр объясняет, что услышал другое слово. Ученик ещё пытается пояснить назначение; снова звучит начало приветствия, затем следующая просьба обрывается возвращением в общий класс. Название Band-Aid в ASR записано как band eight.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Уточнить plaster и Band-Aid",
+    "sourceStart": 702,
+    "sourceEnd": 715
+  },
+  {
+    "start": 3094.4,
+    "end": 3159.92,
+    "en": "okay welcome back i got to listen to both rooms a little bit i was very happy to hear you guys were having a good time getting some laughs but also using the new language and uh and describing these very difficult words um i will show you now what these words are you can see if anything familiar i heard someone knew what earplugs were somebody called number seven a plaster which is also known as a band-aid that's the name brand good very very good guys okay so the last thing we're going to do today is i want you to tell a story to your partner it can be a true story or you can make it up but i want you to think of a word and explain this story without saying the word pretend like you don't know the word and then your partner will have to guess what the word is just like we did in the other games okay",
+    "ru": "Преподаватель доволен: в комнатах смеялись и пользовались новыми выражениями. Показывает названия; упоминает earplugs и plaster, а Band-Aid называет торговой маркой. Последнее задание — рассказать настоящую или выдуманную историю, скрыв одно слово, чтобы партнёр его угадал.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Обратная связь и последняя игра",
+    "sourceStart": 715,
+    "sourceEnd": 724
+  },
+  {
+    "start": 3159.92,
+    "end": 3223.68,
+    "en": "so for example uh two weeks ago my toilet stopped working so i called the plumber and even though i've lived in germany for 20 years i don't know all the parts of a toilet i don't even know what that is in english in my own language so i called and i said um yeah there's a problem with the toilet uh when i push the thing the water doesn't go down and he said um the thing uh which water do you mean the water in the bowl or the water in the tank and i said oh yeah the water in in the bowl and when i push the thing on the side it doesn't go down he said ah you mean the the flush handle ah yeah that's it okay thanks yes flashing clock so i'm going to put you guys back in breakout rooms just for a couple minutes and then i want you to tell a story again it can be true or you can make it up and keep a word secret in your head and try to see if your partner can guess okay",
+    "ru": "Преподаватель рассказывает, как сломался унитаз. Несмотря на 20 лет жизни в Германии, он не знает всех названий деталей даже на родном языке. Говорит: нажимаю на штуку сбоку, вода не уходит. Сантехник уточняет, вода в чаше или бачке, и узнаёт flush handle. Затем преподаватель отправляет пары рассказывать свои истории.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Пример: ручка слива унитаза",
+    "sourceStart": 724,
+    "sourceEnd": 736
+  },
+  {
+    "start": 3232.16,
+    "end": 3310.93,
+    "en": "hi hi uh i have it uh might is a problem i i every time at uh in many country uh have uh another uh if you usually you want to charge a laptop and charge uh charge uh phone is uh have its minimal problem uh could you please uh listen my uh my story uh i'm all ears uh i visited at 158 countries this is happens to me is time with electronics on when i arrived in my hotel it's night releasing my laptop changers this fit is low i went to from desk and i said i don't know what is world could you please uh give me a small plastic device and you between the charger maybe you know what you uh what do you mean uh do you make sentence do you",
+    "ru": "Ученик начинает историю о проблеме зарядки телефона и ноутбука в разных странах, просит выслушать. Партнёр отвечает I’m all ears. В ASR звучит число 158 стран; это непроверенное высказывание в игре, где истории разрешено выдумывать. В отеле зарядное устройство не подошло, и ученик пытается описать маленький переходник сотруднику стойки регистрации.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "История ученика: зарядка в путешествии",
+    "sourceStart": 736,
+    "sourceEnd": 746
+  },
+  {
+    "start": 3311.35,
+    "end": 3361.28,
+    "en": "mean uh the adapter adapter yes adapter but if asking adapter not understand many people why i don't know in hong kong it is a very problem uh and adapter has another uh switcher and uh switcher and uh using in british adapter and uh when i had i need a adapter not understand word i mean and i need uh what is uh world",
+    "ru": "Партнёр предполагает adapter, ученик соглашается, но говорит, что это слово не всегда понимают, и приводит Гонконг и британский тип переходника. Фрагменты про switcher не позволяют установить конкретную деталь или электрическую неисправность. Ученик останавливается, чтобы проверить слово.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Adapter и непонимание в Гонконге",
+    "sourceStart": 746,
+    "sourceEnd": 755
+  },
+  {
+    "start": 3361.32,
+    "end": 3435.36,
+    "en": "uh what is world one moment i i check what is uh plug adapter and uh plug adapter and uh plug adapter and uh ah uh another world uh voltage converter oh now i see it's absolutely different thing yes yes it's uh when i had a plug adapter using it's uh not understand for me but uh voltage converter is uh uh very nice in converter",
+    "ru": "После паузы и поиска ученик называет plug adapter, затем voltage converter. Партнёр замечает, что это разные вещи. Учебный вывод: уточнять, нужна ли совместимость формы вилки или изменение напряжения; сама история не доказывает, какой именно прибор требовался. Пауза поиска сохранена, недостающие слова не добавлены.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Plug adapter и voltage converter",
+    "sourceStart": 755,
+    "sourceEnd": 766
+  },
+  {
+    "start": 3436.93,
+    "end": 3487.12,
+    "en": "well i had a similar situation but in my native language you know we had a neighbor um um we used to live in another flat and there was a young neighbor um who lived the next door um he played ice hockey was not clever enough i would say but uh there was a situation when uh uh we had kind of um renovation at film and the thing was that i used my portable screwdriver to um to well i was making a piece of furniture and um there is something that is named as confirmed in russia",
+    "ru": "Партнёр рассказывает похожий случай на родном языке: раньше жил в другой квартире, делал мебель во время ремонта, пользовался шуруповёртом и пытался назвать крепёж соседу. ASR confirmed, вероятно, передаёт «конфирмат», но уверенно устанавливать изделие по этому обрывку нельзя. История прерывается возвращением в общий класс.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "История партнёра: мебельный крепёж",
+    "sourceStart": 766,
+    "sourceEnd": 772
+  },
+  {
+    "start": 3489.12,
+    "end": 3535.62,
+    "en": "okay welcome back is everyone here yeah good good good okay so i i heard a lot of good language today a lot of good intonation a lot of using these new uh language points to describe what you uh what you were talking about and some of you got guessed very very quickly i want to put up on the on the whiteboard some feedback some good feedback and some feedback uh where we need to screwdriver adjustments to make it even better so i will type something sorry",
+    "ru": "Преподаватель отмечает хорошие новые выражения и интонацию, готовит примеры на доске. ASR вставляет screwdriver в фразу об улучшениях; вероятна примесь предыдущей темы. Ученик просит уточнить у партнёра название предмета из истории.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Подготовка обратной связи",
+    "sourceStart": 772,
+    "sourceEnd": 779
+  },
+  {
+    "start": 3536.17,
+    "end": 3595.12,
+    "en": "uh teacher i have a question for Partner in uh yes you mean the square drive beat for your history no that was kind of um not a self-tapping screw not a battery charger no no no the thing that we screw into the two parts of uh two pieces of um wood to to make them one thing and i was explaining that word in russian so the guy i didn't know it in russian well plug well plug and when i use the water this will will plug and uh this name is english uh i'm afraid i'm not sure okay Learner can i can i give you guys some feedback and you guys can talk",
+    "ru": "Ученик предлагает square-drive bit (ASR beat) и другие варианты. Партнёр отрицает догадку, описывает предмет, соединяющий два куска дерева, и упоминает, что объяснял слово по-русски. Ученику приходит в голову plug; следующая фраза о воде ненадёжна. Преподаватель признаёт неуверенность и возвращает группу к обратной связи. Итоговое название не подтверждено.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Крепёж: догадки остаются непроверенными",
+    "sourceStart": 779,
+    "sourceEnd": 792
+  },
+  {
+    "start": 3595.12,
+    "end": 3662.4,
+    "en": "about this after so the first was someone described something as being under your neck neck i think you were talking about the collarbone yeah so is this correct under your neck below below below below below good okay i also heard this i'm not sure i get the last phrase i would i would say it's almost correct why not so what's wrong what's wrong with this Partner good got i'll go to right we want a simple past form right all right",
+    "ru": "Преподаватель исправляет описание ключицы: below your neck естественнее в данном пространственном отношении. Затем предлагает I’m not sure I get the last phrase и предпочитает got, если речь о уже прозвучавшей фразе. Настоящее get тоже возможно для текущего понимания: это контекстный выбор времени, а не запрет грамматически допустимой формы.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Below, а не under; get или got",
+    "sourceStart": 792,
+    "sourceEnd": 808
+  },
+  {
+    "start": 3664.64,
+    "end": 3699.92,
+    "en": "i heard someone say this does make sense does make sense does it make sense does this make sense does it make sense right all right was the engine was the intonation correct does make it sense does it make sense was that correct okay yes right you're asking a question so the intonation is rising at the end good",
+    "ru": "Группа восстанавливает вопрос с подлежащим it, this или that: Does it/this/that make sense? Ученик повторяет модель. Преподаватель проверяет интонацию и показывает восходящий тон в вопросе-проверке; ASR engine в этом месте искажает intonation.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Подлежащее в Does it make sense?",
+    "sourceStart": 808,
+    "sourceEnd": 820
+  },
+  {
+    "start": 3699.92,
+    "end": 3777.49,
+    "en": "i also heard this today oh i see do you mean Partner does this look correct it looks pretty good to me yeah oh i see is confirmation and then do you mean and then they're confirming exactly maybe possibly paraphrasing good there's one more sorry what thing do you want this was in the uh this was in the uh pharmacy is that very polite no very polite not very polite yeah so Partner what would be a more polite way to say this um sorry what exactly do you want perfect what exactly do you want or what exactly are you looking for would even be a bit more polite i think yes i",
+    "ru": "Oh, I see подтверждает понимание, Do you mean…? проверяет догадку. Затем рассматривают Sorry, what thing do you want? Более естественно What exactly do you want?, а ещё мягче What exactly are you looking for? Вежливость зависит и от тона; want не становится автоматически вежливым только из-за exactly.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Подтверждение и вежливое уточнение",
+    "sourceStart": 820,
+    "sourceEnd": 837
+  },
+  {
+    "start": 3777.68,
+    "end": 3813.02,
+    "en": "also heard this which i loved very proud sorry i don't understand could you paraphrase this is great hopefully the person knows what paraphrase means or then you will have to start explaining paraphrase and going back and forth he's the mate yeah yeah yeah what's another way you could if they didn't know paraphrase what's another way you could say that could do you please could you say that another way yeah something like that okay and the",
+    "ru": "Преподаватель хвалит Sorry, I don’t understand. Could you paraphrase? Но если человек не знает слово paraphrase, проще Could you say that another way? Ученик начинает вежливую просьбу, точный полный вариант за него не восстанавливается. Короткий обрывок the mate не даёт надёжного смысла.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Попросить сказать иначе",
+    "sourceStart": 837,
+    "sourceEnd": 848
+  },
+  {
+    "start": 3813.02,
+    "end": 3885.74,
+    "en": "last one was listen to how i say that this does that make sense does that make so what's wrong with it Partner it it sounds sarcastic i would say or something like like your um does that make sense yeah exactly it's missing the rising intonation exactly great guys i'm going to put now in the window of the of the chat box all of these sheets with all the vocabulary so that in the future you guys can have those for your records and you can learn it okay guys thank you so much this was a great lesson i had a lot of fun i hope you did too and i hope in the future that you can use some of these phrases to help um to help communicate better okay thank you thanks guys have a great night a great weekend okay thank you bye-bye thank you bye",
+    "ru": "Преподаватель произносит Does that make sense? нарочито неудачным тоном. Партнёр замечает сарказм; преподаватель связывает эффект с отсутствием подъёма. Это конкретная демонстрация, а не правило «любой нисходящий вопрос — сарказм». Преподаватель обещает отправить листы со словарём, благодарит группу и желает хорошего вечера и выходных. После последнего распознанного bye в 64:31.28 до конца 64:45.74 нет текстовых сегментов; содержание этого хвоста не восстанавливается.",
+    "teacher": "Mixed roles; attribution contextual, ASR clusters unverified",
+    "heading": "Интонация и завершение",
+    "sourceStart": 848,
+    "sourceEnd": 864
+  }
+]

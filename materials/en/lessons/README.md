@@ -6,6 +6,8 @@
 
 | Школа | Тема | Дата записи | Материалы |
 | --- | --- | --- | --- |
+| DC Teacher Training | [Преступления, мнения и Simple / Continuous · 20 ноября](dc-teacher-training/crime-punishment-and-time/) | 2026-11-20 | [Читать](dc-teacher-training/crime-punishment-and-time/README.md) · [JSON](dc-teacher-training/crime-punishment-and-time/lesson.json) |
+| ACE TEFL (предположительно; в записи не подтверждено) | [Как объяснить забытое слово: уточнение, описание и вежливая интонация · 20 ноября](ace-tefl/clarifying-meaning/) | 2026-11-20 | [Читать](ace-tefl/clarifying-meaning/README.md) · [JSON](ace-tefl/clarifying-meaning/lesson.json) |
 | ACE TEFL | [Память, привычки и remember / forget / try · 19 ноября](ace-tefl/memory-and-verb-patterns/) | 2026-11-19 | [Читать](ace-tefl/memory-and-verb-patterns/README.md) · [JSON](ace-tefl/memory-and-verb-patterns/lesson.json) |
 | ACE TEFL | [Планы и договорённости по-английски · 16 ноября](ace-tefl/future-plans/) | 2026-11-16 | [Читать](ace-tefl/future-plans/README.md) · [JSON](ace-tefl/future-plans/lesson.json) |
 | DC Public Library | [Культура, ценности и вежливое обсуждение · 19 ноября](dc-public-library/culture-and-values/) | 2026-11-19 | [Читать](dc-public-library/culture-and-values/README.md) · [JSON](dc-public-library/culture-and-values/lesson.json) |

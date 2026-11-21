@@ -136,5 +136,21 @@
     "language": "en",
     "path": "lessons/teaching-house/nature-and-nurture/lesson.json",
     "legacyPath": "2026-11-20/teaching-house-nature-nurture.json"
+  },
+  {
+    "topic": "Преступления, мнения и Simple / Continuous · 20 ноября",
+    "school": "DC Teacher Training",
+    "date": "2026-11-20",
+    "id": "dc-teacher-training/crime-punishment-and-time",
+    "language": "en",
+    "path": "lessons/dc-teacher-training/crime-punishment-and-time/lesson.json"
+  },
+  {
+    "topic": "Как объяснить забытое слово: уточнение, описание и вежливая интонация · 20 ноября",
+    "school": "ACE TEFL (предположительно; в записи не подтверждено)",
+    "date": "2026-11-20",
+    "id": "ace-tefl/clarifying-meaning",
+    "language": "en",
+    "path": "lessons/ace-tefl/clarifying-meaning/lesson.json"
   }
 ]
