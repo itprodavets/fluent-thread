@@ -1,0 +1,68 @@
+[
+  {
+    "source": "Record-2026-11-21 17-08-23-20261121-170823",
+    "durationSeconds": 5829.56,
+    "segments": 1526,
+    "coveredSegments": 1526,
+    "transcriptBlocks": 65,
+    "words": 147,
+    "materials": 58,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "readingVersions": 6,
+    "dialogueScenes": 3,
+    "dialogues": 18,
+    "dialogueComprehensionExercises": 18,
+    "teacherPhraseCards": 32,
+    "grammarExercises": 8,
+    "mistakeCards": 9,
+    "correctionEntries": 19,
+    "publishedAudio": false,
+    "sourceContentSha256": "7a118611bcb0609de70107621ea9b268f524af04cc002606daab7e2a679250a2",
+    "sourceLastSegmentEnd": 5824.88,
+    "untranscribedTailSeconds": 4.68,
+    "recordingKey": "lesson-2026-11-21-ih-bangkok",
+    "schoolAttribution": "IH Bangkok inferred from calendar and email alignment verified by parent task; the school name is not spoken. Closing announcement mentions Bangkok time, which alone does not prove school identity.",
+    "startAttribution": "Filename 17:08:23 is save/completion time. With duration 97m09.56s, approximate start 15:31 Singapore/China time matches the independently verified 15:30 class. This arithmetic is approximate, not a spoken start time.",
+    "speakerAttribution": "Automatic clusters unreliable; neutral roles substituted and learner attribution restricted to context, direct address and coherent exchanges. Names replaced in both segment text and word tokens.",
+    "gaps": [
+      "No printed article or task slides were provided; their missing wording and multiple-choice options are not reconstructed.",
+      "ASR repeats stock phrases in quiet individual-work intervals, notably approximately 1669–1813s; suspicious short/zero-duration duplicates around 2887–2894s. Retained in normalized source and exact concatenated transcript, explicitly explained.",
+      "Independently measured quiet spans around 1190.325–1216.194 and 1792.104–1826.745 seconds are not proof of missing speech.",
+      "Some ASR strings obscure the phone storage location, final technology-free conclusion, game names, final venue and individual adjectives. No guesses asserted as facts.",
+      "5824.88–5829.56 has no recognized text; silence and unrecognized sound cannot be distinguished from transcript alone."
+    ],
+    "externalChecks": [
+      {
+        "title": "British Council: Past habits: used to, would and the past simple",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2-grammar/past-habits-used-to-would-past-simple",
+        "use": "Past habits/states and used to form; rules paraphrased, package examples authored."
+      },
+      {
+        "title": "Cambridge English Grammar Today: Suggestions",
+        "url": "https://dictionary.cambridge.org/grammar/british-grammar/suggestions",
+        "use": "Suggestion patterns including how about + -ing and conversational clause patterns; examples authored."
+      }
+    ],
+    "package": "lesson.json",
+    "mistakePractice": "mistake-practice.json",
+    "recordingUnits": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 864,
+        "topic": "Technology habits, reading a technology-free experiment, planning an offline day and room handoff"
+      },
+      {
+        "sourceStart": 864,
+        "sourceEnd": 1526,
+        "topic": "Wedding priorities, listening and inference, imaginary New Year celebration plans"
+      }
+    ]
+  }
+]

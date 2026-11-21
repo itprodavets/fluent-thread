@@ -152,5 +152,21 @@
     "id": "ace-tefl/clarifying-meaning",
     "language": "en",
     "path": "lessons/ace-tefl/clarifying-meaning/lesson.json"
+  },
+  {
+    "topic": "День без технологий, свадебные решения и план праздника · IH Bangkok",
+    "school": "IH Bangkok",
+    "date": "2026-11-21",
+    "id": "ih-bangkok/technology-breaks-and-celebration-plans",
+    "language": "en",
+    "path": "lessons/ih-bangkok/technology-breaks-and-celebration-plans/lesson.json"
+  },
+  {
+    "topic": "Отчёт о дебатах и город солнечных зеркал · ACE TEFL · 21 ноября",
+    "school": "ACE TEFL",
+    "date": "2026-11-21",
+    "id": "ace-tefl/reports-and-mirror-town",
+    "language": "en",
+    "path": "lessons/ace-tefl/reports-and-mirror-town/lesson.json"
   }
 ]

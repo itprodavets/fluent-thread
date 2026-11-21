@@ -28,7 +28,7 @@ export type DialogueMistake = {
   last?: { answer: string; result: 'fixed' | 'retry'; assessment?: import('./model').Outcome };
   reviewMode?: 'self-check';
   checklist?: string[];
-  source?: { lessonId: string; topicId: string; time: string; kind: string };
+  source?: { lessonId: string; topicId: string; time: string; kind: string; date?: string };
 };
 
 function mistakeId(scenario: DialogueScenario, rule: string) {

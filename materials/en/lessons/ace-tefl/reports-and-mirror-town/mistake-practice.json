@@ -1,0 +1,204 @@
+{
+  "id": "ace-tefl/reports-and-mirror-town",
+  "recordingKey": "lesson-2026-11-21-ace-reports-mirrors",
+  "school": "ACE TEFL",
+  "date": "2026-11-21",
+  "notice": "Only contextually reliable learner targets. ASR voice labels do not establish identity. Source fragments are anonymised; full corrected responses are edited teaching models. Excluded uncertain phonetic diagnoses, background media, teacher turns, optional tense changes and already correct short answers. No source audio is published.",
+  "cards": [
+    {
+      "id": "practice",
+      "time": "00:54–00:58",
+      "title": "Неисчисляемая практика",
+      "original": "I needed a more practice.",
+      "corrected": "I need more practice.",
+      "reason": "Practice в значении тренировки неисчисляемое: more practice без a. Настоящее need — модель текущей потребности, не обязательная поправка времени.",
+      "partner": "What would help you improve your English?",
+      "prompt": "Скажи, что тебе нужно больше практики, и уточни какой.",
+      "checklist": [
+        "Использую more practice без a.",
+        "Называю конкретный вид практики."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "every",
+      "time": "11:42–11:54",
+      "title": "Every и единственное число",
+      "original": "Every cafe and restaurant have…",
+      "corrected": "Every café and restaurant has a place for customer feedback.",
+      "reason": "Every согласуется с единственным числом. Продолжение — модель смысла, не утверждение, что такое место есть во всех заведениях.",
+      "partner": "How did you first understand the word report?",
+      "prompt": "Расскажи о своём примере с every; можно выбрать другой предмет.",
+      "checklist": [
+        "После every использую существительное в единственном числе.",
+        "Согласую has/is/does по конструкции."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "managers",
+      "time": "13:26–14:00",
+      "title": "Несколько менеджеров",
+      "original": "I have many manager…",
+      "corrected": "I have several managers who work with clients.",
+      "reason": "После many/several нужно множественное managers. Рамка взята из ясного рабочего примера; полное предложение отредактировано.",
+      "partner": "Who prepares reports in your team?",
+      "prompt": "Опиши людей, которые готовят отчёты, без выдуманных должностей.",
+      "checklist": [
+        "Использую множественное число после several/many.",
+        "Понятно называю, что делают эти люди."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "scheme",
+      "time": "25:23–25:39",
+      "title": "Проект, а не техническая схема",
+      "original": "Schema… scheme.",
+      "corrected": "The benefits of the proposed scheme.",
+      "reason": "Scheme — план или проект в этом контексте. Schema — самостоятельный технический термин, но здесь преподаватель явно поправляет его на scheme; точная фонетика ASR не утверждается.",
+      "partner": "What heading fits the second section?",
+      "prompt": "Назови раздел о преимуществах и добавь один возможный плюс проекта.",
+      "checklist": [
+        "Использую proposed scheme для обсуждаемого проекта.",
+        "Не называю schema ошибочным словом во всех областях."
+      ],
+      "kind": "vocabulary"
+    },
+    {
+      "id": "understand",
+      "time": "35:27–35:32",
+      "title": "Уточнить непонятное",
+      "original": "I’m not understand.",
+      "corrected": "I don’t understand the task.",
+      "reason": "Для отрицания обычного глагола understand нужен don’t, без am.",
+      "partner": "Have you finished filling out the table?",
+      "prompt": "Ответь, что задача непонятна, и задай конкретный вопрос.",
+      "checklist": [
+        "Использую I don’t understand.",
+        "Уточняю ожидаемое действие: копировать выражения или писать свои идеи."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "make-recommendation",
+      "time": "44:34–44:42",
+      "title": "Сочетаемость рекомендации",
+      "original": "I will do a recommendation that…",
+      "corrected": "I would make a recommendation. / I would recommend that more research be done.",
+      "reason": "Make a recommendation либо глагол recommend. Would смягчает совет; will не является ошибкой во всех контекстах.",
+      "partner": "What action would you recommend after the meeting?",
+      "prompt": "Предложи действие с recommend или make a recommendation.",
+      "checklist": [
+        "Использую make, если выбираю существительное recommendation.",
+        "После would использую базовую форму глагола."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "as-green",
+      "time": "44:54–45:25",
+      "title": "Максимально экологичный",
+      "original": "As green possible.",
+      "corrected": "The housing should be as green as possible.",
+      "reason": "В этой рамке нужны два as: as + adjective + as possible.",
+      "partner": "How could the housing project be improved?",
+      "prompt": "Сформулируй цель улучшения и при желании предложи исследование.",
+      "checklist": [
+        "Использую полную рамку as … as possible.",
+        "Даю понятную цель проекта."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "recommend-verb",
+      "time": "47:56–48:19",
+      "title": "Глагол после would",
+      "original": "I would recommendation…",
+      "corrected": "I would recommend further research.",
+      "reason": "Recommendation — существительное; после would требуется базовая форма recommend.",
+      "partner": "What would you put in the final section?",
+      "prompt": "Дай собственную рекомендацию и объясни её одним доводом.",
+      "checklist": [
+        "После would использую recommend.",
+        "Отделяю собственное предложение от чужого аргумента."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "direct",
+      "time": "73:07–73:27",
+      "title": "Прямой солнечный свет",
+      "original": "Almost not directly sunlight.",
+      "corrected": "There may be almost no direct sunlight in winter.",
+      "reason": "Direct описывает существительное sunlight; directly — наречие. May сохраняет характер предположения до видео.",
+      "partner": "What might be difficult about living in a deep valley?",
+      "prompt": "Предположи недостаток света и объясни причину.",
+      "checklist": [
+        "Использую direct sunlight.",
+        "Помечаю догадку через may/might/could."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "lets-watch",
+      "time": "77:41–77:43",
+      "title": "Предложить просмотр",
+      "original": "Let’s go to watching the video.",
+      "corrected": "Let’s watch the video.",
+      "reason": "Для простого предложения действия после let’s нужна базовая форма watch.",
+      "partner": "Are you ready for the next stage?",
+      "prompt": "Предложи посмотреть видео, затем скажи, что будешь слушать.",
+      "checklist": [
+        "После let’s использую базовую форму.",
+        "Уточняю цель просмотра."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "mirrors",
+      "time": "84:19–84:29",
+      "title": "Зеркала и панели",
+      "original": "Using sun panels… mirrors, mirrors.",
+      "corrected": "The mirrors reflect sunlight into the square.",
+      "reason": "Преподаватель уточнил mirrors и ученик принял поправку. По сюжету устройства отражают свет, а не вырабатывают электричество.",
+      "partner": "How does the town get sunlight in its square?",
+      "prompt": "Объясни работу зеркал одним-двумя предложениями.",
+      "checklist": [
+        "Называю mirrors.",
+        "Использую reflect sunlight и указываю место."
+      ],
+      "kind": "vocabulary"
+    },
+    {
+      "id": "heavy-traffic",
+      "time": "103:42–104:19",
+      "title": "Сильные пробки",
+      "original": "Big traffic.",
+      "corrected": "The traffic is very heavy during rush hour.",
+      "reason": "Подтверждённая подсказка преподавателя: heavy traffic. Traffic неисчисляемое; a traffic jam — отдельный затор.",
+      "partner": "What is one of the worst things about your city?",
+      "prompt": "Опиши движение и время, когда оно особенно мешает.",
+      "checklist": [
+        "Использую heavy traffic либо a traffic jam.",
+        "Ясно описываю свой опыт без выдуманных чисел."
+      ],
+      "kind": "naturalness"
+    },
+    {
+      "id": "city-has",
+      "time": "105:27–105:36",
+      "title": "У города есть население",
+      "original": "My city is have…",
+      "corrected": "My city has a large population.",
+      "reason": "В утвердительном Present Simple нужен has без is. Число из ASR ненадёжно и в модель не перенесено.",
+      "partner": "Is your city small or large?",
+      "prompt": "Ответь о размере города; точное число можно не указывать.",
+      "checklist": [
+        "Использую has или people live, без is have.",
+        "Не выдумываю численность населения."
+      ],
+      "kind": "grammar"
+    }
+  ]
+}
