@@ -4,6 +4,7 @@ import type { Page } from '../domain/model';
 import { LanguageMenu } from './Language';
 import { Icon } from './Icon';
 import { ProfileSummary } from './ProfileSummary';
+import { LocalStorageNotice } from './LocalStorageNotice';
 
 const destinations = ['today', 'map', 'materials', 'resources', 'schools', 'progress'] as const;
 
@@ -25,7 +26,7 @@ export function AppShell({ page, children }: { page: Page; children: ReactNode }
         <span className="breadcrumb">Моё пространство <span>/</span> <strong>{pages[page]}</strong></span>
         <div className="app-controls"><LanguageMenu /><a className="account-control" href="#profile" aria-current={page === 'profile' ? 'page' : undefined} aria-label="Профиль и синхронизация"><Icon name="account" /><span>Профиль</span></a></div>
       </header>
-      <main id="screen" data-page={page} tabIndex={-1}>{children}</main>
+      <main id="screen" data-page={page} tabIndex={-1}><LocalStorageNotice />{children}</main>
     </div>
   </div>;
 }

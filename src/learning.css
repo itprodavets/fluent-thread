@@ -178,3 +178,10 @@
 .cloud-settings code { overflow-wrap: anywhere; }
 .cloud-settings ol { padding-left: 24px; line-height: 1.7; }
 .cloud-settings li + li { margin-top: 8px; }
+
+.local-storage-notice { margin-bottom: 24px; padding: 16px 20px; border: 1px solid #dfd5bb; border-radius: 12px; background: #faf7ee; color: #443e30; }
+.local-storage-notice p { margin: 5px 0 0; font-size: 14px; line-height: 1.5; }
+.local-storage-notice .actions { margin-top: 12px; flex-wrap: wrap; }
+.local-storage-notice details { margin-top: 12px; font-size: 14px; }
+.local-storage-notice summary { cursor: pointer; }
+@media (max-width: 600px) { .local-storage-notice { padding: 14px; } .local-storage-notice .actions > * { flex: 1 1 100%; text-align: center; } }
