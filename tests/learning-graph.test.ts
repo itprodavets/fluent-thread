@@ -90,3 +90,19 @@ test('school and skill projection are bounded, include context, preserve global 
   }
   assert.deepEqual(graph, before);
 });
+
+test('manual school-to-school and skill-to-skill links remain visible from either focus', () => {
+  let study = fixture();
+  const skills = [skill('School', 'Scene'), { ...skill('Other', 'Scene'), id: 'second' }];
+  for (const type of ['school', 'skill']) {
+    let graph = build(study, skills);
+    const [a, b] = graph.nodes.filter(node => node.type === type);
+    study = connectLearningNodes(study, graph, a.id, b.id); graph = build(study, skills);
+    for (const focus of [a.id, b.id]) {
+      const visible = projectLearningGraph(graph, focus);
+      assert.ok(visible.edges.some(edge => edge.id === learningEdgeId(a.id, b.id) && edge.manual));
+      assert.ok(visible.nodes.some(node => node.id === a.id));
+      assert.ok(visible.nodes.some(node => node.id === b.id));
+    }
+  }
+});

@@ -100,13 +100,19 @@ export function projectLearningGraph(graph: LearningGraph, focusId?: string, pag
   const included = new Set<string>();
   const neighbours = (id: string) => graph.edges.flatMap(edge => edge.from === id ? [edge.to] : edge.to === id ? [edge.from] : []);
   const byId = new Map(graph.nodes.map(node => [node.id, node]));
-  const candidates = focus ? graph.nodes.filter(node => neighbours(focus.id).includes(node.id) &&
-    (focus.type === 'school' ? node.type === 'lesson' : focus.type === 'skill' ? node.type === 'dialogue' : true)) : [];
   const bounded = focus?.type === 'school' || focus?.type === 'skill';
+  const candidates = focus ? graph.nodes.filter(node => neighbours(focus.id).includes(node.id) &&
+    (!bounded || graph.edges.some(edge => edge.automatic && ((edge.from === focus.id && edge.to === node.id) || (edge.to === focus.id && edge.from === node.id)))) &&
+    (focus.type === 'school' ? node.type === 'lesson' : focus.type === 'skill' ? node.type === 'dialogue' : true)) : [];
   const total = candidates.length, pages = Math.max(1, Math.ceil(total / size));
   const current = Number.isFinite(page) ? Math.max(0, Math.min(pages - 1, Math.floor(page))) : 0;
   if (focus) included.add(focus.id);
   for (const candidate of bounded ? candidates.slice(current * size, (current + 1) * size) : candidates) included.add(candidate.id);
+  // Manual relationships remain inspectable even when they join unlike browse
+  // categories (for example school ↔ school); pagination only bounds content.
+  if (focus) for (const edge of graph.edges) if (edge.manual && (edge.from === focus.id || edge.to === focus.id)) {
+    included.add(edge.from); included.add(edge.to);
+  }
   // Scene/lesson context and scene skills, without recursively expanding schools or skills.
   for (const id of [...included]) {
     const node = byId.get(id)!;

@@ -4,7 +4,7 @@ import { neutralLessonRoles } from './material-roles.ts';
 export type Value = any;
 export type CloudRow = { id: string; value: Value; revision: number };
 export type Change = { id: string; value: Value; expected: number };
-export type Conflict = { id: string; key: string; local: Value; remote: Value; at: number };
+export type Conflict = { id: string; key: string; local: Value; remote: Value; at: number; scope?: 'learningMapEntry' | 'languageMetadata'; entryKey?: string };
 export type ProfileDocument = { study: Study; base: Record<string, { value: Value; revision: number }>; cursor: number; conflicts: Conflict[] };
 const arrays = new Set(['words', 'topics', 'resources', 'conversationRoutes', 'importedLessons', 'materialArchives']);
 const maps = new Set(['languages', 'results', 'topicPackageMaterials', 'ankiImports', 'dialogueMistakes', 'dailySpeech', 'learningSessions', 'dialogueSessions', 'storySessions', 'practiceDays']);
@@ -77,7 +77,8 @@ export function mergeValue(base: Value, local: Value, remote: Value, counters = 
 }
 // Language metadata retains its existing merge semantics. Only the sparse graph
 // dictionary treats missing first-creation containers as empty; entries are atomic.
-function mergeLanguage(base: Value, local: Value, remote: Value): { value: Value; conflict: boolean } {
+type LanguageMerge = { value: Value; conflict: boolean; scopedMetadata?: boolean; entryConflicts?: { entryKey: string; local: Value; remote: Value }[] };
+function mergeLanguage(base: Value, local: Value, remote: Value): LanguageMerge {
   const object = (value: Value) => value && typeof value === 'object' && !Array.isArray(value);
   if (![local, remote].every(object) || base !== null && base !== undefined && !object(base)) return mergeValue(base, local, remote);
   if (![base, local, remote].some(value => object(value) && own(value, 'learningMap'))) return mergeValue(base, local, remote);
@@ -89,6 +90,7 @@ function mergeLanguage(base: Value, local: Value, remote: Value): { value: Value
   const metadata = mergeValue(withoutOverlay(base), withoutOverlay(local), withoutOverlay(remote));
   const before = base?.learningMap, mine = local.learningMap, theirs = remote.learningMap;
   let overlay: { value: Value; conflict: boolean };
+  const entryConflicts: NonNullable<LanguageMerge['entryConflicts']> = [];
   if (equal(mine, before)) overlay = { value: theirs, conflict: false };
   else if (equal(theirs, before) || equal(mine, theirs)) overlay = { value: mine, conflict: false };
   else if ([mine, theirs].every(object) && (before == null || object(before))) {
@@ -99,12 +101,12 @@ function mergeLanguage(base: Value, local: Value, remote: Value): { value: Value
       let entry: Value;
       if (equal(left, prior)) entry = right;
       else if (equal(right, prior) || equal(left, right)) entry = left;
-      else { entry = left === null || right === null ? null : right; conflict = true; }
+      else { entry = left === null || right === null ? null : right; entryConflicts.push({ entryKey: key, local: left, remote: right }); }
       if (entry !== undefined) value[key] = entry;
     }
     overlay = { value, conflict };
   } else overlay = mergeValue(before, mine, theirs);
-  return { value: { ...metadata.value, ...(overlay.value === undefined ? {} : { learningMap: overlay.value }) }, conflict: metadata.conflict || overlay.conflict };
+  return { value: { ...metadata.value, ...(overlay.value === undefined ? {} : { learningMap: overlay.value }) }, conflict: metadata.conflict || overlay.conflict, scopedMetadata: !overlay.conflict, entryConflicts };
 }
 export function pendingChanges(document: ProfileDocument): Change[] {
   const records = packStudy(document.study);
@@ -125,13 +127,18 @@ export function reconcileRows(document: ProfileDocument, rows: CloudRow[], sent?
     const local = own(records, row.id) ? records[row.id] : null;
     const previous = sent?.has(row.id) ? sent.get(row.id) : before?.value ?? null;
     const group = JSON.parse(row.id)[0];
+    const languageMerged = group === 'languages' ? mergeLanguage(previous, local, row.value) : undefined;
     const merged = group === 'order' && Array.isArray(local) && Array.isArray(row.value)
       ? { value: [...new Set([...row.value, ...local])], conflict: false }
-      : group === 'languages' ? mergeLanguage(previous, local, row.value)
+      : languageMerged ? languageMerged
       : mergeValue(previous, local, row.value, group === 'practiceDays');
     records[row.id] = merged.value;
     base[row.id] = { value: row.value, revision: row.revision };
-    if (merged.conflict) conflicts.push({ id: crypto.randomUUID(), key: row.id, local, remote: row.value, at: Date.now() });
+    if (merged.conflict) conflicts.push({ id: crypto.randomUUID(), key: row.id,
+      local, remote: row.value, at: Date.now(), ...(languageMerged?.scopedMetadata ? { scope: 'languageMetadata' as const } : {}) });
+    for (const entry of languageMerged?.entryConflicts ?? []) conflicts.push({
+      id: crypto.randomUUID(), key: row.id, ...entry, scope: 'learningMapEntry', at: Date.now()
+    });
     changed = true;
   }
   return changed ? { ...document, study: neutralLessonRoles(unpackStudy(records)), base, conflicts } : document;
@@ -143,6 +150,20 @@ export function resolveConflict(document: ProfileDocument, id: string, keepLocal
   const conflict = document.conflicts.find(item => item.id === id);
   if (!conflict) return document;
   const records = packStudy(document.study);
+  if (conflict.scope && JSON.parse(conflict.key)[0] === 'languages') {
+    const current = records[conflict.key] ?? {};
+    const chosen = keepLocal ? conflict.local : conflict.remote;
+    if (conflict.scope === 'learningMapEntry' && conflict.entryKey !== undefined && !forbidden(conflict.entryKey)) {
+      const overlay = { ...current.learningMap };
+      if (chosen === undefined) delete overlay[conflict.entryKey];
+      else overlay[conflict.entryKey] = chosen;
+      records[conflict.key] = { ...current, learningMap: overlay };
+    } else if (conflict.scope === 'languageMetadata') {
+      const { learningMap: _overlay, ...metadata } = chosen ?? {};
+      records[conflict.key] = { ...metadata, ...(own(current, 'learningMap') ? { learningMap: current.learningMap } : {}) };
+    }
+    return { ...document, study: unpackStudy(records), conflicts: document.conflicts.filter(item => item.id !== id) };
+  }
   if (keepLocal) records[conflict.key] = conflict.local;
   return { ...document, study: keepLocal ? unpackStudy(records) : document.study, conflicts: document.conflicts.filter(item => item.id !== id) };
 }

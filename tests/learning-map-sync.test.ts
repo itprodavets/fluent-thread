@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { emptyStudy, packStudy, unpackStudy, reconcileRow, pendingChanges, mergeValue } from '../src/domain/profile-sync.ts';
+import { emptyStudy, packStudy, unpackStudy, reconcileRow, pendingChanges, mergeValue, resolveConflict } from '../src/domain/profile-sync.ts';
 import type { ProfileDocument } from '../src/domain/profile-sync.ts';
 const key = JSON.stringify(['languages', 'en']);
 const entry = (x: number) => ({ kind: 'position', nodeId: 'node', point: { x, y: 20 } });
@@ -31,7 +31,8 @@ test('distinct edits combine but conflicting same entry retains alternatives', (
   const conflict = reconcile(document({ learningMap: { a: entry(30) } }, { learningMap: { a: entry(20) } }), { learningMap: { a: entry(40) } });
   assert.equal(conflict.conflicts.length, 1);
   assert.deepEqual((conflict.study.languages.en as any).learningMap.a, entry(40));
-  assert.deepEqual(conflict.conflicts[0].local, { learningMap: { a: entry(30) } });
+  assert.deepEqual(conflict.conflicts[0].local, entry(30));
+  assert.equal(conflict.conflicts[0].entryKey, 'a');
 });
 test('explicit entry tombstones survive delete versus edit in both directions and subsequent round trips', () => {
   const base = { learningMap: { a: entry(20) } };
@@ -50,4 +51,29 @@ test('ordinary metadata and generic merging retain original semantics and other 
   assert.equal(next.conflicts.length, 1);
   assert.deepEqual(next.study.languages.fr, doc.study.languages.fr);
   assert.deepEqual(mergeValue({}, { learningMap: { a: 1 } }, { learningMap: { b: 2 } }), { value: { learningMap: { b: 2 } }, conflict: true });
+});
+
+test('entry conflict choices preserve independent remote and subsequent local edits', () => {
+  for (const keepLocal of [true, false]) {
+    const base = { setting: 'before', learningMap: { a: entry(10) } };
+    let next = reconcile(document({ ...base, learningMap: { a: entry(20) } }, base), { ...base, learningMap: { a: entry(30), b: entry(40) } });
+    next.study.languages.en = { ...(next.study.languages.en as any), setting: 'after', learningMap: { ...(next.study.languages.en as any).learningMap, c: entry(50) } };
+    next = resolveConflict(next, next.conflicts[0].id, keepLocal);
+    assert.deepEqual(next.study.languages.en, { setting: 'after', learningMap: { a: entry(keepLocal ? 20 : 30), b: entry(40), c: entry(50) } });
+    assert.equal(next.conflicts.length, 0);
+  }
+});
+test('delete versus edit can explicitly resolve either alternative without touching other entries', () => {
+  for (const [local, remote] of [[null, entry(30)], [entry(30), null]]) for (const keepLocal of [true, false]) {
+    let next = reconcile(document({ learningMap: { a: local } }, { learningMap: { a: entry(10) } }), { learningMap: { a: remote, b: entry(40) } });
+    next = resolveConflict(next, next.conflicts[0].id, keepLocal);
+    assert.deepEqual((next.study.languages.en as any).learningMap, { a: keepLocal ? local : remote, b: entry(40) });
+  }
+});
+test('language metadata conflict resolution preserves concurrent graph entries', () => {
+  for (const keepLocal of [true, false]) {
+    const next = reconcile(document({ setting: 'mine', learningMap: { a: entry(20) } }, { setting: 'old' }), { setting: 'theirs', learningMap: { b: entry(30) } });
+    const resolved = resolveConflict(next, next.conflicts[0].id, keepLocal);
+    assert.deepEqual(resolved.study.languages.en, { setting: keepLocal ? 'mine' : 'theirs', learningMap: { a: entry(20), b: entry(30) } });
+  }
 });
