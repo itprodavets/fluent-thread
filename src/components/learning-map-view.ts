@@ -30,3 +30,8 @@ export function learningMapPositions(nodes: { id: string; point: MapPoint }[], h
   }
   return positions;
 }
+
+// A newly selected focus (including a language switch) always starts on page 1.
+export function learningFocusPage(state: { focusId?: string; page: number }, focusId?: string) {
+  return state.focusId === focusId ? state.page : 0;
+}

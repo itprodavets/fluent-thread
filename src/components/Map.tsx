@@ -10,7 +10,7 @@ import { AnkiHistory } from './AnkiHistory';
 import { LearningCanvas } from './LearningCanvas';
 import { buildLearningGraph, projectLearningGraph } from '../domain/learning-graph';
 import { materialLessonHref } from '../domain/material-route';
-import { learningNodeLabels } from './learning-map-view';
+import { learningNodeLabels, learningFocusPage } from './learning-map-view';
 import datedLessons from '../../materials/en/lessons/catalog.json';
 import skills from '../../materials/en/skills/catalog.json';
 import { WordExamples } from './WordExamples';
@@ -140,11 +140,13 @@ export function MapPage() {
   const { study, active, topicId, openTopic, openResource, practice } = useWorkspace();
   const [selectedId, select] = useState<string>();
   const [focusId, focus] = useState<string>();
+  const [pagination, setPagination] = useState<{ focusId?: string; page: number }>({ page: 0 });
   const graph = useMemo(() => buildLearningGraph(study, datedLessons, skills), [study]);
   const focused = graph.nodes.find(node => node.id === focusId) ?? graph.nodes.find(node => node.id === topicId) ?? graph.nodes.find(node => node.type === 'lesson');
-  const focusView = projectLearningGraph(graph, focused?.id);
+  const focusView = projectLearningGraph(graph, focused?.id, learningFocusPage(pagination, focused?.id));
   function selectNode(id: string) {
     focus(id);
+    setPagination({ focusId: id, page: 0 });
     const node = graph.nodes.find(entry => entry.id === id);
     if (node?.topicId) openTopic(node.topicId);
   }
@@ -175,7 +177,7 @@ export function MapPage() {
   }
 
   return <><Heading title="Карта разговорных тем" />
-    <LearningCanvas key={study.language} graph={graph} selected={focused?.id} onSelect={selectNode} onCreate={create} />
+    <LearningCanvas key={study.language} graph={graph} projection={focusView} onPageChange={page => setPagination({ focusId: focused?.id, page })} selected={focused?.id} onSelect={selectNode} onCreate={create} />
     {focused && <section className="learning-map-detail" aria-label="Выбранный узел">
       <p className="kicker">{learningNodeLabels[focused.type]}</p><h2 lang={focused.language}>{focused.title}</h2>
       {focused.school && focused.type !== 'school' && <p>{focused.school}</p>}

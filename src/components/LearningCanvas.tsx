@@ -3,8 +3,8 @@ import type { PointerEvent } from 'react';
 import { useWorkspace } from '../context';
 import type { MapPoint, Study } from '../domain/model';
 import { normalize } from '../domain/model';
-import { connectLearningNodes, disconnectLearningNodes, moveLearningNode, projectLearningGraph } from '../domain/learning-graph';
-import type { LearningGraph } from '../domain/learning-graph';
+import { connectLearningNodes, disconnectLearningNodes, moveLearningNode } from '../domain/learning-graph';
+import type { LearningGraph, LearningProjection } from '../domain/learning-graph';
 import { learningMapFrame, learningMapPositions, learningNodeLabels } from './learning-map-view';
 import { Fold } from './common';
 import './learning-map.css';
@@ -12,13 +12,12 @@ import './learning-map.css';
 type Gesture = { id: string; pointerId: number; kind: 'move' | 'connect'; origin: MapPoint; point: MapPoint; clientX: number; clientY: number; moved: boolean };
 const directions: Record<string, MapPoint> = { ArrowLeft: { x: -3, y: 0 }, ArrowRight: { x: 3, y: 0 }, ArrowUp: { x: 0, y: -3 }, ArrowDown: { x: 0, y: 3 } };
 
-export function LearningCanvas({ graph, selected, onSelect, onCreate }: {
-  graph: LearningGraph; selected?: string; onSelect: (id: string) => void; onCreate: (point?: MapPoint) => void;
+export function LearningCanvas({ graph, projection, selected, onSelect, onPageChange, onCreate }: {
+  graph: LearningGraph; projection: LearningProjection; onPageChange: (page: number) => void; selected?: string; onSelect: (id: string) => void; onCreate: (point?: MapPoint) => void;
 }) {
   const { update, study } = useWorkspace();
   const [query, setQuery] = useState('');
   const [kind, setKind] = useState('all');
-  const [page, setPage] = useState(0);
   const [browsePage, setBrowsePage] = useState(0);
   const [zoom, setZoom] = useState(100);
   const [start, setStart] = useState<string>();
@@ -31,8 +30,7 @@ export function LearningCanvas({ graph, selected, onSelect, onCreate }: {
   const viewport = useRef<HTMLDivElement>(null);
   const drag = useRef<Gesture | undefined>(undefined);
   const suppressClick = useRef(false);
-  useEffect(() => { setZoom(100); setPage(0); viewport.current?.scrollTo(0, 0); }, [selected]);
-  const projection = projectLearningGraph(graph, selected, page);
+  useEffect(() => { setZoom(100); viewport.current?.scrollTo(0, 0); }, [selected]);
   const nodes = projection.nodes;
   const frame = useMemo(() => learningMapFrame(nodes.map(node => node.point)), [nodes.map(node => node.id + ':' + node.point.x + ':' + node.point.y).join('|')]);
   const canvasHeight = Math.max(450, Math.min(1800, nodes.length * 100));
@@ -63,7 +61,7 @@ export function LearningCanvas({ graph, selected, onSelect, onCreate }: {
   function select(id: string) {
     if (suppressClick.current) { suppressClick.current = false; return; }
     if (connecting) { if (start && start !== id) void connect(start, id); else setStart(id); }
-    else { onSelect(id); setPage(0); }
+    else { onSelect(id); }
   }
   function at(event: { clientX: number; clientY: number }) {
     const rect = canvas.current!.getBoundingClientRect();
@@ -113,14 +111,14 @@ export function LearningCanvas({ graph, selected, onSelect, onCreate }: {
     <p className="sub">Пунктир — автоматические связи из материалов; сплошные линии — твои связи. Перетаскивай узлы или двигай стрелками. Для новой связи тяни + или выбери два узла.</p>
     <div className="learning-browser"><label>Найти на всей карте <input type="search" value={query} placeholder="Название школы, урока, сцены или навыка" onChange={event => { setQuery(event.target.value); setBrowsePage(0); }} /></label>
       <label>Показать <select value={kind} onChange={event => { setKind(event.target.value); setBrowsePage(0); }}><option value="all">Все типы</option>{Object.entries(learningNodeLabels).map(([id, label]) => <option key={id} value={id}>{label}</option>)}</select></label>
-      <Fold title={`Обзор всей карты · ${found.length}`}><ul className="learning-results">{found.slice(browsePage * 12, (browsePage + 1) * 12).map(node => <li key={node.id}><button type="button" aria-pressed={node.id === selected} onClick={() => { onSelect(node.id); setPage(0); }}><small>{learningNodeLabels[node.type]}</small> {node.title}{node.school && <small>{node.school}</small>}</button></li>)}</ul>
+      <Fold title={`Обзор всей карты · ${found.length}`}><ul className="learning-results">{found.slice(browsePage * 12, (browsePage + 1) * 12).map(node => <li key={node.id}><button type="button" aria-pressed={node.id === selected} onClick={() => { onSelect(node.id); }}><small>{learningNodeLabels[node.type]}</small> {node.title}{node.school && <small>{node.school}</small>}</button></li>)}</ul>
         {!found.length && <p>Ничего не найдено. Измени поиск.</p>}
         <div className="actions"><button type="button" disabled={browsePage === 0} onClick={() => setBrowsePage(browsePage - 1)}>Назад</button><span>{browsePage + 1} / {Math.max(1, Math.ceil(found.length / 12))}</span><button type="button" disabled={(browsePage + 1) * 12 >= found.length} onClick={() => setBrowsePage(browsePage + 1)}>Дальше</button></div>
       </Fold>
     </div>
-    {query && <div className="learning-search-matches actions">{found.slice(0, 12).map(node => <button type="button" key={node.id} onClick={() => { onSelect(node.id); setPage(0); }}>{learningNodeLabels[node.type]} · {node.title}</button>)}{found.length > 12 && <small>Все {found.length} результатов доступны в обзоре выше.</small>}</div>}
+    {query && <div className="learning-search-matches actions">{found.slice(0, 12).map(node => <button type="button" key={node.id} onClick={() => { onSelect(node.id); }}>{learningNodeLabels[node.type]} · {node.title}</button>)}{found.length > 12 && <small>Все {found.length} результатов доступны в обзоре выше.</small>}</div>}
     <p className="learning-status" role="status">{message || `В фокусе ${nodes.length} узлов из ${graph.nodes.length}.`}{connecting && (start ? ` Начало: ${labels.get(start)}. Выбери назначение.` : ' Выбери начало связи.')}</p>
-    {projection.pages > 1 && <div className="actions"><button type="button" disabled={projection.page === 0} onClick={() => setPage(projection.page - 1)}>Предыдущие связи</button><span>Страница {projection.page + 1} / {projection.pages} · всего {projection.total}</span><button type="button" disabled={projection.page + 1 >= projection.pages} onClick={() => setPage(projection.page + 1)}>Следующие связи</button></div>}
+    {projection.pages > 1 && <div className="actions"><button type="button" disabled={projection.page === 0} onClick={() => onPageChange(projection.page - 1)}>Предыдущие связи</button><span>Страница {projection.page + 1} / {projection.pages} · всего {projection.total}</span><button type="button" disabled={projection.page + 1 >= projection.pages} onClick={() => onPageChange(projection.page + 1)}>Следующие связи</button></div>}
     <div className="graph-viewport" ref={viewport}><div className="learning-canvas" ref={canvas} style={{ width: zoom + '%', height: canvasHeight * zoom / 100 }}
       onDoubleClick={event => { if (event.target === event.currentTarget) onCreate(at(event)); }}>
       <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">{projection.edges.map(edge => {
