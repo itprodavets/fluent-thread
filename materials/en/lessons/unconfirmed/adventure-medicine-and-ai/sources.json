@@ -1710,7 +1710,7 @@
     "dialogues": 18,
     "dialogueComprehensionExercises": 18,
     "teacherPhraseCards": 36,
-    "mistakePracticeCards": 23,
+    "mistakePracticeCards": 8,
     "grammarRules": 15,
     "grammarExercises": 10,
     "additionalComprehensionExercises": 3,
@@ -1722,6 +1722,8 @@
       "Medical, travel, cultural, film-release and AI claims are attributed to classroom speakers and have not been independently verified"
     ],
     "privacy": "No source audio, absolute local paths, private emails or meeting links published. Participant names anonymised; private break conversation replaced per segment.",
-    "adaptations": "Six bilingual readings, eighteen bilingual dialogues, examples, exercises and natural responses are authored learning models; Russian transcript prose explains meaning and is not a verbatim translation"
+    "adaptations": "Six bilingual readings, eighteen bilingual dialogues, examples, exercises and natural responses are authored learning models; Russian transcript prose explains meaning and is not a verbatim translation",
+    "classFeedbackEntries": 23,
+    "personalPracticeSelection": "Eight contextually supported learner targets only: adventurous, visited, lived, agree, active, podcast, successful, work. General feedback and uncertain ASR-only reconstruction are retained in readings but excluded from personal progress queues."
   }
 ]

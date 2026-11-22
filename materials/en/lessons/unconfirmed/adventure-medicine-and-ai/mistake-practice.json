@@ -3,7 +3,7 @@
   "recordingKey": "lesson-2026-11-22-adventure-travel",
   "school": "Онлайн-разговорный урок (школа уточняется)",
   "date": "2026-11-22",
-  "notice": "Contextual practice models, not a verified personal error log. Explicit teacher feedback, authored clarity models and possible ASR distortion are labelled in each reason. No phonetic diagnosis is made from ASR. Private break speech is excluded.",
+  "notice": "Conservative personal practice: eight contextually supported targets from the learner who reports living in China, travel experience, software work and podcast goals. No voice identity is asserted. General teacher feedback, other learners’ phrases, optional alternatives and ASR-only reconstructions remain in lesson readings and are not seeded as personal errors. Active vocabulary is a self-reported learning goal, not a grammatical error. No phonetic diagnosis is made from ASR.",
   "cards": [
     {
       "id": "adventurous",
@@ -21,7 +21,7 @@
       "kind": "grammar",
       "sourceStart": 109,
       "sourceEnd": 113,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
     },
     {
       "id": "visited",
@@ -39,43 +39,7 @@
       "kind": "grammar",
       "sourceStart": 111,
       "sourceEnd": 115,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "life-journey",
-      "time": "22:34–22:44",
-      "title": "Опиши картинку как путь через жизнь.",
-      "original": "Mm-hmm. Excellent. Anyone else? For me, this is life journal.",
-      "corrected": "I see it as a journey through life.",
-      "reason": "По контексту изображение трактуют как жизненный путь. Journal означает дневник; возможно, ASR исказил journey.",
-      "partner": "How do you interpret the picture?",
-      "prompt": "Опиши картинку как путь через жизнь.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "vocabulary",
-      "sourceStart": 239,
-      "sourceEnd": 243,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "stepping",
-      "time": "27:59–28:15",
-      "title": "Отдели новый опыт от серьёзного риска.",
-      "original": "Do there always have to be an element of dangerous adventure? For me, not all. An adventure is just required. Stepping into an enclosure.",
-      "corrected": "An adventure can mean stepping out of your comfort zone.",
-      "reason": "В ASR выражение неясно. Модель передаёт обсуждаемую мысль без утверждения, что ученик произнёс именно её.",
-      "partner": "Does an adventure have to be dangerous?",
-      "prompt": "Отдели новый опыт от серьёзного риска.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "clarity",
-      "sourceStart": 322,
-      "sourceEnd": 326,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
     },
     {
       "id": "lived",
@@ -93,151 +57,7 @@
       "kind": "grammar",
       "sourceStart": 210,
       "sourceEnd": 214,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "take-step",
-      "time": "36:18–36:27",
-      "title": "Используй take a step в ответе.",
-      "original": "Okay. Every step we... What's the verb that follows? Every step we take.",
-      "corrected": "Every step we take can teach us something.",
-      "reason": "Преподаватель явно подбирает take в сочетании take a step. Здесь фиксируется полезное выражение, а не ошибка ученика.",
-      "partner": "What can a new experience teach us?",
-      "prompt": "Используй take a step в ответе.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "collocation",
-      "sourceStart": 497,
-      "sourceEnd": 501,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "chase",
-      "time": "37:35–37:39",
-      "title": "Свяжи мечту с конкретным действием.",
-      "original": "It's so obvious. Choose. To chase. To chase your dreams.",
-      "corrected": "I want to chase my dreams and achieve my goals.",
-      "reason": "Преподаватель явно вводит chase your dreams; follow и achieve тоже обсуждаются.",
-      "partner": "What dream would you like to follow?",
-      "prompt": "Свяжи мечту с конкретным действием.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "collocation",
-      "sourceStart": 560,
-      "sourceEnd": 564,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "needles",
-      "time": "47:40–48:06",
-      "title": "Назови предмет и свяжи его с темой.",
-      "original": "Participant are you talking i can't hear yes but uh bridge disconnected oh wait i can hear you now you cut out there for a second yeah oh it looks like yeah i see Participant seems to be frozen okay uh well just to yeah let's see i think she left um just to offer some help uh the pronunciation for that word is needles",
-      "corrected": "The word is needles. Acupuncture uses needles.",
-      "reason": "Это явное уточнение слова преподавателем. Ранее ASR многократно выдаёт другие слова; нельзя по ним диагностировать точную звуковую ошибку.",
-      "partner": "What are those tools called?",
-      "prompt": "Назови предмет и свяжи его с темой.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "vocabulary",
-      "sourceStart": 738,
-      "sourceEnd": 742,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "comparison",
-      "time": "57:45–58:13",
-      "title": "Сравни две ситуации через less … than.",
-      "original": "So, very quick little language hospital here. I would love to talk about some of these. Does anyone know how to complete the first sentence? It's less popular here, blank than there. Oh, oops. I filled it in myself. That's my mistake. So, I heard in one of them, it's less popular here as there. So, it should be than there. I apologize. That's a typo on my part. How about number two? We need",
-      "corrected": "It is less popular here than there.",
-      "reason": "Учитель явно исправляет as на than после less popular. Говорящий в исходной ошибке не установлен.",
-      "partner": "How popular is it in the two places?",
-      "prompt": "Сравни две ситуации через less … than.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "grammar",
-      "sourceStart": 812,
-      "sourceEnd": 816,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "treatments",
-      "time": "58:22–58:52",
-      "title": "Составь предложение с these + plural noun + are.",
-      "original": "So, actually, we're going to use the plural here because we use the word \"some\", which means more than one. So, in this case, we will use medicines with an S on the end. Actually, Participant, no. We'll use the other one. I also don't know how you circled that. I didn't know you could do that. Wow. I'm impressed. Okay. So, similarly, number three, these treatment or treatments are very old.",
-      "corrected": "These treatments are very old.",
-      "reason": "В явном feedback выбирают множественное treatments после these и перед are.",
-      "partner": "Which form agrees with these?",
-      "prompt": "Составь предложение с these + plural noun + are.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "grammar",
-      "sourceStart": 823,
-      "sourceEnd": 827,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "article",
-      "time": "59:01–59:27",
-      "title": "Передай чужое описание как мнение.",
-      "original": "This, this? Hmm. Yes. These. These are plural. Exactly. We could look at the word \"these\" and we could also look at the word \"are\". Both of those are for plurals. Who can identify what is not correct in number four? Number four is not correct. This is a neat user link article. It's a very popular method.",
-      "corrected": "This is a very popular method.",
-      "reason": "В записи преподаватель подтверждает необходимость артикля для единственного исчисляемого method. Модель не подтверждает эффективность метода.",
-      "partner": "How did the speaker describe the method?",
-      "prompt": "Передай чужое описание как мнение.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "grammar",
-      "sourceStart": 828,
-      "sourceEnd": 832,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "body",
-      "time": "59:20–59:41",
-      "title": "Используй good for the body с нейтральным примером из обсуждения.",
-      "original": "Number four is not correct. This is a neat user link article. It's a very popular method. Perfect. Yes. Thank you. How about number five? Good for. Good for, yeah. Good for body. It's not very nice.",
-      "corrected": "It is good for the body.",
-      "reason": "В language hospital обсуждаются good и артикль the в этой фразе. Это языковая форма, не утверждение о пользе конкретного средства.",
-      "partner": "How can we phrase the idea naturally?",
-      "prompt": "Используй good for the body с нейтральным примером из обсуждения.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "grammar",
-      "sourceStart": 831,
-      "sourceEnd": 835,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "educated",
-      "time": "59:48–60:10",
-      "title": "Скажи, в какой области нужны знания.",
-      "original": "Good is more suitable. I think, uh, I think about this very good for the body. Yes. Both of those are great. Using articles. Fantastic. Yes. We would use good and we would use the. So we would say it's very good for the body. Fantastic. And last one that I heard, you have to be educated blank it. What should go in that blank?",
-      "corrected": "You need to be educated in it.",
-      "reason": "Преподаватель подбирает in; для знаний о теме также естественно knowledgeable about it.",
-      "partner": "What knowledge would someone need?",
-      "prompt": "Скажи, в какой области нужны знания.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "grammar",
-      "sourceStart": 836,
-      "sourceEnd": 840,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
     },
     {
       "id": "agree",
@@ -255,87 +75,15 @@
       "kind": "clarity",
       "sourceStart": 1453,
       "sourceEnd": 1457,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "recipe",
-      "time": "129:58–130:09",
-      "title": "Приведи по одному контексту.",
-      "original": "Where is... Yes, there is. Can you see some expressions here in front of you? Starting with recipe and receipt?",
-      "corrected": "A recipe explains how to cook; a receipt records a purchase.",
-      "reason": "Явная обратная связь различает значения, не оценивая чьё-либо точное произношение по ASR.",
-      "partner": "What is the difference?",
-      "prompt": "Приведи по одному контексту.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "vocabulary",
-      "sourceStart": 1648,
-      "sourceEnd": 1652,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "drawbacks",
-      "time": "101:48–102:20",
-      "title": "Дай преимущество и недостаток технологии.",
-      "original": "meet my friends and yeah it's okay i think it's dependent person you know even no apps for example for my sister they will stay at home yes and what about you think or positive or negative we use the ai it's like both of them yeah it it has many uh advantages and backwards sometimes",
-      "corrected": "AI has advantages and drawbacks.",
-      "reason": "В записи поправляют backwards: назад. Недостатки — drawbacks/disadvantages; pros and cons — плюсы и минусы.",
-      "partner": "What are the pros and cons?",
-      "prompt": "Дай преимущество и недостаток технологии.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "vocabulary",
-      "sourceStart": 1430,
-      "sourceEnd": 1434,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "things",
-      "time": "132:52–133:06",
-      "title": "Используй people think и things в одном предложении.",
-      "original": "That's one of the ways and the lovely expressions you could use. Another thing that I have noticed, where is it going now? I'm lost between all the screens that I have. Oh, some, I heard somebody saying many thinks.",
-      "corrected": "Many people think about many things.",
-      "reason": "В явном feedback различают things, thoughts и think; после people глагол без -s. Источник ошибки не устанавливается.",
-      "partner": "What do people think about?",
-      "prompt": "Используй people think и things в одном предложении.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "grammar",
-      "sourceStart": 1734,
-      "sourceEnd": 1738,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "interesting",
-      "time": "150:00–150:40",
-      "title": "Назови две интересные темы.",
-      "original": "life in group, who is living in a location, what do you do, what is hobby and what is a plan, it's a skill experience or maybe what do you do and what is profession in family and psychology. It's very nice, it's all the topics we usually in every class. Fantastic and Participant, how about you? Yeah, I think that almost all topics are interested. Maybe I don't have a lot",
-      "corrected": "Almost all topics are interesting to me.",
-      "reason": "Interesting характеризует тему; interested — человека: I am interested in the topic. Это реплика другого ученика, не автоматически автора курса.",
-      "partner": "What topics interest you?",
-      "prompt": "Назови две интересные темы.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "grammar",
-      "sourceStart": 2117,
-      "sourceEnd": 2121,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
     },
     {
       "id": "active",
-      "time": "164:05–164:14",
+      "time": "163:43–164:00",
       "title": "Опиши конкретную цель активного словаря.",
-      "original": "And usually, and context, uh, for usually. Mm-hmm. Okay. So you feel like, you know, a lot of vocabulary, but when you speak, you don't use all of it.",
+      "original": "For me, uh, I want, uh, for my difference, um, very hard. Uh, I, uh, now it's a many words, but I cannot, uh, using, uh, here and for me, every time. Uh, around now.",
       "corrected": "I recognise many words, but I cannot always use them spontaneously.",
-      "reason": "Преподаватель переформулирует трудность ученика. Полезно различать узнавание и активное использование, а не добавлять оценку уровня.",
+      "reason": "Ученик описывает собственную трудность: знакомые слова не удаётся использовать в речи. Преподаватель затем подтверждает понимание переформулировкой. Это личная учебная цель, не диагноз грамматической ошибки; искажённые слова ASR не оцениваются как произношение.",
       "partner": "What would you like to improve?",
       "prompt": "Опиши конкретную цель активного словаря.",
       "checklist": [
@@ -343,9 +91,9 @@
         "Использую модель в собственном достоверном примере."
       ],
       "kind": "clarity",
-      "sourceStart": 2321,
-      "sourceEnd": 2325,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
+      "sourceStart": 2315,
+      "sourceEnd": 2318,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
     },
     {
       "id": "podcast",
@@ -363,25 +111,7 @@
       "kind": "grammar",
       "sourceStart": 2354,
       "sourceEnd": 2358,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
-    },
-    {
-      "id": "fluently",
-      "time": "164:58–165:20",
-      "title": "Опиши желаемый навык через наречие fluently.",
-      "original": "So you can call me Participant. if you want. Ave Participant. Wow, beautiful name. Participant. So, why are you studying English? For me, I wanted to speak in fluent English.",
-      "corrected": "I want to speak English fluently.",
-      "reason": "Speak English fluently — естественная модель. Speak fluent English также допустимо; не объявляй каждую альтернативную формулировку ошибкой.",
-      "partner": "What is your goal?",
-      "prompt": "Опиши желаемый навык через наречие fluently.",
-      "checklist": [
-        "Выражаю исходный смысл точно.",
-        "Использую модель в собственном достоверном примере."
-      ],
-      "kind": "grammar",
-      "sourceStart": 2352,
-      "sourceEnd": 2356,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
     },
     {
       "id": "successful",
@@ -399,7 +129,7 @@
       "kind": "grammar",
       "sourceStart": 2686,
       "sourceEnd": 2690,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
     },
     {
       "id": "work",
@@ -417,7 +147,7 @@
       "kind": "grammar",
       "sourceStart": 2178,
       "sourceEnd": 2182,
-      "attribution": "Contextual learning point; not automatically the same learner; uncertain ASR is not phonetic evidence"
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
     }
   ]
 }
