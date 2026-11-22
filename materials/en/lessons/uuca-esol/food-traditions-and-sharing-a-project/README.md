@@ -1,0 +1,1236 @@
+# Праздничный стол, кухни мира и рассказ о своём проекте · UUCA ESOL
+
+Полная автоматическая расшифровка; русский текст — смысловой путеводитель, не дословный перевод каждого повтора. Истории, рецепты и культурные обобщения передают обсуждение участников, не проверенные универсальные факты. Примеры ниже написаны для практики. Произношение по одному ASR не оценивается. Неверное слово в ASR не считается доказанной ошибкой ученика.
+
+## Источник и полнота
+Сопоставление с календарём UUCA ESOL 21 ноября 23:00–01:00 SGT и внутренним обсуждением следующей субботы. Файл сохранён 22 ноября в 01:03 SGT. Идентичность отдельных голосов автоматически не устанавливалась.
+Сохранённая запись: 01:48:02. Сегментов: 2960; все включены. Аудио не публикуется.
+
+[Пакет для приложения](lesson.json) · [Полная ASR-расшифровка](source-transcript.json) · [Блоки EN/RU](transcript.json) · [Исправления для повторения](mistake-practice.json) · [Проверка источника](sources.json)
+
+## Текст для чтения · A1
+
+Учебная адаптация содержания, не дословная запись.
+
+We talk about food in class. People show pictures. The teacher cooks a curry. I ask a question. I want to see a recipe. I also show a website about tea.
+
+### Перевод / пояснения
+
+На уроке мы говорим о еде. Люди показывают картинки. Преподаватель готовит карри. Я задаю вопрос. Хочу посмотреть рецепт. Я также показываю сайт о чае.
+
+## Текст для чтения · A2
+
+Учебная адаптация содержания, не дословная запись.
+
+Our class talks about Thanksgiving and food from different countries. Some people roast turkey and make side dishes. A partner shows a soup recipe. I ask for the link because I want to read it later. I also explain that my website is about Chinese tea.
+
+### Перевод / пояснения
+
+На уроке обсуждаем День благодарения и еду разных стран. Кто-то запекает индейку и готовит гарниры. Собеседник показывает рецепт супа. Я прошу ссылку, чтобы прочитать позже. Также объясняю, что мой сайт посвящён китайскому чаю.
+
+## Текст для чтения · B1
+
+Учебная адаптация содержания, не дословная запись.
+
+The discussion starts with holiday traditions and moves on to recipes. We learn how to describe a main dish, ask about its ingredients and request a link politely. We also discuss regional cuisines and personal preferences. When I introduce my tea project, I explain what readers can learn from it. Later, we practise reading a text about an aromatic curry.
+
+### Перевод / пояснения
+
+Разговор начинается с праздничных традиций и переходит к рецептам. Учимся описывать основное блюдо, спрашивать об ингредиентах и вежливо просить ссылку. Обсуждаем региональные кухни и личные предпочтения. Представляя чайный проект, я объясняю, что читатели узнают из него. Позже тренируем чтение текста об ароматном карри.
+
+## Текст для чтения · B2
+
+Учебная адаптация содержания, не дословная запись.
+
+The class brings together cultural discussion, practical questions and reading aloud. Food provides a shared topic, but misunderstandings show why precise wording matters: sharing a screen is different from sharing a link. Describing a project also requires a clear statement of its purpose. Rather than making broad claims about a country’s food, I can explain what I personally enjoy and ask my partner to elaborate.
+
+### Перевод / пояснения
+
+Урок объединяет разговор о культуре, практические вопросы и чтение вслух. Еда даёт общую тему, но недопонимание показывает важность точных слов: показать экран и дать ссылку — разные действия. Представлению проекта также нужна ясная формулировка цели. Вместо обобщений о еде страны я могу объяснить личные вкусы и попросить собеседника рассказать подробнее.
+
+## Текст для чтения · C1
+
+Учебная адаптация содержания, не дословная запись.
+
+What makes the exchange useful is the movement between everyday language and more precise explanation. Informal expressions such as give it a shot and lose track of time make conversation flow, while distinctions such as tea versus types of tea make a description accurate. Cultural anecdotes remain the speakers’ perspectives. For study, I separate those perspectives from reliable language patterns and practise reformulating my own meaning.
+
+### Перевод / пояснения
+
+Полезность беседы — в переходах от повседневной речи к более точному объяснению. Идиомы give it a shot и lose track of time делают разговор живым, а различие tea и types of tea делает описание точным. Культурные истории остаются взглядами говорящих. Для учёбы я отделяю их от надёжных языковых конструкций и тренирую передачу собственного смысла.
+
+## Текст для чтения · C2
+
+Учебная адаптация содержания, не дословная запись.
+
+An apparently casual discussion of food becomes a lesson in negotiating meaning. A vague request is clarified, an unfamiliar dish is explained through its ingredients, and an online project is distinguished from a shop. Fluency here involves more than elaborate vocabulary: it requires selecting the right level of detail, noticing a partner’s uncertainty and reformulating without abandoning the conversation. Classroom anecdotes can stimulate curiosity without being treated as authoritative evidence.
+
+### Перевод / пояснения
+
+Неформальный разговор о еде превращается в урок согласования смысла. Неточную просьбу уточняют, неизвестное блюдо объясняют через ингредиенты, а информационный проект отличают от магазина. Беглость здесь требует не только сложных слов, но и выбора детализации, внимания к непониманию и переформулирования без выхода из разговора. Истории на уроке могут пробуждать интерес, не становясь авторитетными доказательствами.
+
+## Спросить о праздничной еде · A1
+
+Learner: What do you cook?
+Partner: We cook turkey and potatoes.
+Learner: Do you use an oven?
+Partner: Yes, we do.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Что вы готовите?
+Собеседник: Мы готовим индейку и картофель.
+Ученик: Вы используете духовку?
+Собеседник: Да.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Спросить о праздничной еде · A1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: What do you cook?
+Partner: We cook turkey and potatoes.
+Learner: Do you use an oven?
+Partner: Yes, we do.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+We cook turkey and potatoes.
+Do you use an oven?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Спросить о праздничной еде · A2
+
+Learner: What do you usually cook for Thanksgiving?
+Partner: We usually roast a turkey and serve it with mashed potatoes.
+Learner: Do you cook it in the oven?
+Partner: Yes, but we sometimes use a grill.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Что вы обычно готовите на День благодарения?
+Собеседник: Обычно запекаем индейку и подаём с пюре.
+Ученик: Вы готовите это в духовке?
+Собеседник: Да, но иногда используем гриль.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Спросить о праздничной еде · A2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: What do you usually cook for Thanksgiving?
+Partner: We usually roast a turkey and serve it with mashed potatoes.
+Learner: Do you cook it in the oven?
+Partner: Yes, but we sometimes use a grill.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+We usually roast a turkey and serve it with mashed potatoes.
+Do you cook it in the oven?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Спросить о праздничной еде · B1
+
+Learner: What do you usually serve with the turkey?
+Partner: We serve several side dishes, such as stuffing and green beans.
+Learner: Could you share the recipe as well?
+Partner: Of course. I’ll put the link in the chat.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Что обычно подаёте к индейке?
+Собеседник: Несколько гарниров, например начинку и зелёную фасоль.
+Ученик: Можете также дать рецепт?
+Собеседник: Конечно. Отправлю ссылку в чат.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Спросить о праздничной еде · B1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: What do you usually serve with the turkey?
+Partner: We serve several side dishes, such as stuffing and green beans.
+Learner: Could you share the recipe as well?
+Partner: Of course. I’ll put the link in the chat.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+We serve several side dishes, such as stuffing and green beans.
+Could you share the recipe as well?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Спросить о праздничной еде · B2
+
+Learner: Would you mind explaining how you prepare the turkey?
+Partner: We usually roast it, although the cooking time depends on its size.
+Learner: Could I adapt the side dishes for vegetarian guests?
+Partner: Absolutely. You can choose vegetables and adjust the ingredients.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Не могли бы вы объяснить, как готовите индейку?
+Собеседник: Обычно запекаем, хотя время зависит от её размера.
+Ученик: Можно изменить гарниры для гостей-вегетарианцев?
+Собеседник: Конечно. Можно выбрать овощи и изменить ингредиенты.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Спросить о праздничной еде · B2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: Would you mind explaining how you prepare the turkey?
+Partner: We usually roast it, although the cooking time depends on its size.
+Learner: Could I adapt the side dishes for vegetarian guests?
+Partner: Absolutely. You can choose vegetables and adjust the ingredients.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+We usually roast it, although the cooking time depends on its size.
+Could I adapt the side dishes for vegetarian guests?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Спросить о праздничной еде · C1
+
+Learner: Could you talk me through the dishes you normally serve?
+Partner: The turkey is the centrepiece, complemented by stuffing, seasonal vegetables and gravy.
+Learner: Would you say there is room for variation within the tradition?
+Partner: Certainly; families have their own preferences, so there isn’t one menu everyone follows.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Не могли бы вы рассказать по порядку, какие блюда обычно подаёте?
+Собеседник: В центре стола индейка, которую дополняют начинка, сезонные овощи и подливка.
+Ученик: Можно ли менять блюда в рамках традиции?
+Собеседник: Конечно; у семей свои вкусы, и единого меню для всех нет.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Спросить о праздничной еде · C1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: Could you talk me through the dishes you normally serve?
+Partner: The turkey is the centrepiece, complemented by stuffing, seasonal vegetables and gravy.
+Learner: Would you say there is room for variation within the tradition?
+Partner: Certainly; families have their own preferences, so there isn’t one menu everyone follows.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+The turkey is the centrepiece, complemented by stuffing, seasonal vegetables and gravy.
+Would you say there is room for variation within the tradition?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Спросить о праздничной еде · C2
+
+Learner: Which parts of the meal do you see as essential, and which do you adapt?
+Partner: The main dish anchors the tradition, while the accompaniments can be adapted to the guests’ preferences.
+Learner: How do you balance tradition with individual dietary preferences?
+Partner: I keep the familiar elements where possible and adapt the rest so that everyone can enjoy the meal.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Что в трапезе считаете необходимым, а что меняете?
+Собеседник: Основное блюдо сохраняет традицию, а дополнения можно менять под вкусы гостей.
+Ученик: Как сочетаете традицию с индивидуальными предпочтениями в еде?
+Собеседник: По возможности сохраняю знакомые элементы, а остальные меняю так, чтобы всем было приятно есть.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Спросить о праздничной еде · C2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: Which parts of the meal do you see as essential, and which do you adapt?
+Partner: The main dish anchors the tradition, while the accompaniments can be adapted to the guests’ preferences.
+Learner: How do you balance tradition with individual dietary preferences?
+Partner: I keep the familiar elements where possible and adapt the rest so that everyone can enjoy the meal.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+The main dish anchors the tradition, while the accompaniments can be adapted to the guests’ preferences.
+How do you balance tradition with individual dietary preferences?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Уточнить ссылку и ингредиенты · A1
+
+Learner: Can I see the recipe?
+Partner: Yes. I can send the link.
+Learner: Is there meat in it?
+Partner: Yes, there is.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Можно посмотреть рецепт?
+Собеседник: Да. Я могу отправить ссылку.
+Ученик: В нём есть мясо?
+Собеседник: Да.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Уточнить ссылку и ингредиенты · A1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: Can I see the recipe?
+Partner: Yes. I can send the link.
+Learner: Is there meat in it?
+Partner: Yes, there is.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+Yes. I can send the link.
+Is there meat in it?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Уточнить ссылку и ингредиенты · A2
+
+Learner: Could you send me the link, please?
+Partner: Of course. I’ll put it in the chat.
+Learner: Can I use tofu?
+Partner: You can try it with tofu.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Можете отправить ссылку?
+Собеседник: Конечно. Отправлю в чат.
+Ученик: Можно использовать тофу?
+Собеседник: Можно попробовать с тофу.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Уточнить ссылку и ингредиенты · A2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: Could you send me the link, please?
+Partner: Of course. I’ll put it in the chat.
+Learner: Can I use tofu?
+Partner: You can try it with tofu.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+Of course. I’ll put it in the chat.
+Can I use tofu?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Уточнить ссылку и ингредиенты · B1
+
+Learner: I can see your screen, but could you share the link as well?
+Partner: Certainly. The recipe lists the ingredients and the method.
+Learner: What ingredients give it flavour?
+Partner: The herbs and spices are important.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Экран вижу, но можете также дать ссылку?
+Собеседник: Конечно. В рецепте есть ингредиенты и способ приготовления.
+Ученик: Какие ингредиенты придают ему вкус?
+Собеседник: Важны травы и специи.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Уточнить ссылку и ингредиенты · B1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: I can see your screen, but could you share the link as well?
+Partner: Certainly. The recipe lists the ingredients and the method.
+Learner: What ingredients give it flavour?
+Partner: The herbs and spices are important.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+Certainly. The recipe lists the ingredients and the method.
+What ingredients give it flavour?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Уточнить ссылку и ингредиенты · B2
+
+Learner: Could you share the recipe so I can try a vegetarian version?
+Partner: Absolutely. You could give it a shot with tofu, although the texture would be different.
+Learner: What should I keep if I change the main ingredient?
+Partner: I’d keep the spices, but I’d adjust the cooking method.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Можете поделиться рецептом, чтобы я попробовал вегетарианскую версию?
+Собеседник: Конечно. Можно попробовать с тофу, хотя текстура будет другой.
+Ученик: Что сохранить, если меняю основной ингредиент?
+Собеседник: Я бы сохранил специи, но изменил способ приготовления.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Уточнить ссылку и ингредиенты · B2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: Could you share the recipe so I can try a vegetarian version?
+Partner: Absolutely. You could give it a shot with tofu, although the texture would be different.
+Learner: What should I keep if I change the main ingredient?
+Partner: I’d keep the spices, but I’d adjust the cooking method.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+Absolutely. You could give it a shot with tofu, although the texture would be different.
+What should I keep if I change the main ingredient?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Уточнить ссылку и ингредиенты · C1
+
+Learner: Just to clarify, I meant the web link rather than the shared screen.
+Partner: Of course. I’ll post it so you can check the quantities and adapt the ingredients.
+Learner: Would changing the main ingredient affect the texture?
+Partner: It probably would, so I’d treat it as an adaptation rather than expect an identical result.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Уточню: я имел в виду ссылку, а не показ экрана.
+Собеседник: Конечно. Отправлю её, чтобы вы проверили количества и заменили ингредиенты.
+Ученик: Замена основного ингредиента изменит текстуру?
+Собеседник: Вероятно, да, поэтому я считал бы это адаптацией, а не ждал такого же результата.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Уточнить ссылку и ингредиенты · C1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: Just to clarify, I meant the web link rather than the shared screen.
+Partner: Of course. I’ll post it so you can check the quantities and adapt the ingredients.
+Learner: Would changing the main ingredient affect the texture?
+Partner: It probably would, so I’d treat it as an adaptation rather than expect an identical result.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+Of course. I’ll post it so you can check the quantities and adapt the ingredients.
+Would changing the main ingredient affect the texture?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Уточнить ссылку и ингредиенты · C2
+
+Learner: Would you be able to share the source so I can experiment without losing the character of the dish?
+Partner: Certainly; keep the aromatic base in mind, and adjust the other ingredients to suit your preferences.
+Learner: Which features would you preserve when developing an alternative version?
+Partner: I’d preserve the aromatic profile while acknowledging that a different base changes both the texture and the cooking process.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+
+### Перевод / пояснения
+
+Ученик: Не могли бы вы поделиться источником, чтобы я мог экспериментировать, сохранив характер блюда?
+Собеседник: Конечно; учитывайте ароматическую основу, а другие ингредиенты меняйте по вкусу.
+Ученик: Какие особенности вы сохранили бы в альтернативной версии?
+Собеседник: Я сохранил бы ароматическое сочетание, понимая, что другая основа меняет и текстуру, и приготовление.
+Ученик: Спасибо. Так мне понятнее.
+Собеседник: Пожалуйста. Не стесняйся задавать ещё вопросы.
+
+## Чтение и ответ · Уточнить ссылку и ингредиенты · C2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Learner: Would you be able to share the source so I can experiment without losing the character of the dish?
+Partner: Certainly; keep the aromatic base in mind, and adjust the other ingredients to suit your preferences.
+Learner: Which features would you preserve when developing an alternative version?
+Partner: I’d preserve the aromatic profile while acknowledging that a different base changes both the texture and the cooking process.
+Learner: Thank you. That helps me understand it.
+Partner: You’re welcome. Feel free to ask more questions.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+Certainly; keep the aromatic base in mind, and adjust the other ingredients to suit your preferences.
+Which features would you preserve when developing an alternative version?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Представить свой чайный проект · A1
+
+Teacher: What is your website about?
+Learner: It is about Chinese tea.
+Teacher: What tea do you like?
+Learner: I like green tea.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+
+### Перевод / пояснения
+
+Преподаватель: О чём ваш сайт?
+Ученик: О китайском чае.
+Преподаватель: Какой чай вам нравится?
+Ученик: Мне нравится зелёный чай.
+Преподаватель: Спасибо за объяснение проекта.
+Ученик: Пожалуйста. Можете посмотреть сайт.
+
+## Чтение и ответ · Представить свой чайный проект · A1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Teacher: What is your website about?
+Learner: It is about Chinese tea.
+Teacher: What tea do you like?
+Learner: I like green tea.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+It is about Chinese tea.
+What tea do you like?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Представить свой чайный проект · A2
+
+Teacher: Do you sell tea on the website?
+Learner: It is an information website. I add texts about different teas.
+Teacher: What can people read about?
+Learner: They can read about tea and where it grows.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+
+### Перевод / пояснения
+
+Преподаватель: Вы продаёте чай на сайте?
+Ученик: Это информационный сайт. Я добавляю тексты о разных видах чая.
+Преподаватель: О чём люди могут читать?
+Ученик: О чае и местах, где он растёт.
+Преподаватель: Спасибо за объяснение проекта.
+Ученик: Пожалуйста. Можете посмотреть сайт.
+
+## Чтение и ответ · Представить свой чайный проект · A2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Teacher: Do you sell tea on the website?
+Learner: It is an information website. I add texts about different teas.
+Teacher: What can people read about?
+Learner: They can read about tea and where it grows.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+It is an information website. I add texts about different teas.
+What can people read about?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Представить свой чайный проект · B1
+
+Teacher: Could you tell us what your project does?
+Learner: I run a tea community and publish information about Chinese tea and tea plantations.
+Teacher: How often do you update the website?
+Learner: I add information regularly and organise it by topic.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+
+### Перевод / пояснения
+
+Преподаватель: Можете рассказать, что делает ваш проект?
+Ученик: Я веду чайное сообщество и публикую сведения о китайском чае и плантациях.
+Преподаватель: Как часто обновляете сайт?
+Ученик: Регулярно добавляю сведения и организую их по темам.
+Преподаватель: Спасибо за объяснение проекта.
+Ученик: Пожалуйста. Можете посмотреть сайт.
+
+## Чтение и ответ · Представить свой чайный проект · B1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Teacher: Could you tell us what your project does?
+Learner: I run a tea community and publish information about Chinese tea and tea plantations.
+Teacher: How often do you update the website?
+Learner: I add information regularly and organise it by topic.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+I run a tea community and publish information about Chinese tea and tea plantations.
+How often do you update the website?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Представить свой чайный проект · B2
+
+Teacher: How would you describe the purpose of the website?
+Learner: I’m building a multilingual resource that helps people learn about different types of Chinese tea.
+Teacher: What kinds of tea does the resource cover?
+Learner: It includes several types, such as green, white and yellow tea.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+
+### Перевод / пояснения
+
+Преподаватель: Как бы вы описали назначение сайта?
+Ученик: Я создаю многоязычный ресурс, который помогает узнавать о разных видах китайского чая.
+Преподаватель: Какие виды чая охватывает ресурс?
+Ученик: Несколько видов, например зелёный, белый и жёлтый.
+Преподаватель: Спасибо за объяснение проекта.
+Ученик: Пожалуйста. Можете посмотреть сайт.
+
+## Чтение и ответ · Представить свой чайный проект · B2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Teacher: How would you describe the purpose of the website?
+Learner: I’m building a multilingual resource that helps people learn about different types of Chinese tea.
+Teacher: What kinds of tea does the resource cover?
+Learner: It includes several types, such as green, white and yellow tea.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+I’m building a multilingual resource that helps people learn about different types of Chinese tea.
+What kinds of tea does the resource cover?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Представить свой чайный проект · C1
+
+Teacher: What distinguishes your resource from an online tea shop?
+Learner: Its main purpose is to organise and explain information, rather than simply list products for sale.
+Teacher: How do you help readers compare unfamiliar varieties?
+Learner: I organise the explanations by tea type and region, and I try to make the differences clear.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+
+### Перевод / пояснения
+
+Преподаватель: Чем ваш ресурс отличается от интернет-магазина чая?
+Ученик: Его основная цель — упорядочивать и объяснять сведения, а не просто перечислять товары.
+Преподаватель: Как помогаете читателям сравнивать незнакомые разновидности?
+Ученик: Организую объяснения по виду чая и региону и стараюсь ясно показать различия.
+Преподаватель: Спасибо за объяснение проекта.
+Ученик: Пожалуйста. Можете посмотреть сайт.
+
+## Чтение и ответ · Представить свой чайный проект · C1
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Teacher: What distinguishes your resource from an online tea shop?
+Learner: Its main purpose is to organise and explain information, rather than simply list products for sale.
+Teacher: How do you help readers compare unfamiliar varieties?
+Learner: I organise the explanations by tea type and region, and I try to make the differences clear.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+Its main purpose is to organise and explain information, rather than simply list products for sale.
+How do you help readers compare unfamiliar varieties?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Представить свой чайный проект · C2
+
+Teacher: How do you keep the project useful as its scope expands?
+Learner: I update the content regularly and organise it by tea type and growing region, so readers can explore it without losing the wider context.
+Teacher: How would you introduce the resource without overwhelming a newcomer?
+Learner: I’d start with its purpose, give one concrete example and invite the reader to explore a section that matches their interests.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+
+### Перевод / пояснения
+
+Преподаватель: Как сохраняете полезность проекта по мере его расширения?
+Ученик: Регулярно обновляю материалы и организую их по виду чая и региону выращивания, чтобы читатели могли изучать их в общем контексте.
+Преподаватель: Как представить ресурс, не перегружая новичка?
+Ученик: Начал бы с цели, дал один конкретный пример и предложил изучить раздел по интересам.
+Преподаватель: Спасибо за объяснение проекта.
+Ученик: Пожалуйста. Можете посмотреть сайт.
+
+## Чтение и ответ · Представить свой чайный проект · C2
+
+Учебная реконструкция. Прочитай диалог и ответь своими словами: Teacher: How do you keep the project useful as its scope expands?
+Learner: I update the content regularly and organise it by tea type and growing region, so readers can explore it without losing the wider context.
+Teacher: How would you introduce the resource without overwhelming a newcomer?
+Learner: I’d start with its purpose, give one concrete example and invite the reader to explore a section that matches their interests.
+Teacher: Thanks for explaining your project.
+Learner: You’re welcome. Please feel free to explore the website.
+Назови смысл запроса, затем дай свой ответ и один уточняющий вопрос.
+
+### Образец и самопроверка
+
+Возможная модель:
+I update the content regularly and organise it by tea type and growing region, so readers can explore it without losing the wider context.
+How would you introduce the resource without overwhelming a newcomer?
+
+Сверь смысл, порядок слов и вежливость. Другие грамматически верные ответы тоже подходят.
+
+## Реплики преподавателя · поддержать разговор и уточнить смысл
+
+00:00:51 · Please feel free to talk.
+Перевод: Не стесняйтесь говорить.
+Конструкция: Feel free to + verb — приглашение без давления.
+Твой пример для практики: Please feel free to ask questions.
+
+Фраза 2 · I’m blanking on the name.
+Перевод: Никак не могу вспомнить название.
+Конструкция: Blank on + noun — на время забыть.
+Твой пример для практики: I’m blanking on the English word.
+
+Фраза 3 · You’re good to go.
+Перевод: Всё готово; можно приступать.
+Конструкция: Разговорная готовность/разрешение, зависит от контекста.
+Твой пример для практики: Once you’ve saved it, you’re good to go.
+
+Фраза 4 · Would you mind talking a little bit about it?
+Перевод: Не мог бы ты немного об этом рассказать?
+Конструкция: Would you mind + -ing.
+Твой пример для практики: Would you mind explaining the recipe?
+
+00:11:31 · It depends on the context.
+Перевод: Это зависит от контекста.
+Конструкция: Depend on + noun.
+Твой пример для практики: It depends on the size of the group.
+
+Фраза 6 · I’m okay with either choice.
+Перевод: Мне подходят оба варианта.
+Конструкция: Either + singular noun; выбор из двух.
+Твой пример для практики: I’m okay with either time.
+
+Фраза 7 · We’ll do whatever you’re comfortable with.
+Перевод: Сделаем так, как вам удобно.
+Конструкция: Whatever + clause — любой подходящий вариант.
+Твой пример для практики: We can choose whatever you’re comfortable with.
+
+Фраза 8 · The turkey is the main dish.
+Перевод: Индейка — основное блюдо.
+Конструкция: The + dish + is + description.
+Твой пример для практики: The soup is the main dish today.
+
+00:27:44 · What are the different foods you cook?
+Перевод: Какие разные блюда вы готовите?
+Конструкция: What + plural noun + do you + verb.
+Твой пример для практики: What dishes do you cook for a celebration?
+
+Фраза 10 · You can be creative.
+Перевод: Можно проявить фантазию.
+Конструкция: Can + base verb.
+Твой пример для практики: You can be creative with the side dishes.
+
+Фраза 11 · It depends on the size of your family.
+Перевод: Это зависит от размера семьи.
+Конструкция: Depend on + noun phrase.
+Твой пример для практики: The quantity depends on the number of guests.
+
+00:33:27 · Give me one second.
+Перевод: Дай мне секунду.
+Конструкция: Неформальная просьба подождать.
+Твой пример для практики: Give me one second to open the page.
+
+00:35:16 · Your mouth is watering.
+Перевод: У тебя слюнки текут.
+Конструкция: Mouth + be + watering — реакция на еду.
+Твой пример для практики: My mouth is watering just looking at it.
+
+00:36:05 · Hang tight.
+Перевод: Подожди немного; потерпи.
+Конструкция: Неформальное приглашение подождать.
+Твой пример для практики: Hang tight while I find the link.
+
+Фраза 15 · I’ll put the link in the chat.
+Перевод: Я отправлю ссылку в чат.
+Конструкция: Will + base verb для действия сейчас.
+Твой пример для практики: I’ll put the recipe in the chat.
+
+Фраза 16 · Give me a year’s notice.
+Перевод: Предупреди меня за год.
+Конструкция: Give someone + period’s notice.
+Твой пример для практики: Please give me a few days’ notice.
+
+Фраза 17 · Don’t get me wrong.
+Перевод: Не пойми меня неправильно.
+Конструкция: Вводит уточнение, чтобы избежать неверного вывода.
+Твой пример для практики: Don’t get me wrong — I enjoy cooking.
+
+Фраза 18 · I’ll cook up a storm.
+Перевод: Я приготовлю много всего с размахом.
+Конструкция: Идиома, не буквальный шторм.
+Твой пример для практики: We cooked up a storm for the party.
+
+Фраза 19 · Don’t let them rip you off.
+Перевод: Не дай им тебя обобрать.
+Конструкция: Let + object + base verb.
+Твой пример для практики: Compare prices so they don’t rip you off.
+
+00:58:08 · What did I miss?
+Перевод: Что я пропустил?
+Конструкция: Past Simple с did + base verb.
+Твой пример для практики: I lost the connection. What did I miss?
+
+Фраза 21 · Could you translate it for us?
+Перевод: Можешь перевести это для нас?
+Конструкция: Could you + base verb.
+Твой пример для практики: Could you translate the ingredients for us?
+
+01:15:18 · Give it a shot.
+Перевод: Попробуй.
+Конструкция: Разговорная идиома о попытке.
+Твой пример для практики: I’ve never made it, but I’ll give it a shot.
+
+01:23:27 · Take your time.
+Перевод: Не торопись.
+Конструкция: Успокаивающая просьба действовать в своём темпе.
+Твой пример для практики: Take your time; there’s no hurry.
+
+Фраза 24 · There’s no hurry.
+Перевод: Спешить некуда.
+Конструкция: There is + noun.
+Твой пример для практики: There’s no hurry to answer.
+
+Фраза 25 · You have to show me around.
+Перевод: Ты должен показать мне окрестности.
+Конструкция: Show someone around — провести экскурсию.
+Твой пример для практики: Could you show me around the city?
+
+01:39:42 · I lost track of time.
+Перевод: Я потерял счёт времени.
+Конструкция: Lose track of + noun.
+Твой пример для практики: We were talking and lost track of time.
+
+01:28:59 · Break it down.
+Перевод: Раздели на части.
+Конструкция: Break something down — разложить на части.
+Твой пример для практики: Break the long word down into syllables.
+
+01:27:21 · Take it as a learning experience.
+Перевод: Воспринимай это как полезный опыт для учёбы.
+Конструкция: Take something as + noun phrase.
+Твой пример для практики: I’ll take the correction as a learning experience.
+
+01:41:18 · Keep it up.
+Перевод: Продолжай в том же духе.
+Конструкция: Короткая поддерживающая идиома.
+Твой пример для практики: Your explanations are clearer. Keep it up.
+
+Фраза 30 · We’ll be back in two weeks.
+Перевод: Мы вернёмся через две недели.
+Конструкция: In + duration — через некоторое время.
+Твой пример для практики: I’ll be back in a few minutes.
+
+### Перевод / пояснения
+
+Фразы из беседы и нормализованные учебные варианты. Нумерованные фразы без времени не являются точной цитатой на установленной секунде.
+
+## Грамматика урока · вопросы, количество и ясное объяснение
+
+1. Вопрос о традиции
+Модель: What do you usually cook for Thanksgiving?
+Разбор: Present Simple: do + subject + base verb. Не What is food cooking? Если спрашиваешь о текущем действии: What are you cooking?
+
+2. Реакция на картинку
+Модель: When I see food, I want to eat.
+Разбор: Для общей реакции Present Simple в обеих частях. Сейчас: Looking at this food is making me hungry.
+
+3. Продолжающееся проживание
+Модель: I’ve lived here for eight years.
+Разбор: Have/has + past participle + for duration. Since + начальная точка. Past Simple I lived here… обычно описывает завершившийся период.
+
+4. Еда и количество
+Модель: I know many types of tea. / Add two cloves of garlic.
+Разбор: Tea, rice, food обычно неисчисляемые. Many types, a cup of tea, two cloves of garlic дают счётные единицы.
+
+5. Будущее условие
+Модель: If we visit the US, we’ll let you know.
+Разбор: If + Present Simple, will + base verb в главной части. Не обязательно добавлять will после if в обычном условии о будущем.
+
+6. Просьба и уточнение
+Модель: Could you share the link, please?
+Разбор: Could you + base verb. Уточняй link, а не только page, если нужна ссылка, а не показ экрана.
+
+7. Представление проекта
+Модель: I run a tea community and update the website regularly.
+Разбор: Run + community; update + website. Regularly или every week для частоты; every time — каждый раз, когда что-то происходит.
+
+8. Ингредиенты и пассив
+Модель: The dish is made with lamb. It was brought to the region later.
+Разбор: Is made with описывает ингредиенты; was brought — событие в прошлом. Bring–brought–brought, не boat.
+
+9. Формальность
+Модель: It’s late, so we’ll leave. / It is late; therefore, we will leave.
+Разбор: So соединяет причину и следствие в обычной речи; therefore — наречие для логического вывода. So также бывает усилителем: so hungry.
+
+10. Варианты произношения
+Модель: herbs / originating / century
+Разбор: Herbs: AmE часто без /h/, BrE обычно с /h/. Originating отличается от original, но текст ASR не является фонетической оценкой. Century нужно отдельно сверить со словарным произношением.
+
+## Разбор записи · реплики ученика и естественные ответы
+
+Авторство определено только по обращениям и связному контексту; это не проверенная идентификация голоса. Нельзя считать все реплики комнаты речью одного ученика.
+
+1. Спроси, какие блюда обычно готовят к празднику.
+Контекст: 00:27:44
+ASR: what is uh food cooking
+Естественнее: What do you usually cook for Thanksgiving?
+Перевод модели: Что вы обычно готовите на День благодарения?
+Почему: Вопрос о традиции требует do + subject + cook. Для процесса сейчас: What are you cooking? Контекст связывает вопрос с учеником, но точность ASR не абсолютна.
+
+2. Скажи, что от вида этой еды тебе захотелось есть.
+Контекст: 00:33:33
+ASR: I see food and I wanted to eat.
+Естественнее: Looking at this food is making me hungry.
+Перевод модели: От вида этой еды мне хочется есть.
+Почему: Обсуждается текущая реакция на фотографии, поэтому wanted не подходит для задуманного настоящего. Можно проще: When I see food, I want to eat.
+
+3. Ответь на приглашение: если приедете, хотели бы попробовать её блюда.
+Контекст: 00:36:48
+ASR: we are going to uh united states with my wife
+Естественнее: If my wife and I visit the United States, we’d love to try your cooking.
+Перевод модели: Если мы с женой посетим США, будем рады попробовать ваши блюда.
+Почему: Учебная реконструкция смысла шутливого приглашения. Артикль the United States; my wife and I в роли подлежащего. Не утверждается дословное восстановление обрывков.
+
+4. Объясни, что ведёшь сообщество и создаёшь информационный ресурс, не обязательно магазин.
+Контекст: 01:09:05
+ASR: I have a tea community and I have a digital Chinese tea.
+Естественнее: I run a tea community and I’m building an online resource about Chinese tea.
+Перевод модели: Я веду чайное сообщество и создаю интернет-ресурс о китайском чае.
+Почему: Digital Chinese tea не объясняет назначение сайта. Run a community и an online resource about… делают роль и содержание понятными.
+
+5. Скажи, что регулярно обновляешь сайт и добавляешь сведения о плантациях.
+Контекст: 01:11:36
+ASR: Every time I updated this site and I want to
+Естественнее: I update the website regularly and add information about tea plantations.
+Перевод модели: Я регулярно обновляю сайт и добавляю сведения о чайных плантациях.
+Почему: Для повторяющегося действия — Present Simple. Every time требует события или придаточной части; regularly означает регулярно.
+
+В источнике распознано I have many teas: счётное teas возможно для видов или порций чая, это не доказанная ошибка. Также I wanted to go грамматически возможно; выдумывать ошибку to going на основании другого варианта ASR нельзя. Чтение originating, brought и century разбирай отдельно как чтение. Ошибки других участников (например, teeth of garlic) и оговорка преподавателя prescribe/subscribe не добавлены в личные ошибки.
+
+## Запись урока с таймкодами
+
+Recording: lesson-2026-11-21-uuca-food-project
+[00:00:00–254.88] Знакомство и приглашение говорить
+[00:04:15–478.74] Три F и история праздника
+[00:07:59–1042.72] Sow, sew, so и therefore
+[00:17:22–1170.48] Фильмы и подписка на канал
+[00:19:30–1503.28] Выбор формата и распределение по комнатам
+[00:25:05–1663.44] Небольшой разговор о месте жительства
+[00:27:44–1858.02] Какие блюда готовят на Thanksgiving
+[00:30:58–2035.3] Способы готовить индейку
+[00:33:55–2254.34] Показ фотографий и просьба дать ссылку
+[00:37:34–2514.74] Шутливое приглашение и кухня дома
+[00:41:54–2929.7] Рецепты, leftovers и перерыв на праздник
+[00:48:49–3011.62] Планы на каникулы и поездка в Нью-Йорк
+[00:50:11–3270.34] Rip off, scam и con
+[00:54:30–3504.26] Кухни мира и предпочтения
+[00:58:24–3903.9] Чилийская cazuela и описание блюда
+[01:05:04–4145.74] Счётные единицы и рецептурная лексика
+[01:09:05–4328.22] Ученик представляет чайный проект
+[01:12:08–4363.22] Виды чая и происхождение
+[01:12:43–4693.4] Rogan Josh, tofu и рисовые блюда
+[01:18:16–5271.9] Ночной перекус и международный potluck
+[01:27:51–5529.38] Чтение: aromatic, originating и brought
+[01:32:09–6417.02] Чтение других участников и варианты английского
+[01:46:57–6482.46] Завершение, следующая встреча и expats
+
+## Полная расшифровка · английский текст и русский путеводитель
+
+Участки без распознанного текста от 5 секунд (это могут быть паузы, а не потерянный звук): 00:24:37–00:24:48; 00:24:52–00:25:00; 00:59:42–00:59:48; 01:42:04–01:42:19. Конец без текста: 01:47:55–01:48:02.
+
+Полная автоматическая расшифровка; русский текст — смысловой путеводитель, не дословный перевод каждого повтора. Истории, рецепты и культурные обобщения передают обсуждение участников, не проверенные универсальные факты. Примеры ниже написаны для практики. Произношение по одному ASR не оценивается. Неверное слово в ASR не считается доказанной ошибкой ученика.
+
+[00:00:00–00:04:14] Знакомство и приглашение говорить
+Yes, I live in Chicago. Oh, wow, Illinois. That's awesome. Okay. Fantastic. We have another student living in Chicago, but she's not with us today. Okay, is that? So maybe another time you should be on. Do you know who that is, Teacher? Who is that? I'm blanking on her name. She teaches women about the Koran. Oh, okay. She's closer to my age. Not quite to my age yet. But so we've had a number of people who teach different things, which is cool. That's awesome. Yeah. Especially in this class, it's very diversified. And so any other comments about anything or does anybody want to share anything how their week went? You know, please feel free to talk, you know, because this is still early in the morning, you know, and we'll wait for a few more people before we go to, we can do a breakout rooms later. But I would love to hear, you know, we would love to hear. Here it's 10 in the morning, but Partner, it must be 10 in the evening where you are. 12 hours ahead? 11. 11. 11. Okay. Yes. 11. Oh, nice. So it's definitely like 11 o'clock or close to 11 o'clock. Wow. That's pretty late. It's pretty late. You guys are off. We're very grateful. You're with us. We are so thankful, Learner and Partner. And Partner, is that how you pronounce your name? Partner? Yes. Yes. Partner. Partner. Okay. It's almost as though it's spelled [name spelling omitted]. Yeah. It's like [name spelling omitted] or something. Partner. Partner. Yeah. Yes. Yes. Partner. Yeah. Yeah. Partner. Okay. We'll get it. We have to practice that, Teacher. Keep correcting us so that we get. Yeah. Please. Please, guys. If we smash your name completely, please correct us. Okay. Yeah. Because, you know, I teach high school. I'm a teacher. And I don't like to mispronounce my students' names. And some of them are pretty complicated to pronounce because some of them are long. And I keep asking them, please tell me, you know. Because I, you know, you want to. Every name is so unique and beautiful, you know. And so, and so, yes, anybody, comments, please speak up, you know. Does anybody want to talk about their week, how their week went? Please take some time to let us know anything exciting or anything you'd like to share with the group. I wanted to follow up with Partner. We had a question about whether people under 18 are allowed to be our students. Oh, yes. Please, Teacher. I got an answer from Partner. It's fine. Oh, good. It's fine. Okay. But Partner, you are good to go. You're in the clear. Yes. Before I register, I read the rules. What are the rules? Let's say if you are 18, you should be at least 18. That's why I joined the class. Oh, wow. She's way ahead of us. I haven't even read the rules. It's been so long. I don't know. Yeah. Thank you, Partner. If we have anyone of any age who acts like they are five, then we'll eliminate them from the class. Okay. You heard, Teacher. It's going to happen. But we don't want to do that, of course. But if you have to, you have to, right? There's only a certain age limit that's appropriate also. And overall, this class is not really for kids or teens, pretty much. And 18 and over is considered more adults than teens. So awesome. Teacher, you know, I was suggesting maybe because of Thanksgiving holiday, you could maybe, would you mind talking a little bit about the Thanksgiving holiday that's coming up? And I'll be right back. I'm going to get some coffee. If that's okay, guys. I'm half awake. I've had a very long work week and I'm very, very sleepy at the moment. And Teacher can start us off for the Thanksgiving and then I'll take over.
+
+[00:04:15–00:07:58] Три F и история праздника
+Well, those of you who might, you might remember that I said Thanksgiving is about the three Fs. Do you remember what I said about the three Fs? Yes, it's 26th is first day for Thanksgiving. Yes? Well, the three, that's a different thing. But the three Fs are food, family and football. Ah, yes, yes, yes. American football. That means what we call soccer. Yeah. Yeah. And we were discussing football match. Yes. Yes. Yeah. At my mom's house, I'm going next week. I'm driving to Ohio to my mom's house and the television will be on almost the whole time with football games. So people have to talk over the football. But I think what you were talking about, Learner, was the first Thanksgiving was in 1620, I think. And it's kind of a story about the American Indians, who, blanking on the name of the particular tribe, who really rescued the English settlers because they were probably going to starve that winter. They arrived in November and they didn't have much with them in the way of food. And the Native Americans taught them how to plant corn in the American way, which instead of the English way, and really helped them through. Later on, there were wars and the English exterminated many of the American Indians. It was a terrible thing in our history. And many were killed through disease and many were killed through loss of their hunting grounds and their land that they used to sustain themselves. So for some people, Thanksgiving is a sad time because they remember the legacy of colonialism and the death of many Native Americans. Most of us, most of us, white Americans growing up, being taught in school, we think of Thanksgiving as a happy time. So, and when you go to stores and they have their Thanksgiving sales, they trade on that idea of it being a happy time. So, but like everything, there's a mix. And we talked last week about Thanksgiving is really a harvest festival. And I was surprised a lot of you, of the students said that their country doesn't have a harvest festival. But then it turns out, you know, there are crops sown at different times. Sown, that means when you sow the crop is when you put the seed in the ground.
+
+[00:07:59–00:17:22] Sow, sew, so и therefore
+That's sowing the crop. Sowing, when you use a needle and thread, that's a different kind of sowing. And let me show you. Sow and sow. So, sowing with an E, that is with a needle and thread. Sow with an O is putting seed in the ground. And so. And then there's the conjunction sow, which sometimes means therefore, right? Right? I think so I am. I think therefore I am. Teacher, for American, Thanksgiving is the biggest family travel weekend of years. Even bigger than Christmas is. Christmas is considered more important, but more people travel for Thanksgiving. Yeah. Number one, number one, this for Americans is Thanksgiving and after Christmas. I would say Christmas is almost as big. And now it's gotten so that in terms of spending money, Halloween has become very big. Because people like the costumes. They like the decorations. It's a fun holiday. So that has become, in October. So that has become very big. Some of you may know about the big sales in stores called Black Friday. That is the day after Thanksgiving. Yes. Black Friday. The next day. Right. After the. It's a tradition that is new. It's only the last 40, 50 years. Big, big sales. And many people really. People who like to shop and get a good deal. They, they plan Black Friday carefully. Like, you know, planning a trip. So. Yeah. Yeah. Are there any, any particular reason why the Black Friday is put it behind the Thanksgiving? I think because people are off of work that day. And. Okay. Thank. Unlike Christmas, Thanksgiving is really a one day holiday. It's all one day. Christmas is more days. So you're free to go to the store the next day. You know, you don't have any more family obligations on Friday. So you're free to go to the store. So. I understand. Yeah. Yeah. Teacher, another quick question. You mentioned that so. It's the synonym of therefore, right? So. So. The last so. Right. Yes. It's a synonym of therefore. But I'm, I'm wondering when to use so or therefore. Is one more formal than the other one? What is the difference? It depends on the context. Yeah. Therefore is more formal. Okay. And it is more precise. So. Okay. Can be used more generally. If you're. Almost as a way to say. Like planting seeds, maybe. S-O-W, right? Oh, no. Now we're talking about. Oh, that's. I'm sorry. Yeah. Go ahead. Yeah. So is, is used a lot. Some, some of a speaker might say. We're, we're traveling to, to France next week. So. We need to get ready. It tells you like something you're going to do. That's what. You know. So has many, you can use it in many, many, many contexts. But I understood. For example, if I. You understood. I'm going to give you some example sentences. Look in the chat while Teacher is telling you. I'll put some examples of sentences. Okay. Okay. So you'll know. No, but I understood that. Therefore, it's more precise. For example, if I'm talking with. In a car dealer about a lease to the car. Maybe I can use therefore. Because I. Oh, yes. Yeah. Like if this. Say you're going to. Did you want to buy the car? No, I, I don't think so. You know. You could say that. That's another meaning. I don't know. Say. Or so. I will think about it. You see how different it is? Yeah. I don't think so. That means negative. But so, I'm going to think about it. That's an inference. You know. That you're going to do something. Right? So. Go ahead, Teacher. I'm going to write these in the chat. But you can use so in different meanings. So, so has so many uses. I don't think I can. So many. I know. For example, so many. Excuse me. So many. There you go. I understood that to use therefore is more a precise context. Like when we use the, the, the meeting instead of a meeting. Right? Say that again. I didn't understand your last sentence. Say that again. If I'm talking, for example, if I say the meeting. Right? No. They are meeting. A meeting. One meeting. Everyone. And the meeting. I'm talking about this meeting. Right? Oh, the meeting. Oh, the meeting. Okay. Meeting. Got it. Got it. Yeah. Yeah. Sure. Therefore really has one meaning. Whereas so has many meanings. Right. Many meanings. Okay. That's the only difference. You know. Therefore is very precise. Okay? Yeah. You're making a conclusion. Therefore. Therefore. Blah, blah, blah. But like Teacher said. So many. There's so many uses of the word. So. I put one. I put one sentence. Like there are so many choices to choose from. I forgot from. But, you know, basically. Or so many of us are here today. You are so beautiful. Yes. It's so beautiful. Yeah. Many of us are here today. You see those two sentences? Do you see any difference in those two sentences? That's just. There's so many. choices to choose from yeah yeah so many of us here are in in that context so means very you know very many choices very many of us exactly and the other one you know that is telling you a quantity you know like indifferent indefinite quantity you see or i don't think so like i said you know hey yeah i'm sorry i'm sorry i've been typing fast here i it's not coming right here i can't type i'm so sleepy i'm sorry like one of those things you know i i don't think so you know excuse me i don't think it's going to happen so forget about it right i don't think it's going to happen so forget about you wouldn't say therefore forget about it yeah i wouldn't say a little too formal right yeah good very good example but this is a good this is good Teacher that you know um she's giving you different words same pronunciation but you've got to know when to use what do you see so the first one is you know with needle and thread right is sewing the other one is you're planting seeds s-o-w you're planting seeds in your garden i'm sowing seeds in my garden so basically the three words are homophones right are what homophones homophones yes they sound yes very good yeah it might help us if you are closer to your microphone yeah because some parts i'm having a little hard time ah anyway um but any other questions that was these are good questions wow you guys and um go ahead well were you still talking about oh Learner asked a question about yes giving traditions oh yeah please yeah families that like to watch movies together oh yeah start watching christmas movies i'm a movie person i my favorite is a movie that is if you know the uh plan is train and automobiles when you come back and going to uh finish uh thankgiving back to the future is that a scene from back to the future i'm not sure yeah i'm
+
+[00:17:22–00:19:30] Фильмы и подписка на канал
+trying to understand what you said planes trains and automobiles ah i don't know that one oh yes steve martin when you come back at uh franksgiving and to come back and i'm going to it's it's a very nice movie oh my god and there are two comedians in there you know favorite famous people steve martin and john i don't know if you've seen that movie Teacher but that's a very good christmas christmas movie and then you you know jingle all the way with arnold schwarzenegger oh christmas movies yes these are all christmas movies i don't know about thanksgiving movies my my mom likes to watch the hallmark channel on television oh yes i love that and there's lots and lots of christmas movies yeah it's called hallmark they're very they're romantic yeah they're almost like all the same you know some some woman from a small town meets a man from the big city and it's always based on romance exactly save the big christmas celebration right and it's a beautiful tv channel you have to prescribe maybe to it subscribe to it yeah yeah yeah not prescribe but subscribe subscribe that's another one not subscribed yeah so that's another one subscribe yeah exactly i'm gonna put that in there subscribe or press there's no i don't say prescribe okay no my bad because that's when the doctor or a pharmacist gives you medicine they prescribe medicine right but that's it sounds similar right prescribe subscribe two different meanings so that i just put that in the chat breakout rooms or do you want to maybe do some reading i have some sure what would the students with the student would you all like to do that now going to breakout rooms and do a reading and what are you guys like talk to me talk to us yeah i think it's oh you want to have a main session
+
+[00:19:30–00:25:03] Выбор формата и распределение по комнатам
+more talking we'll do whatever you're comfortable with how many people want i i prefer the breakout rooms okay how many people want breakout rooms at this time put up your hands very good Partner anybody else want to go straight to breakout rooms it's okay or do you want to check out more i am okay i'm just taking a vote here because i see a couple of hands Partner and i think you can go to your hand up yes oh and what did you say Partner i prefer i prefer i don't think uh okay break break break uh breakout room yeah breakout rooms will be you want to breakout room okay so at least three people want breakout rooms some two people are okay with either and anybody else because i think we'll just yes yes break it better yes me too i'm rather yes break it okay we have a unanimous uh i mean very overwhelming vote for breakout rooms so let's do that so um do you want to come back together right before noon or yes uh like 11 50 11 50 11 55 i'm going to close out is that good for everybody we'll take some time it's about an hour hour and 20 some minutes okay good it's going to take me two minutes at least to do breakout rooms so Teacher uh did you finish about thanksgiving or you could maybe i think we talked enough about thanksgiving i missed out i'm so sorry is everybody going to have a good thanksgiving celebrate in their country anybody who uh celebrates this holiday uh in their country please you know put it in the chat i would love to know my myer i noticed you nodding your head when i mentioned harvest festivals what are harvest festivals like in when your family where where you grew up uh my for me yeah i grew up yes i grew up in uh shanghai china oh no okay and and do they do a harvest festival there uh um maybe not to the festival yeah but the season autumn is the fire fire uh yeah how is the season yeah yeah actually we don't have uh harvest uh uh festival oh wow okay and the lunar festival is that in fall or is that in spring when is the lunar festival lunar um in fall yeah lunar it's in the fall okay mid-autumn festival festival okay and there's also chinese new year right family gathering yeah family gathering yeah and when the chinese festival is that different for the lunar oh chinese yes yes yes new year yeah chinese new year is for lunar yeah yeah okay two different things and that's in the spring right chinese new year uh chinese new year it's called a spring festival but it's actually it's in winter yeah on winter yeah january or february yeah not okay wow but it's called a spring festival we get a family gathering yeah that's what i thought because i worked with a couple of chinese teachers i'm a teacher and she was talking about the chinese new year in the spring something in the spring they're gonna do so it's very big for us very i know it is because they have these uh farmers market kind of things and they have these you know um days in the malls sometime over here in virginia where they have all these display of vendors celebrating those two big tanks yeah you know thai vietnam they all have this chinese new year or lunar yeah yes i just went to one in october so it's kind of cool all right guys um i uh Teacher you'll be in room one all right and you have six because Partner has two screens so we've got six each uh and enjoy yourself uh have a good time guys and i think i've done a pretty good um i've put a couple together Learner and Partner you're together okay okay to start the invitation hasn't come up on this oh because i haven't pressed the button yet oh okay i'm just telling everybody so now i'm gonna press the button go ahead and join okay guys okay all right enjoy yourselves talk and chat and read hello hello hello hello hello i am Learner uh live in china
+
+[00:25:05–00:27:43] Небольшой разговор о месте жительства
+now you are you are living in china which city yes yeah guangzhou guangzhou guangzhou yeah uh shenzhen now is uh epic meeting yeah is now in shenzhen yes we know that yeah i live in here i live in here eight years my wife is uh four years no no no no it's china no guangzhou yeah yeah guangzhou is near to shenzhen yeah yeah yeah yeah i pick me uh uh is uh hired in shenzhen yeah now okay thank you hey guys welcome back hi oh good i get to see your whole picture and you have beautiful hair my gosh that looks amazing you know and i can't wait to catch up to you everybody so i mean everybody no because you know i've got very short hair and i'm waiting for it to grow one of these days and it's taking some time so uh the next time you see me i'll just be a gorgeous blonde okay what do you think or a brunette one of those all right guys so uh welcome back everybody and you guys did you all get a good um you know idea about thanksgiving Teacher gave you a good idea i hope and it's next week right and um it's a big holiday here in america and um i actually i i bought a big turkey but my sister uh you know wants to cook and do everything so i'm gonna let her do it right why why work when i don't have to do it right and she's gonna cook and i'll just probably bring something and then my husband will go see his mom and i have two daughters so one daughter with him one daughter with me you're taking one daughter so my family and his family so those are my plans and um uh you know we have a lot of um sides and thanks we make a big turkey that's like the so i'm sure Teacher gave you a good idea right what do you guys think about the thanksgiving um uh you know what you talked about any comments about that or what you liked about it and any questions about it okay maybe uh maybe question for food uh when you're cooking uh what is what is uh cooking is uh this day and thinking give us i'm okay so i'm trying to understand your question what is the what
+
+[00:27:44–00:30:58] Какие блюда готовят на Thanksgiving
+yes what is uh food cooking uh it's uh what are the different foods you cook in thanksgiving oh okay wow that is going to be fun because it's a lot you can you can kind of be creative so you have a turkey right the turkey is the main thing okay it's the main event right like we say and you can cook your turkey any which way you kind of you know like um you know you can uh there are different ways i'm gonna put in the chat they're different so you have the turkey turkey is a big thing you can have any kind of quantity of the turkey 14 pounds 10 pounds you know depending on the size of your family so turkey is the main dish okay i'm gonna put it in the chat then you have um the sides you know the sides that complement the turkey right the main dish so you can have stuffing you know stuffing and anyone else you want to put you want to give me um i don't know what a stuffing is oh no problem i'll explain that in a few minutes so what else what else do you think we have uh any ideas or what you think um we can have and thanksgiving and does anybody have a guess so stuffing you can have corn stuffing regular stuffing yeah what else what else do you think we'll have put a lot of maybe corn maybe corn yeah yeah maybe maybe cream maybe a lot of maybe uh yeah yeah ingredients yeah yes to the corn very good turkey's breast yeah yes you can have a breast of turkey yeah the whole turkey creamed corn very good myer you have cream corn and then green beans green you know um green beans is a big like green bean casserole casserole is like a whole combination of things okay yeah all right it's you can put on fried onions in there you can put cream of mushroom soup so green bean casserole is one of the main dishes you don't have to have it but it's like a staple right a signature mashed potatoes you know that is one of my favorites so that's mashed potatoes and then you can have squash you know one of the uh like a squash casserole or anything squash just roasted roasted vegetables can be part of it veggies veggies vegetables and um gravy right for the mashed potatoes you want a lot of gravy right and you can the broth that you cook you know the turkey and it does it gives you gives out a broth right a liquid you can mix that with flour or anything you want and make it a nice gravy for the mashed potatoes and the turkey and then you have cranberry cranberries you know cranberry salad or cranberry sauce either way sauce this is a big thing this is a big thing as a continent for the turkey cranberry is like a staple again a signature you can have it how do you how do you how do you
+
+[00:30:58–00:33:55] Способы готовить индейку
+cook uh the turkey how do i cook what the turkey turkey and i need three and five hours a day oh at least at least three to you got it Learner that's right so basically i cook i i cook it turkey do you put it on the stove like how do you cook it on the stove you could cook it on the stove but that'll take you forever uh oven oven on the fryer you know deep fryer a turkey fryer a huge fryer people also uh put it on the grill you know in a big grill as a whole as a whole or like oh yes no it depends depends if you have a huge grill right you can put the whole turkey on the grill you know it has a roaster it has a turntable kind of twisting you know like a spivot a pivot show it to you okay pivot so and the the some of the grills come with the rotating have you seen the you know how they make rotisserie chicken is it rotates right some of these grills like my grill has a rotating pivot so when it's it's very cold so i'm not going to cook it outside but when in the summer i'm going to put a whole chicken or turkey and it goes round and round and you grill it so there's grilling there's putting it in the oven you can grill it you can even deep fry it deep fried so wow these are good ideas guys and then you can um as far as the sides you can have rolls you know like bread rolls any kind of rolls you want rolls rolls bread little buns bread buns you know how you see the small rolls in the grocery store for bread does any does everybody see um i have to show you some pictures everybody knows what i'm talking about bread rolls you know like with salad small pieces of bread okay let me show it to you i'm going to show you some pictures thanksgiving pictures you know sites that people generally have so let me do that because that will give you a good um idea it's better to show it to you so thanksgiving could you please attend and i know that i see the photos is sorry could you please i'm going to bring it up Learner give me one second okay it's coming it's coming no problem there we go there's always problem i see food and i wanted to eat okay well hey somebody's hungry okay uh no problem when i cook it Learner and Partner i'm going to um i'm going to send it to you guys a picture
+
+[00:33:55–00:37:34] Показ фотографий и просьба дать ссылку
+of what i'm cooking okay so um but here there we go do you see these these are some thanksgiving side dishes can everybody see it and these are like very stable yummy oh very nice green casserole i was telling you about you could put mushrooms in it you could put fried onions you could put pecans walnuts you could put different nuts i don't really like um nuts uh in my casseroles i'm not a nutty person to put it in food but a lot of people do that it's a very american thing okay so there you go so you can have carrots you can have glazed carrots these are some of the sides you can make mashed potatoes in a casserole where they have if you see my cursor this is a potato casserole glazed carrots it's you can and then with cinnamon you can put in a slow cooker does anybody have a slow wow this red pot cranberry i have it in russian yes and then they have the cranberry remember i was telling you about the cranberry salad you can make it in a stuffing you know with the bread and cranberries mix them together and make it as a stuffing and some people stuff it inside the turkey and cook it in the oven so these are different ideas any comments or anything please talk okay i want to hear you guys talk so i can listen to your english so please speak up right what do you guys think pretty yummy right i know Learner your mouth is watering i know that so Partner you better cook something thanksgiving for your husband today okay yes so you won't miss it okay okay all right make something i'm just kidding uh and you guys can do so brussels sprouts you see on the extreme right brussels sprouts roasted is also a very staple and who likes brussels sprouts here anybody they're very small veggies and they're so young yes myers nodding her head you're lucky my Partner and we got this and Learner and Partner what do you guys think yum yum it's very nice it is it is this is i'm hungry now oh please i'm very hungry too okay hang tight man hang tight as soon as the class is over you know you and your wife get in that kitchen and make some of this okay get it together and then okay okay if uh if you could tear that page yeah so we don't have ideas ideas to cook okay what i'm sorry to share the page uh this page or another page not this page so we can have a i am i am you can't see it i'm sharing it yeah but the the link oh the link i'm sorry yes of course share it link yes i was going to do it but i'll do it right now thank you absolutely any other okay please okay if uh if you if uh we are going to uh united states with my wife we are going to to your home for it for it oh yes you're coming to me yes i'll be honest with you because you know i work a lot i'm a teacher i teach high school and i'm a uber driver i i drive for uber and grubhub you know and i make good money i'm a pretty good so i i'm i hardly cook because my husband is american but you know he's eaten this all his life right so he's not you know he's he's very laid back he doesn't expect me to cook all this you know we you know and besides we'll be going to our
+
+[00:37:34–00:41:54] Шутливое приглашение и кухня дома
+families i'm not going to be cooking so much so when you come give me a year notice okay Learner and okay because i i'm i don't really cook every day you know because i don't have to you know and um because both of us in my husband i work a lot and my daughter is 19 and i have a 24 year old daughter so you know they're at that point where they don't really you know expect um they they do their own thing they so i don't have to worry about cooking too much so give me right give me and you know give give me at least two years notice i'm a pretty good cook i'm you know i'm from india i cook good indian food and i'm you know i can even cook american food now because i've been married to one right so i uh i will definitely cook up a storm for you i love to cook i don't get me wrong i love to cook but time right time is a fact and all this takes time right guys it all takes time and few i mean who's gonna spend hours in the kitchen right doing all this when you when it's ready made right right so here i put the link for everybody okay it's a long link thank you thank you browser okay you're welcome denata welcome you're most welcome um for the hispanic people denata um and how how do you say in uh russian how do you say uh you're welcome uh i'm just curious just duster oh my gosh that's that's a mouthful okay i'm i definitely have to practice that so sorry guys it disappeared could you see the screen or it just disappeared but yes i can see you right i can see you the picture of the turkey but um sorry i'll try again but um i don't know why it's not um okay there we go let me see if they'll show the turkey all right so you see that cranberry i was talking about see look at those cranberries and then they melt before they fry it and make it in sauce green bean casserole and sweet potato pie that's another one i love very nice and it's very healthy for you right and see here's the menu see look at the turkey you cut it up and you put in the oven or you can slice it and how cool is that right and then you can these are all the spices you can have different spices and i'm going to show you the um thanksgiving menu okay you receive all the recipes so we'll see them one by one because this is important right when you guys um can uh maybe cook these see they have turkey they have the turkey and you can roast it or you can grill it and they have smoked turkey they have a different kind of turkey but you can smoke it in a smoker you know in a little it's a big metal pot and you can put it outside and you can smoke your turkey turkey pot pie some people like to make pie and then they have a rub you know they put some spices over the turkey and then they cook it so let me know if you guys want to um you know talk about any particular one let me know okay i'll keep going down the list it's not moving if this would only move one of those things right so oh there we go all right so how to make green bean casserole see this is this is i'm gonna make this for my family because all my both my kids love it my husband loves it i love it you see how they put the fried onions and green beans it's so yummy and you use cream of mushroom soup okay you can cream of mushroom soup that would be great for me i'm vegetarian oh vegetarian there you go yes that would be great for me right you've got to make is that Partner who's talking no Partner oh Partner oh Partner full for you you should definitely do it and uh then you can have a cocktail see they have a
+
+[00:41:54–00:48:49] Рецепты, leftovers и перерыв на праздник
+cranberry cocktail i'm showing you okay what do you think of that see i'm gonna try and make that oh Partner your name is over there so my you have to make it's got your name in it no that's how you spell your name m-e-y-e-r yeah hey guys i didn't know that she came up with a cocktail see yes full of surprises okay you're famous already my all right so i love cocktails so i'm gonna try and make a cranberry cocktail for me and my husband and my daughter is 19 so she can participate now right she's old enough to try a little bit of liquor but the the legal age is 18 or 21. oh major alcohol big alcohol it's 21 but 19 that's why i said i'm gonna give her a little sip she's in college yeah she's 18 yes poquito right poquito Partner means little in spanish you know just satin right and the russians right Learner and kids we we like um liqueur and liquor right a little vodka right yeah yeah so i might put a little vodka in it you guys like vodka in russia they drink vodka yes yes you know smirnoff vodka that's one of my favorites yeah i'm gonna put poquito vodka and a little bit so here is you want the recipe for the cranberry thing i put the link for you okay i'm gonna put this link too this is another link so i'm gonna put this link look it up guys and get the recipes okay because i'm getting hungry too Learner you're making me hungry now brother i'm talking about this food i'm getting very hungry so we we're gonna do this together okay so um where's the chat oh gosh i lost the chat oh there it is okay i lost the chat to put it in okay so i've put the link in there in the uh please uh cut and paste the link and save it on your browser and you can get the recipes for the cocktail so i'll let you know after next week okay uh next week we don't have class guys next saturday um what is it um i think they've canceled the class because people are on holiday right so we're not gonna meet next saturday okay because that's a thanksgiving holiday some people might be out of town i might be out of town so uh in two weeks we're gonna have class but i'll i'll tell you that in the end did everybody get the link so get the recipes and i'm gonna go down any other questions about anything so here are some leftovers now after thanksgiving this is what people do they use these things whatever is left over the turkey or whatever they make different dishes with the turkey isn't that great so these are some ideas where you can have leftovers. Yum, yum. Anything looks good? yeah so uh it still looks very good exactly now look at this um these are different um different you know recipes that they're giving you for the week because you know it's but it's not thanksgiving like mashed potatoes loaded mashed potatoes is so anyway guys uh we are definitely getting hungry so let's get off this page okay stop share i better go cook something really quick too i'll meet you all in the kitchen next in two weeks okay well maybe we'll have a class in the kitchen well i'm cooking we're all cooking we can have class what do you say yes yeah because i love to cook and um i know a lot of people love my cooking when i cook because my mother and my grandmother's everybody was a fantastic cook my sister you know my mother taught everyone all of us kids how to cook and my grandma's used to be in the kitchen with us too when we were growing up so it's a big memory for me but my husband i'll tell you no offense gentlemen Partner and Learner but my husband does not like to cook too much he doesn't stand in the kitchen and cook because his mother you know she she's a good cook she could did everything and i make my husband sometimes you know do some work in the kitchen while i'm cooking so i make him you know uh cook sometimes you know when i'm busy and um he's learning well i have to tell you that very slow but learning anyway so guys what did you think about all the yummy right this is what we're gonna have do at thanksgiving next week and i have a huge turkey i have a 14 pound turkey it's in the freezer so i might just make my own thanksgiving for my family since i won't be i'd probably be out of town and um so guys anything else you want to know about thanksgiving or anything else before we go on to we can do some reading about thanksgiving would you like that we've got times yes everybody good any questions or any comments all right um oh you know what i have some lamb i'm from india so i'm making my favorite lamb dish it's cooking on the stove give me two minutes and i better put it off otherwise it might be burnt right well so i'm gonna go shut it off and guys why don't you talk okay talk about thanksgiving what you all going to do for thanksgiving so talk for a few minutes okay and i'll be back anything in any so uh your thanksgiving plans or something who wants to go first go ahead i'll be back in three minutes good luck speak speak speak speak yeah maybe the people that is in in the united states can can tell us because in tila we don't celebrate their thanksgiving i don't think we have a people who are in the united states anybody live in the united states i'm in united states but we don't celebrate thanksgiving so oh okay but you happen to experience right like the neighbors and everybody they do have a thanksgiving right well for me this year is my second year in united states they talk about and also i'm learning about their culture you know okay uh and mayor you're two in the united states yeah yeah i i have almost two weeks of uh for
+
+[00:48:49–00:50:11] Планы на каникулы и поездка в Нью-Йорк
+thanksgiving break yeah i plan to play tennis with my coach every other day uh because i really want to improve my tennis skills i also want to practice more uh so that i can play doubles with my friends yeah yeah i also plan to go to new york city on black friday oh wow yeah that is great yeah no others yeah new york is beautiful uh yeah it's crowded yeah it's noisy i really love you yeah actually i don't like new york city i like mcclein oh we're talking about new york yeah i love new york you don't like my daughter loves the new york city yeah oh la la it's like the shopping of the world yeah it's for shopping one city like paris it's for eating and shopping eating yes i and i'm a shopping person i love to shop till you drop walking we're walking the streets of new york you know all the streets some of them have very you know a lot of vendors and there's something really good some of them want to
+
+[00:50:11–00:54:30] Rip off, scam и con
+rip you off you know yeah does anybody know what i mean by rip you off who can tell me um when they want to rip you off what do i mean by that that's another phrase you should it's a very common american saying rip you off if people want to rip you off what are they trying to do um taking your money i don't know okay very good Partner no you're good you're right okay they want to take your money and they want to you know deceive you they want to give you something less valuable and take more money much of the narrow right very good Partner so to rip off somebody means to take their money and completely deceive them and not give them what the value of that okay you know you what you paid for rip you off like go bankrupt right you can go bankrupt if people rip you off so be careful of people like that especially in new york city you know they'll tell you oh no very good very good you know please buy please buy and i'm like okay and they're like oh only 80 bucks you know 80 bucks okay are you giving me everything authentic you know it could be only 20 bucks you know but they want 80 dollars right so you have to be very very smart so that means don't let them rip you off so um i put that in the chat so just be careful of people like that they will rip you off if you don't watch it and any other american phrases people can is it is it the same like a scam yes same thing okay got it very good Partner anybody else any synonyms scam rip you off same thing good job Partner you're learning fast i love it all right uh anyone else uh Partner and Partner Partner yeah can you can you call you i can't do this could you please see the chat that i sent a photo is uh happy table um this is turkey what's that oh yeah yes um the picture oh that's beautiful uh yes that is supposed to that picture right that's the thanksgiving uh table laid out right uh this is happening right now i see it now con you oh there's only one n and con one n con you but yes you're right con you here very good Partner gave a very good it's the same thing they con you they rip you off scam like mike very good as one so c o n is con and they that means they can rip you off very good as one anybody else um uh any other phrases or anything they want to learn about um please speak up all right and Partner uh it says one assigned there's somebody in the main session who came late so guys um go ahead and keep keep talking about thanksgiving i'm going to go in the main session for a second get them back in class all right because they're waiting alone because everybody's in the breakout room okay i'll be right back on would you like to coordinate everything a steward for me for a couple of minutes get the conversation going thank you okay okay no problem thank you Partner's my one of my veteran students so um go ahead Partner i'll be right back talk about thanksgiving guys okay um all right this is the only topic i don't have a lot of knowledge about it uh okay i i'm interested uh Partner did is it your first time going to new york or have you been there for a couple of times yeah i have been there a couple times yeah oh okay have you ever been to new york city no no i've never been to the united states oh yeah it's cloudy it's not easy to pack yeah cloudy noisy but uh but it's a good place for eating and shopping what what what do you eat like what's that or do you have like a diverse
+
+[00:54:30–00:58:24] Кухни мира и предпочтения
+oh delicious food from all over the world japanese cuisine korea cuisine chinese cuisine and mexico cuisine and it is very very uh local yeah but every time it's chinese people like it eating chinese food only one and going to other only going to other country and eating one two three days it's maybe uh foreigners food and after only chinese food eating yeah yeah yeah but for me actually not yeah a lot of chinese people when they when they're traveling abroad they look they are looking for the chinese cuisine yeah yes oh wow yeah what's the the main like uh dish that people go to like when they hear chinese food uh sishuan cuisine for most of chinese people like sishuan cuisine cuisine but i don't like it it's spicy yeah yeah it's very nice but uh yes every uh very spicy yeah yeah i like guandong cuisine yeah or like can you make it like less spicy or like if you make it less less spicy then it wouldn't be the same dish is that what you mean uh guandong cuisine yeah the dish can you make it less spicy yeah i think it's a it's amazing uh it's not uh too oily oily uh it's yeah um it's not uh no spicy yeah i like guandong cuisine i come from shanghai but shanghai cuisine is oily yeah actually i don't like that yeah yes this is china there are many provinces that i have uh other uh kitchen for the chinese food is uh many many uh food in china uh and uh not different yeah yeah yeah different uh uh uh all kinds of um all kinds of food yeah in every province yeah every uh every place have have uh its own cuisine uh absolutely yeah absolutely yeah how about you Partner uh tell us about your like favorite edition something that uh you have grew up with something that's like a very common like very common here in chile um oh i would say we now in chile uh with cascacuela yes that is like a uh uh um yeah uh all right guys Partner was thrown out from the room so i have no idea why welcome back my friend anyway everybody so guys you know some people come late sometimes so i might go back and forth i don't want them to be alone in the main session because everybody's in a room right so i'm back now what did i miss what did i miss tell me Partner was uh trying to tell us about uh a dish that she likes a lot oh tell me what is it Partner
+
+[00:58:24–01:05:03] Чилийская cazuela и описание блюда
+it is a cassuela that is a casserole oh casserole oh yes yummy casserole with um uh it is like a soup with corn okay can you show us a picture you can share if you want yeah i'm getting hungrier now i'm getting more hungry guys what's the ingredient we're talking about food a lot especially it's lunch time over here very soon thank you Learner Learner started it right and everybody promise me you'll eat a lot of food after this okay you're gonna live it up okay party and uh so uh Partner do you know how to share i i i will i will send the the picture in the chat in the chat or oh you can i don't know if i can i can do it but don't worry i'm gonna show you you see the bottom menu says share sure but i can share the the link okay and i i can share for you if you want that's no problem yeah uh no problem so cassoule oh there it is okay i'm gonna show a picture of you um of this okay guys so give me a second i'm gonna share this asman uh what about your food today your country yes as well go ahead oh my god hold on um okay hold on i've got about it i'll But your food is no different in Russian, I think about. Oh, nice. So that's the... Oh, wow, yummy. Partner, tell us a little bit about it. And then Partner can... Yeah, the cassoula, you can do it with chicken or... Beef? Beef. Okay. What is that in the picture? Is it a lamp? Use a lamp. Okay. I don't think we do it with lamp, but we do it with... Pork? Is it pork? No, I forgot. What's the yellow thing? The yellow kind of like... It is corn, potato, and sweet... And plantain? Okay. Yeah. Nice. And it's all in Spanish. So tell us, what are the ingredients? Can you translate for us? Yes. Okay, go ahead. The yellow thing is the corn. Uh-huh. Then next to that is the potato. Okay. Then it's pumpkin. Oh, pumpkin. Oh, pumpkin. Oh, pumpkin. Oh, pumpkin. Yeah. I was wondering what the yellow was. Now, I don't. It looked like squash. Yeah. And the beef. And the soup, you can do it with the... With onion. Okay. Rice. Okay. I don't know. Something green. A little... Oh, please. It already looks too... It looks too yummy, man. Yeah. All right. Partner, just... Can you translate all this in English and give us a recipe next class? Yes? Okay. Okay. Bring us a recipe, okay? In English. In English. Okay. Right, guys? I will try it. That looks so yummy. That's awesome. That looks yummy. That looks delicious. Right. And how do you pronounce the name of the dish? Up there? Cassuela. Cassuela. Cassuela. Cassuela de vacuna. Cassuela. Cassuela de vacuna. Perfecto. Oh, wow. Okay. Yes. Thank you, Learner. I can read. I can read. You can read Spanish? Yes. Oh, okay. But usually, Russian people pronounce very good the Spanish. Yes. Yes, yes. Learner looks like his... So, I'm going to try it. Cassuela de vacuna. Great. Is that good? Yes. Cassuela de vacuna. Sounds like a dance to me. Thank you. You know, some kind of... Musica. It's like a... Musica. Cassuela de vacuna. It sounds more like a dance item than a soup. I love to be... Oh, yes. There you go. The Lion King. I love that movie. Thank you, Mario. Hakuna Matata. I love it. I will tell my husband and my daughter that I learned about cassuela de vacuna. And I'm going to ask them to guess whether it's food or a dance. I'm going to see what they say. No, but Partner, I definitely want the recipe in English. So, in two weeks, bring the English version and soup to us. Okay. Oh, and you can also put it in the chat, in a private chat. To me and to everyone, put the recipe. Okay? Okay. Okay. That's your old one. And one old one. I think it's my old one. Yes. When she's a little girl, she's a little girl. Yes. Yes. Porta Mata Wados. Oh, my. Okay. Okay. Okay. Okay. Partner, your husband is really... He's a multi-talented person. Yes, I know. I do. All right. Partner. No, because this whole... This couple is amazing. They're like multi-faceted, multi-talented. And now they've got me dancing. I love it. You know, I'm so glad. And then... Uh-huh. Go ahead. I can read it a minute language. It's for me. Yes. It's not a problem. It's French and Bulgarian and Albanian. It's minute. That's good. And then all those ingredients. Okay. So, Partner, really quick, for benefit of everybody. Read the ingredients really quick for us in English, you know, with the Spanish. Yeah. Just tell us, you know, what they are. Yeah. So, we can have an idea. It is one spoon of oil. Okay. Oh, yeah. One kilogram of beef. Oh, okay. Pimento. I don't remember how to say pimento. Yeah, I know. Pimento is a little... That's... I got... Pimento is a little red things, right? Yeah. Yes. Little peppers. Okay. So, pimento. And then what else? What is that? Garlic. Oh, garlic. Yes, garlic. Okay. You say two teeth of garlic? Like two... Two teeth... Cloves. Cloves. Cloves. Cloves. Cloves. Cloves. Oh, very good.
+
+[01:05:04–01:09:05] Счётные единицы и рецептурная лексика
+Yeah, you always say two cloves of garlic. Okay. What did you say? Teat? Is that what he said? Yes, in Chile we say it is a teeth of the garlic. Oh, wow. I didn't know that. Put that in the chat. No, that's very fascinating. Teat. The teeth? Like the teeth. Okay. Wow. I had no idea. Okay. Learn something new. So, cloves of... Generally, when you refer to the slices of garlic, it's one clove of garlic. Okay. So, keep going. Garlic. And then what's after garlic? And then six potatoes. Oh, six potatoes. Okay. Yes. Then, like the green... Green beans. Green beans. Green beans? Oh, green beans. Okay. Yes, green beans. Okay. The pumpkin. Oh, pumpkin. Zapalo is pumpkin? No. Zapayo. Zapayo. Zapayo. Where is that? Yes. Zapayo is the pumpkin. Zapayo. I don't see that. Yes. Zapayo. Free rice. Zapayo. Okay. Okay. And the rice. A rose is rice, right? Yes. Yes. A rose is rice. Okay. Chocolate. Is that chocolate? Is the corn? Oh, it's the corn. I was thinking chocolate. You know how much... Oh, my God. I love what she said. No. No. This is corn. This is corn and corn. Not chocolate. I think of chocolate. Guys. Okay. It's a dessert. I know. You can put chocolate in anything. Yeah. Anything. Who cares? Make the dish as a dessert. Okay. Okay. Okay. This is a situation. I'm going to the shop for the chocolate. But this many people was being in Spanish. Could you please give me the chocolate? He gave me the corn. What is corn? Yeah. Yeah. Yeah. Yeah. Because it's chocolate, right? That's corn. Yeah. Okay. See, people would think of chocolate. Okay. And then pecado. What is pecado? The next one? No. Perejil. It is like a little green leaf. Perejil. Okay. Perejil. Okay. Perejil. And agua is water, right? Yes. Cold water. Cold water. Okay. Then, I don't remember. Oregano. Oregano is a spice. It's an Italian spice. Oregano. Salt. Oh, salt. Okay. Okay. And white pepper. Oh, white pepper. Okay. Pementia. Yeah. Okay. And... Yes, I don't know how to say alinho completo either. Okay. This is... This is Chilean or purple season blend. Oh, it's a pepper? Like a pepper blend? Okay. Yes. Oh, nice. Yummy. And the last one is sal de mar, right? It's salt. Salt. That's also salt. Oh, sal de mar. Of course. Salt. Okay. So... Sea salt. Not salt. It's sea salt. Sea salt. Sea salt. Oh, sea salt. Okay. Wow. Gracias, senora. And Learner. Thank you so much for enlightening us. Okay. Fantastico. I want the recipe, guys. I'm telling you. Partner, that is your homework. It's the only homework I'm giving you. Okay? Two weeks. I'm giving you two weeks. Get the recipe in English and get it for us. All right, guys. So why don't we do some reading? It's 11.24. Would you guys like to do some reading? Because we're getting... We're so hungry. I need to distract you guys from the hunger games over here. And... And... So... Maybe you're not... Maybe you're not...
+
+[01:09:05–01:12:08] Ученик представляет чайный проект
+I have a tea community and I have a digital Chinese tea. And I translate all... Yes. I translate all lunch. For Chinese as well? You speak Chinese? Could you please open it at this site? This is my site. Okay. I sent a share. Oh, okay. All right, guys. Please look at the chat. He sent a site for him to... Tea community. But every time I change it and I create it. You change it all the... Yes. Do you sell the tea or you just... What do you do with the tea? You're selling it? Let me look at your site. Can you tell us a little bit about... This is Wiki. This is Wiki. I'm sorry, what? Oh, okay. Wiki. It's going to come up. Wiki. Okay. What's Wiki? Wikipedia. Wikipedia. Oh, Wikipedia. Wikipedia. Oh, Wikipedia. Wikipedia. Wikipedia. Oh, Wikipedia. Wikipedia. Wikipedia. Oh, Wikipedia. Wikipedia. I see. That's... It's a knowledge. It's a knowledge. Now I'm drinking Chinese tea. Oh, yes. Oh, Partner. So this... So you like Chinese tea, Learner? Is that why you shared it? Yes, yes. It's a... Oh, yeah. I... I... I... I... I... Yes, Partner. Okay. This is all the Chinese tea. Wow. Yum. Yum. This is translated over the lunch. Okay. Yes. Wow. It's a half Spanish, Chinese. It's... Yes. Yes. Yeah. Very nice. It's white tea, green tea, black tea. Yes. All on. I love that. Okay. And even... Yeah. But... And the third one looks like a chocolate too. And the third one is Longjing. Yeah. Longjing? What is that? Longjing. Yeah. It's from Hangzhou. Yeah. Okay. It's very famous green tea. Yeah. Oh, wow. Is it supposed to be therapeutic, Partner? Is that good to be good? Yeah. It's very good. Good quality is... Uh... Government. For... I... I'm a coffee... Yeah. Right. I love coffee. Coffee. Yeah. But I do love tea because in India we drink tea, you know? Yeah. And chai, you know, it's called chai, masala. We put spices in the tea and we cook it. Yeah. So very nice. Okay. Every time... Every time I updated this site and I want to... Uh... Uh... Uh... Uh... Tea... Uh... Uh... Wikipedia for information of people. Okay. For China. And I... I created... Uh... I created all plantation where Chinese... Uh... Grounded in tea. I have a question. Huh? Oh, that's one. Oh, that's one. Very nice. I have a question for Learner.
+
+[01:12:08–01:12:43] Виды чая и происхождение
+You have a lot of yellow tea. What's that for? Yellow tea, yeah. Is it like... Do they have like a different kind of yellow teas? Yeah. What's the... Can you explain? Yes, I have many teas. There's yellow, green, and white, and... Uh... Red, and... Oh... Oh... Uh... Tea, you have. Very nice, guys. Sounds yummy. You know, I brought you to my kitchen. I want to show you... What are you cooking? I'm gonna show you... I'm gonna show you... I'm gonna show you... I'm gonna show you what I'm cooking. I don't know if you can...
+
+[01:12:43–01:18:13] Rogan Josh, tofu и рисовые блюда
+That's my lamb curry from India. Okay. I'm cooking lamb. Oh, very nice. Like a lamb curry. Oh, very nice. You see it? It's cooking. Yeah. Wow. So that's my favorite... That's a very authentic, very, very rich lamb curry. It's called Rogan Josh. Rogan Josh. So I'm gonna put that in the chat. And so you guys can... You know, I'm gonna show you a picture of it, what I'm cooking. So because we are sharing all these international things that we love, that are native to us, right? Mm-hmm. This is kind of cool. And it's called Rogan Josh. Rogan Josh. It can be made with lamb or mutton. Rogan Josh. Lamb or mutton. And let me show you a picture of it, so you can see what I'm talking about. And so I will show you some pictures of Rogan Josh. So I think we all... We will really be eating well today, right? Mm-hmm. Because we're all... We're talking about teas. We're talking about, you know, different things. Thanksgiving. Okay, so here we go. This is an aromatic curry dish. This is Rogan Josh. And I want to show you a picture. What do you think of that? That's what I'm making. It's beef. It's a very authentic lamb curry. Lamb curry. That's how it's gonna look. Lamb curry. And you put coriander. And it's cooked with different spices. And that's right now when it's still cooking. And that's how the end result. Wow. And it's very spicy. That's how mine's gonna look. Yeah. Exactly like that. And it's very aromatic and very spicy. And so I'm making that for my family. But you can eat it very slowly. Because it's got a lot of spices and stuff. And you eat it slowly. You can even freeze it. So that is called Rogan Josh. Rogan Josh. If you guys can see it. Rogan Josh. It's on the right. Rogan Josh. I will check. I will check the recipe. I am vegetarian. But I think I can do something like that with tofu. Or not? I have no idea. Partner would know that. That's Chinese, right? Tofu? Yeah, tofu. Can you do that? Maybe it's from Japanese or Chinese. Yeah, Chinese tofu. Yeah, because you could put Indian spices, Partner. Absolutely. Give it a shot. I've never made it with tofu. I will. But I love tofu. Tomorrow. I need to buy the tofu. Exactly. Partner, maybe. Maybe it's a pilaf. It's Indian rice with beef and lime. What is it called? Learner, what is it called? What is the name? What did you say? It's a pilaf. You know? No, not trying. Can you spell it? I'm trying to remember. Okay, I said pilaf. Spell it. Is it rice dish? It's... I don't know. This rice with beef and... And this. Are you talking about biryani? Biryani. Biryani is rice and lots of meat. One moment. One moment. I sent the photo. Yeah, send me a... Yeah, I'm going to send you a picture, but you can go ahead. Biryani. That's an authentic rice dish with meat. I think you might mean that. It's only made on special occasions. Oh, you know, you can make it anytime, but it takes a lot of work. Biryani. But there is another one that is called pilaf. But it's rice. Pilaf? Yeah. Oh, pulau. Pulau. Yes. Pulau. P-U-L. Yes. That's actually made with... In a cheesecloth made with chicken broth or beef broth. Pilau. I sent the photo. Yes, that's biryani. That's what it is. That's the picture of biryani. So that's what... It's a very authentic... I know. You're always talking about food. The whole class. What is happening over here? Is everybody getting hungry? No. It's delicious. I know. And see... That takes... See my kitchen. Maybe your noses. You want what? Oh, yeah. This is my kitchen, guys. Welcome to my kitchen. Very nice. Very nice. Thank you. This is the royal tour. And it's a little messy right now, but... I... You know, I think that's... That's all I'm going to show you. You don't want to see the mess. We're going to walk out of here. Go back to... We're now 12 o'clock night. No, because right now... After class goes... What's that? Uh-huh. Uh-huh. We now... 12 o'clock. This is night. Partner, I... But... Yeah? But after this class, I and my husband, we go this eating night.
+
+[01:18:16–01:27:51] Ночной перекус и международный potluck
+At midnight? At one o'clock in the morning? Are you serious? Really? Yes. Is there anything now? It is open? 12 o'clock in Russia? Yes. 12 o'clock in the morning? 12 o'clock in the morning? Yes. This is 12 o'clock this night. It's midnight, right? Very late. Oh my gosh. All right, Learner. That's why he's getting hungry. Because he's going to go... You guys are just... Yes. I'm hungry and I wanted to go to eat a bear and maybe a big pig. The big thing. And what are you going to eat? I'm just curious. What are you... What are you guys... What would you go get? What... Something Russian like an appetizer or a whole main dish? Or a sandwich? What will you go get after the class? Oh, sandwich. Mmm. That's very nice. And a hamburger. And a hamburger. Partner soup. My Rogan Josh. Partner Chinese tea. You know, Partner and Partner. What do you guys think? We should have a potluck, right? Any ideas, Partner? Partner is from Africa. So he must be a good cook, right? Partner and Partner. Actually. Yeah? Yeah. Actually. Sorry. Go ahead. I haven't checked the message. We do have this kind of dish. Maybe... Please share it. Absolutely, Partner. We'd love to... We're all sharing food over here. Might as well. Where are you from, Partner? I'm from... I'm from Somalia. Somalia. The country. Okay. East Africa, yeah. So we have this kind of rice. And... Uh-huh. Maybe the spices are a bit different. Yes, please. Show it to us. Let me check. Share the picture. Yeah. If you can, don't worry about it. I'm not going to pressure you. I don't have the image. No, no problem. I can share my screen. Okay. Sure. And Partner, in the meantime, where are you from? Which country? I forgot. Ethiopia? Ethiopia? Partner, are you there? Somali. His country is Somali. Partner, I think Afghanistan. Yeah. Afghanistan. Oh, nice. So, Partner, you can also share some of your dishes. Yeah. The biryani that you sent, we cook also sometimes like that. Oh, biryani? You have a polau, right? Like an Afghani polau. Polau, yeah. Yeah. Could you show us a picture? Put a picture in the chat. In Russian, too. Share it with us. Yeah. And, Partner, did you already share? Did you guys see? One second. I will share. Oh, yeah. No problem. Because I was trying to search because I don't have an image on my phone. Okay. Listen, guys. Please, don't worry about it. Okay? Don't hurt yourself trying to share. If you can't, you can't. I would love to share. Yeah, I know. I'm sure. I don't know. It's not easy to pull up pictures all of a sudden. So, oh, good. Maybe it'll come up. We just see a blank screen right now. Do you see that? No. No. Just a blank screen. Oh, now we see. Yeah. Spiced Somali rice. Oh, yummy. Somali. Somali rice. Do you have a picture of it? This is not my favorite one. This one is like without a lot of things because you can do like a variational. Nice. Uh-huh. Probably this is my favorite. I want to say. Oh, there it is. Okay. Wow. Looks good. Oh, very nice. Very nice. That's my language. What do we call the rice? Yeah. How do you pronounce that? How do you pronounce it? Baris. Baris. Baris. Yeah. Isku. Baris. Baris. Baris. Okay. Nice. It looks yummy. Yeah, it looks great. Okay. You have to share the recipe. Okay. Partner. This is the recipe. So can you send us a link, Partner, with the recipe since it's in English so we can cut and paste it? Yeah, please. Oh, okay. Yeah, please put it in the chat, Partner. Put the recipe. I'll try. Put the whole link in the chat and we can look it up. Cut and paste it. Oh, okay. That'd be awesome. Like I said, it's one recipe. So it's not like there's different ways that you can make it, you know. Nice. Oh, that looks amazing. Spice. Especially spiced Somali rice. Looks yummy. And Partner, if you'd like to share or talk about your Afghani Palau, you're welcome to do that, okay? Okay, guys. Yeah, do you want to share, Partner? Yes, I'm looking for a time to share. Oh, yeah, yeah. Take your time. Take your time. There's no hurry. So, guys, we have another maybe 15 minutes, 15, 20 minutes. And this whole class has been about food. I love it. So hungry. Like Learner and Partner, they're going to party after this. You know, we have to join you. The next time I'm coming to Russia, we're going to party. Okay, guys? Okay. You two have to show me around. I come over because I love to party too. I'm a night owl, you know? And my husband, he goes to, he's a night owl too, but he goes to sleep around 11, 12 o'clock. I'm still wide awake, you know? Anybody like me? You know, because I'm a very extrovert person. I'm sure you didn't notice that, right? I'm not very extrovert. No, you can tell that. You know, like, I'm like mucho, you know, major. Because I'm one of the most sociable people you've met. My mother, my sister, we're all like that. You know, and I'm a teacher, right? So I have to be expressive. So, you know, I'm always awake at night because I'm a night owl. And my husband's like, it's 2 o'clock in the morning. What the heck are you doing? We got all the lights on, the TVs. You know, that's what I am. You know, I take care of my family. I love my family. But after they go to sleep, that's when I, you know, I live it up. It is your time. Anybody? You know, so Learner and Partner and Partner and Partner and Partner and Partner, we're going to partay. Okay, guys? You know, we can have a midnight class if you like. Okay, just let me know. You know, we just go to the link at midnight. Partner might be, you know, wide awake and Learner in the morning. But then our midnight will be their morning time, right? So they'll finish their party and there will be a second party. What do you say, guys? Yes? Yes. Okay. All right. It's a date. You know, and China, Russia, India and Chile and Somalia and Afghanistan. We all go to party. All the countries together. And I will let Teacher know she can meet us too, right? Yeah. And so I want you guys to know that I live in Virginia, Fairfax, Virginia. Teacher lives in Maryland. Okay. Silver Spring, Maryland, I think. When you all come over, you have to let us know. Okay. Give us an ear notice. And we'll have a major international potluck. Okay. Everybody can come over to my house. Then we go to Teacher's house. We'll party. You know, I've got a big living room, big dining room. You all come over. You all come over. You all cleaner. Give me your ear's notice. Okay. Especially Learner. Let me know. So I'll make all that famous stuff for you. Okay. All the famous Indian dishes. And then Partner and Learner and all of you guys. You're going to, Partner, Partner, Partner. And you're all going to cook in my kitchen. Okay. Everybody can cook together. Okay. Awesome, right? Okay. Okay. Awesome. Yeah. I have a big kitchen, so let's all cook together. I'll get everybody together and Teacher and whoever is in the area. And we'll have a major international reunion potluck. So it's a date. Okay, guys? It's a date. I promise you. In maybe two or three years, just plan it. Okay? Okay. And so, guys, it is 1142. You want to do a little reading or you want to still keep talking? We didn't get much time because we're so hungry. We're talking about food. I got distracted. So I'll give you a little exercise in reading. Okay? I want to see how everybody reads. So let me give you an article. And we're going to do a little bit of reading. Okay? So I want to see how you pronounce stuff. Okay. And don't be upset if I correct you in the middle. Okay? Don't be upset. Okay? Because that's the way I teach, you know? And take it as a learning experience. So we'll learn about Rokan Josh. We want to read a little bit about Indian food. We can start some reading and get more hungry. More hungry. More hungry. More hungry. More hungry. More hungry. Mucho. Mucho hungry. Everybody more hungry. All right. Okay. So, Learner, why don't you start us up? We're learning about Rokan Josh. That's what I'm making in the kitchen. And I'm going to go turn it off because it might be getting burnt. Right? I'm cooking and I'm talking at the same time. But go check on my curry. Okay. Go ahead.
+
+[01:27:51–01:32:09] Чтение: aromatic, originating и brought
+Start reading, Learner. I want to hear you nice and loud. Everybody will have one turn. Okay? Go ahead. Start. Okay. Okay. Aromatic. Start with the aromatic. Aromatic. Curry. Meat. Dish. Curry. Yeah. So, say curry. Curry. Curry. Curry. Curry. Curry. And it's a D, right? So, you want to sound the D. Curry. Yes. Meat. Dish. Very good. Rogan Josh. Rogan Josh. Rogan Josh. Rogan Josh. Also spelled Rogan Josh. Spelled. Spelled. Spelled. Uh-huh. Uh-huh. Spelled Rogan Josh. Good. Good job. Gosh. Uh-huh. Okay. That's a handy word. That's a word in handy. Ghost. Uh-huh. Ghost. Uh-huh. Keep going. Ghost is aromatic. Curry. Meat. Dish. Curry. Good. Okay. Take that next word. Slowly. Break it down. Original. Right. Original. Keep going. You're doing good. Original. Original. It's after that. No, it's not original. It's not original. It's got an I-N-G at the end of it. So, originating. Original. Very good. Thank you, Ma. Originating. Originating. Originating. Originating. No, not needed. Ing. Ing. Originating. Originating. Originating. Originating. Originating. Good. Good job. Good job. Keep going. It's Kashmir. Kashmir. Kashmir. Yeah. It's a place in India. Kashmir. Kashmir. Valley. Valley. Valley of Jumu and Kashmir, India. Yeah. It's a place in India. It's called Jumu and Kashmir. Jumu and Kashmir, India. Fantastic. Keep going. Next paragraph. Just a little bit of the next paragraph. Click on the. Wikipedia, I think. Hold on, I'm trying to. Yeah, I'm getting there. It's just not... Oh, never mind. It opened up something else. Sorry if you had that. Okay. Give me a second. Yes. Yeah. I guess... You want me to click on that? We'll see what it is. Wikipedia. Okay, let's see. Oh, okay. Sounds good. I guess it's not really a very good paragraph to read. So let me give you this one. Okay. Go ahead with the origin. Read that paragraph. Learner, go ahead and read a couple of sentences. Origin. Okay, okay. Origin. In Persian cuisine. Cuisine. Cuisine. Rogan Josh was a dish, a mean fried in hot butter. Butter. It was bought. It's not No, not bought. It's not bought. It was Brot. Brot. Very good. Brot. Good job. Good job. Brot. To North India by the Mughals. Mughals. Mughals. People in India who ruled Mughals. The 16th Centro. Century. It's a I. Centro. Centro. Centro. Okay. So stop there for a second. Stop there. Okay. Very good. Good job. So try that word again. 16th. What's after 16th? 16th. What's this word? Century. Okay. Century. That's it. It's a Chu. Chu sound. It's pronounced century. Century. Ah. Century. Century. Good job. Good. Good. Okay. Stop. Century. Partner. Very good. Partner. Continue, please.
+
+[01:32:09–01:46:57] Чтение других участников и варианты английского
+According to the food historian, Lizzie. No, it's not his. Yeah, keep going. Historian. Uh-huh. According to the food historian, Lizzie Collingham. Collingham. Collingham. Keep going. You're doing great. The summer hurt of the heat. Summer heat. Summer heat of the gigantic plains. Okay. of central India. I know. It's a little complicated. Gangetic. Gangetic. Is it two G's, right? Yeah, I'm making it bigger for you. Can you see that better? Here we go. Gangetic plains. Gangetic plains of central India. Good. Let the Mughals to spend time in the cooler. Not Indian. Northern. Northern. Northern. Northern. Northern. Northern. Indian. Himalayan. Good. Region of Kashmir. Region. Region. Region of Kashmir. Good. Bringing their cuisine. Cuisine. Cuisine. with them. Good. Keep going. They made use of Kashmir. Oh, just a minute. This is Kashmiri. Kashmiri. Helps to color and flower their food. No, no, not flower. Flower. Flavor. Flavor. Thank you. Flavor. Flavor. Read this again. Read this phrase again. Highlight. Read that again. What's that word? Okay. Herbs. Herbs. Okay. So it's an H, but the H is silent. So it's pronounced herbs. Herbs. Herbs to color and flavor their food. Good job. You're doing great. Last sentence. Thank you. Rogan, Josh has become a staple of Kashmir. Kashmiri. Kashmiri cuisine. Uh-huh. And is one of the main dishes of the Kashmiri multi course meal. Okay, let's do this again. What is this? What's this word again? Multi course. multi, multi, good. Multi course, multi course meal. Yeah. Very good. Fantastic. Keep going. Was one. Yes. Very good. Good job. Good job. We're going to stop there. Partner, can you pick up the last paragraph? Good job, Partner. Chili peppers. Thank you. Okay. Chili peppers became available in India. Not become, became. Sorry, okay, became available in India after the Portuguese brought them to Goa early in the 16th century. The ancient spice trade had long since brought other spices from East Asia to the Indian subcontinent. Fantastic. Keep going. Next paragraph. Okay. You can read the caption if you want. Okay. Okay. Rogan Chosh had developed developed from a mildly from a mildly spice Persian dish to an Indian Kashmiri dish red with herbs in the time of the Mughal Empire to a British Indian restaurant. The restaurant dish read with the tomatoes and red peppers. Good. The spice trade had a long since brought spices to India. Fantastic. Okay. Partner, that was very good. Good job. Good pacing, everything. Okay, Partner, please continue. Good job, guys. You're doing great. Okay. Preparation. Good. Juergen Josh consists of pieces of lamp or molten breast with mutton braised with gravy flavored with garlic, ginger and aromatic spices. Aromatic. Aromatic spices. Clo bell leaves, cardamom and cinnamon. Cardamom and cinnamon. Good job. And in some versions, incorporating onis or yogurt. Good job. Keep going. After initial braising, the dish is often finished using the Don't worry about that word. Keep going. Slow cook. Dempok tech. Dempok tech. Mm-hmm. Dempok tech. I don't know, so don't worry about it. Slow cooking tech. Good job. All right. Fantastic. Good job. Partner, pick it up. Thank you. Very good. Good job. Good pacing. Partner, are you there? Partner, you're here. I'm here. I'm here. I'm here. I was here. No problem. It's characteristic. Okay, let's stop there. What's this word after it? It's characteristic. Characteristic. Characteristic. Characteristic. Deep red color traditionally comes from herbs. Herbs. Herbs. such as the dried flowers or roots of Alcana Tinctoria. Uh-huh. Right and George. Oh, don't worry about it. Yeah. Okay. Or from Kashmiri red chili. Fantastic. Keep going. Next sentence. There are different approaches in preparation. Good. Some use pram, a local form of shallot. Shallot. shallot. It's an onion. Okay. And petals of maval. Maval. It's an Indian term. Maval. Okay. Maval. Okay. Cucko's comb flower. Cock. Cock's comb flower. Cock's comb flower for coloring and for its supposed cooling effect. Good. Sure. Keep going. Others add yogurt and asafoetida. It's an Indian term. It's a tongue twister. So I'll say it slowly. Asafoetida. Try that. Asafoetida. Fantastic. To give additional body and flower. Not flower. Flavor. Flavor. Flavor. Although it's very flowery. I know. Yes. It's very flowery. Flavor. How are we doing on time, guys? Partner, can you tell me the time, please? Because I lost track of time here. It's 11.55. 11.55? Okay. We'll cut this. Thank you, Partner. Excellent. Can you read the last paragraph, please? Adaptations. Save also curry in the United Kingdom. Good job. While traditional preparation uses whole dried chilies that are deseeded socks in water and ground to a paste. Non-traditional shortcuts use either Kashmiri chili powder or a mixture of paprika predominantly predominantly and cani pepper adjusted to taste. Good. Mother Chaffery suggests anything from four to 16 times as much paprika as kaini and updated kaini. Keep going. An updated version served in Sanjeev Kapoor. Sanjeev Kapoor. He's a famous Indian shop. Keep going. Sanjeev Kapoor's restaurants uses white and black cardamom, anise and bay leaves. It's anise. Anise. That's a spice. Anise and bay leaves. Very good guys. Fantastico. Everybody read so well. I'm so proud of you. No, really, because some of these words are not easy. So good job. Keep it up. Okay. I'm going to put this link in the chat. Okay, guys? And then we'll go to the main session. Everybody, please return to the main session because I'm going to, you know, close the breakout rooms. Everybody can come back to the main session. But here, here's the link. I've posted the link. Please look it over and read this article about Indian food. Okay? Different things. All right. All right. Good job. And please I'm going to stop sharing. Let's leave and go to the main session. Okay? I'll see you there. Good job. Excellent, guys. Good job. I'm hungry now. Let's go eat. We're hungry. closing all the rooms. Keep talking. All right? Everybody's going to come back to the main session. Welcome back. So how did you like the class? In my class? How did you like it? Any comments? Very nice. Very nice. You liked it? Have fun? I know. We had so much fun. You know, I'm building up an appetite, you know, now. And thank you so much for everybody sharing their foods. So next, we'll be back in two weeks, okay? We're going to be back in two weeks. So this coming Saturday after Thanksgiving, we are not meeting. And we're going to meet the next Saturday, which is, what is the next Saturday? Let me look at the date, okay? The 5th. The 5th. Oh, thank you. Wow. I will be absent December 5th. So Teacher, I was just showing everybody my kitchen. This is my kitchen. I just cooked some authentic Indian food, Rogan Josh. And we learned about my lamb dish today. It's a very authentic lamb curry. And it's very hot. Otherwise, I would show it to you. Oh, well, I'm hungry. I'm hungry. Here is my food guys. Here is a lamb. Let's go to visit. Oh, yeah. Wow. I don't know if you can see it or not. Wow. Yeah, we can. I have a question for you. I have a question for you. This is one of my favorite authentic things to make. So we are going to have an international potluck, okay? Everybody's going to bring in a recipe from their own country in two weeks, Teacher. How does that sound, everybody? Are we good? I won't be here in two weeks. Oh, that's right. Oh, you're not going to be here in two weeks. When are you coming back? Let them know. In three weeks, I'm coming back on the 12th. Okay, so she'll be back December 12th. Oh, wait a minute, wait a minute. No, no, I'm coming back. I'm flying back from France that night. Oh, okay. so I'm going to be back in four weeks. Wow. Wow. Are you serious? Are you going to France? Yeah. All right. I'm going to be on. Yeah. I'm going to be on. Okay. Yeah. Wow. Oh, la, la, la, la, la, la. Very nice. And maybe she'll meet some nice French people over there, you know? Oh, well, I'll be staying with, I'll be staying with my friend from college and his wife, and then we're going to drive down to Chauvet Cave, which is, a prehistoric paint with prehistoric painting. Are they French? Are they Native to France? No, they're not. No, they're Americans who, they're expats. Explain what expats is. Expatriots. So out of their own country. All right. Out of. They're out. They're like exchange students, right? What's the difference between expats and migrants? Yeah. None. All the poor. It's implied that expats have money. Oh, okay. It just has that sound to it. It is. How do you know? It was a choice. Maybe they were government workers and they're retired. And migrants, it maybe means that they had to leave, that they had no choice because of whether or money or lost their job. You don't know. You don't know. Wow, guys. Before we know it, Teacher will be all Frenched out, you know? She'll be bonjour, everybody. Yes, bonjour. Bonjour. Bonjour. Bonjour. Bonjour. Parlez-vous, Francais? Yeah. All right, guys. So I will see you in two weeks. Yeah, exactly. We're going to miss you, Teacher. We're going to miss you so much. I know. Oh, yeah. But she's going to be enjoying it. Yes. Take lots of pictures. We want to see pictures when you come back. Okay. Have a fantastic. And make sure that you get all the French food you can because I love French food. Oh, yeah. And, guys, I will see you in two weeks. And Teacher will be here in a month. December 5th. Right, Teacher? What's the date?
+
+[01:46:57–01:48:02] Завершение, следующая встреча и expats
+Next class. December 5th. Saturday. December 5th. Okay. So December 5th. We are not meeting next Saturday. So please don't go. No meeting next Saturday. Nobody will be here. We'll be eating because Learner and Partner have got me into the evening. Thanksgiving weekend. They've been hungry the whole class, Teacher. I'm telling you. Me too. I know. Let's eat. Everybody have a great Thanksgiving. God bless. Live it out. Thank you. Thank you. Lots of turkey. Lots of signs. Enjoy your meal. Have a wonderful Thanksgiving. Thank you. And we'll see you in two weeks. Bye-bye, guys. Bye-bye. Bye-bye. Hasta la vista, baby. Thank you. Thank you. Thank you. Hasta la vista. Bye-bye. Bye-bye. God bless. Bye, Learner. Bye, Partner. Bye-bye. Have a good day. Bye-bye. Bye-bye. Bye-bye. And Learner, you and Partner, I hope you have a great romantic time together. Partner, my friend. Bye-bye. Bye-bye. Bye-bye. Buenas tardes.
+
+### Перевод / пояснения
+
+Смысловой путеводитель по всем блокам; не дословный перевод каждого английского слова.
+
+[00:00:00] Знакомство и приглашение говорить
+Участники представляются и обсуждают, как прошла неделя. Преподаватели приглашают говорить свободно, уточнять произношение имён и исправлять их. Личные имена обезличены; фрагменты о возрасте и правилах относятся к этой группе, а не всем школам.
+
+[00:04:15] Три F и история праздника
+Food, family and football — еда, семья и американский футбол. Следуют объяснения о поселенцах, коренных народах и неоднозначном восприятии праздника. Даты и исторические упрощения из устной беседы здесь не подтверждаются и не предлагаются как учебные факты.
+
+[00:07:59] Sow, sew, so и therefore
+Обсуждаются созвучные слова: sow — сеять, sew — шить, so — поэтому/так/настолько. Therefore формальнее и обозначает логический вывод; so имеет больше функций. В ASR написания местами смешаны. Поэтому орфографию в упражнениях проверяем по словарным моделям, а не по автоматическому тексту.
+
+[00:17:22] Фильмы и подписка на канал
+Ученик упоминает фильм Planes, Trains and Automobiles, который сначала не удаётся распознать собеседникам. Обсуждение переходит к сезонным фильмам и Hallmark. Различают subscribe to a channel — подписаться на канал и prescribe medicine — назначить лекарство; оговорка здесь принадлежит преподавателю.
+
+[00:19:30] Выбор формата и распределение по комнатам
+Преподаватель собирает мнения: перейти в малые группы или продолжить общую беседу. I’m okay with either choice означает, что подходят оба варианта. Обсуждаются китайские праздники и сезон семейных встреч. Затем преподаватели распределяют участников по комнатам.
+
+[00:25:05] Небольшой разговор о месте жительства
+В комнате участники уточняют города и длительность проживания. Для действия, начавшегося раньше и продолжающегося сейчас, полезна модель I’ve lived here for eight years. Это языковая модель; сведения о мероприятиях и географии из разговора отдельно не проверялись.
+
+[00:27:44] Какие блюда готовят на Thanksgiving
+Ученик пытается спросить о праздничной еде, и преподаватель переформулирует вопрос. В центре обсуждения turkey, stuffing, sides, creamed corn, green bean casserole, mashed potatoes, gravy и cranberry sauce. Main dish — основное блюдо, side dish — гарнир/дополнение.
+
+[00:30:58] Способы готовить индейку
+Участники уточняют, готовят ли индейку в духовке, на гриле или во фритюре, целиком или кусками. Время зависит от размера и способа; приведённые в беседе часы не являются инструкцией по пищевой безопасности. For three to five hours — длительность; on the stove и in the oven — разные способы.
+
+[00:33:55] Показ фотографий и просьба дать ссылку
+Преподаватель показывает гарниры и рецепты. Ученик говорит, что вид еды вызывает аппетит, и просит страницу. Сначала share the page понимают как демонстрацию экрана; уточнение share the link устраняет двусмысленность. Your mouth is watering — у тебя слюнки текут.
+
+[00:37:34] Шутливое приглашение и кухня дома
+Группа шутит о приезде в гости и необходимости предупредить заранее. Преподаватель рассказывает о нехватке времени для готовки. Give me a year’s notice — предупреди за год; cook up a storm — много и с увлечением готовить. Эти шутки не являются настоящей договорённостью о поездке.
+
+[00:41:54] Рецепты, leftovers и перерыв на праздник
+Участники обсуждают напитки, варианты блюд и leftovers — оставшуюся еду, из которой можно приготовить новое блюдо. Звучит предупреждение, что следующая суббота без занятий. Советы об алкоголе и рецептах остаются контекстом разговора; правовые утверждения из записи не проверяются.
+
+[00:48:49] Планы на каникулы и поездка в Нью-Йорк
+Участник собирается тренироваться в теннисе через день и поехать в Нью-Йорк. Every other day — через день; play doubles — играть в паре. Обсуждаются вкусы и предпочтения; обобщения о городах и жителях не стоит повторять как факты.
+
+[00:50:11] Rip off, scam и con
+Преподаватель объясняет rip someone off на примере завышенной цены или товара, не стоящего уплаченных денег. Участники предлагают scam и con. Это близкие по теме выражения, но rip-off часто значит неоправданно дорогую покупку; не каждый такой случай автоматически является доказанным мошенничеством.
+
+[00:54:30] Кухни мира и предпочтения
+Группа обсуждает японскую, корейскую, китайскую и другие кухни. Участник предпочитает менее жирную и менее острую еду; сравниваются региональные кухни Китая. В учебных ответах личные предпочтения заменяют обобщения о том, что едят все жители страны.
+
+[00:58:24] Чилийская cazuela и описание блюда
+Собеседница показывает суп/рагу с мясом и овощами. Уточняются corn, potato, pumpkin, beef и broth. Группа просит фото и рецепт. It looks delicious — выглядит вкусно; What ingredients do you use? — какие ингредиенты используешь? Название блюда в ASR передано несколькими способами.
+
+[01:05:04] Счётные единицы и рецептурная лексика
+Группа читает список ингредиентов и переводит испанские слова. По-английски a clove of garlic / two cloves of garlic, а не teeth of garlic. Обсуждаются rice, oregano, white pepper, sea salt и травы. Учебная терминология не восстанавливает пропущенный рецепт.
+
+[01:09:05] Ученик представляет чайный проект
+Ученик показывает свой сайт с информацией о китайском чае; преподаватель уточняет, продаёт ли он чай или публикует сведения. Различие tea shop и information resource важно для ясного представления проекта. В моделях: I run a community; I’m building a resource; I update the website regularly.
+
+[01:12:08] Виды чая и происхождение
+Собеседники обсуждают белый, зелёный, жёлтый и другие виды чая, а также плантации и перевод сайта. Tea обычно неисчисляемое, types of tea — счётная конструкция. Высказывания о пользе чая и классификации сохраняются как речь участников, а не медицинские рекомендации.
+
+[01:12:43] Rogan Josh, tofu и рисовые блюда
+Преподаватель показывает приготовляемое блюдо и объясняет aromatic curry, lamb, mutton и spices. Собеседница думает о вегетарианской адаптации с tofu. Затем пытаются различить pilaf/pulao и biryani; исходные названия местами распознаны неточно.
+
+[01:18:16] Ночной перекус и международный potluck
+Ученик и партнёр говорят о позднем времени и планах поесть. Обсуждаются блюда разных стран и potluck — встреча, на которую каждый приносит еду. Night owl — человек, который любит поздно ложиться; wide awake — совсем не сонный.
+
+[01:27:51] Чтение: aromatic, originating и brought
+Ученик читает о Rogan Josh. Преподаватель просит замедлиться и разделить длинное слово на части; противопоставляются original и originating, boat и brought в автоматическом тексте. Это тренировка чтения; ASR сам по себе не доказывает конкретную фонетическую ошибку.
+
+[01:32:09] Чтение других участников и варианты английского
+Другие участники читают происхождение и приготовление блюда. Разбираются cuisine, northern, flavour, characteristic и названия специй. Уточнение: herbs часто без /h/ в американском английском, а в британском /h/ обычно произносится. Единый запрет произносить h был бы неверен.
+
+[01:46:57] Завершение, следующая встреча и expats
+При завершении снова уточняют: следующую субботу пропускают, следующая встреча — 5 декабря. Обсуждается поездка одной преподавательницы и слово expat. Стереотипное противопоставление expat и migrant по достатку не является строгим определением; оба слова описывают людей, живущих вне страны происхождения, с разными контекстами употребления.
+
+## Грамматика · Составь вопрос
+
+Спроси по-английски: «Что вы обычно готовите к этому празднику?»
+
+### Образец и самопроверка
+
+What do you usually cook for this holiday?
+Do + you + cook. Для сейчас: What are you cooking?
+
+## Грамматика · Настоящая реакция
+
+Исправь для текущей ситуации: I see this food and I wanted to eat.
+
+### Образец и самопроверка
+
+Looking at this food is making me hungry. / When I see food, I want to eat.
+
+## Грамматика · Проживание
+
+Заполни: I ___ (live) here ___ eight years. Я всё ещё здесь живу.
+
+### Образец и самопроверка
+
+I’ve lived here for eight years. Также возможно I’ve been living here for eight years.
+
+## Грамматика · Чай и чеснок
+
+Исправь: many tea; two teeth of garlic; many rice.
+
+### Образец и самопроверка
+
+many types of tea; two cloves of garlic; a lot of rice. Tea/rice здесь неисчисляемые.
+
+## Грамматика · Если приедем
+
+Составь вежливый ответ по модели if: мы с женой приедем в США → сообщим заранее.
+
+### Образец и самопроверка
+
+If my wife and I visit the United States, we’ll let you know in advance.
+
+## Грамматика · Назначение сайта
+
+В двух предложениях объясни, что ты ведёшь чайное сообщество и регулярно обновляешь информационный ресурс.
+
+### Образец и самопроверка
+
+I run a tea community. I update an online resource about Chinese tea regularly.
+
+## Грамматика · So и therefore
+
+Выбери по функции: This food is ___ good. It is expensive; ___, I’ll compare prices. I don’t think ___.
+
+### Образец и самопроверка
+
+so; therefore; so. Усилитель, логический вывод, замена предыдущего утверждения — разные функции.
+
+## Грамматика · Источник и ингредиент
+
+Исправь: It was boat to the region. This dish is make with lamb.
+
+### Образец и самопроверка
+
+It was brought to the region. This dish is made with lamb. Bring–brought–brought; make–made–made.
+
+## Практика · Смысл просьбы
+
+Почему просьбу share the page не поняли? Сформулируй точную просьбу.
+
+### Образец и самопроверка
+
+Собеседник подумал о показе экрана. Could you share the web link in the chat, please?
+
+## Практика · Покупка
+
+Объясни своими словами rip someone off. Обязательно ли любая высокая цена доказывает мошенничество?
+
+### Образец и самопроверка
+
+To make someone pay far more than something is worth. Высокая цена сама по себе не доказывает мошенничество; контекст важен.
+
+## Практика · Традиция и мнение
+
+Назови одно высказывание о праздничных традициях и добавь ограничение, чтобы не говорить за всех.
+
+### Образец и самопроверка
+
+Some families serve turkey with several side dishes, but traditions vary from family to family.
+
+## Практика · Проект за 30 секунд
+
+Представь свой реальный проект: цель, кому полезен, пример содержания, вопрос собеседнику. Не добавляй несуществующие функции.
+
+### Образец и самопроверка
+
+I’m building a resource about Chinese tea. It helps readers compare different types and learn where tea grows. Would you like me to show you one section?
+
+## Практика · После урока
+
+Расскажи о блюде, которое хотел бы попробовать. Используй recipe, ingredients и give it a shot.
+
+### Образец и самопроверка
+
+I’d like to try this recipe. I’ll check the ingredients first, and then I’ll give it a shot. Это модель, ответ может быть другим.

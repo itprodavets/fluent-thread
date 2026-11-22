@@ -176,5 +176,13 @@
     "school": "ACE TEFL",
     "date": "2026-11-21",
     "path": "lessons/ace-tefl/report-opening-sentences/lesson.json"
+  },
+  {
+    "id": "uuca-esol/food-traditions-and-sharing-a-project",
+    "language": "en",
+    "topic": "Праздничный стол, кухни мира и рассказ о своём проекте · UUCA ESOL",
+    "school": "UUCA ESOL",
+    "date": "2026-11-21",
+    "path": "lessons/uuca-esol/food-traditions-and-sharing-a-project/lesson.json"
   }
 ]

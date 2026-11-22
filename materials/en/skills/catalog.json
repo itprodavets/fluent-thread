@@ -133,6 +133,35 @@
             "origin": "образец ответа"
           }
         ]
+      },
+      {
+        "school": "UUCA ESOL",
+        "title": "Уточнить ссылку и ингредиенты",
+        "prompt": "You can see your partner’s screen but need the recipe link. Ask for it, then ask about a vegetarian adaptation.",
+        "answer": "Could you share the web link in the chat, please? Could I adapt this recipe with tofu?",
+        "role": {
+          "line": "I’m already sharing the recipe on my screen. What else do you need?",
+          "patterns": [
+            "Could you",
+            "Could I"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "Could you share the web link in the chat, please?",
+            "meaning": "Можете отправить ссылку на страницу в чат?",
+            "pattern": "Could you + base verb; share the link уточняет цель просьбы.",
+            "example": "Could you share the recipe link in the chat, please?",
+            "origin": "учебная адаптация диалога"
+          },
+          {
+            "phrase": "Could I adapt this recipe with tofu?",
+            "meaning": "Могу я изменить этот рецепт, используя тофу?",
+            "pattern": "Could I + base verb — вежливый вопрос о возможности.",
+            "example": "Could I adapt this recipe for vegetarian guests?",
+            "origin": "учебная адаптация диалога"
+          }
+        ]
       }
     ]
   },

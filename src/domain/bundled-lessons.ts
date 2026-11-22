@@ -1,6 +1,7 @@
 import catalog from '../../materials/en/lessons/catalog.json';
 
 const loaders: Record<string, () => Promise<{ default: string }>> = {
+  "uuca-esol/food-traditions-and-sharing-a-project": () => import('../../materials/en/lessons/uuca-esol/food-traditions-and-sharing-a-project/lesson.json?raw'),
   "ace-tefl/report-opening-sentences": () => import('../../materials/en/lessons/ace-tefl/report-opening-sentences/lesson.json?raw'),
   "ih-bangkok/technology-breaks-and-celebration-plans": () => import('../../materials/en/lessons/ih-bangkok/technology-breaks-and-celebration-plans/lesson.json?raw'),
   "ace-tefl/reports-and-mirror-town": () => import('../../materials/en/lessons/ace-tefl/reports-and-mirror-town/lesson.json?raw'),
