@@ -77,3 +77,18 @@ test('language metadata conflict resolution preserves concurrent graph entries',
     assert.deepEqual(resolved.study.languages.en, { setting: keepLocal ? 'mine' : 'theirs', learningMap: { a: entry(20), b: entry(30) } });
   }
 });
+
+test('metadata conflict choices patch only conflicted paths and retain merged and subsequent sibling edits', () => {
+  for (const keepLocal of [true, false]) {
+    const base = { setting: 'old', note: 'original', nested: { setting: 'old', note: 'original' }, learningMap: {} };
+    const local = { ...base, setting: 'mine', note: 'independent', nested: { setting: 'mine', note: 'independent' } };
+    const remote = { ...base, setting: 'remote', nested: { setting: 'remote', note: 'original' } };
+    let next = reconcile(document(local, base), remote);
+    assert.equal((next.study.languages.en as any).note, 'independent');
+    assert.equal(next.conflicts.length, 2);
+    next.study.languages.en = { ...(next.study.languages.en as any), later: 'kept', nested: { ...(next.study.languages.en as any).nested, later: 'kept' } };
+    for (const conflict of [...next.conflicts]) next = resolveConflict(next, conflict.id, keepLocal);
+    assert.deepEqual(next.study.languages.en, { setting: keepLocal ? 'mine' : 'remote', note: 'independent', later: 'kept',
+      nested: { setting: keepLocal ? 'mine' : 'remote', note: 'independent', later: 'kept' }, learningMap: {} });
+  }
+});
