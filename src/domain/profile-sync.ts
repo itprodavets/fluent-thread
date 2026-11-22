@@ -75,6 +75,37 @@ export function mergeValue(base: Value, local: Value, remote: Value, counters = 
   }
   return { value: remote, conflict: true };
 }
+// Language metadata retains its existing merge semantics. Only the sparse graph
+// dictionary treats missing first-creation containers as empty; entries are atomic.
+function mergeLanguage(base: Value, local: Value, remote: Value): { value: Value; conflict: boolean } {
+  const object = (value: Value) => value && typeof value === 'object' && !Array.isArray(value);
+  if (![local, remote].every(object) || base !== null && base !== undefined && !object(base)) return mergeValue(base, local, remote);
+  if (![base, local, remote].some(value => object(value) && own(value, 'learningMap'))) return mergeValue(base, local, remote);
+  const withoutOverlay = (value: Value) => {
+    if (!object(value)) return value;
+    const { learningMap: _overlay, ...metadata } = value;
+    return metadata;
+  };
+  const metadata = mergeValue(withoutOverlay(base), withoutOverlay(local), withoutOverlay(remote));
+  const before = base?.learningMap, mine = local.learningMap, theirs = remote.learningMap;
+  let overlay: { value: Value; conflict: boolean };
+  if (equal(mine, before)) overlay = { value: theirs, conflict: false };
+  else if (equal(theirs, before) || equal(mine, theirs)) overlay = { value: mine, conflict: false };
+  else if ([mine, theirs].every(object) && (before == null || object(before))) {
+    const value: Record<string, Value> = {}; let conflict = false;
+    for (const key of new Set([...Object.keys(before ?? {}), ...Object.keys(mine), ...Object.keys(theirs)])) {
+      if (forbidden(key)) continue;
+      const prior = before?.[key], left = mine[key], right = theirs[key];
+      let entry: Value;
+      if (equal(left, prior)) entry = right;
+      else if (equal(right, prior) || equal(left, right)) entry = left;
+      else { entry = left === null || right === null ? null : right; conflict = true; }
+      if (entry !== undefined) value[key] = entry;
+    }
+    overlay = { value, conflict };
+  } else overlay = mergeValue(before, mine, theirs);
+  return { value: { ...metadata.value, ...(overlay.value === undefined ? {} : { learningMap: overlay.value }) }, conflict: metadata.conflict || overlay.conflict };
+}
 export function pendingChanges(document: ProfileDocument): Change[] {
   const records = packStudy(document.study);
   return [...new Set([...Object.keys(records), ...Object.keys(document.base)])].flatMap(id => {
@@ -96,6 +127,7 @@ export function reconcileRows(document: ProfileDocument, rows: CloudRow[], sent?
     const group = JSON.parse(row.id)[0];
     const merged = group === 'order' && Array.isArray(local) && Array.isArray(row.value)
       ? { value: [...new Set([...row.value, ...local])], conflict: false }
+      : group === 'languages' ? mergeLanguage(previous, local, row.value)
       : mergeValue(previous, local, row.value, group === 'practiceDays');
     records[row.id] = merged.value;
     base[row.id] = { value: row.value, revision: row.revision };
