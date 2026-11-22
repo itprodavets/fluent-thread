@@ -55,7 +55,7 @@ function TopicEditor({ entry, position, finish }: { entry?: Topic; position?: Ma
     const materials = entry ? topicMaterials(entry) : [];
     const text = String(data.get('material')).trim();
     const next: Topic = {
-      ...entry, position: entry?.position ?? position, id: entry?.id ?? crypto.randomUUID(), title, language: study.language, links: [...chosen],
+      ...entry, position: entry ? entry.position : position, id: entry?.id ?? crypto.randomUUID(), title, language: study.language, links: [...chosen],
       prompt: String(data.get('prompt')).trim(),
       materials: text && !materials.some(material => material.text === text) ? [...materials, { format: String(data.get('format')), text }] : materials
     };
@@ -154,6 +154,7 @@ export function MapPage() {
   }
 
   function edit() {
+    setNewPosition(undefined);
     setFormVisible(true);
     setEditor(previous => ({ mode: 'edit', revision: previous.revision + 1 }));
     if (details.current) { details.current.open = true; details.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
@@ -168,7 +169,7 @@ export function MapPage() {
           <h2 lang={topic.language}>{topic.title}</h2>
           {topic.prompt && <p>{topic.prompt}</p>}
           <label className="compact-field">Тема <select value={topic.id} onChange={event => {
-            openTopic(event.target.value); select(undefined); setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
+            openTopic(event.target.value); select(undefined); setNewPosition(undefined); setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
           }}>{active.topics.map(entry => <option key={entry.id} value={entry.id}>{entry.title}</option>)}</select></label>
           <div className="actions"><button className="primary" type="button" onClick={() => practice(topic.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>
           {topicMaterials(topic).length > 0 && <Fold title={`Примеры к теме · ${topicMaterials(topic).length}`}>
@@ -190,10 +191,18 @@ export function MapPage() {
         </> : <StarterMap key={study.language} />}
         {topic && <Fold title="Карта-пример"><StarterMap key={study.language} /></Fold>}
       </section>
-      <details ref={details} className="fold editor" open={!topic || undefined} onToggle={event => setFormVisible(event.currentTarget.open)}>
+      <details ref={details} className="fold editor" open={!topic || undefined} onToggle={event => {
+        const open = event.currentTarget.open;
+        setFormVisible(open);
+        if (!open) {
+          setNewPosition(undefined);
+          setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
+        }
+      }}>
         <summary>{editor.mode === 'edit' ? 'Редактировать тему' : 'Новая тема'}</summary>
-        {(formVisible || !topic) && <TopicEditor key={study.language + ':' + editor.revision + ':' + (editor.mode === 'edit' ? topic?.id : 'new')} position={newPosition} entry={editor.mode === 'edit' ? topic : undefined} finish={id => {
+        {(formVisible || !topic) && <TopicEditor key={study.language + ':' + editor.revision + ':' + (editor.mode === 'edit' ? topic?.id : 'new')} position={editor.mode === 'new' ? newPosition : undefined} entry={editor.mode === 'edit' ? topic : undefined} finish={id => {
           openTopic(id);
+          setNewPosition(undefined);
           setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
           if (details.current) details.current.open = false;
         }} />}
