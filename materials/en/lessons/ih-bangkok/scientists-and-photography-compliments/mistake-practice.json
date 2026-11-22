@@ -1,0 +1,69 @@
+{
+  "id": "ih-bangkok/scientists-and-photography-compliments",
+  "recordingKey": "lesson-2026-11-22-ih-scientists-photos",
+  "school": "IH Bangkok",
+  "date": "2026-11-22",
+  "notice": "Only local context supports learner attribution; no persistent speaker identity or verified diarization. Grammar practice uses clear repeated structures and directly addressed responses. ASR distortions of scientific names, reading-aloud errors, uncertain speaker turns and optional naturalness excluded. Corrections are authored models, not claims to reconstruct the sound.",
+  "cards": [
+    {
+      "id": "think-clause",
+      "time": "03:15–03:43; 16:58–17:22; 34:09–34:30",
+      "title": "Мнение через I think + предложение",
+      "original": "i think about uh she's studying outside near the radio telescope / i think about number two because emily tell Partner / I think about first, Partner is surprised and skeptic.",
+      "corrected": "I think she is standing near a radio telescope. I think the second summary is correct. At first, her friend is surprised and sceptical.",
+      "reason": "Повторяющаяся конструкция слышна в самостоятельном описании и после прямых обращений к Learner при ответе о резюме и отношении. Для мнения с целым предложением нужно I think + clause. I think about this в других репликах может быть правильно; about не удаляется автоматически. Модели не восстанавливают неясные слова ASR.",
+      "partner": "What do you think is happening in this picture?",
+      "prompt": "Выскажи мнение о фотографии и отдельное мнение о реакции героини.",
+      "checklist": [
+        "После I think следует полноценное предложение.",
+        "Использую think about только для обдумываемой темы или действия."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "sceptical",
+      "time": "34:09–34:30",
+      "title": "Характеристика: sceptical, а не существительное sceptic",
+      "original": "I think about first, Partner is surprised and skeptic.",
+      "corrected": "At first, her friend is surprised and sceptical, but later she supports the idea.",
+      "reason": "Ответ о втором вопросе завершается прямой похвалой Learner, что локально поддерживает атрибуцию. В данной структуре после surprised and нужна параллельная характеристика sceptical/skeptical. Sceptic/skeptic — существительное, возможное в She is a sceptic. Это грамматический выбор класса слова, не диагноз произношению.",
+      "partner": "How does her friend’s attitude change?",
+      "prompt": "Сравни начальное и конечное отношение с помощью at first и later.",
+      "checklist": [
+        "После be использую нужную форму прилагательного.",
+        "Описываю перемену отношения с опорой на Good on you."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "active-created",
+      "time": "45:10–45:36",
+      "title": "Создала сама: Past Simple активного залога",
+      "original": "She is created a life-changing term, but she died 24 years.",
+      "corrected": "She created a life-changing treatment, but she died at the age of 24.",
+      "reason": "После прямого обращения к группе Learner отчитывается о личном и групповом выборе; связная последовательность поддерживает локальную атрибуцию. Если она создала лечение, нужна She created, без is. Term/treatment — ненадёжное распознавание, не отдельная лексическая ошибка. Биография передана как смысл обсуждаемого профиля, а не независимо проверенный факт.",
+      "partner": "Why did you choose that scientist?",
+      "prompt": "Объясни действие учёного активной формой и переформулируй его пассивно.",
+      "checklist": [
+        "В активной форме использую created без is.",
+        "В пассиве меняю подлежащее: The treatment was created… ."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "age-at",
+      "time": "42:22–42:26; 45:10–45:36",
+      "title": "Возраст события: at 24 / at the age of 24",
+      "original": "But she died 24 years. / but she died 24 years.",
+      "corrected": "She died at 24. / She died at the age of 24.",
+      "reason": "Фраза повторяется сначала в объяснении личного выбора, затем в отчёте после обращения к группе Learner. В значении возраста нужен at; for 24 years выражало бы длительность и не подходит к died. Читаемая позднее корректная формулировка at 24 не считается второй ошибкой.",
+      "partner": "How old was she when she died, according to the class profile?",
+      "prompt": "Скажи о возрасте в учебной истории и придумай пример с возрастом начала работы.",
+      "checklist": [
+        "Для возраста есть at либо at the age of.",
+        "Не смешиваю возраст и длительность for + years."
+      ],
+      "kind": "grammar"
+    }
+  ]
+}

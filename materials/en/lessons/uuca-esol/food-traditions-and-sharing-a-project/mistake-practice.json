@@ -1,0 +1,84 @@
+{
+  "id": "uuca-esol/food-traditions-and-sharing-a-project",
+  "recordingKey": "lesson-2026-11-21-uuca-food-project",
+  "school": "UUCA ESOL",
+  "date": "2026-11-21",
+  "notice": "Contextual practice from learner turns, not verified speaker identification. ASR limitations and authored corrections stated. Reading and other participants’ speech excluded.",
+  "cards": [
+    {
+      "id": "food-question",
+      "time": "00:27:44",
+      "title": "Спроси, какие блюда обычно готовят к празднику.",
+      "original": "what is uh food cooking",
+      "corrected": "What do you usually cook for Thanksgiving?",
+      "reason": "Вопрос о традиции требует do + subject + cook. Для процесса сейчас: What are you cooking? Контекст связывает вопрос с учеником, но точность ASR не абсолютна.",
+      "partner": "What would you like to know about Thanksgiving?",
+      "prompt": "Спроси, какие блюда обычно готовят к празднику.",
+      "checklist": [
+        "Передаю задуманный смысл без добавления новых фактов.",
+        "Использую конструкцию из объяснения; могу переформулировать ответ своими словами."
+      ],
+      "kind": "contextual-grammar"
+    },
+    {
+      "id": "hungry-now",
+      "time": "00:33:33",
+      "title": "Скажи, что от вида этой еды тебе захотелось есть.",
+      "original": "I see food and I wanted to eat.",
+      "corrected": "Looking at this food is making me hungry.",
+      "reason": "Обсуждается текущая реакция на фотографии, поэтому wanted не подходит для задуманного настоящего. Можно проще: When I see food, I want to eat.",
+      "partner": "Can you see the pictures of the food?",
+      "prompt": "Скажи, что от вида этой еды тебе захотелось есть.",
+      "checklist": [
+        "Передаю задуманный смысл без добавления новых фактов.",
+        "Использую конструкцию из объяснения; могу переформулировать ответ своими словами."
+      ],
+      "kind": "contextual-grammar"
+    },
+    {
+      "id": "visit-condition",
+      "time": "00:36:48",
+      "title": "Ответь на приглашение: если приедете, хотели бы попробовать её блюда.",
+      "original": "we are going to uh united states with my wife",
+      "corrected": "If my wife and I visit the United States, we’d love to try your cooking.",
+      "reason": "Учебная реконструкция смысла шутливого приглашения. Артикль the United States; my wife and I в роли подлежащего. Не утверждается дословное восстановление обрывков.",
+      "partner": "Let us know if you come to visit.",
+      "prompt": "Ответь на приглашение: если приедете, хотели бы попробовать её блюда.",
+      "checklist": [
+        "Передаю задуманный смысл без добавления новых фактов.",
+        "Использую конструкцию из объяснения; могу переформулировать ответ своими словами."
+      ],
+      "kind": "clarity"
+    },
+    {
+      "id": "tea-community",
+      "time": "01:09:05",
+      "title": "Объясни, что ведёшь сообщество и создаёшь информационный ресурс, не обязательно магазин.",
+      "original": "I have a tea community and I have a digital Chinese tea.",
+      "corrected": "I run a tea community and I’m building an online resource about Chinese tea.",
+      "reason": "Digital Chinese tea не объясняет назначение сайта. Run a community и an online resource about… делают роль и содержание понятными.",
+      "partner": "Do you sell tea, or what do you do with it?",
+      "prompt": "Объясни, что ведёшь сообщество и создаёшь информационный ресурс, не обязательно магазин.",
+      "checklist": [
+        "Передаю задуманный смысл без добавления новых фактов.",
+        "Использую конструкцию из объяснения; могу переформулировать ответ своими словами."
+      ],
+      "kind": "clarity"
+    },
+    {
+      "id": "site-updates",
+      "time": "01:11:36",
+      "title": "Скажи, что регулярно обновляешь сайт и добавляешь сведения о плантациях.",
+      "original": "Every time I updated this site and I want to",
+      "corrected": "I update the website regularly and add information about tea plantations.",
+      "reason": "Для повторяющегося действия — Present Simple. Every time требует события или придаточной части; regularly означает регулярно.",
+      "partner": "What information do you add to the website?",
+      "prompt": "Скажи, что регулярно обновляешь сайт и добавляешь сведения о плантациях.",
+      "checklist": [
+        "Передаю задуманный смысл без добавления новых фактов.",
+        "Использую конструкцию из объяснения; могу переформулировать ответ своими словами."
+      ],
+      "kind": "clarity"
+    }
+  ]
+}

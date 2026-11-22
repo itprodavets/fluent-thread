@@ -1,0 +1,57 @@
+[
+  {
+    "source": "Record-2026-11-22 01-03-41-20261122-010341",
+    "durationSeconds": 6482.46,
+    "segments": 2960,
+    "coveredSegments": 2960,
+    "transcriptBlocks": 23,
+    "sourceLastSegmentEnd": 6475.74,
+    "untranscribedTailSeconds": 6.72,
+    "sourceContentSha256": "103aa5305a10a70062d970c618a759d9796de85ebff7162fc52397a158125179",
+    "publishedAudio": false,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "words": 106,
+    "materials": 60,
+    "dialogueScenes": 3,
+    "dialogues": 18,
+    "readingVersions": 6,
+    "teacherPhraseCards": 30,
+    "mistakePracticeCards": 5,
+    "schoolAttribution": "Сопоставление с календарём UUCA ESOL 21 ноября 23:00–01:00 SGT и внутренним обсуждением следующей субботы. Файл сохранён 22 ноября в 01:03 SGT. Идентичность отдельных голосов автоматически не устанавливалась.",
+    "sessionTiming": "Calendar 21 Nov 23:00–22 Nov 01:00 SGT; file created at save time, not verified first lesson timestamp. Actual recording starts in conversation and lasts less than scheduled full session.",
+    "privacy": "Private personal names replaced by roles; any email/URL omitted. No original audio or private paths. Public film/dish names retained.",
+    "coverage": "Every ASR segment retained exactly after privacy substitutions, including repetition and uncertain recognition. Russian blocks explain all source partitions; not an exact full bilingual transcript. Long filler repetitions are not verified speech. No claim that every participant was recorded audibly.",
+    "adaptations": "All level readings/dialogues/answers are authored practice, not verbatim speech.",
+    "classAnnouncements": "In this recording teachers say no class the following Saturday and next group meeting 5 December; calendar changes need independent event matching.",
+    "recognitionGapsOverFiveSeconds": [
+      {
+        "start": 1477.36,
+        "end": 1488.56,
+        "duration": 11.2
+      },
+      {
+        "start": 1492.48,
+        "end": 1500.48,
+        "duration": 8.0
+      },
+      {
+        "start": 3582.66,
+        "end": 3588.42,
+        "duration": 5.76
+      },
+      {
+        "start": 6124.32,
+        "end": 6139.62,
+        "duration": 15.3
+      }
+    ],
+    "audioCheck": "Mono 16kHz; mean -19.9dBFS, peak0dBFS. No silence interval >=20s below -45dBFS detected; does not prove all participants audible or absence of clipping."
+  }
+]

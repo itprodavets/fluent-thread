@@ -1,0 +1,89 @@
+[
+  {
+    "source": "Record-2026-11-22 17-10-09-20261122-171009",
+    "durationSeconds": 5359.9,
+    "segments": 1063,
+    "coveredSegments": 1063,
+    "transcriptBlocks": 47,
+    "words": 150,
+    "materials": 58,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "readingVersions": 6,
+    "dialogueScenes": 3,
+    "dialogues": 18,
+    "dialogueComprehensionExercises": 18,
+    "teacherPhraseCards": 44,
+    "grammarExercises": 8,
+    "mistakeCards": 4,
+    "publishedAudio": false,
+    "recordingKey": "lesson-2026-11-22-ih-scientists-photos",
+    "sourceContentSha256": "512d1d98ab0a343b8487fe3fce9d1f20ba6486a86e2cc29e5179d9309bf20010",
+    "sourceContentHashScope": "Exact private normalized Vibe timed JSON bytes; source asset kept outside publication. Hash does not imply audio verification.",
+    "publishedSegmentsSha256": "7fd6597ca51b6263ac339bc26cfbcc159bb9162ccf57717a7f65510ed614b7f4",
+    "publishedHashScope": "UTF-8 JSON of published segments with ensure_ascii=False and sort_keys=True, default separators.",
+    "sourceLastSegmentEnd": 5339.08,
+    "untranscribedTailSeconds": 20.82,
+    "schoolAttribution": "IH Bangkok strongly matched to the independently checked 15:30–18:00 Singapore-time calendar and teacher context by parent task. The recording starts mid-instruction; no spoken school announcement establishes identity.",
+    "startAttribution": "17:10:09 in the filename is save time, not start time. Subtracting 89m19.90s gives approximately 15:40:49 Singapore/China time, inside the scheduled 15:30–18:00 class; this arithmetic does not establish the actual lesson start.",
+    "speakerAttribution": "No verified speaker diarization. Context, direct address and coherent responses support only local attribution. Private names replaced in text and word tokens; public scientist names retained, including ASR distortions. One participant name is also a curricular character name and is conservatively replaced throughout; this does not equate participant and character.",
+    "privacyReplacements": [
+      "Learner: private learner name and ASR variants",
+      "Partner: private participant names and ASR variants; the coinciding curricular character name is also replaced",
+      "Teacher: private teacher names and ASR variants"
+    ],
+    "zeroDurationSegmentIndices": [
+      52,
+      60,
+      61,
+      62,
+      78,
+      518,
+      520,
+      527,
+      550,
+      625,
+      642,
+      780
+    ],
+    "overlappingPreviousSegmentIndices": [
+      160,
+      661,
+      859
+    ],
+    "gaps": [
+      "Recording begins mid-instruction and ends mid-interaction; missing opening and closing are not reconstructed.",
+      "No task slides, original printed listening script, worksheet or eight scientist profiles were supplied. Only what is heard is published; absent options and biographies are not invented.",
+      "The curricular audio is repeated three times plus short excerpts. These repetitions are preserved, not presented as separate conversations or independently verified historical evidence.",
+      "ASR overlap around 900, 1246, 1800, 2700, 3600 and 4500 seconds can duplicate or compress speech. Segment text and timestamps retained exactly apart from documented privacy changes.",
+      "Long Thank you stretches around 2324–2414 and 5139–5205 seconds are possible silence hallucinations. Short repeated/zero-duration segments retained.",
+      "Late device-switch conversation around 5205–5276 seconds repeats and may be ASR hallucination or overlap; not reliable evidence of a new lesson or personal mistake.",
+      "ASR misrecognises scientist names, pulsar, astrophysicist and daffodils. These are not pronunciation diagnoses.",
+      "The true/false key has an unreliable number of labels; the eight scientist profiles and candidate number eight are unavailable. No complete answer sheet or missing scientist identity is manufactured.",
+      "The second teacher initially calls the photographers professionals, while learners contest that from the dialogue. The package preserves this classroom ambiguity rather than asserting a verified occupational fact.",
+      "No red-word slide for pronunciation is available; exact marked stresses are not reconstructed from ASR.",
+      "5339.08–5359.90 seconds have no recognized text; silence cannot be distinguished from unrecognized sound from text alone."
+    ],
+    "recordingUnits": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 675,
+        "topic": "Scientist recognition, supervisor/press/credit, repeated listening for gist/facts/attitude, scientist award negotiation"
+      },
+      {
+        "sourceStart": 675,
+        "sourceEnd": 1063,
+        "topic": "Photography compliments, listening, neutral/grateful replies, meaning/form/fixed frames, pronunciation, unfinished matching interaction"
+      }
+    ],
+    "package": "lesson.json",
+    "mistakePractice": "mistake-practice.json",
+    "curriculumVerification": "English grammar models authored from standard usage; no external source documents invented. Scientific/biographical story reported as heard, without independent historical verification."
+  }
+]

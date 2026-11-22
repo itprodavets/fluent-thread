@@ -1,0 +1,153 @@
+{
+  "id": "unconfirmed/adventure-medicine-and-ai",
+  "recordingKey": "lesson-2026-11-22-adventure-travel",
+  "school": "Онлайн-разговорный урок (школа уточняется)",
+  "date": "2026-11-22",
+  "notice": "Conservative personal practice: eight contextually supported targets from the learner who reports living in China, travel experience, software work and podcast goals. No voice identity is asserted. General teacher feedback, other learners’ phrases, optional alternatives and ASR-only reconstructions remain in lesson readings and are not seeded as personal errors. Active vocabulary is a self-reported learning goal, not a grammatical error. No phonetic diagnosis is made from ASR.",
+  "cards": [
+    {
+      "id": "adventurous",
+      "time": "15:10–15:33",
+      "title": "Назови себя любителем приключений и дай один пример.",
+      "original": "Okay, so who would like to tell the group what you discussed in breakout rooms? Participant, tell us. Okay, for me, it's my experience. I definition call myself for adventure person.",
+      "corrected": "I would definitely call myself an adventurous person.",
+      "reason": "Для этой мысли нужны definitely и adventurous. Форма definition может быть ошибкой речи или распознавания; это не доказательство произношения.",
+      "partner": "Would you call yourself adventurous?",
+      "prompt": "Назови себя любителем приключений и дай один пример.",
+      "checklist": [
+        "Выражаю исходный смысл точно.",
+        "Использую модель в собственном достоверном примере."
+      ],
+      "kind": "grammar",
+      "sourceStart": 109,
+      "sourceEnd": 113,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
+    },
+    {
+      "id": "visited",
+      "time": "15:26–15:40",
+      "title": "Расскажи о своём опыте, используя собственные достоверные данные.",
+      "original": "Okay, for me, it's my experience. I definition call myself for adventure person. For me, yes. And I travel to 158 countries.",
+      "corrected": "I have been to 158 countries.",
+      "reason": "Для жизненного опыта без законченного времени подходит present perfect; число — личное сообщение ученика в записи.",
+      "partner": "What travel experience do you have?",
+      "prompt": "Расскажи о своём опыте, используя собственные достоверные данные.",
+      "checklist": [
+        "Выражаю исходный смысл точно.",
+        "Использую модель в собственном достоверном примере."
+      ],
+      "kind": "grammar",
+      "sourceStart": 111,
+      "sourceEnd": 115,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
+    },
+    {
+      "id": "lived",
+      "time": "21:06–21:21",
+      "title": "Скажи, как долго живёшь в своём городе.",
+      "original": "Very wild country. If you don't mount when you want to go, I recommend to go to China. It's an experience very nice. I live here for eight years.",
+      "corrected": "I have lived here for eight years.",
+      "reason": "Если проживание продолжается, нужен present perfect с for.",
+      "partner": "How long have you lived there?",
+      "prompt": "Скажи, как долго живёшь в своём городе.",
+      "checklist": [
+        "Выражаю исходный смысл точно.",
+        "Использую модель в собственном достоверном примере."
+      ],
+      "kind": "grammar",
+      "sourceStart": 210,
+      "sourceEnd": 214,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
+    },
+    {
+      "id": "agree",
+      "time": "105:20–105:55",
+      "title": "Назови поведение и объясни проблему.",
+      "original": "true I don't want this every time agree oh yes I agree for you every time this is this is for me is negative so you mean you agree with the person who is in your group or you agree with the idea I just wanted to clarify that yeah every time when I speak in clear with AI every time yeah I agree with me maybe how you taught you I my I can argue with",
+      "corrected": "The chatbot tends to agree with me too readily.",
+      "reason": "Модель уточняет, что речь о согласии бота, а не согласии ученика с одноклассником. Преподаватель явно просил уточнить смысл.",
+      "partner": "What drawback have you noticed?",
+      "prompt": "Назови поведение и объясни проблему.",
+      "checklist": [
+        "Выражаю исходный смысл точно.",
+        "Использую модель в собственном достоверном примере."
+      ],
+      "kind": "clarity",
+      "sourceStart": 1453,
+      "sourceEnd": 1457,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
+    },
+    {
+      "id": "active",
+      "time": "163:43–164:00",
+      "title": "Опиши конкретную цель активного словаря.",
+      "original": "For me, uh, I want, uh, for my difference, um, very hard. Uh, I, uh, now it's a many words, but I cannot, uh, using, uh, here and for me, every time. Uh, around now.",
+      "corrected": "I recognise many words, but I cannot always use them spontaneously.",
+      "reason": "Ученик описывает собственную трудность: знакомые слова не удаётся использовать в речи. Преподаватель затем подтверждает понимание переформулировкой. Это личная учебная цель, не диагноз грамматической ошибки; искажённые слова ASR не оцениваются как произношение.",
+      "partner": "What would you like to improve?",
+      "prompt": "Опиши конкретную цель активного словаря.",
+      "checklist": [
+        "Выражаю исходный смысл точно.",
+        "Использую модель в собственном достоверном примере."
+      ],
+      "kind": "clarity",
+      "sourceStart": 2315,
+      "sourceEnd": 2318,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
+    },
+    {
+      "id": "podcast",
+      "time": "165:09–165:36",
+      "title": "Назови цель и тему подкаста.",
+      "original": "So, why are you studying English? For me, I wanted to speak in fluent English. Okay, good. And what do you want to do when you speak fluent English? What's your goal? I think about I want to create a podcast English.",
+      "corrected": "I want to create a podcast in English.",
+      "reason": "Для языка используем in English; create/host a podcast естественно для цели.",
+      "partner": "What would you like to do in English?",
+      "prompt": "Назови цель и тему подкаста.",
+      "checklist": [
+        "Выражаю исходный смысл точно.",
+        "Использую модель в собственном достоверном примере."
+      ],
+      "kind": "grammar",
+      "sourceStart": 2354,
+      "sourceEnd": 2358,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
+    },
+    {
+      "id": "successful",
+      "time": "184:09–184:13",
+      "title": "Свяжи цель с работой и общением.",
+      "original": "manufacturer. But if I want to successful,",
+      "corrected": "I want to be more successful.",
+      "reason": "Преподаватель явно вводит be more successful и различает success/successful.",
+      "partner": "Why do you need more speaking practice?",
+      "prompt": "Свяжи цель с работой и общением.",
+      "checklist": [
+        "Выражаю исходный смысл точно.",
+        "Использую модель в собственном достоверном примере."
+      ],
+      "kind": "grammar",
+      "sourceStart": 2686,
+      "sourceEnd": 2690,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
+    },
+    {
+      "id": "work",
+      "time": "156:22–156:37",
+      "title": "Назови работу, затем поясни одно действие.",
+      "original": "since you have already talked to another teacher. So, I just would like to ask you, what do you do for a living? Participant, would you like to start? Okay. My profession is software developer.",
+      "corrected": "I work as a software developer.",
+      "reason": "Для профессии в единственном числе нужен a. Work as даёт естественный ответ на what do you do for a living.",
+      "partner": "What do you do for a living?",
+      "prompt": "Назови работу, затем поясни одно действие.",
+      "checklist": [
+        "Выражаю исходный смысл точно.",
+        "Использую модель в собственном достоверном примере."
+      ],
+      "kind": "grammar",
+      "sourceStart": 2178,
+      "sourceEnd": 2182,
+      "attribution": "Contextually supported learner target; no verified voice identity. A natural model is not proof of the exact spoken sounds."
+    }
+  ]
+}

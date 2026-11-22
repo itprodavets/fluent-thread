@@ -3,7 +3,7 @@ import { useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useWorkspace } from '../context';
 import { normalize, topicMaterials, upsert } from '../domain/model';
-import type { Topic } from '../domain/model';
+import type { MapPoint, Topic } from '../domain/model';
 import { starterTopics } from '../domain/starter-topics';
 import { Fold, Heading, SourceText, copyText } from './common';
 import { AnkiHistory } from './AnkiHistory';
@@ -36,7 +36,7 @@ function Network({ title, branches, selected, select, label, more }: {
   </>;
 }
 
-function TopicEditor({ entry, finish }: { entry?: Topic; finish: (id: string) => void }) {
+function TopicEditor({ entry, position, finish }: { entry?: Topic; position?: MapPoint; finish: (id: string) => void }) {
   const { study, active, update, notify } = useWorkspace();
   const [query, setQuery] = useState('');
   const [chosen, setChosen] = useState(() => new Set(entry?.links));
@@ -55,7 +55,7 @@ function TopicEditor({ entry, finish }: { entry?: Topic; finish: (id: string) =>
     const materials = entry ? topicMaterials(entry) : [];
     const text = String(data.get('material')).trim();
     const next: Topic = {
-      ...entry, id: entry?.id ?? crypto.randomUUID(), title, language: study.language, links: [...chosen],
+      ...entry, position: entry ? entry.position : position, id: entry?.id ?? crypto.randomUUID(), title, language: study.language, links: [...chosen],
       prompt: String(data.get('prompt')).trim(),
       materials: text && !materials.some(material => material.text === text) ? [...materials, { format: String(data.get('format')), text }] : materials
     };
@@ -78,7 +78,7 @@ function TopicEditor({ entry, finish }: { entry?: Topic; finish: (id: string) =>
   }
 
   return <form onSubmit={submit}>
-    <label>Ситуация <input name="title" required maxLength={90} defaultValue={entry?.title} placeholder="Я в офисе" /></label>
+    <label>Ситуация <input name="title" autoFocus required maxLength={90} defaultValue={entry?.title} placeholder="Я в офисе" /></label>
     <label>Что сказать вслух <textarea name="prompt" rows={2} defaultValue={entry?.prompt} placeholder="Вспомни конкретную ситуацию: что произошло и как ты поступил" /></label>
     {active.words.length > 0 && <fieldset><legend>Слова и контекст из Anki · выбрано {chosen.size}</legend>
       <label>Поиск по колоде <input type="search" value={query} onChange={event => { setQuery(event.target.value); setLimit(30); }} placeholder="Слово или фраза" /></label>
@@ -136,6 +136,7 @@ export function MapPage() {
   const [selectedId, select] = useState<string>();
   const [editor, setEditor] = useState<{ mode: 'new' | 'edit'; revision: number }>({ mode: 'new', revision: 0 });
   const [formVisible, setFormVisible] = useState(false);
+  const [newPosition, setNewPosition] = useState<MapPoint>();
   const details = useRef<HTMLDetailsElement>(null);
   const topic = active.topics.find(entry => entry.id === topicId) ?? active.topics[0];
   const linked = useMemo(() => {
@@ -145,30 +146,31 @@ export function MapPage() {
   const selected = linked.find(word => word.id === selectedId);
   const resources = topic ? active.resources.filter(entry => entry.topicId === topic.id) : [];
 
+  function create(position?: MapPoint) {
+    setNewPosition(position);
+    setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
+    setFormVisible(true);
+    if (details.current) { details.current.open = true; details.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+  }
+
   function edit() {
+    setNewPosition(undefined);
+    setFormVisible(true);
     setEditor(previous => ({ mode: 'edit', revision: previous.revision + 1 }));
-    if (details.current) details.current.open = true;
+    if (details.current) { details.current.open = true; details.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
   }
 
   return <><Heading title="Карта разговорных тем" />
-    <ConversationRoutes key={study.language} />
-    <Fold title="Словарь и отдельные темы">
-    <div className="map-layout">
+    <TopicCanvas key={study.language} topics={active.topics} selected={topic?.id} onCreate={create} />
+    <div className="map-layout map-page-layout">
       <section className="map-workspace">
         {topic ? <>
-          <Fold title="Сеть отдельных тем">
-            <TopicCanvas key={study.language} topics={active.topics} selected={topic.id} />
-          </Fold>
+          <div className="map-selection">
+          <h2 lang={topic.language}>{topic.title}</h2>
+          {topic.prompt && <p>{topic.prompt}</p>}
           <label className="compact-field">Тема <select value={topic.id} onChange={event => {
-            openTopic(event.target.value); select(undefined); setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
+            openTopic(event.target.value); select(undefined); setNewPosition(undefined); setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
           }}>{active.topics.map(entry => <option key={entry.id} value={entry.id}>{entry.title}</option>)}</select></label>
-          <Network title={topic.title} branches={linked} selected={selected?.id} select={select} label="Тема и связанные слова" more="Все слова темы" />
-          {selected && <div className="word-detail">
-            <strong lang={selected.language}>{selected.title}</strong>
-            {selected.meaning && <p>{selected.meaning}</p>}
-            <WordExamples key={selected.id} word={selected} />
-            <AnkiHistory key={selected.id} word={selected} />
-          </div>}
           <div className="actions"><button className="primary" type="button" onClick={() => practice(topic.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>
           {topicMaterials(topic).length > 0 && <Fold title={`Примеры к теме · ${topicMaterials(topic).length}`}>
             {topicMaterials(topic).map(material => <Fold key={material.text} title={material.format}><SourceText text={material.text} language={topic.language} /></Fold>)}
@@ -176,18 +178,36 @@ export function MapPage() {
           {resources.length > 0 && <Fold title={`Из библиотеки · ${resources.length}`}>
             <div className="actions">{resources.map(resource => <button key={resource.id} type="button" onClick={() => openResource(resource.id)}>{resource.title}</button>)}</div>
           </Fold>}
+          <Fold title={`Слова темы · ${linked.length}`}>
+          <Network title={topic.title} branches={linked} selected={selected?.id} select={select} label="Тема и связанные слова" more="Все слова темы" />
+          {selected && <div className="word-detail">
+            <strong lang={selected.language}>{selected.title}</strong>
+            {selected.meaning && <p>{selected.meaning}</p>}
+            <WordExamples key={selected.id} word={selected} />
+            <AnkiHistory key={selected.id} word={selected} />
+          </div>}
+          </Fold>
+          </div>
         </> : <StarterMap key={study.language} />}
         {topic && <Fold title="Карта-пример"><StarterMap key={study.language} /></Fold>}
       </section>
-      <details ref={details} className="fold editor" open={!topic || undefined} onToggle={event => setFormVisible(event.currentTarget.open)}>
+      <details ref={details} className="fold editor" open={!topic || undefined} onToggle={event => {
+        const open = event.currentTarget.open;
+        setFormVisible(open);
+        if (!open) {
+          setNewPosition(undefined);
+          setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
+        }
+      }}>
         <summary>{editor.mode === 'edit' ? 'Редактировать тему' : 'Новая тема'}</summary>
-        {(formVisible || !topic) && <TopicEditor key={editor.revision} entry={editor.mode === 'edit' ? topic : undefined} finish={id => {
+        {(formVisible || !topic) && <TopicEditor key={study.language + ':' + editor.revision + ':' + (editor.mode === 'edit' ? topic?.id : 'new')} position={editor.mode === 'new' ? newPosition : undefined} entry={editor.mode === 'edit' ? topic : undefined} finish={id => {
           openTopic(id);
+          setNewPosition(undefined);
           setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
           if (details.current) details.current.open = false;
         }} />}
       </details>
     </div>
-    </Fold>
+    <Fold title="Разговорные маршруты"><ConversationRoutes key={study.language} /></Fold>
   </>;
 }
