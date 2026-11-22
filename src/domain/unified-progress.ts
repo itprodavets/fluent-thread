@@ -14,7 +14,7 @@ export type ProgressRow = {
 export type ProgressCategory = {
   id: ProgressCategoryId; title: string; rows: ProgressRow[];
   total: number; new: number; learning: number; independent: number; due: number;
-  completedPractice: number;
+  completedPractice: number; assisted: number; retry: number;
 };
 
 /** Read only: the latest productive assessment, never a choice-only success. */
@@ -26,9 +26,12 @@ function assessed(result?: PracticeResult): Pick<ProgressRow, 'status' | 'mode' 
   if (result.spokenResult) candidates.push({ mode:'spoken',outcome:result.spokenResult,updated:result.spokenUpdated ?? (mode==='spoken'?result.updated:0) });
   for (const entry of ['spoken','written'] as const) {
     const schedule=result.schedules?.[entry];
-    if (schedule?.updated !== undefined && !candidates.some(c=>c.mode===entry && c.updated>=schedule.updated!))
-      candidates.push({mode:entry,outcome:schedule.level>0?'independent':undefined,updated:schedule.updated});
+    if (schedule && !candidates.some(c=>c.mode===entry && c.updated>=(schedule.updated ?? 0)))
+      candidates.push({mode:entry,outcome:schedule.level>0?'independent':undefined,updated:schedule.updated ?? 0});
   }
+  // Undated legacy modes establish a result only when their evidence agrees.
+  if (mode==='choice' && candidates.some(c=>c.updated===0) && candidates.some(c=>c.outcome!=='independent'))
+    return {status:'learning'};
   const latest=candidates.sort((a,b)=>b.updated-a.updated)[0];
   if (!latest) return {status:'learning',mode:'choice',outcome:result.result,updated:result.updated};
   return {status:latest.outcome==='independent'?'independent':'learning',...latest};
@@ -71,8 +74,18 @@ export function unifiedProgress(study:Study,now:number,knownPhrases:PhraseCard[]
     ['materials','Тексты и другая практика',other,ownStories.size],['mistakes','Исправление ошибок',mistakes,0]
   ];
   return groups.map(([id,title,rows,completedPractice])=>{
-    const counts={new:0,learning:0,independent:0,due:0};
-    for(const item of rows){counts[item.status]++;if(item.due)counts.due++;}
+    const counts={new:0,learning:0,independent:0,due:0,assisted:0,retry:0};
+    for(const item of rows){counts[item.status]++;if(item.due)counts.due++;if(item.outcome==='assisted')counts.assisted++;if(item.outcome==='retry')counts.retry++;}
     return {id,title,rows,total:rows.length,...counts,completedPractice};
   });
+}
+
+export type ProgressFilter=ProgressStatus|'all'|'due'|'assisted'|'retry';
+/** Bounded rendered page shared by every category; counters still use the full set. */
+export function progressRowsPage(rows:ProgressRow[],filter:ProgressFilter,page:number,size=30) {
+  const filtered=rows.filter(row=>filter==='all'||(filter==='due'?row.due:filter==='assisted'||filter==='retry'?row.outcome===filter:row.status===filter));
+  const pageSize=Math.max(1,Math.floor(size));
+  const maxPage=Math.max(0,Math.ceil(filtered.length/pageSize)-1);
+  const current=Math.max(0,Math.min(Number.isFinite(page)?Math.floor(page):0,maxPage));
+  return {rows:filtered.slice(current*pageSize,(current+1)*pageSize),total:filtered.length,page:current,maxPage};
 }

@@ -1,15 +1,15 @@
 import { useMemo, useState, useEffect, useSyncExternalStore } from 'react';
 import { useWorkspace } from '../context';
 import { useIdentity, useProfileStore } from '../profiles';
-import { unifiedProgress } from '../domain/unified-progress';
-import type { ProgressCategoryId, ProgressStatus } from '../domain/unified-progress';
+import { unifiedProgress, progressRowsPage } from '../domain/unified-progress';
+import type { ProgressCategoryId, ProgressFilter } from '../domain/unified-progress';
 import { modeLabels } from '../domain/model';
 import skills from '../../materials/en/skills/catalog.json';
 import { statusLabels } from './ProfileSummary';
 
 const skillPhrases=skills.flatMap(skill=>skill.dialogues.flatMap(dialogue=>dialogue.phrases));
-const statusLabelsById={all:'Все',new:'Ещё не пробовал',learning:'Изучаю',independent:'Самостоятельно',due:'Пора повторить'};
-type Filter=ProgressStatus|'all'|'due';
+const statusLabelsById={all:'Все',new:'Ещё не пробовал',learning:'Изучаю',independent:'Самостоятельно',due:'Пора повторить',assisted:'Исправил с подсказкой',retry:'Ещё исправляю'};
+type Filter=ProgressFilter;
 const pageSize=30;
 
 export function UnifiedProgress() {
@@ -24,11 +24,9 @@ export function UnifiedProgress() {
   useEffect(()=>{const timer=setInterval(()=>setNow(Date.now()),60_000);return()=>clearInterval(timer);},[]);
   const categories=useMemo(()=>unifiedProgress(study,now,study.language==='en'?skillPhrases:[]),[study,now]);
   const category=categories.find(item=>item.id===categoryId)!;
-  const rows=useMemo(()=>category.rows.filter(row=>filter==='all'||(filter==='due'?row.due:row.status===filter)),[category,filter]);
-  const maxPage=Math.max(0,Math.ceil(rows.length/pageSize)-1);
-  const currentPage=Math.min(page,maxPage);
-  const visible=rows.slice(currentPage*pageSize,(currentPage+1)*pageSize);
-  function choose(id:ProgressCategoryId,next:Filter=filter){setCategory(id);setFilter(next);setPage(0);}
+  const result=useMemo(()=>progressRowsPage(category.rows,filter,page,pageSize),[category,filter,page]);
+  const {rows:visible,total,page:currentPage,maxPage}=result;
+  function choose(id:ProgressCategoryId,next:Filter=filter){setCategory(id);setFilter(id!=='mistakes'&&['assisted','retry'].includes(next)?'learning':next);setPage(0);}
   return <section className="unified-progress" aria-label="Единый прогресс профиля">
     <div className="progress-board">
       <h2>Твой прогресс по всем разделам</h2>
@@ -40,7 +38,10 @@ export function UnifiedProgress() {
         <p className="sub">{item.id==='mistakes'?'Исправлено самостоятельно':'Самостоятельно'}</p>
         <div className="unified-progress-counts">
           <button type="button" onClick={()=>choose(item.id,'new')}>Ещё не пробовал <strong>{item.new.toLocaleString('ru')}</strong></button>
-          <button type="button" onClick={()=>choose(item.id,'learning')}>{item.id==='mistakes'?'Ещё исправляю / с подсказкой':'Изучаю / с подсказкой'} <strong>{item.learning.toLocaleString('ru')}</strong></button>
+          {item.id==='mistakes'?<>
+            <button type="button" onClick={()=>choose(item.id,'retry')}>Ещё исправляю <strong>{item.retry.toLocaleString('ru')}</strong></button>
+            <button type="button" onClick={()=>choose(item.id,'assisted')}>Исправил с подсказкой <strong>{item.assisted.toLocaleString('ru')}</strong></button>
+          </>:<button type="button" onClick={()=>choose(item.id,'learning')}>Изучаю / с подсказкой <strong>{item.learning.toLocaleString('ru')}</strong></button>}
           <button type="button" onClick={()=>choose(item.id,'due')}>Пора повторить <strong>{item.due.toLocaleString('ru')}</strong></button>
           <button type="button" onClick={()=>choose(item.id,'independent')}>Показать самостоятельные →</button>
         </div>
@@ -52,16 +53,16 @@ export function UnifiedProgress() {
       <h2>Что уже получается и что повторить</h2>
       <div className="unified-progress-filters">
         <label>Раздел<select value={categoryId} onChange={e=>choose(e.target.value as ProgressCategoryId)}>{categories.map(item=><option key={item.id} value={item.id}>{item.title}</option>)}</select></label>
-        <label>Статус<select value={filter} onChange={e=>choose(categoryId,e.target.value as Filter)}>{Object.entries(statusLabelsById).map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label>
+        <label>Статус<select value={filter} onChange={e=>choose(categoryId,e.target.value as Filter)}>{Object.entries(statusLabelsById).filter(([id])=>categoryId==='mistakes'||!['assisted','retry'].includes(id)).map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label>
       </div>
-      <p role="status">{category.title} · {statusLabelsById[filter]}: {rows.length.toLocaleString('ru')}</p>
-      {!rows.length?<p className="sub">Пока нет результатов с этим статусом. Попробуй задание и оцени свой ответ — результат появится здесь.</p>:<ul className="unified-progress-list">{visible.map(row=><li key={row.id}>
+      <p role="status">{category.title} · {statusLabelsById[filter]}: {total.toLocaleString('ru')}</p>
+      {!total?<p className="sub">Пока нет результатов с этим статусом. Попробуй задание и оцени свой ответ — результат появится здесь.</p>:<ul className="unified-progress-list">{visible.map(row=><li key={row.id}>
         <div className="unified-progress-row"><div><strong>{row.title}</strong><p className="sub">{row.status==='independent'?(row.mistake?'Исправил самостоятельно':'Самостоятельно'):row.status==='new'?'Ещё не пробовал':row.outcome==='assisted'?'С подсказкой':'Изучаю'}{row.mode&&' · '+modeLabels[row.mode]}{row.due&&' · Пора повторить'}</p></div>
           {row.target==='review'?<a className="button" href="#today/review">Открыть очередь повторения</a>:row.target==='mistake'?<a className="button" href="#materials/mistakes">К повторению ошибок</a>:<button type="button" onClick={()=>practice(row.id)}>Тренировать</button>}
         </div>
         {row.mistake&&<details><summary>Было → стало и мой ответ</summary><p><strong>Было:</strong> {row.mistake.correction.before}</p><p><strong>Лучше:</strong> {row.mistake.correction.after}</p><p>{row.mistake.correction.reason}</p>{row.mistake.last?<><p><strong>Моя последняя сохранённая попытка:</strong> {row.mistake.last.answer}</p><p className="sub">{row.mistake.last.assessment==='assisted'?'Исправление с подсказкой.':row.mistake.reviewMode==='self-check'?'Результат по собственной проверке.':'Результат проверки учебной конструкции.'}</p></>:<p className="sub">Собственной попытки повторения пока нет.</p>}</details>}
       </li>)}</ul>}
-      {rows.length>pageSize&&<div className="actions" aria-label="Страницы результатов"><button type="button" disabled={currentPage===0} onClick={()=>setPage(currentPage-1)}>← Назад</button><span>{currentPage+1} / {maxPage+1}</span><button type="button" disabled={currentPage===maxPage} onClick={()=>setPage(currentPage+1)}>Далее →</button></div>}
+      {total>pageSize&&<div className="actions" aria-label="Страницы результатов"><button type="button" disabled={currentPage===0} onClick={()=>setPage(currentPage-1)}>← Назад</button><span>{currentPage+1} / {maxPage+1}</span><button type="button" disabled={currentPage===maxPage} onClick={()=>setPage(currentPage+1)}>Далее →</button></div>}
     </div>
   </section>;
 }

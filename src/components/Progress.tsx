@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useWorkspace } from '../context';
 import { readAnkiDays } from '../domain/anki-history';
 import { reviewKey } from '../domain/anki-model';
-import { dateLabel, localDay, modeLabels, practiceQueue, resultLabels } from '../domain/model';
+import { dateLabel, localDay, modeLabels, practiceQueue } from '../domain/model';
 import { Heading } from './common';
 import { UnifiedProgress } from './UnifiedProgress';
 
@@ -125,13 +125,5 @@ export function Progress() {
           onClick={() => practice(word.id)}>{word.title}</button>)}</div>
       </div>}
     </div>
-    {practiced.length > 0 && <details className="fold"><summary>Последние результаты по заданиям · {practiced.length}</summary>
-      <div className="history">{[...practiced].sort((a, b) => study.results[b.id].updated - study.results[a.id].updated).map(item => {
-        const result = study.results[item.id];
-        return <div key={item.id}><button type="button" onClick={() => practice(item.id)}>{item.title}</button>
-          <span>{resultLabels[result.result]}</span><span>{modeLabels[result.mode ?? 'spoken']}</span>
-        </div>;
-      })}</div>
-    </details>}
   </>;
 }

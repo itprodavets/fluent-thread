@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { unifiedProgress } from '../src/domain/unified-progress.ts';
+import { unifiedProgress, progressRowsPage } from '../src/domain/unified-progress.ts';
 import { starterLessons } from '../src/domain/starter-materials.ts';
 import { emptyStudy, packStudy, unpackStudy } from '../src/domain/profile-sync.ts';
 import { assess } from '../src/domain/model.ts';
@@ -72,4 +72,25 @@ test('assessed starter material has a working review destination and unassessed 
  const rows=all.flatMap(category=>category.rows);
  assert.equal(rows.length,1);assert.equal(rows[0].id,starter.id);assert.equal(rows[0].target,'review');
  assert.equal(rows[0].status,'independent');assert.equal(rows[0].due,true);
+});
+
+test('assisted corrections and recurring errors have distinct counters and bounded filtered pages',()=>{
+ const study={...emptyStudy(),dialogueMistakes:{helped:mistake('helped',1,{answer:'I agree',result:'fixed',assessment:'assisted'}),retry:mistake('retry',0,{answer:'I am agree',result:'retry'})}};
+ const errors=category(study,'mistakes');
+ assert.equal(errors.assisted,1);assert.equal(errors.retry,1);
+ assert.deepEqual(progressRowsPage(errors.rows,'assisted',0).rows.map(row=>row.id),['helped']);
+ assert.deepEqual(progressRowsPage(errors.rows,'retry',0).rows.map(row=>row.id),['retry']);
+ const large:Study={...emptyStudy(),words:Array.from({length:45000},(_,i)=>word(String(i)))};
+ large.results=Object.fromEntries(large.words.map((w,i)=>[w.id,{level:1,result:'independent' as const,due:now+1,updated:now+i,attempts:1,mode:'written' as const}]));
+ const words=category(large,'words');assert.equal(words.independent,45000);
+ const page=progressRowsPage(words.rows,'independent',1);assert.equal(page.total,45000);assert.equal(page.rows.length,30);assert.equal(page.rows[0].id,'30');
+ assert.equal(progressRowsPage(words.rows,'new',50).page,0);
+});
+
+test('legacy undated productive schedules preserve proven independence without inventing chronology',()=>{
+ const study:Study={...emptyStudy(),words:[word('w')],results:{w:{level:1,result:'independent',due:now+1,attempts:3,updated:now,mode:'choice',schedules:{written:{level:2,due:now+1}}}}};
+ assert.equal(category(study,'words').independent,1);
+ study.results.w.schedules!.spoken={level:0,due:now+1};
+ assert.equal(category(study,'words').independent,0);
+ assert.equal(category(study,'words').learning,1);
 });
