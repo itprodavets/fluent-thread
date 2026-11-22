@@ -9,7 +9,7 @@ export type ProgressCategoryId = 'words' | 'phrases' | 'dialogues' | 'exercises'
 export type ProgressRow = {
   id: string; title: string; status: ProgressStatus; due: boolean;
   mode?: PracticeMode; outcome?: Outcome; updated?: number;
-  target: 'practice' | 'mistake'; mistake?: DialogueMistake;
+  target: 'practice' | 'mistake' | 'review'; mistake?: DialogueMistake;
 };
 export type ProgressCategory = {
   id: ProgressCategoryId; title: string; rows: ProgressRow[];
@@ -53,7 +53,7 @@ export function unifiedProgress(study:Study,now:number,knownPhrases:PhraseCard[]
   const ownedIds=new Set(resources.map(r=>r.id));
   const materials=reviewResources(study).filter(r=>ownedIds.has(r.id) || study.results[r.id]);
   const resourceRows=(kind:'dialogue'|'exercise'|'other')=>materials.filter(r=>kind==='other'? !['dialogue','exercise'].includes(r.kind):r.kind===kind)
-    .map(r=>row(r.id,r.title,study.results,now));
+    .map(r=>({...row(r.id,r.title,study.results,now),target:ownedIds.has(r.id)?'practice' as const:'review' as const}));
   const other=[...resourceRows('other'),...study.topics.filter(t=>t.language===study.language && study.results[t.id]).map(t=>row(t.id,t.title,study.results,now))];
   const mistakes:ProgressRow[]=study.language==='en'?Object.values(study.dialogueMistakes ?? {}).map(card=>{
     const fixed=card.level>0 && card.last?.result==='fixed';

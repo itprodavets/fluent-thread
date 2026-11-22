@@ -4,6 +4,7 @@ import { readAnkiDays } from '../domain/anki-history';
 import { reviewKey } from '../domain/anki-model';
 import { dateLabel, localDay, modeLabels, practiceQueue, resultLabels } from '../domain/model';
 import { Heading } from './common';
+import { UnifiedProgress } from './UnifiedProgress';
 
 const seriesLabels = { anki: 'Anki', ...modeLabels };
 const series = Object.keys(seriesLabels) as (keyof typeof seriesLabels)[];
@@ -66,10 +67,12 @@ export function Progress() {
       : needingPractice.length > 0 ? 'Начни с заданий, где понадобилась подсказка или пришло время повторения.'
         : 'Попробуй пересказать материал своими словами и использовать в нём слова из Anki.';
 
-  return <><Heading title="Прогресс" detail="Активность и результаты по выбранному языку." />
+  return <><Heading title="Прогресс" detail="Изученное, исправленные ошибки и повторение по выбранному языку." />
+    <UnifiedProgress />
     <div className="progress-board">
       <div className="progress-top">
-        <h2>Активность по дням</h2>
+        <h2>Попытки по дням</h2>
+        <p className="sub">Количество ответов за период, а не число освоенных карточек. Исправления ошибок учитываются в сводке выше; для старых исправлений без дат график не восстанавливается.</p>
         <div className="actions" role="group" aria-label="Период графика">
           {[7, 30].map(days => <button key={days} type="button" aria-pressed={days === period} onClick={() => choosePeriod(days)}>{days} дней</button>)}
         </div>

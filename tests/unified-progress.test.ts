@@ -1,8 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { unifiedProgress } from '../src/domain/unified-progress.ts';
+import { starterLessons } from '../src/domain/starter-materials.ts';
 import { emptyStudy, packStudy, unpackStudy } from '../src/domain/profile-sync.ts';
-import { assess, wordId } from '../src/domain/model.ts';
+import { assess } from '../src/domain/model.ts';
 import type { Resource, Study, Word } from '../src/domain/model';
 const now=1800000000000;
 const word=(id:string,title=id,meaning='перевод'):Word=>({id,title,meaning,language:'en',example:''});
@@ -62,4 +63,13 @@ test('own completed dialogues are practice, not mastered models; levels remain d
  const result=unifiedProgress(study,now);const dialogues=result.find(c=>c.id==='dialogues')!;
  assert.equal(dialogues.total,3);assert.equal(dialogues.independent,0);assert.equal(dialogues.completedPractice,1);
  assert.equal(result.find(c=>c.id==='words')!.total,45000);
+});
+
+test('assessed starter material has a working review destination and unassessed starters are not imported into totals',()=>{
+ const starter=starterLessons[0].resource;
+ const study=assess(emptyStudy(),starter.id,'independent',now-86400000,'spoken');
+ const all=unifiedProgress(study,now);
+ const rows=all.flatMap(category=>category.rows);
+ assert.equal(rows.length,1);assert.equal(rows[0].id,starter.id);assert.equal(rows[0].target,'review');
+ assert.equal(rows[0].status,'independent');assert.equal(rows[0].due,true);
 });
