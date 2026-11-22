@@ -7,7 +7,12 @@ import type { MapPoint, Topic } from '../domain/model';
 import { starterTopics } from '../domain/starter-topics';
 import { Fold, Heading, SourceText, copyText } from './common';
 import { AnkiHistory } from './AnkiHistory';
-import { TopicCanvas } from './TopicCanvas';
+import { LearningCanvas } from './LearningCanvas';
+import { buildLearningGraph, projectLearningGraph } from '../domain/learning-graph';
+import { materialLessonHref } from '../domain/material-route';
+import { learningNodeLabels } from './learning-map-view';
+import datedLessons from '../../materials/en/lessons/catalog.json';
+import skills from '../../materials/en/skills/catalog.json';
 import { WordExamples } from './WordExamples';
 
 const positions = [[22, 24], [77, 24], [18, 51], [82, 51], [23, 78], [76, 78]];
@@ -134,11 +139,20 @@ function StarterMap() {
 export function MapPage() {
   const { study, active, topicId, openTopic, openResource, practice } = useWorkspace();
   const [selectedId, select] = useState<string>();
+  const [focusId, focus] = useState<string>();
+  const graph = useMemo(() => buildLearningGraph(study, datedLessons, skills), [study]);
+  const focused = graph.nodes.find(node => node.id === focusId) ?? graph.nodes.find(node => node.id === topicId) ?? graph.nodes.find(node => node.type === 'lesson');
+  const focusView = projectLearningGraph(graph, focused?.id);
+  function selectNode(id: string) {
+    focus(id);
+    const node = graph.nodes.find(entry => entry.id === id);
+    if (node?.topicId) openTopic(node.topicId);
+  }
   const [editor, setEditor] = useState<{ mode: 'new' | 'edit'; revision: number }>({ mode: 'new', revision: 0 });
   const [formVisible, setFormVisible] = useState(false);
   const [newPosition, setNewPosition] = useState<MapPoint>();
   const details = useRef<HTMLDetailsElement>(null);
-  const topic = active.topics.find(entry => entry.id === topicId) ?? active.topics[0];
+  const topic = active.topics.find(entry => entry.id === (focused?.topicId ?? topicId)) ?? active.topics[0];
   const linked = useMemo(() => {
     const ids = new Set(topic?.links);
     return active.words.filter(word => ids.has(word.id));
@@ -161,7 +175,19 @@ export function MapPage() {
   }
 
   return <><Heading title="Карта разговорных тем" />
-    <TopicCanvas key={study.language} topics={active.topics} selected={topic?.id} onCreate={create} />
+    <LearningCanvas key={study.language} graph={graph} selected={focused?.id} onSelect={selectNode} onCreate={create} />
+    {focused && <section className="learning-map-detail" aria-label="Выбранный узел">
+      <p className="kicker">{learningNodeLabels[focused.type]}</p><h2 lang={focused.language}>{focused.title}</h2>
+      {focused.school && focused.type !== 'school' && <p>{focused.school}</p>}
+      {focused.type === 'dialogue' && <><p>Доступные версии сцены — выбери уровень для точной практики.</p><div className="actions">{[...(focused.versions ?? [])].sort((a, b) => (a.level ?? '').localeCompare(b.level ?? '')).map(version => <a key={version.id} href={materialLessonHref(focused.topicId!, version.id)}>{version.level ?? 'Без уровня'}</a>)}</div></>}
+      {focused.type === 'lesson' && <div className="actions"><a href={materialLessonHref(focused.topicId ?? focused.id)}>Открыть материалы урока</a><button type="button" onClick={() => practice(focused.topicId ?? focused.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>}
+      {(focused.type === 'school' || focused.type === 'skill') && <>
+        <p>{focused.type === 'school' ? 'Уроки этой школы доступны на карте. Следующие страницы связей находятся над графом.' : 'Связанные сцены из твоих уроков. Следующие страницы связей находятся над графом.'}</p>
+        <div className="actions">{focusView.nodes.filter(node => focused.type === 'school' ? node.type === 'lesson' : node.type === 'dialogue').map(node => <div key={node.id}><button type="button" onClick={() => selectNode(node.id)}>{node.title}{node.school ? ' · ' + node.school : ''}</button>{focused.type === 'skill' && node.topicId && node.versions?.map(version => <a key={version.id} href={materialLessonHref(node.topicId!, version.id, focused.skillId)}>Практика · {version.level ?? 'Без уровня'}</a>)}</div>)}</div>
+        {focusView.nodes.length <= 1 && <p>Связанных материалов пока нет. Обзор всей карты доступен выше.</p>}
+      </>}
+      {focused.type !== 'lesson' && topic && <button type="button" onClick={() => selectNode(topic.id)}>Вернуться к уроку: {topic.title}</button>}
+    </section>}
     <div className="map-layout map-page-layout">
       <section className="map-workspace">
         {topic ? <>
@@ -169,7 +195,7 @@ export function MapPage() {
           <h2 lang={topic.language}>{topic.title}</h2>
           {topic.prompt && <p>{topic.prompt}</p>}
           <label className="compact-field">Тема <select value={topic.id} onChange={event => {
-            openTopic(event.target.value); select(undefined); setNewPosition(undefined); setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
+            openTopic(event.target.value); focus(event.target.value); select(undefined); setNewPosition(undefined); setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
           }}>{active.topics.map(entry => <option key={entry.id} value={entry.id}>{entry.title}</option>)}</select></label>
           <div className="actions"><button className="primary" type="button" onClick={() => practice(topic.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>
           {topicMaterials(topic).length > 0 && <Fold title={`Примеры к теме · ${topicMaterials(topic).length}`}>
@@ -202,6 +228,7 @@ export function MapPage() {
         <summary>{editor.mode === 'edit' ? 'Редактировать тему' : 'Новая тема'}</summary>
         {(formVisible || !topic) && <TopicEditor key={study.language + ':' + editor.revision + ':' + (editor.mode === 'edit' ? topic?.id : 'new')} position={editor.mode === 'new' ? newPosition : undefined} entry={editor.mode === 'edit' ? topic : undefined} finish={id => {
           openTopic(id);
+          focus(id);
           setNewPosition(undefined);
           setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
           if (details.current) details.current.open = false;
