@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useWorkspace } from '../context';
 import { readAnkiDays } from '../domain/anki-history';
 import { reviewKey } from '../domain/anki-model';
-import { dateLabel, localDay, modeLabels, practiceQueue } from '../domain/model';
+import { dateLabel, localDay, modeLabels, practiceQueue, resultLabels } from '../domain/model';
 import { Heading } from './common';
 import { UnifiedProgress } from './UnifiedProgress';
 
