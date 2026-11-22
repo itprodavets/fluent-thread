@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { PointerEvent } from 'react';
 import { useWorkspace } from '../context';
 import type { MapPoint, Study, Topic } from '../domain/model';
@@ -26,6 +26,8 @@ export function TopicCanvas({ topics, selected, onCreate }: { topics: Topic[]; s
   const viewport = useRef<HTMLDivElement>(null);
   const drag = useRef<Gesture | undefined>(undefined);
   const suppressClick = useRef(false);
+  const previousSearch = useRef('');
+  const unfilteredScroll = useRef({ left: 0, top: 0 });
   const rows = Math.max(3, Math.ceil(topics.length / 2));
   const positions = topicPositions(topics);
   if (preview) positions.set(preview.id, preview.point);
@@ -35,6 +37,25 @@ export function TopicCanvas({ topics, selected, onCreate }: { topics: Topic[]; s
   const visible = topics.filter(topic => !search || normalize(topic.title + ' ' + topic.prompt, topic.language).includes(search));
   const visibleIds = new Set(visible.map(topic => topic.id));
   const visibleEdges = edges.filter(edge => visibleIds.has(edge.from) && visibleIds.has(edge.to));
+
+  useEffect(() => {
+    const view = viewport.current;
+    if (!view) return;
+    if (search) {
+      if (!previousSearch.current) unfilteredScroll.current = { left: view.scrollLeft, top: view.scrollTop };
+      // Search changes presentation only. Centre the first rendered match at its
+      // existing coordinates, including when it sits far below the initial view.
+      const match = canvas.current?.querySelector<HTMLElement>('[data-topic-id]');
+      if (match) view.scrollTo({
+        left: Math.max(0, match.offsetLeft - view.clientWidth / 2),
+        top: Math.max(0, match.offsetTop - view.clientHeight / 2)
+      });
+    } else if (previousSearch.current) {
+      view.scrollTo(unfilteredScroll.current);
+    }
+    previousSearch.current = search;
+    // Deliberately react only to a new search, not dragging, saving or zooming.
+  }, [search]);
 
   async function save(change: (study: Study) => Study) {
     try {
@@ -120,7 +141,7 @@ export function TopicCanvas({ topics, selected, onCreate }: { topics: Topic[]; s
         <button type="button" onClick={() => { setZoom(100); viewport.current?.scrollTo(0, 0); }}>Сбросить вид</button>
       </div>
     </div>
-    <label className="map-search">Найти тему <input type="search" value={query} onChange={event => { setQuery(event.target.value); setStart(undefined); }} placeholder="Название или ситуация" /></label>
+    <label className="map-search">Найти тему <input type="search" value={query} onChange={event => { setQuery(event.target.value); setStart(undefined); setMessage(''); }} placeholder="Название или ситуация" /></label>
     <p className="sub graph-guide">{connecting ? start ? `Начало: ${labels.get(start)}. Выбери вторую тему.` : 'Выбери две темы по очереди, чтобы связать их.'
       : 'Перетаскивай темы. Для связи тяни за + к другой теме. Стрелки двигают тему с клавиатуры; двойной щелчок по фону создаёт новую.'}</p>
     <p className="map-save-status" role="status">{message || `Темы: ${visible.length} из ${topics.length}`}</p>
