@@ -1,3 +1,4 @@
+import { parseMaterialRoute, resolveMaterialRoute } from '../domain/material-route';
 import { MaterialReview } from './MaterialReview';
 import { ownedKey } from '../domain/profile-local';
 import { bundledLessons } from '../domain/bundled-lessons';
@@ -274,13 +275,16 @@ export function Materials() {
     if (['#materials/audio', '#materials/questions'].includes(location.hash) && study.language === 'en') return 'questions';
     return location.hash === '#materials/library' || resourceId ? 'library' : 'lessons';
   });
-  const [catalog, setCatalog] = useState<'schools' | 'skills'>(() => location.hash === skillPhrasesHash ? 'skills' : 'schools');
-  const [skillId, setSkill] = useState(() => skills.find(item =>
+  const route = parseMaterialRoute(location.hash);
+  const routeSelection = route && resolveMaterialRoute(study, route, skills, datedLessons);
+  const [routeActive, setRouteActive] = useState(!!route);
+  const [catalog, setCatalog] = useState<'schools' | 'skills'>(() => location.hash === skillPhrasesHash || routeSelection?.skillId ? 'skills' : 'schools');
+  const [skillId, setSkill] = useState(() => routeSelection?.skillId ?? skills.find(item =>
     phraseReviews(study, item.dialogues.flatMap(dialogue => dialogue.phrases), Date.now()).due.size)?.id ?? skills[0].id);
   const recentKey = ownedKey('nit-rechi:recent-lessons:' + study.language);
   const [recent, setRecent] = useState(() => readRecent(recentKey));
-  const [scene, setScene] = useState(location.hash.startsWith('#materials/lesson/') ? location.hash.slice('#materials/lesson/'.length) : recent[0]?.scene ?? '');
-  const [lessonId, setLessonId] = useState(recent[0]?.dialogue ?? '');
+  const [scene, setScene] = useState(route ? routeSelection?.topicId ?? '' : recent[0]?.scene ?? '');
+  const [lessonId, setLessonId] = useState(route ? routeSelection?.resourceId ?? '' : recent[0]?.dialogue ?? '');
   const [picker, setPicker] = useState<'recent' | 'schools' | 'skills'>(
     location.hash === skillPhrasesHash ? 'skills' : 'schools');
   const [browseSkill, setBrowseSkill] = useState(skillId);
@@ -296,7 +300,7 @@ export function Materials() {
   const skillDialogue = skillDialogs.find(entry => entry.topicId === scene && lessons.some(lesson => lesson.id === lessonId
     && lesson.topicId === entry.topicId && lesson.title === entry.title)) ?? skillDialogs[0];
   const skillCards = skillPhraseCards(skillDialogs, skillDialogue);
-  const selectedScene = catalog === 'skills' ? skillDialogue?.topicId ?? '' :
+  const selectedScene = routeActive ? scene : catalog === 'skills' ? skillDialogue?.topicId ?? '' :
     [...lessonTopics, ...(study.language === 'en' ? starterScenes : [])].some(topic => topic.id === scene)
       ? scene : lessonTopics[0]?.id ?? (study.language === 'en' ? starterScenes[0].id : '');
   const choices = dialogueChoices(lessons.filter(item => item.topicId === selectedScene));
@@ -311,7 +315,7 @@ export function Materials() {
   const [deleting, setDeleting] = useState<Resource>();
   const [busy, setBusy] = useState(false);
   const materials = active.resources.filter(resource => !isStarterResource(resource.id));
-  const currentTopic = lessonTopics.find(topic => topic.id === selectedScene);
+  const currentTopic = active.topics.find(topic => topic.id === selectedScene);
   const starter = study.language === 'en' && starterScenes.find(item => item.id === selectedScene);
   const starterLevel = starterLessons.find(item => item.sceneId === selectedScene && item.resource.id === lessonId)?.level ?? 'A1';
   const currentTitle = selectedChoice?.title ?? (starter ? starter.title : currentTopic?.title);
@@ -374,6 +378,7 @@ export function Materials() {
     lessonNavigation.current?.showModal();
   }
   function chooseTopic(id: string, dialogueId = '', mode: 'schools' | 'skills' = 'schools') {
+    setRouteActive(false);
     setCatalog(mode);
     setScene(id);
     setLessonId(dialogueId);
@@ -412,6 +417,7 @@ export function Materials() {
           </div>
           <button type="button" className="primary" onClick={showPicker}>Выбрать занятие</button>
         </div>
+        {routeActive && routeSelection?.notice && <p className="sub" role="status">{routeSelection.notice}</p>}
         <dialog ref={lessonNavigation} className="material-dialog lesson-picker" aria-labelledby="lesson-picker-title">
           <header className="actions"><h2 id="lesson-picker-title">Выбор занятия</h2>
             <button type="button" onClick={() => lessonNavigation.current?.close()}>Закрыть</button>
