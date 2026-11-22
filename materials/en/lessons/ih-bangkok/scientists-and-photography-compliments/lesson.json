@@ -1,0 +1,1283 @@
+{
+  "format": "fluent-thread",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Непризнанные учёные, фотография и комплименты · IH Bangkok",
+    "source": {
+      "school": "IH Bangkok",
+      "date": "2026-11-22"
+    },
+    "prompt": "Два последовательных занятия: признание научного вклада, повторное аудирование и согласование награды; затем комплименты фотографиям, ответы, грамматические рамки и ритм. Выбери A1–C2, прочитай модель и ответь своими словами. Полный ASR и русский смысловой ориентир сохранены отдельно от авторских учебных примеров."
+  },
+  "words": [
+    {
+      "title": "scientist",
+      "meaning": "учёный",
+      "example": "A scientist asks questions and checks evidence.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "science",
+      "meaning": "наука",
+      "example": "She wants to study science.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "scientific discovery",
+      "meaning": "научное открытие",
+      "example": "The conversation describes a scientific discovery.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "discover",
+      "meaning": "открывать; обнаруживать",
+      "example": "She discovered something important.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "discovery",
+      "meaning": "открытие",
+      "example": "The discovery inspired a reader.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "discoverer",
+      "meaning": "первооткрыватель",
+      "example": "The discoverer deserves recognition.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "physicist",
+      "meaning": "физик",
+      "example": "The story is about a respected physicist.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "physics",
+      "meaning": "физика",
+      "example": "She is thinking about studying physics.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "astrophysics",
+      "meaning": "астрофизика",
+      "example": "The book introduces astrophysics.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "astrophysicist",
+      "meaning": "астрофизик",
+      "example": "An astrophysicist studies the universe.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "astronomy",
+      "meaning": "астрономия",
+      "example": "The book is about astronomy.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "astronomer",
+      "meaning": "астроном",
+      "example": "An astronomer studies objects in space.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "radio telescope",
+      "meaning": "радиотелескоп",
+      "example": "She is standing near a radio telescope.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "pulsar",
+      "meaning": "пульсар",
+      "example": "The listening mentions pulsars.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "signal",
+      "meaning": "сигнал",
+      "example": "The scientist is checking signals.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "deep space",
+      "meaning": "дальний космос",
+      "example": "They discuss signals from deep space.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "black hole",
+      "meaning": "чёрная дыра",
+      "example": "The book mentions black holes.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "planet",
+      "meaning": "планета",
+      "example": "The learners hear a list including planets.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "the Big Bang",
+      "meaning": "Большой взрыв",
+      "example": "The Big Bang is mentioned in the audio.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "star",
+      "meaning": "звезда",
+      "example": "The conversation mentions an unusual kind of star.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "hydrogen",
+      "meaning": "водород",
+      "example": "A participant mentions hydrogen in stars.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "helium",
+      "meaning": "гелий",
+      "example": "The discussion also mentions helium.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "research",
+      "meaning": "исследование; исследовательская работа",
+      "example": "She did important research.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "do research",
+      "meaning": "проводить исследование",
+      "example": "The student did the research.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "data",
+      "meaning": "данные",
+      "example": "She is looking at data.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "chart",
+      "meaning": "таблица; диаграмма",
+      "example": "The picture may show data charts.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "folder",
+      "meaning": "папка",
+      "example": "She seems to be holding a folder.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "observatory",
+      "meaning": "обсерватория",
+      "example": "They discuss work at an observatory.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "postgraduate student",
+      "meaning": "аспирант; студент после первой степени",
+      "example": "In the audio, she was a postgraduate student.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "PhD",
+      "meaning": "докторская степень; программа PhD",
+      "example": "The story mentions work on a PhD.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "supervisor",
+      "meaning": "научный руководитель; руководитель",
+      "example": "A supervisor guides a student’s research.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "guide",
+      "meaning": "направлять; руководить",
+      "example": "A supervisor can guide a student.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "advise",
+      "meaning": "давать совет",
+      "example": "The supervisor advises the student.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "advice",
+      "meaning": "совет; советы, неисчисляемое",
+      "example": "The advice encourages her to try.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "the press",
+      "meaning": "пресса; СМИ",
+      "example": "The press wanted an interview.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "journalist",
+      "meaning": "журналист",
+      "example": "A journalist asks questions.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "newspaper",
+      "meaning": "газета",
+      "example": "The newspaper published an interview.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "magazine",
+      "meaning": "журнал",
+      "example": "The press includes magazines.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "interview",
+      "meaning": "интервью",
+      "example": "She found an interview online.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "get the credit",
+      "meaning": "получить признание заслуг",
+      "example": "Who got the credit in the example?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "get the credit for",
+      "meaning": "получить признание за",
+      "example": "She deserves credit for the discovery.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "take credit for",
+      "meaning": "приписывать себе заслугу за",
+      "example": "It is unfair to take credit for someone else’s work.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "recognition",
+      "meaning": "признание",
+      "example": "Important work can receive little recognition.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "contribution",
+      "meaning": "вклад",
+      "example": "We should acknowledge each contribution.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "acknowledge",
+      "meaning": "признавать; отмечать",
+      "example": "A compliment acknowledges someone’s skill.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "deserve",
+      "meaning": "заслуживать",
+      "example": "She deserves an award.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "fair",
+      "meaning": "справедливый",
+      "example": "Is that fair to the student?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "unfair",
+      "meaning": "несправедливый",
+      "example": "The learners think the situation is unfair.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "behind the scenes",
+      "meaning": "за кулисами; незаметно для публики",
+      "example": "Some people work behind the scenes.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "respected",
+      "meaning": "уважаемый",
+      "example": "The audio describes a respected physicist.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "famous",
+      "meaning": "известный",
+      "example": "Important researchers do not always become famous.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "underrated",
+      "meaning": "недооценённый",
+      "example": "The activity focuses on underrated scientists.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "overlooked",
+      "meaning": "оставшийся без внимания",
+      "example": "The award highlights overlooked work.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "inspiring",
+      "meaning": "вдохновляющий",
+      "example": "The reader finds the story inspiring.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "inspired by",
+      "meaning": "вдохновлённый чем-либо",
+      "example": "She is inspired by the scientist’s story.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "impressed",
+      "meaning": "впечатлённый",
+      "example": "The listener is impressed by her determination.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "determined",
+      "meaning": "решительный; целеустремлённый",
+      "example": "The character describes her as determined.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "determination",
+      "meaning": "решимость",
+      "example": "The story highlights determination.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "motivated",
+      "meaning": "мотивированный",
+      "example": "Her friend says she has always been motivated.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "stubborn",
+      "meaning": "упрямый",
+      "example": "The friend also calls her stubborn.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "sceptical",
+      "meaning": "скептически настроенный",
+      "example": "At first, the friend sounds sceptical.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "confident",
+      "meaning": "уверенный",
+      "example": "She feels more confident about the idea.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "confidence",
+      "meaning": "уверенность",
+      "example": "Encouragement can build confidence.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "supportive",
+      "meaning": "поддерживающий",
+      "example": "The friend becomes supportive.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "go for it",
+      "meaning": "действуй; попробуй",
+      "example": "If you want to study, go for it.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "good on you",
+      "meaning": "молодец; одобряю",
+      "example": "Good on you for trying something new.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "take a risk",
+      "meaning": "рискнуть",
+      "example": "She is prepared to take a risk.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "put in effort",
+      "meaning": "прикладывать усилия",
+      "example": "A degree requires you to put in effort.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "go back to university",
+      "meaning": "вернуться учиться в университет",
+      "example": "She is considering going back to university.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "make a decision",
+      "meaning": "принять решение",
+      "example": "She has not made a final decision.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "consider",
+      "meaning": "обдумывать; рассматривать",
+      "example": "She is considering a different path.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "come top of the class",
+      "meaning": "стать лучшим в классе",
+      "example": "The classroom story says she came top of her class.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "light read",
+      "meaning": "лёгкое чтение",
+      "example": "The friend does not consider astrophysics a light read.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "biography",
+      "meaning": "биография",
+      "example": "The book is not presented as a biography.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "award",
+      "meaning": "награда; награждать",
+      "example": "The group has to choose an award winner.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "winner",
+      "meaning": "победитель",
+      "example": "We need to agree on one winner.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "first choice",
+      "meaning": "первый выбор; фаворит",
+      "example": "My first choice differs from the group’s choice.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "criterion",
+      "meaning": "критерий",
+      "example": "Impact is one criterion for the award.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "criteria",
+      "meaning": "критерии",
+      "example": "We should agree on our criteria.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "achievement",
+      "meaning": "достижение",
+      "example": "Compare each scientist’s achievement.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "impact",
+      "meaning": "влияние; результативность",
+      "example": "Explain the impact of the work.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "treatment",
+      "meaning": "лечение; метод лечения",
+      "example": "A participant values work on treatment.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "leprosy",
+      "meaning": "лепра",
+      "example": "The Alice Ball discussion mentions leprosy.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "malaria",
+      "meaning": "малярия",
+      "example": "Another participant mentions malaria research.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "agree on",
+      "meaning": "согласовать",
+      "example": "Let’s agree on one candidate.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "agree with",
+      "meaning": "соглашаться с кем-либо",
+      "example": "I agree with your reason.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "compare",
+      "meaning": "сравнивать",
+      "example": "Compare your answers with a partner.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "reason",
+      "meaning": "причина; обоснование",
+      "example": "Give a reason for your choice.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "evidence",
+      "meaning": "свидетельства; основания",
+      "example": "What evidence supports that answer?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "attitude",
+      "meaning": "отношение",
+      "example": "Listen for the speaker’s attitude.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "implied meaning",
+      "meaning": "подразумеваемый смысл",
+      "example": "The task asks about implied meaning.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "main idea",
+      "meaning": "основная мысль",
+      "example": "First listen for the main idea.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "summary",
+      "meaning": "краткое изложение",
+      "example": "Choose the best summary.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "keyword",
+      "meaning": "ключевое слово",
+      "example": "Underline the keywords before listening.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "true or false",
+      "meaning": "верно или неверно",
+      "example": "Decide whether each statement is true or false.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "answer key",
+      "meaning": "ключ к заданию",
+      "example": "Send your answers before looking at the key.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "challenging",
+      "meaning": "сложный; требующий усилий",
+      "example": "Which question was most challenging?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "individually",
+      "meaning": "самостоятельно",
+      "example": "Choose your top three individually first.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "handout",
+      "meaning": "раздаточный материал",
+      "example": "The teacher sends a handout to the chat.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "screenshot",
+      "meaning": "снимок экрана",
+      "example": "Take a screenshot of the task.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "breakout room",
+      "meaning": "комната для групповой работы",
+      "example": "Discuss your answers in a breakout room.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "photography",
+      "meaning": "фотография как занятие",
+      "example": "The second lesson is about photography.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "photographer",
+      "meaning": "фотограф",
+      "example": "The photographers compare their pictures.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "photography club",
+      "meaning": "фотоклуб",
+      "example": "The characters belong to a photography club.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "shot",
+      "meaning": "снимок",
+      "example": "What a great shot!",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "take a photo",
+      "meaning": "сделать фотографию",
+      "example": "I enjoy taking photos when I travel.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "capture",
+      "meaning": "запечатлеть",
+      "example": "You captured the smile beautifully.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "frame",
+      "meaning": "кадрировать; обрамлять",
+      "example": "I love the way you framed the sunset.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "composition",
+      "meaning": "композиция",
+      "example": "The composition gives the picture depth.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "background",
+      "meaning": "фон",
+      "example": "You can comment on the background.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "reflection",
+      "meaning": "отражение",
+      "example": "I love the reflection on the water.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "light",
+      "meaning": "свет",
+      "example": "The light is amazing.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "catch the light",
+      "meaning": "поймать свет",
+      "example": "You caught the light beautifully.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "sunset",
+      "meaning": "закат",
+      "example": "The sunset appears between two buildings.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "portrait",
+      "meaning": "портрет",
+      "example": "What a lovely portrait!",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "daffodil",
+      "meaning": "нарцисс",
+      "example": "The audio begins with a comment about daffodils.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "coconut boat",
+      "meaning": "круглая корзинная лодка; название из рассказа",
+      "example": "The teacher calls it a coconut boat.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "compliment",
+      "meaning": "комплимент",
+      "example": "Give a specific compliment about the picture.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "response",
+      "meaning": "ответная реакция",
+      "example": "Choose a grateful response.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "comment",
+      "meaning": "комментарий; комментировать",
+      "example": "What would you comment on this picture?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "positive",
+      "meaning": "положительный",
+      "example": "The compliment sends a positive message.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "negative",
+      "meaning": "отрицательный",
+      "example": "The speaker makes a negative comment about their own photo.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "neutral",
+      "meaning": "нейтральный; сдержанный",
+      "example": "The teacher calls that a neutral response.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "grateful",
+      "meaning": "благодарный",
+      "example": "“I appreciate it” sounds grateful here.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "pleasing",
+      "meaning": "приятный; радующий",
+      "example": "A specific compliment can be pleasing to hear.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "lovely",
+      "meaning": "прекрасный; красивый",
+      "example": "That’s a lovely picture.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "stunning",
+      "meaning": "потрясающий",
+      "example": "What a stunning shot!",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "amazing",
+      "meaning": "удивительный; потрясающий",
+      "example": "The light is amazing.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "gorgeous",
+      "meaning": "великолепный",
+      "example": "The flowers look gorgeous.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "ordinary",
+      "meaning": "обычный; заурядный",
+      "example": "The speaker thinks their own shot is ordinary.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "pretty boring",
+      "meaning": "довольно скучный",
+      "example": "“Pretty boring” describes the speaker’s own photo.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "nothing special",
+      "meaning": "ничего особенного",
+      "example": "“Nothing special” is a restrained self-assessment.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "not my best work",
+      "meaning": "не лучшая моя работа",
+      "example": "“Not my best work” can sound modest.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "compared to yours",
+      "meaning": "по сравнению с твоим",
+      "example": "My picture seems ordinary compared to yours.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "not as good as",
+      "meaning": "не такой хороший, как",
+      "example": "I thought my shot was not as good as yours.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "good at taking photos",
+      "meaning": "хорошо умеющий фотографировать",
+      "example": "You’re good at taking photos.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "talented",
+      "meaning": "талантливый",
+      "example": "The phrase can suggest someone is talented.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "skilled",
+      "meaning": "умелый",
+      "example": "A skilled photographer notices the light.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "manage to",
+      "meaning": "суметь; справиться с",
+      "example": "You managed to get it just right.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "just right",
+      "meaning": "в точности как надо",
+      "example": "You got the light just right.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "appreciate",
+      "meaning": "ценить; быть благодарным за",
+      "example": "Thank you. I really appreciate it.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "I’m glad you like it",
+      "meaning": "рад, что тебе нравится",
+      "example": "Thanks. I’m glad you like it.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "Do you think so?",
+      "meaning": "Ты так думаешь?",
+      "example": "Do you think so? I wasn’t sure about the light.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "fixed part",
+      "meaning": "фиксированная часть",
+      "example": "Which part of the phrase is fixed?",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "adjective",
+      "meaning": "прилагательное",
+      "example": "You can change the adjective in the model.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "noun",
+      "meaning": "существительное",
+      "example": "Shot is a singular count noun.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "subject",
+      "meaning": "подлежащее",
+      "example": "You is the subject of the clause.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "object",
+      "meaning": "дополнение",
+      "example": "The light is the object of caught.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "stress",
+      "meaning": "ударение",
+      "example": "Practise the phrase with natural stress.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "repeat after me",
+      "meaning": "повторяйте за мной",
+      "example": "Repeat after me: What a great shot!",
+      "vocabularyLevel": "learning"
+    }
+  ],
+  "materials": [
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · A1",
+      "text": "I see a woman in a photo. She is near a radio telescope. In class, we listen to a story about a scientist. She does important work, but another person gets the credit. Is that fair? We choose a scientist for an award and give a reason. Then we talk about photos. A photo can have beautiful light. I can say, “What a great shot!” My friend can say, “Thank you. I’m glad you like it.” A kind comment can be short. It can also be specific: “I love the light in your picture.” I listen to my friend and reply politely.",
+      "translation": "Я вижу женщину на фотографии. Она рядом с радиотелескопом. На уроке мы слушаем историю об учёной. Она делает важную работу, но признание получает другой человек. Справедливо ли это? Мы выбираем учёного для награды и объясняем причину. Затем говорим о фотографиях. На фото может быть красивый свет. Я могу сказать: «Какой отличный снимок!» Друг может ответить: «Спасибо. Я рад, что тебе нравится». Добрый комментарий может быть коротким. Он также может быть конкретным: «Мне очень нравится свет на твоём снимке». Я слушаю друга и отвечаю вежливо."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · A2",
+      "text": "The first part of the lesson is about scientists and recognition. Learners look at a photograph and describe what the woman is doing. They learn supervisor, the press and get the credit for something. They listen to a conversation about Jocelyn Bell Burnell. In the classroom story, her work inspires someone to think about studying physics. The learners listen several times: first for the main idea, then for facts and feelings. Finally, they compare scientists and agree on one award winner. In the second part, they listen to photographers talking about their pictures. The light is amazing, but one photographer thinks their own shot is ordinary. A compliment and a modest response are different things. “Thanks. I really appreciate it” is a warm way to accept praise.",
+      "translation": "Первая часть урока посвящена учёным и признанию. Ученики смотрят на фотографию и описывают, что делает женщина. Они изучают supervisor, the press и get the credit for something. Затем слушают разговор о Джоселин Белл Бёрнелл. В учебной истории её работа вдохновляет человека подумать об изучении физики. Ученики слушают несколько раз: сначала ради основной мысли, затем ради фактов и чувств. В конце сравнивают учёных и согласуют одного победителя. Во второй части слушают фотографов, обсуждающих снимки. Свет удивительный, но один фотограф считает свой снимок обычным. Комплимент и скромный ответ — разные вещи. «Спасибо. Я очень это ценю» — тёплый способ принять похвалу."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · B1",
+      "text": "A discovery can change a subject without making its discoverer well known. That is the problem introduced by the first classroom listening. A story about Jocelyn Bell Burnell leads one character to consider returning to university. Her friend initially sounds doubtful, then offers support. Learners must notice this change rather than choose an answer from a single word. They also practise giving reasons for an award. A personal favourite is only a starting point: the group has to compare achievement, impact and fairness before agreeing on one person. The photography lesson develops a related skill: noticing the purpose of a response. “The light is amazing” praises someone else’s work, whereas “It’s nothing special” may describe the speaker’s own picture. Both can appear in the same conversation. A specific compliment, followed by sincere thanks, makes the exchange clear and friendly.",
+      "translation": "Открытие может изменить научную область, не сделав открывшего его человека известным. Эту проблему вводит первое учебное аудирование. История о Джоселин Белл Бёрнелл побуждает героиню подумать о возвращении в университет. Подруга сначала сомневается, затем поддерживает. Ученикам нужно заметить эту перемену, а не выбирать ответ по одному слову. Они также тренируются обосновывать выбор награждаемого. Личный фаворит — только начало: группе нужно сравнить достижения, влияние и справедливость, прежде чем согласиться на одном человеке. Урок о фотографии развивает связанное умение: замечать цель ответа. «Свет потрясающий» хвалит чужую работу, тогда как «Ничего особенного» может описывать собственный снимок говорящего. Оба высказывания могут встретиться в одном разговоре. Конкретный комплимент и искренняя благодарность делают обмен понятным и дружелюбным."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · B2",
+      "text": "The recording moves from public recognition to everyday appreciation. In the science lesson, learners distinguish a contribution from the credit awarded for it. They approach the same listening in stages: establish its overall message, recover explicit information and interpret attitudes. “Why shouldn’t I?” suggests growing confidence, yet does not prove that a university application has been made. Likewise, an award discussion requires more than announcing a favourite; participants need to acknowledge competing criteria and reach a shared decision. The photography lesson shows how apparently negative language can serve a different conversational purpose. Calling one’s own picture ordinary is not necessarily criticism of a partner’s work. The teacher contrasts restrained responses with more grateful ones and highlights reusable frames: “What a great shot”, “That’s a lovely picture”, “I love the way you caught the light” and “You managed to get it just right.” The final exchange remains unfinished in the recording.",
+      "translation": "Запись переходит от общественного признания к повседневной благодарности. На занятии о науке ученики отличают вклад от признания, которое за него получают. К одному аудио подходят поэтапно: устанавливают общий смысл, извлекают прямо сказанное и интерпретируют отношение. Why shouldn’t I? указывает на рост уверенности, но не доказывает подачу заявления в университет. Обсуждение награды тоже требует больше, чем назвать фаворита: нужно признать разные критерии и принять совместное решение. Урок о фотографии показывает, что внешне отрицательная фраза может выполнять иную разговорную задачу. Назвать свой снимок обычным не обязательно означает критиковать работу партнёра. Преподаватель сопоставляет сдержанные и благодарные ответы, выделяя рамки: «Какой отличный снимок», «Это прекрасная фотография», «Мне нравится, как ты поймал свет» и «Тебе удалось сделать это как надо». Последний обмен остаётся незаконченным в записи."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · C1",
+      "text": "Recognition is treated on two scales: the allocation of credit within a scientific community and the small act of acknowledging another person’s photographic skill. In both cases, interpretation depends on who did what and whose contribution is being evaluated. The listening sequence trains learners to separate explicit claims from implications. Initial scepticism can develop into encouragement, while a tentative plan remains tentative even when its speaker sounds more confident. The award activity then makes the learners responsible for a collective judgement. They must negotiate criteria without pretending that a short profile captures the full value of a scientific career. In the second lesson, modest self-assessment coexists with generous praise of a partner. The teacher’s distinction between neutral and grateful responses is a useful classroom guide, not a universal rule governing every culture or relationship. Reusable grammatical frames support specific appreciation, but tone and context still determine how it is received.",
+      "translation": "Признание рассматривается в двух масштабах: распределение заслуг в научном сообществе и небольшое действие, которым замечают фотографическое мастерство другого. В обоих случаях интерпретация зависит от того, кто что сделал и чей вклад оценивается. Последовательность аудирования учит отделять прямо сказанное от подразумеваемого. Начальный скепсис может превратиться в поддержку, а предварительный план остаётся предварительным даже при большей уверенности говорящего. Затем задание о награде возлагает на учеников ответственность за коллективное суждение. Нужно согласовать критерии, не делая вид, будто короткий профиль охватывает ценность всей научной карьеры. На втором занятии скромная самооценка сосуществует со щедрой похвалой партнёра. Различие нейтральных и благодарных ответов полезно для урока, но не является универсальным правилом для любой культуры и отношений. Грамматические рамки помогают выражать конкретную признательность, однако её восприятие всё равно зависит от тона и контекста."
+    },
+    {
+      "kind": "reading",
+      "title": "Текст для чтения · C2",
+      "text": "The two lessons expose a recurrent asymmetry between producing something valuable and having that value recognised. The science listening presents an account of overlooked contribution; the subsequent task asks learners to redistribute attention through a negotiated award. Such a judgement inevitably selects among incomparable kinds of achievement, so a defensible choice must articulate its criteria and acknowledge what those criteria leave out. The photography exchange brings the same tension into ordinary interaction. A speaker may enthusiastically recognise another person’s skill while minimising their own achievement, producing positive and negative evaluations without inconsistency. Understanding the exchange therefore requires tracking the object of each judgement, rather than classifying every sentence by polarity alone. Formulaic language helps manage the encounter, but its fixed and variable elements require discrimination: a singular exclamation follows “What a”, whereas the clause after “I love the way” can express a distinct contribution. The pedagogical aim is precise acknowledgement, supported by evidence and responsive to context.",
+      "translation": "Оба занятия выявляют повторяющуюся асимметрию между созданием чего-то ценного и признанием этой ценности. Аудирование о науке предлагает рассказ о недооценённом вкладе; следующее задание просит учеников перераспределить внимание через согласованную награду. Такое суждение неизбежно выбирает между несопоставимыми достижениями, поэтому обоснованный выбор должен назвать критерии и признать, что остаётся за их пределами. Разговор о фотографии переносит то же напряжение в повседневное общение. Человек может восторженно отмечать чужое мастерство и одновременно преуменьшать собственное достижение, сочетая положительные и отрицательные оценки без противоречия. Чтобы понять обмен, нужно следить за предметом каждой оценки, а не классифицировать предложения только по положительному или отрицательному знаку. Готовые выражения помогают вести разговор, однако требуют различения постоянных и переменных частей: после What a идёт восклицание с существительным в единственном числе, а придаточное после I love the way может выделять отдельный вклад. Учебная цель — точное признание заслуг с опорой на свидетельства и контекст."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Кто заслуживает признания · A1",
+      "text": "Partner: Who is she?\nLearner: She is a scientist.\nPartner: What is she doing?\nLearner: She is looking at data.\nPartner: Is her work important?\nLearner: Yes. She helps us understand space.",
+      "translation": "Partner: Кто она?\nLearner: Она учёная.\nPartner: Что она делает?\nLearner: Она смотрит на данные.\nPartner: Её работа важна?\nLearner: Да. Она помогает нам понять космос.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Кто заслуживает признания · A1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Who is she?\nLearner: She is a scientist.\nPartner: What is she doing?\nLearner: She is looking at data.\nPartner: Is her work important?\nLearner: Yes. She helps us understand space.\n\nКто эта женщина и что она делает? Назови другую полезную профессию. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "She is a scientist. She is looking at data. A teacher helps people learn."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Кто заслуживает признания · A2",
+      "text": "Partner: What can you see in the picture?\nLearner: A scientist is standing near a radio telescope.\nPartner: Why do you think she is inspiring?\nLearner: She works hard and asks important questions.\nPartner: Does the listening say she got all the credit?\nLearner: No. In the classroom story, her supervisor got the credit.",
+      "translation": "Partner: Что ты видишь на снимке?\nLearner: Учёная стоит рядом с радиотелескопом.\nPartner: Почему она, по-твоему, вдохновляет?\nLearner: Она много работает и задаёт важные вопросы.\nPartner: В аудио говорится, что всё признание досталось ей?\nLearner: Нет. В учебной истории признание досталось её руководителю.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Кто заслуживает признания · A2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: What can you see in the picture?\nLearner: A scientist is standing near a radio telescope.\nPartner: Why do you think she is inspiring?\nLearner: She works hard and asks important questions.\nPartner: Does the listening say she got all the credit?\nLearner: No. In the classroom story, her supervisor got the credit.\n\nГде стоит учёная? Кто получает признание в учебной истории? Скажи, почему признание важно. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "She is near a radio telescope. Her supervisor gets the credit in the story. Recognition matters because it shows whose work helped."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Кто заслуживает признания · B1",
+      "text": "Partner: Which summary fits the conversation best?\nLearner: A scientist’s story inspires someone to consider studying physics.\nPartner: Has she decided to return to university?\nLearner: Not yet. She is doing some reading and thinking about it.\nPartner: How does her friend’s attitude change?\nLearner: She sounds doubtful at first, but later says she admires the idea.",
+      "translation": "Partner: Какое резюме лучше подходит к разговору?\nLearner: История учёной вдохновляет человека подумать об изучении физики.\nPartner: Она решила вернуться в университет?\nLearner: Пока нет. Она читает и размышляет.\nPartner: Как меняется отношение подруги?\nLearner: Сначала она сомневается, но позже говорит, что восхищается идеей.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Кто заслуживает признания · B1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Which summary fits the conversation best?\nLearner: A scientist’s story inspires someone to consider studying physics.\nPartner: Has she decided to return to university?\nLearner: Not yet. She is doing some reading and thinking about it.\nPartner: How does her friend’s attitude change?\nLearner: She sounds doubtful at first, but later says she admires the idea.\n\nКакова основная мысль? Принято ли решение? Назови признак поддержки. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "The story inspires a possible return to study. No final decision has been made. Saying “I admire that” shows support."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Кто заслуживает признания · B2",
+      "text": "Partner: Does “Why shouldn’t I?” mean she has enrolled?\nLearner: No. It suggests growing confidence, not a completed application.\nPartner: What makes you think her friend becomes supportive?\nLearner: She moves from questioning the effort to saying “Good on you”.\nPartner: So should we separate facts from interpretations?\nLearner: Yes. We can quote the response and explain the attitude it suggests.",
+      "translation": "Partner: Why shouldn’t I? означает, что она уже поступила?\nLearner: Нет. Это указывает на рост уверенности, а не на поданное заявление.\nPartner: Почему ты считаешь, что подруга стала поддерживать?\nLearner: Она переходит от вопросов об усилиях к Good on you.\nPartner: Значит, нужно отделять факты от интерпретаций?\nLearner: Да. Можно процитировать ответ и объяснить, какое отношение он выражает.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Кто заслуживает признания · B2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Does “Why shouldn’t I?” mean she has enrolled?\nLearner: No. It suggests growing confidence, not a completed application.\nPartner: What makes you think her friend becomes supportive?\nLearner: She moves from questioning the effort to saying “Good on you”.\nPartner: So should we separate facts from interpretations?\nLearner: Yes. We can quote the response and explain the attitude it suggests.\n\nКакое чрезмерное заключение отвергается? Сошлись на одну реплику и объясни её смысл. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "We cannot conclude that she has enrolled. “Good on you” suggests approval, while “Why shouldn’t I?” suggests growing confidence."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Кто заслуживает признания · C1",
+      "text": "Partner: How would you distinguish recognition from achievement here?\nLearner: The achievement concerns the work itself; recognition concerns who is publicly credited for it.\nPartner: Can we treat every detail in the classroom audio as verified history?\nLearner: No. We can accurately report what the characters say without claiming independent verification.\nPartner: And what does repeated listening add?\nLearner: It lets us test an initial interpretation against details and changes in attitude.",
+      "translation": "Partner: Как бы ты здесь различил признание и достижение?\nLearner: Достижение касается самой работы, а признание — того, кому публично приписывают заслугу.\nPartner: Можно считать каждую деталь учебного аудио проверенной историей?\nLearner: Нет. Можно точно пересказать слова персонажей, не заявляя независимую проверку.\nPartner: А что даёт повторное прослушивание?\nLearner: Позволяет проверить начальную интерпретацию по деталям и перемене отношения.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Кто заслуживает признания · C1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: How would you distinguish recognition from achievement here?\nLearner: The achievement concerns the work itself; recognition concerns who is publicly credited for it.\nPartner: Can we treat every detail in the classroom audio as verified history?\nLearner: No. We can accurately report what the characters say without claiming independent verification.\nPartner: And what does repeated listening add?\nLearner: It lets us test an initial interpretation against details and changes in attitude.\n\nРазличи achievement и recognition. Зачем слушать повторно? Добавь осторожную интерпретацию. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "Achievement is the contribution; recognition is its acknowledgement. Repeated listening tests our interpretation. The character appears increasingly confident, although her plan remains tentative."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Кто заслуживает признания · C2",
+      "text": "Partner: What is lost when we reduce the listening to a story of individual determination?\nLearner: We risk obscuring the structures that allocate credit, as well as the conversational shift that the task asks us to notice.\nPartner: Would the opposite reading, focused entirely on injustice, be sufficient?\nLearner: It would also be partial: the dialogue links an account of injustice to someone’s tentative change of direction.\nPartner: How can our summary preserve both dimensions?\nLearner: By naming the overlooked contribution and explaining its effect on the listener without turning possibility into a settled decision.",
+      "translation": "Partner: Что теряется, если свести аудио к истории личной решимости?\nLearner: Можно упустить механизмы распределения заслуг и перемену в разговоре, которую требуется заметить.\nPartner: Достаточно ли обратного прочтения, сосредоточенного только на несправедливости?\nLearner: Оно тоже неполно: диалог связывает рассказ о несправедливости с возможной сменой пути другого человека.\nPartner: Как сохранить оба измерения в резюме?\nLearner: Назвать недооценённый вклад и объяснить его действие на слушателя, не превращая возможность в принятое решение.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Кто заслуживает признания · C2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: What is lost when we reduce the listening to a story of individual determination?\nLearner: We risk obscuring the structures that allocate credit, as well as the conversational shift that the task asks us to notice.\nPartner: Would the opposite reading, focused entirely on injustice, be sufficient?\nLearner: It would also be partial: the dialogue links an account of injustice to someone’s tentative change of direction.\nPartner: How can our summary preserve both dimensions?\nLearner: By naming the overlooked contribution and explaining its effect on the listener without turning possibility into a settled decision.\n\nКакие две односторонние трактовки отвергаются? Составь своё резюме с оговоркой. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "Neither determination alone nor injustice alone captures the conversation. An overlooked contribution inspires a possible return to study, but the character has not settled her plans."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Согласовать научную награду · A1",
+      "text": "Partner: Who do you choose?\nLearner: I choose this scientist.\nPartner: Why?\nLearner: Her work helps people.\nPartner: I like that reason. Can we choose her?\nLearner: Yes. Let’s choose her together.",
+      "translation": "Partner: Кого ты выбираешь?\nLearner: Я выбираю эту учёную.\nPartner: Почему?\nLearner: Её работа помогает людям.\nPartner: Мне нравится эта причина. Можем выбрать её?\nLearner: Да. Давай выберем её вместе.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Согласовать научную награду · A1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Who do you choose?\nLearner: I choose this scientist.\nPartner: Why?\nLearner: Her work helps people.\nPartner: I like that reason. Can we choose her?\nLearner: Yes. Let’s choose her together.\n\nПочему выбирают учёную? Придумай свою причину для награды. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "Her work helps people. My reason is that she teaches other scientists."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Согласовать научную награду · A2",
+      "text": "Partner: Which scientist is your first choice?\nLearner: I choose Alice Ball because the class profile describes work that helped people.\nPartner: I chose another scientist because I am interested in space.\nLearner: Both reasons are good. We need to agree on one winner.\nPartner: Shall we choose Alice Ball this time?\nLearner: Yes. We can explain our reason to the class.",
+      "translation": "Partner: Какой учёный у тебя на первом месте?\nLearner: Я выбираю Alice Ball, потому что профиль на уроке описывает работу, помогавшую людям.\nPartner: Я выбрал другого учёного, потому что интересуюсь космосом.\nLearner: Обе причины хорошие. Нам нужно согласовать одного победителя.\nPartner: Давай в этот раз выберем Alice Ball?\nLearner: Да. Мы можем объяснить причину классу.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Согласовать научную награду · A2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Which scientist is your first choice?\nLearner: I choose Alice Ball because the class profile describes work that helped people.\nPartner: I chose another scientist because I am interested in space.\nLearner: Both reasons are good. We need to agree on one winner.\nPartner: Shall we choose Alice Ball this time?\nLearner: Yes. We can explain our reason to the class.\n\nЧем различались личные причины? Какой выбор стал общим? Предложи другой критерий. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "One person values helping people; the other is interested in space. They agree on Alice Ball. Another criterion could be how much recognition someone has received."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Согласовать научную награду · B1",
+      "text": "Partner: My first choice is the scientist whose work improved treatment.\nLearner: I see your point, but I chose the person who changed our understanding of stars.\nPartner: We are using different criteria: practical impact and new knowledge.\nLearner: Could we also consider who received too little credit?\nPartner: Yes. Let’s compare those three points before deciding.\nLearner: Agreed. Then we can report one choice and mention why the alternatives mattered.",
+      "translation": "Partner: Мой первый выбор — учёный, чья работа улучшила лечение.\nLearner: Понимаю, но я выбрал человека, изменившего понимание звёзд.\nPartner: Мы используем разные критерии: практическую пользу и новые знания.\nLearner: Можно также учесть, кто получил слишком мало признания?\nPartner: Да. Давай сравним эти три пункта до решения.\nLearner: Согласен. Затем сообщим один выбор и объясним, почему альтернативы тоже были важны.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Согласовать научную награду · B1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: My first choice is the scientist whose work improved treatment.\nLearner: I see your point, but I chose the person who changed our understanding of stars.\nPartner: We are using different criteria: practical impact and new knowledge.\nLearner: Could we also consider who received too little credit?\nPartner: Yes. Let’s compare those three points before deciding.\nLearner: Agreed. Then we can report one choice and mention why the alternatives mattered.\n\nНазови три критерия. Как группа собирается решать? Добавь свой вопрос партнёру. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "They compare practical impact, new knowledge and overlooked credit before choosing. My question is: Which criterion should matter most for this particular award?"
+    },
+    {
+      "kind": "dialogue",
+      "title": "Согласовать научную награду · B2",
+      "text": "Partner: We have three favourites, but the task asks us to agree on one.\nLearner: Then we should settle our criteria before defending our choices.\nPartner: I suggest contribution, impact and the extent to which the work was overlooked.\nLearner: That seems fair, provided we acknowledge what a short profile cannot tell us.\nPartner: Could you support the candidate with the strongest case across those criteria?\nLearner: Yes, and we should distinguish our group decision from my personal preference.",
+      "translation": "Partner: У нас три фаворита, но задание требует согласовать одного.\nLearner: Тогда нужно согласовать критерии до защиты своих вариантов.\nPartner: Предлагаю вклад, влияние и степень недооценённости работы.\nLearner: Это справедливо, если признать, чего короткий профиль не сообщает.\nPartner: Ты поддержишь кандидата с самым сильным обоснованием по этим критериям?\nLearner: Да, и надо отличать решение группы от моего личного предпочтения.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Согласовать научную награду · B2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: We have three favourites, but the task asks us to agree on one.\nLearner: Then we should settle our criteria before defending our choices.\nPartner: I suggest contribution, impact and the extent to which the work was overlooked.\nLearner: That seems fair, provided we acknowledge what a short profile cannot tell us.\nPartner: Could you support the candidate with the strongest case across those criteria?\nLearner: Yes, and we should distinguish our group decision from my personal preference.\n\nПочему сначала нужны критерии? Чем отчёт группы отличается от личного мнения? Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "Criteria make the comparison consistent. A group report states what was agreed, even when a speaker originally preferred someone else."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Согласовать научную награду · C1",
+      "text": "Partner: Is a single award an adequate way to recognise such different contributions?\nLearner: Only partially, but we can make the exercise defensible by stating its purpose.\nPartner: Suppose the purpose is to draw attention to overlooked work rather than rank all scientific value.\nLearner: Then previous recognition becomes relevant, alongside the contribution itself.\nPartner: How should the reporter handle our disagreement?\nLearner: Explain the agreed choice, acknowledge the strongest alternative and avoid implying that the vote establishes objective superiority.",
+      "translation": "Partner: Одна награда — подходящий способ признать столь разные вклады?\nLearner: Лишь отчасти, но можно обосновать упражнение, назвав его цель.\nPartner: Допустим, цель — привлечь внимание к недооценённому труду, а не ранжировать всю научную ценность.\nLearner: Тогда прежнее признание становится значимым наряду с самим вкладом.\nPartner: Как докладчику передать наше несогласие?\nLearner: Объяснить согласованный выбор, признать сильнейшую альтернативу и не изображать голосование доказательством объективного превосходства.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Согласовать научную награду · C1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Is a single award an adequate way to recognise such different contributions?\nLearner: Only partially, but we can make the exercise defensible by stating its purpose.\nPartner: Suppose the purpose is to draw attention to overlooked work rather than rank all scientific value.\nLearner: Then previous recognition becomes relevant, alongside the contribution itself.\nPartner: How should the reporter handle our disagreement?\nLearner: Explain the agreed choice, acknowledge the strongest alternative and avoid implying that the vote establishes objective superiority.\n\nКак цель меняет критерии? Что должен сказать докладчик о разногласиях? Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "An award for overlooked work makes prior recognition relevant. The reporter should explain the shared decision and acknowledge a strong alternative without claiming objective superiority."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Согласовать научную награду · C2",
+      "text": "Partner: Can consensus here conceal rather than resolve a disagreement about value?\nLearner: Certainly. We may agree on a name while attaching incompatible meanings to the choice.\nPartner: What would make the agreement more substantive?\nLearner: An explicit account of the award’s purpose and the trade-offs we are willing to accept.\nPartner: Would acknowledging those trade-offs weaken the presentation?\nLearner: It would make it more credible: our decision becomes a reasoned judgement under limited information, rather than a claim to have measured the worth of entire careers.",
+      "translation": "Partner: Может ли согласие скрывать разногласие о ценности, а не разрешать его?\nLearner: Конечно. Можно согласовать имя, вкладывая в выбор несовместимые смыслы.\nPartner: Что сделало бы согласие более содержательным?\nLearner: Явное описание цели награды и компромиссов, на которые мы готовы.\nPartner: Признание компромиссов ослабит выступление?\nLearner: Оно сделает его убедительнее: решение станет обоснованным суждением при ограниченной информации, а не заявлением об измерении ценности целых карьер.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Согласовать научную награду · C2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Can consensus here conceal rather than resolve a disagreement about value?\nLearner: Certainly. We may agree on a name while attaching incompatible meanings to the choice.\nPartner: What would make the agreement more substantive?\nLearner: An explicit account of the award’s purpose and the trade-offs we are willing to accept.\nPartner: Would acknowledging those trade-offs weaken the presentation?\nLearner: It would make it more credible: our decision becomes a reasoned judgement under limited information, rather than a claim to have measured the worth of entire careers.\n\nЧем согласие по имени отличается от содержательного согласия? Дай собственную модель отчёта. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "Substantive agreement includes a shared purpose and acknowledged trade-offs. Model: We chose this candidate to highlight overlooked practical impact, while recognising that another contribution was scientifically fundamental."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Комплимент фотографии и ответ · A1",
+      "text": "Partner: Can I see your photo?\nLearner: Yes. Here it is.\nPartner: What a great shot!\nLearner: Thank you.\nPartner: I love the light.\nLearner: Thanks. I’m glad you like it.",
+      "translation": "Partner: Можно посмотреть твою фотографию?\nLearner: Да. Вот она.\nPartner: Какой отличный снимок!\nLearner: Спасибо.\nPartner: Мне очень нравится свет.\nLearner: Спасибо. Я рад, что тебе нравится.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Комплимент фотографии и ответ · A1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Can I see your photo?\nLearner: Yes. Here it is.\nPartner: What a great shot!\nLearner: Thank you.\nPartner: I love the light.\nLearner: Thanks. I’m glad you like it.\n\nЧто именно нравится собеседнику? Ответь на What a great shot! Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "The light. Thank you. I’m glad you like it."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Комплимент фотографии и ответ · A2",
+      "text": "Partner: That’s a lovely picture. Where did you take it?\nLearner: At the river, just before sunset.\nPartner: You managed to get the light just right.\nLearner: Thank you. I really appreciate it.\nPartner: Do you take photos every weekend?\nLearner: Not every weekend, but I enjoy taking pictures when I travel.",
+      "translation": "Partner: Это прекрасная фотография. Где ты её сделал?\nLearner: У реки, перед закатом.\nPartner: Тебе удалось отлично поймать свет.\nLearner: Спасибо. Я очень это ценю.\nPartner: Ты фотографируешь каждые выходные?\nLearner: Не каждые, но мне нравится снимать в путешествиях.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Комплимент фотографии и ответ · A2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: That’s a lovely picture. Where did you take it?\nLearner: At the river, just before sunset.\nPartner: You managed to get the light just right.\nLearner: Thank you. I really appreciate it.\nPartner: Do you take photos every weekend?\nLearner: Not every weekend, but I enjoy taking pictures when I travel.\n\nГде и когда сделан снимок? Как собеседник благодарит? Сделай свой конкретный комплимент. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "At the river, before sunset. The response is “Thank you. I really appreciate it.” My compliment: I love the colours in your picture."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Комплимент фотографии и ответ · B1",
+      "text": "Partner: I love the way you framed the sunset between those buildings.\nLearner: Thanks. I’m glad you like it. I waited for the right moment.\nPartner: Can I show you mine? I think it’s rather ordinary.\nLearner: Of course. I like the reflection on the water.\nPartner: Do you think so? I wasn’t sure about the light.\nLearner: Yes. It gives the picture a calm feeling.",
+      "translation": "Partner: Мне нравится, как ты поместил закат между этими зданиями.\nLearner: Спасибо. Я рад, что тебе нравится. Я ждал подходящего момента.\nPartner: Можно показать мой? Мне кажется, он довольно обычный.\nLearner: Конечно. Мне нравится отражение на воде.\nPartner: Ты так думаешь? Я сомневался насчёт света.\nLearner: Да. Он создаёт спокойное настроение.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Комплимент фотографии и ответ · B1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: I love the way you framed the sunset between those buildings.\nLearner: Thanks. I’m glad you like it. I waited for the right moment.\nPartner: Can I show you mine? I think it’s rather ordinary.\nLearner: Of course. I like the reflection on the water.\nPartner: Do you think so? I wasn’t sure about the light.\nLearner: Yes. It gives the picture a calm feeling.\n\nЧья работа названа ordinary? Назови конкретные объекты похвалы и дай благодарный ответ. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "The second photographer calls their own work ordinary. They praise the framing and the reflection. Thank you. I really appreciate that."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Комплимент фотографии и ответ · B2",
+      "text": "Partner: What a stunning shot. I love the way you caught the reflection.\nLearner: Thanks. I guess it’s not bad, though I nearly deleted it.\nPartner: You sound surprised that I like it.\nLearner: I am. I tend to notice the flaws in my own pictures first.\nPartner: That makes sense, but the light works beautifully here.\nLearner: Thank you. I really appreciate the specific feedback.",
+      "translation": "Partner: Какой потрясающий снимок. Мне нравится, как ты поймал отражение.\nLearner: Спасибо. Наверное, неплохо, хотя я чуть его не удалил.\nPartner: Кажется, ты удивлён, что он мне нравится.\nLearner: Да. Обычно я сначала замечаю недостатки собственных фотографий.\nPartner: Понимаю, но свет здесь очень удачный.\nLearner: Спасибо. Я очень ценю конкретный отзыв.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Комплимент фотографии и ответ · B2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: What a stunning shot. I love the way you caught the reflection.\nLearner: Thanks. I guess it’s not bad, though I nearly deleted it.\nPartner: You sound surprised that I like it.\nLearner: I am. I tend to notice the flaws in my own pictures first.\nPartner: That makes sense, but the light works beautifully here.\nLearner: Thank you. I really appreciate the specific feedback.\n\nПочему ответ сдержанный? Чем последняя благодарность отличается? Измени комплимент под портрет. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "The photographer notices flaws and is surprised by praise. The final response warmly accepts specific feedback. Portrait model: I love the way you captured her expression."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Комплимент фотографии и ответ · C1",
+      "text": "Partner: Your composition gives the scene a remarkable sense of depth.\nLearner: Thank you. I’m pleased that comes across; it was what I hoped to achieve.\nPartner: I especially like the way the buildings frame the fading light.\nLearner: That’s helpful to hear. A general “nice photo” would not tell me which choice worked.\nPartner: Would you prefer a suggestion as well as a compliment?\nLearner: Yes, if we keep them distinct. I can appreciate what succeeded and still consider an adjustment.",
+      "translation": "Partner: Твоя композиция создаёт удивительное ощущение глубины.\nLearner: Спасибо. Я рад, что это заметно; именно этого я хотел добиться.\nPartner: Особенно нравится, как здания обрамляют угасающий свет.\nLearner: Полезно это услышать. Общее «красивое фото» не показало бы, какое решение сработало.\nPartner: Хочешь также предложение наряду с комплиментом?\nLearner: Да, если их разграничить. Я могу ценить удачное и одновременно обдумывать изменение.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Комплимент фотографии и ответ · C1",
+      "prompt": "Прочитай весь диалог:\n\nPartner: Your composition gives the scene a remarkable sense of depth.\nLearner: Thank you. I’m pleased that comes across; it was what I hoped to achieve.\nPartner: I especially like the way the buildings frame the fading light.\nLearner: That’s helpful to hear. A general “nice photo” would not tell me which choice worked.\nPartner: Would you prefer a suggestion as well as a compliment?\nLearner: Yes, if we keep them distinct. I can appreciate what succeeded and still consider an adjustment.\n\nПочему конкретная похвала полезнее общей? Как предложить замечание с разрешения? Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "Specific praise identifies a successful choice. Ask “Would you like a suggestion as well?” before offering a change, and keep appreciation distinct from the suggestion."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Комплимент фотографии и ответ · C2",
+      "text": "Partner: I admire how the framing turns a familiar skyline into something unexpectedly intimate.\nLearner: Thank you. I had worried that the composition was too restrained.\nPartner: The restraint is precisely what works for me; it leaves the reflection room to carry the mood.\nLearner: I appreciate that reading, even if another viewer might find it uneventful.\nPartner: So you can accept the compliment without adopting it as an objective verdict?\nLearner: Exactly. I can acknowledge your response and explain my intention without either dismissing your praise or treating taste as settled fact.",
+      "translation": "Partner: Мне нравится, как кадрирование делает знакомый городской силуэт неожиданно камерным.\nLearner: Спасибо. Я переживал, что композиция слишком сдержанная.\nPartner: Именно сдержанность мне и нравится: она позволяет отражению передавать настроение.\nLearner: Я ценю такое прочтение, хотя другой зритель может счесть снимок без событий.\nPartner: То есть можно принять комплимент, не принимая его за объективный вердикт?\nLearner: Именно. Я могу признать твою реакцию и объяснить замысел, не отвергая похвалу и не выдавая вкус за установленный факт.",
+      "prompt": "Авторская учебная модель по теме записи, не дословная цитата. Прочитай обе роли, затем замени детали своими; научные сведения в моделях не заменяют историческую проверку."
+    },
+    {
+      "kind": "exercise",
+      "title": "Чтение и ответ · Комплимент фотографии и ответ · C2",
+      "prompt": "Прочитай весь диалог:\n\nPartner: I admire how the framing turns a familiar skyline into something unexpectedly intimate.\nLearner: Thank you. I had worried that the composition was too restrained.\nPartner: The restraint is precisely what works for me; it leaves the reflection room to carry the mood.\nLearner: I appreciate that reading, even if another viewer might find it uneventful.\nPartner: So you can accept the compliment without adopting it as an objective verdict?\nLearner: Exactly. I can acknowledge your response and explain my intention without either dismissing your praise or treating taste as settled fact.\n\nКак принять субъективную оценку без самообесценивания? Дай свой пример о художественной работе. Ответь своими словами по-английски. Диалог завершён; не продолжай последнюю реплику от имени персонажа.",
+      "answer": "Acknowledge the response, thank the viewer and explain an intention without claiming universal agreement. Model: Thank you; I’m glad the quiet mood came across, even though viewers may respond differently."
+    },
+    {
+      "kind": "reading",
+      "title": "Реплики преподавателя · инструкции, признание и комплименты",
+      "text": "Нормализованные учебные карточки по всем этапам записи. Это не дословный ASR: исправлены распознавание, пунктуация и иногда форма вопроса. Точные исходные реплики сохранены в полной стенограмме. Время урока не выводится из номера файла.\n\nФраза 1 · Talk to your partner for two minutes.\nПеревод: Обсудите с партнёром за две минуты.\nКонструкция: Imperative + to + person; for + duration; нормализованная модель\nТвой пример для практики: I’ll discuss the picture with my partner for two minutes.\n\nФраза 2 · Could you please take a screenshot?\nПеревод: Не могли бы вы сделать снимок экрана?\nКонструкция: Could + subject + please + base verb?\nТвой пример для практики: Could you please take a screenshot of the questions?\n\nФраза 3 · I’ll send the picture to the chat.\nПеревод: Я отправлю изображение в чат.\nКонструкция: will + base verb; send + object + to + destination\nТвой пример для практики: I’ll send our answers to the group chat.\n\nФраза 4 · Do you need to work alone or with a partner?\nПеревод: Нужно работать самостоятельно или с партнёром?\nКонструкция: Do + subject + need to + base verb; or даёт выбор\nТвой пример для практики: We need to work alone first.\n\nФраза 5 · How many questions are there?\nПеревод: Сколько вопросов?\nКонструкция: How many + plural noun + are there?; нормализованная проверка инструкции\nТвой пример для практики: There are three questions about the picture.\n\nФраза 6 · Please download it.\nПеревод: Пожалуйста, скачайте это.\nКонструкция: Please + imperative + object pronoun\nТвой пример для практики: I’ll download the task before joining the room.\n\nФраза 7 · Who do you think this woman is?\nПеревод: Как ты думаешь, кто эта женщина?\nКонструкция: Who + do you think + subject + be; is стоит после subject\nТвой пример для практики: I think she is a scientist.\n\nФраза 8 · What is she doing?\nПеревод: Что она делает сейчас?\nКонструкция: Present Continuous: What + be + subject + -ing?\nТвой пример для практики: She is looking at data near a telescope.\n\nФраза 9 · Match the sentence with the correct meaning.\nПеревод: Сопоставьте предложение с правильным значением.\nКонструкция: match + object + with + object\nТвой пример для практики: I’ll match each phrase with its meaning.\n\nФраза 10 · Do it alone in one minute.\nПеревод: Сделайте это самостоятельно за минуту.\nКонструкция: Imperative; in + duration для времени выполнения\nТвой пример для практики: I’ll choose an answer on my own in one minute.\n\nФраза 11 · Who did the research?\nПеревод: Кто провёл исследование?\nКонструкция: Subject question: Who + past verb; did здесь смысловой do\nТвой пример для практики: The student did the research.\n\nФраза 12 · Who got the credit?\nПеревод: Кто получил признание?\nКонструкция: Subject question; get → got в Past Simple\nТвой пример для практики: The supervisor got the credit in the example.\n\nФраза 13 · Is that fair?\nПеревод: Это справедливо?\nКонструкция: Be + subject + adjective?\nТвой пример для практики: I don’t think that is fair to the student.\n\nФраза 14 · Get the credit for something.\nПеревод: Получить признание за что-либо.\nКонструкция: get the credit for + noun / -ing\nТвой пример для практики: She should get the credit for identifying the signal.\n\nФраза 15 · Repeat after me.\nПеревод: Повторяйте за мной.\nКонструкция: Imperative; after + person\nТвой пример для практики: I’ll repeat the whole phrase after the teacher.\n\nФраза 16 · Find the keywords in each sentence.\nПеревод: Найдите ключевые слова в каждом предложении.\nКонструкция: find + object; each + singular noun\nТвой пример для практики: I’ll look for words about discovery and inspiration.\n\nФраза 17 · Listen and choose the best summary.\nПеревод: Послушайте и выберите лучшее резюме.\nКонструкция: Два императива; best + noun\nТвой пример для практики: I’ll choose the summary about inspiration.\n\nФраза 18 · You don’t need to understand every word.\nПеревод: Не нужно понимать каждое слово.\nКонструкция: don’t need to + base verb; every + singular noun; ASR everyone нормализован\nТвой пример для практики: I can find the main idea without understanding every word.\n\nФраза 19 · Can you hear the audio?\nПеревод: Вам слышно аудио?\nКонструкция: Can + subject + base verb?\nТвой пример для практики: Yes, I can hear it clearly now.\n\nФраза 20 · Decide whether the sentences are true or false.\nПеревод: Решите, верны предложения или нет.\nКонструкция: decide whether + clause; нормализованная инструкция\nТвой пример для практики: I’ll check whether the statement matches the audio.\n\nФраза 21 · Compare your answers with your partner.\nПеревод: Сравните ответы с ответами партнёра.\nКонструкция: compare + object + with + person\nТвой пример для практики: We’ll compare our answers before the teacher reveals the key.\n\nФраза 22 · If you disagree, tell your partner why.\nПеревод: Если не согласны, объясните партнёру почему.\nКонструкция: If + Present Simple, imperative; tell + person\nТвой пример для практики: If I disagree, I’ll explain which line supports my answer.\n\nФраза 23 · Send your answers to the chat before I reveal the answer key.\nПеревод: Отправьте ответы в чат до показа ключа.\nКонструкция: before + Present Simple для следующего события\nТвой пример для практики: I’ll send my own answers before looking at the key.\n\nФраза 24 · Which question was the most challenging?\nПеревод: Какой вопрос был самым трудным?\nКонструкция: Which + noun + be + the most + adjective?; нормализовано\nТвой пример для практики: The question about the prize was the most challenging.\n\nФраза 25 · This is about attitude or implied meaning.\nПеревод: Здесь речь об отношении или подразумеваемом смысле.\nКонструкция: be about + noun phrase\nТвой пример для практики: This answer is an interpretation of her attitude.\n\nФраза 26 · Which expression helped you get the answer?\nПеревод: Какое выражение помогло получить ответ?\nКонструкция: Subject question; help + person + base verb; нормализовано\nТвой пример для практики: “Good on you” helped me hear the support.\n\nФраза 27 · She feels more confident about the idea.\nПеревод: Она чувствует больше уверенности в этой идее.\nКонструкция: feel + adjective; confident about + noun\nТвой пример для практики: I feel more confident about returning to study.\n\nФраза 28 · Choose your top three individually first.\nПеревод: Сначала самостоятельно выберите трёх лучших.\nКонструкция: choose + object; individually first задаёт порядок\nТвой пример для практики: I’ll choose three candidates and prepare my reasons.\n\nФраза 29 · Think about achievement, impact and why they are inspiring.\nПеревод: Подумайте о достижениях, влиянии и о том, почему они вдохновляют.\nКонструкция: think about + noun / embedded question\nТвой пример для практики: I’ll compare achievement and practical impact.\n\nФраза 30 · You need to agree on one winner.\nПеревод: Нужно согласовать одного победителя.\nКонструкция: need to + base verb; agree on + decision\nТвой пример для практики: We need to agree on one candidate before reporting.\n\nФраза 31 · Would you mind turning on your camera?\nПеревод: Вы не против включить камеру?\nКонструкция: Would you mind + -ing?\nТвой пример для практики: Would you mind sharing your screen?\n\nФраза 32 · What would you comment on this picture?\nПеревод: Что бы вы написали об этой фотографии?\nКонструкция: What + would + subject + base verb?; модель по вопросу\nТвой пример для практики: I would write that I love the reflection.\n\nФраза 33 · Fill in the blanks with what you hear.\nПеревод: Заполните пропуски тем, что услышите.\nКонструкция: fill in + object; with + noun clause\nТвой пример для практики: I’ll fill in the blanks and then compare my answers.\n\nФраза 34 · It may be a one- or two-word answer.\nПеревод: Ответ может состоять из одного или двух слов.\nКонструкция: may + base verb; составное определение перед noun\nТвой пример для практики: I’ll write a two-word answer if the task requires it.\n\nФраза 35 · Send whatever you have for now.\nПеревод: Отправьте пока то, что успели.\nКонструкция: whatever + clause = всё, что; for now = пока\nТвой пример для практики: I’ll send the answers I have and check the others later.\n\nФраза 36 · Responses can have different strengths.\nПеревод: Ответы могут быть разной степени выраженности.\nКонструкция: can + base verb; different + plural noun\nТвой пример для практики: “I appreciate it” expresses warmer thanks here.\n\nФраза 37 · Which part of this phrase is fixed?\nПеревод: Какая часть фразы фиксирована?\nКонструкция: Which part of + noun phrase + be + adjective?\nТвой пример для практики: In this model, “I love the way” stays fixed.\n\nФраза 38 · You can change the adjective and the noun.\nПеревод: Можно менять прилагательное и существительное.\nКонструкция: can + base verb; термины adjective/noun\nТвой пример для практики: I can change “great shot” to “lovely picture”.\n\nФраза 39 · The light is the object.\nПеревод: The light — дополнение.\nКонструкция: be + noun phrase; объект глагола caught в модели\nТвой пример для практики: In “You caught the light”, you is the subject.\n\nФраза 40 · Remember where the stress comes.\nПеревод: Помните, куда падает ударение.\nКонструкция: remember + embedded question; модель по объяснению\nТвой пример для практики: I’ll practise the phrase with natural stress.\n\nФраза 41 · You don’t hear a separate puff for the t in great shot.\nПеревод: В great shot не слышен отдельный сильный выброс воздуха для t.\nКонструкция: Нормализованная модель объяснения стыка; не диагноз ученику\nТвой пример для практики: I’ll practise “What a great shot” as a connected phrase.\n\nФраза 42 · Since time is running short, let’s move on.\nПеревод: Поскольку времени мало, перейдём дальше.\nКонструкция: since + clause; let’s + base verb\nТвой пример для практики: Since time is running short, let’s agree on our answer.\n\nФраза 43 · Match the compliments to the responses.\nПеревод: Сопоставьте комплименты с ответами.\nКонструкция: match + object + to + object\nТвой пример для практики: I’ll match the photo compliment with a grateful reply.\n\nФраза 44 · I love the way you framed the sunset between those buildings.\nПеревод: Мне нравится, как ты поместил закат между этими зданиями.\nКонструкция: I love the way + subject + past verb + object\nТвой пример для практики: I love the way you captured the reflection on the river.",
+      "translation": "Перевод, конструкция и самостоятельный пример приведены в каждой карточке; это модели для практики, а не новые события урока."
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · описание, признание и четыре рамки комплимента",
+      "text": "1. Предположение и описание. I think she is a scientist — мнение о профессии; She is checking signals — действие на снимке. I think + clause выражает мнение; think about + noun / -ing означает обдумывание: I’m thinking about studying physics. Поэтому I think about this может быть правильным, а I think about she is… требует иной структуры. Нельзя механически удалять about везде.\n\n2. Вопросы. What do you think? / What do you think about the picture? Why did you choose her? Who got the credit? В последнем who — подлежащее, дополнительное did не нужно. Who do you think this woman is? — вложенное содержание с порядком this woman is. Why did you choose…? спрашивает о сделанном выборе; Why do you choose…? может относиться к обычному правилу выбора.\n\n3. Признание и словообразование. Get the credit for + noun / -ing: She got the credit for the discovery / for identifying the signal. Deserve + noun / to-infinitive: She deserves an award / deserves to be recognised. Discover — глагол; discovery — существительное; discoverer — человек. Astrophysics — область; astrophysicist — специалист. Research обычно неисчисляемое: do research, не a research в обычном общем смысле. The press — средства массовой информации в данном контексте. Skeptic/sceptic — человек-скептик; sceptical/skeptical — характеристика: She was surprised and sceptical.\n\n4. Прошедшее действие и возраст. She created a treatment, не She is created, если она сама его создала. Passive был бы The treatment was created by her. She died at 24 / at the age of 24, не died 24 years. Для длительности: She worked for twenty-four years — другой смысл. Эти модели передают форму; биографические сведения в аудио не считаются независимо проверенными.\n\n5. Опыт и место жительства. I live in China — текущее состояние. I’ve been to Vietnam — опыт посещения; I went to Vietnam last year — конкретное завершённое событие. I was in Vietnam — прошлое нахождение. I was been не является стандартной формой. Названия языков: I speak Russian / Ukrainian / Chinese; наречие fluently, не fluent в позиции образа действия. Эти темы встречаются в смешанной беседе; это общий разбор, не присвоение всего разговора одному ученику.\n\n6. Четыре рамки комплимента из урока. What a + adjective + singular count noun: What a great shot! That’s a + adjective + singular count noun: That’s a lovely picture. I love the way + subject + verb + object: I love the way you caught the light. You managed to + base verb + complement: You managed to get it just right. В первой рамке What a сохраняется для great shot; при смене звука следующего слова нужен an: What an amazing shot! Для множественного числа: What beautiful pictures! Это авторское уточнение границ показанной рамки, не заявленная отдельная реплика преподавателя.\n\n7. Формы внутри комплимента. Good at + noun / -ing: You’re good at taking photos. Manage to + base verb: managed to get, не managed getting в данном значении «удалось». Catch → caught. В you caught the light подлежащее you, глагол caught, дополнение the light. В just right выражена точность результата. I love the way you framed the sunset: после the way — полноценное придаточное, можно менять его подлежащее, действие и объект.\n\n8. Положительная и отрицательная оценка. The light is amazing хвалит свет; It’s pretty boring может относиться к собственному снимку. Pretty перед adjective здесь «довольно», а не «красивый». Compared to yours — «по сравнению с твоим», yours заменяет your photo. Not as good as yours — сравнение. Нельзя считать все отрицательные оценки критикой чужой работы без проверки того, к чему относится it.\n\n9. Благодарность и скромность. Thanks. I’m glad you like it. Thank you. I really appreciate it. Appreciate в этой модели принимает объект it. Do you think so? — уточнение/скромное удивление; I guess it’s not bad — сдержанная положительная оценка. Not my best work / It’s nothing special преподаватель называет neutral; это контекстная прагматика, не грамматические ошибки и не универсальный запрет на скромность. Разница neutral/grateful зависит также от интонации и отношений.\n\n10. Групповая работа и вежливые просьбы. Agree with a person, agree on a winner, agree to a proposal. My choice is X; our group chose Y — это могут быть разные утверждения. Would you mind turning on your camera? / Could you turn on your camera? — разные формы просьбы; после mind нужно -ing. Let’s compare the evidence before deciding. Since time is running short, let’s move on. Be prepared to take a risk; Go for it; Good on you — формы поддержки, не факты о принятом решении.\n\n11. Ритм и произношение. Преподаватель отрабатывает фразы целиком, ударение и стык great shot без отдельного сильного выброса воздуха на t. Не надо вставлять между словами дополнительный гласный. Текст ASR не передаёт акустику и не доказывает, что конкретный ученик произнёс неверно; одинаковые текстовые версии great shot могут скрывать разные звуковые модели. На слайде выделялись слова красным, но самого слайда нет: точную исходную разметку не придумываем.",
+      "translation": "Русские объяснения и английские модели даны рядом. Это авторский грамматический разбор по всем слышимым темам; он не утверждает, что преподаватель подробно объяснил каждое из перечисленных общих правил."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Мнение и действие",
+      "prompt": "Выбери форму: 1) I think ___ (she is / about she is) a scientist. 2) She ___ (checks / is checking) data in this photo. 3) I’m thinking about ___ (study / studying) physics. Объясни, почему think about it может быть верно.",
+      "answer": "1) she is. 2) is checking. 3) studying. Think about it means considering it; about does not introduce an ordinary opinion clause."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Вопрос и основание",
+      "prompt": "Исправь: 1) Why you choose her? 2) Who did got the credit? 3) Who do you think is this woman? Затем задай партнёру вопрос о выборе.",
+      "answer": "1) Why did you choose her? / Why do you choose her? — по времени. 2) Who got the credit? 3) Who do you think this woman is? Model: Which contribution matters most to you?"
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Признание, открытие и характеристика",
+      "prompt": "Заполни: 1) She got the credit ___ identifying the signal. 2) She ___ (discover) something important. 3) Her ___ (discover) inspired a reader. 4) Her friend was surprised and ___ (sceptic).",
+      "answer": "1) for. 2) discovered. 3) discovery. 4) sceptical (also skeptical). A sceptic/skeptic is a person; sceptical/skeptical is an adjective."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Активная форма и возраст",
+      "prompt": "Исправь формы в учебном пересказе: 1) She is created a treatment. 2) She died 24 years. Затем сделай первое предложение пассивным. Не утверждай, что упражнение само подтверждает исторические даты.",
+      "answer": "1) She created a treatment. 2) She died at 24 / at the age of 24. Passive: A treatment was created by her. These are grammar models, not independent historical verification."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Четыре комплимента",
+      "prompt": "Заполни: 1) What ___ amazing shot! 2) That’s ___ lovely picture. 3) I love the way you ___ (catch) the light. 4) You managed ___ (get) it just right. 5) You’re good at ___ (take) photos. Затем составь два своих комплимента.",
+      "answer": "1) an. 2) a. 3) caught. 4) to get. 5) taking. Models: What a beautiful portrait! I love the way you captured the smile."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Сравнение и тёплый ответ",
+      "prompt": "Объясни: 1) It’s pretty boring compared to yours — pretty означает beautiful? 2) Чьё фото заменяет yours? 3) Исправь I really appreciate. 4) Ответь на That’s a lovely picture двумя способами: с благодарностью и со скромным удивлением.",
+      "answer": "1) No, pretty means rather here. 2) Your photo, belonging to the listener. 3) I really appreciate it. 4) Thank you. I’m glad you like it. / Do you think so? The second is not a grammar mistake; its warmth depends on tone."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Опыт, языки и проживание",
+      "prompt": "Заполни: 1) I ___ in China now. 2) I’ve been ___ Vietnam. 3) I ___ to Vietnam last year. 4) I speak English ___ (fluent/fluently). 5) I speak ___ (Russian/Russia). Затем расскажи о своём опыте без выдуманных чисел.",
+      "answer": "1) live. 2) to. 3) went. 4) fluently. 5) Russian. Model: I live in China. I’ve been to Vietnam. I’m learning to speak English more fluently."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Просьба и общее решение",
+      "prompt": "Заполни: 1) Would you mind ___ (share) your screen? 2) I agree ___ you. 3) We agreed ___ one winner. 4) My choice ___ X, but our group ___ Y. Используй Present для предпочтения, Past для принятого решения.",
+      "answer": "1) sharing. 2) with. 3) on. 4) is; chose. Model: Would you mind explaining your choice? I agree with your reason, so let’s agree on one candidate."
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · реплики ученика и естественные ответы",
+      "text": "Локальная атрибуция: голоса не размечены надёжно. Прямое обращение к Learner и ответ в той же связной последовательности дают основания только для конкретного фрагмента, а не для всех реплик в комнате. В очереди ошибок — четыре целевые карточки, в том числе отдельная тренировка возраста и активной формы из одного ответа.\n\n03:15–03:43; 16:58–17:22; 34:09–34:30. I think about … she’s … / I think about number two because … / I think about first … . Модель мнения: I think she is checking signals. I think the second summary is correct because the story inspires her. About не требуется перед обычным утверждением. Но I think about this — возможная правильная фраза, если означает «я об этом думаю».\n\n34:09–34:30. … surprised and skeptic. Модель: At first, her friend is surprised and sceptical, but later she is supportive. После прямой похвалы Learner можно локально связать ответ с учеником. Sceptic — человек, sceptical — прилагательное; американские варианты skeptic/skeptical тоже верны.\n\n45:10–45:36. She is created … . Для действия самой учёной: She created a treatment. Для пассива: A treatment was created by her. Это ясный грамматический контраст, но ASR term не доказывает, что ученик сказал именно term вместо treatment.\n\n42:22–42:26; 45:10–45:36. She died 24 years. Модель: She died at 24 / at the age of 24. For 24 years означает длительность, а не возраст. Обсуждаемые биографические сведения относятся к учебному профилю; самого листа нет.\n\nФормы вопроса для общей практики. В комнате слышно Why you choose… и What about thing/think… . Естественные модели: Why did you choose her? What do you think? What’s your first choice? Атрибуция конкретного вопроса недостаточно надёжна, поэтому это не личные карточки ошибок.\n\nЛичный выбор и отчёт группы. My first choice is Alice Ball, but our group chose a different scientist. Лучше явно разделить my choice и our group’s choice: это смысловая ясность, а не обвинение в неправильном выборе победителя. Who is the winner for you? допустимо, но Who is your first choice? точнее в данной задаче; это необязательное улучшение естественности.\n\nПоддержка. Go for it! = действуй, попробуй; Good on you! = молодец, одобряю. ASR good for it не доказывает индивидуальную ошибку: в коротком обмене смешаны голоса и повторение. Why shouldn’t I? здесь выражает уверенность, но не сообщает об окончательном поступлении в университет.\n\nКомментарий и комплимент. I hope you had a good trip — комментарий о поездке; What a lovely picture of you and your mum! — комплимент фотографии. Преподаватель просит фокусироваться на фоне, свете, улыбке, отражении. Пожелание хорошей поездки не объявляется грамматической ошибкой и не включено в очередь.\n\nСкромность и благодарность. Not my best work, It’s nothing special, I guess it’s not bad — сдержанные реакции, возможные в контексте. Thanks. I’m glad you like it / Thank you. I really appreciate it — более тёплые варианты принятия похвалы. Это прагматический выбор, не обязательная грамматическая правка.\n\nПонимание аудио. Положительные комплименты и отрицательная самооценка могут звучать рядом. Нужно уточнить, чью работу описывает it, а не заключать, что весь разговор отрицательный. Преподаватель подтверждает a bit of both. Отрицательный комментарий о своём снимке не доказывает отсутствие профессионализма.\n\nЧто исключено из ошибок. Искажения Jocelyn Bell Burnell, astrophysicist, pulsar, daffodils; поздние повторы thank you; чтение отсутствующего handout; смешанная беседа о странах и языках; пропуск it в одной ASR-версии managed to get it just right; фонетическая демонстрация great shot; просьбы о смене устройства в конце. Текстовая ASR не является акустическим свидетельством ошибки произношения. Неподтверждённое число посещённых стран не становится личным фактом.\n\nПоследняя реплика о фотографии. На I love the way you framed the sunset between those two buildings можно ответить Thank you. I’m glad you like it. I waited for the right light. Это авторская завершённая модель: запись обрывается до фактического ответа.",
+      "translation": "Оригинальные фрагменты и учебные английские модели сопровождаются русским объяснением. Ошибки, неопределённое распознавание и необязательные улучшения явно разделены."
+    },
+    {
+      "kind": "exercise",
+      "title": "Понимание · три цели аудирования",
+      "prompt": "Назови по-английски три цели повторного прослушивания: best summary; true/false; attitude/implied meaning. Почему Why shouldn’t I? не доказывает, что человек поступил в университет? Приведи основание для вывода о поддержке.",
+      "answer": "First listen for the main idea, then for explicit details, and finally for attitudes and implied meaning. “Why shouldn’t I?” suggests greater confidence, not completed enrolment. “Good on you” and “I admire that” support the interpretation that her friend becomes encouraging."
+    },
+    {
+      "kind": "exercise",
+      "title": "Понимание · критерии и совместный отчёт",
+      "prompt": "Выбери воображаемого кандидата для научной награды. Назови вклад, влияние и степень недооценённости; признай, какой информации не хватает. Затем скажи, как твой личный выбор может отличаться от общего. Не восстанавливай восемь отсутствующих профилей.",
+      "answer": "Model: I would choose a researcher whose work improved treatment but received little recognition. I would need more evidence about its impact. My personal choice may differ from the group’s choice, so our reporter should state the agreed decision and its reasons."
+    },
+    {
+      "kind": "exercise",
+      "title": "Понимание · комплимент, самооценка или благодарность",
+      "prompt": "Определи функцию: 1) The light is amazing. 2) My own picture is pretty boring. 3) Thanks. I’m glad you like it. 4) Do you think so? Почему negative self-assessment не отменяет комплимент партнёру? Дай конкретный комплимент и тёплый ответ.",
+      "answer": "1) Compliment. 2) Negative self-assessment. 3) Grateful response. 4) A questioning or modest response; tone matters. The statements evaluate different pictures. Model: I love the way you caught the reflection. — Thank you. I really appreciate it."
+    },
+    {
+      "kind": "exercise",
+      "title": "Своя речь · признание и поддержка",
+      "prompt": "Скажи 6–8 предложений: опиши действие человека на снимке, назови вклад, объясни, за что он заслуживает признания, пригласи иной взгляд, затем сделай конкретный комплимент фотографии и благодарно ответь на комплимент себе. Используй I think, credit for, agree on и I love the way.",
+      "answer": "Model: I think she is checking research data. Her work helps the team understand the signal. She deserves credit for noticing a useful pattern. What do you think? Could we agree on one reason for the award? I love the way you captured her concentration. Thank you; I’m glad you like my picture too. I waited for the right light."
+    },
+    {
+      "kind": "reading",
+      "title": "Запись урока с таймкодами",
+      "text": "Recording: lesson-2026-11-22-ih-scientists-photos\n\nПолный обезличенный ASR; RU — подробный смысловой ориентир, а не дословный перевод каждой неясной реплики. Все 1063 сегмента включены ровно один раз, в исходном порядке. Повторное проигрывание аудио, no_speech_prob, перекрытия и нулевая длительность сохранены в source-transcript.json. Начало и конец обрезаны. От 5339.08 до 5359.90 текста ASR нет; звук не восстановлен.\n\n[00:00:00.00–61.34] Начало посреди инструкции: фотография учёной\nEN:\n think she's doing why might she be inspiring talk to your partner in two minutes and take a screenshot  but don't worry i will take a screenshot and send the picture to our checkroom okay okay so do you  need to work alone or with a partner with a partner okay how many minutes two minutes two  minutes exactly how many questions three questions exactly a great job everyone so i'm sending the file  the photo so wait a minute at the same time i'm making a breakout room i'm in some breakout rooms  okay so  it's still on the way  okay it's there please download it  okay so i will uh send you to breakout room two minutes yeah\nRU:\nЗапись начинается посреди вопроса о том, что делает женщина и чем она может вдохновлять. Преподаватель задаёт три вопроса для обсуждения вдвоём за две минуты, просит сделать снимок экрана, обещает прислать изображение в чат, проверяет понимание количества вопросов, времени и формы работы. Изображение предлагается скачать, затем открываются комнаты.\n\n[00:01:01.34–227.82] Первое обсуждение: радиотелескоп и женщина на снимке\nEN:\n hi Partner hi Partner  hi  hi  hi Partner hi Partner  hi  hi hi hi Partner okay i will get my screen  okay yes i see  okay thank you Learner so so what do you think this woman is  hmm i think about this uh if you see it as this big gigant radio radio telescope i think about this  uh joselle bell bar now this uh  popular astrophysic or  but i i i i i i i i saw these pictures  in here  you see my answer i sent uh chat  yes this name woman  you know she famous british  you know she famous british astrophysic and discovered first radio  pulser  okay uh what about i think number two what do you think she's doing  what do you think she's going  i think about uh she's studying outside near the radio telescope holding a large folder or data charts  in checking observatory analysis signals from deep space or possible  uh\nRU:\nУчастники здороваются и демонстрируют экран. Один предполагает, что это Джоселин Белл Бёрнелл, вспоминает знакомую фотографию и отправляет имя в чат. Обсуждают радиотелескоп, папку или таблицы данных, сигналы из космоса. Имя и термин astrophysicist сильно искажены ASR: это не свидетельство ошибок произношения.\n\n[00:03:47.82–282.14] Ответ перед группой и переход к теме\nEN:\n okay welcome back everyone it's okay okay so um from Partner's group uh who do you think this woman is  this is joseph bell barnard is famous british uh astrophysic or discoverer do you know you know that Learner thank you so much  okay so uh okay so uh okay so this is uh what what is she doing uh she's uh astronom or discovered the first radio  she's uh great she's uh checking uh signals or uh  uh okay okay observatory analysis signal yes deep space okay thank you Learner okay so you'll find it out  more information about her and uh how inspiring uh she is in the next uh stages okay but uh before that\nRU:\nПреподаватель просит назвать женщину и её занятие. После обращения к Learner слышны ответы об астрофизике и проверке сигналов; возможны смешанные голоса. Преподаватель благодарит за ответ и обещает, что следующие этапы дадут больше информации о её истории.\n\n[00:04:43.18–404.22] Три выражения: самостоятельное сопоставление\nEN:\n let's go to the next stage okay so here you can see some sentences three sentences with three bold words  supervisor the press get the credit and also the meaning  now what you need to do is you need to match the sentence with the correct meaning  do it alone alone in one minute  okay so Partner do you need to work alone or with a partner  we cannot uh hear  alone okay Learner uh how many minutes  30 seconds is okay okay okay okay so uh here for example supervisor maya supervisor meets her every  week to talk about her research which one do you think is the correct answer the correct meaning  i think about b this person who guides and advice and students exactly so you can do the rest in one minute  from now okay okay okay okay  okay  okay i'm ready  i'm ready  i'm ready  i'm ready  i'm ready okay i think that everyone is done so let's find it out together number one is\nRU:\nНа слайде три выделенных выражения: supervisor, the press, get the credit. Нужно сопоставить предложения со значениями самостоятельно за минуту. Преподаватель проверяет, работать ли одному, уточняет время и разбирает первый пример: руководитель встречается со студенткой, обсуждает исследование, направляет и советует. Повторы I’m ready и нулевой сегмент оставлены.\n\n[00:06:45.58–516.78] Supervisor, the press и get the credit for\nEN:\n yes right okay supervisor okay uh what about Partner what about number two the press  what is the name is is a newspapers magazines or n journalists yes i agree yeah excellent everyone so um  Partner what about number three get the credit  um so uh or Learner uh i think about this d people say well done for something you did so you get the credit when you uh when you have done something good yes i think about this uh because uh getting the credits this means  uh  uh  uh  uh  uh push uh achieve achievements  exactly you're correct okay so uh from these sentences let's take a look at this get the credit  who did the research from this context  maya maya exactly so but who did the press say well done to is it to maya or the supervisor  supervisor great what about so who get the credit from this context  supervisor the supervisor is that fair  no no because i did the research great job so when you use the uh get the credit you need to use for something for example get the credit for for the research for example okay real bit after me get the credit one two three  gets the credit exactly so it's easy yep great good job something so let's move on\nRU:\nПри проверке supervisor — руководитель, the press — газеты, журналы и журналисты, get the credit — получить признание за сделанное. В условном примере исследование сделала Maya, но пресса похвалила руководителя; класс считает это несправедливым. Преподаватель отдельно добавляет for something: get the credit for the research, затем организует повторение. Имя Maya относится к учебному примеру.\n\n[00:08:38.06–643.58] Подготовка к аудированию: ключевые слова и общий смысл\nEN:\n yeah so now you're here to colleagues amelia and Partner Partner it's not you okay talking about a woman scientist  find the keywords in each sentence okay i will give you uh one minute but before that how to find the keywords here for example number one here what are the keywords here  i would say that scientific discovery exactly  change the world exactly excellent Partner so for the rest i give you 30 seconds for that okay okay so now you can find the keywords  um  um  uh  uh  uh  recently  okay so um  um  what about number two what are the keywords  okay i go to Learner then Learner whatever okay the scientist discovery  uh story has uh impressed here inspired her inspired yes yes exactly Partner what about number three  our university courses okay and right recently completed so now you will listen and choose the best  summary is it one two or three you don't you don't need to understand everyone okay okay but yeah okay okay  okay yeah\nRU:\nПреподаватель вводит разговор двух коллег о женщине-учёной. Ученики выделяют ключевые слова в трёх вариантах резюме: scientific discovery, change the world, inspired her, university courses, recently completed. Сначала обещана минута, затем около тридцати секунд. Нужно выбрать лучшее резюме, а не понять каждое слово; ASR everyone здесь ненадёжен.\n\n[00:10:44.30–739.26] Первое прослушивание: открытие и непризнанный вклад\nEN:\n track one point four  can you hear that yeah  okay  good luck  what's that book you're reading  it's about astronomy black holes planets the big bang  hmm not exactly a light read but i suppose you like that sort of thing  me i like to relax when i read  me i like to relax when i read  it's just i read this article online the other day  uh-huh  it was about this physicist  she discovered these things called pulsars which are like  well they're an incredible kind of star  uh-huh  she  she's a respected physicist  well that's the thing that's what got me interested there aren't many women working in that area  but hang on she discovered these stars  yeah she was a postgraduate student at the time but the guy who was her supervisor got all the credit  you're kidding  no he won the nobel prize  so who did you say this woman was  jocelyn bell burnell  but i've never even heard of her  well no that's the point  on this website it talks about  well it's got a whole lot of information on people like her  you know people who work behind the scenes and don't get the credit  or don't become famous  it was really interesting  yeah i bet there are a lot of people like that  i mean she really is an inspiring woman  even when she was at high school they weren't going to let her join the science class\nRU:\nВключается Track 1.4, проверяется слышимость. Персонажи обсуждают книгу об астрономии: чёрные дыры, планеты, Большой взрыв. Статья о Джоселин Белл Бёрнелл заинтересовала одну из них; в учебном рассказе аспирантка открыла пульсары, а признание и Нобелевскую премию получил руководитель. Сайт посвящён людям за кулисами, которые не становятся известными. Это пересказ прослушанного, не независимая историческая проверка.\n\n[00:12:19.26–860.38] Первое прослушивание: решительность и смена пути\nEN:\n when was this  back in the 50s  really even in the 50s  yeah  and then at the end of the year she came top of her class  and when she was doing her phd and made her amazing discovery  she had a young child and was having to manage a whole lot of things in her private life  too  i mean she was really determined but in a quiet way  and then when the newspapers wanted to interview her  they didn't want to know about her research  they just asked a lot of stupid questions  about her height her clothes that sort of thing  that's terrible isn't it  so is that a biography of her that you're reading  well no it's just a book about astrophysics  astrophysics just so you're going to become what a rocket scientist or something  well no i don't know  the thing is after i read the article i found an interview with jocelyn bell burnell online  and she was talking about how even today there still aren't many women who go into science and become scientists  so now you want to go back to university and do a physics degree  but you know why not i've always been good at science and i used to really enjoy physics  but are you really prepared to study and put in all that effort  yeah i think i am well you've always been motivated that's for sure  and stubborn  but i'm still thinking about it doing some reading that kind of thing  well actually good on you why not make a change take a risk i admire that  yeah actually that's what she says in the interview be prepared to take a risk you'll probably surprise yourself  and she said something else very simple about women wanting to be scientists  go for it and i thought yeah why shouldn't i\nRU:\nВ аудиодиалоге вспоминают школьные ограничения для девушки в 1950-х, первое место в классе, исследование и заботы о ребёнке, неуместные вопросы прессы об одежде и росте. Эти сведения передаются ровно как содержание учебной истории. Читательница задумывается об университете и физике; подруга сначала удивляется, затем поддерживает. Be prepared to take a risk и Go for it помогают ей почувствовать уверенность, но окончательное решение ещё не принято.\n\n[00:14:24.06–1003.68] Сравнить выбранное резюме в паре\nEN:\n okay so um  i'm going to send you to breakout rooms and you need to discuss with your friends  in one minute only i will send the picture of this don't worry  yeah you need to discuss with your partner which one is the correct answer okay  Wait a minute.  Yep.  OK.  ready hello hello hello  Partner you're still muted Learner hello so what about think  this situation and  i think about amelia tell holland about scientist discovery  Partner yeah yeah what about think i think uh choose a number two  uh yeah yeah i think i'm too true  okay uh maybe you can more information give  you  i think about emily tell choose about the  astrophysics and josebel burnett  here discovery for purcell\nRU:\nПреподаватель даёт одну минуту обсудить правильный вариант и обещает отправить снимок задания. В комнате участники проверяют микрофон, выбирают номер два, пытаются объяснить связь между открытием и вдохновением. ASR искажает имена персонажей, pulsar и окончания. Учебные варианты A/B/C и полный печатный слайд отсутствуют, их не восстанавливаем.\n\n[00:16:50.40–1060.64] Проверка: почему подходит второе резюме\nEN:\n hello hello welcome back everyone okay so uh from Learner group Learner and Partner  what's the answer i think about number two because emily tell Partner about the astrophysics uh bell  burner he discovered of a person and half reading here interview enterprise amelia consente to go to  back to university and physical degree okay thank you do you agree with that Partner and Partner  so all of us agree that uh the correct answer is number two emelia tells Partner about a scientist's  discovery and explains why her story has inspired her okay good job everyone and let's move on to the max slide\nRU:\nПосле обращения к группе Learner звучит развёрнутый ответ о статье, открытии и возможном возвращении в университет. Преподаватель формулирует смысл правильного второго варианта: одна коллега рассказывает другой об открытии учёной и объясняет, почему история её вдохновила. Имена персонажей обезличены так же, как совпадающее имя участницы, без утверждения, что это один человек.\n\n[00:17:42.40–1131.60] Второе задание: true или false\nEN:\n okay okay now okay you listen again and there are seven sentences and um find the keywords i think that i will give you 30 seconds only to read the uh and to find the keywords and you need to decide true or false based on the audio that you hear okay clear  okay so you can start reading now in 30 seconds  so  um  okay  okay that's okay that's okay time is up and let's listen to this  is that clear can you hear that\nRU:\nПеред повторным прослушиванием нужно прочитать семь предложений, найти ключевые слова за тридцать секунд и решить true/false по аудио. Затем преподаватель проверяет, слышен ли звук. Это другой этап: конкретные сведения вместо выбора общего смысла.\n\n[00:18:53.92–1352.80] Второе прослушивание целиком\nEN:\n can you hear the audio yes i read it yet okay what's that book you're reading can you hear that now yes  okay yes it's about astronomy black holes planets the big bang  hmm not exactly a light read but i suppose you like that sort of thing  me i like to relax when i read it's just i read this article online the other day  it was about this physicist she discovered these things called pulsars which are like well they're an  incredible kind of star uh-huh she yeah yeah her name's jocelyn bell burnell she's a respected physicist  well that's the thing that's what got me interested there aren't many women working in that area but hang on she discovered these stars yeah she was a postgraduate student at the time  but the guy who was her supervisor got all the credit you're kidding no he won the nobel prize  so who did you say this woman was jocelyn bell burnell but i've never even heard of her  well no that's the point on this website it talks about well it's got a whole lot of information on people like her you know people who work behind the scenes and don't get the credit or don't become famous it was really interesting yeah i bet there are a lot of people like that  i mean she really is an inspiring woman even when she was at high school they weren't going to let her join the science class  when was this back in the 50s really even in the 50s yeah  and then at the end of the year she came top of her class and when she was doing her phd  and made her amazing discovery she had a young child and was having to manage a whole lot of things in her private life too i mean she was really determined but in a quiet way and then when the newspapers wanted to interview her they didn't want to know about her research  young child and was having to manage a whole lot of things in her private life too. I mean,  she was really determined, but in a quiet way. And then, when the newspapers wanted  to interview her, they didn't want to know about her research, they just asked a lot  of stupid questions about her height, her clothes, that sort of thing. That's terrible,  isn't it? So is that a biography of her that you're reading? Well, no, it's just a book  about astrophysics. Astrophysics? Just! So you're going to become, what, a rocket scientist  or something? Well, no, I don't know. The thing is, after I read the article, I found an interview  with Jocelyn Bell Burnell online, and she was talking about how even today, there still aren't  many women who go into science and become scientists. So now you want to go back to university and  do a physics degree? Maybe. But you know, why not? I've always been good at science and I used to  really enjoy physics.  But are you really prepared to study and put in all that effort?  Yeah, I think I am.  Well, you've always been motivated, that's for sure. And stubborn.  Hmm. But I'm still thinking about it. Doing some reading, that kind of thing. Well, actually,  good on you. Why not make a change? Take a risk? I admire that. Yeah. Actually, that's  what she says in the interview. Be prepared to take a risk. You'll probably surprise yourself.  And she said something else very simple about women wanting to be scientists. Go for it.  And I thought, yeah, why shouldn't I?  Why shouldn't I?\nRU:\nПовторяется весь разговор об астрономии, пульсарах, руководителе, признании, школьном опыте, семейной нагрузке, отношении прессы и возможном поступлении на физику. Подруга переходит от удивления к поддержке: Good on you, Take a risk, I admire that. Читательница пока размышляет, но задаёт Why shouldn’t I? В районе 20:46 повторяется часть предложения о ребёнке из-за перекрытия фрагментов ASR; ни один сегмент не удалён.\n\n[00:22:32.80–1577.76] True/false в комнатах: аргументировать несогласие\nEN:\n Okay. So now, what you need to do is compare with your partner your answers in two minutes  in the breakout rooms and take a screenshot. Don't worry, I will send a screenshot to our chat room. And if you disagree, tell your partner why. Okay. So, um,  Partner, how many minutes? Two minutes. Okay. Alone or with a partner, Learner?  With a partner, it's okay. Exactly. Okay. Wait, I'm sending the file, the picture. Take some time. Okay, great. Now we're all set. And let's go.  Now we're all set. And let's go. Two minutes from now.  Same.  Hello, Learner. Hello, hello. What about thing number one?  Okay. Can you see it?  I think about Emily reading. It's a book about place. It starts. I think about this is true. It's about astronomy.  Backholders, planets, planets, big pen. It's just book about astrophysics. It's number one true.  What about thing you?  Partner?  Number two.  Uh-huh.  Joseph Bell Barnard discovery particle kind of start. What?  True.  What?  True?  I agree.  I agree. Yes. True.  I agree. Yes. True.  Number three. She wants a Nobel prize as he discovered it.  I think about this false.  He was in supervisor. Not his Nobel prize.  What about I think, uh, four.  Number three. It's false, right?  number three it's for my false years  okay number number four thoughts  okay\nRU:\nИнструкция: сравнить ответы с партнёром за две минуты, сохранить слайд, объяснить причину, если ответы различаются. В комнате обсуждают книгу об астрофизике, пульсары и утверждение о Нобелевской премии. Утверждение, что премию получила учёная, отвергают: в аудио её получает руководитель. Некоторые формулировки распознаны неясно.\n\n[00:26:17.76–1700.16] Проверка фактов и самый трудный вопрос\nEN:\n welcome back everyone  are you done  yes  oh great good job  then yes  okay welcome back  Partner  Partner  Partner  and Partner  okay  so  let's discuss it together  but I want you  like  to send your answers  to the chat box  now please  before I reveal  the answer key  okay great Partner  I agree  let's find it  okay same  okay so let's go  yeah so you can see here  good job everyone  well done  true true false false  true true true true  which question do you think  the most challenging one  is it number three  is it number four  nothing is challenging  all good okay  I think number three  number three  yeah number three  so the you can hear her supervisor won the Nobel prize  she won a Nobel prize for her discovery  okay so this is false right  because the supervisor  okay so next\nRU:\nВернувшихся просят отправить ответы в чат до показа ключа. Слышна последовательность true/false, но её длина в ASR не совпадает надёжно с семью заявленными предложениями, поэтому готовую таблицу для отсутствующего листа не выдумываем. Обсуждают номер три: She won a Nobel Prize for her discovery — false по содержанию аудио, поскольку там награждён руководитель.\n\n[00:28:20.16–1726.26] Третье слушание: отношение и подразумеваемый смысл\nEN:\n yeah  you need to listen again  to the audio  and choose the best answers  A  B  or C  remember this is not a fact  this is about attitude  or implied meaning  about feelings  okay  so  you can  listen again  and answer the questions  okay  wait a minute  I want to make sure  yeah\nRU:\nПреподаватель объясняет, что теперь требуется выбрать лучший ответ A, B или C об отношении, чувствах и подразумеваемом смысле. Это не просто проверка факта. Нужно снова слушать и ответить на вопросы; отсутствующие формулировки вариантов не реконструируются.\n\n[00:28:46.26–1799.98] Третье прослушивание: от книги к вопросу о признании\nEN:\n what's that book you're reading  it's about astronomy  black holes  yes it's okay  planets  the big bang  hmm  not exactly a light read  but I suppose you like that sort of thing  me  I like to relax when I read  it's just  I read this article online the other day  uh-huh  it was about this physicist  she discovered these things called pulsars  which are like  well  they're an incredible kind of star  uh-huh  she  yeah  yeah  yeah her name's Jocelyn Bell Burnell  she's a respected physicist  well that's the thing  that's what got me interested  there aren't many women working in that area  but  hang on  she discovered these stars  yeah  she was a postgraduate student at the time  but the guy who was her supervisor got all the credit  you're kidding  no  he won the Nobel Prize  so  who did you say this woman was?  Jocelyn Bell Burnell  but I've never even heard of her  well no that's the point  on this website  it talks about  well  it's got a whole lot of information on people like her  you know  people who work behind the scenes  and don't\nRU:\nСнова звучат начало разговора, книга, открытие пульсаров, положение аспирантки, награждённый руководитель и неизвестность женщин в науке. Удивление собеседницы слышно в You’re kidding и But I’ve never even heard of her. Короткие повторы, проверки звука и стык фрагментов сохранены.\n\n[00:30:00.00–1936.06] Третье прослушивание: как меняется отношение\nEN:\n get the credit or don't become famous. It was really interesting. Yeah, I bet there are a lot  of people like that. I mean, she really is an inspiring woman. Even when she was at high school,  they weren't going to let her join the science class. When was this? Back in the 50s. Really?  Even in the 50s? Yeah. And then at the end of the year, she came top of her class. And when she was  doing her PhD and made her amazing discovery, she had a young child and was having to manage a whole  lot of things in her private life too. I mean, she was really determined, but in a quiet way.  And then when the newspapers wanted to interview her, they didn't want to know about her research.  They just asked a lot of stupid questions about her height, her clothes, that sort of thing.  That's terrible, isn't it? So is that a biography of her that you're reading?  Well, no. It's just a book about astrophysics.  Astrophysics? Just? So you're going to become, what, a rocket scientist or something?  Well, no. I don't know. The thing is, after I read the article, I found an interview with  Jocelyn Bell Burnell Online. And she was talking about how even today, there still aren't many  women who go into science and become scientists.  So now you want to go back to university and do a physics degree?  Maybe. But you know, why not? I've always been good at science and I used to really enjoy physics.  But are you really prepared to study and put in all that effort?  Yeah. I think I am.  Well, you've always been motivated, that's for sure. And stubborn.  Hmm. But I'm still thinking about it. Doing some reading, that kind of thing.  Well, actually, good on you. Why not make a change? Take a risk? I admire that.  Yeah. Actually, that's what she says in the interview. Be prepared to take a risk. You'll probably surprise yourself.  And she said something else very simple about women wanting to be scientists. Go for it.  And I thought, yeah, why shouldn't I?\nRU:\nПродолжается история о решительности учёной, школьных ограничениях и прессе. Вторая коллега сомневается, готова ли первая к усилиям, затем выражает поддержку Good on you и I admire that. Первая всё ещё размышляет, но обретает уверенность и повторяет совет Go for it. Содержание учебной биографической истории не подтверждается здесь внешними документами.\n\n[00:32:19.44–2043.20] Ответы B, B, C и доказательства из реплик\nEN:\n Okay. Now, please send your answers to the chat box.  So, for example, 1A to B3C, for example.  Okay.  Okay.  Okay.  Wow.  Learner, Partner.  Great job.  What about Partner and Partner?  And Partner?  Partner?  What about you?  Okay. Nice.  Partner?  Partner?  Yep.  Great job.  Partner?  What about you?  Okay.  Okay.  Partner has a different answer in number three.  So, yes.  Let's find it together here.  Yep.  B, B, C.  Okay.  Good job, everyone.  So, let's find out.  Number one, for example.  Why is the answer B?  She thinks Jocelyn did not get the credit she deserved.  What?  How do you get the answer?  I mean, from which expression or phrases?  I think...  Thank you, sir.  Mm-hmm.  Okay.  Who are you?  I think what Amelia said is unfair.  Something like that.  Unfair?  Exactly.  Yes, you're correct.\nRU:\nУченики отправляют варианты в чат, один ответ отличается. Преподаватель называет B, B, C и спрашивает, какие выражения дают основания. Первый смысл: Джоселин не получила заслуженного признания. Участник называет ситуацию несправедливой, преподаватель подтверждает. Без исходного слайда это смысловая проверка, а не восстановленный тест.\n\n[00:34:03.70–2116.72] От скепсиса к поддержке: Good on you\nEN:\n What about number two?  She is surprised at first, but later she supports Amelia.  I think about first, Partner is surprised and skeptic.  No.  As asked Amelia once because rocket scientist.  Exactly.  Wow.  That's cool, Learner.  Exactly.  And then at the end, what did Partner say?  It's good on you, right?  Good on you.  So we can listen to you.  Track 1.4.  Maybe.  And go for it.  But you know, why not?  I've always been good at science and I used to really enjoy physics.  But are you really prepared to study and put in all that effort?  Yeah.  I think I am.  Well, you've always been motivated, that's for sure.  And stubborn.  Hmm.  But I'm still thinking about it.  Doing some reading, that kind of thing.  Well, actually, good on you.  Exactly.  Yeah, good on you.  That's a risk.  Exactly, right?  Yeah.  Good on you.  Aha.\nRU:\nВторой ответ объясняют сменой реакции: сначала удивление и скепсис, затем поддержка идеи учиться. После обращения к Learner слышно описание surprised and skeptic; грамматическая учебная модель — surprised and sceptical. Преподаватель снова проигрывает часть диалога и выделяет Good on you. Это выражение одобрения, не дословное пожелание удачи.\n\n[00:35:16.84–2175.74] Why shouldn’t I? и Go for it\nEN:\n What about the last one?  Why shouldn't I?  Why shouldn't I?  She's feeling more confident about this idea.  What does it mean by why shouldn't I?  Like, why not?  Right?  Why not?  Because I think about number three, because she has not made it final discussion yet.  Okay.  And she's also inspired by the scientist Jocelyn.  Yeah, she said, in the book, Jocelyn said, if you're prepared to take a risk, you'll probably surprise yourself.  Nice.  It means that you have understood everything.  I heard Joseph advice, good for it.  Advice.  Oh, okay.  Yeah.  Good for it.  Go for it.  Go for it.  Go for it.  Exactly.  Yes.  You're correct.  Great job, everyone.\nRU:\nТретий смысл: героиня чувствует больше уверенности, хотя окончательное решение не принято. Преподаватель объясняет Why shouldn’t I? через Why not? Ученики связывают это с вдохновением и советом о риске. Затем явно уточняется Go for it: ASR передаёт также good for it. Это лексическая модель для поддержки, а не доказанная индивидуальная ошибка произношения.\n\n[00:36:16.20–2268.84] Scientist awards: сначала личная тройка\nEN:\n So now let's move on to the last stage.  Okay.  So this is called scientist awards.  Very nice.  So you can see eight profiles of scientists, underrated scientists, I would say, like Jocelyn Bellburner.  Yeah.  Now, what you need to do is, please choose your top three that deserve the award individually first.  Okay.  And prepare your reason.  You can take a screenshot now.  Is it clear to read?  Or is it too small?  It's okay.  It's okay.  It's okay.  What about Partner, Partner?  Oh, yeah.  Welcome, Partner.  Yeah.  Yeah.  That's okay.  That's okay.  Sorry, Partner.  Yeah, yeah.  Okay.  Thank you, sir.  It's quite small.  It's quite small.  Okay.  Okay.  Okay.  Okay.  Okay.  Okay.  Then I will send the handout to you to the chat room.  Okay.  For those who are ready, you can start.  Oh, I have a hand out.  Oh.  Choosing top three.  You're personally.  Okay.  Okay.  You can think about the...  Sorry, Partner.  You can think about the achievement, the impact, or why might these people be inspiring.  Okay.  Wait a minute.  Here.  Send the handout.  The handout.  Yes.  Okay.  Three minutes from now, yeah.\nRU:\nНа последнем этапе представлены восемь профилей недооценённых учёных. Сначала каждый самостоятельно выбирает трёх достойных награды и готовит причины: достижения, влияние, способность вдохновить. Преподаватель проверяет читаемость маленького текста, предлагает снимок и отправляет handout в чат. На самостоятельную подготовку даётся три минуты. Сам handout в исходных материалах отсутствует.\n\n[00:37:53.84–2421.54] Сначала подумать самому, затем выбрать одного\nEN:\n I think about the number one is top authentic.  Okay.  Keep it yourself.  Sorry, Learner.  Keep it yourself first.  Okay.  Okay.  Okay.  Okay.  Okay.  Thank you.  Thank you.  Thank you.  Three?  One winner.  Oh, okay.  Okay.  From your list.  You need to compare.  Okay.  So let's go.\nRU:\nLearner начинает сообщать выбор, преподаватель просит пока оставить его при себе. Далее длинные Thank you могут быть галлюцинациями ASR во время работы. Затем уточняется следующая цель: сравнить личные списки и выбрать одного победителя. Нельзя считать эти повторы многократной реальной благодарностью или потерянными объяснениями.\n\n[00:40:28.90–2516.18] Обсуждение награды: Alice Ball и Cecilia Payne\nEN:\n Hello.  Hello.  It's me.  Yeah.  Okay.  For me, it is number one for winner.  It's Alice Ball.  Yeah.  I have to say answer with you.  For you?  Yeah.  Yeah.  I choose number one for New K.  Who would you choose?  Yeah.  I can pronounce her name.  So Cecilia Payne.  Cecilia Payne?  Yeah.  Okay.  Why you choose Selenium Payne?  Why you are the winner for your top?  And because she found that natural gas like hydrogen and helium.  And the star she found, sorry, she found the star which is made of hydrogen and helium.  Mm-hmm.  Yeah.  I think it makes me better for scientists.  Okay.\nRU:\nВ комнате один участник предлагает Alice Ball, другой — Cecilia Payne; имя последней также искажено как Selenium Payne. Объяснение второго выбора связано с составом звёзд, водородом и гелием. Это аргументы участников по отсутствующим профилям, а не опубликованные нами профили или научная справка.\n\n[00:42:00.18–2646.02] Согласовать победителя и услышать третью позицию\nEN:\n I think about for me is number one.  This Alice Ball.  She created a life change for...  What is...  A leprosy.  So your age.  But she died 24 years.  Okay.  Just choose one, okay?  You need to agree on one.  Okay.  Okay.  For me, this is number one.  Victory.  Okay.  We need to choose only one.  Yes, only one.  Partner?  Partner, are you here?  Yes.  For you, who is Victory for you?  What is your top scientist?  Yes.  Yes.  You know, the top one that I rate the most is for number eight.  Eight?  Who is?  Number eight.  Uh-huh.  Thailand?  Yes.  Thailand.  Thailand.  Thailand.  Okay.  What about...  What about...  King?  Why you'd choose?  The reason that I choose him is, in my country, you know, malaria is one of the most dangerous  diseases.  So, you know, it would be better if his work supports the malaria treatments.  Yeah.  Mm-hmm.  In my country.  Okay.  Yeah.  For the first one.  Only first one.  Okay.  Okay.\nRU:\nДругой участник объясняет выбор Alice Ball упоминанием лечения лепры и смерти в двадцать четыре года. Преподаватель напоминает: нужно согласиться на одном. Третий участник выбирает номер восемь, ссылаясь на исследования лечения малярии и её значимость в своей стране. Имя кандидата ASR надёжно не сообщает; его нельзя додумывать по упоминанию Таиланда.\n\n[00:44:06.02–2693.42] Вклад, признание и ограничения рейтинга\nEN:\n Alice Ball created a life-changing treatment for leprosy at such a young age, yet she died  at 24 and others took credit for her work for years.  But I think about the scientists all of the...  This is not using top victory.  This may need to help its world.  Right.  Okay.  I thought...  I heard that...  Okay.  Partner's here.  Yeah.  Partner was confused between number four and number one and such.  What about...  Okay.\nRU:\nСлышно чтение формулировки об Alice Ball: лечение, молодой возраст, преждевременная смерть и чужое признание за её работу. Затем участник пытается сказать, что учёные помогают миру и их вклад трудно свести к победе в рейтинге. Это полезная тема для аргументации, но не точная отредактированная цитата. Группа готовится отчитаться.\n\n[00:44:53.52–2842.84] Отчёт группы и конец первого занятия\nEN:\n So, let's hear from Learner' group.  So, which scientists that you need to...  You want to...  want to give the award to? Okay, for me is number one. I choose Alice Bo.  Why? But okay. So it's number four. Yes, number four. She is created a life-changing  term, but she died 24 years. But for my group, choose another person.  Which? Which? Which? Choose number eight. Number eight? Yes. Okay, why? It's interesting.  Young youth. I think about she is happy. This is a person who lives in Thailand. It's...  Okay. Maybe choose about this greeting for country. It's...  Okay. Okay. Thank you. Partner, what about your group and Partner?  Yeah. And Partner. Yes, I did. So I... I think it's some different opinions. So in my opinion, I will choose number eight.  Okay. Same as Learner, yeah? Yeah. Yeah. So why... So why is that? Because I looked in the statement. They say, oh, they say,  \"I say, I say, there's not much material drugs and resistance to help drugs and defy drugs candidate 3218.\" So that means, is you...  Okay. This person to make some more than medicine to help some of the people. Okay. Okay. So that's cool. I think, uh, thank you so much, everyone. So that's the end of our lesson today. Hopefully that you enjoy it and you will...  Thank you, Teacher. Thank you so much. Thank you. Thank you. Thank you. Thank you, Teacher.  I will see you again. See you next time. See you next time.  See you next time.\nRU:\nПосле обращения к группе Learner говорит о личном выборе Alice Ball и отличающемся групповом выборе номера восемь. Номера один/четыре в речи колеблются, не объявляем порядок профилей установленным. Другая группа также обсуждает номер восемь и лекарства; фрагмент о кандидате и коде ASR ненадёжен. Преподаватель завершает урок, участники прощаются.\n\n[00:47:22.84–2956.84] Второй преподаватель: знакомство и проверка экрана\nEN:\n Hi guys. How are we doing? Hi, Teacher. How are you? Thank you. I'm good, Partner.  For those who don't know me. Yeah. Good to see you, Partner. For those who don't know me, my name is Teacher, yeah?  So nice to meet you all, Learner. And for Partner, Partner and Partner, could you please turn on your cameras and the audio, yeah?  So I can speak to you. So I know you're here, yeah? Okay.  Yeah. Could you, would you mind turning on your camera, please? And Partner, thank you. Thank you, Partner. Hey there.  Yeah, I will. Okay, good, good. Okay, great. Let me show you my screen.  Mm-hmm. All right. Okay. Can you all see my screen? Yes.  Hello, welcome everyone. I might have to do it again, sorry. Okay.  Okay. Is it all good? Can you see everything clearly? Yes. Okay, good. Yes.  Okay. All right. Thank you, Partner, for turning on your camera. Okay, then let's get started, yeah? So here's a little about me, because I know it's our second time meeting, formally meeting for the first time. So my name is Teacher. Okay, I am from Hong Kong, so same as Partner.\nRU:\nНачинается следующая часть записи. Преподаватель представляется, просит включить камеры и звук, проверяет, видно ли экран. В опубликованном ASR личные имена заменены ролями. Следуют краткое знакомство и фотография; нет основания считать время файла началом этого занятия.\n\n[00:49:16.84–3103.84] Фотография из поездки: комментарий или комплимент\nEN:\n Hi. Really? You're from Hong Kong? Yeah, I'm from Hong Kong, yeah. Oh, very nice. I live in China, it's a little bit here. We're very close, yeah, I remember. Near Shenzhen, you said, yeah? No, I live in Guangzhou, but in 30 minutes in train in Hong Kong.  Mm-hmm. Yeah, no, that's very nice. So this is me and this is my mum. And can you guess what place is this? Like where, you know, is it China? I don't know, Thailand, Indonesia?  Thailand. Thailand, yeah. Thailand, yeah. Oh, this boat is very popular in a particular country. Not Thailand, though. I don't know if they...  Vietnam? Vietnam?  Vietnam, yes. Vietnam, yeah. Does anyone know what it's called?  What?  It's called a coconut boat. Coconut boat. Coconut's a very, very popular, yeah, popular in Vietnam. Coconut boat.  Coconut boat. Yeah, it's called a coconut boat. And yeah, so I'm a teacher, I teach English and science, and I enjoy traveling and meeting new people, yeah? So that's a little bit about me.  And so if you were to see this picture, save your friends on Instagram or Facebook, if you were to see this picture, what would you comment? Maybe, what would you comment? Anything, could be anything. Anything nice, I hope.  Yeah, I would say, oh, I have a good journey.  I hope you had, okay. Good. That's a comment. But something about the picture, though. Something about the picture, maybe the background, the boat, my smile. I don't know, the water, the reflection, the light, anything, anything about the picture?  What do you think about the picture? Is it a cool picture? Is it nice, pretty? Anything, it doesn't matter.  It's a great example.  Happened. You together is your mom. It's very nice.  Yeah, yeah. Okay, so that's a nice picture. So that's, yeah, okay, good. Thank you for the comment. So, all right, now let's move on to the next task.\nRU:\nУчастники кратко говорят о Китае и Гонконге, угадывают страну на снимке. Преподаватель называет Vietnam и coconut boat, рассказывает о преподавании английского и естественных наук, путешествиях. Затем спрашивает, что можно написать другу под фото. Пожелание хорошего путешествия принимается как комментарий, но задача уточняется: сказать что-то о самой фотографии — фоне, лодке, улыбке, воде, отражении, свете.\n\n[00:51:43.84–3195.84] Фотоклуб: задача слушания\nEN:\n Okay, so this is Becky and Teza. They are professional photographers. As you can see, they have all the gadgets, cameras. So they're professional photographers and are members of a college photography club. Okay?  So their professor has asked them to capture, to take some photos for the Instagram page for promotion. Okay, so now you're going to listen to an audio. Okay?  You're going to listen to an audio of them comparing their pictures, comparing their work. They're commenting on each other's pictures. Yeah? And maybe they want to pick one for the Instagram page. Yeah? So pick the best one. So let me play the audio for you.  Okay. And what I want you to do is basically, why is this screen sharing? Okay, there. Yeah. So what I want you to do is just listen to the audio. It's very short, about one minute long. Just listen to it carefully. Okay?  Okay. And while... Okay, let me see what's going on. I have to zoom out. Okay. All right. I'm going to play the audio now.\nRU:\nПреподаватель вводит двух фотографов из студенческого клуба: преподаватель колледжа попросил снимки для продвижения через Instagram. Вводное объяснение называет их professional photographers; участники позже спорят об этом, а слайда нет. Цель — послушать короткий разговор, сравнение работ и комментарии к фотографиям; возможный выбор лучшего снимка описан как предположение преподавателя.\n\n[00:53:15.84–3299.84] Первое короткое аудио и вопросы к нему\nEN:\n Okay. Can you all hear it? Yes. Okay, good. Nice daffodils. Gorgeous, aren't they? Can I have a look? Wow, what a great shot. It's all right.  You know just how to get a really good shot. The light is amazing. Thanks. Guess it's not bad. Can I have a look at yours?  It's pretty boring. Don't you want me to? No, I mean, it's not a problem. I just feel it's a pretty ordinary shot. You know, just nothing special compared to yours.  All right. Yeah, that's it. That's it. It was a very short audio. So now what I want you to do is I'm going to send you in breakout rooms.  Together, in groups, I want you to discuss these questions. Okay? Discuss these questions, and they are related to the audio you just heard. Okay?  So now I'm going to discuss the audio. The slide is going to be, it should pop up in your, in the chat in a few seconds.  Okay, you should receive the first slide. And now you should have the second slide. Okay? So together, discuss these questions. I will give you about one, one and a half minute. Okay? About one and a half minute to do this. So let me put you in breakout rooms.\nRU:\nВ аудио звучат даффодилы, What a great shot, замечание об удивительном свете, сдержанное Thanks. Guess it’s not bad и описание собственного снимка как pretty boring, ordinary, nothing special compared to yours. Один хвалит работу другого, но скромно оценивает свою. После прослушивания преподаватель отправляет два слайда и даёт около полутора минут для группового обсуждения.\n\n[00:54:59.84–3525.84] Положительная оценка и скромный ответ\nEN:\n Okay, so let me put the questions. Hello? Hello? Hello? Hello? Hello? Hello? Okay, what about, I think, number question one, are the professional photographers? Yes, exactly.  I think about now, I don't know. There's a professional photographer. There's a university student taking photos of this professor. Professor? Yes. Do you agree? I don't think they're professional photographers. Because they said there are negative things about their photos.  Yes, that's not a professional photographer. He's a student talking photos is a professor. Okay, number two. Did you say positive thing or negative thing about the photos? I think about, say it very positive. Do you agree? I think I heard the negative things.  For me, I think they did both. I'm not so sure. Okay, positive or negative. What is your answer? I heard the negative part. Why? You take photos, it's beautiful, natural. Why is it negative? This positive. Okay, okay.  I can say a bit of both. Yeah, I would say a bit of both. Yeah, a bit of both. A bit of positive, a bit of negative as well. So good catch there. What about question three? Which photo did they say it's better? You can discuss that.  Nothing about yes, it's better. The light is amazing. It's really good.  Hello? Hello. Okay, number 4. Which photo do they think is not as good? Why?  Which photo? Becky feels pretty boring. But original shoot, nothing special compared.  Hello, hello. It's me.  Welcome back. Okay, so Partner and Partner were having a bit of problems with their, with getting, you know, discussing the point.  No, no, no. I think it's C is the technical issue.  It's a network issue. Okay.  Yeah, it's a network issue.  Yeah, that's okay. That's okay. But good, good. You are pretty much on task.  So yes, both they're positive and negative things. We'll look into that very soon now.\nRU:\nГруппа спорит, профессионалы ли персонажи, и путает отрицательное описание собственной работы с комплиментом партнёру. Преподаватель в комнате принимает a bit of both: звучат и положительные, и отрицательные высказывания. Участники вспоминают amazing light и ordinary shot. После возвращения уточняют, что проблемы были техническими, и преподаватель сообщает, что группа в целом выполняет задание.\n\n[00:58:45.84–3611.92] Второе короткое аудио: заполнить пропуски\nEN:\n So let's go to the next slide. Okay, so here's, here's what I want to want you to do. Okay, I'm going to play the audio again.  I know it was a bit fast. So listen to it again. And this time I want you to put your fill in the blanks.  Okay, fill in the blanks with what you hear and put your answers in the chat. Okay, so you can write number one, type one and the answer. Okay, so it may be one word answer or maybe two word answer. Okay, one or two word answer.  Yeah, so I'm going to send. I'm going to have you do it on your own. Okay, individually. I'm going to play the audio now.  Can you hear?  Hi, Jeff Dills.  Yes, yes.  Can I have a look?  Wow, what a great shot.  It's all right.  You know just how to get a really good shot. The light is amazing.  Thanks.  It's amazing.  This is not bad.  Can I have a look at yours?  it's pretty boring don't you want me to um no i mean it's not a problem  i just feel it's a pretty ordinary shot you know just nothing special compared to yours\nRU:\nНужно слушать ещё раз самостоятельно, вписать одно или два слова в пропуски и отправить пронумерованные ответы в чат. Повторяется короткий разговор с amazing light, thanks, not bad, pretty boring и ordinary shot. Начало ASR Hi, Jeff Dills не заучивается: предыдущий проход распознал daffodils. Полного листа с пропусками нет.\n\n[01:00:14.88–3773.60] Проверка пропусков и неполных ответов\nEN:\n okay um okay because we don't have too much time so let's compare the answers  together so can you can everyone send the answers in the chat number one amazing  number one amazing uh sure you can put all your answers in chat so one amazing two abc three abc  so write down uh you know type the whole list if you can so send whatever you have for now yeah  send whatever you have for now and then we can compare okay yeah so Partner Partner Partner let's get on it  okay good uh Partner could you send everything else  uh maybe Learner could you send the rest of your list if you have typed in already one moment i  yeah yeah yeah it's okay  i know the audio is pretty short okay the number number two  number two  number three pretty pretty pretty  pretty pretty  okay so we have amazing as number one i guess thanks i guess it's not that bad good okay how about we  compare three four and uh just discuss three four and five the answers okay it's pretty boring good good Learner  and just feel number four or not i see this is no problem just feel it's pretty ordinary true and uh  she's nothing just nothing here is okay  good good okay now let's take a look at the answers together because i want you to compare with what you have  yeah the light is amazing good thanks guess it's not bad it's pretty boring  no i mean it's not a problem i just feel so good Learner i think you got pretty much all correct  well what about Partner Partner in Partner did you have are the answers same or you missed a few  this is this is standard this is standard uh dialogue that is usually every time i just feel  yes yeah no just nothing special yeah yeah good good good Learner okay um so if you could not finish  that's okay you can just compare your answers um now let's move on to the next task yeah okay so now\nRU:\nПреподаватель просит отправить сразу весь доступный список, даже если он неполный, затем сравнивает ответы. Обсуждаются amazing, guess/not bad, pretty boring, I just feel, nothing special. Learner получает положительную обратную связь о почти всех ответах. Номера и точная разметка отсутствующего задания не выдаются за восстановленные. Не успевшим предлагается сравнить свои ответы с показанными.\n\n[01:02:53.60–3859.12] Что делает комплимент приятным\nEN:\n we're going to look at so here are the compliments here are the compliments and the responses that that  you heard uh in in the audio okay so let me zoom in a little bit okay so here are four sets of responses and  compliments okay now in groups together i want you to discuss okay together these questions so look  at the compliments are they used for a positive or negative message so that's a question okay so  together uh discuss whether uh you know they are positive or negative and and the rest of the questions  okay i'll send the the slides in the chat and i'm gonna send you to the breakout rooms  and then we can and then you can share your answers with me later okay so let's do that  okay so the answer the the slides are in in the chat ready for you  okay so make sure to use both the slides i will give you about two minutes to do this okay two minutes  okay okay and then we'll discuss the answers together breakboard rooms and okay\nRU:\nНа слайдах четыре комплекта комплиментов и ответов. В группах нужно определить, передают ли комплименты положительный или отрицательный смысл, и обсудить остальные вопросы по двум слайдам. Преподаватель отправляет материалы, проверяет наличие и даёт две минуты, затем обещает общую проверку.\n\n[01:04:25.28–4056.72] В комнате: мнение, приятное чувство и благодарность\nEN:\n hello it's me hello  okay what about thing  uh so  so  hello hello hello  hello  hello  so now i will share my screen with you can you see it yes yeah  hello so look at the the complements are they used wallop i think about number one hello  yes yes i can hear you yes i can hear you positive feeling one yes yeah yeah yeah yeah yes  number are they are uh weak opinions opinions opinions yes i agree  number three yes uh the listening will feel um  they will yes listen if you uh you feel lazy  placed  placed number four  i think about natural are neutral and uh two are grateful grateful grateful grateful grateful okay number five  no they don't make you feel excited  yes i agree number six  do you think a person no isn't the  sophist with um pictures  not completely yes it's first to natural responses  okay  okay  are we doing okay here Learner Partner yes wait i are ready we're done okay i'm gonna leave i'm gonna close  the rooms thank you Learner thank you  okay\nRU:\nУчастники демонстрируют экран, называют positive feeling, opinions, pleasing, neutral и grateful, отвечают на вопросы. Некоторые слова и номера ASR ненадёжны. Преподаватель заглядывает в комнату, спрашивает о готовности, благодарит и собирается закрыть комнаты. Не превращаем услышанные обрывки в точные ответы отсутствующего листа.\n\n[01:07:36.72–4165.04] Неформальная беседа между участниками\nEN:\n no no i'm from russia but i live in china and uh i was been in uh in 158 countries and uh i hear state is eight  uh and i'm in the um in europe and uh i'm in italy um i saw i speak um italy and um um  russu and ukraine i want to speak fluentemente in english  very nice i am too the speaking in russian and ukraine a little green  fluentemente and uh speaking chinese and little germany  um  and uh what do you do in italy  i leave  in italy only leave for them maybe you have work or hobby  uh  this is my house i live in italy  okay\nRU:\nПока нет преподавателя, участники говорят о странах, месте проживания и языках, затем спрашивают о жизни в Италии. Число посещённых стран и несколько форм сильно искажены; не используем их как проверенные личные сведения. Отдельные грамматические модели I live, I’ve been to, I speak Russian/Chinese и fluently могут помочь практике, но смешанная атрибуция не позволяет записать весь обмен в личные ошибки Learner.\n\n[01:09:37.44–4296.40] После сбоя: комплименты приятны, ответы различаются\nEN:\n uh i'm so sorry guys i i got signed out unfortunately  uh so sorry about that  uh okay so  the good thing is that we were all still on track so i see most of you were able to get to  um get to the answers uh though some of you had some confusion whether or not the response  the compliments were were pleasing enough for the listener well they are pretty pleasing  pleasing isn't it i mean i love the way you caught the light that's nice to hear  yeah that's a lovely picture that's nice to hear yeah so they're all very very pleasing compliments okay  so let's move on to the next task really quick this time i'm going to have so you see responses  uh you know there are different strength they can have we can have different strengths of responses  uh some might be neutral uh and some might be very grateful so if uh so that was one of the questions  if if you remember uh so let's take a look at the first one not my best work if someone says oh that's  a really nice picture and then you say not my best work is that would that be a neutral response or a more grateful response  which what kind of response is that if you say oh not my best work  what do you guys think  Partner  uh neutral yeah it's pretty it's neutral right it's um probably not the best response to give  uh what about uh um it's nothing special it's nothing special is that is that a good risk is that a  grateful response or a neutral response it's also neutral uh what about uh Partner Partner what  about uh uh thanks i'm glad you like it liked it is that a grateful response grateful grateful  yeah good good so good good that you understand this so now uh here are the answers but i'm pretty sure  you know you can you can do these uh so let's move on to the next task now uh in\nRU:\nПреподаватель сообщает, что его выбросило из сессии, и возвращается к задаче. Комплименты I love the way you caught the light и That’s a lovely picture приятны слушателю. Ответы могут быть neutral или grateful: Not my best work и It’s nothing special названы нейтральными/сдержанными, не лучшими для тёплой реакции; Thanks. I’m glad you like it — благодарный. Это прагматика контекста, не запрет на скромность во всех культурах.\n\n[01:11:38.48–4500.04] Сопоставить выражения со значениями\nEN:\n okay let me see how much time we have uh  okay let's do this really quick uh i'm gonna give you one minute to do this individually maybe  let's do it in groups i'll give you one minute to do this together yeah so really quick uh we don't  really have to spend too much time on it uh let's let me open the breakout rooms so match the match the  phrases the compliments to the um to the definition for example one number one is b it says lovely picture  lovely picture and then that that means excellent amazing or beautiful right it can mean any of  these words right and now you've helped me do number two three and four okay so one minute together in  breakout rooms uh and i'm going to open them now  hello hello hello hello hello hello i uh i was see that is answering teacher is  i don't know why the uh you know page uh answer and see um one be lovely beautiful  yes yes two a three d four one uh a one uh b um two second a oh yeah second a good  good talented skilled skilled  uh hello hello hello lovely lovely love rally like  uh uh yes 3d it uh for c  uh for c managed we're able to  can you see the screen right can you see the screen right right  so number one is the there's lovely pictures  is d number one b number two a number three d number four c okay  uh okay welcome back uh let's quickly go through the answers shall we so teacher  sorry uh you was being there in your i see your answer and a little bit yeah  oh sorry uh okay so thank you Learner but it's next time but uh please next time with uh no answer  yeah yeah yeah yeah\nRU:\nДля быстрого задания преподаватель меняет индивидуальную работу на минуту в группе. Lovely picture соотносится с excellent/amazing/beautiful. Участники видят ответы на слайде, обсуждают talented/skilled, really like, managed/were able to. После возвращения Learner замечает, что ответы уже видны; преподаватель просит в следующий раз показать вариант без ответов.\n\n[01:15:00.00–4696.38] Значение и грамматическая форма четырёх комплиментов\nEN:\n Yeah, that's okay. Okay, what's the answer for number two? You're so good at taking photos.  A, sorry, come again? A, Partner. A, good, good. Partner should be A, talented and skilled, yeah?  What about number three? I love the way you caught the light. I think D.  D, good. I love, so D is really like, yeah? I love or I like. And number four should be the last one. Number four should be C, manage or we're able to do it. Good.  Okay, so let's quickly go through the compliments and responses in more detail, yeah? Okay, so what I want you to do now, individually, I want you to match the compliment and the response to the form, okay? To the form.  So, for example, what a great shot. So just a compliment, just a compliment. What a great shot. Can we find the form here? Can we find the form here? So look for number one. Number one, good.  Okay, so I quietly do number two, do B, C, and D, quietly, on your own, okay?  Okay.  Quietly. Okay, good. I'll give you 30, yeah, 30, 40 seconds, yeah?  Okay, finish.  Number three, number three, number three, right? I love the way caught the light. Caught is the, is the, is the what? Caught is the verb, yeah? Verb. And the light is the object, yeah? So it should be three, C, or C, three. Yeah? What about, what about B? Partner, can you help us with B? That's a lovely picture. What form is it? Which one? One, two, three, four. That's a lovely picture. What form does it belong to?  Number two? Number two. Number two. That's a adjective. That's a adjective, yeah? And the picture is a noun. And what about Partner? Can you help us with D? You managed to get it just right?  Number four. Number four. Number four, good. Excellent. So you is a what? You is a, what is you? You is a subject, yeah? Subject, managed to, get it, the verb, and then the phrase, adverbial phrase, just right.\nRU:\nПроверяется good at taking photos = talented/skilled, love = really like, managed = were able to. Затем самостоятельно сопоставляют комплименты с формами: What a great shot; That’s a lovely picture; I love the way you caught the light, где caught — глагол и light — объект; You managed to get it just right, где you — подлежащее, managed to get — глагольная конструкция, just right — обстоятельственное выражение. На самостоятельную часть около тридцати–сорока секунд.\n\n[01:18:16.56–4815.82] Фиксированная рамка и заменяемые слова\nEN:\n Okay, good. So now, let's move on to the next part. Okay, so just before we move on to the next part, I want to just go back and, Partner? Okay. So remember that for the model, for example, what a great shot. Look at this model here. What a great shot. Can you tell me which part?  Is that your background? Okay. Which part of this phrase is fixed? Can anyone tell me? Learner? Hey there, Partner. Which part of this phrase, what a great shot, is fixed? That means we should not change it.  Which part of this phrase, which part of this phrase is fixed? What a. Yeah, exactly, good. What a. Good. And then, so here we can, we can change the adjective, we can change the noun, yeah? Like, what a stunning shot. Instead of saying, what a great shot, we can say, what a stunning shot.  So, yeah. So over here, you'll see the fixed part. Like, that's, that side is the fixed part.  Now, let's quickly take a look over here. So, Partner, for number three, model, I love the way you caught the light. Which part is fixed?  I love the way.  Good. Excellent. I love the way you caught the light. And then you can change the subject, you can change the word, yeah?  Okay. So I'll send you the slide if you need in, in the chat. Okay. I'll send it to you if you need in the chat.  And then now I want to go over something else.  Okay.\nRU:\nПреподаватель возвращается к модели What a great shot: в данном образце фиксировано What a, а great/shot можно менять, например What a stunning shot. В модели That’s a lovely picture выделяет фиксированную начальную часть; в I love the way you caught the light — I love the way, после которой можно менять подлежащее и глагол. Слайды могут быть отправлены в чат. Обобщение на an/множественное число отдельно разъясняется в авторской грамматике.\n\n[01:20:19.06–4898.46] Произношение: комплимент и сдержанный ответ\nEN:\n Okay. So let's go over, like, pronunciation, how we say these phrases. Let's start with the first one, okay? For the first compliment.  Repeat after me.  What a great shot.  What a great shot.  What a great shot.  Good. So remember this one, the words in red.  Here is where the stress comes, okay? So, what a great shot. Say, what a great shot.  What a great shot.  Excellent. Number two, the response.  So, as you remember, words in red.  I guess it's not bad.  Well done, Partner.  Thanks.  I guess it's not bad.  Thanks.  I guess it's not bad.  Can you repeat after me?  Bad.  Subscribe.  Bad.  Is it not bad?  Thanks. I guess it's not bad.  Yes, it's not bad.  Well done.  Next one.  That's a lovely picture.  That's a lovely picture.  That's a lovely picture.  Good.  Response.  Do you think so?  Do you think so?  Do you think so?  Do you think so?  Do you think so?  Well done.  Next one.\nRU:\nПреподаватель просит повторять What a great shot, обращает внимание на ударение по красным словам слайда, затем отрабатывает Thanks. I guess it’s not bad, That’s a lovely picture и Do you think so? ASR Subscribe среди bad — подозрительный артефакт. Красный слайд отсутствует, поэтому не приписываем преподавателю точную разметку всех ударений и не диагностируем произношение ученика по тексту.\n\n[01:21:38.90–4937.72] Caught the light и стык great shot\nEN:\n I love the way you caught the light.  I love the way you caught the light.  I love the way you caught the light.  Good.  And here, just remember, sorry I missed it, but remember that when you say, what a great shot,  you do not say, great shot.  You say, great shot.  So, for the T here, the great, you don't hear the, you don't feel the puff, right?  Great.  You don't say, great shot.  You say, great shot, right?  What a great shot.  Great shot.  What a great shot.  Good, good.  Exactly.  Yeah.  Okay.  And let's move on to this one now.\nRU:\nПосле повторения I love the way you caught the light преподаватель возвращается к great shot: перед shot звук t не произносится с отдельным сильным выбросом воздуха. Разница между показанными вариантами в текстовом ASR исчезает, поэтому одинаковые записи great shot не доказывают произношение. Полезно слитно практиковать фразу, сохраняя естественный ритм.\n\n[01:22:18.26–4979.80] Благодарные ответы и managed to get it just right\nEN:\n Thank you.  I really appreciate it.  Thank you.  I really appreciate it.  Good.  Good.  You managed to get just right.  You managed to get it just right.  You managed to get it just right.  Yeah.  One more time, maybe for this one.  You managed to get just right.  You managed to get it just right.  Good.  Good.  Okay.  And the last one.  Thanks.  I'm glad you like it.  Thanks.  Thanks.  I'm glad you like it.  I like it.  Well done.  Good job.  Okay.\nRU:\nПовторяются Thank you. I really appreciate it; You managed to get it just right; Thanks. I’m glad you like it. Преподаватель просит ещё один повтор, хвалит. В некоторых ASR-версиях пропущено it, в других оно есть: не делаем из этого личную грамматическую ошибку. Здесь завершена отработка форм и звучания четырёх моделей.\n\n[01:23:00.26–5019.62] Финальное сопоставление в группах по четыре\nEN:\n Since time is running short, let's quickly move on to the next part.  Yeah.  Okay.  So here I want you to quickly match the compliments to the responses.  Okay.  So we do this really, really quick.  I will give you two minutes.  I'm going to send you in the breakout rooms in groups of four.  Okay.  The more, the merrier for this task.  So we can finish it quickly.  So two minutes to just quickly go over it.  Okay.  So match the comments with the responses.  Okay.  And then I will help you when you need.  Okay.  So I'm going to open up the breakout rooms now.\nRU:\nВремени мало, поэтому надо быстро сопоставить комплименты с ответами в группе из четырёх человек за две минуты. Преподаватель говорит The more, the merrier и обещает помощь. Это ещё упражнение на выбор ответа, а не зафиксированное свободное обсуждение личных фотографий.\n\n[01:23:52.90–5205.96] Групповая проверка и повторяющийся ASR\nEN:\n Hello.  Hello.  Hello.  Hello.  Hello.  Hello.  What about things?  Hello.  Okay.  Everyone.  I see a screen.  Can you see it?  One E.  Second B.  All right.  All right.  All right.  All right.  Can you see it?  The screen?  Answer one.  E.  Second B.  Three D.  Four A.  five C, six C. Ok, what about you?  Good, well done, you're on track. Number one is E. Very good.  Yeah, one E, two B, three D, four A, five C, six F.  Very good, very good. Keep going.  Okay, done. Excellent, excellent.  Excellent, excellent.  Thank you.  Thank you.  Thank you.  Thank you.  Thank you.  Thank you.  Thank you.  Thank you.  Thank you.  Thank you.  Thank you.  Thank you.\nRU:\nУчастники показывают экран и называют соответствия. Сначала звучит five C, six C, затем преподаватель подтверждает 1E, 2B, 3D, 4A, 5C, 6F и хвалит. Без полного листа эти буквы не составляют самостоятельного учебного упражнения. Далее идут длинные Thank you, вероятно артефакты ASR на фоне ожидания; они сохранены в исходном тексте.\n\n[01:26:45.96–5276.58] Перекрывающийся разговор об устройстве\nEN:\n One moment I need time. Now that I'm using phone, I need maybe ten minutes, I come back, it's my laptop and I'm going to go to the laptop.  Open my camera.  I think the task is on the right side, we need to guess the topic of this lesson.  Oh sorry, Partner.  Thank you.  Thank you.  Thank you.  Thank you.  One moment I need time.  I'm now that I'm using phone.  I need maybe ten minutes, I come back, it's my laptop and open my camera.  And then we need to go to the laptop and open my camera.  I'm using phone.  And then I'm using phone.  I see the task in the right side.  We need to guess the topic of this lesson.  Oh sorry, Partner.  Oh, no.  You can continue.  You can continue.  The topic.  Okay.  Okay.  Uh, four o'clock.\nRU:\nASR передаёт просьбу подождать, переход с телефона на ноутбук, камеру, предположение о теме справа. Эти строки повторяются с почти одинаковым содержанием: возможна галлюцинация/перекрытие чанков, а не новые события. Нет достаточных оснований включать весь фрагмент в персональные ошибки или утверждать, что начинается отдельный новый урок.\n\n[01:27:57.06–5359.90] Последний комплимент и обрыв записи\nEN:\n Oh, that's okay.  Thank you.  Yeah, but we're almost done.  Okay, so, uh...  So, Learner, can you tell me what's the answer for number five?  I love the way you framed the sunset between those two buildings.  What's the best response for this one?  Yeah, and Learner says he needs to leave.  Oh, that's okay.  That's okay.  But I saw you were on...  One moment, I need two minutes, I come back.  One moment, I change my...  Okay.\nRU:\nПреподаватель замечает, что почти закончили, и обращается к Learner с пятым комплиментом: I love the way you framed the sunset between those two buildings. Просит выбрать лучший ответ. Learner просит две минуты и начинает говорить о смене устройства; запись заканчивается посреди взаимодействия, без ответа на комплимент и без подтверждённого завершения второго урока. Последний распознанный сегмент кончается на 5339.08; до 5359.90 нет текста ASR.",
+      "translation": "Русские блоки передают содержание и ограничения распознавания; это не обещание полного дословного перевода ошибочного ASR. Английские блоки точно объединяют все обезличенные сегменты, без удаления повторов."
+    }
+  ]
+}
