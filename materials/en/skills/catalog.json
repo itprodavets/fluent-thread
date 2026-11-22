@@ -162,6 +162,36 @@
             "origin": "учебная адаптация диалога"
           }
         ]
+      },
+      {
+        "school": "IH Bangkok",
+        "title": "Комплимент фотографии и ответ",
+        "prompt": "Ask to see your partner’s photo. Give a specific compliment, then respond gratefully to a compliment on your own work.",
+        "answer": "Could I have a look at your photo? I love the way you caught the light. Thank you, I really appreciate it.",
+        "role": {
+          "line": "Here is my latest photo. I also think your picture looks lovely.",
+          "patterns": [
+            "Could I",
+            "I love the way",
+            "Thank you"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "Could I have a look at your photo?",
+            "meaning": "Можно взглянуть на твою фотографию?",
+            "pattern": "Could I + base verb — вежливое разрешение.",
+            "example": "Could I have a look at your latest picture?",
+            "origin": "учебная адаптация диалога"
+          },
+          {
+            "phrase": "Thank you, I really appreciate it.",
+            "meaning": "Спасибо, мне очень приятно.",
+            "pattern": "Appreciate + object, не обязательное for.",
+            "example": "Thank you, I really appreciate your feedback.",
+            "origin": "фраза из занятия"
+          }
+        ]
       }
     ]
   },
@@ -299,6 +329,36 @@
             "origin": "образец ответа"
           }
         ]
+      },
+      {
+        "school": "Онлайн-разговорный урок (школа уточняется)",
+        "title": "ИИ и конкретная цель изучения языка",
+        "prompt": "Explain one concrete goal for your English and how you will practise for it. Mention how you use AI without treating every answer as correct.",
+        "answer": "I want to create a podcast in English. I’m going to practise answering spontaneously.",
+        "role": {
+          "line": "What would you like to do when you can use English more confidently?",
+          "patterns": [
+            "I want to",
+            "I’m going to",
+            "in English"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "I want to create a podcast in English.",
+            "meaning": "Я хочу создать подкаст на английском.",
+            "pattern": "Want to + base verb; in English для языка.",
+            "example": "I want to host interviews in English.",
+            "origin": "учебная модель по реплике ученика"
+          },
+          {
+            "phrase": "I’m going to practise answering spontaneously.",
+            "meaning": "Я собираюсь тренировать спонтанные ответы.",
+            "pattern": "Be going to + verb; practise + -ing.",
+            "example": "I’m going to practise asking follow-up questions.",
+            "origin": "учебная адаптация диалога"
+          }
+        ]
       }
     ]
   },
@@ -412,6 +472,36 @@
             "pattern": "I’m not arguing for X; I’m asking how… — различить позицию и вопрос.",
             "example": "I’m not arguing for cancellation; I’m asking how we could change the plan.",
             "origin": "диалог"
+          }
+        ]
+      },
+      {
+        "school": "IH Bangkok",
+        "title": "Согласовать научную награду",
+        "prompt": "Your partner prefers a different scientist for an award. Recognise their point, explain your choice and suggest one shared criterion.",
+        "answer": "I see your point, but I would choose a different candidate. Could we agree on one criterion first?",
+        "role": {
+          "line": "I would choose a different scientist. How can we agree on one winner?",
+          "patterns": [
+            "I see your point",
+            "because",
+            "Could we"
+          ]
+        },
+        "phrases": [
+          {
+            "phrase": "I see your point, but I would choose a different candidate.",
+            "meaning": "Понимаю твою мысль, но я бы выбрал другого кандидата.",
+            "pattern": "I see your point, but + contrasting opinion.",
+            "example": "I see your point, but I would give more weight to the impact.",
+            "origin": "учебная адаптация диалога"
+          },
+          {
+            "phrase": "Could we agree on one criterion first?",
+            "meaning": "Можем сначала договориться об одном критерии?",
+            "pattern": "Agree on + noun — согласовать предмет решения.",
+            "example": "Could we agree on the criteria before choosing a winner?",
+            "origin": "учебная адаптация диалога"
           }
         ]
       }

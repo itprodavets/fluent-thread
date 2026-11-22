@@ -9,6 +9,8 @@ import { lessonCues } from '../src/domain/lesson-cues.ts';
 import { emptyStudy, packStudy, unpackStudy } from '../src/domain/profile-sync.ts';
 import { addLessonMistakes, availableLessonMistakes } from '../src/domain/lesson-mistakes.ts';
 const cases = [
+  { id: 'ih-bangkok/scientists-and-photography-compliments', count: 1063, duration: 5359.9, key: 'lesson-2026-11-22-ih-scientists-photos' },
+  { id: 'unconfirmed/adventure-medicine-and-ai', count: 2839, duration: 11190.66, key: 'lesson-2026-11-22-adventure-travel' },
   { id: 'uuca-esol/food-traditions-and-sharing-a-project', count: 2960, duration: 6482.46, key: 'lesson-2026-11-21-uuca-food-project' },
 ];
 const file = (id: string, name: string) => new URL('../materials/en/lessons/' + id + '/' + name, import.meta.url);
@@ -54,12 +56,15 @@ test('new Vibe lessons retain all recognized positions, explicit limitations and
 test('adding new contextual corrections and reimporting a lesson preserve existing learning results and review dates', () => {
   let study = emptyStudy();
   const packet = parseChatPackage(readFileSync(file(cases[0].id, 'lesson.json'), 'utf8'));
-  study = applyChatPackage(study, packet).next;
+  for (const item of cases) study = applyChatPackage(study, parseChatPackage(readFileSync(file(item.id, 'lesson.json'), 'utf8'))).next;
   const word = study.words[0];
   study = assess(study, word.id, 'independent', 1800000000000, 'spoken');
   const result = study.results[word.id];
   const packs = cases.map(item => read(item.id, 'mistake-practice.json'));
+  const expected = packs.reduce((n: number, pack: any) => n + pack.cards.length, 0);
+  assert.equal(availableLessonMistakes(study, packs).length, expected);
   const seeded = addLessonMistakes(study, packs, 1800000000000);
+  assert.equal(Object.keys(seeded.dialogueMistakes ?? {}).length, expected);
   assert.equal(availableLessonMistakes(seeded, packs).length, 0);
   assert.equal(seeded.results[word.id], result);
   assert.equal(addLessonMistakes(seeded, packs, 1800000001000), seeded);

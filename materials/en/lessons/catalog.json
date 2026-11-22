@@ -184,5 +184,21 @@
     "school": "UUCA ESOL",
     "date": "2026-11-21",
     "path": "lessons/uuca-esol/food-traditions-and-sharing-a-project/lesson.json"
+  },
+  {
+    "id": "ih-bangkok/scientists-and-photography-compliments",
+    "language": "en",
+    "topic": "Непризнанные учёные, фотография и комплименты · IH Bangkok",
+    "school": "IH Bangkok",
+    "date": "2026-11-22",
+    "path": "lessons/ih-bangkok/scientists-and-photography-compliments/lesson.json"
+  },
+  {
+    "id": "unconfirmed/adventure-medicine-and-ai",
+    "language": "en",
+    "topic": "Приключения, медицина, ИИ и цели английского · 22 ноября",
+    "school": "Онлайн-разговорный урок (школа уточняется)",
+    "date": "2026-11-22",
+    "path": "lessons/unconfirmed/adventure-medicine-and-ai/lesson.json"
   }
 ]

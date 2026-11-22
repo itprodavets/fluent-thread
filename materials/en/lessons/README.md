@@ -6,6 +6,8 @@
 
 | Школа | Тема | Дата записи | Материалы |
 | --- | --- | --- | --- |
+| Онлайн-разговорный урок (школа уточняется) | [Приключения, медицина, ИИ и цели английского · 22 ноября](unconfirmed/adventure-medicine-and-ai/) | 2026-11-22 | [Читать](unconfirmed/adventure-medicine-and-ai/README.md) · [JSON](unconfirmed/adventure-medicine-and-ai/lesson.json) |
+| IH Bangkok | [Непризнанные учёные, фотография и комплименты · IH Bangkok](ih-bangkok/scientists-and-photography-compliments/) | 2026-11-22 | [Читать](ih-bangkok/scientists-and-photography-compliments/README.md) · [JSON](ih-bangkok/scientists-and-photography-compliments/lesson.json) |
 | UUCA ESOL | [Праздничный стол, кухни мира и рассказ о своём проекте · UUCA ESOL](uuca-esol/food-traditions-and-sharing-a-project/) | 2026-11-21 | [Читать](uuca-esol/food-traditions-and-sharing-a-project/README.md) · [JSON](uuca-esol/food-traditions-and-sharing-a-project/lesson.json) |
 | IH Bangkok | [День без технологий, свадебные решения и план праздника · IH Bangkok](ih-bangkok/technology-breaks-and-celebration-plans/) | 2026-11-21 | [Читать](ih-bangkok/technology-breaks-and-celebration-plans/README.md) · [JSON](ih-bangkok/technology-breaks-and-celebration-plans/lesson.json) |
 | ACE TEFL | [Отчёт о дебатах и город солнечных зеркал · ACE TEFL · 21 ноября](ace-tefl/reports-and-mirror-town/) | 2026-11-21 | [Читать](ace-tefl/reports-and-mirror-town/README.md) · [JSON](ace-tefl/reports-and-mirror-town/lesson.json) |
