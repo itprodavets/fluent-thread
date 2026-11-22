@@ -289,6 +289,18 @@ export function Materials() {
     location.hash === skillPhrasesHash ? 'skills' : 'schools');
   const [browseSkill, setBrowseSkill] = useState(skillId);
   const [lessonQuery, setLessonQuery] = useState('');
+  const routedTopic = routeSelection?.topicId;
+  const routedResource = routeSelection?.resourceId;
+  const routedSkill = routeSelection?.skillId;
+  useEffect(() => {
+    if (!routeActive) return;
+    // Cloud hydration can supply the route target after this screen has mounted.
+    // Primitive dependencies avoid resetting an explicit level on assessment updates.
+    setScene(routedTopic ?? '');
+    setLessonId(routedResource ?? '');
+    setCatalog(routedSkill ? 'skills' : 'schools');
+    if (routedSkill) { setSkill(routedSkill); setBrowseSkill(routedSkill); }
+  }, [routeActive, routedTopic, routedResource, routedSkill]);
   const lessons = useMemo(() => importedLessonsFor(study), [study]);
   const lessonTopics = useMemo(() => active.topics.filter(topic => lessons.some(lesson => lesson.topicId === topic.id)), [active.topics, lessons]);
   const dialoguesByTopic = useMemo(() => new Map(lessonTopics.map(topic => [
@@ -458,6 +470,7 @@ export function Materials() {
               const version = versions?.find(item => item.level === selectedLesson?.level)
                 ?? versions?.find(item => item.level === 'B2') ?? versions?.[0];
               if (version) {
+                setRouteActive(false);
                 setLessonId(version.id);
                 rememberLesson(selectedScene, version.id);
               }
@@ -467,6 +480,7 @@ export function Materials() {
             ? <StarterMaterials scene={selectedScene} chooseScene={chooseTopic} level={starterLevel} chooseLevel={level => {
               const version = starterLessons.find(item => item.sceneId === selectedScene && item.level === level);
               if (version) {
+                setRouteActive(false);
                 setLessonId(version.resource.id);
                 rememberLesson(selectedScene, version.resource.id);
               }
@@ -482,6 +496,7 @@ export function Materials() {
                 {!!selectedLesson.level && <div className="level-tabs" role="group" aria-label="Уровень диалога">
                   {selectedChoice.versions.map(version => <button type="button" key={version.id}
                     aria-pressed={version.id === selectedLesson.id} onClick={() => {
+                      setRouteActive(false);
                       setScene(selectedScene);
                       setLessonId(version.id);
                       rememberLesson(selectedScene, version.id);
@@ -529,7 +544,7 @@ export function Materials() {
           <button type="button" onClick={close}>Закрыть</button>
         </header>
         {panel === 'edit' && <MaterialForm key={revision} resource={editing} done={id => { setOpened(id); setFilter(''); setView('library'); close(); }} />}
-        {panel === 'import' && <ChatExchange key={source?.id ?? 'all'} source={source} setSource={setSource} onImported={(id, hasDialogue) => { setScene(id); setLessonId(''); setFilter(id); setView(hasDialogue ? 'lessons' : 'library'); close(); }} />}
+        {panel === 'import' && <ChatExchange key={source?.id ?? 'all'} source={source} setSource={setSource} onImported={(id, hasDialogue) => { setRouteActive(false); setScene(id); setLessonId(''); setFilter(id); setView(hasDialogue ? 'lessons' : 'library'); close(); }} />}
         {panel === 'archive' && deleting && <>
           <p>«{deleting.title}» переместится в архив. Его можно вернуть из раздела «Архив версий материалов».</p>
           <div className="actions"><button type="button" className="primary" disabled={busy} onClick={() => void remove()}>Переместить в архив</button><button type="button" onClick={close}>Отмена</button></div>

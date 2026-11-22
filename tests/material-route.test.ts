@@ -111,3 +111,24 @@ test('all six optional levels and legacy starter routes retain their exact versi
   }
   assert.equal(resolve(study, '#materials/lesson/introduction').topicId, 'introduction');
 });
+
+test('cold profile hydration recovers the exact resource and skill without changing progress', () => {
+  const loaded = fixture();
+  const study: Study = { ...loaded, topics: [], resources: [], results: {
+    saved: { level: 2, result: 'independent', due: 100, attempts: 3, updated: 90 }
+  } };
+  const route = parseMaterialRoute(materialLessonHref('one', 'one:C1', 'reply'))!;
+  const before = structuredClone(study.results);
+  assert.equal(resolveMaterialRoute(study, route, skills, []).topicId, undefined);
+  study.topics = loaded.topics;
+  const topicOnly = resolveMaterialRoute(study, route, skills, []);
+  assert.equal(topicOnly.topicId, 'one');
+  assert.equal(topicOnly.resourceId, undefined);
+  study.resources = loaded.resources;
+  const hydrated = resolveMaterialRoute(study, route, skills, []);
+  assert.deepEqual(hydrated, { topicId: 'one', resourceId: 'one:C1', skillId: 'reply' });
+  assert.deepEqual(study.results, before);
+  // Assessment state must not change the primitive route-selection dependencies.
+  const assessed = { ...study, results: { ...study.results, later: { ...before.saved, attempts: 4 } } };
+  assert.deepEqual(resolveMaterialRoute(assessed, route, skills, []), hydrated);
+});
