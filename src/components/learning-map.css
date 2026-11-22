@@ -1,0 +1,36 @@
+.learning-map { margin-bottom: 24px; }
+.learning-browser { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; }
+.learning-browser > .fold { grid-column: 1 / -1; }
+.learning-results { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; }
+.learning-results button { width: 100%; height: 100%; text-align: left; white-space: normal; overflow-wrap: anywhere; }
+.learning-map small, .learning-node small { display: block; color: var(--muted); font-size: .73rem; }
+.learning-status { min-height: 1.5em; font-size: .9rem; }
+.learning-canvas { position: relative; min-width: 760px; background: radial-gradient(#c5d3c2 1px, transparent 1px) 0 0 / 22px 22px; }
+.learning-canvas svg { position: absolute; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
+.learning-canvas path { stroke: #76918d; stroke-width: 2; vector-effect: non-scaling-stroke; fill: none; }
+.learning-canvas path.automatic { stroke-dasharray: 6 5; }
+.learning-canvas path.manual { stroke: #345ca0; stroke-width: 3; }
+.learning-node { position: absolute; transform: translate(-50%, -50%); width: 192px; display: flex; filter: drop-shadow(0 3px 6px #173e2010); }
+.learning-node > button:first-child { width: 152px; padding: 8px 10px; border-radius: 12px 0 0 12px; touch-action: none; cursor: grab; background: #fff; }
+.learning-node > button:first-child[aria-pressed=true] { background: #e0eee5; outline: 3px solid #79ab94; }
+.learning-node span { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; font-size: .83rem; }
+.learning-node .learning-handle { width: 40px; padding: 0; border-radius: 0 12px 12px 0; border-left: 0; font-size: 22px; touch-action: none; cursor: crosshair; }
+.learning-school > button { border-color: #aa83ba; }
+.learning-skill > button { border-color: #ba9a57; }
+.learning-dialogue > button { border-color: #739dbc; }
+.learning-lesson > button { border-color: #81ab82; }
+.learning-mobile-list { display: none; }
+.learning-map-detail { border: 1px solid var(--line); border-radius: 13px; background: #fff; padding: 16px; margin-bottom: 20px; overflow-wrap: anywhere; }
+.learning-map-detail h2 { margin-top: 0; }
+.learning-map-detail .actions a { display: inline-block; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; }
+@media (max-width: 600px) {
+  .learning-browser { grid-template-columns: 1fr; }
+  .learning-mobile-list { display: grid; margin-top: 12px; }
+  .learning-mobile-list button { white-space: normal; text-align: left; overflow-wrap: anywhere; }
+  .learning-map .graph-viewport { max-height: 360px; }
+  .learning-map .graph-toolbar .actions { flex-wrap: wrap; }
+}
+
+.map-page-layout { margin-bottom: 24px; }
+.map-selection { padding: 16px; border: 1px solid var(--line); border-radius: 13px; background: #fff; }
+.map-selection h2 { margin-top: 0; }
