@@ -16,17 +16,22 @@ export function learningMapFrame(points: MapPoint[]) {
 }
 
 /** Separate overlapping cards in the presentation only; points remain untouched. */
+export const learningMapHeight = (count: number) => Math.max(500, Math.ceil(count / 3) * 205);
+
 export function learningMapPositions(nodes: { id: string; point: MapPoint }[], height: number) {
   const frame = learningMapFrame(nodes.map(node => node.point));
   const positions = new Map<string, MapPoint>();
   const gapY = 152 / height * 100;
-  const rows = Math.max(1, Math.floor(76 / gapY));
+  const rows = Math.max(1, Math.ceil(nodes.length / 3), Math.floor(76 / gapY));
   const slots = Array.from({ length: rows }, (_, row) => [16, 50, 84].map(x => ({ x, y: 12 + row * (76 / Math.max(1, rows - 1)) }))).flat();
   const collides = (point: MapPoint) => [...positions.values()].some(other => Math.abs(other.x - point.x) < 28 && Math.abs(other.y - point.y) < gapY);
   for (const node of nodes) {
     const point = frame.present(node.point);
     const available = slots.filter(slot => !collides(slot)).sort((a, b) => Math.hypot((a.x - point.x) * 7.6, (a.y - point.y) * height / 100) - Math.hypot((b.x - point.x) * 7.6, (b.y - point.y) * height / 100));
-    positions.set(node.id, collides(point) && available.length ? available[0] : point);
+    // Arbitrary fitted points may block every grid slot. Repack the entire
+    // presentation instead of falling back to a point known to overlap.
+    if (collides(point) && !available.length) return new Map(nodes.map((entry, index) => [entry.id, slots[index]]));
+    positions.set(node.id, collides(point) ? available[0] : point);
   }
   return positions;
 }

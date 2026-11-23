@@ -5,7 +5,7 @@ import type { MapPoint, Study } from '../domain/model';
 import { normalize } from '../domain/model';
 import { connectLearningNodes, disconnectLearningNodes, moveLearningNode } from '../domain/learning-graph';
 import type { LearningGraph, LearningProjection } from '../domain/learning-graph';
-import { learningMapFrame, learningMapPositions, learningNodeLabels } from './learning-map-view';
+import { learningMapFrame, learningMapHeight, learningMapPositions, learningNodeLabels } from './learning-map-view';
 import { Fold } from './common';
 import './learning-map.css';
 import type { MapNodeProgress } from '../domain/learning-map-progress';
@@ -35,7 +35,7 @@ export function LearningCanvas({ graph, projection, progress, selected, onSelect
   useEffect(() => { setZoom(100); viewport.current?.scrollTo(0, 0); }, [selected]);
   const nodes = projection.nodes;
   const frame = useMemo(() => learningMapFrame(nodes.map(node => node.point)), [nodes.map(node => node.id + ':' + node.point.x + ':' + node.point.y).join('|')]);
-  const canvasHeight = Math.max(500, Math.min(2400, nodes.length * 130));
+  const canvasHeight = learningMapHeight(nodes.length);
   const positions = learningMapPositions(nodes, canvasHeight);
   if (preview) {
     const original = graph.nodes.find(node => node.id === preview.id)!;

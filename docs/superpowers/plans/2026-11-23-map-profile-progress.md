@@ -25,3 +25,9 @@ Keep all profile state, manual graph edits and review dates unchanged on navigat
 1. Add src/components/LearningMapProgress.tsx for shared badge, selected-node summaries, per-level status links and due-material actions; consume current workspace and existing practice/material routes.
 2. Modify Map.tsx and LearningCanvas.tsx to compute one summary index per current Study/time, show current profile, badges in graph/search/mobile browse, detail statuses and bounded due list. Keep graph context and manual edit handlers intact. Add scoped CSS with compact, textual, wrapping badges.
 3. Run full tests, build and diff check. Verify desktop/mobile UI and exact due-level destination with disposable guest data, not real user assessments. Independent whole-branch review, address material findings, commit, merge and verify authoritative main build/deploy and live map.
+
+## Execution evidence
+
+Projection tests first failed on the absent module, then passed. The independent final review found a collision fallback returning an already occupied point. A seven-node regression reproduced the overlap before the fix; collision-free fallback packing and canvas capacity checks now pass for up to 100 nodes without changing stored positions. Final local suite: 182/182; production build and diff check pass.
+
+Browser verification used existing disposable guest data and a temporary, isolated in-memory fixture (removed after testing). Confirmed B2 assessment appears on map while C1 remains new; due B2 opens that exact dialogue, due exercise opens the exact exercise in spoken mode; profile B has zero inherited results; mobile cards and per-level links show readable statuses. No real user's assessments were changed.
