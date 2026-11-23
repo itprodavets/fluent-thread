@@ -12,20 +12,23 @@ import type { MapNodeProgress } from '../domain/learning-map-progress';
 import { MapProgressBadge } from './LearningMapProgress';
 import { mapFilterLabels, matchesMapProgress } from '../domain/learning-map-filter';
 import type { MapProgressFilter } from '../domain/learning-map-filter';
+import type { MapView } from '../domain/map-view';
 import { LearningMapResults } from './LearningMapResults';
 
 type Gesture = { id: string; pointerId: number; kind: 'move' | 'connect'; origin: MapPoint; point: MapPoint; clientX: number; clientY: number; moved: boolean };
 const directions: Record<string, MapPoint> = { ArrowLeft: { x: -3, y: 0 }, ArrowRight: { x: 3, y: 0 }, ArrowUp: { x: 0, y: -3 }, ArrowDown: { x: 0, y: 3 } };
 
-export function LearningCanvas({ graph, projection, progress, selected, onSelect, onPageChange, onCreate }: {
+export function LearningCanvas({ graph, projection, progress, view, changeView, remember, selected, onSelect, onPageChange, onCreate }: {
+  view: MapView; changeView: (patch: Partial<MapView>) => void; remember: (patch: Partial<MapView>) => void;
   progress: Map<string, MapNodeProgress>; graph: LearningGraph; projection: LearningProjection; onPageChange: (page: number) => void; selected?: string; onSelect: (id: string) => void; onCreate: (point?: MapPoint) => void;
 }) {
   const { update, study } = useWorkspace();
-  const [query, setQuery] = useState('');
-  const [kind, setKind] = useState('all');
-  const [status, setStatus] = useState<MapProgressFilter>('all');
-  const [browsePage, setBrowsePage] = useState(0);
-  const [zoom, setZoom] = useState(100);
+  const { query, kind, status, browsePage, zoom } = view;
+  const setQuery = (query: string) => changeView({ query });
+  const setKind = (kind: string) => changeView({ kind });
+  const setStatus = (status: MapProgressFilter) => changeView({ status });
+  const setBrowsePage = (browsePage: number) => changeView({ browsePage });
+  const setZoom = (zoom: number) => changeView({ zoom });
   const [start, setStart] = useState<string>();
   const [connecting, setConnecting] = useState(false);
   const [destination, setDestination] = useState('');
@@ -36,7 +39,9 @@ export function LearningCanvas({ graph, projection, progress, selected, onSelect
   const viewport = useRef<HTMLDivElement>(null);
   const drag = useRef<Gesture | undefined>(undefined);
   const suppressClick = useRef(false);
-  useEffect(() => { setZoom(100); viewport.current?.scrollTo(0, 0); }, [selected]);
+  useEffect(() => {
+    if (!view.focusId || view.focusId === selected) viewport.current?.scrollTo(view.canvasX, view.canvasY);
+  }, [selected, projection.page]);
   const nodes = projection.nodes;
   const frame = useMemo(() => learningMapFrame(nodes.map(node => node.point)), [nodes.map(node => node.id + ':' + node.point.x + ':' + node.point.y).join('|')]);
   const canvasHeight = learningMapHeight(nodes.length);
@@ -120,12 +125,12 @@ export function LearningCanvas({ graph, projection, progress, selected, onSelect
     <div className="learning-browser"><label>Найти на всей карте <input type="search" value={query} placeholder="Название школы, урока, сцены или навыка" onChange={event => { setQuery(event.target.value); setBrowsePage(0); }} /></label>
       <label>Показать <select value={kind} onChange={event => { setKind(event.target.value); setBrowsePage(0); }}><option value="all">Все типы</option>{Object.entries(learningNodeLabels).map(([id, label]) => <option key={id} value={id}>{label}</option>)}</select></label>
       <div className="map-progress-filters" role="group" aria-label="Статус материалов">{(Object.keys(mapFilterLabels) as MapProgressFilter[]).map(value => <button type="button" key={value} aria-pressed={status === value} onClick={() => { setStatus(value); setBrowsePage(0); if (value !== 'all' && ['school','skill'].includes(kind)) setKind('all'); }}>{mapFilterLabels[value]} <span>{baseFound.filter(node => matchesMapProgress(progress.get(node.id), value)).length}</span></button>)}</div>
-      {status === 'all' ? <Fold title={`Обзор всей карты · ${found.length}`}>{results}</Fold> : <section className="map-filtered-results" aria-label="Подходящие уроки и диалоги">{results}{found.length > 0 && <p className="sub">Выбери карточку, чтобы посмотреть её связи на карте, или сразу открой практику.</p>}</section>}
+      {status === 'all' ? <details className="fold" open={view.overviewOpen} onToggle={event => changeView({ overviewOpen: event.currentTarget.open })}><summary>{`Обзор всей карты · ${found.length}`}</summary>{results}</details> : <section className="map-filtered-results" aria-label="Подходящие уроки и диалоги">{results}{found.length > 0 && <p className="sub">Выбери карточку, чтобы посмотреть её связи на карте, или сразу открой практику.</p>}</section>}
     </div>
     {query && status === 'all' && <div className="learning-search-matches actions">{found.slice(0, 12).map(node => <button type="button" key={node.id} onClick={() => { onSelect(node.id); }}>{learningNodeLabels[node.type]} · {node.title}<MapProgressBadge progress={progress.get(node.id)} /></button>)}{found.length > 12 && <small>Все {found.length} результатов доступны в обзоре выше.</small>}</div>}
     <p className="learning-status" role="status">{message || `В фокусе ${nodes.length} узлов из ${graph.nodes.length}.`}{connecting && (start ? ` Начало: ${labels.get(start)}. Выбери назначение.` : ' Выбери начало связи.')}</p>
     {projection.pages > 1 && <div className="actions"><button type="button" disabled={projection.page === 0} onClick={() => onPageChange(projection.page - 1)}>Предыдущие связи</button><span>Страница {projection.page + 1} / {projection.pages} · всего {projection.total}</span><button type="button" disabled={projection.page + 1 >= projection.pages} onClick={() => onPageChange(projection.page + 1)}>Следующие связи</button></div>}
-    <div className="graph-viewport" ref={viewport}><div className="learning-canvas" ref={canvas} style={{ width: zoom + '%', height: canvasHeight * zoom / 100 }}
+    <div className="graph-viewport" ref={viewport} role="region" aria-label="Область карты" tabIndex={0} onScroll={event => remember({ canvasX: event.currentTarget.scrollLeft, canvasY: event.currentTarget.scrollTop })}><div className="learning-canvas" ref={canvas} style={{ width: zoom + '%', height: canvasHeight * zoom / 100 }}
       onDoubleClick={event => { if (event.target === event.currentTarget) onCreate(at(event)); }}>
       <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">{projection.edges.map(edge => {
         const a = positions.get(edge.from), b = positions.get(edge.to); if (!a || !b) return null;

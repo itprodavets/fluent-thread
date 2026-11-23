@@ -3,7 +3,7 @@ import { useWorkspace } from '../context';
 import type { MapMaterialProgress, MapNodeProgress } from '../domain/learning-map-progress';
 import { mapMaterialStatusLabels, mapProgressLabel } from '../domain/learning-map-progress';
 import type { LearningGraph, LearningNode } from '../domain/learning-graph';
-import { materialLessonHref } from '../domain/material-route';
+import { materialMapHref } from '../domain/material-route';
 
 export function MapProgressBadge({ progress }: { progress?: MapNodeProgress }) {
   return progress && <small className={'map-progress-badge' + (progress.due ? ' map-progress-due' : progress.independent ? ' map-progress-known' : '')}>{mapProgressLabel(progress)}</small>;
@@ -12,7 +12,7 @@ export function MapProgressBadge({ progress }: { progress?: MapNodeProgress }) {
 export function MapVersionLink({ topicId, version, item, skillId }: {
   topicId: string; version: { id: string; level?: string }; item?: MapMaterialProgress; skillId?: string;
 }) {
-  return <a className="map-version-link" href={materialLessonHref(topicId, version.id, skillId)}>
+  return <a className="map-version-link" href={materialMapHref(topicId, version.id, skillId)}>
     <strong>{version.level ?? 'Без уровня'}</strong>
     <small>{mapMaterialStatusLabels[item?.status ?? 'new']}{item?.due ? ' · Пора повторить' : ''}</small>
   </a>;
@@ -30,8 +30,8 @@ export function MapNodeProgressDetails({ node, graph, progress }: { node: Learni
       {due.length > 0 && <><h3>Пора повторить</h3><ul className="map-due-list">{due.slice(0, limit).map(item => {
         const scene = graph.nodes.find(n => n.type === 'dialogue' && n.topicId === item.resource.topicId && n.versions?.some(v => v.id === item.resource.id));
         return <li key={item.resource.id}>{scene
-          ? <a href={materialLessonHref(scene.topicId!, item.resource.id)}>Повторить · {item.resource.title}</a>
-          : <button type="button" onClick={() => practice(item.resource.id)}>Повторить · {item.resource.title}</button>}</li>;
+          ? <a href={materialMapHref(scene.topicId!, item.resource.id)}>Повторить · {item.resource.title}</a>
+          : <button type="button" data-map-navigation onClick={() => practice(item.resource.id)}>Повторить · {item.resource.title}</button>}</li>;
       })}</ul>{due.length > limit && <button type="button" onClick={() => setLimit(value => value + 12)}>Ещё повторения · {due.length - limit}</button>}</>}
       {due.length === 0 && <p className="sub">Сейчас нет материалов к повторению.</p>}
     </>}

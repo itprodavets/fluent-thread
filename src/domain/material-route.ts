@@ -5,7 +5,7 @@ import type { DatedLesson } from './school-lessons';
 import type { Skill } from './skill-dialogues';
 import { starterLessons, starterScenes } from './starter-materials.ts';
 
-export type MaterialRoute = { topicId: string; resourceId?: string; skillId?: string; malformed?: boolean };
+export type MaterialRoute = { topicId: string; resourceId?: string; skillId?: string; malformed?: boolean; fromMap?: boolean };
 export type MaterialSelection = { topicId?: string; resourceId?: string; skillId?: string; notice?: string };
 
 export function materialLessonHref(topicId: string, resourceId?: string, skillId?: string): string {
@@ -13,6 +13,11 @@ export function materialLessonHref(topicId: string, resourceId?: string, skillId
   if (resourceId) query.set('resource', resourceId);
   if (skillId) query.set('skill', skillId);
   return '#materials/lesson/' + encodeURIComponent(topicId) + (query.size ? '?' + query.toString() : '');
+}
+
+export function materialMapHref(topicId: string, resourceId?: string, skillId?: string) {
+  const href = materialLessonHref(topicId, resourceId, skillId);
+  return href + (href.includes('?') ? '&' : '?') + 'from=map';
 }
 
 export function parseMaterialRoute(hash: string): MaterialRoute | undefined {
@@ -25,7 +30,7 @@ export function parseMaterialRoute(hash: string): MaterialRoute | undefined {
     decodeURIComponent(query.replace(/\+/g, ' '));
     const params = new URLSearchParams(query);
     return { topicId: decodeURIComponent(path), resourceId: params.get('resource') || undefined,
-      skillId: params.get('skill') || undefined };
+      skillId: params.get('skill') || undefined, ...(params.get('from') === 'map' ? { fromMap: true } : {}) };
   } catch {
     // A broken query must not lose an otherwise valid topic boundary.
     try { return { topicId: decodeURIComponent(path), malformed: true }; }

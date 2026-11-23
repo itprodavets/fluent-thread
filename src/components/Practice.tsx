@@ -162,8 +162,8 @@ export function Practice() {
     practice(queue[(index + 1) % queue.length].id);
     reset(value => value + 1);
   }
-  if (item && 'links' in item) return <><Heading title="Практика по теме" detail="Расскажи свою историю или разыграй разговор." /><a className="back-to-today" href="#map">← К карте тем</a><TopicStudio key={item.id} initialTopicId={item.id} /></>;
-  return <><Heading title="Свободная практика" detail="Выбери способ ответа и тренируйся в своём темпе." /><a className="back-to-today" href="#today">← К занятию на сегодня</a>
+  if (item && 'links' in item) return <><Heading title="Практика по теме" detail="Расскажи свою историю или разыграй разговор." /><a className="back-to-today" href="#map">{location.hash === '#practice/map' ? '← Вернуться к списку на карте' : '← К карте тем'}</a><TopicStudio key={item.id} initialTopicId={item.id} /></>;
+  return <><Heading title="Свободная практика" detail="Выбери способ ответа и тренируйся в своём темпе." /><a className="back-to-today" href={location.hash === '#practice/map' ? '#map' : '#today'}>{location.hash === '#practice/map' ? '← Вернуться к списку на карте' : '← К занятию на сегодня'}</a>
     {item ? <>
       <div className="practice-modes" role="group" aria-label="Способ ответа">
         {(Object.keys(modeLabels) as PracticeMode[]).filter(value => value !== 'choice' || options.length > 0)
