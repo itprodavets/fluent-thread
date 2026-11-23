@@ -12,6 +12,7 @@ import './shell.css';
 import './learning.css';
 import './dialogue.css';
 import './story.css';
+import './interface.css';
 
 const Today = lazy(() => import('./components/Today').then(module => ({ default: module.Today })));
 const Practice = lazy(() => import('./components/Practice').then(module => ({ default: module.Practice })));
@@ -67,9 +68,9 @@ function App({ store }: { store: ProfileStore }) {
       return false;
     });
   }, [store]);
-  const practice = (id: string) => { setPractice(id); go('practice'); };
+  const practice = (id: string) => { setPractice(id); if (page === 'map' || hash === '#practice/map') location.hash = 'practice/map'; else go('practice'); };
   const openTopic = (id: string) => { setTopic(id); go('map'); };
-  const openResource = (id: string) => { setResource(id); go('materials'); };
+  const openResource = (id: string) => { setResource(id); if (page === 'map') location.hash = 'materials/map'; else go('materials'); };
 
   return <StudyContext.Provider value={{ study, active, notify, update, go, practice, openTopic, openResource, practiceId, topicId, resourceId }}>
     <AppShell page={page}><Suspense fallback={<p className="sub" role="status">Загружаем…</p>}><Screen key={study.language + ':' + hash} /></Suspense></AppShell>

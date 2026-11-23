@@ -1,5 +1,6 @@
 import { parseMaterialRoute, resolveMaterialRoute } from '../domain/material-route';
 import { MaterialReview } from './MaterialReview';
+import { materialLibraryPage } from '../domain/material-library';
 import { ownedKey } from '../domain/profile-local';
 import { bundledLessons } from '../domain/bundled-lessons';
 import { ReadingShelf } from './ReadingShelf';
@@ -230,6 +231,15 @@ function MaterialText({ resource, full = false }: { resource: Resource; full?: b
   return <><MaterialContent resource={resource} full={full} /><MaterialReview resource={resource} /></>;
 }
 
+function LibraryText({ resource, initiallyOpen }: { resource: Resource; initiallyOpen: boolean }) {
+  const [open, setOpen] = useState(initiallyOpen);
+  useEffect(() => { if (initiallyOpen) setOpen(true); }, [initiallyOpen]);
+  return <details className="fold" open={open} onToggle={event => setOpen(event.currentTarget.open)}>
+    <summary>{resource.kind === 'exercise' ? 'Читать условие' : 'Открыть текст'}</summary>
+    {open && <MaterialContent resource={resource} />}
+  </details>;
+}
+
 function MaterialContent({ resource, full = false }: { resource: Resource; full?: boolean }) {
   const [open, setOpen] = useState(false);
   const cues = lessonCues(resource.text);
@@ -324,9 +334,11 @@ export function Materials() {
     if (location.hash === skillPhrasesHash && !lessonNavigation.current?.open) lessonNavigation.current?.showModal();
   }, []);
   const [filter, setFilter] = useState('');
+  const [libraryPage, setLibraryPage] = useState(0);
   const [deleting, setDeleting] = useState<Resource>();
   const [busy, setBusy] = useState(false);
   const materials = active.resources.filter(resource => !isStarterResource(resource.id));
+  const library = materialLibraryPage(materials, filter, libraryPage, opened);
   const currentTopic = active.topics.find(topic => topic.id === selectedScene);
   const starter = study.language === 'en' && starterScenes.find(item => item.id === selectedScene);
   const starterLevel = starterLessons.find(item => item.sceneId === selectedScene && item.resource.id === lessonId)?.level ?? 'A1';
@@ -408,7 +420,7 @@ export function Materials() {
     try { if (await update(current => archiveMaterial(current, deleting.id))) close(); }
     finally { setBusy(false); }
   }
-  return <><Heading title="Материалы" detail="Тексты, упражнения и записи для разговорной практики." />
+  return <>{(route?.fromMap || location.hash === '#materials/map') && <a className="back-to-today" href="#map">← Вернуться к списку на карте</a>}<Heading title="Материалы" detail="Тексты, упражнения и записи для разговорной практики." />
     <div className="library">
       <nav className="account-sections" aria-label="Разделы материалов">
         <button type="button" aria-pressed={view === 'lessons'} onClick={() => changeView('lessons')}>Занятия</button>
@@ -418,7 +430,7 @@ export function Materials() {
         <button type="button" aria-pressed={view === 'library'} onClick={() => changeView('library')}>Библиотека</button>
         {study.language === 'en' && <button type="button" aria-pressed={view === 'questions'} onClick={() => changeView('questions')}>Вопросы к уроку</button>}
       </nav>
-      {view === 'library' && <MaterialChoices title="Тема библиотеки" selected={filter} choose={setFilter}
+      {view === 'library' && <MaterialChoices title="Тема библиотеки" selected={filter} choose={id => { setFilter(id); setOpened(undefined); setLibraryPage(0); }}
         options={[{ id: '', title: 'Все темы' }, ...active.topics, { id: 'unassigned', title: 'Без темы' }]} />}
       {view === 'lessons' && <div className="lesson-workspace">
         <div className="resource lesson-toolbar">
@@ -558,7 +570,8 @@ export function Materials() {
         </div>)}
       </Fold>}
       <h2>Библиотека</h2>
-      <div className="library-list">{materials.filter(resource => !filter || (resource.topicId ?? 'unassigned') === filter).map(resource => {
+      <p className="sub" role="status">Материалов: {library.total} · Страница {library.page + 1} / {library.pages}</p>
+      <div className="library-list">{library.items.map(resource => {
         const kind = kinds[resource.kind];
         const topic = active.topics.find(entry => entry.id === resource.topicId);
         return <article key={resource.id} className="resource">
@@ -566,10 +579,7 @@ export function Materials() {
           <h2>{resource.title}</h2>
           <SourceLink url={resource.url} />
           <MaterialReview resource={resource} />
-          {resource.text && <Fold title={resource.kind === 'exercise' ? 'Читать условие' : 'Открыть текст'} open={resource.id === opened || undefined}>
-            <MaterialContent resource={resource} />
-
-          </Fold>}
+          {resource.text && <LibraryText resource={resource} initiallyOpen={resource.id === opened} />}
           {resource.story && <><StoryVersions story={resource.story} language={resource.language} /><Fold title="Первая голосовая попытка"><Recording itemId={resource.id} language={resource.language} readOnly /></Fold></>}
           <div className="actions">
             <button className="primary" type="button" onClick={() => practice(resource.id)}>{kind.action}</button>
@@ -582,6 +592,7 @@ export function Materials() {
           </div>
         </article>;
       })}</div>
+      {library.pages > 1 && <div className="actions" aria-label="Страницы библиотеки"><button type="button" disabled={library.page === 0} onClick={() => { setOpened(undefined); setLibraryPage(library.page - 1); }}>Назад</button><span>{library.page + 1} / {library.pages}</span><button type="button" disabled={library.page + 1 >= library.pages} onClick={() => { setOpened(undefined); setLibraryPage(library.page + 1); }}>Дальше</button></div>}
       </>}
     </div>
   </>;

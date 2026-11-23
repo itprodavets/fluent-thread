@@ -1,6 +1,6 @@
 import type { LearningGraph, LearningNode } from './learning-graph';
 import type { MapMaterialProgress, MapNodeProgress } from './learning-map-progress';
-import { materialLessonHref } from './material-route.ts';
+import { materialMapHref } from './material-route.ts';
 
 export type MapProgressFilter = 'all' | 'due' | 'learning' | 'new';
 export const mapFilterLabels: Record<MapProgressFilter, string> = { all: 'Все', due: 'Пора повторить', learning: 'Изучаю', new: 'Новое' };
@@ -22,5 +22,5 @@ export function mapPracticeTarget(node: LearningNode, progress: MapNodeProgress 
     : items.find(item => b2.has(item.resource.id)) ?? items.find(item => item.resource.kind === 'dialogue') ?? items[0];
   if (!item) return undefined;
   const version = versions.find(v => v.id === item.resource.id);
-  return { item, level: version?.level, href: version && node.topicId ? materialLessonHref(node.topicId, item.resource.id) : undefined };
+  return { item, level: version?.level, href: version && node.topicId ? materialMapHref(node.topicId, item.resource.id) : undefined };
 }

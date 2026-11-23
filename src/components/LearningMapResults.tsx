@@ -20,7 +20,7 @@ export function LearningMapResults({ nodes, graph, progress, filter, page, setPa
       return <li key={node.id}>
         <button type="button" className="map-result-select" aria-pressed={node.id === selected} onClick={() => onSelect(node.id)}><small>{learningNodeLabels[node.type]}</small><strong>{node.title}</strong>{node.school && <small>{node.school}</small>}<MapProgressBadge progress={progress.get(node.id)} />{filter !== 'all' && <small>{mapFilterLabels[filter]}: {progress.get(node.id)?.[filter] ?? 0}</small>}</button>
         {target && (target.href ? <a className="map-filter-practice" href={target.href} aria-label={'Практиковать: ' + target.item.resource.title}>{action}</a>
-          : <button type="button" className="map-filter-practice" aria-label={'Практиковать: ' + target.item.resource.title} onClick={() => practice(target.item.resource.id)}>{action}</button>)}
+          : <button type="button" className="map-filter-practice" data-map-navigation aria-label={'Практиковать: ' + target.item.resource.title} onClick={() => practice(target.item.resource.id)}>{action}</button>)}
       </li>;
     })}</ul>
     {!nodes.length && <p>Подходящих уроков и диалогов сейчас нет. Выбери другой статус или измени поиск.</p>}

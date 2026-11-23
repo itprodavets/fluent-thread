@@ -9,7 +9,7 @@ import { Fold, Heading, SourceText, copyText } from './common';
 import { AnkiHistory } from './AnkiHistory';
 import { LearningCanvas } from './LearningCanvas';
 import { buildLearningGraph, projectLearningGraph } from '../domain/learning-graph';
-import { materialLessonHref } from '../domain/material-route';
+import { materialMapHref } from '../domain/material-route';
 import { learningNodeLabels, learningFocusPage } from './learning-map-view';
 import datedLessons from '../../materials/en/lessons/catalog.json';
 import skills from '../../materials/en/skills/catalog.json';
@@ -17,6 +17,7 @@ import { WordExamples } from './WordExamples';
 import { learningMapProgress } from '../domain/learning-map-progress';
 import { MapNodeProgressDetails, MapProgressBadge, MapVersionLink } from './LearningMapProgress';
 import { useIdentity } from '../profiles';
+import { useMapView } from '../hooks/use-map-view';
 
 const positions = [[22, 24], [77, 24], [18, 51], [82, 51], [23, 78], [76, 78]];
 
@@ -151,15 +152,15 @@ export function MapPage() {
     return () => { window.clearInterval(timer); window.removeEventListener('focus', refresh); document.removeEventListener('visibilitychange', refresh); };
   }, []);
   const [selectedId, select] = useState<string>();
-  const [focusId, focus] = useState<string>();
-  const [pagination, setPagination] = useState<{ focusId?: string; page: number }>({ page: 0 });
+  const { view, change: changeView, remember } = useMapView(study.language);
+  const focusId = view.focusId;
+  const focus = (id: string) => changeView({ focusId: id, focusPage: 0, zoom: 100, canvasX: 0, canvasY: 0 });
   const graph = useMemo(() => buildLearningGraph(study, datedLessons, skills), [study]);
   const progress = useMemo(() => learningMapProgress(study, graph, now), [study, graph, now]);
   const focused = graph.nodes.find(node => node.id === focusId) ?? graph.nodes.find(node => node.id === topicId) ?? graph.nodes.find(node => node.type === 'lesson');
-  const focusView = projectLearningGraph(graph, focused?.id, learningFocusPage(pagination, focused?.id));
+  const focusView = projectLearningGraph(graph, focused?.id, learningFocusPage({ focusId: view.focusId, page: view.focusPage }, focused?.id));
   function selectNode(id: string) {
     focus(id);
-    setPagination({ focusId: id, page: 0 });
     const node = graph.nodes.find(entry => entry.id === id);
     if (node?.topicId) openTopic(node.topicId);
   }
@@ -191,13 +192,13 @@ export function MapPage() {
 
   return <><Heading title="Карта разговорных тем" />
     <p className="map-profile-scope">Прогресс: <strong>{user ? study.profileName || user.user_metadata.display_name || user.email : 'Без входа · этот браузер'}</strong> · {study.language}</p>
-    <LearningCanvas key={study.language} graph={graph} progress={progress} projection={focusView} onPageChange={page => setPagination({ focusId: focused?.id, page })} selected={focused?.id} onSelect={selectNode} onCreate={create} />
+    <LearningCanvas key={study.language} graph={graph} progress={progress} projection={focusView} view={view} changeView={changeView} remember={remember} onPageChange={page => changeView({ focusId: focused?.id, focusPage: page, canvasX: 0, canvasY: 0 })} selected={focused?.id} onSelect={selectNode} onCreate={create} />
     {focused && <section className="learning-map-detail" aria-label="Выбранный узел">
       <p className="kicker">{learningNodeLabels[focused.type]}</p><h2 lang={focused.language}>{focused.title}</h2>
       <MapNodeProgressDetails key={focused.id} node={focused} graph={graph} progress={progress.get(focused.id)} />
       {focused.school && focused.type !== 'school' && <p>{focused.school}</p>}
       {focused.type === 'dialogue' && <><p>Доступные версии сцены — выбери уровень для точной практики.</p><div className="actions map-version-grid">{[...(focused.versions ?? [])].sort((a, b) => (a.level ?? '').localeCompare(b.level ?? '')).map(version => <MapVersionLink key={version.id} topicId={focused.topicId!} version={version} item={progress.get(focused.id)?.items.find(item => item.resource.id === version.id)} />)}</div></>}
-      {focused.type === 'lesson' && <div className="actions"><a href={materialLessonHref(focused.topicId ?? focused.id)}>Открыть материалы урока</a><button type="button" onClick={() => practice(focused.topicId ?? focused.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>}
+      {focused.type === 'lesson' && <div className="actions"><a href={materialMapHref(focused.topicId ?? focused.id)}>Открыть материалы урока</a><button type="button" data-map-navigation onClick={() => practice(focused.topicId ?? focused.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>}
       {(focused.type === 'school' || focused.type === 'skill') && <>
         <p>{focused.type === 'school' ? 'Уроки этой школы доступны на карте. Следующие страницы связей находятся над графом.' : 'Связанные сцены из твоих уроков. Следующие страницы связей находятся над графом.'}</p>
         <div className="actions">{focusView.nodes.filter(node => focused.type === 'school' ? node.type === 'lesson' : node.type === 'dialogue').map(node => <div key={node.id}><button type="button" onClick={() => selectNode(node.id)}>{node.title}{node.school ? ' · ' + node.school : ''}<MapProgressBadge progress={progress.get(node.id)} /></button>{focused.type === 'skill' && node.topicId && node.versions?.map(version => <MapVersionLink key={version.id} topicId={node.topicId!} version={version} skillId={focused.skillId} item={progress.get(node.id)?.items.find(item => item.resource.id === version.id)} />)}</div>)}</div>
@@ -214,12 +215,12 @@ export function MapPage() {
           <label className="compact-field">Тема <select value={topic.id} onChange={event => {
             openTopic(event.target.value); focus(event.target.value); select(undefined); setNewPosition(undefined); setEditor(previous => ({ mode: 'new', revision: previous.revision + 1 }));
           }}>{active.topics.map(entry => <option key={entry.id} value={entry.id}>{entry.title}</option>)}</select></label>
-          <div className="actions"><button className="primary" type="button" onClick={() => practice(topic.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>
+          <div className="actions"><button className="primary" type="button" data-map-navigation onClick={() => practice(topic.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>
           {topicMaterials(topic).length > 0 && <Fold title={`Примеры к теме · ${topicMaterials(topic).length}`}>
             {topicMaterials(topic).map(material => <Fold key={material.text} title={material.format}><SourceText text={material.text} language={topic.language} /></Fold>)}
           </Fold>}
           {resources.length > 0 && <Fold title={`Из библиотеки · ${resources.length}`}>
-            <div className="actions">{resources.map(resource => <button key={resource.id} type="button" onClick={() => openResource(resource.id)}>{resource.title}</button>)}</div>
+            <div className="actions">{resources.map(resource => <button key={resource.id} type="button" data-map-navigation onClick={() => openResource(resource.id)}>{resource.title}</button>)}</div>
           </Fold>}
           <Fold title={`Слова темы · ${linked.length}`}>
           <Network title={topic.title} branches={linked} selected={selected?.id} select={select} label="Тема и связанные слова" more="Все слова темы" />

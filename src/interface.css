@@ -1,0 +1,44 @@
+/* Shared layout rhythm. Keep semantic cards/forms intact; do not grid every resource. */
+#screen :where(h1, h2, h3, h4, p, summary, button, .button) { overflow-wrap: anywhere; }
+#screen :where(button, .button) { white-space: normal; line-height: 1.45; }
+#screen .actions { gap: 12px; }
+#screen .actions > * { min-width: 0; max-width: 100%; }
+#screen .actions > span { overflow-wrap: anywhere; }
+/* Legacy appbar nav placement must not reorder in-page tab navigation. */
+#screen nav { grid-row: auto; grid-column: auto; }
+.resource > :where(p, form, .actions, details, label, fieldset, section) + :where(p, form, .actions, details, label, fieldset, section) { margin-top: 14px; }
+.resource > :where(h2, h3) + :where(p, form, .actions, details, label, section) { margin-top: 14px; }
+.resource > :where(form, .actions, p, details) + :where(h2, h3) { margin-top: 24px; }
+.material-dialog > header { gap: 16px; margin-bottom: 20px; align-items: start; }
+.material-dialog > header > h2 { flex: 1 1 180px; min-width: 0; overflow-wrap: anywhere; }
+.material-dialog > header > button { flex: 0 0 auto; margin-left: auto; }
+#screen .section-title { flex-wrap: wrap; gap: 12px; }
+#screen .section-title > :where(div, h2, h3) { min-width: 0; }
+.today-heading, .today-mode-picker, .daily-review-entry, .completion-facts, .hero-meta, .selection-tools, .dialogue-start { flex-wrap: wrap; }
+.today-heading > *, .today-mode-picker > *, .daily-review-entry > span, .hero-meta > span { min-width: 0; }
+.today-mode-picker > div { flex: 1 1 240px; }
+.daily-review-entry { margin-bottom: 18px; }
+.today-mode-picker + a.button { margin-bottom: 22px; }
+.selection-tools { gap: 12px; }
+.dialogue-start { gap: 18px; }
+.dialogue-start > div { flex: 1 1 220px; }
+.dialogue-entry > span { min-width: 0; }
+.progress-board :where(p, strong), .unified-progress-row { overflow-wrap: anywhere; }
+.unified-progress-counts button { align-items: center; }
+.unified-progress-counts button strong { flex-shrink: 0; }
+.unified-progress-row { flex-wrap: wrap; }
+.unified-progress-row > div { flex: 1 1 240px; }
+.unified-progress-row > .button { flex: 0 1 auto; }
+.school-directory :where(h2, h3, p, summary) { overflow-wrap: anywhere; }
+.sidebar { overflow-y: auto; }
+.sidebar > * { flex-shrink: 0; }
+@media (max-width: 760px) {
+  .sidebar { overflow: visible; }
+  .app-body main { padding-bottom: calc(105px + env(safe-area-inset-bottom)); }
+}
+@media (max-width: 600px) {
+  .today-mode-picker > div, .dialogue-start > div, .unified-progress-row > div { flex: 0 1 auto; }
+  #screen .lesson-card .practice-modes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  #screen .lesson-card .practice-modes button { min-height: 44px; }
+  .material-dialog > header { gap: 12px; }
+}
