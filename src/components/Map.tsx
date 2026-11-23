@@ -196,14 +196,14 @@ export function MapPage() {
       <p className="kicker">{learningNodeLabels[focused.type]}</p><h2 lang={focused.language}>{focused.title}</h2>
       <MapNodeProgressDetails key={focused.id} node={focused} graph={graph} progress={progress.get(focused.id)} />
       {focused.school && focused.type !== 'school' && <p>{focused.school}</p>}
-      {focused.type === 'dialogue' && <><p>Доступные версии сцены — выбери уровень для точной практики.</p><div className="actions">{[...(focused.versions ?? [])].sort((a, b) => (a.level ?? '').localeCompare(b.level ?? '')).map(version => <MapVersionLink key={version.id} topicId={focused.topicId!} version={version} item={progress.get(focused.id)?.items.find(item => item.resource.id === version.id)} />)}</div></>}
+      {focused.type === 'dialogue' && <><p>Доступные версии сцены — выбери уровень для точной практики.</p><div className="actions map-version-grid">{[...(focused.versions ?? [])].sort((a, b) => (a.level ?? '').localeCompare(b.level ?? '')).map(version => <MapVersionLink key={version.id} topicId={focused.topicId!} version={version} item={progress.get(focused.id)?.items.find(item => item.resource.id === version.id)} />)}</div></>}
       {focused.type === 'lesson' && <div className="actions"><a href={materialLessonHref(focused.topicId ?? focused.id)}>Открыть материалы урока</a><button type="button" onClick={() => practice(focused.topicId ?? focused.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>}
       {(focused.type === 'school' || focused.type === 'skill') && <>
         <p>{focused.type === 'school' ? 'Уроки этой школы доступны на карте. Следующие страницы связей находятся над графом.' : 'Связанные сцены из твоих уроков. Следующие страницы связей находятся над графом.'}</p>
         <div className="actions">{focusView.nodes.filter(node => focused.type === 'school' ? node.type === 'lesson' : node.type === 'dialogue').map(node => <div key={node.id}><button type="button" onClick={() => selectNode(node.id)}>{node.title}{node.school ? ' · ' + node.school : ''}<MapProgressBadge progress={progress.get(node.id)} /></button>{focused.type === 'skill' && node.topicId && node.versions?.map(version => <MapVersionLink key={version.id} topicId={node.topicId!} version={version} skillId={focused.skillId} item={progress.get(node.id)?.items.find(item => item.resource.id === version.id)} />)}</div>)}</div>
         {focusView.nodes.length <= 1 && <p>Связанных материалов пока нет. Обзор всей карты доступен выше.</p>}
       </>}
-      {focused.type !== 'lesson' && topic && <button type="button" onClick={() => selectNode(topic.id)}>Вернуться к уроку: {topic.title}</button>}
+      {focused.type !== 'lesson' && topic && <button className="map-return" type="button" onClick={() => selectNode(topic.id)}>Вернуться к уроку: {topic.title}</button>}
     </section>}
     <div className="map-layout map-page-layout">
       <section className="map-workspace">

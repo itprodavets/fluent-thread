@@ -10,6 +10,9 @@ import { Fold } from './common';
 import './learning-map.css';
 import type { MapNodeProgress } from '../domain/learning-map-progress';
 import { MapProgressBadge } from './LearningMapProgress';
+import { mapFilterLabels, matchesMapProgress } from '../domain/learning-map-filter';
+import type { MapProgressFilter } from '../domain/learning-map-filter';
+import { LearningMapResults } from './LearningMapResults';
 
 type Gesture = { id: string; pointerId: number; kind: 'move' | 'connect'; origin: MapPoint; point: MapPoint; clientX: number; clientY: number; moved: boolean };
 const directions: Record<string, MapPoint> = { ArrowLeft: { x: -3, y: 0 }, ArrowRight: { x: 3, y: 0 }, ArrowUp: { x: 0, y: -3 }, ArrowDown: { x: 0, y: 3 } };
@@ -20,6 +23,7 @@ export function LearningCanvas({ graph, projection, progress, selected, onSelect
   const { update, study } = useWorkspace();
   const [query, setQuery] = useState('');
   const [kind, setKind] = useState('all');
+  const [status, setStatus] = useState<MapProgressFilter>('all');
   const [browsePage, setBrowsePage] = useState(0);
   const [zoom, setZoom] = useState(100);
   const [start, setStart] = useState<string>();
@@ -45,7 +49,9 @@ export function LearningCanvas({ graph, projection, progress, selected, onSelect
   }
   const labels = new Map(graph.nodes.map(node => [node.id, node.title]));
   const search = normalize(query, study.language);
-  const found = graph.nodes.filter(node => (kind === 'all' || node.type === kind) && (!search || normalize(node.title + ' ' + (node.school ?? ''), study.language).includes(search)));
+  const baseFound = graph.nodes.filter(node => (kind === 'all' || node.type === kind) && (!search || normalize(node.title + ' ' + (node.school ?? ''), study.language).includes(search)));
+  const found = baseFound.filter(node => matchesMapProgress(progress.get(node.id), status));
+  const results = <LearningMapResults nodes={found} graph={graph} progress={progress} filter={status} page={browsePage} setPage={setBrowsePage} selected={selected} onSelect={onSelect} />;
   const destinationSearch = normalize(destination, study.language);
   const destinations = graph.nodes.filter(node => node.id !== start && (!destinationSearch || normalize(node.title + ' ' + (node.school ?? ''), study.language).includes(destinationSearch)));
 
@@ -113,12 +119,10 @@ export function LearningCanvas({ graph, projection, progress, selected, onSelect
     <p className="sub">Пунктир — автоматические связи из материалов; сплошные линии — твои связи. Перетаскивай узлы или двигай стрелками. Для новой связи тяни + или выбери два узла.</p>
     <div className="learning-browser"><label>Найти на всей карте <input type="search" value={query} placeholder="Название школы, урока, сцены или навыка" onChange={event => { setQuery(event.target.value); setBrowsePage(0); }} /></label>
       <label>Показать <select value={kind} onChange={event => { setKind(event.target.value); setBrowsePage(0); }}><option value="all">Все типы</option>{Object.entries(learningNodeLabels).map(([id, label]) => <option key={id} value={id}>{label}</option>)}</select></label>
-      <Fold title={`Обзор всей карты · ${found.length}`}><ul className="learning-results">{found.slice(browsePage * 12, (browsePage + 1) * 12).map(node => <li key={node.id}><button type="button" aria-pressed={node.id === selected} onClick={() => { onSelect(node.id); }}><small>{learningNodeLabels[node.type]}</small> {node.title}{node.school && <small>{node.school}</small>}<MapProgressBadge progress={progress.get(node.id)} /></button></li>)}</ul>
-        {!found.length && <p>Ничего не найдено. Измени поиск.</p>}
-        <div className="actions"><button type="button" disabled={browsePage === 0} onClick={() => setBrowsePage(browsePage - 1)}>Назад</button><span>{browsePage + 1} / {Math.max(1, Math.ceil(found.length / 12))}</span><button type="button" disabled={(browsePage + 1) * 12 >= found.length} onClick={() => setBrowsePage(browsePage + 1)}>Дальше</button></div>
-      </Fold>
+      <div className="map-progress-filters" role="group" aria-label="Статус материалов">{(Object.keys(mapFilterLabels) as MapProgressFilter[]).map(value => <button type="button" key={value} aria-pressed={status === value} onClick={() => { setStatus(value); setBrowsePage(0); if (value !== 'all' && ['school','skill'].includes(kind)) setKind('all'); }}>{mapFilterLabels[value]} <span>{baseFound.filter(node => matchesMapProgress(progress.get(node.id), value)).length}</span></button>)}</div>
+      {status === 'all' ? <Fold title={`Обзор всей карты · ${found.length}`}>{results}</Fold> : <section className="map-filtered-results" aria-label="Подходящие уроки и диалоги">{results}{found.length > 0 && <p className="sub">Выбери карточку, чтобы посмотреть её связи на карте, или сразу открой практику.</p>}</section>}
     </div>
-    {query && <div className="learning-search-matches actions">{found.slice(0, 12).map(node => <button type="button" key={node.id} onClick={() => { onSelect(node.id); }}>{learningNodeLabels[node.type]} · {node.title}<MapProgressBadge progress={progress.get(node.id)} /></button>)}{found.length > 12 && <small>Все {found.length} результатов доступны в обзоре выше.</small>}</div>}
+    {query && status === 'all' && <div className="learning-search-matches actions">{found.slice(0, 12).map(node => <button type="button" key={node.id} onClick={() => { onSelect(node.id); }}>{learningNodeLabels[node.type]} · {node.title}<MapProgressBadge progress={progress.get(node.id)} /></button>)}{found.length > 12 && <small>Все {found.length} результатов доступны в обзоре выше.</small>}</div>}
     <p className="learning-status" role="status">{message || `В фокусе ${nodes.length} узлов из ${graph.nodes.length}.`}{connecting && (start ? ` Начало: ${labels.get(start)}. Выбери назначение.` : ' Выбери начало связи.')}</p>
     {projection.pages > 1 && <div className="actions"><button type="button" disabled={projection.page === 0} onClick={() => onPageChange(projection.page - 1)}>Предыдущие связи</button><span>Страница {projection.page + 1} / {projection.pages} · всего {projection.total}</span><button type="button" disabled={projection.page + 1 >= projection.pages} onClick={() => onPageChange(projection.page + 1)}>Следующие связи</button></div>}
     <div className="graph-viewport" ref={viewport}><div className="learning-canvas" ref={canvas} style={{ width: zoom + '%', height: canvasHeight * zoom / 100 }}
