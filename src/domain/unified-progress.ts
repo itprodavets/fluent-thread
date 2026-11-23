@@ -18,7 +18,7 @@ export type ProgressCategory = {
 };
 
 /** Read only: the latest productive assessment, never a choice-only success. */
-function assessed(result?: PracticeResult): Pick<ProgressRow, 'status' | 'mode' | 'outcome' | 'updated'> {
+export function progressAssessment(result?: PracticeResult): Pick<ProgressRow, 'status' | 'mode' | 'outcome' | 'updated'> {
   if (!result) return { status: 'new' };
   const candidates: { mode: PracticeMode; outcome?: Outcome; updated: number }[] = [];
   const mode=result.mode ?? 'spoken';
@@ -38,7 +38,7 @@ function assessed(result?: PracticeResult): Pick<ProgressRow, 'status' | 'mode' 
 }
 function row(id:string,title:string,results:Study['results'],now:number):ProgressRow {
   const result=results[id];
-  return {id,title,...assessed(result),due:!!result && Number.isFinite(result.due) && result.due<=now,target:'practice'};
+  return {id,title,...progressAssessment(result),due:!!result && Number.isFinite(result.due) && result.due<=now,target:'practice'};
 }
 
 /** Each invocation receives exactly one profile; no cache or cross-profile/global counters. */

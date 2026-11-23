@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { projectLearningGraph } from '../src/domain/learning-graph.ts';
 import type { LearningGraph } from '../src/domain/learning-graph.ts';
 import { materialLessonHref } from '../src/domain/material-route.ts';
-import { learningFocusPage, learningMapFrame, learningMapPositions, learningNodeLabels } from '../src/components/learning-map-view.ts';
+import { learningFocusPage, learningMapFrame, learningMapHeight, learningMapPositions, learningNodeLabels } from '../src/components/learning-map-view.ts';
 
 test('presentation fit round trips global positions in widely separated and narrow focus', () => {
   for (const points of [[{ x: 21, y: 93 }, { x: 79, y: 7 }], [{ x: 55, y: 60 }], [{ x: -10, y: 400 }, { x: 200, y: 500 }]]) {
@@ -38,6 +38,27 @@ test('coincident generated nodes remain individually reachable without changing 
     assert.ok(Math.abs(positions[i].x - positions[j].x) >= 28 || Math.abs(positions[i].y - positions[j].y) >= 112 / 1200 * 100);
   }
   assert.deepEqual(nodes, before);
+});
+
+test('exhausted greedy slots never hide a card behind another', () => {
+  const nodes = [[50,20],[40,30],[20,30],[30,20],[30,40],[40,40],[30,40]].map(([x,y], id) => ({ id: String(id), point: { x,y } }));
+  const before = structuredClone(nodes);
+  const positions = [...learningMapPositions(nodes, 910).values()];
+  for (let i = 0; i < positions.length; i++) for (let j = i + 1; j < positions.length; j++) {
+    assert.ok(Math.abs(positions[i].x - positions[j].x) >= 28 || Math.abs(positions[i].y - positions[j].y) >= 152 / 910 * 100, `cards ${i} and ${j} overlap`);
+  }
+  assert.deepEqual(nodes, before);
+});
+
+test('large manual neighbourhoods retain enough vertical space for every progress card', () => {
+  for (const count of [1, 7, 19, 40, 100]) {
+    const height = learningMapHeight(count);
+    const nodes = Array.from({ length: count }, (_, id) => ({ id: String(id), point: { x: 50, y: 50 } }));
+    const positions = [...learningMapPositions(nodes, height).values()];
+    for (let i = 0; i < positions.length; i++) for (let j = i + 1; j < positions.length; j++) {
+      assert.ok(Math.abs(positions[i].x - positions[j].x) >= 28 || Math.abs(positions[i].y - positions[j].y) * height / 100 >= 152 - 1e-7);
+    }
+  }
 });
 
 test('focus paging resets for a different selection', () => {

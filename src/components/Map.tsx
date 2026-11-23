@@ -1,5 +1,5 @@
 import { ConversationRoutes } from './ConversationRoutes';
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useWorkspace } from '../context';
 import { normalize, topicMaterials, upsert } from '../domain/model';
@@ -14,6 +14,9 @@ import { learningNodeLabels, learningFocusPage } from './learning-map-view';
 import datedLessons from '../../materials/en/lessons/catalog.json';
 import skills from '../../materials/en/skills/catalog.json';
 import { WordExamples } from './WordExamples';
+import { learningMapProgress } from '../domain/learning-map-progress';
+import { MapNodeProgressDetails, MapProgressBadge, MapVersionLink } from './LearningMapProgress';
+import { useIdentity } from '../profiles';
 
 const positions = [[22, 24], [77, 24], [18, 51], [82, 51], [23, 78], [76, 78]];
 
@@ -138,10 +141,20 @@ function StarterMap() {
 
 export function MapPage() {
   const { study, active, topicId, openTopic, openResource, practice } = useWorkspace();
+  const { user } = useIdentity();
+  const [now, setNow] = useState(Date.now);
+  useEffect(() => {
+    const refresh = () => setNow(Date.now());
+    const timer = window.setInterval(refresh, 60_000);
+    window.addEventListener('focus', refresh);
+    document.addEventListener('visibilitychange', refresh);
+    return () => { window.clearInterval(timer); window.removeEventListener('focus', refresh); document.removeEventListener('visibilitychange', refresh); };
+  }, []);
   const [selectedId, select] = useState<string>();
   const [focusId, focus] = useState<string>();
   const [pagination, setPagination] = useState<{ focusId?: string; page: number }>({ page: 0 });
   const graph = useMemo(() => buildLearningGraph(study, datedLessons, skills), [study]);
+  const progress = useMemo(() => learningMapProgress(study, graph, now), [study, graph, now]);
   const focused = graph.nodes.find(node => node.id === focusId) ?? graph.nodes.find(node => node.id === topicId) ?? graph.nodes.find(node => node.type === 'lesson');
   const focusView = projectLearningGraph(graph, focused?.id, learningFocusPage(pagination, focused?.id));
   function selectNode(id: string) {
@@ -177,15 +190,17 @@ export function MapPage() {
   }
 
   return <><Heading title="Карта разговорных тем" />
-    <LearningCanvas key={study.language} graph={graph} projection={focusView} onPageChange={page => setPagination({ focusId: focused?.id, page })} selected={focused?.id} onSelect={selectNode} onCreate={create} />
+    <p className="map-profile-scope">Прогресс: <strong>{user ? study.profileName || user.user_metadata.display_name || user.email : 'Без входа · этот браузер'}</strong> · {study.language}</p>
+    <LearningCanvas key={study.language} graph={graph} progress={progress} projection={focusView} onPageChange={page => setPagination({ focusId: focused?.id, page })} selected={focused?.id} onSelect={selectNode} onCreate={create} />
     {focused && <section className="learning-map-detail" aria-label="Выбранный узел">
       <p className="kicker">{learningNodeLabels[focused.type]}</p><h2 lang={focused.language}>{focused.title}</h2>
+      <MapNodeProgressDetails key={focused.id} node={focused} graph={graph} progress={progress.get(focused.id)} />
       {focused.school && focused.type !== 'school' && <p>{focused.school}</p>}
-      {focused.type === 'dialogue' && <><p>Доступные версии сцены — выбери уровень для точной практики.</p><div className="actions">{[...(focused.versions ?? [])].sort((a, b) => (a.level ?? '').localeCompare(b.level ?? '')).map(version => <a key={version.id} href={materialLessonHref(focused.topicId!, version.id)}>{version.level ?? 'Без уровня'}</a>)}</div></>}
+      {focused.type === 'dialogue' && <><p>Доступные версии сцены — выбери уровень для точной практики.</p><div className="actions">{[...(focused.versions ?? [])].sort((a, b) => (a.level ?? '').localeCompare(b.level ?? '')).map(version => <MapVersionLink key={version.id} topicId={focused.topicId!} version={version} item={progress.get(focused.id)?.items.find(item => item.resource.id === version.id)} />)}</div></>}
       {focused.type === 'lesson' && <div className="actions"><a href={materialLessonHref(focused.topicId ?? focused.id)}>Открыть материалы урока</a><button type="button" onClick={() => practice(focused.topicId ?? focused.id)}>Практиковать тему</button><button type="button" onClick={edit}>Изменить тему</button></div>}
       {(focused.type === 'school' || focused.type === 'skill') && <>
         <p>{focused.type === 'school' ? 'Уроки этой школы доступны на карте. Следующие страницы связей находятся над графом.' : 'Связанные сцены из твоих уроков. Следующие страницы связей находятся над графом.'}</p>
-        <div className="actions">{focusView.nodes.filter(node => focused.type === 'school' ? node.type === 'lesson' : node.type === 'dialogue').map(node => <div key={node.id}><button type="button" onClick={() => selectNode(node.id)}>{node.title}{node.school ? ' · ' + node.school : ''}</button>{focused.type === 'skill' && node.topicId && node.versions?.map(version => <a key={version.id} href={materialLessonHref(node.topicId!, version.id, focused.skillId)}>Практика · {version.level ?? 'Без уровня'}</a>)}</div>)}</div>
+        <div className="actions">{focusView.nodes.filter(node => focused.type === 'school' ? node.type === 'lesson' : node.type === 'dialogue').map(node => <div key={node.id}><button type="button" onClick={() => selectNode(node.id)}>{node.title}{node.school ? ' · ' + node.school : ''}<MapProgressBadge progress={progress.get(node.id)} /></button>{focused.type === 'skill' && node.topicId && node.versions?.map(version => <MapVersionLink key={version.id} topicId={node.topicId!} version={version} skillId={focused.skillId} item={progress.get(node.id)?.items.find(item => item.resource.id === version.id)} />)}</div>)}</div>
         {focusView.nodes.length <= 1 && <p>Связанных материалов пока нет. Обзор всей карты доступен выше.</p>}
       </>}
       {focused.type !== 'lesson' && topic && <button type="button" onClick={() => selectNode(topic.id)}>Вернуться к уроку: {topic.title}</button>}
