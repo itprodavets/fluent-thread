@@ -19,7 +19,7 @@ export function learningMapFrame(points: MapPoint[]) {
 export function learningMapPositions(nodes: { id: string; point: MapPoint }[], height: number) {
   const frame = learningMapFrame(nodes.map(node => node.point));
   const positions = new Map<string, MapPoint>();
-  const gapY = 112 / height * 100;
+  const gapY = 152 / height * 100;
   const rows = Math.max(1, Math.floor(76 / gapY));
   const slots = Array.from({ length: rows }, (_, row) => [16, 50, 84].map(x => ({ x, y: 12 + row * (76 / Math.max(1, rows - 1)) }))).flat();
   const collides = (point: MapPoint) => [...positions.values()].some(other => Math.abs(other.x - point.x) < 28 && Math.abs(other.y - point.y) < gapY);
