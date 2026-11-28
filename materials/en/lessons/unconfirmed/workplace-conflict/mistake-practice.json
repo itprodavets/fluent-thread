@@ -1,0 +1,39 @@
+{
+  "id": "unconfirmed/workplace-conflict",
+  "recordingKey": "lesson-2026-11-28-workplace-conflict",
+  "school": "Онлайн-урок C1 (28 ноября)",
+  "date": "2026-11-28",
+  "notice": "Атрибуция по прямому обращению в записи. Естественные ответы — учебные модели.",
+  "cards": [
+    {
+      "id": "think-claim",
+      "time": "30:00–40:00",
+      "title": "Выскажи мнение: I think + предложение",
+      "original": "I think about this manager makes the situation better.",
+      "corrected": "I think the manager makes the situation better by addressing the root cause.",
+      "reason": "После I think при выражении мнения следует предложение. Think about используется перед темой размышления.",
+      "partner": "Does the manager make the situation better or worse?",
+      "prompt": "Выскажи мнение и назови действие менеджера.",
+      "checklist": [
+        "После I think использую подлежащее и глагол.",
+        "Добавляю причину или способ."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "mitigate-risk-of",
+      "time": "40:00–50:00",
+      "title": "Mitigate the risk of + -ing",
+      "original": "the risk to lose",
+      "corrected": "We need to mitigate the risk of losing customer data.",
+      "reason": "На занятии этот вариант был исходной конструкцией для исправления. После risk используем of + -ing, если называем рискованное событие.",
+      "partner": "How can we reduce the risk that records will be lost?",
+      "prompt": "Предложи меру со словами mitigate the risk of.",
+      "checklist": [
+        "Использую mitigate the risk of.",
+        "После of ставлю существительное или глагол с -ing."
+      ],
+      "kind": "grammar"
+    }
+  ]
+}

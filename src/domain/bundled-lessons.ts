@@ -1,6 +1,9 @@
 import catalog from '../../materials/en/lessons/catalog.json';
 
 const loaders: Record<string, () => Promise<{ default: string }>> = {
+  "stafford-house/visual-illusions-and-adjectives": () => import('../../materials/en/lessons/stafford-house/visual-illusions-and-adjectives/lesson.json?raw'),
+  "stafford-house/night-shifts-and-habits": () => import('../../materials/en/lessons/stafford-house/night-shifts-and-habits/lesson.json?raw'),
+  "unconfirmed/workplace-conflict": () => import('../../materials/en/lessons/unconfirmed/workplace-conflict/lesson.json?raw'),
   "unconfirmed/adventure-medicine-and-ai": () => import('../../materials/en/lessons/unconfirmed/adventure-medicine-and-ai/lesson.json?raw'),
   "ih-bangkok/scientists-and-photography-compliments": () => import('../../materials/en/lessons/ih-bangkok/scientists-and-photography-compliments/lesson.json?raw'),
   "uuca-esol/food-traditions-and-sharing-a-project": () => import('../../materials/en/lessons/uuca-esol/food-traditions-and-sharing-a-project/lesson.json?raw'),

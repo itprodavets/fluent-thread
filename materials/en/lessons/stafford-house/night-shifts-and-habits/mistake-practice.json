@@ -1,0 +1,38 @@
+{
+  "id": "stafford-house/night-shifts-and-habits",
+  "recordingKey": "lesson-2026-11-28-stafford-night-shifts",
+  "school": "Stafford House",
+  "date": "2026-11-28",
+  "notice": "Фрагменты подписанных субтитров Zoom. Неясные фрагменты отдельно не оцениваются.",
+  "cards": [
+    {
+      "id": "need-infinitive",
+      "time": "18:16 SGT",
+      "title": "Совет о режиме сна",
+      "original": "you need going to sleep",
+      "corrected": "You need to go to bed at the same time every day.",
+      "reason": "После need в таком совете нужна форма to + глагол.",
+      "partner": "What would you tell someone who has just started working nights?",
+      "prompt": "Дай совет о времени сна с you need to.",
+      "checklist": [
+        "После need использую to + глагол."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "at-night",
+      "time": "18:16 SGT",
+      "title": "Регулярность: at night или tonight",
+      "original": "But I don’t drink coffee tonight.",
+      "corrected": "I don’t drink coffee at night.",
+      "reason": "В контексте привычки at night обозначает ночь вообще. Tonight — именно сегодня вечером или сегодня ночью.",
+      "partner": "Do you drink coffee when you work at night?",
+      "prompt": "Ответь про регулярную привычку, затем отдельно про сегодняшний вечер.",
+      "checklist": [
+        "Употребляю at night для привычки.",
+        "Использую tonight для конкретного вечера."
+      ],
+      "kind": "grammar"
+    }
+  ]
+}

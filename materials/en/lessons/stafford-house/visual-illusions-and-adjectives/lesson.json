@@ -1,0 +1,197 @@
+{
+  "format": "fluent-thread",
+  "version": 1,
+  "language": "en",
+  "topic": {
+    "title": "Зрительные иллюзии и описание картинок",
+    "source": {
+      "school": "Stafford House",
+      "date": "2026-11-28"
+    },
+    "prompt": "Два связанных блока по слайдам: точные глаголы взгляда и естественный порядок прилагательных. Потренируй пересказ, затем сравни два изображения."
+  },
+  "words": [
+    {
+      "title": "spot a detail",
+      "meaning": "заметить деталь",
+      "example": "I spotted a tiny animal in the corner.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "glance at",
+      "meaning": "быстро взглянуть на",
+      "example": "I glanced at the photo and missed the pattern.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "stare at",
+      "meaning": "пристально смотреть на",
+      "example": "I stared at the picture until I saw the outline.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "gaze at",
+      "meaning": "подолгу смотреть на",
+      "example": "We gazed at the sunset.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "glare at",
+      "meaning": "сердито смотреть на",
+      "example": "She glared at him after he interrupted her.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "observe a change",
+      "meaning": "наблюдать изменение",
+      "example": "We observed a change in the contrast.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "distinguish X from Y",
+      "meaning": "отличать X от Y",
+      "example": "I couldn’t distinguish the cat from the background.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "reflect light",
+      "meaning": "отражать свет",
+      "example": "A dark surface reflects less light.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "a visible improvement",
+      "meaning": "заметное улучшение",
+      "example": "There was a visible improvement in the image.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "make sense of",
+      "meaning": "понять, осмыслить",
+      "example": "The brain tries to make sense of incomplete information.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "focus on a detail",
+      "meaning": "сосредоточиться на детали",
+      "example": "Focus on the shape near the edge.",
+      "vocabularyLevel": "learning"
+    },
+    {
+      "title": "reveal a hidden shape",
+      "meaning": "показать скрытую форму",
+      "example": "The extra light revealed a hidden shape.",
+      "vocabularyLevel": "learning"
+    }
+  ],
+  "materials": [
+    {
+      "kind": "reading",
+      "title": "Как работать",
+      "text": "Два связанных блока по слайдам: точные глаголы взгляда и естественный порядок прилагательных. Потренируй пересказ, затем сравни два изображения."
+    },
+    {
+      "kind": "reading",
+      "title": "Полезные фразы · Карточки",
+      "text": "Фраза 1 · spot a detail\nПеревод: заметить деталь\nКонструкция: spot + прямое дополнение.\nТвой пример для практики: I spotted a tiny animal in the corner.\n\nФраза 2 · glance at\nПеревод: быстро взглянуть на\nКонструкция: glance at a photo / glance through a document.\nТвой пример для практики: I glanced at the photo and missed the pattern.\n\nФраза 3 · stare at\nПеревод: пристально смотреть на\nКонструкция: stare at + объект, часто долго или от удивления.\nТвой пример для практики: I stared at the picture until I saw the outline.\n\nФраза 4 · gaze at\nПеревод: подолгу смотреть на\nКонструкция: gaze at часто подразумевает спокойное созерцание.\nТвой пример для практики: We gazed at the sunset.\n\nФраза 5 · glare at\nПеревод: сердито смотреть на\nКонструкция: glare at + человек.\nТвой пример для практики: She glared at him after he interrupted her.\n\nФраза 6 · observe a change\nПеревод: наблюдать изменение\nКонструкция: observe + прямое дополнение.\nТвой пример для практики: We observed a change in the contrast.\n\nФраза 7 · distinguish X from Y\nПеревод: отличать X от Y\nКонструкция: distinguish between X and Y — ещё один вариант.\nТвой пример для практики: I couldn’t distinguish the cat from the background.\n\nФраза 8 · reflect light\nПеревод: отражать свет\nКонструкция: reflect light; reveal a detail — делать видимым.\nТвой пример для практики: A dark surface reflects less light.\n\nФраза 9 · a visible improvement\nПеревод: заметное улучшение\nКонструкция: visible — прилагательное, vision — существительное.\nТвой пример для практики: There was a visible improvement in the image.\n\nФраза 10 · make sense of\nПеревод: понять, осмыслить\nКонструкция: make sense of + информация.\nТвой пример для практики: The brain tries to make sense of incomplete information.\n\nФраза 11 · focus on a detail\nПеревод: сосредоточиться на детали\nКонструкция: focus on + объект внимания.\nТвой пример для практики: Focus on the shape near the edge.\n\nФраза 12 · reveal a hidden shape\nПеревод: показать скрытую форму\nКонструкция: reveal + прямое дополнение.\nТвой пример для практики: The extra light revealed a hidden shape."
+    },
+    {
+      "kind": "reading",
+      "title": "Чтение · Почему мы видим иллюзии",
+      "text": "At first glance, the animal blends into the background. Colour can make its outline easier to distinguish. Our brains interpret patterns of light using context and prior experience. That interpretation usually helps us recognise things, but it can also make two identical colours look different.",
+      "translation": "На первый взгляд животное сливается с фоном. Цвет может сделать его контур более различимым. Мозг интерпретирует световые узоры с учётом контекста и прежнего опыта. Обычно это помогает распознавать предметы, но иногда два одинаковых цвета начинают казаться разными."
+    },
+    {
+      "kind": "reading",
+      "title": "Грамматика урока · OSASCOMP и запятые",
+      "text": "Типичный порядок: opinion → size → age → shape → colour → origin → material → purpose → noun. Например: a lovely small round wooden table; long black leather boots; a blue cotton shirt. Уточняющие признаки обычно пишутся без запятых. В перечислении равноправных признаков после be, look, seem и feel ставь запятые и and перед последним: The room was spacious, bright and quiet. В учебном примере natural English — mature, например “She is experienced, mature and wise.”"
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · Как объяснить порядок",
+      "text": "20:25, подписанные субтитры ученика. Субтитры искажают отдельные слова. Учебная формулировка исходной мысли: “Pretty is an opinion adjective, so it comes first. Little describes size and comes next.” Цель — связать правило с примером “pretty little wildflowers”."
+    },
+    {
+      "kind": "exercise",
+      "title": "Лексика · Выбери глагол взгляда",
+      "prompt": "Что ты сделаешь: быстро посмотришь на часы; заметишь кого-то в толпе; будешь наблюдать за уроком; посмотришь сердито; будешь долго любоваться видом; не сможешь отвести глаз от иллюзии?",
+      "answer": "glance at the clock; spot somebody in the crowd; observe the lesson; glare at someone; gaze at the view; stare at the illusion."
+    },
+    {
+      "kind": "exercise",
+      "title": "Лексика · Понимание текста",
+      "prompt": "Восстанови слова по значению: способность видеть, показать скрытое, сосредоточиться, отличить, видимый, отражать. Затем выпиши ответ на вопрос: почему цвет помогает заметить животное?",
+      "answer": "vision; reveal; focus on; distinguish; visible; reflect. Colour adds information that can make the animal easier to distinguish from the background."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Расставь признаки",
+      "prompt": "Собери: boat (small, yellow and orange, rubber); crocodile (enormous, grey); wall (concrete, low); boots (leather, long, black); costume (red and green). Затем опиши глаза с bright, orange и threatening.",
+      "answer": "a small yellow-and-orange rubber boat; an enormous grey crocodile; a low concrete wall; long black leather boots; a red-and-green costume; Its eyes are bright orange and very threatening."
+    },
+    {
+      "kind": "exercise",
+      "title": "Грамматика · Расширь описание",
+      "prompt": "Добавь признаки к forest, tree, grass и flowers. В двух предложениях используй порядок перед существительным, в двух — перечисление после linking verb. Дополнительно опиши глаза оленя и свою реакцию.",
+      "answer": "The forest was dark, damp and quiet. I sat under a large old oak tree. The grass felt soft, cool and wet. There were some pretty little wildflowers. I saw a deer with large brown eyes, so I kept perfectly still."
+    },
+    {
+      "kind": "exercise",
+      "title": "Своя речь · Сравни две картинки",
+      "prompt": "Возьми две картинки. Найди два сходства и два различия. Используй spot, observe, distinguish и по одному примеру с прилагательными перед существительным и после linking verb.",
+      "answer": "Both photos show a small round wooden table. I spotted a grey cat in the first photo, whereas the second one shows a dog. The first room looks bright, tidy and welcoming."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Найди скрытую деталь · A1",
+      "text": "Partner: What can you see in the picture?\nLearner: I can see a cat.",
+      "translation": "Партнёр: Что ты видишь на картинке?\nУченик: Я вижу кошку.",
+      "prompt": "Учебная модель. Ответь по-своему, затем добавь встречный вопрос."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Найди скрытую деталь · A2",
+      "text": "Partner: What can you see in the picture?\nLearner: I can see a small black cat by a tree.",
+      "translation": "Партнёр: Что ты видишь на картинке?\nУченик: Я вижу маленькую чёрную кошку у дерева.",
+      "prompt": "Учебная модель. Ответь по-своему, затем добавь встречный вопрос."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Найди скрытую деталь · B1",
+      "text": "Partner: What can you see in the picture?\nLearner: I glanced at it and saw only the trees. Then I spotted the cat.",
+      "translation": "Партнёр: Что ты видишь на картинке?\nУченик: Я быстро посмотрел и увидел только деревья. Потом заметил кошку.",
+      "prompt": "Учебная модель. Ответь по-своему, затем добавь встречный вопрос."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Найди скрытую деталь · B2",
+      "text": "Partner: What can you see in the picture?\nLearner: I couldn’t distinguish the cat from the background until I looked at the colour version.",
+      "translation": "Партнёр: Что ты видишь на картинке?\nУченик: Я не мог отличить кошку от фона, пока не посмотрел цветную версию.",
+      "prompt": "Учебная модель. Ответь по-своему, затем добавь встречный вопрос."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Найди скрытую деталь · C1",
+      "text": "Partner: What can you see in the picture?\nLearner: The animal is barely visible in the original image. Once the colour is restored, its outline stands out against the leaves.",
+      "translation": "Партнёр: Что ты видишь на картинке?\nУченик: В исходном изображении животное едва видно. Когда возвращается цвет, его контур выделяется на фоне листьев.",
+      "prompt": "Учебная модель. Ответь по-своему, затем добавь встречный вопрос."
+    },
+    {
+      "kind": "dialogue",
+      "title": "Найди скрытую деталь · C2",
+      "text": "Partner: What can you see in the picture?\nLearner: My first impression was shaped by the low contrast. The colour version gives me enough context to separate the animal’s outline from the surrounding foliage.",
+      "translation": "Партнёр: Что ты видишь на картинке?\nУченик: Первое впечатление определил низкий контраст. Цветная версия даёт достаточно контекста, чтобы отделить контур животного от окружающей листвы.",
+      "prompt": "Учебная модель. Ответь по-своему, затем добавь встречный вопрос."
+    },
+    {
+      "kind": "reading",
+      "title": "Конспект записи · Иллюзии и описание",
+      "text": "После смены преподавателя группа сравнивает цветное и чёрно-белое изображение, обсуждает, что означает spot, читает текст для общего смысла и сопоставляет лексику с определениями. Далее ученики сравнивают взгляд мимоходом, долгий взгляд, наблюдение и сердитый взгляд. После поисковой картинки и мини-обсуждения начинается порядок прилагательных. Группа разбирает картинки с лодкой и персонажами, тренируется с table, boots и shirt, затем переписывает короткий абзац и сравнивает две сцены. Урок заканчивается обсуждением деталей изображений и обратной связью."
+    },
+    {
+      "kind": "reading",
+      "title": "Разбор записи · Ищу деталь и объясняю признаки",
+      "text": "В ответе на вопрос “What do you see?” по контексту слышно “But I not see”. Если сначала не видишь деталь: “I can’t see it yet.” Если рассказываешь о том, что заметил позже: “At first I couldn’t spot it, but then I saw the outline.”\n\nНа вопрос, можно ли пристально смотреть на людей, ответ звучит как “Because stare means long look”. Естественнее: “Stare means to look at someone for a long time. In some situations, that can seem rude.” Для сравнения: “A glance is brief, whereas a stare is prolonged.”\n\nВ упражнении про крокодила: “an enormous grey crocodile” — артикль an перед гласным звуком и размер перед цветом. Для глаз “Its eyes are bright orange and very threatening.” Bright orange — единый оттенок. Автоматические варианты bridge и turn не дают оснований оценивать произношение.\n\nПример “The forest was dense, dark and mysterious” естественен. В этом предложении признаки перечисляются после was. Порядок OSASCOMP полезнее, когда несколько прилагательных стоят перед существительным."
+    }
+  ]
+}

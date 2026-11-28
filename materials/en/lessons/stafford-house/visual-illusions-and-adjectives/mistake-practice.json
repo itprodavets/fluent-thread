@@ -1,0 +1,39 @@
+{
+  "id": "stafford-house/visual-illusions-and-adjectives",
+  "recordingKey": "lesson-2026-11-28-stafford-visual-illusions",
+  "school": "Stafford House",
+  "date": "2026-11-28",
+  "notice": "Прямые обращения в ASR помогают отнести короткие фрагменты к ученику. Отмечены формы, которые можно переиспользовать.",
+  "cards": [
+    {
+      "id": "cannot-see-yet",
+      "time": "Блок «Can you spot the predator?»",
+      "title": "Отрицание с can",
+      "original": "But I not see.",
+      "corrected": "I can’t see it yet.",
+      "reason": "В ответе о том, что сейчас удаётся увидеть, используй can’t + глагол. Если описываешь прошлую попытку, используй couldn’t.",
+      "partner": "Can you spot any animals in this picture?",
+      "prompt": "Скажи, что пока не видишь животное, затем опиши, как позже его заметил.",
+      "checklist": [
+        "Использую can’t или couldn’t по времени.",
+        "Добавляю it, если предмет уже назван."
+      ],
+      "kind": "grammar"
+    },
+    {
+      "id": "stare-definition",
+      "time": "Блок глаголов взгляда",
+      "title": "Дай определение через means to…",
+      "original": "Stare means long look.",
+      "corrected": "Stare means to look at something for a long time.",
+      "reason": "Глагол удобно объяснить через means to + глагол. В варианте с существительным нужен определитель: a long look.",
+      "partner": "What’s the difference between staring and glancing?",
+      "prompt": "Объясни разницу двумя короткими предложениями.",
+      "checklist": [
+        "Использую look at.",
+        "Различаю долгий и быстрый взгляд."
+      ],
+      "kind": "grammar"
+    }
+  ]
+}

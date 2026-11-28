@@ -200,5 +200,29 @@
     "school": "Онлайн-разговорный урок (школа уточняется)",
     "date": "2026-11-22",
     "path": "lessons/unconfirmed/adventure-medicine-and-ai/lesson.json"
+  },
+  {
+    "id": "unconfirmed/workplace-conflict",
+    "language": "en",
+    "topic": "Рабочие конфликты, жалобы и риски",
+    "school": "Онлайн-урок C1 (28 ноября)",
+    "date": "2026-11-28",
+    "path": "lessons/unconfirmed/workplace-conflict/lesson.json"
+  },
+  {
+    "id": "stafford-house/night-shifts-and-habits",
+    "language": "en",
+    "topic": "Ночные смены и привычки: used to, would и get used to",
+    "school": "Stafford House",
+    "date": "2026-11-28",
+    "path": "lessons/stafford-house/night-shifts-and-habits/lesson.json"
+  },
+  {
+    "id": "stafford-house/visual-illusions-and-adjectives",
+    "language": "en",
+    "topic": "Зрительные иллюзии и описание картинок",
+    "school": "Stafford House",
+    "date": "2026-11-28",
+    "path": "lessons/stafford-house/visual-illusions-and-adjectives/lesson.json"
   }
 ]
