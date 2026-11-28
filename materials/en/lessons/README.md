@@ -6,6 +6,9 @@
 
 | Школа | Тема | Дата записи | Материалы |
 | --- | --- | --- | --- |
+| Stafford House | [Зрительные иллюзии и описание картинок](stafford-house/visual-illusions-and-adjectives/) | 2026-11-28 | [Читать](stafford-house/visual-illusions-and-adjectives/README.md) · [JSON](stafford-house/visual-illusions-and-adjectives/lesson.json) |
+| Stafford House | [Ночные смены и привычки: used to, would и get used to](stafford-house/night-shifts-and-habits/) | 2026-11-28 | [Читать](stafford-house/night-shifts-and-habits/README.md) · [JSON](stafford-house/night-shifts-and-habits/lesson.json) |
+| Онлайн-урок C1 (28 ноября) | [Рабочие конфликты, жалобы и риски](unconfirmed/workplace-conflict/) | 2026-11-28 | [Читать](unconfirmed/workplace-conflict/README.md) · [JSON](unconfirmed/workplace-conflict/lesson.json) |
 | Онлайн-разговорный урок (школа уточняется) | [Приключения, медицина, ИИ и цели английского · 22 ноября](unconfirmed/adventure-medicine-and-ai/) | 2026-11-22 | [Читать](unconfirmed/adventure-medicine-and-ai/README.md) · [JSON](unconfirmed/adventure-medicine-and-ai/lesson.json) |
 | IH Bangkok | [Непризнанные учёные, фотография и комплименты · IH Bangkok](ih-bangkok/scientists-and-photography-compliments/) | 2026-11-22 | [Читать](ih-bangkok/scientists-and-photography-compliments/README.md) · [JSON](ih-bangkok/scientists-and-photography-compliments/lesson.json) |
 | UUCA ESOL | [Праздничный стол, кухни мира и рассказ о своём проекте · UUCA ESOL](uuca-esol/food-traditions-and-sharing-a-project/) | 2026-11-21 | [Читать](uuca-esol/food-traditions-and-sharing-a-project/README.md) · [JSON](uuca-esol/food-traditions-and-sharing-a-project/lesson.json) |
